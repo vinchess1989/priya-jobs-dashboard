@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya's Master Job Board — PLACEHOLDER</title>
+    <meta name="description" content="Personal job tracking dashboard with AI-powered matching and Firebase cloud sync. PLACEHOLDER - update once Priya's target job domain is decided.">
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Add FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-primary: #0a0d16;
+            --bg-secondary: #111524;
+            --bg-card: rgba(17, 21, 37, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent-glow: rgba(99, 102, 241, 0.2);
+            
+            /* Status Colors */
+            --color-yes: #10b981;
+            --color-yes-bg: rgba(16, 185, 129, 0.1);
+            --color-no: #ef4444;
+            --color-no-bg: rgba(239, 68, 68, 0.1);
+            --color-pending: #f59e0b;
+            --color-pending-bg: rgba(245, 158, 11, 0.1);
+            --color-error: #a78bfa;
+            --color-error-bg: rgba(167, 139, 250, 0.1);
+            --color-maybe: #60a5fa;
+            --color-maybe-bg: rgba(96, 165, 250, 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            scrollbar-width: thin;
+            scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.05) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 40%);
+            padding: 2rem;
+        }
+
+        header {
+            width: 100%;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo-icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border-radius: 0.625rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.35rem;
+            box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+        }
+
+        .logo-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #ffffff, #9ca3af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .file-status-indicator {
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1.25rem;
+            border-radius: 2rem;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+        }
+
+        .status-dot {
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background: #ef4444;
+        }
+
+        .status-dot.connected {
+            background: #10b981;
+            box-shadow: 0 0 8px #10b981;
+        }
+
+        /* Drag & Drop Zone */
+        .upload-zone {
+            background: rgba(99, 102, 241, 0.02);
+            border: 2px dashed rgba(99, 102, 241, 0.3);
+            border-radius: 1rem;
+            padding: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: none;
+        }
+
+        .upload-zone:hover {
+            background: rgba(99, 102, 241, 0.04);
+            border-color: #6366f1;
+        }
+
+        .upload-icon {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+            color: #6366f1;
+        }
+
+        .upload-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .upload-desc {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .table-container {
+            width: 100%;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 1.25rem 1.25rem 0 0;
+            padding: 1.5rem;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .table-scroll-area {
+            overflow-x: auto;
+            overflow-y: auto;
+            max-height: calc(100vh - 200px);
+            margin: 0 -1.5rem -1.5rem -1.5rem;
+            padding: 0 1.5rem 1.5rem 1.5rem;
+        }
+
+        .table-info-bar {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1.25rem;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            line-height: 1.5;
+            gap: 1.5rem;
+        }
+
+        .table-info-item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .table-info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.15rem;
+        }
+
+        .table-info-value {
+            font-weight: 600;
+            color: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            text-align: left;
+            font-size: 0.925rem;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            background-color: #121727;
+        }
+
+        th, td {
+            padding: 1rem 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        th {
+            color: #ffffff;
+            font-weight: 700;
+            font-family: 'Space Grotesk', sans-serif;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.2s;
+        }
+
+        th:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        tr:hover td {
+            background-color: rgba(255, 255, 255, 0.015);
+        }
+
+        .filter-row th {
+            background-color: transparent !important;
+            padding: 0.5rem 0.5rem 1rem 0.5rem;
+            cursor: default;
+        }
+
+        .filter-row input[type="text"] {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.8rem;
+            transition: all 0.3s;
+            outline: none;
+        }
+
+        .filter-row input[type="text"]:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 8px var(--accent-glow);
+            background: rgba(0, 0, 0, 0.4);
+        }
+        
+        .resizable-header {
+            resize: horizontal;
+            overflow: auto;
+            min-width: 60px;
+            padding: 1rem 0.75rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        th.resizable-th {
+            padding: 0;
+        }
+
+        .active-filters-summary {
+            font-size: 0.7rem;
+            color: #22d3ee;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-top: 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+        }
+
+        /* Column specific styles */
+        .col-id { width: 50px; min-width: 50px; }
+        .col-job-id { width: 100px; min-width: 100px; }
+        .col-title { width: 280px; min-width: 200px; }
+        .col-company { width: 140px; min-width: 120px; }
+        .col-location { width: 150px; min-width: 120px; }
+        .col-source { width: 100px; min-width: 100px; }
+        .col-posted { width: 100px; min-width: 90px; }
+        .col-deadline { width: 100px; min-width: 90px; }
+        .col-sync { width: 110px; min-width: 100px; }
+        .col-matches { width: 130px; min-width: 120px; }
+        .col-reason { width: 200px; min-width: 150px; }
+        .col-user-reason { width: 200px; min-width: 150px; }
+        .col-applied { width: 100px; min-width: 90px; }
+        .col-user-review { width: 120px; min-width: 110px; }
+        .col-visited { width: 90px; min-width: 80px; text-align: center; }
+
+        /* Badges & Actions */
+        .status-pill {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.25rem 0.65rem;
+            border-radius: 2rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            text-transform: capitalize;
+        }
+
+        select.status-pill option {
+            background-color: #1a1e2e;
+            color: white;
+            font-weight: normal;
+        }
+
+        .status-yes { background: var(--color-yes-bg); color: var(--color-yes); border: 1px solid rgba(16, 185, 129, 0.2); }
+
+        .status-pill.yes {
+            background: var(--color-yes-bg);
+            color: var(--color-yes);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .status-pill.no, .status-pill.Reject {
+            background: rgba(239, 68, 68, 0.15);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        .status-pill.maybe {
+            background: rgba(245, 158, 11, 0.15);
+            color: #fcd34d;
+            border: 1px solid rgba(245, 158, 11, 0.2);
+        }
+
+        .status-pill.pending, .status-pill.unread {
+            background: rgba(99, 102, 241, 0.15);
+            color: #a5b4fc;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .status-pill.error {
+            background: var(--color-error-bg);
+            color: var(--color-error);
+            border: 1px solid rgba(167, 139, 250, 0.2);
+        }
+
+        select.status-pill {
+            appearance: none;
+            cursor: pointer;
+            padding-right: 24px;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 12px;
+            border: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+        
+        select.status-pill:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .status-btn {
+            padding: 0.4rem 0.8rem;
+            border: 1px solid transparent;
+            border-radius: 0.5rem;
+            font-weight: 700;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .status-btn.status-no {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+
+        .status-reject {
+            background-color: var(--color-no-bg);
+            color: var(--color-no);
+            border: 1px solid var(--color-no);
+            box-shadow: 0 0 10px rgba(239, 68, 68, 0.2);
+        }
+
+        .status-btn.status-no:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        .status-btn.status-yes {
+            background: var(--color-yes-bg);
+            border-color: rgba(16, 185, 129, 0.2);
+            color: var(--color-yes);
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.1);
+        }
+
+        .status-btn.status-yes:hover {
+            background: rgba(16, 185, 129, 0.2);
+        }
+
+        .source-tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border-radius: 0.375rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #d1d5db;
+            text-transform: capitalize;
+            display: inline-block;
+        }
+
+        .desc-btn {
+            display: inline-block;
+            padding: 0.3rem 0.6rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 0.375rem;
+            font-weight: 600;
+            font-size: 0.75rem;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .desc-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        #re-review-btn {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: white;
+            border: none;
+            padding: 0.45rem 1rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 0.8rem;
+            transition: opacity 0.2s;
+        }
+        #re-review-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        #re-review-btn:not(:disabled):hover { opacity: 0.85; }
+        #re-review-status { font-size: 0.78rem; }
+
+        .reason-cell {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-style: italic;
+            color: var(--text-secondary);
+            cursor: help;
+        }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            padding: 4rem 2rem;
+            background: rgba(255, 255, 255, 0.01);
+            border-radius: 0.75rem;
+        }
+
+        .spinner-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem;
+        }
+
+        .spinner {
+            width: 2.25rem;
+            height: 2.25rem;
+            border: 3px solid rgba(99, 102, 241, 0.1);
+            border-radius: 50%;
+            border-top-color: #6366f1;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 1024px) {
+            body { padding: 1rem; }
+            .table-container { padding: 1rem; }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 1rem;
+                padding: 1rem !important;
+            }
+            header > div:last-child {
+                width: 100%;
+                justify-content: flex-start;
+            }
+            #auth-container {
+                flex-wrap: wrap;
+            }
+            .table-info-bar {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 1rem !important;
+            }
+            .table-info-item {
+                align-items: flex-start !important;
+                width: 100%;
+            }
+            .table-info-item[style*="flex-direction: row"] {
+                flex-direction: column !important;
+                gap: 0.5rem !important;
+            }
+            .table-info-value {
+                line-height: 1.8;
+                word-break: break-word;
+            }
+        }
+
+        /* Allow zooming out to see full table in mobile landscape */
+        @media (max-width: 950px) and (orientation: landscape) {
+            html, body {
+                min-width: max-content;
+                overflow-x: visible !important;
+            }
+            body {
+                padding: 1rem;
+            }
+            .table-container {
+                overflow: visible !important;
+                width: max-content;
+            }
+            .table-scroll-area {
+                overflow-x: visible !important;
+                overflow-y: visible !important;
+                max-height: none !important;
+            }
+            header {
+                flex-direction: row !important;
+                align-items: center !important;
+            }
+            .table-info-bar {
+                flex-direction: row !important;
+                align-items: center !important;
+            }
+        }
+
+        /* Multi-select Dropdown Styles */
+        .filter-row th {
+            position: relative;
+            overflow: visible;
+        }
+        
+        .llm-filter-bar {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+            padding: 8px 12px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        .llm-pill {
+            padding: 3px 10px;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(255,255,255,0.05);
+            color: var(--text-secondary);
+            font-size: 0.72rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            white-space: nowrap;
+        }
+
+        .llm-pill:hover {
+            border-color: rgba(167,139,250,0.5);
+            color: var(--text-primary);
+        }
+
+        .llm-pill.active {
+            background: rgba(167,139,250,0.2);
+            border-color: #a78bfa;
+            color: #a78bfa;
+            font-weight: 600;
+        }
+
+        .ms-btn {
+            width: 100%;
+            padding: 0.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            color: var(--text-primary);
+            font-size: 0.8rem;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        .ms-btn:hover {
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .ms-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            min-width: 180px;
+            max-height: 250px;
+            overflow-y: auto;
+            background: #1e243b;
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            z-index: 100;
+            display: none;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            padding: 0.5rem 0;
+            text-align: left;
+        }
+
+        .ms-dropdown.open {
+            display: block;
+        }
+
+        .ms-option {
+            display: flex;
+            align-items: center;
+            padding: 0.4rem 0.8rem;
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: var(--text-primary);
+            font-weight: normal;
+            transition: background 0.2s;
+            margin: 0;
+            word-break: break-word;
+        }
+
+        .ms-option:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .ms-option input {
+            margin-right: 0.5rem;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+    </style>
+    <!-- Firebase Compat SDKs -->
+    <script src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
+    <script src="/__/firebase/10.7.1/firebase-auth-compat.js"></script>
+    <script src="/__/firebase/10.7.1/firebase-firestore-compat.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo-area">
+            <div class="logo-icon">P</div>
+            <div class="logo-title">Priya's Master Job Board</div>
+        </div>
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+            <div class="file-status-indicator">
+                <div id="file-status-dot" class="status-dot"></div>
+                <span id="file-status-text">Connecting...</span>
+            </div>
+            <!-- Re-Review Trigger -->
+            <div style="display: flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 2rem; padding: 0.25rem 1rem 0.25rem 0.25rem;">
+                <button id="re-review-btn" onclick="triggerReReview()" title="Re-review all yes/maybe/pending jobs against current requirements">
+                    <i class="fas fa-sync-alt"></i> Re-Review
+                </button>
+                <span id="re-review-status" style="color: var(--text-secondary);"></span>
+            </div>
+            <!-- Auth Container -->
+            <div id="auth-container" style="display: flex; gap: 1rem; align-items: center; background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: 2rem; padding: 0.25rem 0.25rem 0.25rem 1.25rem;">
+                <span id="user-email" style="font-size: 0.875rem; color: var(--text-secondary); display: none;"></span>
+                <button id="login-btn" style="background: #6366f1; color: white; border: none; padding: 0.5rem 1rem; border-radius: 2rem; cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600;">Sign in with Google</button>
+                <button id="logout-btn" style="background: #ef4444; color: white; border: none; padding: 0.5rem 1rem; border-radius: 2rem; cursor: pointer; font-family: 'Space Grotesk', sans-serif; font-weight: 600; display: none;">Sign Out</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Fallback drag & drop container -->
+    <section class="upload-zone" id="upload-zone">
+        <div class="upload-icon">📥</div>
+        <h3 class="upload-title">Drop your jobs.json file here</h3>
+        <p class="upload-desc">Or click to select it. Drag and drop is required if you are viewing this page directly via file://</p>
+        <input type="file" id="file-input" style="display: none;" accept=".json">
+    </section>
+
+    <div class="table-container" id="jobs-container">
+        <div class="spinner-container">
+            <div class="spinner"></div>
+            <div>Loading jobs database...</div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Firebase with explicit config
+        const firebaseConfig = {
+            apiKey: "AIzaSyD7HMh89qKQqR6AK_FmcktJtEe1b350paQ",
+            authDomain: "priya-jobs-dashboard.firebaseapp.com",
+            projectId: "priya-jobs-dashboard",
+            storageBucket: "priya-jobs-dashboard.firebasestorage.app",
+            messagingSenderId: "901811987209",
+            appId: "1:901811987209:web:7778d92af8d792beec29d8",
+            measurementId: "G-5DET11NC31"
+        };
+        firebase.initializeApp(firebaseConfig);
+
+        const auth=firebase.auth();
+        const db=firebase.firestore();
+
+        // SECURITY GATE (for Write Access)
+        const ALLOWED_EMAILS=[ 'munchnambiar@gmail.com' /* TODO: add Priya's real email once known */ ];
+        
+        let currentUser = null;
+        let sharedJobsState = {};
+        let firestoreUnsubscribe = null;
+        let selectedLlmModels = new Set();
+
+        let allJobs = [];
+        let sortAsc = true;
+        let currentPage = 1;
+        const itemsPerPage = 100;
+        let filteredRows = [];
+        let lastSortedCol = -1;
+        let _rowCache = null; // [{el, vals[], postedMs, deadlineMs}] — pre-cached for fast filtering
+        const sessionNoChanges = new Set(); // URLs set to "no" by user this session
+        let showArchivedNo = false;
+
+        const fileStatusDot = document.getElementById('file-status-dot');
+        const fileStatusText = document.getElementById('file-status-text');
+        const uploadZone = document.getElementById('upload-zone');
+        const fileInput = document.getElementById('file-input');
+        const jobsContainer = document.getElementById('jobs-container');
+
+        // Initial Data Fetch on load
+        window.addEventListener('DOMContentLoaded', () => {
+            // Setup Auth Listeners first!
+            const loginBtn = document.getElementById('login-btn');
+            const logoutBtn = document.getElementById('logout-btn');
+            const userEmail = document.getElementById('user-email');
+            const jobsContainer = document.getElementById('jobs-container');
+            
+            auth.onAuthStateChanged(user => {
+                if (user) {
+                    const isAuthorized = ALLOWED_EMAILS.includes(user.email);
+                    currentUser = user;
+                    loginBtn.style.display = 'none';
+                    logoutBtn.style.display = 'block';
+                    userEmail.style.display = 'block';
+                    userEmail.textContent = user.email + (isAuthorized ? "" : " (Read-Only)");
+                    
+                    fetchJobsData();
+                    setupUploadListeners();
+                    
+                    if (firestoreUnsubscribe) firestoreUnsubscribe();
+                    firestoreUnsubscribe = db.collection('shared_state').doc('job_status').onSnapshot(doc => {
+                        if (doc.exists) {
+                            sharedJobsState = doc.data();
+                        } else {
+                            sharedJobsState = {};
+                        }
+                        if (allJobs.length > 0) buildTable();
+                    });
+
+                    // Live status for Re-Review button
+                    let reReviewStaleTimer = null;
+                    db.collection('shared_state').doc('re_review_request').onSnapshot(doc => {
+                        const btn = document.getElementById('re-review-btn');
+                        const statusEl = document.getElementById('re-review-status');
+                        if (!btn || !statusEl) return;
+                        if (reReviewStaleTimer) { clearTimeout(reReviewStaleTimer); reReviewStaleTimer = null; }
+                        if (!doc.exists) {
+                            btn.disabled = false;
+                            statusEl.textContent = '';
+                            return;
+                        }
+                        const s = doc.data().status;
+                        if (s === 'requested') {
+                            btn.disabled = true;
+                            statusEl.style.color = '#f59e0b';
+                            statusEl.textContent = 'Queued…';
+                            reReviewStaleTimer = setTimeout(() => {
+                                btn.disabled = false;
+                                statusEl.style.color = '#ef4444';
+                                statusEl.textContent = 'Timed out — try again';
+                            }, 10 * 60 * 1000);
+                        } else if (s === 'in_progress') {
+                            btn.disabled = true;
+                            statusEl.style.color = '#60a5fa';
+                            statusEl.textContent = 'Reviewing…';
+                            reReviewStaleTimer = setTimeout(() => {
+                                btn.disabled = false;
+                                statusEl.style.color = '#ef4444';
+                                statusEl.textContent = 'Timed out — try again';
+                            }, 30 * 60 * 1000);
+                        } else if (s === 'completed') {
+                            btn.disabled = false;
+                            statusEl.style.color = '#10b981';
+                            statusEl.textContent = 'Done ✓';
+                        } else {
+                            btn.disabled = false;
+                            statusEl.textContent = '';
+                        }
+                    });
+                } else {
+                    currentUser = null;
+                    loginBtn.style.display = 'block';
+                    logoutBtn.style.display = 'none';
+                    userEmail.style.display = 'none';
+                    userEmail.textContent = '';
+                    sharedJobsState = {};
+                    if (firestoreUnsubscribe) {
+                        firestoreUnsubscribe();
+                        firestoreUnsubscribe = null;
+                    }
+                    jobsContainer.innerHTML = '<div class="empty-state">Please Sign in with Google to view the dashboard.</div>';
+                }
+            });
+
+            loginBtn.addEventListener('click', () => {
+                const provider = new firebase.auth.GoogleAuthProvider();
+                auth.signInWithPopup(provider).catch(err => {
+                    console.error(err);
+                    alert("Login Error: " + err.message + "\n\nDid you enable Google Sign-In in the Firebase Console?");
+                });
+            });
+
+            logoutBtn.addEventListener('click', () => {
+                auth.signOut().catch(console.error);
+            });
+        });
+
+        function fetchJobsData() {
+            Promise.all([
+                fetch('https://vinchess1989.github.io/priya-jobs-dashboard/jobs.json?nocache=' + new Date().getTime()),
+                fetch('https://vinchess1989.github.io/priya-jobs-dashboard/deleted.json?nocache=' + new Date().getTime()).catch(() => null)
+            ])
+                .then(responses => {
+                    const lastMod = responses[0].headers.get('Last-Modified');
+                    return Promise.all([
+                        responses[0].json(),
+                        responses[1] && responses[1].ok ? responses[1].json() : Promise.resolve([])
+                    ]).then(([data, deletedData]) => ({ data, deletedData, lastMod }));
+                })
+                .then(({ data, deletedData, lastMod }) => {
+                    window.deletedJobsData = deletedData || [];
+                    onDataLoaded(data, lastMod, 'Server Connection Active');
+                })
+                .catch(err => {
+                    // CORS fallback loading
+                    console.log('Direct XMLHttp/Fetch blocked (likely file:// scheme). Activating drag-and-drop fallback.', err);
+                    fileStatusText.textContent = 'Awaiting file upload';
+                    uploadZone.style.display = 'block';
+                    jobsContainer.innerHTML = `
+                        <div class="empty-state">
+                            <h3>Awaiting jobs.json</h3>
+                            <p>Drag and drop the <strong>jobs.json</strong> file in the designated upload zone above to review your job status.</p>
+                        </div>
+                    `;
+                });
+        }
+
+        function setupUploadListeners() {
+            uploadZone.addEventListener('click', () => fileInput.click());
+            fileInput.addEventListener('change', (e) => {
+                if (e.target.files.length > 0) processUploadedFile(e.target.files[0]);
+            });
+
+            uploadZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadZone.style.background = 'rgba(99, 102, 241, 0.06)';
+            });
+
+            uploadZone.addEventListener('dragleave', () => {
+                uploadZone.style.background = 'rgba(99, 102, 241, 0.02)';
+            });
+
+            uploadZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadZone.style.background = 'rgba(99, 102, 241, 0.02)';
+                if (e.dataTransfer.files.length > 0) processUploadedFile(e.dataTransfer.files[0]);
+            });
+        }
+
+        function processUploadedFile(file) {
+            if (!file.name.endsWith('.json')) {
+                alert('Please upload a valid JSON file (.json extension).');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    onDataLoaded(data, null, `Loaded: ${file.name}`);
+                    uploadZone.style.display = 'none';
+                } catch (err) {
+                    alert('Error parsing the JSON database file. Verify it contains valid JSON.');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function onDataLoaded(jobs, lastMod, statusMsg) {
+            allJobs = jobs;
+            
+            // Set Connection indicators
+            if (lastMod) {
+                const lastModDate = new Date(lastMod);
+                const hoursSinceUpdate = (new Date() - lastModDate) / (1000 * 60 * 60);
+                if (hoursSinceUpdate > 24) {
+                    fileStatusDot.classList.remove('connected');
+                    fileStatusDot.style.background = '#f59e0b';
+                    fileStatusDot.style.boxShadow = '0 0 8px #f59e0b';
+                    fileStatusText.innerHTML = `${statusMsg} <span style="color: #fca5a5; font-size: 0.8rem; margin-left: 5px;" title="Data is older than 24h. Scraper might be down.">⚠️ Stale Data</span>`;
+                } else {
+                    fileStatusDot.classList.add('connected');
+                    fileStatusDot.style.background = '';
+                    fileStatusDot.style.boxShadow = '';
+                    fileStatusText.textContent = statusMsg;
+                }
+            } else {
+                fileStatusDot.classList.add('connected');
+                fileStatusText.textContent = statusMsg;
+            }
+
+            if (allJobs.length === 0) {
+                jobsContainer.innerHTML = '<div class="empty-state">No jobs found in jobs.json. Please run the scraper first!</div>';
+                return;
+            }
+
+            buildTable(lastMod);
+        }
+
+        function _buildRowCache() {
+            const tbody = document.querySelector('table tbody');
+            if (!tbody) return;
+            const rows = tbody.querySelectorAll('tr');
+            _rowCache = Array.from(rows, row => {
+                const tds = row.getElementsByTagName('td');
+                const vals = Array.from(tds, td =>
+                    td.hasAttribute('data-value') ? td.getAttribute('data-value') : td.textContent.trim()
+                );
+                // Pre-parse date columns to avoid repeated new Date() in hot loop
+                const parseMs = v => {
+                    if (!v || v === 'N/A' || v === 'Open until filled' || v === 'Unknown') return null;
+                    const d = new Date(v);
+                    return isNaN(d.getTime()) ? null : d.getTime();
+                };
+                return { el: row, vals, postedMs: parseMs(vals[6]), deadlineMs: parseMs(vals[7]), evalModel: row.getAttribute('data-eval-model') || '', tailorModel: '' };
+            });
+        }
+
+        function buildTable(lastMod) {
+            _rowCache = null;
+            jobsContainer.innerHTML = '';
+
+            // Pre-compute archived count for info bar
+            let archivedCount = 0;
+            if (!showArchivedNo) {
+                allJobs.forEach(job => {
+                    const mv = (sharedJobsState[job.url] && sharedJobsState[job.url].matches_requirements) || job.matches_requirements || 'pending';
+                    const appliedVal = (sharedJobsState[job.url] && sharedJobsState[job.url].applied) || job.applied || 'no';
+                    if (mv === 'no' && appliedVal !== 'yes' && !sessionNoChanges.has(job.url)) archivedCount++;
+                });
+            }
+
+            // 1. Info bar
+            const infoBar = document.createElement('div');
+            infoBar.className = 'table-info-bar';
+            
+            const dateText = lastMod ? new Date(lastMod).toLocaleString() : new Date().toLocaleString();
+            infoBar.innerHTML = `
+                <div class="table-info-item" style="align-items: flex-start; margin-right: auto; flex-direction: row; gap: 15px;">
+                    <span class="table-info-value" style="font-size: 0.825rem; font-weight: 500; color: var(--text-secondary); margin-top: 5px;">
+                        💡 <strong>Tip:</strong> Check multiple options in the column dropdowns to filter. They will be combined (e.g., matching "LinkedIn" OR "Naukri").
+                    </span>
+                    <button onclick="window.resetAllFilters()" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); color: #d1d5db; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: background 0.2s;">
+                        <i class="fas fa-filter-slash"></i> Clear Filters
+                    </button>
+                    ${archivedCount > 0 ? `<button onclick="window.unarchiveAllNo()" style="background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); color: #fca5a5; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: background 0.2s;"><i class="fas fa-box-open"></i> Show ${archivedCount} Archived (No)</button>` : ''}
+                </div>
+                <div class="table-info-item">
+                    <span class="table-info-label">Last Updated</span>
+                    <span class="table-info-value">${dateText}</span>
+                </div>
+                <div class="table-info-item">
+                    <span class="table-info-label">Applied</span>
+                    <span class="table-info-value" id="applied-counter" style="cursor:help;border-bottom:1px dashed rgba(244,114,182,0.5);">0</span>
+                </div>
+                <div class="table-info-item">
+                    <span class="table-info-label">Reviewed</span>
+                    <span class="table-info-value" id="reviewed-counter">0</span>
+                </div>
+                <div class="table-info-item">
+                    <span class="table-info-label">Total Listings</span>
+                    <span class="table-info-value" id="listings-counter">${allJobs.length - archivedCount}</span>
+                </div>
+                <div class="table-info-item" title="Jobs moved to deleted.json / Jobs in deleted.json that matched 'yes'">
+                    <span class="table-info-label">Deleted / Missed</span>
+                    <span class="table-info-value" style="color: #fca5a5;">
+                        ${window.deletedJobsData ? window.deletedJobsData.length : 0} / <span style="color: #10b981;">${window.deletedJobsData ? window.deletedJobsData.filter(j => j.matches_requirements === 'yes').length : 0}</span>
+                    </span>
+                </div>
+            `;
+            jobsContainer.appendChild(infoBar);
+
+            // LLM filter bar (populated after table rows are built)
+            const llmBar = document.createElement('div');
+            llmBar.id = 'llm-filter-bar';
+            llmBar.className = 'llm-filter-bar';
+            jobsContainer.appendChild(llmBar);
+
+            // 2. Table structure
+            const scrollArea = document.createElement('div');
+            scrollArea.className = 'table-scroll-area';
+
+            const table = document.createElement('table');
+            table.innerHTML = `
+                <thead>
+                    <tr>
+                        <th class="col-id resizable-th"><div class="resizable-header" onclick="sortTable(0)"># ↕<div class="active-filters-summary" id="active-filters-0"></div></div></th>
+                        <th class="col-job-id resizable-th"><div class="resizable-header" onclick="sortTable(1)">Job ID ↕<div class="active-filters-summary" id="active-filters-1"></div></div></th>
+                        <th class="col-title resizable-th"><div class="resizable-header" onclick="sortTable(2)">Job Title ↕<div class="active-filters-summary" id="active-filters-2"></div></div></th>
+                        <th class="col-company resizable-th"><div class="resizable-header" onclick="sortTable(3)">Company ↕<div class="active-filters-summary" id="active-filters-3"></div></div></th>
+                        <th class="col-location resizable-th"><div class="resizable-header" onclick="sortTable(4)">Location ↕<div class="active-filters-summary" id="active-filters-4"></div></div></th>
+                        <th class="col-source resizable-th"><div class="resizable-header" onclick="sortTable(5)">Source ↕<div class="active-filters-summary" id="active-filters-5"></div></div></th>
+                        <th class="col-posted resizable-th"><div class="resizable-header" onclick="sortTable(6)">Posted ↕<div class="active-filters-summary" id="active-filters-6"></div></div></th>
+                        <th class="col-deadline resizable-th"><div class="resizable-header" onclick="sortTable(7)">Deadline ↕<div class="active-filters-summary" id="active-filters-7"></div></div></th>
+                        <th class="col-sync resizable-th"><div class="resizable-header" onclick="sortTable(8)">Sync ↕<div class="active-filters-summary" id="active-filters-8"></div></div></th>
+                        <th class="col-matches resizable-th"><div class="resizable-header" onclick="sortTable(9)">Matches ↕<div class="active-filters-summary" id="active-filters-9"></div></div></th>
+                        <th class="col-reason resizable-th"><div class="resizable-header" onclick="sortTable(10)">AI Reason ↕<div class="active-filters-summary" id="active-filters-10"></div></div></th>
+                        <th class="col-user-reason resizable-th"><div class="resizable-header" onclick="sortTable(11)">User Reason ↕<div class="active-filters-summary" id="active-filters-11"></div></div></th>
+                        <th class="col-applied resizable-th"><div class="resizable-header" onclick="sortTable(12)">Applied ↕<div class="active-filters-summary" id="active-filters-12"></div></div></th>
+                        <th class="col-user-review resizable-th"><div class="resizable-header" onclick="sortTable(13)">User Review ↕<div class="active-filters-summary" id="active-filters-13"></div></div></th>
+                        <th class="col-visited resizable-th"><div class="resizable-header" onclick="sortTable(14)">Visited ↕<div class="active-filters-summary" id="active-filters-14"></div></div></th>
+                    </tr>
+                    <tr class="filter-row">
+                        <th></th>
+                        <th><div id="filter-col-1"></div></th>
+                        <th><div id="filter-col-2"></div></th>
+                        <th><div id="filter-col-3"></div></th>
+                        <th><div id="filter-col-4"></div></th>
+                        <th><div id="filter-col-5"></div></th>
+                        <th><div id="filter-col-6"></div></th>
+                        <th><div id="filter-col-7"></div></th>
+                        <th><div id="filter-col-8"></div></th>
+                        <th><div id="filter-col-9"></div></th>
+                        <th><div id="filter-col-10"></div></th>
+                        <th><div id="filter-col-11"></div></th>
+                        <th><div id="filter-col-12"></div></th>
+                        <th><div id="filter-col-13"></div></th>
+                        <th><div id="filter-col-14"></div></th>
+                    </tr>
+                </thead>
+                <tbody id="jobs-body"></tbody>
+            `;
+            scrollArea.appendChild(table);
+            jobsContainer.appendChild(scrollArea);
+
+            const tbody = table.querySelector('tbody');
+            const isAuthorized = currentUser && ALLOWED_EMAILS.includes(currentUser.email);
+            
+            // Helper function to standardize date format
+            function formatDate(dateStr) {
+                if (!dateStr || dateStr.toLowerCase() === 'n/a' || dateStr.toLowerCase() === 'unknown' || dateStr.toLowerCase() === 'not specified') return 'N/A';
+                try {
+                    const d = new Date(dateStr);
+                    if (isNaN(d.getTime())) {
+                        // Try to parse DD.MM.YYYY (common in Europe)
+                        const fiMatch = dateStr.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})/);
+                        if (fiMatch) {
+                            const fd = new Date(`${fiMatch[3]}-${fiMatch[2].padStart(2, '0')}-${fiMatch[1].padStart(2, '0')}`);
+                            if (!isNaN(fd.getTime())) return fd.toISOString().split('T')[0];
+                        }
+                        // Try DD/MM/YYYY (common in India)
+                        const inMatch = dateStr.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+                        if (inMatch) {
+                            const id = new Date(`${inMatch[3]}-${inMatch[2].padStart(2, '0')}-${inMatch[1].padStart(2, '0')}`);
+                            if (!isNaN(id.getTime())) return id.toISOString().split('T')[0];
+                        }
+                        return dateStr; // fallback to original
+                    }
+                    return d.toISOString().split('T')[0]; // Format as YYYY-MM-DD
+                } catch(e) {
+                    return dateStr;
+                }
+            }
+
+            // Helper function to extract hostname/source fallback
+            function getSourceFromUrl(url) {
+                if (!url) return 'Unknown';
+                const lUrl = url.toLowerCase();
+                if (lUrl.includes('linkedin.com')) return 'linkedin';
+                if (lUrl.includes('naukri.com')) return 'naukri';
+                if (lUrl.includes('indeed.com')) return 'indeed';
+                if (lUrl.includes('glassdoor.com')) return 'glassdoor';
+                if (lUrl.includes('wellfound.com') || lUrl.includes('angel.co')) return 'wellfound';
+                if (lUrl.includes('workatastartup.com')) return 'yc';
+                if (lUrl.includes('builtin.com')) return 'builtin';
+                if (lUrl.includes('intel.com') || lUrl.includes('jobs.intel.com')) return 'intel';
+                if (lUrl.includes('amd.com')) return 'amd';
+                if (lUrl.includes('nvidia.com') || lUrl.includes('nvidia.wd5')) return 'nvidia';
+                if (lUrl.includes('qualcomm.com')) return 'qualcomm';
+                if (lUrl.includes('broadcom.com') || lUrl.includes('broadcom.wd1')) return 'broadcom';
+                if (lUrl.includes('ti.com')) return 'ti';
+                if (lUrl.includes('nxp.com') || lUrl.includes('nxp.wd3')) return 'nxp';
+                if (lUrl.includes('infineon.com')) return 'infineon';
+                if (lUrl.includes('st.com') || lUrl.includes('stmicroelectronics')) return 'stmicro';
+                if (lUrl.includes('microchip.com')) return 'microchip';
+                if (lUrl.includes('renesas.com')) return 'renesas';
+                if (lUrl.includes('marvell.com') || lUrl.includes('marvell.wd1')) return 'marvell';
+                if (lUrl.includes('analog.com') || lUrl.includes('analogdevices')) return 'adi';
+                if (lUrl.includes('onsemi.com') || lUrl.includes('onsemi.wd1')) return 'onsemi';
+                if (lUrl.includes('micron.com')) return 'micron';
+                if (lUrl.includes('mediatek.com')) return 'mediatek';
+                if (lUrl.includes('arm.com')) return 'arm';
+                if (lUrl.includes('samsung.com')) return 'samsung';
+                if (lUrl.includes('tsmc.com')) return 'tsmc';
+                if (lUrl.includes('globalfoundries.com') || lUrl.includes('globalfoundries.wd1')) return 'globalfoundries';
+                if (lUrl.includes('skhynix.com')) return 'skhynix';
+                if (lUrl.includes('synopsys.com') || lUrl.includes('brassring.com')) return 'synopsys';
+                if (lUrl.includes('cadence.com') || lUrl.includes('cadence.wd1')) return 'cadence';
+                if (lUrl.includes('siemens.com')) return 'siemens_eda';
+                if (lUrl.includes('ansys.com')) return 'ansys';
+                if (lUrl.includes('keysight.com')) return 'keysight';
+                if (lUrl.includes('tataelxsi.com')) return 'tata_elxsi';
+                if (lUrl.includes('sifive.com')) return 'sifive';
+                if (lUrl.includes('tessolve.com')) return 'tessolve';
+                if (lUrl.includes('isro.gov.in')) return 'isro';
+                if (lUrl.includes('drdo.gov.in')) return 'drdo';
+                if (lUrl.includes('bel-india.in')) return 'bel';
+                if (lUrl.includes('cdac.in')) return 'cdac';
+                try {
+                    const hostname = new URL(url).hostname;
+                    return hostname.replace('www.', '');
+                } catch(e) {
+                    return 'Unknown';
+                }
+            }
+
+            // 3. Rows
+            allJobs.forEach((job, index) => {
+                const matchVal = (sharedJobsState[job.url] && sharedJobsState[job.url].matches_requirements) || job.matches_requirements || 'pending';
+                let appliedStatus = (sharedJobsState[job.url] && sharedJobsState[job.url].applied) || job.applied || 'no';
+                if (matchVal === 'no' && appliedStatus !== 'yes' && !sessionNoChanges.has(job.url) && !showArchivedNo) return;
+
+                const jobIdSafe = job.id || job.url.replace(/[\.#\$\/\[\]]/g, '_');
+                let userReview = (sharedJobsState[job.url] && sharedJobsState[job.url].user_review) || job.user_review || 'pending';
+
+                const tr = document.createElement('tr');
+                tr.setAttribute('data-url', job.url);
+                const evalModel = job.eval_model || '';
+                tr.setAttribute('data-eval-model', evalModel);
+
+                const postedVal = formatDate(job.posted_date);
+                const deadlineVal = formatDate(job.deadline);
+                const sourceVal = job.source || getSourceFromUrl(job.url) || 'Unknown';
+                const syncVal = job.needs_re_review ? 'Queued' : 'Up to Date';
+                const jobIdVal = job.id || 'N/A';
+                const aiReason = job.reason || '';
+                const userReason = (sharedJobsState[job.url] && (sharedJobsState[job.url].user_reason || sharedJobsState[job.url].reason)) || '';
+                const visitedVal = job.visited || 'no';
+                
+                tr.innerHTML = `
+                    <td class="col-id">${index + 1}</td>
+                    <td class="col-job-id">${jobIdVal}</td>
+                    <td class="col-title" data-value="${job.title || 'Unknown Title'}">
+                        <div style="display: flex; justify-content: space-between; align-items: center; gap: 15px;">
+                            <a href="${job.url}" target="_blank" style="color: var(--text-primary); text-decoration: underline; text-decoration-color: rgba(255,255,255,0.3); text-underline-offset: 3px;">${job.title || 'Unknown Title'}</a>
+                            ${job.description_file ? `<a href="${job.description_file.startsWith('job_descriptions/') ? job.description_file : 'job_descriptions/' + job.description_file}" target="_blank" style="font-size: 0.7em; color: var(--color-yes); text-decoration: none; border: 1px solid rgba(16,185,129,0.3); padding: 2px 6px; border-radius: 4px; white-space: nowrap;" title="View extracted job description">[TXT]</a>` : ''}
+                        </div>
+                    </td>
+                    <td class="col-company">${job.company || 'Unknown Company'}</td>
+                    <td class="col-location">📍 ${job.location || 'Unknown Location'}</td>
+                    <td class="col-source" data-value="${sourceVal}"><span class="source-tag">${sourceVal}</span></td>
+                    <td class="col-posted">${postedVal}</td>
+                    <td class="col-deadline">${deadlineVal}</td>
+                    <td class="col-sync" data-value="${syncVal}"><span style="font-size: 0.85em; color: ${job.needs_re_review ? 'var(--text-secondary)' : 'var(--color-yes)'};"><i class="fas ${job.needs_re_review ? 'fa-hourglass-half' : 'fa-check-circle'}"></i> ${syncVal}</span></td>
+                    <td class="col-matches" data-value="${matchVal}">
+                        ${isAuthorized ? `
+                        <select class="status-pill ${matchVal}" onchange="handleMatchChange(this, '${job.url}', '${matchVal}')" title="Train the AI by changing this status">
+                            <option value="yes" ${matchVal === 'yes' ? 'selected' : ''}>yes</option>
+                            <option value="no" ${matchVal === 'no' ? 'selected' : ''}>no</option>
+                            ${matchVal !== 'yes' && matchVal !== 'no' ? `<option value="${matchVal}" selected hidden>${matchVal}</option>` : ''}
+                        </select>
+                        ` : `
+                        <span class="status-pill ${matchVal}" style="display:inline-block; text-align:center;">${matchVal}</span>
+                        `}
+                        ${evalModel ? `<div style="font-size:0.62em; color:var(--text-secondary); margin-top:3px; opacity:0.7;" title="Eval model: ${evalModel}">${evalModel}</div>` : ''}
+                    </td>
+                    <td class="col-reason"><div class="reason-cell" title="${aiReason.replace(/"/g, '&quot;')}">${aiReason}</div></td>
+                    <td class="col-user-reason"><div class="user-reason-cell" title="${userReason.replace(/"/g, '&quot;')}">${userReason}</div></td>
+                    <td class="col-applied" data-value="${appliedStatus}">
+                        ${isAuthorized ? `
+                        <select class="status-pill ${appliedStatus === 'yes' ? 'yes' : 'no'}" onchange="toggleApplied(this, '${job.url}', '${appliedStatus}')">
+                            <option value="no" ${appliedStatus === 'no' ? 'selected' : ''}>no</option>
+                            <option value="yes" ${appliedStatus === 'yes' ? 'selected' : ''}>yes</option>
+                        </select>
+                        ` : `
+                        <span class="status-btn ${appliedStatus === 'yes' ? 'status-yes' : 'status-no'}" style="cursor: default; display:inline-block; text-align:center;">${appliedStatus}</span>
+                        `}
+                    </td>
+                    <td class="col-user-review" data-value="${userReview}">
+                        ${isAuthorized ? `
+                        <select class="status-pill ${userReview === 'done' ? 'yes' : 'pending'}" onchange="handleUserReviewChange(this, '${job.url}', '${userReview}')">
+                            <option value="pending" ${userReview === 'pending' ? 'selected' : ''}>pending</option>
+                            <option value="done" ${userReview === 'done' ? 'selected' : ''}>done</option>
+                        </select>
+                        ` : `<span class="status-pill ${userReview === 'done' ? 'yes' : 'pending'}">${userReview}</span>`}
+                    </td>
+                    <td class="col-visited" data-value="${visitedVal}"><span class="status-pill ${visitedVal}">${visitedVal}</span></td>
+                `;
+                tbody.appendChild(tr);
+            });
+            
+            buildMultiSelectFilters();
+            buildLlmFilter();
+            filterTable();
+        }
+
+        window.toggleAllFilters = function(colIndex, checkState, event) {
+            event.stopPropagation();
+            const container = document.getElementById(`filter-col-${colIndex}`);
+            if (!container) return;
+            const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(cb => { cb.checked = checkState; });
+            filterTable();
+        };
+
+        window.resetAllFilters = function() {
+            document.querySelectorAll('.ms-dropdown input[type="checkbox"]').forEach(cb => cb.checked = false);
+            const postedInput = document.getElementById('posted-days-filter');
+            const deadlineInput = document.getElementById('deadline-days-filter');
+            if(postedInput) postedInput.value = '';
+            if(deadlineInput) deadlineInput.value = '';
+            selectedLlmModels.clear();
+            buildLlmFilter();
+            filterTable();
+        };
+
+        function buildLlmFilter() {
+            if (!_rowCache) return;
+            const models = new Set();
+            _rowCache.forEach(({ evalModel }) => {
+                if (evalModel) models.add(evalModel);
+            });
+            const container = document.getElementById('llm-filter-bar');
+            if (!container) return;
+            container.style.display = 'flex';
+            const sorted = Array.from(models).sort();
+            const noneYet = models.size === 0 ? `<span style="font-size:0.72rem; color:var(--text-secondary); opacity:0.6;">(no model data yet — run evaluator)</span>` : '';
+            container.innerHTML = `
+                <span style="font-size:0.78rem; color:var(--text-secondary); white-space:nowrap; align-self:center; margin-right:4px;">LLM:</span>
+                <button class="llm-pill ${selectedLlmModels.size === 0 ? 'active' : ''}" onclick="window.toggleLlmFilter(null)">All</button>
+                ${sorted.map(m => `<button class="llm-pill ${selectedLlmModels.has(m) ? 'active' : ''}" onclick="window.toggleLlmFilter('${m.replace(/'/g, "\\'")}')" title="${m}">${m}</button>`).join('')}
+                ${noneYet}
+            `;
+        }
+
+        window.toggleLlmFilter = function(model) {
+            if (model === null) {
+                selectedLlmModels.clear();
+            } else if (selectedLlmModels.has(model)) {
+                selectedLlmModels.delete(model);
+            } else {
+                selectedLlmModels.add(model);
+            }
+            buildLlmFilter();
+            filterTable();
+        };
+
+        function buildMultiSelectFilters() {
+            if (!_rowCache) _buildRowCache();
+
+            // Build the multi-select dropdowns for columns 1 to 14
+            for (let i = 1; i <= 14; i++) {
+                const uniqueValues = new Set();
+                _rowCache.forEach(({ vals }) => {
+                    const val = vals[i];
+                    if (val) uniqueValues.add(val);
+                });
+                
+                const sortedVals = Array.from(uniqueValues).sort((a, b) => a.localeCompare(b, undefined, {sensitivity: 'base'}));
+                const container = document.getElementById(`filter-col-${i}`);
+                if (!container) continue;
+                
+                let customDateInput = '';
+                if (i === 6) {
+                    customDateInput = `
+                        <div style="padding: 0 0 4px 0;">
+                            <input type="number" id="posted-days-filter" placeholder="Within X days..." style="width: 100%; padding: 4px; font-size: 0.75rem; background: rgba(0,0,0,0.3); color: white; border: 1px solid var(--border-color); border-radius: 4px;" onkeyup="filterTable()" onchange="filterTable()" min="0">
+                        </div>
+                    `;
+                } else if (i === 7) {
+                    customDateInput = `
+                        <div style="padding: 0 0 4px 0;">
+                            <input type="number" id="deadline-days-filter" placeholder="Next X days..." style="width: 100%; padding: 4px; font-size: 0.75rem; background: rgba(0,0,0,0.3); color: white; border: 1px solid var(--border-color); border-radius: 4px;" onkeyup="filterTable()" onchange="filterTable()" min="0">
+                        </div>
+                    `;
+                }
+                
+                let optionsHtml = `
+                    <div style="position: sticky; top: -8px; background: #1e243b; z-index: 10; padding: 8px 8px 4px 8px; margin: -8px 0 4px 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                        <div style="display: flex; gap: 8px; margin-bottom: 4px;">
+                            <button type="button" onclick="window.toggleAllFilters(${i}, true, event)" style="background:none; border:none; color:#a78bfa; font-size:0.75rem; cursor:pointer; padding:0;">Select All</button>
+                            <button type="button" onclick="window.toggleAllFilters(${i}, false, event)" style="background:none; border:none; color:var(--text-secondary); font-size:0.75rem; cursor:pointer; padding:0;">Clear</button>
+                        </div>
+                        <div style="margin-bottom: ${customDateInput ? '4px' : '0'};">
+                            <input type="text" placeholder="Search..." oninput="filterMsOptions(this)" onclick="event.stopPropagation()" style="width: 100%; padding: 4px 8px; border-radius: 4px; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); color: white; font-size: 0.8rem; outline: none;">
+                        </div>
+                        ${customDateInput}
+                    </div>
+                `;
+                sortedVals.forEach(val => {
+                    optionsHtml += `<label class="ms-option"><input type="checkbox" value="${val.replace(/"/g, '&quot;')}"> ${val}</label>`;
+                });
+                
+                container.innerHTML = `
+                    <div class="ms-container" style="position:relative;">
+                        <button class="ms-btn" onclick="toggleDropdown(${i}, event)">Filter... <span>▼</span></button>
+                        <div class="ms-dropdown" id="ms-dropdown-${i}">
+                            ${optionsHtml}
+                        </div>
+                    </div>
+                `;
+                
+                const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+                checkboxes.forEach(cb => {
+                    cb.addEventListener('change', filterTable);
+                });
+            }
+            
+            // Restore filters from localStorage
+            try {
+                const projectId = typeof firebaseConfig !== 'undefined' ? firebaseConfig.projectId : 'default';
+                const savedStr = localStorage.getItem('jobBoardFilters_' + projectId);
+                if (savedStr) {
+                    const saved = JSON.parse(savedStr);
+                    const postedInput = document.getElementById('posted-days-filter');
+                    const deadlineInput = document.getElementById('deadline-days-filter');
+                    if (postedInput && saved.postedLimit !== null && saved.postedLimit !== undefined) postedInput.value = saved.postedLimit;
+                    if (deadlineInput && saved.deadlineLimit !== null && saved.deadlineLimit !== undefined) deadlineInput.value = saved.deadlineLimit;
+                    
+                    if (saved.colFilters) {
+                        for (let i = 1; i <= 14; i++) {
+                            const container = document.getElementById(`filter-col-${i}`);
+                            if (!container) continue;
+                            if (saved.colFilters[i]) {
+                                const checkboxes = container.querySelectorAll('input[type="checkbox"]');
+                                checkboxes.forEach(cb => {
+                                    if (saved.colFilters[i].includes(cb.value)) {
+                                        cb.checked = true;
+                                    }
+                                });
+                            }
+                        }
+                    }
+                    if (saved.llmModels && Array.isArray(saved.llmModels)) {
+                        saved.llmModels.forEach(m => selectedLlmModels.add(m));
+                        buildLlmFilter();
+                    }
+                }
+            } catch (e) {
+                console.error("Error restoring filters", e);
+            }
+        }
+        
+        function toggleDropdown(colIndex, event) {
+            event.stopPropagation();
+            const dropdown = document.getElementById(`ms-dropdown-${colIndex}`);
+            const wasOpen = dropdown.classList.contains('open');
+            
+            document.querySelectorAll('.ms-dropdown').forEach(d => d.classList.remove('open'));
+            
+            if (!wasOpen && dropdown) {
+                dropdown.classList.add('open');
+            }
+        }
+        
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.ms-container')) {
+                document.querySelectorAll('.ms-dropdown').forEach(d => d.classList.remove('open'));
+            }
+        });
+        
+        window.filterMsOptions = function(input) {
+            const query = input.value.toLowerCase();
+            const options = input.closest('.ms-dropdown').querySelectorAll('.ms-option');
+            options.forEach(opt => {
+                const text = opt.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    opt.style.display = 'flex';
+                } else {
+                    opt.style.display = 'none';
+                }
+            });
+        };
+
+        function sortTable(n) {
+            const tbody = document.querySelector('table tbody');
+            if (!tbody) return;
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            
+            sortAsc = (lastSortedCol === n) ? !sortAsc : true;
+            lastSortedCol = n;
+            
+            rows.sort((a, b) => {
+                let x = a.getElementsByTagName("td")[n];
+                let y = b.getElementsByTagName("td")[n];
+                
+                x = x.hasAttribute("data-value") ? x.getAttribute("data-value") : x.textContent.trim();
+                y = y.hasAttribute("data-value") ? y.getAttribute("data-value") : y.textContent.trim();
+                
+                if (n === 0) return sortAsc ? parseInt(x) - parseInt(y) : parseInt(y) - parseInt(x);
+                return sortAsc ? x.localeCompare(y, undefined, {sensitivity: 'base'}) : y.localeCompare(x, undefined, {sensitivity: 'base'});
+            });
+            
+            rows.forEach(row => tbody.appendChild(row));
+            
+            filterTable();
+        }
+
+        function filterTable() {
+            if (!_rowCache) _buildRowCache();
+
+            const postedDaysInput = document.getElementById('posted-days-filter');
+            const deadlineDaysInput = document.getElementById('deadline-days-filter');
+            const postedLimit = (postedDaysInput && postedDaysInput.value) ? parseInt(postedDaysInput.value) : null;
+            const deadlineLimit = (deadlineDaysInput && deadlineDaysInput.value) ? parseInt(deadlineDaysInput.value) : null;
+
+            const today = new Date();
+            today.setHours(0,0,0,0);
+            
+            const filters = {};
+            for (let i = 1; i <= 14; i++) {
+                const container = document.getElementById(`filter-col-${i}`);
+                if (!container) continue;
+                const checked = Array.from(container.querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
+
+                let summaryTexts = [...checked];
+                if (i === 6 && postedLimit !== null && !isNaN(postedLimit)) summaryTexts.unshift(`< ${postedLimit}d`);
+                if (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) summaryTexts.unshift(`< ${deadlineLimit}d`);
+                
+                const summaryDiv = document.getElementById(`active-filters-${i}`);
+                if (summaryDiv) {
+                    if (summaryTexts.length > 0) {
+                        let text = summaryTexts.length <= 2 ? summaryTexts.join(', ') : `${summaryTexts[0]}, ${summaryTexts[1]} +${summaryTexts.length - 2}`;
+                        summaryDiv.innerText = `[${text}]`;
+                        summaryDiv.title = summaryTexts.join(', ');
+                    } else {
+                        summaryDiv.innerText = '';
+                        summaryDiv.title = '';
+                    }
+                }
+                
+                if (checked.length > 0 || (i === 6 && postedLimit !== null && !isNaN(postedLimit)) || (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit))) {
+                    filters[i] = checked;
+                }
+            }
+            
+            // Save filters to localStorage
+            try {
+                const projectId = typeof firebaseConfig !== 'undefined' ? firebaseConfig.projectId : 'default';
+                const filtersToSave = {
+                    postedLimit: (!isNaN(postedLimit) ? postedLimit : null),
+                    deadlineLimit: (!isNaN(deadlineLimit) ? deadlineLimit : null),
+                    colFilters: filters,
+                    llmModels: Array.from(selectedLlmModels)
+                };
+                localStorage.setItem('jobBoardFilters_' + projectId, JSON.stringify(filtersToSave));
+            } catch (e) {
+                console.error("Error saving filters", e);
+            }
+            
+            let visibleCount = 0;
+            let counts = { yes: 0, maybe: 0, no: 0, pending: 0, rereview: 0 };
+            let totalCounts = { yes: 0, maybe: 0, no: 0, pending: 0, rereview: 0 };
+            let appliedCount = 0;
+            let totalAppliedCount = 0;
+            let reviewedCount = 0;
+            let totalReviewedCount = 0;
+            filteredRows = [];
+            const todayMs = today.getTime();
+            const DAY_MS = 86400000;
+
+            for (let r = 0; r < _rowCache.length; r++) {
+                const entry = _rowCache[r];
+                const { vals, postedMs, deadlineMs } = entry;
+                let show = true;
+
+                for (let i = 1; i <= 14; i++) {
+                    if (!filters[i]) continue;
+                    const val = vals[i] || '';
+                    let passesCheckbox = filters[i].length === 0 || filters[i].includes(val);
+
+                    if (i === 6 && postedLimit !== null && !isNaN(postedLimit)) {
+                        const passesDate = postedMs !== null &&
+                            Math.ceil((todayMs - postedMs) / DAY_MS) >= 0 &&
+                            Math.ceil((todayMs - postedMs) / DAY_MS) <= postedLimit;
+                        passesCheckbox = filters[i].length === 0 ? passesDate : (passesCheckbox || passesDate);
+                    }
+
+                    if (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) {
+                        const passesDate = deadlineMs !== null &&
+                            Math.ceil((deadlineMs - todayMs) / DAY_MS) >= 0 &&
+                            Math.ceil((deadlineMs - todayMs) / DAY_MS) <= deadlineLimit;
+                        passesCheckbox = filters[i].length === 0 ? passesDate : (passesCheckbox || passesDate);
+                    }
+
+                    if (!passesCheckbox) { show = false; break; }
+                }
+
+                if (show && selectedLlmModels.size > 0) {
+                    if (!selectedLlmModels.has(entry.evalModel) && !selectedLlmModels.has(entry.tailorModel)) {
+                        show = false;
+                    }
+                }
+
+                // Derived per-row values are computed unconditionally (not just for visible
+                // rows) so the header stats below can show true totals unaffected by column
+                // filters, alongside the filtered subset counts for the "(N filtered)" note.
+                const mVal = vals[9];
+                if (mVal === 'yes') totalCounts.yes++;
+                else if (mVal === 'maybe') totalCounts.maybe++;
+                else if (mVal === 'no') totalCounts.no++;
+                else if (mVal === 'pending') totalCounts.pending++;
+                if (vals[8] === 'Queued') totalCounts.rereview++;
+                if (vals[12] === 'yes') totalAppliedCount++;
+                if (vals[13] === 'done') totalReviewedCount++;
+
+                if (show) {
+                    filteredRows.push(entry.el);
+                    visibleCount++;
+                    if (mVal === 'yes') counts.yes++;
+                    else if (mVal === 'maybe') counts.maybe++;
+                    else if (mVal === 'no') counts.no++;
+                    else if (mVal === 'pending') counts.pending++;
+                    if (vals[8] === 'Queued') counts.rereview++;
+                    if (vals[12] === 'yes') appliedCount++;
+                    if (vals[13] === 'done') reviewedCount++;
+                }
+            }
+
+            const counter = document.getElementById('listings-counter');
+            const activeTotal = _rowCache ? _rowCache.length : allJobs.length;
+            // Every stat below except Total always shows the TRUE total count, unaffected
+            // by column filters - only Total itself reflects the filtered subset as its
+            // primary number. When a filter is active, the others get a "(N filtered)" note
+            // (mirroring Total's "(filtered from X)" note) instead of changing their main value.
+            const filterActive = visibleCount !== activeTotal;
+            const filterNote = (n) => filterActive
+                ? ` <span style="opacity:0.55; font-weight:400;">(${n} filtered)</span>`
+                : '';
+            if (counter) {
+                let text = `<strong id="stat-total" style="cursor:help;border-bottom:1px dashed rgba(255,255,255,0.4);">${visibleCount}</strong>`;
+                if (filterActive) {
+                    text += ` (filtered from ${activeTotal})`;
+                }
+                text += ` <span style="margin: 0 10px; opacity: 0.3;">|</span> `;
+                text += `<span id="stat-yes" style="color: var(--color-yes); font-weight: 600; cursor:help; border-bottom:1px dashed rgba(16,185,129,0.5);">Yes: ${totalCounts.yes}${filterNote(counts.yes)}</span> &nbsp;&nbsp; `;
+                text += `<span id="stat-maybe" style="color: var(--color-maybe); font-weight: 600; cursor:help; border-bottom:1px dashed rgba(245,158,11,0.5);">Maybe: ${totalCounts.maybe}${filterNote(counts.maybe)}</span> &nbsp;&nbsp; `;
+                text += `<span style="color: var(--color-no); font-weight: 600;">No: ${totalCounts.no}${filterNote(counts.no)}</span> &nbsp;&nbsp; `;
+                text += `<span style="color: var(--color-pending); font-weight: 600;">Pending: ${totalCounts.pending}${filterNote(counts.pending)}</span> &nbsp;&nbsp; `;
+                text += `<span style="color: #a78bfa; font-weight: 600;">Re-review: ${totalCounts.rereview}${filterNote(counts.rereview)}</span>`;
+                counter.innerHTML = text;
+                _attachChartHover(document.getElementById('stat-yes'), 'yes');
+                _attachChartHover(document.getElementById('stat-maybe'), 'maybe');
+                _attachChartHover(document.getElementById('stat-total'), 'total');
+            }
+
+            const appliedCounter = document.getElementById('applied-counter');
+            if (appliedCounter) {
+                appliedCounter.innerHTML = `${totalAppliedCount}${filterNote(appliedCount)}`;
+                _attachChartHover(appliedCounter, 'applied');
+            }
+
+            const reviewedCounter = document.getElementById('reviewed-counter');
+            if (reviewedCounter) reviewedCounter.innerHTML = `${totalReviewedCount}${filterNote(reviewedCount)}`;
+            
+            renderPage(1);
+        }
+
+        function renderPage(page) {
+            currentPage = page;
+            const start = (currentPage - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
+
+            // Hide all rows using cache (avoids querySelectorAll)
+            if (_rowCache) {
+                for (let r = 0; r < _rowCache.length; r++) _rowCache[r].el.style.display = 'none';
+            }
+            for (let i = start; i < end && i < filteredRows.length; i++) {
+                filteredRows[i].style.display = '';
+            }
+
+            updatePaginationUI();
+        }
+
+        function updatePaginationUI() {
+            let container = document.getElementById('pagination-container');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'pagination-container';
+                container.style = 'display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: var(--bg-card); border-bottom: 1px solid var(--border-color);';
+                
+                const tableContainer = document.querySelector('.table-container');
+                const scrollArea = document.querySelector('.table-scroll-area');
+                if (tableContainer && scrollArea) {
+                    tableContainer.insertBefore(container, scrollArea);
+                } else if (tableContainer) {
+                    tableContainer.appendChild(container);
+                }
+            }
+            
+            const totalPages = Math.ceil(filteredRows.length / itemsPerPage) || 1;
+            
+            container.innerHTML = `
+                <div style="font-size: 0.85rem; color: var(--text-secondary);">
+                    Showing ${(currentPage - 1) * itemsPerPage + (filteredRows.length > 0 ? 1 : 0)} to ${Math.min(currentPage * itemsPerPage, filteredRows.length)} of ${filteredRows.length} entries
+                </div>
+                <div style="display: flex; gap: 0.5rem;">
+                    <button onclick="changePage(-1)" style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: white; border-radius: 0.5rem; cursor: ${currentPage > 1 ? 'pointer' : 'not-allowed'}; opacity: ${currentPage > 1 ? '1' : '0.5'};" ${currentPage <= 1 ? 'disabled' : ''}>Previous</button>
+                    <div style="padding: 0.4rem 0.8rem; background: rgba(99, 102, 241, 0.1); border: 1px solid rgba(99, 102, 241, 0.3); color: white; border-radius: 0.5rem;">Page ${currentPage} of ${totalPages}</div>
+                    <button onclick="changePage(1)" style="padding: 0.4rem 0.8rem; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); color: white; border-radius: 0.5rem; cursor: ${currentPage < totalPages ? 'pointer' : 'not-allowed'}; opacity: ${currentPage < totalPages ? '1' : '0.5'};" ${currentPage >= totalPages ? 'disabled' : ''}>Next</button>
+                </div>
+            `;
+        }
+        
+        window.changePage = function(delta) {
+            const totalPages = Math.ceil(filteredRows.length / itemsPerPage) || 1;
+            let newPage = currentPage + delta;
+            if (newPage < 1) newPage = 1;
+            if (newPage > totalPages) newPage = totalPages;
+            
+            if (newPage !== currentPage) {
+                renderPage(newPage);
+                const scrollArea = document.querySelector('.table-scroll-area');
+                if (scrollArea) scrollArea.scrollTop = 0;
+            }
+        };
+
+        async function toggleApplied(select, url, originalValue) {
+            const newState = select.value;
+            
+            localStorage.setItem('applied_' + url, newState);
+            
+            if (typeof db !== 'undefined' && db !== null) {
+                try {
+                    select.disabled = true;
+                    await db.collection("user_feedback").add({
+                        url: url,
+                        type: "applied_update",
+                        applied: newState,
+                        status: "unread",
+                        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                    });
+                    
+                    await db.collection("shared_state").doc("job_status").set({
+                        [url]: { applied: newState }
+                    }, { merge: true });
+                    
+                    select.disabled = false;
+                    select.className = 'status-pill ' + (newState === 'yes' ? 'yes' : 'no');
+                    select.closest('td').setAttribute('data-value', newState);
+                    select.setAttribute('onchange', `toggleApplied(this, '${url}', '${newState}')`);
+                    
+                    filterTable(); 
+                    autoMarkUserReviewDone(url);
+                } catch (e) {
+                    console.error(e);
+                    alert("Failed to sync applied status to cloud.");
+                    select.value = originalValue;
+                    select.disabled = false;
+                }
+            } else {
+                select.className = 'status-pill ' + (newState === 'yes' ? 'yes' : 'no');
+                select.closest('td').setAttribute('data-value', newState);
+                filterTable(); 
+                autoMarkUserReviewDone(url);
+            }
+        }
+        
+        async function handleMatchChange(select, url, originalValue) {
+            const newState = select.value;
+            let promptText;
+            let type;
+            
+            if (newState === 'yes') {
+                promptText = "Why should this job be a 'yes'? (This trains the AI to accept similar jobs. Max 100 words)";
+                type = "positive";
+            } else if (newState === 'no') {
+                promptText = "Why should this job be a 'no'? (This trains the AI to reject similar jobs. Max 100 words)";
+                type = "negative";
+            } else {
+                return;
+            }
+
+            const reason = prompt(promptText);
+            if (reason === null) {
+                select.value = originalValue;
+                return;
+            }
+            if (reason.split(' ').length > 100) { 
+                alert("Invalid reason. Reason must be less than 100 words."); 
+                select.value = originalValue;
+                return; 
+            }
+            
+            const isBlank = reason.trim() === '';
+            if (isBlank) {
+                alert("Status updated without a feedback reason. The AI matching rules will not be updated.");
+            }
+
+            if (typeof db !== 'undefined' && db !== null) {
+                try {
+                    select.disabled = true;
+                    await db.collection("user_feedback").add({
+                        url: url,
+                        reason: reason,
+                        type: type,
+                        status: "unread",
+                        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                    });
+                    
+                    await db.collection("shared_state").doc("job_status").set({
+                        [url]: { matches_requirements: newState, user_reason: reason }
+                    }, { merge: true });
+                    
+                    if (!isBlank) {
+                        alert("Feedback saved! The AI requirements have been updated.");
+                    }
+                    
+                    // Update user reason cell
+                    const tr = select.closest('tr');
+                    if (tr) {
+                        const reasonCell = tr.querySelector('.user-reason-cell');
+                        if (reasonCell) {
+                            reasonCell.textContent = reason || '';
+                            reasonCell.title = reason;
+                        }
+                    }
+                    
+                    select.disabled = false;
+                    select.className = 'status-pill ' + newState;
+                    select.closest('td').setAttribute('data-value', newState);
+                    select.setAttribute('onchange', `handleMatchChange(this, '${url}', '${newState}')`);
+
+                    if (newState === 'no') sessionNoChanges.add(url);
+                    else sessionNoChanges.delete(url);
+                    // Update cached match value so filter counts stay current
+                    if (_rowCache) {
+                        const ce = _rowCache.find(e => e.el.getAttribute('data-url') === url);
+                        if (ce) ce.vals[9] = newState;
+                    }
+
+                    filterTable(); // Recalculate summary counts
+                    autoMarkUserReviewDone(url);
+                } catch (e) {
+                    console.error(e);
+                    alert("Failed to save to cloud database.");
+                    select.value = originalValue;
+                    select.disabled = false;
+                }
+            } else {
+                alert("Firebase not initialized yet.");
+                select.value = originalValue;
+            }
+        }
+
+        window.unarchiveAllNo = function() {
+            showArchivedNo = true;
+            buildTable();
+        };
+
+        async function handleUserReviewChange(select, url, originalValue) {
+            const newState = select.value;
+            
+            if (typeof db !== 'undefined' && db !== null) {
+                try {
+                    select.disabled = true;
+                    await db.collection("user_feedback").add({
+                        url: url,
+                        type: "user_review_update",
+                        user_review: newState,
+                        status: "unread",
+                        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                    });
+                    
+                    await db.collection("shared_state").doc("job_status").set({
+                        [url]: { user_review: newState }
+                    }, { merge: true });
+                    
+                    select.disabled = false;
+                    select.className = 'status-pill ' + (newState === 'done' ? 'yes' : 'pending');
+                    select.closest('td').setAttribute('data-value', newState);
+                    select.setAttribute('onchange', `handleUserReviewChange(this, '${url}', '${newState}')`);
+                    localStorage.removeItem('user_review_' + url);
+                    
+                    filterTable(); // Update counts
+                } catch (e) {
+                    console.error(e);
+                    alert("Failed to save review status to cloud database.");
+                    select.value = originalValue;
+                    select.disabled = false;
+                }
+            } else {
+                alert("Firebase not initialized yet.");
+                select.value = originalValue;
+            }
+        }
+        
+        // ── History trend chart ────────────────────────────────────────────────
+        let _chartHistory = null;
+        async function _loadChartHistory() {
+            if (_chartHistory !== null) return _chartHistory;
+            try {
+                const r = await fetch('https://vinchess1989.github.io/priya-jobs-dashboard/jobs_history.json?nocache=' + Date.now());
+                _chartHistory = r.ok ? await r.json() : [];
+            } catch (e) { _chartHistory = []; }
+            return _chartHistory;
+        }
+        function _renderChart(canvas, data, metric) {
+            const ctx = canvas.getContext('2d');
+            const W = canvas.width, H = canvas.height;
+            ctx.clearRect(0, 0, W, H);
+            const _cutoffMs = new Date('2026-06-15T00:00:00').getTime();
+            data = (data || []).filter(d => new Date(d.timestamp).getTime() >= _cutoffMs);
+            const _24hAgoMs = Date.now() - 24 * 60 * 60 * 1000;
+            const _older = data.filter(d => new Date(d.timestamp).getTime() < _24hAgoMs);
+            const _recent = data.filter(d => new Date(d.timestamp).getTime() >= _24hAgoMs)
+                .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+            const _bySlot = {}, _bySlotApplied = {}, _bySlotAdded = {}, _bySlotDeleted = {}, _bySlotChurn = {};
+            _older.forEach(d => {
+                const _dt = new Date(d.timestamp);
+                const slot = d.timestamp.slice(0, 10) + 'T' + String(Math.floor(_dt.getHours() / 6) * 6).padStart(2, '0');
+                _bySlot[slot] = d;
+                if (d.applied != null && d.applied > (_bySlotApplied[slot] ?? 0)) _bySlotApplied[slot] = d.applied;
+                _bySlotAdded[slot] = (_bySlotAdded[slot] ?? 0) + (d.added ?? 0);
+                _bySlotDeleted[slot] = (_bySlotDeleted[slot] ?? 0) + (d.deleted ?? 0);
+                if (d.added !== undefined || d.deleted !== undefined) _bySlotChurn[slot] = true;
+            });
+            const _olderPoints = Object.keys(_bySlot).sort().map(slot => ({
+                ..._bySlot[slot],
+                applied: _bySlotApplied[slot] ?? 0,
+                added: _bySlotAdded[slot] ?? 0,
+                deleted: _bySlotDeleted[slot] ?? 0,
+                _hasChurn: _bySlotChurn[slot] ?? false,
+            }));
+            const _changeFields = ['total', 'yes', 'maybe', 'applied'];
+            let _lastVals = null;
+            const _recentPoints = [];
+            _recent.forEach(d => {
+                const vals = _changeFields.map(f => d[f] ?? 0).join(',');
+                if (vals !== _lastVals) {
+                    _recentPoints.push({ ...d, _raw: true, _hasChurn: d.added !== undefined || d.deleted !== undefined });
+                    _lastVals = vals;
+                }
+            });
+            data = _olderPoints.concat(_recentPoints);
+            if (!data || data.length < 2) {
+                ctx.fillStyle = 'rgba(255,255,255,0.4)'; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+                ctx.fillText('Not enough data yet', W / 2, H / 2); return;
+            }
+            const _key0 = metric === 'yes' ? 'yes' : metric === 'applied' ? 'applied' : metric === 'maybe' ? 'maybe' : 'total';
+            if (data.every(d => (d[_key0] ?? 0) === 0)) {
+                ctx.fillStyle = 'rgba(255,255,255,0.4)'; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+                ctx.fillText('No data yet', W / 2, H / 2); return;
+            }
+            const LINES = metric === 'yes'
+                ? [{ key: 'yes', color: '#10b981', label: 'Yes' }, { key: 'maybe', color: '#f59e0b', label: 'Maybe' }]
+                : metric === 'applied'
+                ? [{ key: 'applied', color: '#f472b6', label: 'Applied' }]
+                : metric === 'maybe'
+                ? [{ key: 'maybe', color: '#f59e0b', label: 'Maybe' }]
+                : [{ key: 'total', color: '#a5b4fc', label: 'Total' }, { key: 'yes', color: '#10b981', label: 'Yes' }];
+            const showAdded = true;
+            // Added/Deleted bars always track net change in the SAME metric the line graph
+            // shows (CHURN_KEY), not overall dataset-wide added/deleted - e.g. on the
+            // "Applied" chart they reflect applied-count churn, not every job added/removed
+            // across the whole board.
+            const CHURN_KEY = metric === 'yes' ? 'yes' : metric === 'applied' ? 'applied' : metric === 'maybe' ? 'maybe' : 'total';
+            const ADDED_COLOR = '#94a3b8';
+            const DELETED_COLOR = '#f87171';
+            const addedVals = data.map((d, i) => {
+                if (i === 0) return 0;
+                const net = (d[CHURN_KEY] ?? 0) - (data[i - 1][CHURN_KEY] ?? 0);
+                return net > 0 ? net : 0;
+            });
+            const deletedVals = data.map((d, i) => {
+                if (i === 0) return 0;
+                const net = (d[CHURN_KEY] ?? 0) - (data[i - 1][CHURN_KEY] ?? 0);
+                return net < 0 ? -net : 0;
+            });
+            let rMin = -1, rMax = 1, rRange = 2;
+            if (showAdded) {
+                rMax = Math.max(1, ...addedVals);
+                rMin = -Math.max(1, ...deletedVals);
+                rRange = rMax - rMin;
+            }
+            const allVals = data.flatMap(d => LINES.map(l => d[l.key] ?? 0));
+            const minVal = Math.max(0, Math.min(...allVals) - 1), maxVal = Math.max(...allVals) + 1, range = maxVal - minVal || 1;
+            const pL = 38, pR = showAdded ? 34 : 10, pT = 22, pB = 36, cW = W - pL - pR, cH = H - pT - pB;
+            ctx.strokeStyle = 'rgba(255,255,255,0.06)'; ctx.lineWidth = 1;
+            for (let i = 0; i <= 4; i++) {
+                const y = pT + cH * i / 4;
+                ctx.beginPath(); ctx.moveTo(pL, y); ctx.lineTo(pL + cW, y); ctx.stroke();
+                ctx.fillStyle = 'rgba(255,255,255,0.35)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'right';
+                ctx.fillText(Math.round(maxVal - range * i / 4), pL - 3, y + 3);
+            }
+            if (showAdded) {
+                for (let i = 0; i <= 4; i++) {
+                    const y = pT + cH * i / 4;
+                    const val = Math.round(rMax - rRange * i / 4);
+                    ctx.fillStyle = 'rgba(148,163,184,0.55)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'left';
+                    ctx.fillText((val > 0 ? '+' : '') + val, pL + cW + 4, y + 3);
+                }
+                const spacing = data.length > 1 ? cW / (data.length - 1) : cW;
+                const barW = Math.max(3, Math.min(10, spacing * 0.45));
+                const zeroY = pT + cH - (0 - rMin) / rRange * cH;
+                data.forEach((d, i) => {
+                    const x = pL + (i / (data.length - 1)) * cW;
+                    const addedVal = addedVals[i], deletedVal = deletedVals[i];
+                    if (addedVal > 0) {
+                        const y = pT + cH - (addedVal - rMin) / rRange * cH;
+                        const h = Math.max(1, zeroY - y);
+                        ctx.fillStyle = 'rgba(148,163,184,0.45)';
+                        if (ctx.roundRect) {
+                            ctx.beginPath(); ctx.roundRect(x - barW / 2, y, barW, h, [3, 3, 0, 0]); ctx.fill();
+                        } else {
+                            ctx.fillRect(x - barW / 2, y, barW, h);
+                        }
+                    }
+                    if (deletedVal > 0) {
+                        const y = pT + cH - (-deletedVal - rMin) / rRange * cH;
+                        const h = Math.max(1, y - zeroY);
+                        ctx.fillStyle = 'rgba(248,113,113,0.4)';
+                        if (ctx.roundRect) {
+                            ctx.beginPath(); ctx.roundRect(x - barW / 2, zeroY, barW, h, [0, 0, 3, 3]); ctx.fill();
+                        } else {
+                            ctx.fillRect(x - barW / 2, zeroY, barW, h);
+                        }
+                    }
+                });
+                ctx.strokeStyle = 'rgba(148,163,184,0.3)'; ctx.lineWidth = 1;
+                ctx.beginPath(); ctx.moveTo(pL, zeroY); ctx.lineTo(pL + cW, zeroY); ctx.stroke();
+            }
+            LINES.forEach(line => {
+                ctx.strokeStyle = line.color; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.beginPath();
+                data.forEach((d, i) => {
+                    const x = pL + (i / (data.length - 1)) * cW;
+                    const y = pT + cH - ((d[line.key] ?? 0) - minVal) / range * cH;
+                    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+                }); ctx.stroke();
+                if (data.length <= 40) {
+                    ctx.fillStyle = line.color;
+                    data.forEach((d, i) => {
+                        const x = pL + (i / (data.length - 1)) * cW;
+                        const y = pT + cH - ((d[line.key] ?? 0) - minVal) / range * cH;
+                        ctx.beginPath(); ctx.arc(x, y, 2.5, 0, Math.PI * 2); ctx.fill();
+                    });
+                }
+            });
+            const fmtTime = d => {
+                const dt = new Date(d.timestamp);
+                if (d._raw) return dt.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+                const h = dt.getHours();
+                return ['12am', '6am', '12pm', '6pm'][Math.floor(h / 6)] || '';
+            };
+            let lastLabelX = -Infinity;
+            let lastDateStr = null;
+            data.forEach((d, i) => {
+                const x = pL + (i / (data.length - 1)) * cW;
+                const isLast = i === data.length - 1;
+                const dt = new Date(d.timestamp);
+                const dateStr = dt.toDateString();
+                const isNewDay = dateStr !== lastDateStr;
+                lastDateStr = dateStr;
+                if (!isLast && !isNewDay && x - lastLabelX < 22) return;
+                lastLabelX = x;
+                ctx.save();
+                ctx.translate(x, pT + cH + 5);
+                ctx.rotate(-Math.PI / 4);
+                ctx.fillStyle = 'rgba(255,255,255,0.4)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'right';
+                ctx.fillText(isNewDay ? dt.toLocaleString([], { month: 'short', day: 'numeric' }) : fmtTime(d), 0, 0);
+                ctx.restore();
+            });
+            let lx = pL;
+            LINES.forEach(line => {
+                ctx.strokeStyle = line.color; ctx.lineWidth = 2;
+                ctx.beginPath(); ctx.moveTo(lx, pT - 7); ctx.lineTo(lx + 14, pT - 7); ctx.stroke();
+                ctx.fillStyle = 'rgba(255,255,255,0.75)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'left';
+                ctx.fillText(line.label, lx + 16, pT - 3);
+                lx += 16 + ctx.measureText(line.label).width + 20;
+            });
+            if (showAdded) {
+                ctx.fillStyle = 'rgba(148,163,184,0.6)';
+                ctx.fillRect(lx, pT - 11, 14, 8);
+                ctx.fillStyle = 'rgba(255,255,255,0.75)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'left';
+                ctx.fillText('Added', lx + 16, pT - 3);
+                lx += 16 + ctx.measureText('Added').width + 20;
+                ctx.fillStyle = 'rgba(248,113,113,0.6)';
+                ctx.fillRect(lx, pT - 11, 14, 8);
+                ctx.fillStyle = 'rgba(255,255,255,0.75)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'left';
+                ctx.fillText('Deleted', lx + 16, pT - 3);
+            }
+            canvas._chartPoints = data.map((d, i) => {
+                const x = pL + (i / (data.length - 1)) * cW;
+                const yMap = {};
+                LINES.forEach(l => { yMap[l.key] = pT + cH - ((d[l.key] ?? 0) - minVal) / range * cH; });
+                const lines = LINES.map(l => ({ key: l.key, label: l.label, color: l.color, val: d[l.key] ?? 0 }));
+                if (showAdded) {
+                    const addedVal = addedVals[i], deletedVal = deletedVals[i];
+                    if (addedVal > 0) {
+                        yMap['added'] = pT + cH - (addedVal - rMin) / rRange * cH;
+                        lines.push({ key: 'added', label: 'Added', color: ADDED_COLOR, val: addedVal });
+                    }
+                    if (deletedVal > 0) {
+                        yMap['deleted'] = pT + cH - (-deletedVal - rMin) / rRange * cH;
+                        lines.push({ key: 'deleted', label: 'Deleted', color: DELETED_COLOR, val: -deletedVal });
+                    }
+                }
+                return { x, d, pT, cH, y: yMap, lines };
+            });
+        }
+        let _chartHideTimer = null;
+        function _cancelChartHide() { if (_chartHideTimer) { clearTimeout(_chartHideTimer); _chartHideTimer = null; } }
+        function _scheduleChartHide() { _chartHideTimer = setTimeout(() => { document.getElementById('chart-tooltip').style.display = 'none'; }, 150); }
+        async function _showChartTooltip(el, metric) {
+            _cancelChartHide();
+            const tip = document.getElementById('chart-tooltip');
+            tip._metric = metric;
+            document.getElementById('chart-tooltip-title').textContent =
+                metric === 'yes' ? 'Yes & Maybe matches over time'
+                : metric === 'applied' ? 'Applied jobs over time'
+                : metric === 'maybe' ? 'Maybe matches over time'
+                : 'Total listings & Yes matches over time';
+            tip.style.display = 'block';
+            const rect = el.getBoundingClientRect();
+            const tipW = 350, tipH = 185;
+            let left = rect.left + rect.width / 2 - tipW / 2;
+            let top = rect.top - tipH - 14 + window.scrollY;
+            if (left < 8) left = 8;
+            if (left + tipW > window.innerWidth - 8) left = window.innerWidth - tipW - 8;
+            if (top < window.scrollY + 8) top = rect.bottom + 14 + window.scrollY;
+            tip.style.left = left + 'px'; tip.style.top = top + 'px';
+            const data = await _loadChartHistory();
+            _renderChart(document.getElementById('chart-tooltip-canvas'), data, metric);
+        }
+        function _hideChartTooltip() { document.getElementById('chart-tooltip').style.display = 'none'; }
+        async function _openChartModal(metric) {
+            _hideChartTooltip();
+            const modal = document.getElementById('chart-modal');
+            document.getElementById('chart-modal-title').textContent =
+                metric === 'yes' ? 'Yes & Maybe matches over time'
+                : metric === 'applied' ? 'Applied jobs over time'
+                : metric === 'maybe' ? 'Maybe matches over time'
+                : 'Total listings & Yes matches over time';
+            modal.style.display = 'flex';
+            const data = await _loadChartHistory();
+            const canvas = document.getElementById('chart-modal-canvas');
+            _renderChart(canvas, data, metric);
+            canvas.removeEventListener('mousemove', _onModalMouseMove);
+            canvas.addEventListener('mousemove', _onModalMouseMove);
+            canvas.removeEventListener('mouseleave', _onModalMouseLeave);
+            canvas.addEventListener('mouseleave', _onModalMouseLeave);
+        }
+        function _onModalMouseMove(e) {
+            const canvas = e.currentTarget;
+            const pts = canvas._chartPoints;
+            if (!pts || pts.length < 2) return;
+            const rect = canvas.getBoundingClientRect();
+            const mx = (e.clientX - rect.left) * (canvas.width / rect.width);
+            let nearest = null, minDist = Infinity;
+            pts.forEach(pt => { const d = Math.abs(pt.x - mx); if (d < minDist) { minDist = d; nearest = pt; } });
+            const ptTip = document.getElementById('chart-point-tip');
+            const ov = document.getElementById('chart-modal-overlay');
+            const ovCtx = ov.getContext('2d');
+            ovCtx.clearRect(0, 0, ov.width, ov.height);
+            if (nearest && minDist < 30) {
+                const dt = new Date(nearest.d.timestamp);
+                const ts = dt.toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+                const vals = nearest.lines.map(l => `<span style="color:${l.color}">${l.label}: ${l.val}</span>`).join('&nbsp;&nbsp;');
+                ptTip.innerHTML = `<div style="font-size:0.65rem;color:rgba(255,255,255,0.45);margin-bottom:2px">${ts}</div><div style="font-size:0.7rem">${vals}</div>`;
+                ptTip.style.display = 'block';
+                ptTip.style.left = (e.clientX + 14) + 'px';
+                ptTip.style.top = (e.clientY - 50) + 'px';
+                ovCtx.strokeStyle = 'rgba(255,255,255,0.18)'; ovCtx.lineWidth = 1; ovCtx.setLineDash([3, 3]);
+                ovCtx.beginPath(); ovCtx.moveTo(nearest.x, nearest.pT); ovCtx.lineTo(nearest.x, nearest.pT + nearest.cH); ovCtx.stroke();
+                ovCtx.setLineDash([]);
+                nearest.lines.forEach(l => {
+                    ovCtx.fillStyle = l.color;
+                    ovCtx.beginPath(); ovCtx.arc(nearest.x, nearest.y[l.key], 4, 0, Math.PI * 2); ovCtx.fill();
+                });
+            } else {
+                ptTip.style.display = 'none';
+            }
+        }
+        function _onModalMouseLeave() {
+            document.getElementById('chart-point-tip').style.display = 'none';
+            const ov = document.getElementById('chart-modal-overlay');
+            ov.getContext('2d').clearRect(0, 0, ov.width, ov.height);
+        }
+        function _attachChartHover(el, metric) {
+            if (!el) return;
+            el.addEventListener('mouseenter', () => _showChartTooltip(el, metric));
+            el.addEventListener('mouseleave', _scheduleChartHide);
+            el.addEventListener('click', () => _openChartModal(metric));
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            const tip = document.getElementById('chart-tooltip');
+            tip.addEventListener('mouseenter', _cancelChartHide);
+            tip.addEventListener('mouseleave', _scheduleChartHide);
+            document.getElementById('chart-tooltip-canvas').addEventListener('click', () => _openChartModal(tip._metric || 'total'));
+            const modal = document.getElementById('chart-modal');
+            document.getElementById('chart-modal-close').addEventListener('click', () => { modal.style.display = 'none'; document.getElementById('chart-point-tip').style.display = 'none'; });
+            modal.addEventListener('click', e => { if (e.target === modal) { modal.style.display = 'none'; document.getElementById('chart-point-tip').style.display = 'none'; } });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape' && modal.style.display === 'flex') { modal.style.display = 'none'; document.getElementById('chart-point-tip').style.display = 'none'; } });
+        });
+        // ── End history trend chart ────────────────────────────────────────────
+
+        async function triggerReReview() {
+            if (typeof db === 'undefined' || db === null) {
+                alert("Firebase not initialized. Please sign in first.");
+                return;
+            }
+            try {
+                document.getElementById('re-review-btn').disabled = true;
+                document.getElementById('re-review-status').textContent = 'Queued…';
+                document.getElementById('re-review-status').style.color = '#f59e0b';
+                await db.collection('shared_state').doc('re_review_request').set({
+                    status: 'requested',
+                    requestedAt: firebase.firestore.FieldValue.serverTimestamp()
+                });
+            } catch (e) {
+                console.error(e);
+                alert("Failed to trigger re-review: " + e.message);
+                document.getElementById('re-review-btn').disabled = false;
+                document.getElementById('re-review-status').textContent = '';
+            }
+        }
+
+        async function autoMarkUserReviewDone(url) {
+            let currentReview = (sharedJobsState[url] && sharedJobsState[url].user_review) || 'pending';
+            if (currentReview === 'done') return;
+            
+            const tbody = document.getElementById('jobs-body');
+            if (!tbody) return;
+            
+            const rows = tbody.querySelectorAll('tr');
+            let selectElem = null;
+            for (let row of rows) {
+                if (row.getAttribute('data-url') === url) {
+                    const td = row.getElementsByTagName("td")[13];
+                    if (td) {
+                        selectElem = td.querySelector('select');
+                    }
+                    break;
+                }
+            }
+            
+            if (selectElem) {
+                selectElem.value = 'done';
+                handleUserReviewChange(selectElem, url, 'pending');
+            } else {
+                if (typeof db !== 'undefined' && db !== null) {
+                    try {
+                        await db.collection("user_feedback").add({
+                            url: url,
+                            type: "user_review_update",
+                            user_review: 'done',
+                            status: "unread",
+                            timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                        });
+                        
+                        await db.collection("shared_state").doc("job_status").set({
+                            [url]: { user_review: 'done' }
+                        }, { merge: true });
+                    } catch (e) {
+                        console.error("Auto review sync failed", e);
+                    }
+                }
+            }
+        }    
+    </script>
+
+    <!-- History trend chart tooltip -->
+    <div id="chart-tooltip" style="display:none;position:absolute;z-index:9999;background:#161b2e;border:1px solid rgba(255,255,255,0.12);border-radius:0.75rem;padding:0.75rem 1rem 0.6rem;box-shadow:0 20px 50px rgba(0,0,0,0.75);width:350px;">
+        <div id="chart-tooltip-title" style="font-size:0.72rem;font-weight:600;color:rgba(255,255,255,0.55);margin-bottom:0.5rem;font-family:'Space Grotesk',sans-serif;letter-spacing:0.04em;text-transform:uppercase;"></div>
+        <canvas id="chart-tooltip-canvas" width="318" height="130" style="cursor:pointer;" title="Click to expand"></canvas>
+    </div>
+
+    <!-- Chart point hover tip -->
+    <div id="chart-point-tip" style="display:none;position:fixed;z-index:10001;background:#0d1117;border:1px solid rgba(255,255,255,0.15);border-radius:0.5rem;padding:0.35rem 0.6rem;font-family:'Space Grotesk',sans-serif;pointer-events:none;white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,0.6);"></div>
+
+    <!-- Expanded chart modal -->
+    <div id="chart-modal" style="display:none;position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,0.72);align-items:center;justify-content:center;">
+        <div style="background:#161b2e;border:1px solid rgba(255,255,255,0.12);border-radius:1rem;padding:1.25rem 1.5rem;position:relative;width:680px;max-width:95vw;box-shadow:0 30px 80px rgba(0,0,0,0.8);">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;">
+                <div id="chart-modal-title" style="font-size:0.72rem;font-weight:600;color:rgba(255,255,255,0.55);font-family:'Space Grotesk',sans-serif;letter-spacing:0.04em;text-transform:uppercase;"></div>
+                <button id="chart-modal-close" style="background:none;border:none;color:rgba(255,255,255,0.5);font-size:1.4rem;cursor:pointer;padding:0;line-height:1;font-family:sans-serif;">×</button>
+            </div>
+            <div style="position:relative;">
+                <canvas id="chart-modal-canvas" width="628" height="240" style="display:block;width:100%;"></canvas>
+                <canvas id="chart-modal-overlay" width="628" height="240" style="position:absolute;top:0;left:0;width:100%;pointer-events:none;"></canvas>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

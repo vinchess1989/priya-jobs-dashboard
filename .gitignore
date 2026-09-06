@@ -1,0 +1,36 @@
+# Virtual environment
+venv/
+
+# Environment files with credentials
+.env
+.env.local
+
+# Backups
+backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/Editor configs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Node
+node_modules/
+
+# Scratch
+scratch/
+
+# Firebase local cache (not part of the project, changes on every deploy)
+firebase_app/.firebase/
+logs/
+
+# Runtime lock files
+*.lock
