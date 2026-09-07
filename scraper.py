@@ -127,50 +127,26 @@ BLOCKED_TITLE_KEYWORDS = [
 ]
 
 # ─────────────────────────────────────────────────────────────────────────────
-# JOB SOURCES — Semiconductor / VLSI / EDA domain
+# JOB SOURCES — DevOps / Release & Configuration Management / Product Specialist
+# Scope: Finland (Priya is Oulu-based) + remote-EU
 # ─────────────────────────────────────────────────────────────────────────────
-# ── Keyword terms — each has an English variant (all Vineeth sites are English)
+# ── Keyword terms — each has an English variant (all Priya sites are English)
 _KEYWORD_TERMS = [
-    {"en": "semiconductor"},
-    {"en": "VLSI design"},
-    {"en": "ASIC design"},
-    {"en": "FPGA engineer"},
-    {"en": "RTL design engineer"},
-    {"en": "EDA design automation"},
-    {"en": "power integrity"},
-    {"en": "advanced packaging"},
-    {"en": "physical design"},
-    {"en": "SoC design"},
-    {"en": "PDN"},
-    {"en": "PI"},
-    {"en": "EMIR"},
-    {"en": "IR Drop"},
-    {"en": "System power integrity"},
-    {"en": "SI/PI"},
-    {"en": "Thermal"},
-    {"en": "semiconductor director"},
-    {"en": "semiconductor CTO"},
-    {"en": "semiconductor technical leader"},
-    {"en": "semiconductor principal engineer"},
-    {"en": "semiconductor architect"},
+    {"en": "DevOps Engineer"},
+    {"en": "Configuration Manager"},
+    {"en": "Release Manager"},
+    {"en": "Product Specialist"},
 ]
 
 # ── Sites that accept a keyword injected into the URL ─────────────────────
-# All Vineeth keyword sites are English-language platforms.
+# All Priya keyword sites are English-language platforms.
 _KEYWORD_SITE_TEMPLATES = [
     {
-        "id_prefix": "linkedin_ww",
+        "id_prefix": "linkedin_fi",
         "platform": "linkedin",
         "lang": "en",
         "pages": 3,
-        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&sortBy=DD",
-    },
-    {
-        "id_prefix": "linkedin_india",
-        "platform": "linkedin",
-        "lang": "en",
-        "pages": 3,
-        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=India&sortBy=DD",
+        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=Finland&sortBy=DD",
     },
     {
         "id_prefix": "linkedin_eu",
@@ -180,92 +156,40 @@ _KEYWORD_SITE_TEMPLATES = [
         "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=European%20Union&sortBy=DD",
     },
     {
-        "id_prefix": "linkedin_uk",
+        "id_prefix": "linkedin_eu_remote",
         "platform": "linkedin",
         "lang": "en",
         "pages": 2,
-        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=United%20Kingdom&sortBy=DD",
+        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=European%20Union&f_WT=2&sortBy=DD",
     },
     {
-        "id_prefix": "linkedin_fi",
-        "platform": "linkedin",
-        "lang": "en",
-        "pages": 2,
-        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=Finland&sortBy=DD",
-    },
-    {
-        "id_prefix": "indeed_ww",
+        "id_prefix": "indeed_fi",
         "platform": "indeed",
         "lang": "en",
         "pages": 3,
-        "url_template": "https://www.indeed.com/jobs?q={term_enc}&sort=date",
+        "url_template": "https://fi.indeed.com/jobs?q={term_enc}&l=Finland&sort=date",
     },
     {
-        "id_prefix": "indeed_india",
+        "id_prefix": "indeed_remote",
         "platform": "indeed",
         "lang": "en",
         "pages": 3,
-        "url_template": "https://www.indeed.com/jobs?q={term_enc}&l=India&sort=date",
+        "url_template": "https://www.indeed.com/jobs?q={term_enc}&l=Remote&sort=date",
+    },
+    {
+        "id_prefix": "jobly_fi",
+        "platform": "jobly",
+        "lang": "en",
+        "pages": 1,
+        "url_template": "https://www.jobly.fi/tyopaikat?search={term_enc}",
     },
 ]
 
 # ── Fixed sites (career pages, boards that don't fit a keyword URL template)
 FIXED_SITES = [
-    # Glassdoor
-    {"id": "glassdoor_semi", "platform": "glassdoor", "scroll_count": 10, "url": "https://www.glassdoor.com/Job/semiconductor-engineer-jobs-SRCH_KO0,22.htm?sortBy=date_desc"},
-
-    # Major Semiconductor Companies — Career Pages
-    # Intel: landing page only shows ~5 featured jobs; Workday direct gives 20+ via ?q= fix
-    {"id": "intel_careers",           "platform": "intel",           "scroll_count": 8, "url": "https://intel.wd1.myworkdayjobs.com/External?q=engineer"},
-    {"id": "amd_careers",             "platform": "amd",             "scroll_count": 8, "url": "https://careers.amd.com/careers/SearchJobs?sort=posting_date"},
-    {"id": "nvidia_careers",          "platform": "nvidia",          "scroll_count": 8, "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?q=engineer"},
-    {"id": "qualcomm_careers",        "platform": "qualcomm",        "scroll_count": 8, "url": "https://careers.qualcomm.com/careers?query=engineer&sortBy=relevance"},
-    {"id": "broadcom_careers",        "platform": "broadcom",        "scroll_count": 8, "url": "https://broadcom.wd1.myworkdayjobs.com/External_Career?q=engineer"},
-    {"id": "ti_careers",              "platform": "ti",              "scroll_count": 8, "url": "https://careers.ti.com/search-jobs?k=engineer"},
-    {"id": "nxp_careers",             "platform": "nxp",             "scroll_count": 8, "url": "https://nxp.wd3.myworkdayjobs.com/careers?q=engineer"},
-    {"id": "infineon_careers",        "platform": "infineon",        "scroll_count": 8, "url": "https://www.infineon.com/cms/en/careers/jobsearch/?query=engineer"},
-    # STMicro: eightfold.ai is a pure React SPA — only 1 nav link regardless of scroll count; removed
-    # Microchip: expired SSL cert; removed — covered by LinkedIn keyword searches
-    # Renesas: bot-protection chrome-error redirect; removed — covered by LinkedIn
-    # Marvell/ADI/Onsemi: Workday SPA returning ~0 links; removed — covered by LinkedIn
-    {"id": "micron_careers",          "platform": "micron",          "scroll_count": 8, "url": "https://micron.eightfold.ai/careers?query=engineer"},
-    {"id": "mediatek_careers",        "platform": "mediatek",        "scroll_count": 8, "url": "https://careers.mediatek.com/en/jobs"},
-    {"id": "arm_careers",             "platform": "arm",             "scroll_count": 8, "url": "https://careers.arm.com/search-jobs?k=engineer"},
-    # Samsung Semi: semiconductor.samsung.com consistently returns error pages; removed
-    {"id": "tsmc_careers",            "platform": "tsmc",            "scroll_count": 8, "url": "https://careers.tsmc.com/careers/SearchJobs?sort=posting_date"},
-    # GlobalFoundries moved from Workday to Eightfold.ai in 2025
-    {"id": "globalfoundries_careers", "platform": "globalfoundries", "scroll_count": 8, "url": "https://globalfoundries.eightfold.ai/careers?query=engineer"},
-    # SK Hynix: careers.skhynix.com DNS fails; removed
-
-    # EDA / Design Automation Companies
-    # Synopsys: Brassring (old ATS) shut down; new careers site
-    {"id": "synopsys_careers",    "platform": "synopsys",    "scroll_count": 8, "url": "https://careers.synopsys.com/jobs?keywords=engineer&pagesize=20&pagenumber=1"},
-    {"id": "cadence_careers",     "platform": "cadence",     "scroll_count": 8, "url": "https://cadence.wd1.myworkdayjobs.com/External_Careers?q=engineer"},
-    {"id": "siemens_eda_careers", "platform": "siemens_eda", "scroll_count": 8, "url": "https://jobs.siemens.com/careers?query=EDA&location=&pid=&domain=&sort_by=date&triggerGoButton=false"},
-    # Ansys acquired by Synopsys in 2024 — careers merged into Synopsys; removed
-    # Keysight: all 96 links are nav/portal, actual job listings are JS-rendered only; removed
-
-    # Consultancies & Staffing
-    # Tata Elxsi: tataelxsi.com/careers/job-search.html returns 404; removed
-    # SiFive: all links end with /careers suffix, no individual job URLs served statically; removed
-    {"id": "tessolve_careers",   "platform": "tessolve",   "scroll_count": 8, "url": "https://tessolve.darwinbox.com/ms/candidatev2/main/careers/allJobs"},
-    # ISRO/DRDO/BEL/CDAC: government recruitment portals all inaccessible or 404; removed
-
-    # Job Boards
-    {"id": "builtin_semi",  "platform": "builtin",   "scroll_count": 10, "url": "https://builtin.com/jobs?search=semiconductor"},
-    # YC Work at a Startup: query param ignored, returns generic category links only; removed
-    # Wellfound: requires login, returns 0 links; removed
-
-    # European / UK specialist boards
-    {"id": "euro_engineer_jobs", "platform": "euro_engineer_jobs","scroll_count": 8,  "url": "https://www.euroengineerjobs.com/jobs/semiconductor"},
-    {"id": "jobly_fi_engineer",  "platform": "jobly",             "scroll_count": 10, "url": "https://www.jobly.fi/tyopaikat?search=engineer"},
-    {"id": "work_in_finland",    "platform": "work_in_finland",   "scroll_count": 8,  "url": "https://www.workinfinland.com/en/open-jobs/?industry=engineering"},
-    # IC Resources: consistently returns 1 nav link regardless of URL; removed
-
-    # Reddit
-    {"id": "reddit_chipdesign", "platform": "reddit", "scroll_count": 6, "url": "https://old.reddit.com/r/chipdesign/search?q=hiring+OR+freelance+OR+contract+OR+part-time&restrict_sr=on&sort=new&t=all"},
-    {"id": "reddit_ece",        "platform": "reddit", "scroll_count": 6, "url": "https://old.reddit.com/r/ECE/search?q=hiring+OR+freelance+OR+contract+OR+part-time&restrict_sr=on&sort=new&t=all"},
-    {"id": "reddit_hwstartups", "platform": "reddit", "scroll_count": 6, "url": "https://old.reddit.com/r/hwstartups/search?q=hiring+OR+freelance+OR+contract+OR+part-time&restrict_sr=on&sort=new&t=all"},
+    # Finnish general job board — broad sweep, no keyword filter (catches
+    # release/config/DevOps roles that don't surface via exact-keyword search)
+    {"id": "work_in_finland", "platform": "work_in_finland", "scroll_count": 8, "url": "https://www.workinfinland.com/en/open-jobs/"},
 ]
 
 _DEFAULT_SCROLL_COUNT = 8

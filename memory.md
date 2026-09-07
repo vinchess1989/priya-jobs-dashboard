@@ -51,21 +51,66 @@ can't provide. Fixed by pre-creating empty placeholder documents at `shared_stat
 string field, since Firestore's console UI requires at least one field to save a new document) —
 done once, 2026-09-06, before the scraper's first run.
 
+## Real candidate profile (filled in 2026-09-06/07)
+
+Priya's real name is **Priyanga Ramachandran**, email `priyabkc99@gmail.com`, based in Oulu,
+Finland. Sourced from two resumes in `originial resumes/` (note the misspelled folder name — kept
+as-is, matches what's on disk):
+- `Priya_LatestCV.pdf` — her general/master CV, used to fill `job_requirements.md`'s Candidate
+  Profile and Hard Rejections (15 years in Configuration Management / Release Management / DevOps
+  / embedded-firmware, most recently Topcon Healthcare then Elektrobit Automotive Finland, both
+  English-language workplaces — she does not speak Finnish or Swedish).
+- `Priyanga_CV_ICEYE_TechReleaseManager.pdf` — a resume she already tailored for a Technical
+  Release Manager application at ICEYE. **Not yet wired into any tailoring skill** (the six
+  auxiliary `.claude/commands/*.md` skills — resume tailoring, form-filling, etc. — are still
+  out of scope for this project by design). Keep this file as the reference/style template
+  whenever resume-tailoring automation is set up for `priya_jobs` later — it shows how she
+  reframes the same underlying experience toward a release-management-titled role, which is the
+  pattern any future tailoring prompt for her should follow.
+
+`job_requirements.md` is now real (not a placeholder) — domain is DevOps Engineer / Configuration
+Manager / Release Manager / Product Specialist, scope is Finland + remote-EU (deliberately chosen
+over Finland-only or fully-global — she's open to EU remote roles, not just Finland-based ones).
+Unlike Manju's dashboard, Priya's target seniority is Senior/Lead/Manager-level (matches her ~15
+years), not entry-level — don't copy Manju's "reject Senior/Manager titles" hard-rejection pattern
+here, it's inverted.
+
+`_KEYWORD_TERMS`/`_KEYWORD_SITE_TEMPLATES`/`FIXED_SITES` in `scraper.py` were rewritten from
+vineeth_jobs's semiconductor-specific config to the 4 keywords above, across LinkedIn (Finland, EU,
+EU-remote), Indeed (fi.indeed.com Finland, indeed.com Remote), Jobly.fi, and a broad
+workinfinland.com sweep. All the semiconductor-company career-page `FIXED_SITES` entries
+(Intel/AMD/NVIDIA/etc.) and the chip-design subreddits were removed — not applicable to this
+domain. Note: `platform` in `generate_targets()` only affects pagination for `linkedin`/`indeed`
+(see `_page_url`); every other site name is scraped with the same generic link-harvest logic, so
+adding/renaming a `FIXED_SITES` entry doesn't require new parsing code, just a working URL.
+
+`firestore.rules`' `isAuthorized()` and `firebase_app/index.html`'s `ALLOWED_EMAILS` now include
+both `munchnambiar@gmail.com` and `priyabkc99@gmail.com` — deployed 2026-09-07. Priya can now use
+write-actions (e.g. "mark applied") once she signs in with Google on her own account.
+
+## Verified end-to-end (2026-09-06/07)
+
+Manual foreground run confirmed: scrape → LLM review (Groq rotation with per-model cooldown,
+falling back to local `hermes-3-llama-3.1-8b`) → `update_git()` commit → push, all working. Fixed
+one bootstrap issue along the way: `update_git()`'s `git add` includes `deleted.json`, which only
+gets created on the *first* delete event — since that hadn't happened yet, `git add` failed with
+exit 128 (pathspec matches zero files) until an empty `deleted.json` (`[]`, same
+`json.dump(..., indent=2)` + `encoding="utf-8", newline="\n"` convention as everything else) was
+created manually once. GitHub Pages (`https://vinchess1989.github.io/priya-jobs-dashboard/jobs.json`)
+and Firebase Hosting (`https://priya-jobs-dashboard.web.app`) both confirmed serving live data.
+
 ## Open/unresolved
 
-- `job_requirements.md` is a placeholder template — real candidate background/requirements not
-  yet filled in. The scraper's keyword/site-search terms (inherited from `vineeth_jobs`'s VLSI/
-  semiconductor-specific search URLs) also still need replacing once Priya's real job domain is
-  decided — they currently still reflect vineeth_jobs's search terms verbatim.
-- `firestore.rules`' `isAuthorized()` and `firebase_app/index.html`'s `ALLOWED_EMAILS` only list
-  `munchnambiar@gmail.com` (the account owner, for setup/testing) — add Priya's real email to
-  both once known, or she won't be able to use any write-actions (e.g. "mark applied") on her own
-  dashboard (read/update access is open regardless, so browsing isn't blocked).
-- The six auxiliary `.claude/commands/*.md` skills (resume tailoring, form-filling, etc.) haven't
-  been adapted for this project — core scrape+review+dashboard pipeline only, by design for now.
+- The six auxiliary `.claude/commands/*.md` skills (resume tailoring, form-filling, etc.) still
+  haven't been adapted for this project — core scrape+review+dashboard pipeline only, by design
+  for now. When they are, use `Priyanga_CV_ICEYE_TechReleaseManager.pdf` (see above) as the
+  tailoring reference/style template.
+- Full authenticated dashboard testing (a write action like "mark applied", signed in as
+  `priyabkc99@gmail.com`) still needs Priya to do it herself — not something to automate via
+  browser automation with her credentials.
 - No Windows Scheduled Task installed yet (`setup_windows_scheduler.bat` exists but hasn't been
   run) — intentionally last in the setup sequence, only after the scraper has been verified
-  working manually at least once.
+  working manually at least once (now done — see above).
 
 ---
-Last updated: 2026-09-06
+Last updated: 2026-09-07

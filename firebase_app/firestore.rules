@@ -5,8 +5,7 @@ service cloud.firestore {
     function isAuthorized() {
       return request.auth != null && (
         request.auth.token.email == "munchnambiar@gmail.com"
-        // TODO: add Priya's real email here once known, e.g.:
-        // || request.auth.token.email == "priya@example.com"
+        || request.auth.token.email == "priyabkc99@gmail.com"
       );
     }
 
