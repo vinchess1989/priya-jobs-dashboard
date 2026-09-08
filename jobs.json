@@ -4792,14 +4792,13 @@
     "url": "https://hu.linkedin.com/jobs/view/release-manager-test-automation-lead-at-arm-4428423088",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Hard rejection due to mandatory Finnish/Swedish language requirement, which she does not speak.",
+    "reason": "The role is a match for her DevOps/CI/CD/release management background, but it's located in Budapest Hungary which violates her strict exclusion of US-based roles and any non-EU locations. She would not consider this job.",
     "id": "a172b059",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Delivery Manager",
@@ -4807,15 +4806,14 @@
     "location": "Riga, Riga, Latvia",
     "url": "https://lv.linkedin.com/jobs/view/delivery-manager-at-arrise-4435478195",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Riga, Latvia, which does not match Priya's requirement for a role in Finland or EU/Europe.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good fit for her DevOps/CI-CD/release management background, but it's unclear if they require fluent Finnish/Swedish as the posting doesn't state language requirements.",
     "id": "71f70933",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-07-11",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager (H/F)",
@@ -4824,14 +4822,13 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-seqone-4455062068",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Paris, France which does not match her strict exclusion of US and non-EU locations.",
+    "reason": "The role requires fluent French, which Priya does not speak.",
     "id": "d5a23174",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager Logiciel \u2013 AI Engineering Solutions (F/H)",
@@ -4839,15 +4836,14 @@
     "location": "La Ciotat, Provence-Alpes-C\u00f4te d'Azur, France",
     "url": "https://fr.linkedin.com/jobs/view/release-manager-logiciel-%E2%80%93-ai-engineering-solutions-f-h-at-thales-4462850055",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in La Ciotat, France which does not match the candidate's strict exclusion of the United States and requirement for Finland or EU-based roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is a Release Manager for AI Engineering Solutions, which matches her DevOps/Release Management background and experience in regulated industries.",
     "id": "6ce53c9e",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "il y a 5 jours",
+    "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/thales_release_manager_logiciel___ai__6ce53c9e.txt"
   },
   {
     "title": "Salesforce Release Manager",
@@ -4856,14 +4852,13 @@
     "url": "https://pt.linkedin.com/jobs/view/salesforce-release-manager-at-inetum-4262605489",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which does not match Priya's strict exclusion of non-EU/Finland locations.",
+    "reason": "The job is located in Portugal, which does not match the candidate's strict exclusion of US-based jobs and preference for Finland/EU roles.",
     "id": "4120c49e",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salesforce Release Manager (French)",
@@ -4872,14 +4867,13 @@
     "url": "https://pt.linkedin.com/jobs/view/salesforce-release-manager-french-at-inetum-4262610073",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal which does not match the candidate's strict exclusion of US-based jobs and her preference for Finland/EU roles.",
+    "reason": "The job is located in Lisboa, Lisbon, Portugal which does not match Priya's requirement to be based in Finland or EU/Europe. She has strict non-negotiable exclusions against any US roles and also specifically excludes other countries outside Finland and the EU.",
     "id": "18871ad0",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -4888,14 +4882,13 @@
     "url": "https://pt.linkedin.com/jobs/view/release-manager-at-nox-health-4422604832",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal which does not match her strict exclusion of non-EU locations (Finland, EU only).",
+    "reason": "The role is a pure software engineering position focused on feature development, not release management or DevOps/CI/CD. Her experience has been in those latter areas for her last 8+ years.",
     "id": "5812b3ce",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager H/F",
@@ -4904,14 +4897,13 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-lectra-4462424998",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cestas, Nouvelle-Aquitaine, France which does not match her strict exclusion of the United States and her preference for roles in Finland or EU/Europe.",
+    "reason": "The job is located in Cestas, Nouvelle-Aquitaine, France which does not match her strict exclusion of US-based jobs and her preference for Finland or EU/European remote roles.",
     "id": "36c5707f",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager (m/w/d) Online Apotheke",
@@ -4920,14 +4912,13 @@
     "url": "https://de.linkedin.com/jobs/view/release-manager-m-w-d-online-apotheke-at-dirk-rossmann-gmbh-4443237975",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent German, which Priya does not speak.",
+    "reason": "The job is located in Burgwedel, Lower Saxony, Germany which does not match the candidate's strict exclusion of the United States and requirement to be based in Finland or EU/Europe.",
     "id": "a55817a6",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-09",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release manager Salesforce",
@@ -4939,11 +4930,10 @@
     "reason": "The role requires fluent French, which Priya does not speak.",
     "id": "81ca787a",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "1 semaine",
-    "deadline": "N/A",
+    "posted_date": "2026-09-02",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Platform Release Manager (Remote)",
@@ -4951,15 +4941,14 @@
     "location": "Lisbon, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/platform-release-manager-remote-at-capgemini-engineering-4443623519",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal which does not match her strict exclusion of non-EU/Finland locations.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on domain/role type, but it's located in Lisbon, Portugal which would require relocation from her current location in Finland. She is open to roles anywhere in Finland and remote EU/European roles, but this specific Lisbon posting does not state that it is open to Finnish candidates or that it allows for remote work.",
     "id": "e107a77b",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager (F/H)",
@@ -4967,15 +4956,14 @@
     "location": "Montpellier, Occitanie, France",
     "url": "https://fr.linkedin.com/jobs/view/release-manager-f-h-at-cr%C3%A9dit-agricole-technologies-et-services-4431934747",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Montpellier, France, which does not match her strict exclusion for jobs in France.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her DevOps/CI/CD and release management experience, but the location (Montpellier, France) would require relocation which she may not be willing to do.",
     "id": "dc76ac4b",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2026-09-04",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manageur International & PLM (3DX) F/H",
@@ -4984,14 +4972,13 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manageur-international-plm-3dx-f-h-at-actual-talent-4458064516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Corbeil-Essonnes, \u00cele-de-France, France which does not match her strict exclusion of the United States and preference for Finland/EU roles.",
+    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/DevOps-focused like her background. She would not be a fit.",
     "id": "345943cd",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Platform Release Manager (Remote)",
@@ -4999,15 +4986,14 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/platform-release-manager-remote-at-capgemini-engineering-4446334454",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal which does not match her strict exclusion of US-based roles and her preference for Finland/EU locations over other non-US options.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on domain/role type and experience level, but the location is slightly uncertain as it's listed as 'Lisboa, Lisbon, Portugal'. Priya is open to roles in Finland and EU/Europe broadly, so this could be a fit if the job is fully remote or allows relocation from Finland.",
     "id": "28ac396f",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-08-10",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -5015,15 +5001,14 @@
     "location": "Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-manager-at-softserve-4458627139",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Poland, which does not match her strict exclusion of non-EU/Finland locations.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's release management and DevOps experience, especially in a regulated software context. It's located in Poland which she is open to.",
     "id": "88ba1ab9",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/softserve_release_manager_88ba1ab9.txt"
   },
   {
     "title": "Release Manager F/H",
