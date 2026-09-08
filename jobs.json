@@ -1775,31 +1775,29 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/senior-software-engineer-devops-platform-engineering-2750369",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires an approved security clearance statement, which Priya does not have.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's background, with DevOps/CI/CD and platform engineering focus in a Finnish company.",
     "id": "f20de87e",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/dna_oyj_senior_software_engineer__devo_f20de87e.txt"
   },
   {
     "title": "Facebook",
-    "company": "Extract from page",
+    "company": "Jobly.fi",
     "location": "Oulu, Finland",
     "url": "https://www.facebook.com/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a company website (Jobly.fi) and does not contain actual job details to evaluate.",
+    "reason": "The job posting is for a company called Jobly.fi, which appears to be a job search website rather than an actual hiring company. It does not list any specific open job roles with requirements and details.",
     "id": "72167a89",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Instagram",
@@ -1808,14 +1806,13 @@
     "url": "https://instagram.com/jobly.fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a general job search aggregator site, not a specific company or role. It does not contain enough information to evaluate fit.",
+    "reason": "The job posting does not contain a specific date, deadline, company name, location, or detailed role description to evaluate against the criteria.",
     "id": "6cbf22da",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Linkedin",
@@ -1824,14 +1821,13 @@
     "url": "https://linkedin.com/company/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a staffing/recruiting company (Jobly.fi) and does not have specific details about an open role. It's just general information about the company.",
+    "reason": "The job posting is for a staffing and recruiting company, not a specific technical role that matches Priya's background.",
     "id": "cb4a0d29",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Specialist",
@@ -1840,14 +1836,13 @@
     "url": "https://fi.linkedin.com/jobs/view/configuration-specialist-at-iceye-4432885515",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. This hard rejects based on her career arc and experience level.",
+    "reason": "The role is a pure software development position, not release/CM/DevOps-focused like her background.",
     "id": "7219e2e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1856,14 +1851,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207645",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a SAP Variant Configuration Transformation Lead, which does not match her technical communication and product specialist background in release management, CI/CD, and regulated industries. She has no SAP CPQ or configuration modeling experience.",
+    "reason": "The role is a pure SAP CPQ configuration modeling/architecture position, not a DevOps/CI/CD/release management role. Her experience has been CI/CD ownership, not hands-on coding or architecture.",
     "id": "24d8c7e1",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Manager, CAD applications",
@@ -1872,14 +1866,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-cad-applications-at-neste-4460960922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Solution Manager focused on CAD applications, while Priya's background and skills are in DevOps/CI/CD, release management, configuration management, and regulated product specialist roles.",
+    "reason": "The role is a Solution Manager for CAD applications, which does not match her technical release/CI/CD background. The job is also located in Porvoo, Finland, which violates her strict exclusion of any US-based roles.",
     "id": "17c43b90",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1887,15 +1880,14 @@
     "location": "Oulu, North Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456210615",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for SAP Variant Configuration transformation, not DevOps/CI/CD/release management.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves SAP Variant Configuration transformation, which is a close match to her CM/Release Management background in regulated industries. However, it's not an exact match and she would need more details on how much hands-on coding/configuration work vs architecture/standards-setting the role entails.",
     "id": "7792763e",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Architect, PLM",
@@ -1904,14 +1896,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460366683",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Solution Architect for PLM, which does not match her technical communication and product specialist background in release management, CI/CD, and regulated industries.",
+    "reason": "The job is located in Raisio, Finland which does not match her strict exclusion of non-Finland locations beyond EU.",
     "id": "26a4181d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Application Specialist (ERP)",
@@ -1919,15 +1910,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure Application Specialist (ERP) position focused on IFS system support and maintenance, which does not match her strong DevOps/CI/CD/release management background. She has some ERP experience but this is not her primary strength.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her DevOps/CI-CD/release management background, but the job description does not clearly state if it's remote in Europe or an on-site Tampere position. More clarification needed.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Maintenance processes and tools Expert",
@@ -1935,15 +1925,14 @@
     "location": "Vaasa, Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/maintenance-processes-and-tools-expert-at-w%C3%A4rtsil%C3%A4-4460360486",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a hard rejection due to being located in Vaasa, Finland, which does not match her strict exclusion of any jobs in the United States and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves maintenance processes, which is a close match to her background in configuration management and release pipelines.",
     "id": "a7269837",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Implementation Consultant",
@@ -1952,14 +1941,13 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software development position, not release/CI/CD-focused like her background.",
+    "reason": "The role requires 5-8 years of IT integrations and configuration experience, preferably in e-invoicing. Priya has over 15 years of experience but it is not specified what her background is in.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "System Engineer",
@@ -1968,14 +1956,13 @@
     "url": "https://fi.linkedin.com/jobs/view/system-engineer-at-iceye-4427036824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is pure software engineering development, not release/CM/DevOps-focused like her background.",
+    "reason": "The role is a pure software engineering position focused on feature development, not release management, CI/CD ownership, or product specialist work. Her last 8+ years have been in those areas, not coding.",
     "id": "84c95aff",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Implementation Consultant",
@@ -1984,14 +1971,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-consultant-at-thomson-reuters-4460058834",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/CI-CD/release-management role like her background. She would be overqualified and not a fit.",
+    "reason": "The role requires IT integrations and configuration experience within e-invoicing, which does not match her background in release management, DevOps, and product specialist roles.",
     "id": "c7fcb0b3",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ERP Solutions Manager",
@@ -1999,15 +1985,14 @@
     "location": "Kauhajoki, South Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/erp-solutions-manager-at-ikh-group-4462205522",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure sales position titled 'Product Specialist', which she has explicitly ruled out as matching her Topcon Healthcare Solutions experience.",
+    "matches_requirements": "yes",
+    "reason": "The role is a good fit for Priya's experience with ERP systems, release management, and technical documentation.",
     "id": "c7deb945",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt"
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
