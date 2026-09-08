@@ -183,13 +183,35 @@ _KEYWORD_SITE_TEMPLATES = [
         "pages": 1,
         "url_template": "https://www.jobly.fi/tyopaikat?search={term_enc}",
     },
+    {
+        "id_prefix": "duunitori",
+        "platform": "duunitori",
+        "lang": "en",
+        "scroll_count": 12,
+        "url_template": "https://duunitori.fi/tyopaikat?haku={term_enc}&jarjestys=uusimmat",
+    },
+    {
+        "id_prefix": "kuntarekry",
+        "platform": "kuntarekry",
+        "lang": "en",
+        "scroll_count": 8,
+        "url_template": "https://www.kuntarekry.fi/fi/tyopaikat/?sq={term_enc}&sort=-publish_time",
+    },
 ]
 
-# ── Fixed sites (career pages, boards that don't fit a keyword URL template)
+# ── Fixed sites (career pages, boards that don't fit a keyword URL template) —
+# broad, no-keyword sweeps sorted by newest, matching manju_jobs's site list
+# (Duunitori/Indeed/Jobly/Kuntarekry/Työmarkkinatori/MeetFrank), adapted to
+# Finland + remote-EU scope instead of Worldwide.
 FIXED_SITES = [
-    # Finnish general job board — broad sweep, no keyword filter (catches
-    # release/config/DevOps roles that don't surface via exact-keyword search)
-    {"id": "work_in_finland", "platform": "work_in_finland", "scroll_count": 8, "url": "https://www.workinfinland.com/en/open-jobs/"},
+    {"id": "linkedin_fi_broad", "platform": "linkedin",        "pages": 3,         "url": "https://www.linkedin.com/jobs/search?location=Finland&sortBy=DD"},
+    {"id": "duunitori_broad",   "platform": "duunitori",       "scroll_count": 12, "url": "https://duunitori.fi/tyopaikat?jarjestys=uusimmat"},
+    {"id": "indeed_fi_broad",   "platform": "indeed",          "pages": 4,         "url": "https://fi.indeed.com/jobs?l=Finland&sort=date"},
+    {"id": "jobly_broad",       "platform": "jobly",           "scroll_count": 10, "url": "https://www.jobly.fi/tyopaikat"},
+    {"id": "kuntarekry_broad",  "platform": "kuntarekry",      "scroll_count": 8,  "url": "https://www.kuntarekry.fi/fi/tyopaikat/?sort=-publish_time"},
+    {"id": "tyomarkkinatori",   "platform": "tyomarkkinatori", "scroll_count": 10, "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat?sort=published,desc"},
+    {"id": "meetfrank",         "platform": "meetfrank",       "scroll_count": 10, "url": "https://meetfrank.com/jobs/"},
+    {"id": "work_in_finland",   "platform": "work_in_finland", "scroll_count": 8,  "url": "https://www.workinfinland.com/en/open-jobs/"},
 ]
 
 _DEFAULT_SCROLL_COUNT = 8
@@ -377,9 +399,11 @@ def parse_generic(soup, base_url):
         href_lower = href.lower()
         path_part = href_lower.split('?')[0]
 
-        # Must contain a job-related path keyword
+        # Must contain a job-related path keyword (English ATS patterns + Finnish job-board patterns,
+        # the latter for Duunitori/Oikotie/Jobly/Kuntarekry/Tyomarkkinatori/Work in Finland)
         if not any(kw in href_lower for kw in ['/job', '/career', '/position', '/vacancy', '/opening',
-                                                '/requisition', '/view', '/rc/clk', '/apply', '/posting']):
+                                                '/requisition', '/view', '/rc/clk', '/apply', '/posting',
+                                                '/tyopaikka', '/tyopaikat/', '/avoimet-tyopaikat']):
             continue
 
         # Workday (and similar ATSes) append ?q=<search_term> to job detail URLs.
@@ -398,16 +422,19 @@ def parse_generic(soup, base_url):
 
         # Skip search/list filter queries, sorting options, base list pages, non-job pages
         if any(skip in href_lower for skip in [
-            '?search=', '?q=', '?sort=', '?query=',
+            '?search=', '?q=', '?sort=', '?query=', '?haku=', 'jarjestys=',
             '/careers?', '/job-search?', '/search-jobs?',
             'destination=search', '/login', '/signup', '/register',
             '/pricing', '/about', '/contact', '/blog',
-            '/job-bookmarks', '/saved-jobs', 'apply-now'
+            '/job-bookmarks', '/saved-jobs', 'apply-now',
+            'tyopaikat.oikotie.fi/tyopaikat?', 'rekrytointi', 'tyopaikkailmoitus',
+            '/tyonantajalle', '/yhteystiedot', '/palvelut/',
         ]):
             continue
 
         clean_path = path_part.rstrip('/')
-        if clean_path.endswith('/careers') or clean_path.endswith('/jobs') or clean_path.endswith('/openings'):
+        if clean_path.endswith('/careers') or clean_path.endswith('/jobs') or clean_path.endswith('/openings') \
+                or clean_path.endswith('/tyopaikat') or clean_path.endswith('/avoimet-tyopaikat'):
             continue
 
         title = a.text.strip()
