@@ -3286,17 +3286,18 @@
   },
   {
     "title": "Configuration Specialist",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "ICEYE",
+    "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=e327a98d40f84888",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The role is located in Espoo, Finland which does not match Priya's strict exclusion of US-based roles.",
     "id": "83b81ba0",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Configuration Specialist",
@@ -3304,13 +3305,14 @@
     "location": "Extract from page",
     "url": "https://fi.indeed.com/viewjob?jk=456789abcdef0123",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The job is located in India, which violates Priya's strict exclusion of US and non-EU locations.",
     "id": "69dbdc2b",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Find salaries",
@@ -3344,17 +3346,17 @@
   },
   {
     "title": "IT Service Data and Configuration Product Owner, Tampere or Helsinki",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Academic Work",
+    "location": "Tampere or Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/it-service-data-and-configuration-product-owner-tampere-or-helsinki-2745565",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is for IT service data and configuration management, not DevOps/CI/CD/release engineering. Priya's background is in those areas.",
     "id": "3bb50043",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
