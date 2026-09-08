@@ -99,6 +99,36 @@ exit 128 (pathspec matches zero files) until an empty `deleted.json` (`[]`, same
 created manually once. GitHub Pages (`https://vinchess1989.github.io/priya-jobs-dashboard/jobs.json`)
 and Firebase Hosting (`https://priya-jobs-dashboard.web.app`) both confirmed serving live data.
 
+## Finnish site coverage added to parity with manju_jobs (2026-09-08)
+
+`scraper.py` now mirrors manju_jobs's Finnish site list (LinkedIn, Duunitori, Indeed.fi, Jobly.fi,
+Kuntarekry, Työmarkkinatori, MeetFrank, Work in Finland — see `_KEYWORD_SITE_TEMPLATES`/
+`FIXED_SITES`), scoped to Finland + remote-EU instead of manju's Worldwide-remote. This required
+two real fixes, not just copying URLs:
+- `parse_generic()`'s job-URL keyword allowlist was English-ATS-only (inherited from vineeth_jobs)
+  and silently dropped every Finnish site's links. Added `/tyopaikka`, `/tyopaikat/tyo/`,
+  `/avoimet-tyopaikat` (with matching skip patterns for category/browse/filter pages and
+  Duunitori's `/lisaa_suosikkeihin` favorite-toggle duplicate links).
+- **Duunitori's real job-detail path is specifically `/tyopaikat/tyo/<slug>`**, not the plain
+  `/tyopaikat/` substring used at first — that broader pattern also matched Duunitori's own
+  category pages (`/tyopaikat/ala/...`) and browse pages (`/tyopaikat/selaa`), which don't contain
+  real postings. Verified fix live: `duunitori_devops_engineer` returns 21 real, on-domain
+  DevOps Engineer postings.
+- Duunitori's job listing content only appears after ~10+ scroll iterations (lazy-loaded); a
+  quick 4-scroll test looked completely broken (nav-only links) but the production
+  `scroll_count: 12` config was fine all along — don't re-diagnose this as broken from a
+  short manual scroll count.
+- **Kuntarekry currently yields 0 results** even after accepting its Cookiebot consent banner —
+  its "Tulokset" (Results) section renders structurally empty in headless Playwright (likely a
+  third-party Talentech widget that doesn't fire under these conditions). Left in the config for
+  parity since a 0-yield site is harmless, but don't spend more time re-debugging this without a
+  new lead — plain cookie-dismiss + scroll doesn't fix it.
+
+The initial semiconductor-domain test data (90 stale jobs.json entries, 69 job_descriptions files,
+seen_urls.json, jobs_history.json) was wiped on 2026-09-08 since none of it matched Priya's actual
+domain — see the commit "Add manju_jobs's Finnish site list and reset stale semiconductor test
+data". `checkpoint.json`'s `target_index` was reset to 0 for the new target list.
+
 ## Open/unresolved
 
 - The six auxiliary `.claude/commands/*.md` skills (resume tailoring, form-filling, etc.) still

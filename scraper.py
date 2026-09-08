@@ -400,10 +400,13 @@ def parse_generic(soup, base_url):
         path_part = href_lower.split('?')[0]
 
         # Must contain a job-related path keyword (English ATS patterns + Finnish job-board patterns,
-        # the latter for Duunitori/Oikotie/Jobly/Kuntarekry/Tyomarkkinatori/Work in Finland)
+        # the latter for Duunitori/Jobly/Kuntarekry/Tyomarkkinatori/Work in Finland). Duunitori's
+        # real job-detail path is specifically /tyopaikat/tyo/<slug> — the site's own category/
+        # browse pages (/tyopaikat/ala/..., /tyopaikat/selaa) also contain plain '/tyopaikat/' and
+        # would otherwise be mistaken for job postings.
         if not any(kw in href_lower for kw in ['/job', '/career', '/position', '/vacancy', '/opening',
                                                 '/requisition', '/view', '/rc/clk', '/apply', '/posting',
-                                                '/tyopaikka', '/tyopaikat/', '/avoimet-tyopaikat']):
+                                                '/tyopaikka', '/tyopaikat/tyo/', '/avoimet-tyopaikat']):
             continue
 
         # Workday (and similar ATSes) append ?q=<search_term> to job detail URLs.
@@ -429,6 +432,7 @@ def parse_generic(soup, base_url):
             '/job-bookmarks', '/saved-jobs', 'apply-now',
             'tyopaikat.oikotie.fi/tyopaikat?', 'rekrytointi', 'tyopaikkailmoitus',
             '/tyonantajalle', '/yhteystiedot', '/palvelut/',
+            '/lisaa_suosikkeihin',
         ]):
             continue
 
