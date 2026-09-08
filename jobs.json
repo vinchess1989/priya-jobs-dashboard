@@ -110,13 +110,13 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/platform-engineer-at-polar-squad-4367220098",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for Priya's skills, especially her DevOps and CI/CD experience from Elektrobit. However, it does require Finnish language fluency which she lacks.",
     "id": "c7a65f68",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "posted_date": "2026-07-22",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -230,15 +230,14 @@
     "location": "Barcelona, Catalonia, Spain",
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-aws-kubernetes-y-terraform-remoto-at-slashmobility-4430868278",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Barcelona, Catalonia, Spain which does not match the candidate's strict exclusion of the United States and preference for Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position with specific requirements for AWS, Kubernetes, Terraform and monitoring tools - matching Priya's key skills.",
     "id": "2f4c9d80",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/slashmobility_devops_engineer__aws__kubernet_2f4c9d80.txt"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -247,14 +246,13 @@
     "url": "https://bg.linkedin.com/jobs/view/senior-devops-engineer-at-dreamix-4459829524",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which does not match the candidate's strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The job is located in Sofia, Bulgaria, which does not match the candidate's strict exclusion of non-EU/Finland locations.",
     "id": "39867e23",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Distributed Cloud | DevOps Engineer",
@@ -263,14 +261,13 @@
     "url": "https://pt.linkedin.com/jobs/view/distributed-cloud-devops-engineer-at-devoteam-4389578029",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal, which does not match Priya's strict exclusion of US-based jobs and her preference for Finland/EU locations.",
+    "reason": "The role is based in Porto, Portugal which does not match the candidate's location preference of Finland or EU/Europe remote roles.",
     "id": "71ff6bbc",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -278,15 +275,14 @@
     "location": "Piet\u00e0, Piet\u00e0, Malta",
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-at-machete-4449824879",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Malta, which does not match the candidate's requirement for jobs only in Finland and the EU.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position at Machete, which exactly matches her key domain/role type from the candidate profile.",
     "id": "7ad28dcb",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 4 semanas",
+    "posted_date": "2026-08-12",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/machete_devops_engineer_7ad28dcb.txt"
   },
   {
     "title": "Programador/a Senior DevOps",
@@ -294,15 +290,14 @@
     "location": "Murcia, Regi\u00f3n de Murcia, Spain",
     "url": "https://es.linkedin.com/jobs/view/programador-a-senior-devops-at-serem-consultor%C3%ADa-empresarial-4455054056",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Murcia, Spain which violates her strict exclusion of US-based jobs and her preference for Finland/EU roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong DevOps Engineer match, but it's unclear if they're open to hiring from Finland/EU. The 'preferentemente' in 'residir preferentemente en alguna de las siguientes zonas' could mean they are open to non-local hires, or it might be excluding Finnish candidates.",
     "id": "1db05ccb",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -311,14 +306,13 @@
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-at-hiberus-4459661329",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Valladolid, Castilla and Leon, Spain - this violates her strict exclusion of US-based jobs and also does not meet her preference for Finland/EU roles.",
+    "reason": "The role is a pure software engineering feature development position, not DevOps/CI/CD/release management which matches her background.",
     "id": "1e13be8a",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur DevOps F/H",
@@ -327,14 +321,13 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-f-h-at-mbda-4428872296",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Le Plessis-Robinson, \u00cele-de-France, France, which does not match the candidate's strict exclusion of jobs in or restricted to the United States.",
+    "reason": "The job is located in Le Plessis-Robinson, \u00cele-de-France, France which does not match the candidate's strict exclusion of jobs in or restricted to the United States. It also does not match her preference for roles in Finland or EU/Europe.",
     "id": "8fb0e94c",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -343,14 +336,13 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-diggers-4435984009",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lille, France, which does not match her strict exclusion of the United States and her preference for roles in Finland or the EU/Europe.",
+    "reason": "The job is located in Lille, Hauts-de-France, France which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "79827539",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-07-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -358,15 +350,14 @@
     "location": "Paris, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-diggers-4140687984",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Paris, France which does not match Priya's strict exclusion of jobs in the United States. She also does not speak French and the job requires fluency.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position located in Paris, France which matches Priya's skills and preferences.",
     "id": "1aaa9e8c",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "il y a 1 an",
+    "posted_date": "1 year ago",
     "deadline": "N/A",
-    "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "description_file": "job_descriptions/diggers_ing_nieur_devops_h_f_1aaa9e8c.txt",
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "DevOps Engineer - Platform Team CUC (m/w/d)",
@@ -375,14 +366,13 @@
     "url": "https://sk.linkedin.com/jobs/view/devops-engineer-platform-team-cuc-m-w-d-at-deutsche-telekom-4448152929",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kosice, Slovakia, which does not match her strict exclusion for non-EU/Finland locations.",
+    "reason": "The role is a pure software engineering position focused on feature development, not release management, DevOps/CI-CD ownership, or product specialist work. Her career has been in those latter areas for over 8 years.",
     "id": "8ce820a3",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps",
@@ -390,15 +380,14 @@
     "location": "Porto, Porto, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/devops-at-dellent-4462943598",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Porto, Portugal, which does not match Priya's hard rejection of non-EU/Finland locations.",
+    "matches_requirements": "yes",
+    "reason": "Matches her DevOps background, hybrid work model allowed, and located in Porto which she is open to.",
     "id": "f33ad09f",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 1 dia",
+    "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/dellent_devops_f33ad09f.txt"
   },
   {
     "title": "Senior DevOps Engineer (m/w/d) f\u00fcr PACCA Programm",
@@ -407,14 +396,13 @@
     "url": "https://sk.linkedin.com/jobs/view/senior-devops-engineer-m-w-d-f%C3%BCr-pacca-programm-at-deutsche-telekom-4448154742",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kosice, Slovakia, which does not match Priya's requirement for a role in Finland or the EU/Europe.",
+    "reason": "The job is located in Ko\u0161ice, Slovakia, which does not match the candidate's requirement to only consider roles in Finland or EU/Europe.",
     "id": "b56b97f5",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -423,14 +411,13 @@
     "url": "https://se.linkedin.com/jobs/view/senior-devops-engineer-at-carasent-group-4451696108",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match on skills but is located in Gothenburg, Sweden which would require relocation from Finland. Priya may be open to relocating within Finland or EU-wide remote roles, but this Swedish location is not an exact fit.",
+    "reason": "The role is a strong DevOps match for her skills, but the location is outside Finland/EU in Sweden which would normally be a hard rejection. However, she is open to relocating within Finland and to remote roles based in the EU more broadly - so this job could potentially fit if it allows either of those work models.",
     "id": "d578f1d8",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 4 semanas",
-    "deadline": "N/A",
+    "posted_date": "2026-08-12",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DEVOPS",
@@ -439,14 +426,13 @@
     "url": "https://mt.linkedin.com/jobs/view/devops-at-religa-4456902267",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Malta, which does not fit her strict exclusion for working in the United States.",
+    "reason": "The job is located in Malta, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/European locations.",
     "id": "6c0c8da5",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "2026-09-17",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
