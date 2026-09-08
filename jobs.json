@@ -950,14 +950,14 @@
     "location": "Den Bosch, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-mstack-4253716245",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position at mstack located in Den Bosch, Netherlands which matches Priya's background and experience.",
     "id": "f3abae89",
     "source": "linkedin_eu_remote_devops_engineer_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null
+    "posted_date": "1 year ago",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/mstack_devops_engineer_f3abae89.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -1010,13 +1010,13 @@
     "location": "Vilnius, Vilniaus, Lithuania",
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-nasdaq-4445487843",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Vilnius, Lithuania, which does not match Priya's hard rejection of non-EU/Finland locations.",
     "id": "bfc74c76",
     "source": "linkedin_eu_remote_devops_engineer_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
