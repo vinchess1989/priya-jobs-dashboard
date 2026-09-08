@@ -4970,13 +4970,14 @@
     "location": "Corbeil-Essonnes, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/release-manageur-international-plm-3dx-f-h-at-actual-talent-4458064516",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Corbeil-Essonnes, \u00cele-de-France, France which does not match her strict exclusion of the United States and preference for Finland/EU roles.",
     "id": "345943cd",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "posted_date": "2026-09-02",
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Platform Release Manager (Remote)",
@@ -4984,13 +4985,13 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/platform-release-manager-remote-at-capgemini-engineering-4446334454",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Lisbon, Portugal which does not match her strict exclusion of US-based roles and her preference for Finland/EU locations over other non-US options.",
     "id": "28ac396f",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-08-10",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
