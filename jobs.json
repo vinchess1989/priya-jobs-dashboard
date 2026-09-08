@@ -335,13 +335,14 @@
     "location": "Lille, Hauts-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-diggers-4435984009",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The job is located in Lille, France, which does not match her strict exclusion of the United States and her preference for roles in Finland or the EU/Europe.",
     "id": "79827539",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "posted_date": "2026-07-10",
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -349,13 +350,14 @@
     "location": "Paris, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-diggers-4140687984",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Paris, France which does not match Priya's strict exclusion of jobs in the United States. She also does not speak French and the job requires fluency.",
     "id": "1aaa9e8c",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 an",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "DevOps Engineer - Platform Team CUC (m/w/d)",
@@ -363,13 +365,13 @@
     "location": "Ko\u0161ice, Kosice, Slovakia",
     "url": "https://sk.linkedin.com/jobs/view/devops-engineer-platform-team-cuc-m-w-d-at-deutsche-telekom-4448152929",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Kosice, Slovakia, which does not match her strict exclusion for non-EU/Finland locations.",
     "id": "8ce820a3",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "posted_date": "2026-08-09",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
