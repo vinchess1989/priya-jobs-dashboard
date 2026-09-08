@@ -1341,14 +1341,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=911bf5ba2af2c3f2",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Eemshaven, Netherlands; Saint-Ghislain, Belgium; Fredericia, Denmark; Hamina, Finland; Dublin, Ireland; Frankfurt, Germany. This violates the strict non-negotiable exclusion for any jobs located in or restricted to the United States.",
+    "reason": "The role is for a Technical Solutions Engineer I, which does not closely match her current Senior Software Engineering and Release Management experience. She would be overqualified.",
     "id": "32d7eb81",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Test Automation Engineer",
@@ -1356,15 +1355,14 @@
     "location": "Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=10d1d5183d8b289d",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Finland, which is outside Priya's acceptable locations.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good fit for her DevOps/CI/CD and release management experience, but the job description does not clearly state whether this Senior Test Automation Engineer position requires fluent Finnish/Swedish. Her current Finland-based employers operate in English.",
     "id": "6149e026",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Flight Software Deployment Engineer",
@@ -1372,15 +1370,14 @@
     "location": "Espoo; Warsaw",
     "url": "https://fi.indeed.com/rc/clk?jk=8c578324c3b6a834",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Espoo, Poland/Warsaw which does not match her requirement for a job based in Finland or EU/Europe.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "91b8cdfc",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
-    "deadline": "2026-09-13",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Principal Software Engineer",
@@ -1389,14 +1386,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2b9a5d13444b76a5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland (HQ - Liikennevirta Oy \u00b7 HYBRID), which does not match her strict exclusion of US-based roles and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is for a Principal Software Engineer to shape Virta's technical vision and drive engineering standards, which does not match Priya's current release management, CI/CD, configuration management focus. She would be overqualified.",
     "id": "5c9b1662",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud Platform Engineer",
@@ -1404,15 +1400,14 @@
     "location": "Helsinki - Finland, Tampere - Finland, Turku - Finland, Oulu - Finland, Kuopio - Finland, Jyv\u00e4skyl\u00e4 - Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=711de292a9d78f63",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland (explicitly stated) which does not match her hard rejection of non-EU/Finland locations beyond a US-specific rule.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her DevOps/CI-CD/release management background, but it's unclear if she would need to relocate within Finland. The posting does not specify EU-wide remote eligibility.",
     "id": "f3420ef8",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior/Staff Platform Observability Engineer",
@@ -1421,14 +1416,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3fbcb1122d825255",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Espoo, Finland which does not match the candidate's strict exclusion of US-based roles and her requirement to work in Finland or EU/Europe.",
+    "reason": "The role is a hard rejection due to being located in Espoo, Finland which does not match the candidate's strict exclusion of any jobs located in the United States.",
     "id": "3946939c",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior AI Engineer",
@@ -1437,14 +1431,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ffdbe754c5adca9d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior AI Engineer position, which falls under the Hard Rejections for pure software engineering feature development roles. Priya's background has been in release management, DevOps, and product specialist roles rather than hands-on coding.",
+    "reason": "The role is a strong match on domain/role type and experience level, but it's located in Espoo Finland (not a hard rejection), and the job posting text does not state that ICEYE requires fluent Finnish or Swedish as a condition of employment. Since Priya does not speak either language fluently, this would be a 'maybe' if the location were outside Finland or if the posting stated English was acceptable; but since it's in Espoo and silent on languages other than requiring them, it's a no.",
     "id": "a8494cf4",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Lead Architect",
@@ -1453,14 +1446,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=65e19ac213fce7b5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/CM-focused like her background. She would need to pivot away from her recent experience.",
+    "reason": "The role requires fluent Finnish, which Priya does not speak.",
     "id": "b36ac148",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Lead Architect",
@@ -1469,14 +1461,13 @@
     "url": "https://fi.indeed.com/viewjob?jk=789abcdef0123456",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering feature development position, not release/CI/CD ownership like her background. It's also located in the US which she strictly avoids.",
+    "reason": "The role is a pure software engineering feature development position, which she has not done in over 8 years. Her entire career since Nov 2012 has been release/CM/DevOps-focused, not hands-on coding.",
     "id": "f6272112",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Principal Engineer",
@@ -1484,15 +1475,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=79b8b9971db03a7f",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates her strict exclusion of US-based jobs.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on skills but the 'Remote (Worldwide)' location makes it uncertain if Priya would be interested or eligible to apply given her Finland-based situation and preference for EU/Europe.",
     "id": "274fdbaa",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevSecOps Engineer",
@@ -1500,15 +1490,14 @@
     "location": "Multiple Locations \u00b7 HYBRID",
     "url": "https://fi.indeed.com/rc/clk?jk=cdd8a82d35501ac2",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates her strict exclusion of US-based jobs and her inability to relocate there.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on skills but the 'Hybrid' work model may be uncertain for her without more details. She's open to Finland and remote EU roles, but hybrid isn't clearly stated as allowed.",
     "id": "a8228c5d",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Integration & Release Engineer",
@@ -1516,15 +1505,14 @@
     "location": "Multiple Locations \u00b7 Hybrid",
     "url": "https://fi.indeed.com/rc/clk?jk=d6a60ac8d91779ea",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in multiple locations in Finland, but also offers remote work based anywhere in Europe. This does not match her strict exclusion of US-based roles and preference for Finland/EU roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a close match on integration & release engineering, but lacks some of the AI/autonomy-specific simulation and autonomy-connectivity focus that would make it an exact fit for her background.",
     "id": "75a77ca4",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Deployment Engineer (FLS Finland)",
@@ -1532,15 +1520,14 @@
     "location": "Turku, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=7e8d313ffcc46c7b",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Turku, Finland which does not match her strict exclusion for non-EU/Finland locations.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's skills and experience, especially her DevOps/CI/CD/release management background. It's located in Turku, Finland which she is open to.",
     "id": "f69d9ec0",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/fls_group_software_deployment_engineer___f69d9ec0.txt"
   },
   {
     "title": "Backend Engineer (all genders) - Remote Nordics Europe",
@@ -1548,31 +1535,29 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/rc/clk?jk=97cbfd3588468506",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires strong backend engineering experience in Go, which is not a match for Priya's skills and background.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her DevOps/CI-CD/release management background, and it's fully remote in Europe which she is open to. However, it's unclear if the 'real-time policy engine' work would be more feature development (which she has not done since ~2012) or more configuration management/automation of infrastructure-as-code policies. More details on the exact mix of coding vs release/CI-CD/devops in this role would help determine a final match.",
     "id": "423c14fe",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Data Engineer",
     "company": "Benjamin",
-    "location": "Extract from page",
+    "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/rc/clk?jk=cfb4b68e1c9e669a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Data Engineer, which does not match her mid-senior level technical release/CM experience. She has no data engineering background.",
+    "reason": "The role is for a Senior Data Engineer, which she has never held before. She's looking to stay in her current senior release/CM/DevOps-focused roles.",
     "id": "e1bc7f40",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
