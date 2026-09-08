@@ -545,14 +545,14 @@
     "location": "Ta' Xbiex, Ta' Xbiex, Malta",
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-zecure-gaming-at-betsson-group-4437790389",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Malta, which does not match the candidate's strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
     "id": "c7895e8f",
     "source": "linkedin_eu_devops_engineer_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-08-25",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-120b"
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "DevOps Engineer",
