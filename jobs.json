@@ -2212,7 +2212,7 @@
     "url": "https://fi.linkedin.com/jobs/view/it-operations-and-application-portfolio-manager-at-w%C3%A4rtsil%C3%A4-4459148753",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "reason": "Page load or parsing error.",
     "id": "095917d1",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "N/A",
@@ -2227,7 +2227,7 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-managed-file-transfer-mft-edi-at-fiskars-group-4457320334",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "reason": "Page load or parsing error.",
     "id": "a6a18706",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "N/A",
@@ -2241,15 +2241,14 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/it-operations-and-application-portfolio-manager-at-w%C3%A4rtsil%C3%A4-4459155737",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not DevOps/CI/CD/release management like her background. She would be overqualified.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "a82a9c78",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "2026-09-02",
-    "deadline": "2026-09-13",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "BIM Manager",
@@ -2257,15 +2256,14 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-john-sisk-son-ltd-4409265801",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a BIM Manager focused on construction projects, while her background is in software engineering, DevOps, and release management. There's no overlap.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 7 column 15 (char 303)",
     "id": "0de2628d",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "2026-08-26",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -2274,14 +2272,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207644",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a SAP Variant Configuration Transformation Lead, which does not match her background in DevOps/CI-CD/release management. She has no SAP experience.",
+    "reason": "The role is a SAP Variant Configuration Transformation Lead, which does not match her DevOps/CI-CD/release management background.",
     "id": "316bdc49",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Lead",
@@ -2289,15 +2286,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/devops-lead-at-cgi-4460314816",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of US-based jobs and preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Lead position at CGI, which matches her technical release and configuration management background.",
     "id": "501341a7",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-11",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/cgi_devops_lead_501341a7.txt"
   },
   {
     "title": "Process & Journey Manager",
@@ -2306,14 +2302,13 @@
     "url": "https://fi.linkedin.com/jobs/view/process-journey-manager-at-if-insurance-4462707062",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Process & Journey Manager focused on customer journeys, business processes and digital capabilities in insurance - this does not match her technical release/CI-CD/configuration management background. The location is also hard-rejected Espoo Finland which she excludes.",
+    "reason": "The role is a Process & Journey Manager for an insurance company, which does not match her technical release/CM/DevOps background in automotive and healthcare.",
     "id": "326f68e8",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-09-04",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Design and Engineering Tools Deployment Lead NB Zone",
@@ -2322,14 +2317,13 @@
     "url": "https://fi.linkedin.com/jobs/view/design-and-engineering-tools-deployment-lead-nb-zone-at-schneider-electric-4390142630",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. Also, it's in Helsinki which she might consider but isn't a strict no.",
+    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified and it's not a strong match.",
     "id": "ddd78a41",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Process & Journey Manager",
@@ -2338,14 +2332,13 @@
     "url": "https://fi.linkedin.com/jobs/view/process-journey-manager-at-if-insurance-4462489684",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Process & Journey Manager focused on customer journeys and process development, not DevOps/CI/CD/release management. Her key skills are in those areas.",
+    "reason": "The role is a Process & Journey Manager for insurance, which does not closely match her technical release/DevOps background and product specialist experience.",
     "id": "22b0ba0a",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Digital Quality System Lead and Digital Quality System Manager",
@@ -2354,14 +2347,13 @@
     "url": "https://fi.linkedin.com/jobs/view/digital-quality-system-lead-and-digital-quality-system-manager-at-orion-pharma-4462281460",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills, which Priya does not have.",
+    "reason": "The role requires a clinical medical license, which Priya does not have despite her Topcon Healthcare experience being regulatory/quality adjacent.",
     "id": "052e7bf1",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "N/A",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Regulatory Manager",
@@ -2369,15 +2361,14 @@
     "location": "Tampere Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/product-regulatory-manager-at-patria-4457215096",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her experience with regulated product compliance, but the location is outside Finland/EU.",
     "id": "47bf05d2",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-08",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Team Leader, Document Coordinator",
@@ -2386,14 +2377,13 @@
     "url": "https://fi.linkedin.com/jobs/view/team-leader-document-coordinator-at-sumitomo-shi-fw-4444949878",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a senior leadership position leading a global team, while Priya's most relevant experience is in technical documentation and release management for regulated products. The job also requires knowledge of document management systems (M-Files is an advantage), which she does not have.",
+    "reason": "The role is a leadership position for document management, which does not directly match her technical release/CI/CD configuration experience. The job also requires strong English but no Finnish/Swedish, which she cannot speak.",
     "id": "736e6a64",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2401,15 +2391,14 @@
     "location": "Link\u00f6ping, \u00d6sterg\u00f6tland County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-invensity-4331452080",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Link\u00f6ping, Sweden which does not match the candidate's preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a match for her configuration management, release management, and product specialist experience in regulated industries.",
     "id": "d6f6d7b4",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2025-11-13",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/invensity_configuration_manager_d6f6d7b4.txt"
   },
   {
     "title": "Configuration Manager",
@@ -2417,15 +2406,14 @@
     "location": "Gothenburg, V\u00e4stra G\u00f6taland County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4462820318",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Gothenburg, V\u00e4stra G\u00f6taland County, Sweden which is outside Finland and the EU. This violates a hard rejection rule.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for Priya's configuration management and release management experience, but the location in Sweden may be an issue since she does not speak Finnish or Swedish.",
     "id": "30769f8d",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2434,14 +2422,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-tistel-4454503500",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Stockholm, Sweden which is outside Finland and EU/Finland criteria. It also requires Swedish language fluency which Priya does not speak.",
+    "reason": "The job is located in Stockholm, Sweden which does not match her strict non-negotiable exclusion of US-based roles.",
     "id": "4bd10207",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (Ingl\u00e9s alto)",
