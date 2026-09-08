@@ -64,20 +64,17 @@ def pull_from_git():
 
 def main():
     print("Starting Autonomous Local LLM Pipeline Orchestrator (Priya Jobs)...")
-    
+
     # Step 0: Sync with remote
     pull_from_git()
-    
-    # Step 1: Scrape new jobs
+
+    # Step 1: scraper.py is a self-contained pipeline (scrape + LLM review via
+    # _call_llm_with_fallback + git commit/push all in one) -- unlike vineeth_jobs's
+    # orchestrator, there are no separate curate_jobs.py/evaluate_with_local_llm.py
+    # steps here; those don't exist in this project and would just fail if called.
     if not run_script("scraper.py"): return
-    
-    # Step 2: Curate jobs (Keyword filtering)
-    if not run_script("curate_jobs.py"): return
-    
-    # Step 3: Evaluate jobs with local LLM
-    if not run_script("evaluate_with_local_llm.py"): return
-    
-    print("\nOrchestrator finished successfully! (Steps 1-3)")
+
+    print("\nOrchestrator finished successfully!")
 
 if __name__ == "__main__":
     main()

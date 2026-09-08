@@ -170,13 +170,6 @@ _KEYWORD_SITE_TEMPLATES = [
         "url_template": "https://fi.indeed.com/jobs?q={term_enc}&l=Finland&sort=date",
     },
     {
-        "id_prefix": "indeed_remote",
-        "platform": "indeed",
-        "lang": "en",
-        "pages": 3,
-        "url_template": "https://www.indeed.com/jobs?q={term_enc}&l=Remote&sort=date",
-    },
-    {
         "id_prefix": "jobly_fi",
         "platform": "jobly",
         "lang": "en",
