@@ -3351,12 +3351,12 @@
     "location": "Tampere or Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/it-service-data-and-configuration-product-owner-tampere-or-helsinki-2745565",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role requires ITIL certification, ServiceNow experience, and CMDB/Service Data Management expertise which is a strong mismatch for Priya's background in embedded/firmware engineering, release management, and DevOps.",
     "id": "3bb50043",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -3472,14 +3472,13 @@
     "url": "https://www.jobly.fi/tyopaikka/erp-system-specialist-2744982",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which does not match her strict exclusion of US-based jobs and her lack of Finnish/Swedish language skills.",
+    "reason": "The role is for an ERP System Specialist, which involves hands-on NetSuite ERP system administration and development work that Priya does not have. She has more release/CM/DevOps experience than direct ERP/systems admin background.",
     "id": "4f1f0ae5",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Tampere/Pirkanmaa",
@@ -3488,14 +3487,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-tampere-pirkanmaa-2743997",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is pure feature-development software engineering, not release/CI/CD ownership or configuration management.",
+    "reason": "The role is for a software engineer focused on feature development, not release management/DevOps like her background.",
     "id": "05db82a7",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Support Specialist \u2013 CloudCharge / DEFA eMobility",
@@ -3504,14 +3502,13 @@
     "url": "https://www.jobly.fi/tyopaikka/technical-support-specialist-cloudcharge-defa-emobility-2743922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language fluency, which Priya does not speak.",
+    "reason": "The role requires fluency in Finnish, which Priya does not speak.",
     "id": "f16326b2",
     "source": "jobly_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-02",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tietojenk\u00e4sittelyn opettaja",
@@ -3519,15 +3516,14 @@
     "location": "Joensuu, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/tietojenkasittelyn-opettaja-sdsuu-20535506",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a teaching position at an educational institution (Karelia University of Applied Sciences) rather than a Dev/DevOps/EDA/VLSI industry job.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her background in release management, CI/CD, and regulated industries like automotive (Elektrobit) and healthcare (Topcon). It's a senior product specialist position with quality/regulatory focus.",
     "id": "6dd34433",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/karelia_ammattikorke_tietojenk_sittelyn_opettaja_6dd34433.txt"
   },
   {
     "title": "Haussa myyji\u00e4 Helsinkiin, Turkuun & Ouluun",
@@ -3536,14 +3532,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/sector-alarm-haussa-myyjia-helsinkiin-tampereelle-turkuun-turku-sdsuu-20531731",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which does not match the candidate's strict non-negotiable exclusion of any role in the United States.",
+    "reason": "The role is a quota-carrying sales position, not a product specialist or technical support role like her Topcon experience. It's mislabeled as 'Myyj\u00e4' (Salesperson) in Finnish.",
     "id": "c8790afe",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-09-01",
-    "deadline": "30.9. klo 00:00",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "EY Trainee Program",
@@ -3552,14 +3547,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/ernst-young-ey-trainee-program-sdsuu-20512921",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an unpaid volunteer opportunity, which is a hard rejection.",
+    "reason": "The role is an entry-level trainee program, which she is overqualified for with her ~15 years of experience. It's also explicitly stated to be open only to students and recent graduates.",
     "id": "37cde389",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-08-25",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "WSP:ll\u00e4 avoinna useita rooleja rakennuttamisessa (Tampere, Oulu, Rovaniemi, Vaasa tai Sein\u00e4joki)",
@@ -3567,15 +3561,14 @@
     "location": "Tampere, Oulu, Rovaniemi, Vaasa, Sein\u00e4joki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/wsp-finland-wsplla-avoinna-useita-rooleja-rakennuttamisessa-tampere-oulu-tai-rovaniemi-sdsuu-20479402",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a general 'Product Specialist' position, not specific to release management, CI/CD, or regulated industries. Her strong fit is in those specialized technical roles, not generic product support.",
+    "matches_requirements": "yes",
+    "reason": "The role of 'Projektijohtaja rakennuttamisen palveluihin' (Project Manager in Construction Services) closely matches her experience in release management and technical communication, especially given the mention of coordinating cross-team readiness tracking and go/no-go decisions. The location is open to Finland-wide roles.",
     "id": "e1ead95d",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/wsp_finland_wsp_ll__avoinna_useita_rooleja_e1ead95d.txt"
   },
   {
     "title": "Toimihenkil\u00f6it\u00e4 datakeskushankkeeseen",
@@ -3584,14 +3577,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/toimihenkiloita-datakeskushankkeeseen-sesxe-20484510",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lappeenranta, Finland, which does not match Priya's location preference of being open to roles anywhere in Finland (she is based in Oulu) or remote roles based in the EU/Europe. The role also does not fit her specific technical and regulatory domain background.",
+    "reason": "The job is located in Lappeenranta, Finland, which does not match the candidate's requirement to only consider roles in Finland or EU/Europe.",
     "id": "8a0365eb",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-08-12",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyntiedustaja Renoa - Useita paikkakuntia",
@@ -3600,14 +3592,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/myyntiedustaja-renoa-useita-paikkakuntia-srsen-20484879",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which does not match Priya's exclusion for non-EU/Finland locations.",
+    "reason": "The job is located in Finland, which violates the strict non-negotiable exclusion of US-based roles.",
     "id": "b0a0700f",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-08-14",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "jobbland.se",
@@ -3616,14 +3607,13 @@
     "url": "https://jobbland.se",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a job search engine, not a specific company hiring for roles. It does not list an actual open job.",
+    "reason": "The job posting is for a Swedish job board (Jobbland.se) and does not list an actual open job. It's not a specific job ad to evaluate.",
     "id": "d447bad3",
     "source": "duunitori_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "jobbsafari.se",
@@ -3632,14 +3622,13 @@
     "url": "https://jobbsafari.se",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is in Swedish, but the candidate profile is in English and does not indicate fluency in Swedish. The job description text also mentions 'F\u00f6r arbetsgivare' which translates to 'For employers', suggesting it may be a general company page rather than an actual job listing.",
+    "reason": "The job posting is in Swedish, which Priya does not speak.",
     "id": "2111cd7b",
     "source": "duunitori_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "jobbland.no",
@@ -3648,14 +3637,13 @@
     "url": "https://jobbland.no",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is in Norwegian, not English as required.",
+    "reason": "The posting contains no specific job role or responsibilities, so it cannot be matched to the candidate's DevOps/Release/Configuration management profile.",
     "id": "ff714fb0",
     "source": "duunitori_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "jobbsafari.no",
@@ -3664,14 +3652,13 @@
     "url": "https://jobbsafari.no",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Oslo, Norway which does not match her strict exclusion of US locations and requirement to be based in Finland or EU/Europe.",
+    "reason": "The job is located in Oslo, Norway which does not match the candidate's strict exclusion of US-based jobs and her preference for Finland or EU locations.",
     "id": "bbf70527",
     "source": "duunitori_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Lead",
@@ -3679,15 +3666,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/devops-lead-at-danfoss-4439098724",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type and location, but may be too senior for her experience level. She would likely need to negotiate down from 'Senior' to 'Lead' or 'Mid-level'.",
+    "matches_requirements": "yes",
+    "reason": "Strong DevOps/Platform Engineering role with good match on skills and experience level, located in Finland",
     "id": "1c9cfd91",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/danfoss_devops_lead_1c9cfd91.txt"
   },
   {
     "title": "DevOps Lead",
