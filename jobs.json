@@ -13297,14 +13297,13 @@
     "url": "https://it.linkedin.com/jobs/view/junior-product-specialist-studi-commercialisti-at-inplacement-it-4443265144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Lombardy, Italy which does not match her requirement of being open to roles anywhere in Finland or EU/Europe.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which she has explicitly ruled out in her job search criteria.",
     "id": "05deeb79",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktspezialist (m/w/d) Installationstechnik",
@@ -13313,14 +13312,13 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-m-w-d-installationstechnik-at-lq-mechatronik-systeme-gmbh-4425780601",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an on-site installation technician position, not a DevOps/CI-CD/release management role that matches her background.",
+    "reason": "The role is a pure sales position titled 'Product Specialist' but focused on outbound sales and quota, not technical product support. Her prior 'Product Specialist' experience at Topcon was quality/technical/regulatory, not sales.",
     "id": "5b373d45",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "3 kuukautta sitten",
+    "posted_date": "2026-06-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktov\u00fd/aplika\u010dn\u00ed specialista / Produktov\u00e1/aplika\u010dn\u00ed specialistka pro angiografick\u00e9 syst\u00e9my",
@@ -13328,15 +13326,14 @@
     "location": "Prague, Prague, Czechia",
     "url": "https://cz.linkedin.com/jobs/view/produktov%C3%BD-aplika%C4%8Dn%C3%AD-specialista-produktov%C3%A1-aplika%C4%8Dn%C3%AD-specialistka-pro-angiografick%C3%A9-syst%C3%A9my-at-siemens-healthineers-4459211473",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type and location, but lacks the 15+ years of experience Priyanga has. She would likely be overqualified.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her background in release management, CI/CD, and regulated product specialist roles. The location is open to Finland and remote EU/European roles.",
     "id": "d1d98e4a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/siemens_healthineers_produktov__aplika_n__specialis_d1d98e4a.txt"
   },
   {
     "title": "Produktspezialist Lichttechnik im technischen Vertrieb (m/w/d)",
@@ -13345,14 +13342,13 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-lichttechnik-im-technischen-vertrieb-m-w-d-at-lightpower-gmbh-4459973268",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires German language fluency, which Priya does not speak.",
+    "reason": "The role is a pure sales position titled 'Product Specialist' that requires quota-carrying sales experience, which does not match her prior technical/product specialist roles focused on quality/regulatory documentation and not sales.",
     "id": "491f5154",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "PRODUCT SPECIALIST \u2013 ANESTHESIA & CRITICAL CARE",
@@ -13361,14 +13357,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-%E2%80%93-anesthesia-critical-care-at-siare-engineering-international-group-s-p-a-4460288657",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a product specialist for anesthesia & critical care medical devices, which does not match her semiconductor/VLSI/EDA industry background and experience.",
+    "reason": "The role is a technical product specialist focused on anesthesia and critical care medical devices, which does not match her background in embedded systems, release management, and regulated software engineering. She has no clinical experience.",
     "id": "821a1cf7",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Field Product Specialist \u2013 Central Germany",
@@ -13377,14 +13372,13 @@
     "url": "https://de.linkedin.com/jobs/view/field-product-specialist-%E2%80%93-central-germany-at-cordis-4394751131",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position with quota, not a technical product specialist or DevOps/CI-CD role. She has experience in those areas but not direct sales.",
+    "reason": "The role is a quota-carrying sales position titled 'Field Product Specialist' which she would be immediately rejected for based on her prior experience (her own 'Product Specialist' role at Topcon was quality/technical, not sales). This matches the 'Quota-Carrying Sales Roles Mislabeled as \"Product Specialist\"' hard rejection rule.",
     "id": "0e95e641",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "International Product Specialist Orthopaedics",
@@ -13393,14 +13387,13 @@
     "url": "https://it.linkedin.com/jobs/view/international-product-specialist-orthopaedics-at-wws-careers-4448155527",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist role like her current one.",
+    "reason": "The role is a quota-carrying sales position mislabeled as 'Product Specialist', which Priya's prior Product Specialist experience (Topcon) was quality/technical, not sales.",
     "id": "d3f23bfa",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technisch Productspecialist Bedrijfswageninrichting",
@@ -13409,14 +13402,13 @@
     "url": "https://nl.linkedin.com/jobs/view/technisch-productspecialist-bedrijfswageninrichting-at-vehikit-van-equipment-4454762852",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position titled 'Product Specialist', which she hard rejects due to being quota-carrying and mislabeled. Her own 'Product Specialist' experience at Topcon was quality/technical, not sales.",
+    "reason": "The job is located in Waalwijk, Netherlands, which does not match the candidate's requirement for roles in Finland or EU/Europe.",
     "id": "a9c5fc3d",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Biosurgery | Piemonte",
@@ -13425,14 +13417,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-biosurgery-piemonte-at-johnson-johnson-medtech-4403440154",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a clinical sales position focused on biosurgery products, which does not match her technical configuration management/DevOps background. It's also located in Italy rather than Finland/EU.",
+    "reason": "The role is located in Pomezia, Latium, Italy which does not match the candidate's requirement for roles in Finland or EU/Europe.",
     "id": "71b6c58a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u2b55 Produktov\u00fd specialista - Pr\u016fmyslov\u00e9 vakuov\u00e9 technologie (\u010cR/SK) \ud83d\udd1d",
@@ -13441,14 +13432,13 @@
     "url": "https://cz.linkedin.com/jobs/view/%E2%AD%95-produktov%C3%BD-specialista-pr%C5%AFmyslov%C3%A9-vakuov%C3%A9-technologie-%C4%8Dr-sk-%F0%9F%94%9D-at-profeskontakt-s-r-o-4454179718",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Prague, Czechia, which does not match her strict exclusion of US-based jobs and preference for Finland/EU roles.",
+    "reason": "The role requires fluent Finnish/Swedish, which Priya does not speak.",
     "id": "0183a153",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist (m/f/x)* Digitale Kieferorthop\u00e4die",
@@ -13456,15 +13446,14 @@
     "location": "Berlin, Berlin, Germany",
     "url": "https://de.linkedin.com/jobs/view/product-specialist-m-f-x-digitale-kieferorthop%C3%A4die-at-solventum-4456368870",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Product Specialist in digital dental healthcare, which closely matches Priya's current and prior experience at Topcon Healthcare and Elektrobit Automotive. It's based in Berlin, Germany, which fits her preference for Finland or EU/European remote roles.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluency in Finnish/Swedish, which Priya does not speak.",
     "id": "1b25e7e2",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/solventum_product_specialist__m_f_x___di_1b25e7e2.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Healthcare Division",
@@ -13472,15 +13461,14 @@
     "location": "Cesena, Emilia-Romagna, Italy",
     "url": "https://it.linkedin.com/jobs/view/product-specialist-healthcare-division-at-onit-4364378551",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a sales/business development position, not a technical release/CM role.",
+    "matches_requirements": "yes",
+    "reason": "Matches her technical product specialist background with a healthcare focus, and is located in Finland which she is open to.",
     "id": "80ee9e82",
     "source": "linkedin_eu_product_specialist_p2",
-    "posted_date": "1 mese fa",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/onit_product_specialist_healthcare__80ee9e82.txt"
   },
   {
     "title": "German-Speaking Product Specialist",
@@ -13489,14 +13477,13 @@
     "url": "https://ie.linkedin.com/jobs/view/german-speaking-product-specialist-at-cpl-4462416575",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires German fluency, which Priya does not speak.",
+    "reason": "The role requires German language fluency, which Priya does not have.",
     "id": "8af110cb",
     "source": "linkedin_eu_product_specialist_p2",
-    "posted_date": "6 giorni fa",
+    "posted_date": "1 settimana fa",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Operating Room (M/F/D))",
@@ -13505,14 +13492,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-operating-room-m-f-d-at-getinge-4432710002",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Lombardy, Italy which does not match her strict exclusion for non-EU/Finland locations.",
+    "reason": "The role is a quota-carrying sales position mislabeled as 'Product Specialist', which she does not have experience in. Her actual background is technical/product specialist, not sales.",
     "id": "9b18e9e7",
     "source": "linkedin_eu_product_specialist_p2",
-    "posted_date": "3 giorni fa",
+    "posted_date": "4 giorni fa",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Product Specialist Issuing",
@@ -13521,14 +13507,13 @@
     "url": "https://it.linkedin.com/jobs/view/senior-product-specialist-issuing-at-banca-sella-4448570633",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Italy which does not match her strict exclusion of US-based jobs and her preference for Finland/EU roles.",
+    "reason": "The role is a pure sales position titled 'Product Specialist' which she's been disqualified from by our rules.",
     "id": "9d435133",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Hebamme als Clinical Product Specialist - Fetal Monitoring/Perinatal Systems (all genders)",
