@@ -16837,30 +16837,28 @@
     "url": "https://www.jobly.fi/tyopaikka/ruotsinkielinen-asiakasneuvoja-espanjaan-fuengirolaan-2753776",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a Swedish-speaking customer advisor position in Fuengirola, Spain, which does not match her Finnish-only language skills. She speaks fluent English but no Finnish or Swedish.",
+    "reason": "The role is for a Swedish-speaking customer service representative in Spain, which does not match her proficiency in Norwegian and Finnish. The job also requires no technical skills.",
     "id": "e759f4a0",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Service Manager, Data Services, K IT Common Operations/Finance tiimiin K-ryhm\u00e4\u00e4n",
-    "company": "Extract from page",
+    "company": "K-ryhm\u00e4",
     "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a6d62bf5-3633-48f4-829b-0e2545eb8d87/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates the strict non-negotiable exclusion for Priya to work in the United States.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her release management, DevOps, and product specialist experience in a regulated industry. The location is open to Finland or remote EU roles.",
     "id": "9dafc975",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/k_ryhm__service_manager__data_services_9dafc975.txt"
   },
   {
     "title": "Timpuri",
@@ -16869,14 +16867,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a429734d-a23b-4f62-8974-65aa78e88f04/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for construction laborers, not her technical/quality/product specialist background.",
+    "reason": "The role is for construction laborers (timpuri, kirvesmies) rather than a technical configuration management/release engineering position. Her background is in software release processes and DevOps, not manual construction work.",
     "id": "c555c02f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-01",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "HR-/ty\u00f6maa-assistentti maanrakennusalan yritykseen",
@@ -16885,14 +16882,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5f00058e-6ce6-4556-9dd5-0558d355bc87/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sotkamo, Finland which does not match her strict exclusion of anywhere in the United States and her preference for roles based in Finland or the EU.",
+    "reason": "The role is for an HR/Worksite Assistant in a construction industry project, which does hands-on Excel and office document work. Priya's background is in technical communication, product specialist roles, release management, DevOps, and regulated industries - not administrative or construction project assistant work.",
     "id": "5142fded",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Johdon sihteeri",
@@ -16901,14 +16897,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/07475f01-bc78-407d-83a3-7dfc78a417f3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a general administrative assistant position, not matching her technical DevOps/Release Management background and skills.",
+    "reason": "The job is located in Tampere, Finland, which does not match her strict exclusion of US-based roles and her preference for EU/European locations.",
     "id": "39ebfa3d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-24",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Vastaanottohoitaja Yliopistolliseen el\u00e4insairaalaan",
@@ -16917,14 +16912,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2bf41025-2ccc-429d-bb2f-ed086f44e6ce/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located at Helsingin yliopisto (University of Helsinki) in Helsinki, Finland, which does not match the strict exclusion for US-based roles.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "23578ee1",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "M\u00e4\u00e4r\u00e4aikainen taloushallinnon asiantuntija Ouluun",
@@ -16932,15 +16926,14 @@
     "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b1836814-e0b5-4d0f-a070-2109850af169/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a temporary financial controller position, not a DevOps/Release Management/Product Specialist role.",
+    "matches_requirements": "yes",
+    "reason": "Matches her background in release management, CI/CD, and regulated industries - a strong fit for her experience.",
     "id": "6e23e6ff",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/aallon_group_oyj_m__r_aikainen_taloushallinnon__6e23e6ff.txt"
   },
   {
     "title": "Raudoittaja Ouluun",
@@ -16949,14 +16942,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a54fd2fe-3b8f-4015-9bf8-3a8e8440cc84/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction field welder, not a DevOps/Release Engineer with regulated product experience.",
+    "reason": "The role is for a construction worker (raudoittaja) and not a technical DevOps/Release Manager position that matches her skills.",
     "id": "2deed706",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Agentic AI Engineer",
@@ -16965,14 +16957,13 @@
     "url": "https://fi.linkedin.com/jobs/view/agentic-ai-engineer-at-supermetrics-4457289054",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a software engineering position focused on AI infrastructure and agent deployment, not release management, configuration, or DevOps. It's also in Helsinki, not Finland.",
+    "reason": "The role is for an AI Engineer focused on platform infrastructure, which doesn't match her background in release management, configuration, and DevOps. She has some AI experience but it's not her primary focus.",
     "id": "d0d47992",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Backend Engineer",
@@ -16981,14 +16972,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-backend-engineer-at-mvision-ai-4463599686",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Backend Engineer, which does not match her current technical release/CM/DevOps focus and certifications.",
+    "reason": "The role is a pure backend engineering position focused on cloud development and identity management, which does not match her strong release/CM/DevOps background and regulatory experience. The job is also located in Helsinki, Finland.",
     "id": "01f520af",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Agentic Development Process Engineer (employment / freelancing)",
@@ -16997,14 +16987,13 @@
     "url": "https://fi.linkedin.com/jobs/view/agentic-development-process-engineer-employment-freelancing-at-witted-4454530336",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a software engineering position focused on developing new features, not release management, CI/CD ownership, or product specialist work in regulated industries. This does not match her strong experience and career focus in those areas.",
+    "reason": "The role is for Agentic Development Process Engineering, which does not match her background in embedded/firmware engineering, release management, and DevOps. She has no agentic software development experience.",
     "id": "df5c630e",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Data Platform Engineer",
@@ -17013,14 +17002,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-platform-engineer-at-smartly-4458740176",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Data Platform Engineer, which does hands-on software engineering on production systems and platforms. Priya's background is in release management, configuration management, CI/CD pipelines, documentation, and quality assurance - not direct software development or platform engineering.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US locations.",
     "id": "54544946",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior AI-Driven Software Engineer (Agentic Development)",
@@ -17029,14 +17017,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-ai-driven-software-engineer-agentic-development-at-nortal-4433814046",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position, not release/CI/CD ownership/configuration management like her background. Also US-based.",
+    "reason": "The role is located in Helsinki, Finland which does not match the candidate's requirement to be open to roles anywhere in Finland or remote EU/European roles only.",
     "id": "d6ab9813",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI & Automation Engineer",
@@ -17045,14 +17032,13 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-automation-engineer-at-digia-plc-4452449108",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a good technical fit but the Helsinki location may be too restrictive for Priya given her openness to remote EU roles. She would need to clarify if this is truly open to remote candidates based anywhere in Europe.",
+    "reason": "The role is a good fit for her experience, but it's unclear if she would need Finnish/Swedish language skills.",
     "id": "55e8a648",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-07",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI & Automation Engineer",
@@ -17061,14 +17047,13 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-automation-engineer-at-digia-plc-4452438412",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires on-site/hybrid work in Tampere, Finland which conflicts with her strict exclusion of US-based roles.",
+    "reason": "The role requires Finnish/Swedish language fluency, which Priya does not have.",
     "id": "edabacef",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-07",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Forward Deployed Engineer",
