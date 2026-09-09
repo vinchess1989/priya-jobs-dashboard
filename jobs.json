@@ -9756,13 +9756,13 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/service-manager-systems-at-vr-4459696661",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role requires fluency in Finnish, which the candidate does not speak.",
     "id": "3855eacc",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "posted_date": "2026-09-02",
+    "deadline": "2026-09-13",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
