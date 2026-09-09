@@ -12891,13 +12891,13 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=aaafdf82f009dcd1",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based roles and her preference for EU-based roles.",
     "id": "d8c9e662",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -13096,35 +13096,19 @@
     "description_file": null
   },
   {
-    "title": "Lead Application Engineer, Electrical",
-    "company": "Eaton",
-    "location": "Vantaa, Uusimaa, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/lead-application-engineer-electrical-at-eaton-4408874302",
-    "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
-    "id": "30b212c5",
-    "source": "linkedin_fi_product_specialist",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null
-  },
-  {
     "title": "Advisory Solutions Consultant",
     "company": "SailPoint",
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/advisory-solutions-consultant-at-sailpoint-4433333020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position with 'quota-carrying' mentioned, which matches none of Priya's key skills or experience. She has no prior quota-carrying sales roles.",
+    "reason": "The role is a pure sales position titled 'Advisory Solutions Consultant' at SailPoint, which matches none of her key skills in release management, DevOps, CI/CD, regulated product quality, or technical documentation. She has held a similar-sounding 'Product Specialist' title at Topcon but that was focused on the clinical/technical side of healthcare products, not quota-carrying sales.",
     "id": "463a983d",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Lead Application Engineer",
@@ -13132,15 +13116,14 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-application-engineer-at-eaton-4458895958",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering feature-development position, not release/CM/DevOps-focused like her background. She would need to pivot away from that 8+ year track record.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong technical fit, but the location is Vantaa, Finland which would require relocation for Priya. She is open to relocating within Finland.",
     "id": "bb5d8e93",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Advisor Associate- SAP Academy for Customer Success - Finland (Hybrid)",
@@ -13149,14 +13132,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-advisor-associate-sap-academy-for-customer-success-finland-hybrid-at-sap-4457491815",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Solution Advisor Associate, which does not match her technical release/DevOps background. It's a customer-facing sales/engineering position.",
+    "reason": "The role is a Solution Advisor, which does not match her technical release/CM background. She needs roles focused on configuration management, CI/CD pipelines, and release ownership.",
     "id": "17e04f9d",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Portfolio Sales Professional",
@@ -13165,14 +13147,13 @@
     "url": "https://fi.linkedin.com/jobs/view/portfolio-sales-professional-at-innomotics-4416827926",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist or DevOps/CI/CD role.",
+    "reason": "The role is a technical sales position for Innomotics' Geared Motors business, which does not match her background in DevOps/Release Management and regulated product specialist roles. She has no coding experience to apply to this software engineering job.",
     "id": "0f17dcd7",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Field Application Engineer",
@@ -13181,14 +13162,13 @@
     "url": "https://fi.linkedin.com/jobs/view/field-application-engineer-at-onenav-inc-4450375606",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position mislabeled as 'Product Specialist', which she has done in a technical/quality capacity (Topcon) but not quota-carrying business development.",
+    "reason": "The role is a pure sales position using 'Product Specialist' as a title, which she has explicitly excluded herself from based on her Topcon experience. Her Topcon Product Specialist role was technical/quality, not quota-carrying sales.",
     "id": "c936f838",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solutions Engineer, Expansion Finland",
@@ -13197,14 +13177,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-engineer-expansion-finland-at-partly-4428478735",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Solutions Engineer focused on expansion, which matches her domain but violates her strict exclusion of US-based roles (Partly is headquartered in Austin, TX).",
+    "reason": "The role is a Solutions Engineer focused on sales and customer integrations, not DevOps/CI/CD/release management. Her background is in those technical configuration/release roles, not sales.",
     "id": "34545b62",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Business Analyst for FX Business Technology",
@@ -13213,14 +13192,13 @@
     "url": "https://fi.linkedin.com/jobs/view/business-analyst-for-fx-business-technology-at-nordea-4455300102",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Business Analyst for FX technology, not release/CM/DevOps-focused like her background.",
+    "reason": "The role is a Business Analyst focused on FX technology and automation, while the candidate has strong DevOps/Release Management experience in regulated industries. The skills don't closely match.",
     "id": "d4888c9a",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-25",
     "deadline": "2026-09-14",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sales Engineer -Heat Pumps- (HVAC)",
@@ -13229,14 +13207,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-engineer-heat-pumps-hvac-at-panasonic-heating-cooling-solutions-europe-4459010344",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a DevOps/Release Management/Product Specialist role.",
+    "reason": "The role is a sales engineer for HVAC heat pumps, while Priya's background is in software engineering, release management, and DevOps. There is no overlap.",
     "id": "e78d6605",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Field Sales Engineer, Defence",
@@ -13245,14 +13222,13 @@
     "url": "https://fi.linkedin.com/jobs/view/field-sales-engineer-defence-at-distance-technologies-4451503250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist role like her Topcon experience. She does not have prior sales experience.",
+    "reason": "The role is a Field Sales Engineer position, which does not match her technical product specialist/DevOps/release management background and experience.",
     "id": "d3e183bd",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solutions Consultant",
@@ -13261,14 +13237,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-consultant-at-amesan-consulting-oy-4452252171",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Solutions Consultant focused on Microsoft technologies and customer projects, while Priya's background is in DevOps/CI/CD, release management, and regulated industries like automotive and healthcare. She has no direct experience in this specific technical consulting domain.",
+    "reason": "The role is a Solutions Consultant focused on Microsoft 365, SharePoint, and Power Platform, which does not match her technical release management/CI/CD background in automotive and healthcare. It's more of a product specialist/technical sales role than an engineering/devops fit.",
     "id": "97102358",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-19",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sales Representative, Cardiac Rhythm Management (CRM) \u2013 The Hospital District of Helsinki and Uusimaa (HUS)",
@@ -13277,14 +13252,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-representative-cardiac-rhythm-management-crm-%E2%80%93-the-hospital-district-of-helsinki-and-uusimaa-hus-at-abbott-4446128950",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license which she does not have.",
+    "reason": "The role is a quota-carrying sales position, which Priya has explicitly excluded herself from based on her prior experience (she specifically mentioned avoiding 'quota-carrying' roles in her job search criteria).",
     "id": "799a18ec",
     "source": "linkedin_fi_product_specialist_p2",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Business Developer",
@@ -13293,14 +13267,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-business-developer-at-fortum-4462883852",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Business Development Manager, which does not match her DevOps/Release Management/Configuration Management background and skills.",
+    "reason": "The role is a Business Development Manager focused on sales and business growth, not DevOps/Release Management like her background. It's also located in Espoo Finland which she may be open to but doesn't match her top preference of EU remote roles.",
     "id": "ec765275",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Field Product Specialist- North ( Berlin, Hamburg, Hannover based preferred)",
@@ -13309,14 +13282,13 @@
     "url": "https://de.linkedin.com/jobs/view/field-product-specialist-north-berlin-hamburg-hannover-based-preferred-at-cordis-4453520978",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position titled 'Field Product Specialist', which matches her quota-carrying sales background. It does not have the technical/quality/product-specialist component she has focused on for her last 8+ years, nor is it in a regulated industry.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which she has explicitly excluded herself from applying to. The title alone is enough for a hard rejection.",
     "id": "d3feec16",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior product specialist - Studi commercialisti",
