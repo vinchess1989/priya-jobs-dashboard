@@ -13926,14 +13926,14 @@
     "location": "Bucharest, Romania",
     "url": "https://ro.linkedin.com/jobs/view/senior-release-delivery-manager-at-luxoft-4464311121",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "Matches her DevOps/Release Management background, is a senior-level role, and is in Romania which she is open to",
     "id": "4f21c62b",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-05",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/luxoft_senior_release___delivery_mana_4f21c62b.txt"
   },
   {
     "title": "Avoin hakemus",
