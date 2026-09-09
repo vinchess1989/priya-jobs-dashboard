@@ -15231,13 +15231,13 @@
     "location": "Oulu, North Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-at-benjamin-4446534644",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Oulu, Finland which matches her location preferences for roles anywhere in Finland.",
     "id": "2475087c",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "posted_date": "1 kuukausi sitten",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
