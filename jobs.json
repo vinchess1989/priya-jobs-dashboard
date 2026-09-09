@@ -19082,19 +19082,18 @@
   },
   {
     "title": "Sosionomi perhety\u00f6h\u00f6n \u2013 vakituinen ty\u00f6 Helsingiss\u00e4 ja Espoossa",
-    "company": "Extract from page",
+    "company": "ANNU Group Oy",
     "location": "Helsinki and Espoo, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a81cab1d-f14f-46ac-b1b9-0a952f53ee33/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki and Espoo, Finland, which does not match her strict exclusion of US-based roles and her preference for EU/Finland-only locations.",
+    "reason": "The job is located in Helsinki and Espoo, Finland, which matches her location preferences.",
     "id": "c8b97888",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "9.9.2026, 12.36",
+    "deadline": "20.09.2026, 22.00",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00e4",
@@ -19103,14 +19102,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/911f4344-5549-4cc9-bf48-37311c5b3910/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates her strict exclusion of US-based jobs and her inability to speak Finnish/Swedish.",
+    "reason": "The job is for a construction worker, not an engineering/technical role that matches the candidate's background.",
     "id": "c17c0a5c",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "9.9.2026, 12.34",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Metallity\u00f6ntekij\u00e4 \u2013 Pori",
@@ -19119,14 +19117,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1e9ddd22-03a2-4445-bc9a-ddeb71429373/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a contract worker (vuokraty\u00f6) rather than an employee, and does not match her target senior DevOps/Release Management roles.",
+    "reason": "The role is for a metal worker, not a software engineer with release management and DevOps experience like the candidate. It's also located in Finland, which has hard rejection criteria.",
     "id": "f723d1d7",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior Structural Analyst",
@@ -19135,62 +19132,58 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7ff2e3cd-dd8a-47b3-9640-edea17e6e98d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Junior Structural Analyst position, which requires a Masters degree in Mechanical Engineering or related field and experience with FEM. Priyanga has a Bachelor of Technology in Electronics & Telecommunications and an Advanced Diploma in Embedded Systems, so she lacks the required educational background and experience for this junior-level engineering role.",
+    "reason": "The role is a pure Junior Structural Analyst position focused on FEM analysis and technical problem-solving, which does not match her ~15 years of experience in release management, CI/CD, configuration management, and regulated product specialist roles. She would be overqualified for this entry-level junior analyst position.",
     "id": "21973442",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kotisiivooja pitk\u00e4aikaiseen ty\u00f6suhteeseen, Pirkanmaa",
-    "company": "Extract from page",
+    "company": "Visio Henkil\u00f6st\u00f6ratkaisut Pirkanmaa Oy",
     "location": "Pirkanmaa, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0b0b87d5-2406-4095-9886-595d77653c17/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Pirkanmaa, Finland which does not match her strict exclusion of the United States and her preference for roles based in Finland or the EU.",
+    "reason": "The role is for a housekeeper, not the semiconductor/VLSI/EDA industry expertise Priyanga Ramachandran has.",
     "id": "7ad72e5d",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Koneenkuljettaja / kiinteist\u00f6nhoitaja Ouluun",
-    "company": "Extract from page",
+    "company": "RTK-Palvelu Oy",
     "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e7f89152-3a22-4ad7-95f7-5131795bbc6c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Oulu, Finland which violates the strict non-negotiable exclusion for any location in the United States.",
+    "reason": "The job is for a snow plow driver and property maintenance worker, not DevOps/Release Management.",
     "id": "e2f225e1",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "9.9.2026, 12.30",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Postity\u00f6ntekij\u00e4 Uuteenkaupunkiin, kokoaikainen vuoden loppuun, Uusikaupunki",
-    "company": "Extract from page",
+    "company": "Bolt.Works Oy",
     "location": "Uusikaupunki, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e31cad5e-3b6b-4b34-b681-872eb1e1a213/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Uusikaupunki, Finland, which does not match her strict exclusion of US locations and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is for a part-time courier position delivering mail, which does not match Priya's experience in software engineering, release management, and technical product roles.",
     "id": "28ab0bd9",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Varhaiskasvatuksen sosionomi",
@@ -19199,14 +19192,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7ae8b918-7e44-4a51-937c-f03a66881d0e/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which does not match the candidate's strict exclusion of US locations.",
+    "reason": "The job is located in Juva, Finland which does not match the candidate's requirement to be based in Oulu, Finland or remote EU/Europe.",
     "id": "1c65cb3f",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Paikallisia kunnossapitoasentajia Oulun alueelle",
@@ -19214,15 +19206,14 @@
     "location": "Kempele, Oulu, Liminka, Lumijoki, Pohjois-Pohjanmaa, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/08456192-4952-47fe-9991-1518533ec5e1/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kempele, Oulu, Finland which does not match her strict exclusion of Finland and non-Finnish/Swedish speaking roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is for local maintenance technicians in Finland, matching her location preference.",
     "id": "bfcce123",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/worker_oulu_oy_paikallisia_kunnossapitoasenta_bfcce123.txt"
   },
   {
     "title": "Kunnossapitoasentaja, reissuty\u00f6",
@@ -19231,14 +19222,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/fbd3e56c-bf5a-41c9-9e26-ce92f6a6d6cb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for field maintenance technicians, not release management or DevOps roles that match the candidate's background.",
+    "reason": "The role is for a field service maintenance technician, not DevOps/Release Management.",
     "id": "26ad41c8",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "23.09.2026, 12.00",
+    "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rengasasentaja syysesonkiin, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -19247,14 +19237,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/8d6df079-f5c5-46cc-98dd-d2f58caf28e1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in J\u00e4rvenp\u00e4\u00e4, Finland which does not match her strict exclusion of non-EU/Finland locations.",
+    "reason": "The role is for a tire changer position, which does not match her electronics/telecommunications background and experience in software engineering, release management, etc.",
     "id": "cac22079",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 12.28",
-    "deadline": "11.10.2026, 23.59",
+    "posted_date": "2026-09-09",
+    "deadline": "2026-10-11",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Teollisuuden s\u00e4hk\u00f6asentaja Helsinkiin",
@@ -19263,14 +19252,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6071a1a8-19c0-4ad5-a5a2-b8a7536e2d9d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which violates the strict non-negotiable exclusion of any jobs located in the United States.",
+    "reason": "The role is for a factory electrician position, which does not match her technical communication and release management background in semiconductor/VLSI/EDA.",
     "id": "d50ca82c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior Structural AnalystW\u00e4rtsil\u00e4VaasaGo to job site",
@@ -19279,14 +19267,13 @@
     "url": "https://www.jobly.fi/en/job/junior-structural-analyst-2754016",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Junior Structural Analyst position, which does not match her Senior-level experience in DevOps/Release Management. She has no FEM/structural analysis background.",
+    "reason": "The role is a Junior Structural Analyst focused on FEM analysis and mechanical engineering, not DevOps/Release Management. It's also an entry-level position which she is overqualified for.",
     "id": "6ccfe182",
     "source": "work_in_finland",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software DeveloperAufwin Defence Systems OyFinlandGo to job site",
@@ -19294,15 +19281,14 @@
     "location": "Finland",
     "url": "https://www.jobly.fi/en/job/senior-software-developer-2753948",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type and experience level, but the location is unclear - it doesn't specify Finland or EU as hiring locations. She would be open to relocating within Finland or to another EU country for this.",
+    "matches_requirements": "yes",
+    "reason": "Matches her DevOps, release management, and software engineering background, especially in a regulated domain like defense/security.",
     "id": "20622a63",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/aufwin_defence_syste_senior_software_developeraufwi_20622a63.txt"
   },
   {
     "title": "Release Manager til Sund & B\u00e6lt",
@@ -19310,15 +19296,14 @@
     "location": "Copenhagen Municipality, Capital Region of Denmark, Denmark",
     "url": "https://dk.linkedin.com/jobs/view/release-manager-til-sund-b%C3%A6lt-at-sund-b%C3%A6lt-4460064703",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Copenhagen, Denmark which does not match the candidate's strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her background in release management, coordination across systems and vendors, and working with DevOps tools like Azure DevOps. It's also located in Denmark which is within the EU.",
     "id": "953067c9",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/sund___b_lt_release_manager_til_sund___b_l_953067c9.txt"
   },
   {
     "title": "Tuotekehitysp\u00e4\u00e4llikk\u00f6",
