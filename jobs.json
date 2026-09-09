@@ -4971,15 +4971,14 @@
     "location": "Corbeil-Essonnes, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/release-manageur-international-plm-3dx-f-h-at-actual-talent-4458064516",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/DevOps-focused like her background. She would not be a fit.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her experience in release management, DevOps, and PLM environments.",
     "id": "345943cd",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "description_file": "job_descriptions/actual_talent_release_manageur_international_345943cd.txt",
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Platform Release Manager (Remote)",
@@ -4987,15 +4986,14 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/platform-release-manager-remote-at-capgemini-engineering-4446334454",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type and experience level, but the location is remote worldwide which could be either an EU-based global company or US-based. The strict non-US exclusion rule means we can't assume it's US without checking more.",
+    "matches_requirements": "no",
+    "reason": "The role is a strong match on domain/role type and experience level, but it is located in Lisbon, Portugal which violates her non-negotiable exclusion of US-based roles. She would need to relocate or be willing to move.",
     "id": "28ac396f",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -5003,15 +5001,14 @@
     "location": "Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-manager-at-softserve-4458627139",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her DevOps/Release Management experience, and it's in Poland which she is open to. However, it's at a 'Pleno-s\u00eanior' level rather than Senior/Lead which would be ideal for her ~15 years of experience.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "88ba1ab9",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "2026-09-02",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Release Manager F/H",
@@ -5019,15 +5016,14 @@
     "location": "Le Mans, Pays de la Loire, France",
     "url": "https://fr.linkedin.com/jobs/view/release-manager-f-h-at-groupe-sii-4422432543",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Le Mans, France which does not match her strict exclusion of the United States and requirement to be based in Finland/EU.",
+    "matches_requirements": "yes",
+    "reason": "Matches her experience in release management, configuration, and DevOps for regulated industries.",
     "id": "0fcb6b44",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/groupe_sii_release_manager_f_h_0fcb6b44.txt"
   },
   {
     "title": "Release Manager H/F",
@@ -5036,14 +5032,13 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-nexton-4460608285",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bordeaux, France which does not match her strict exclusion of US locations and her preference for Finland/EU roles.",
+    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
     "id": "a8805ff8",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -5052,14 +5047,13 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-luxoft-romania-4463324922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Release Manager position, which does not match her mid-to-senior level Technical Communication Specialist/Product Specialist background. She has no experience in ITSM platforms like ServiceNow.",
+    "reason": "The job is located in Bucharest, Romania, which does not match the candidate's preference for roles in Finland or EU/European remote positions.",
     "id": "6374e946",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "il y a 4 jours",
-    "deadline": "N/A",
+    "posted_date": "2026-09-04",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Release Manager",
@@ -5068,14 +5062,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a4146a917838a45c",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This role is a strong match for Priya's experience, particularly her release management and DevOps background in regulated industries. It's located in Espoo, Finland which she is open to.",
+    "reason": "The role is a strong match for Priya's experience with release management, CI/CD pipelines, and regulated industries. It is located in Espoo, Finland.",
     "id": "e286ba53",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/iceye_technical_release_manager_e286ba53.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_technical_release_manager_e286ba53.txt"
   },
   {
     "title": "Senior Electrical Engineer",
@@ -5084,14 +5077,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=eb87a3128e33d0d3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an on-site Senior Electrical Engineer located in Helsinki, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles based in Finland or EU/Europe.",
+    "reason": "The role is for a Senior Electrical Engineer, which does not match her background and experience in software engineering, release management, DevOps, and technical product specialist roles in regulated industries.",
     "id": "ad9631e6",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -5099,15 +5091,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=ce1edd90b95e96c9",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role of Quality Engineer matches Priya's background and skills, especially her 8+ years in regulated quality/technical product specialist roles. It's a mid-senior level position in Finland that requires English.",
+    "matches_requirements": "no",
+    "reason": "The role is for a Quality Engineer, which does not match Priya's background and experience in DevOps/CI/CD/release management. She has no quality engineering experience.",
     "id": "d18c740c",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/mercury_engineering_quality_engineer_d18c740c.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Electrical Engineer",
@@ -5116,14 +5107,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a7a961593a7e5134",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland, which violates Priya's strict exclusion of any jobs located in the United States.",
+    "reason": "The role is a pure electrical engineering position on construction projects, which does not match her release/CM/DevOps background. It's also an on-site Helsinki job.",
     "id": "e56e8d80",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Mechanical Engineer",
@@ -5132,14 +5122,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8192260d7070764c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Mechanical Engineer, which does not match her background in DevOps/Release Management and Technical Communication.",
+    "reason": "The role is a Mechanical Engineer position at Mercury Engineering in Helsinki, Finland - this does not match Priya's background and skills in semiconductor/VLSI/EDA roles.",
     "id": "467b3491",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Release Manager",
@@ -5147,15 +5136,14 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/technical-release-manager-stshe-20441694",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a release management/DevOps role like her background. She has no experience in space-based ISR/SAR satellite technology.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her release management, CI/CD, and technical product specialist background in a regulated industry.",
     "id": "95c0786a",
     "source": "duunitori_release_manager",
     "posted_date": "2026-07-21",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_technical_release_manager_95c0786a.txt"
   },
   {
     "title": "Technical Sales Specialist, Insta Steel -puolustusratkaisut",
@@ -5164,14 +5152,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-specialist-insta-steel-puolustusratkaisut-at-insta-4460600294",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish/Swedish language fluency, which Priya does not have.",
+    "reason": "The role requires Finnish/Swedish fluency, which Priya does not speak.",
     "id": "6da5b35d",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Sales Specialist",
@@ -5180,14 +5167,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-specialist-at-insta-4459506896",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish/Swedish fluency, which Priya does not speak.",
+    "reason": "The role requires Finnish/Swedish fluency, which Priya does not have.",
     "id": "348193b1",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Sales Specialist",
@@ -5196,14 +5182,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-sales-specialist-at-vaski-4463343200",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales specialist, not release/CI-CD/DevOps focused like her background.",
+    "reason": "The role is a sales specialist, not a DevOps/CI/CD/release management position which matches her background.",
     "id": "42b2bb20",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-05",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Line Specialist",
