@@ -15712,14 +15712,13 @@
     "url": "https://www.jobly.fi/tyopaikka/sairaanhoitaja-vihdin-mielialahairiovastaanotolle-2743529",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a licensed nurse with Finnish language fluency, which does not match the candidate's profile.",
+    "reason": "The role is a nursing position at a psychiatric ward, which requires clinical healthcare qualifications (nursing license) that Priya does not have. Her Topcon Healthcare experience was quality/regulatory documentation/adjacency, not direct clinical nursing.",
     "id": "afd9c6ea",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Apulaisosastonhoitaja lasten Anestesia- ja leikkausyksikk\u00f6\u00f6n leikkauspuoli",
@@ -15728,14 +15727,13 @@
     "url": "https://www.jobly.fi/tyopaikka/apulaisosastonhoitaja-lasten-anestesia-ja-leikkausyksikkoon-leikkauspuoli-2743530",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a pediatric nurse anesthetist and operating room nurse, not a software engineering/DevOps/release management position.",
+    "reason": "The role is for a nurse coordinator position in a children's anesthesia and surgery unit, not a DevOps/Release Management engineer.",
     "id": "d458f23a",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Teollinen pintak\u00e4sittelij\u00e4, Lepp\u00e4virta",
@@ -15744,14 +15742,13 @@
     "url": "https://www.jobly.fi/tyopaikka/teollinen-pintakasittelija-leppavirta-2742716",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing paint sprayer position, not a DevOps/Release Management/Product Specialist job.",
+    "reason": "The role is for a factory coating technician, not her semiconductor/VLSI/EDA background.",
     "id": "0dee9902",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tuntiopettaja tekniikka",
@@ -15759,15 +15756,14 @@
     "location": "Vaasa, Finland",
     "url": "https://www.jobly.fi/tyopaikka/tuntiopettaja-tekniikka-2027307",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is teaching-focused, not release/CI/CD/devops. She has a strong coding background but her last 8+ years have been in configuration/release management and DevOps.",
+    "matches_requirements": "maybe",
+    "reason": "The role is teaching engineering subjects, which matches her technical background, but it's unclear if this would be a release/CM-focused product specialist role like her prior experience, or more traditional lecturing/instruction. More context needed to determine fit.",
     "id": "3d767696",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tuntiopettaja, liiketalous ja tietojenk\u00e4sittely",
@@ -15776,14 +15772,13 @@
     "url": "https://www.jobly.fi/tyopaikka/tuntiopettaja-liiketalous-ja-tietojenkasittely-2027308",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is teaching business and IT, which does not match her technical release/DevOps background.",
+    "reason": "The role is for part-time teaching positions at a vocational college, not semiconductor/VLSI/EDA industry roles.",
     "id": "e619fdad",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Laboratoriohoitaja Diagnostiikkakeskus Preanalytiikka",
@@ -15792,14 +15787,13 @@
     "url": "https://www.jobly.fi/tyopaikka/laboratoriohoitaja-diagnostiikkakeskus-preanalytiikka-2748683",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a licensed phlebotomist, which Priya does not have. Her Topcon Healthcare experience is quality/regulatory-adjacent but not clinical.",
+    "reason": "The role requires a licensed lab technician with tuberculosis certification, which is not a match for Priya's background.",
     "id": "cdead161",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Opetushoitaja Neurologinen kuntoutus",
@@ -15808,14 +15802,13 @@
     "url": "https://www.jobly.fi/tyopaikka/opetushoitaja-neurologinen-kuntoutus-2748682",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a medical license which Priya does not have.",
+    "reason": "The role is for a neurology rehab nurse educator, which does not match her technical/DevOps/release management background. It's also an on-site Helsinki position.",
     "id": "7a43bbdd",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palveluty\u00f6ntekij\u00e4",
@@ -15824,14 +15817,13 @@
     "url": "https://www.jobly.fi/tyopaikka/palvelutyontekija-2748684",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a healthcare support position, not an IT/technical DevOps/CI/CD/release management job.",
+    "reason": "The role is a healthcare support position at a hospital, which does not match her technical configuration management and DevOps background.",
     "id": "a7615db2",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4, Helsinki Kauppakeskus Kamppi",
@@ -15840,14 +15832,13 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-helsinki-kauppakeskus-kamppi-2753767",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a product specialist or release management role as Priya's background is in.",
+    "reason": "The role is an on-site retail sales position at a single R-Kiosk store location in Helsinki, Finland. Priya is open to relocating within Finland for remote or EU-based roles but this is not an option here.",
     "id": "a3a9727e",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Lasten vastaanotot Uusi lastensairaala",
@@ -15856,14 +15847,13 @@
     "url": "https://www.jobly.fi/tyopaikka/sairaanhoitaja-lasten-vastaanotot-uusi-lastensairaala-2753759",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a licensed nurse, which Priya does not have. Her background is in technical communication and product specialist roles, not clinical healthcare.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's requirement to be located in Finland or EU/Europe.",
     "id": "e978fae4",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Varahenkil\u00f6st\u00f6",
@@ -15872,14 +15862,13 @@
     "url": "https://www.jobly.fi/tyopaikka/sairaanhoitaja-varahenkilosto-2753757",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language fluency, which Priya does not speak.",
+    "reason": "The role is for on-site nurses at specific hospital units in Helsinki, Finland, which does not match her location preferences of being open to remote roles based anywhere in the EU/Europe.",
     "id": "3581f388",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Urologian vastaanotto Tornisairaala",
@@ -15888,14 +15877,13 @@
     "url": "https://www.jobly.fi/tyopaikka/sairaanhoitaja-urologian-vastaanotto-tornisairaala-2753758",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a urology ward nurse position, which requires clinical medical licensing and hands-on patient care. Priya's background is in technical communication, release management, and DevOps/CI-CD - she does not have the required nursing qualifications or experience.",
+    "reason": "The role is for a nurse specializing in urology reception at a hospital in Helsinki, Finland, which does not match her background and skills.",
     "id": "bc513467",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "2026-10-01",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4, Mikkeli",
@@ -15904,14 +15892,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/31372345-f494-4bd6-8aa8-09c693f5dec2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction assistant, not a DevOps engineer, release manager, configuration manager, or product specialist in semiconductor/VLSI/EDA. It's hands-on manual labor rather than technical documentation, automation, or CI/CD.",
+    "reason": "The role is for a construction assistant, which does not match her technical/quality/release management background and experience level.",
     "id": "ae40b015",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "9.9.2026, 7.08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -15920,14 +15907,13 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-euronext-4419921613",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal, which does not match Priya's strict exclusion of US-based jobs and her preference for Finland/EU roles over other locations.",
+    "reason": "The job is located in Porto, Portugal which does not match the candidate's requirement to only consider roles in Finland or EU-wide remote positions.",
     "id": "bf2cc063",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "h\u00e1 2 meses",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Parturit Pohjoismaihin",
@@ -15936,14 +15922,13 @@
     "url": "https://fi.linkedin.com/jobs/view/parturit-pohjoismaihin-at-eutalents-4428776463",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for hairdressers/barbers, not firmware engineers.",
+    "reason": "The role is for a hairdresser/barber, not a DevOps engineer with semiconductor/VLSI/EDA experience.",
     "id": "b4969d8d",
     "source": "linkedin_fi_broad",
     "posted_date": "h\u00e1 2 meses",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Huoneistoremontteihin laatoittajaa ja sisustustimpuria",
