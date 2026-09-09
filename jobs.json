@@ -19188,16 +19188,17 @@
   {
     "title": "Koneenkuljettaja / kiinteist\u00f6nhoitaja Ouluun",
     "company": "Extract from page",
-    "location": "Extract from page",
+    "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e7f89152-3a22-4ad7-95f7-5131795bbc6c/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Oulu, Finland which violates the strict non-negotiable exclusion for any location in the United States.",
     "id": "e2f225e1",
     "source": "tyomarkkinatori",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Postity\u00f6ntekij\u00e4 Uuteenkaupunkiin, kokoaikainen vuoden loppuun, Uusikaupunki",
