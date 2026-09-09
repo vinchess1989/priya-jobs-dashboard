@@ -24029,5 +24029,50 @@
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
+  },
+  {
+    "title": "Terveyskeskusl\u00e4\u00e4k\u00e4ri",
+    "company": "Medimatkat Oy",
+    "location": "Alaj\u00e4rvi, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/terveyskeskuslaakari-2754628",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job requires a medical license, which is outside the candidate's skill set.",
+    "id": "4ae92e21",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-09",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Tuotekehitysleipuri",
+    "company": "Pulla-Pirtti",
+    "location": "Oulu, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/tuotekehitysleipuri-2754629",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a baking product development position, not a software release/CM/DevOps or technical product specialist role.",
+    "id": "d843011a",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-09",
+    "deadline": "2026-09-27",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Autonasentaja",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/028cfe25-8995-4a20-bd09-f676d14de8ac/fi",
+    "visited": "yes",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "id": "5aac5f83",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/qwen/qwen3.6-27b",
+    "description_file": null
   }
 ]
