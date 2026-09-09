@@ -8467,30 +8467,28 @@
     "url": "https://tyomarkkinatori.fi/en/teemasivut/job-applicant-profile?mtm_campaign=wif-prof&mtm_kwd=web",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a consent form for creating a job applicant profile on Job Market Finland, not an actual job posting.",
+    "reason": "This is a generic instructions page for creating a job applicant profile, not an actual job posting with specific requirements.",
     "id": "86cb87d9",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u201cGreat place to grow professionally\u201dAnand Adhiappan emphasizes specialization for career growth",
-    "company": "Extract from page",
+    "company": "Vaisala Oyj",
     "location": "Coimbatore, India",
     "url": "https://www.workinfinland.com/en/career-guide/anand-adhiappan/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is a general career advice article, not an actual open job listing.",
+    "reason": "The job is located in Coimbatore, India, which does not match the candidate's requirement for a role in Finland or a remote position based in the EU.",
     "id": "9715a42e",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u201cJust like Minnesota \u2013 actually pretty warm\u201d Michael Landolfi moved to Finland in 2022",
@@ -8499,14 +8497,13 @@
     "url": "https://www.workinfinland.com/en/career-guide/michael-landolfi/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is about a person's experience moving to Finland for work, not an actual open job listing.",
+    "reason": "The job is a career profile, not an actual open job posting with requirements and a title to apply for.",
     "id": "99d85f2b",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Career guide",
@@ -8515,14 +8512,13 @@
     "url": "https://www.workinfinland.com/en/career-guide/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a general career guide article, not a specific job posting.",
+    "reason": "The job posting is for general career guidance, not a specific job opening.",
     "id": "2af2a2c7",
     "source": "work_in_finland",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer - Core Platform Engineering",
@@ -8530,15 +8526,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-core-platform-engineering-at-iceye-4404995558",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a hard rejection due to being located in Espoo, Finland which does not match the candidate's requirement to only consider roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "Strong match on DevOps Engineer role type, hybrid work model, and location in Espoo Finland. Priya's experience is a very close fit.",
     "id": "a6a14fd1",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__a6a14fd1.txt"
   },
   {
     "title": "Senior Platform Engineer\u2013 Public 360\u00b0 \u2013 Tieto Indtech (m/f/d)",
@@ -8546,15 +8541,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-platform-engineer%E2%80%93-public-360%C2%B0-%E2%80%93-tieto-indtech-m-f-d-at-tieto-4431317588",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on technical platform engineering skills, but the location 'Espoo' is a bit uncertain. The job text mentions 'Scandinavia' and 'Flexible/hybrid', but doesn't clearly state Finland or Espoo as the specific location. A minor uncertainty.",
+    "matches_requirements": "no",
+    "reason": "The role is a hard rejection due to being located in Espoo, Finland which does not match her location preference of Finland only and open to EU/Europe remote roles.",
     "id": "ad220db7",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud Engineer",
@@ -8563,14 +8557,13 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-engineer-at-zimmer-biomet-4457963479",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which Priya does not speak.",
+    "reason": "The role requires fluent Finnish, which Priya does not speak.",
     "id": "17b09ffb",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud Engineer (Kubernetes Service)",
@@ -8578,15 +8571,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/cloud-engineer-kubernetes-service-at-kumorion-4448831201",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Espoo, Finland which does not match her hard rejection rule of being strictly against jobs located in the United States.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her DevOps/CI/CD and Kubernetes experience, in Finland.",
     "id": "7b12e96e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-04",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/kumorion_cloud_engineer__kubernetes_ser_7b12e96e.txt"
   },
   {
     "title": "Staff Cloud Platform Engineer - Cloud Developer Experience",
@@ -8595,14 +8587,13 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-cloud-platform-engineer-cloud-developer-experience-at-alphasense-4439300705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on feature development, not release management, CI/CD ownership, or product specialist work. Her career has been in those latter areas for the last 8+ years.",
+    "reason": "The role is a pure software engineering position focused on feature development, not release management, CI/CD ownership, or DevOps which are her key strengths.",
     "id": "7d70a4bf",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud Platform Engineer",
@@ -8611,14 +8602,13 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-platform-engineer-at-vincit-4458248544",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified.",
+    "reason": "The role is a strong match for her domain/role type and location/work model, but it's an entry-level position explicitly limited to 0-2 years of experience. She has ~15 years of experience, so this hard rejects the job based on her level.",
     "id": "3da8fd95",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "4 tuntia sitten",
+    "posted_date": "2026-08-10",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Infrastructure Engineer",
@@ -8627,14 +8617,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-infrastructure-engineer-at-searchapi-4434478899",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for DevOps/infrastructure engineering, not her release/configuration management background.",
+    "reason": "The role is a pure infrastructure engineering position, not DevOps/CI/CD/release management like her background. It's also remote and open to EU candidates, not Finland-specific.",
     "id": "2e007195",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Cloud Engineer",
@@ -8643,14 +8632,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-at-supercell-4428242305",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a DevOps Engineer, not a Cloud Engineer as Priya's background is in. Also, it requires hands-on experience with cloud infrastructure and networking which she does not have.",
+    "reason": "The role is based in Helsinki, Finland which violates her non-negotiable exclusion for US-based roles.",
     "id": "25dcdff8",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Cloud Engineer",
@@ -8659,14 +8647,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-at-easor-finland-4462300740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Cloud Engineer with Azure experience, while Priya's background is in release management, configuration management, and DevOps/CI-CD. She has no cloud engineering experience.",
+    "reason": "The role is for a Senior Cloud Engineer with Azure experience, which does not match her Python/Bash automation and release management background.",
     "id": "eb431a0c",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "2026-10-02",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Cloud Engineer, Wilma",
@@ -8675,14 +8662,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-wilma-at-visma-4459141033",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Cloud Engineer, which requires significant cloud infrastructure and platform engineering experience that Priya does not have. She has more release management, CM, DevOps automation, and product specialist experience than cloud architecture.",
+    "reason": "The role is for a Senior Cloud Engineer, which requires mandatory Finnish/Swedish language fluency that Priya does not have.",
     "id": "3e9812b3",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Platform Engineer - LLM Inference Infrastructure",
@@ -8691,14 +8677,13 @@
     "url": "https://fi.linkedin.com/jobs/view/platform-engineer-llm-inference-infrastructure-at-verda-4463273099",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hard rejection due to being located in Helsinki, Finland which does not match Priya's requirement for jobs only in Finland or EU/Europe.",
+    "reason": "The role is for a Platform Engineer focused on LLM inference infrastructure, while the candidate has experience in release management, CI/CD pipelines, and regulated industries. The skills and background do not closely match.",
     "id": "94865744",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud Engineer (AWS/Azure)",
