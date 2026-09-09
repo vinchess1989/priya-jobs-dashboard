@@ -5241,13 +5241,13 @@
     "location": "Lappeenranta, South Karelia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-application-engineer-electrification-at-danfoss-4436935000",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Lappeenranta, Finland which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
     "id": "9a58d1f7",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-06",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -5467,14 +5467,13 @@
     "url": "https://fi.linkedin.com/jobs/view/myyntiteknikko-field-sales-engineer-at-walter-tools-4460711127",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical/product specialist role like her Topcon experience. Her 'Product Specialist' title there was quality/technical, not quota-carrying business development.",
+    "reason": "The role is a quota-carrying sales position, not a technical/product specialist role like her Topcon experience. She does not do quota-carrying outbound sales.",
     "id": "3f72dcbb",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "TECHNOLOGY SPECIALISTS / START-UP SPECIALIST",
@@ -5483,14 +5482,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technology-specialists-start-up-specialist-at-bellmer-czech-republic-4339246708",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hollola, Finland which does not match her strict exclusion of non-EU/Finland locations.",
+    "reason": "The role focuses on field commissioning and customer support for paper technology, not on release management, configuration management, or DevOps responsibilities.",
     "id": "8a321442",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "9 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Tuoteasiantuntija (Product Specialist)",
@@ -5499,14 +5497,13 @@
     "url": "https://fi.linkedin.com/jobs/view/tuoteasiantuntija-product-specialist-at-valio-4464475995",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish/Swedish language fluency, which she does not speak.",
+    "reason": "The role requires fluent Finnish, which Priya does not speak.",
     "id": "9218d40f",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-25",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -5514,15 +5511,14 @@
     "location": "Vaasa, Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-specialist-at-hitachi-energy-4457310250",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and English, which Priya does not speak.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her product specialist experience, but it's unclear if she would need Finnish fluency to do the job.",
     "id": "9c377664",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-21",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Product Manager, R&D Simulators",
@@ -5530,15 +5526,14 @@
     "location": "Tampere Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/technical-product-manager-r-d-simulators-at-gofore-4443295109",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her experience, but the location is unclear - it says Tampere Metropolitan Area which could be in Finland. She's open to Finland and EU roles but we don't know if this is an on-site or remote job.",
+    "matches_requirements": "yes",
+    "reason": "The role is a match for Priya's experience in DevOps, release management, and product specialist roles in regulated industries.",
     "id": "44f8d4b1",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/gofore_technical_product_manager__r_d_44f8d4b1.txt"
   },
   {
     "title": "Product Owner - MV Components",
@@ -5546,15 +5541,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-owner-mv-components-at-ge-vernova-4448846950",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which Priya does not speak.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good technical leadership match, but the location is unclear - it doesn't specify Finland or remote. The job title and engineering focus are strong fits.",
     "id": "c1d3c562",
     "source": "linkedin_fi_product_specialist_p3",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Manager (Worldwide)",
@@ -5563,14 +5557,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-worldwide-at-vensum-power-4461557874",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/CI-CD/release management/Product Specialist role like her background. Also hard rejects on US-based roles.",
+    "reason": "The role is a pure sales quota-carrying position using 'Product Specialist' as a title, which she explicitly excludes. Her own 'Product Specialist' experience at Topcon was technical/quality not sales.",
     "id": "cc53b55d",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Sales Support Specialist",
@@ -5585,8 +5578,7 @@
     "posted_date": "2026-09-05",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Sales Support Specialist",
@@ -5595,14 +5587,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-support-specialist-at-abb-4462308237",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and English, but she does not speak Finnish.",
+    "reason": "The role requires fluent Finnish and Swedish, which Priya does not speak.",
     "id": "32d1625f",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-05",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Specialist, Product Development",
@@ -5610,15 +5601,14 @@
     "location": "Lappeenranta, South Karelia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-specialist-product-development-at-fazer-4456575258",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/configuration management focused like her background. She would not be a fit.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves product development but is at a junior level, which may be a mismatch for her senior experience.",
     "id": "8b16cdd4",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Business Sales Specialist",
@@ -5627,14 +5617,13 @@
     "url": "https://fi.linkedin.com/jobs/view/business-sales-specialist-at-atea-finland-oy-4462960029",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a DevOps/CI-CD/release management role.",
+    "reason": "The role is a quota-carrying sales position titled 'Business Sales Specialist', which mislabels her target technical/product specialist experience (Topcon, Elektrobit). She does not qualify for pure sales roles.",
     "id": "bcba4bc9",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Manager",
@@ -5643,14 +5632,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-at-eaton-4418337298",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires knowledge of UPS and battery technologies, which is not a match for Priya's background.",
+    "reason": "The role is for a Product Manager of power supply products, while Priya's background is in software engineering, release management and technical communication. She does not have product management experience in hardware.",
     "id": "674792be",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "PreSales Solution Consultant - Electronics Industry EMEA",
@@ -5659,14 +5647,13 @@
     "url": "https://fi.linkedin.com/jobs/view/presales-solution-consultant-electronics-industry-emea-at-siemens-4458995325",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires more than 50% travel in EMEA, which is a hard rejection for her based on location.",
+    "reason": "The role requires more than 50% travel in EMEA, which does not match Priya's preference for roles based in Finland or remote EU/European roles.",
     "id": "e9ac903e",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Presales Specialist",
@@ -5675,14 +5662,13 @@
     "url": "https://fi.linkedin.com/jobs/view/presales-specialist-at-bookers-group-4449304362",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a product specialist focused on quality/technical support.",
+    "reason": "The role requires fluent Finnish, which Priya does not speak.",
     "id": "66bba215",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Infrastructure Sales Specialist Midmarket",
