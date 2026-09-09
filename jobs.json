@@ -6681,13 +6681,13 @@
     "location": "Krak\u00f3w, Poland",
     "url": "https://fi.indeed.com/rc/clk?jk=35dba37220923950",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is located in Krak\u00f3w, Poland which does not match the candidate's requirement of being open to roles anywhere in Finland or EU/Europe.",
     "id": "df4833f2",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "deadline": "2026-09-08",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -6757,14 +6757,13 @@
     "url": "https://fi.indeed.com/viewjob?jk=123456789abcdef0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Austin, TX, USA which violates the strict non-negotiable exclusion of any US-based jobs.",
+    "reason": "Hard rejection due to US location, does not match her non-negotiable exclusion of working in the United States.",
     "id": "f1767aec",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior Software QA Engineer",
@@ -6773,14 +6772,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8baaca068289afce",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for Junior Software QA Engineer, which does not match her Senior-level experience and focus on DevOps/Release Management. She would be overqualified.",
+    "reason": "The role is a Junior Software QA Engineer, which does not match her Senior-level experience and release/DevOps focus. She has no QA background.",
     "id": "3866912e",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Math Modeler",
@@ -6789,14 +6787,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=262ca79178a2ca21",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Turku, and Turku Finland which are specific locations outside of her current location in Oulu, Finland. She would be open to relocating within Finland but this does not match the hard rejection criteria for a role located in another EU country.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based roles and her preference for EU-based opportunities.",
     "id": "eb9884b5",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Solutions Specialist - Europe, 100% remote",
@@ -6805,14 +6802,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=579b08032e6cd94b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berlin, Germany which does not match the candidate's strict exclusion of US locations and requirement for a Finland-based role.",
+    "reason": "The job is located in Berlin, Germany which does not match her requirement for a role in Finland or EU/Europe.",
     "id": "32b48e5c",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Satellite Operations Specialist",
@@ -6821,14 +6817,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=894c595db95649ac",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a strong match on domain/role type and location/work model, but the job explicitly requires Finnish/Swedish language skills as mandatory. Priya does not speak either language.",
+    "reason": "This role is a pure feature development software engineering position, not release/CI/CD-focused like her background. It's also located in Espoo Finland which would be fine but the job title of 'Satellite Operations Specialist' doesn't match any of her key skills or experience.",
     "id": "16dc8728",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Researcher",
@@ -6837,14 +6832,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2cf3bb3902649822",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Researcher position in Analytical Chemistry, which does not match her technical communication/product specialist/release management background and experience.",
+    "reason": "The job is located in Aanekoski, Finland, which does not match her requirement to be based in Finland or open to EU/European remote roles.",
     "id": "7cfa9858",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Privacy, Data & Cyber Regulatory Counsel",
@@ -6853,14 +6847,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=62bf6693cecd3a0b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a JD/LLM degree in privacy and data protection law, which Priya does not have. Her technical background is not a match for this highly legal-focused regulatory counsel position.",
+    "reason": "The role is for a legal counsel specializing in privacy, data protection, and cybersecurity law - this does not match her technical DevOps/CM/release background.",
     "id": "0982bd44",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Project Delivery Specialist - Helsinki",
@@ -6869,14 +6862,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5f7e3e4b787a6593",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is for a Project Delivery Specialist focused on implementing AI clinical note software, which does not match Priya's release/CM/DevOps background. She would be overqualified and her skills are not needed.",
+    "reason": "The job is located in Helsinki, Finland which does not match her requirement to avoid US-based jobs and be open only to roles in Finland or EU/Europe.",
     "id": "8f76027f",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Internal Controls System Specialist Nordics",
@@ -6885,14 +6877,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5fc7f786e61275db",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a Master's degree, which is significantly higher than Priya's Bachelor of Technology and Advanced Diploma. She would be overqualified.",
+    "reason": "The role is a pure feature development software engineering position, which does not match Priya's background and experience in release management, DevOps, and configuration management.",
     "id": "c26e76c5",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Medical Physicist (f/m/d) - Proton Therapy",
@@ -6900,15 +6891,14 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/rc/clk?jk=2c8e549a3cd972f0",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluency in German, which Priya does not speak.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 24 (char 23)",
     "id": "22f472ae",
     "source": "indeed_fi_product_specialist_p2",
-    "posted_date": "2026-08-27",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Marketing & Communications Specialist - BYD Finland",
@@ -6916,15 +6906,14 @@
     "location": "Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=8cc45795f3ffccb1",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Marketing & Communications Specialist, but her background and experience are heavily in DevOps/CI/CD, release management, configuration management, and regulated product specialist roles. She has no marketing or communications experience to speak of.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 24 (char 23)",
     "id": "3767bdaa",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Database Geologist",
@@ -6933,14 +6922,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f8a37d819a611345",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. This matches her earlier-career hands-on coding but not her last 8+ years of experience.",
+    "reason": "The job is located in Sodankyl\u00e4, Finland which is within the EU but does not match her preference for roles in Oulu or other parts of Finland. She may consider it if fully remote but it's not explicitly stated.",
     "id": "17097870",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "In store Merchandiser",
@@ -6949,14 +6937,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4d3c3a05f424b4a4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an In Store Merchandiser, which involves retail sales and visual merchandising tasks like promoting products to customers. This does not match her technical DevOps/CM/Product Specialist background.",
+    "reason": "The job is located in Espoo, Finland which does not match her preferred locations of anywhere in Finland or remote EU/European roles. She is open to relocating within Finland but this on-site role is too specific.",
     "id": "c2472168",
     "source": "indeed_fi_product_specialist_p2",
-    "posted_date": "9/1/26",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Data Analyst",
@@ -6965,14 +6952,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3a6eeab864b93604",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Data Analyst, which does not match her current Product/Release Management and Technical Communication Specialist roles. She has some data background but this is more of an analytical/data science position focused on business analysis and driving commercial growth with data insights.",
+    "reason": "The role is a pure data analyst position, which does not match her DevOps/CM/release management background and experience. It's also located in Helsinki, which violates her hard rejection rule against non-EU/non-Finland locations.",
     "id": "48eab01e",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior Accounts Payable Specialist",
