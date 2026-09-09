@@ -2232,7 +2232,7 @@
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -2391,13 +2391,13 @@
     "location": "Link\u00f6ping, \u00d6sterg\u00f6tland County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-invensity-4331452080",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her configuration management and release management experience, but it's unclear if she would need fluent Swedish to perform the job.",
     "id": "d6f6d7b4",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "10 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -2406,14 +2406,14 @@
     "location": "Gothenburg, V\u00e4stra G\u00f6taland County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4462820318",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "yes",
+    "reason": "The role is a match for Priya's Configuration Management and Release Management experience, especially in a regulated aerospace/defense industry setting.",
     "id": "30769f8d",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2026-09-03",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null
+    "description_file": "job_descriptions/saab_configuration_manager_30769f8d.txt"
   },
   {
     "title": "Configuration Manager",
@@ -2421,15 +2421,14 @@
     "location": "Stockholm, Stockholm County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-tistel-4454503500",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Stockholm, Sweden which does not match her strict non-negotiable exclusion of US-based roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is a match on domain/role type, location/work model, and experience level.",
     "id": "4bd10207",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/tistel_configuration_manager_4bd10207.txt"
   },
   {
     "title": "Configuration Manager (Ingl\u00e9s alto)",
@@ -2438,14 +2437,13 @@
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-ingl%C3%A9s-alto-at-cimpa-plm-services-4430913906",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Spanish language proficiency, which Priya does not have.",
+    "reason": "The role is a hard rejection due to being located in Madrid, Spain which does not match her location preferences of Finland or EU-wide remote roles.",
     "id": "4129f869",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Confirmed Configuration Manager",
@@ -2454,14 +2452,13 @@
     "url": "https://de.linkedin.com/jobs/view/confirmed-configuration-manager-at-sogeclair-4459814497",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a match for her domain/role type of 'Release Manager / Technical Release Manager' and location/work model is fully remote.",
+    "reason": "The role matches her configuration management, change management, and engineering experience, with a focus on aerospace.",
     "id": "5885d541",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/sogeclair_confirmed_configuration_manage_5885d541.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/sogeclair_confirmed_configuration_manage_5885d541.txt"
   },
   {
     "title": "Configuration Manager (w/m/d) f\u00fcr sicherheitskritische Systeme",
@@ -2469,15 +2466,14 @@
     "location": "Greater Munich Metropolitan Area",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-w-m-d-f%C3%BCr-sicherheitskritische-systeme-at-xpertscout-gmbh-4461889180",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a configuration manager for safety-critical systems, which exactly matches her key skills and experience.",
+    "matches_requirements": "no",
+    "reason": "The role is located in the Greater Munich Metropolitan Area, which does not match the candidate's requirement for a job in Finland or EU/Europe.",
     "id": "c4d7d572",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/xpertscout_gmbh_configuration_manager__w_m_d___c4d7d572.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2486,14 +2482,13 @@
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-at-iceye-4435340117",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Spanish, which Priya does not speak.",
+    "reason": "The role is located in Valencia, Spain which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "7c6676a6",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2501,15 +2496,14 @@
     "location": "J\u00e4rf\u00e4lla, Stockholm County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4458198739",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in J\u00e4rf\u00e4lla, Stockholm County, Sweden which does not match the candidate's strict exclusion of the United States and requirement to be based in Finland or EU/Europe.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for Priya's configuration management and release management experience, but it's unclear if she would need Finnish/Swedish language skills to perform this job in Sweden.",
     "id": "cde453ac",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2518,14 +2512,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-wingcopter-4461895061",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Weiterstadt, Hesse, Germany which does not match the candidate's location preference of Finland or EU/European remote roles.",
+    "reason": "The role is a pure software engineering position focused on feature development, not release management or configuration control as Priya's background is in.",
     "id": "ed64730b",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager M-BOM",
@@ -2534,14 +2527,13 @@
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-m-bom-at-thales-4417076267",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on PLM and MBOM feature development, not release management, CI/CD ownership, or product specialist quality work as her background is. It's also in Belgium, not Finland.",
+    "reason": "The role is a hard rejection due to being located in Herstal, Belgium, which does not match her requirement for Finland or EU-wide remote.",
     "id": "85338cc7",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager E- & M-BOM",
@@ -2550,14 +2542,13 @@
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-e-m-bom-at-thales-4455784234",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Herstal, Belgium which does not match the candidate's strict exclusion for non-Finland/EU locations.",
+    "reason": "The job is located in Herstal, Belgium which does not match the candidate's preferred location of Finland or EU/Europe. She is open to remote roles but this on-site position is not a fit.",
     "id": "6e1571c2",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Gestor/a de la configuraci\u00f3n 3DEX - Ingl\u00e9s C1",
@@ -2566,14 +2557,13 @@
     "url": "https://es.linkedin.com/jobs/view/gestor-a-de-la-configuraci%C3%B3n-3dex-ingl%C3%A9s-c1-at-cimpa-plm-services-4430881922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish/Swedish, which she does not speak.",
+    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
     "id": "1dffe5e5",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Gestionnaire de Configuration F/H",
@@ -2582,14 +2572,13 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-f-h-at-scalian-4462781516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/CI/CD/release management role. Her career has been focused on release management and CI/CD ownership, not hands-on coding.",
+    "reason": "The role is located in Vitrolles, Provence-Alpes-C\u00f4te d'Azur, France which does not match her requirement for Finland or EU-wide remote roles.",
     "id": "89236e10",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Industrial Configuration Manager - PLM",
@@ -2597,15 +2586,14 @@
     "location": "Li\u00e8ge, Walloon Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/industrial-configuration-manager-plm-at-sparagus-4392945690",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent French, which Priya does not speak.",
+    "matches_requirements": "yes",
+    "reason": "This Industrial Configuration Manager - PLM role matches her experience with configuration management, PLM tools, and working in a regulated defense/aerospace industry. It's a mid-level senior software engineer position.",
     "id": "ba1b5765",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/sparagus_industrial_configuration_manag_ba1b5765.txt"
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
