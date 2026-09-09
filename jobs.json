@@ -2931,13 +2931,13 @@
     "location": "Munich, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-cimpa-plm-services-4456746019",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Munich, Germany which does not match her requirement for Finland or EU/European locations.",
     "id": "22208642",
     "source": "linkedin_eu_remote_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "vor 6 tagen",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -3021,12 +3021,12 @@
     "location": "Weeze, North Rhine-Westphalia, Germany",
     "url": "https://de.linkedin.com/jobs/view/change-and-configuration-manager-f-35-m-w-d-at-rheinmetall-4450062654",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is for a Change and Configuration Manager position at Rheinmetall, which requires fluent German language skills that Priya does not have. This hard rejects the job based on her language limitations.",
     "id": "812e7280",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -3036,15 +3036,14 @@
     "location": "Budapest, Hungary",
     "url": "https://hu.linkedin.com/jobs/view/configuration-manager-at-gedeon-richter-4461882735",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary which does not match the candidate's strict exclusion of the United States and requirement to be based in Finland or another EU country.",
+    "matches_requirements": "yes",
+    "reason": "The role is a perfect match for Priya's experience and skills, especially her configuration management background in regulated industries.",
     "id": "5cf65343",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-08",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/gedeon_richter_configuration_manager_5cf65343.txt"
   },
   {
     "title": "Configuration Management Specialist",
@@ -3053,14 +3052,13 @@
     "url": "https://bg.linkedin.com/jobs/view/configuration-management-specialist-at-endurosat-4455739732",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The role is a pure software development position, not focused on configuration management, release pipelines, or DevOps - key areas of her experience.",
     "id": "abfa3e81",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager (all gender)",
@@ -3069,14 +3067,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-all-gender-at-alten-4458004002",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Backnang, Baden-W\u00fcrttemberg, Germany which does not match her strict exclusion of non-EU/Finland locations.",
+    "reason": "The job is located in Backnang, Germany which does not match the candidate's preference for Finland or EU locations.",
     "id": "9444a025",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager:in",
@@ -3084,15 +3081,14 @@
     "location": "Greater Bremen Area",
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-in-at-tintschl-unternehmensgruppe-4464453942",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent German, which the candidate does not speak.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's configuration management and release management experience, with a focus on hardware and software projects.",
     "id": "964e4293",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/tintschl_unternehmen_konfigurationsmanager_in_964e4293.txt"
   },
   {
     "title": "Industrial Configuration Manager \u2013 PLM / MBOM",
@@ -3101,14 +3097,13 @@
     "url": "https://be.linkedin.com/jobs/view/industrial-configuration-manager-%E2%80%93-plm-mbom-at-sparagus-4459164092",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent French, which Priya does not speak.",
+    "reason": "The role requires fluent French and proficient English, but she only speaks English fluently.",
     "id": "a58956a8",
     "source": "linkedin_eu_remote_configuration_manager_p2",
-    "posted_date": "vor 4 tagen",
+    "posted_date": "vor 5 tagen",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -3116,15 +3111,14 @@
     "location": "Viby, Region of Southern Denmark, Denmark",
     "url": "https://dk.linkedin.com/jobs/view/configuration-manager-at-itm8-danmark-4436588645",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure Configuration Manager position, not release/CI/CD ownership like her background. Also located in Denmark, which she excludes.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's experience with configuration management, release management and DevOps in regulated industries.",
     "id": "94c14abf",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "vor 2 wochen",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/itm8_danmark_configuration_manager_94c14abf.txt"
   },
   {
     "title": "Technischer Konfigurationsmanager (m/w/d)",
@@ -3133,14 +3127,13 @@
     "url": "https://de.linkedin.com/jobs/view/technischer-konfigurationsmanager-m-w-d-at-rheinmetall-4398498936",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The job is located in Kiel, Germany which does not match the candidate's location preferences of Finland or remote EU/Europe roles.",
     "id": "2cfc2185",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -3148,15 +3141,14 @@
     "location": "Kolding, Region of Southern Denmark, Denmark",
     "url": "https://dk.linkedin.com/jobs/view/configuration-manager-at-itm8-danmark-4462516819",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on feature development, not release management/CM/DevOps which is her expertise.",
+    "matches_requirements": "yes",
+    "reason": "Matches her Configuration Management, CMDB, quality & compliance background exactly",
     "id": "b356ce2f",
     "source": "linkedin_eu_remote_configuration_manager_p2",
-    "posted_date": "vor 8 stunden",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/itm8_danmark_configuration_manager_b356ce2f.txt"
   },
   {
     "title": "Configuration and Data Manager for Eurofighter Simulation Programs (d/f/m)",
@@ -3165,14 +3157,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-and-data-manager-for-eurofighter-simulation-programs-d-f-m-at-airbus-defence-and-space-4452882064",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Manching, Bavaria, Germany which does not match her strict exclusion of non-EU/Finland locations. She also does not speak Finnish/Swedish.",
+    "reason": "The job is located in Manching, Bavaria, Germany which does not match the candidate's location preference of Finland or EU-wide remote roles.",
     "id": "43dfc86b",
     "source": "linkedin_eu_remote_configuration_manager_p2",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -3181,14 +3172,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-encontec-gmbh-4457903252",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Backnang, Baden-W\u00fcrttemberg, Germany which does not match the candidate's strict exclusion for non-Finland/EU locations.",
+    "reason": "The role is located in Backnang, Baden-W\u00fcrttemberg, Germany which does not match the candidate's location preference of Finland or EU/Europe.",
     "id": "8dade713",
     "source": "linkedin_eu_remote_configuration_manager_p2",
-    "posted_date": "vor 1 woche",
+    "posted_date": "vor 2 wochen",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Gestionnaire de Configuration Produit - H/F",
@@ -3197,14 +3187,13 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-produit-h-f-at-exail-4457794974",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in La Garde, Provence-Alpes-C\u00f4te d'Azur, France which does not match the candidate's strict exclusion of the United States and requirement for a role in Finland or EU/Europe.",
+    "reason": "The job is located in La Garde, Provence-Alpes-C\u00f4te d'Azur, France which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "b8822c7d",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Configuration & Change Manager (f/m)",
@@ -3212,15 +3201,14 @@
     "location": "\u017dilina, Zilina, Slovakia",
     "url": "https://sk.linkedin.com/jobs/view/senior-configuration-change-manager-f-m-at-siemens-4438337206",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in \u017dilina, Slovakia, which does not match her strict exclusion of non-EU/non-Finland locations.",
+    "matches_requirements": "yes",
+    "reason": "Matches her experience level, domain (configuration management), and location preference for Finland/EU roles.",
     "id": "9728c46b",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "vor 2 wochen",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/siemens_senior_configuration___change__9728c46b.txt"
   },
   {
     "title": "Configuration Manager (all gender) \u2013 Engineering Change Management 999",
@@ -3228,15 +3216,14 @@
     "location": "Kassel, Hesse, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-all-gender-%E2%80%93-engineering-change-management-999-at-alten-4432743779",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires German and English language fluency, which Priya does not speak.",
+    "matches_requirements": "yes",
+    "reason": "Strong match on Configuration Manager role with technical change management, matching her experience.",
     "id": "91940bfe",
     "source": "linkedin_eu_remote_configuration_manager_p2",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/alten_configuration_manager__all_gen_91940bfe.txt"
   },
   {
     "title": "Change & Configuration Manager - Krak\u00f3w (Ma\u0142opolskie), Polska K/M",
