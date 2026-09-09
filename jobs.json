@@ -6891,13 +6891,13 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/rc/clk?jk=2c8e549a3cd972f0",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 24 (char 23)",
+    "matches_requirements": "no",
+    "reason": "The role requires German language proficiency, which Priya does not have.",
     "id": "22f472ae",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -6906,13 +6906,13 @@
     "location": "Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=8cc45795f3ffccb1",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 24 (char 23)",
+    "matches_requirements": "no",
+    "reason": "The role is for a Marketing & Communications Specialist, which does not match her technical/DevOps/release management background and skills.",
     "id": "3767bdaa",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -6967,14 +6967,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d5f6ba7e75548820",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland, which does not match the strict exclusion for jobs in the United States.",
+    "reason": "The role is an Accounts Payable Specialist, which does not match her technical configuration management and release engineering background.",
     "id": "c21ee0bc",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Director, Sales Support & Marketing",
@@ -6982,15 +6981,14 @@
     "location": "Lahti, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=092835796ae1d339",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Lahti, Finland which does not match Priya's strict exclusion of US-based jobs and her preference for roles in Finland or other EU countries.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Director-level sales/marketing position, which matches her experience level and background. However, it's unclear if she would have the technical product knowledge needed for this Xrock business line (rock-breaking engineering systems), as her prior roles were more in quality/regulatory/product specialist rather than deep technical product development.",
     "id": "8466c53c",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "2026-09-01",
     "deadline": "2026-09-14",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Head of Marketing, Global",
@@ -6999,14 +6997,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a2b4abdf23295543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Head of Marketing, which requires sales and quota-carrying responsibilities. Priya's experience is more in technical product specialist roles focused on quality and documentation rather than marketing or sales.",
+    "reason": "The role is a Head of Marketing, which does not match her technical DevOps/CM/release background and experience level. She needs roles focused on software engineering, release management, or product specialist work.",
     "id": "328826c5",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Automation System Specialist",
@@ -7014,15 +7011,14 @@
     "location": "Oulu, Hanko, Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=c0e283983367353a",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves some automation system work, but it's unclear if this is CI/CD/release automation (which she excels at) versus general software/systems engineering. More context needed to determine if her specific skills are a direct match.",
+    "matches_requirements": "no",
+    "reason": "The role is located in Finland, which does not match the candidate's strict exclusion of US-based roles.",
     "id": "d73e0081",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "PC Product Specialist",
@@ -7031,14 +7027,13 @@
     "url": "https://www.jobly.fi/tyopaikka/pc-product-specialist-2748263",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a product specialist focused on quality/technical documentation and release management.",
+    "reason": "The role is for a PC Product Specialist at F9 Distribution Oy in Tampere, Finland, which does not match her background in semiconductor/VLSI/EDA and release management.",
     "id": "be368782",
     "source": "jobly_fi_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AV Product Specialist",
@@ -7047,14 +7042,13 @@
     "url": "https://www.jobly.fi/tyopaikka/av-product-specialist-2746975",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is pure feature development software engineering, not release/CI/CD ownership/configuration management like her background.",
+    "reason": "The role is a quota-carrying sales position mislabeled as 'Product Specialist', which she has experience with in a technical/quality capacity but not in a direct outbound sales role.",
     "id": "a201be4d",
     "source": "jobly_fi_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Sales Specialist",
@@ -7063,14 +7057,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/product-sales-specialist-sasta-20545686",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist role like her current Topcon job. It's also located in Sein\u00e4joki Finland, which she may be open to but isn't a strong match.",
+    "reason": "The role is a sales specialist position, not matching her technical release/DevOps background and experience.",
     "id": "91b51938",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -7078,15 +7071,14 @@
     "location": "Tampere, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/product-specialist-sssan-20530972",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a technical support specialist for drilling equipment, not release management, CI/CD, or product documentation. It also requires a B.Sc. degree and hands-on experience which she does not have.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her release management, product specialist experience and location preferences of Finland/EU.",
     "id": "15b8d180",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-09-01",
     "deadline": "2026-09-26",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/sandvik_product_specialist_15b8d180.txt"
   },
   {
     "title": "Senior Specialist, Product Development",
@@ -7094,15 +7086,14 @@
     "location": "Lappeenranta, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-specialist-product-development-sfsaz-20506653",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her experience with product development, release management, and quality assurance in regulated industries. However, it's unclear if she would need Finnish/Swedish fluency to perform this role.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluency in Finnish and English, which Priya does not speak.",
     "id": "02c8c22e",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-08-21",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Quality Specialist",
@@ -7110,15 +7101,14 @@
     "location": "Vantaa",
     "url": "https://duunitori.fi/tyopaikat/tyo/toyrock-oy-product-quality-specialist-sdsuu-20531371",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Product Quality Specialist, which matches her background and skills well, but it's located in Vantaa, Finland. She has strict non-negotiable exclusions against any job located in or restricted to the United States (including remote), and also against any job located outside the European Union or Finland itself beyond the US-specific rule.",
+    "matches_requirements": "yes",
+    "reason": "The role of Product Quality Specialist closely matches her background in release management, quality assurance and technical product support across regulated industries. The location is open to Finland or EU remote roles.",
     "id": "16071fbe",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-09-01",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/toyrock_oy_product_quality_specialist_16071fbe.txt"
   },
   {
     "title": "AV Product Specialist",
@@ -7126,15 +7116,14 @@
     "location": "Tampere, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/av-product-specialist-stsyo-20531171",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position mislabeled as 'Product Specialist', which she has explicitly excluded.",
+    "matches_requirements": "yes",
+    "reason": "The role of AV Product Specialist closely matches her background in release management, DevOps, and regulated product roles, with a strong fit for the F9 Distribution company based in Tampere Finland.",
     "id": "d7e40e04",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-08-31",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/f9_distribution_oy_av_product_specialist_d7e40e04.txt"
   },
   {
     "title": "PC Product Specialist",
@@ -7143,14 +7132,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/pc-product-specialist-stsyo-20535604",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which she has explicitly excluded as non-matching. The job description mentions 'Aktiivinen myyntity\u00f6 sek\u00e4 yhteydenpito j\u00e4lleenmyyj\u00e4asiakkaisiin', indicating this is an outbound sales role, not a technical/product specialist quality-focused role.",
+    "reason": "The role is a pure sales position, not a product specialist focused on quality/regulatory documentation as her background is. She has had a quota-carrying sales title before (Topcon) but this looks like an outbound B2B sales role, not a technical/product specialist one.",
     "id": "3be103bc",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-09-01",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Data Specialist",
@@ -7159,14 +7147,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/bygghemma-finland-product-data-specialist-sdsuu-20521744",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which the candidate does not speak.",
+    "reason": "The role is a Product Data Specialist focused on new product intake, inventory management and product information accuracy - it's more about data management than DevOps/CI/CD/release ownership. Her strong fit is in DevOps/Release Management roles, not this Product Data focus.",
     "id": "6341e8eb",
     "source": "duunitori_product_specialist",
     "posted_date": "2026-08-27",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tietojenk\u00e4sittelyn lehtori",
