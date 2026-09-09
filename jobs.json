@@ -10671,14 +10671,14 @@
     "location": "Braga, Braga, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/technical-program-manager-id83550-at-agileengine-4458638738",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's experience in release management, DevOps, and regulated software domains.",
     "id": "22de636b",
     "source": "linkedin_eu_release_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/agileengine_technical_program_manager_id83_22de636b.txt"
   },
   {
     "title": "Technical Program Manager ID83550",
@@ -10791,14 +10791,14 @@
     "location": "Germany",
     "url": "https://de.linkedin.com/jobs/view/release-manager-w-m-d-at-mesalvo-gmbh-4445907744",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role is a Release Manager position in a regulated medical device software company, matching her background and experience.",
     "id": "d5617cbc",
     "source": "linkedin_eu_release_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/mesalvo_gmbh_release_manager__w_m_d__d5617cbc.txt"
   },
   {
     "title": "SAP Release Manager",
