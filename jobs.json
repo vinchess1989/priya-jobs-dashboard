@@ -12662,19 +12662,18 @@
   },
   {
     "title": "Myyj\u00e4, Lahti",
-    "company": "Extract from page",
+    "company": "Taloturva Group Oy",
     "location": "Lahti, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/07eb7d31-f5a5-4f33-9d07-dbf325cc7b94/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is for a sales role (Myyj\u00e4) which is a hard rejection per the criteria.",
+    "reason": "The role is a quota-carrying sales position titled 'Myyj\u00e4' (Sales Representative) which matches the Hard Rejections rule for sales roles mislabeled as 'Product Specialist'. Her own 'Product Specialist' experience at Topcon was quality/technical, not sales.",
     "id": "e238eaff",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2026-09-08",
+    "deadline": "2026-09-27",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Ajanvaraaja, puhelinpalvelu, Taloturva Group Oy,Lahti",
@@ -12682,31 +12681,29 @@
     "location": "Lahti, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4dfc16c0-945d-4853-95d4-c7084a0d607e/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Lahti, Finland which does not match Priya's strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her background in release management, DevOps, and product specialist roles in regulated industries.",
     "id": "155b5a01",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/taloturva_group_oy_ajanvaraaja__puhelinpalvelu__t_155b5a01.txt"
   },
   {
     "title": "Myyj\u00e4, Tampere",
-    "company": "Extract from page",
+    "company": "Taloturva Group Oy",
     "location": "Tampere, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/406cb247-52c5-4d1f-8d25-855a2d6be0e4/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tampere, Finland which violates the strict non-negotiable exclusion of jobs located anywhere in the United States.",
+    "reason": "The job is located in Tampere, Finland, which does not match her strict exclusion of US-based roles.",
     "id": "0ae3e0d4",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyntip\u00e4\u00e4llikk\u00f6 Tampere",
@@ -12715,14 +12712,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/99721414-6ce0-4148-82df-6f4a01596ee9/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which matches her actual technical/product specialist experience at Topcon. The job description emphasizes outbound sales, account executive duties and hitting targets, not just product support.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which she has explicitly excluded herself from based on her prior experience at Topcon. The job description text uses 'Product Specialist' as a pure sales title, not a technical/product-support role.",
     "id": "44725a7b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "asiakashankinnan tiiminvet\u00e4j\u00e4 Tampere",
@@ -12730,15 +12726,14 @@
     "location": "Yl\u00f6j\u00e4rvi, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1eb26bbb-63d9-4951-a4e4-61cbd8d04c63/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure sales position (myynti, myynnillinen) with no mention of release management, CI/CD, configuration management, product specialist technical quality work. Her background and skills are not at all relevant to this.",
+    "matches_requirements": "yes",
+    "reason": "Matches her profile well, especially the release management, quality gatekeeping and regulated product experience at Elektrobit and Topcon. Finland location is a strong fit.",
     "id": "176b3d10",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/taloturva_group_oy_asiakashankinnan_tiiminvet_j___176b3d10.txt"
   },
   {
     "title": "Ajanvaraaja, Taloturva Group Oy,Tampere",
@@ -12747,14 +12742,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/80af084a-3bbc-44a5-8f9d-ea110067e4f1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tampere, Finland, which violates the strict no-US rule and her Finnish language requirement.",
+    "reason": "The role is a full-time office-based position in Tampere, Finland which does not match her location preferences of being open to remote roles based in the EU/Europe.",
     "id": "2e428516",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4, Tampere",
@@ -12763,14 +12757,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/73536d62-1fae-45aa-a5ff-bea7b17cc86c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Yl\u00f6j\u00e4rvi, Finland, which does not match her strict exclusion of US-based roles and her preference for Finland or EU-wide remote positions.",
+    "reason": "The job is located in Yl\u00f6j\u00e4rvi, Finland, which does not match the strict non-negotiable exclusion of ANY jobs located in or restricted to the United States.",
     "id": "90754b55",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4, Jyv\u00e4skyl\u00e4",
@@ -12779,14 +12772,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/71c61d92-ed50-4114-ad4c-cce6b7285a1b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Jyv\u00e4skyl\u00e4, Finland, which does not match the candidate's requirement to be based in Finland or EU/Europe.",
+    "reason": "The role is a sales position, not a technical product specialist or DevOps/CI/CD role.",
     "id": "8264bc1a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyntip\u00e4\u00e4llikk\u00f6 Jyv\u00e4skyl\u00e4",
@@ -12795,30 +12787,28 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e84d4c4f-4faf-470b-aa2a-2acbb5bfc545/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which matches her experience, but it's explicitly a quota-carrying business development/sales role not a technical/product specialist quality role like her Topcon experience. This mislabeled sales title hard rejects based on her actual background.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which she has ruled out based on her prior experience at Topcon. The job description text explicitly states this is a 'quota-carrying' sales role, not a technical/product specialist quality-focused role like hers.",
     "id": "a3f9ca24",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "27.09.2026, 23.59",
+    "posted_date": "2026-09-08",
+    "deadline": "2026-09-27",
     "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Tarjoilija",
-    "company": "Extract from page",
+    "company": "Ravintola Indian Part avoin yhti\u00f6",
     "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9b13f7e9-99f7-4339-b155-fa579bb31b66/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a server/busser position at a restaurant, which does not match her technical/quality-focused background in DevOps, release management, and product specialist roles.",
+    "reason": "This is a restaurant serving position for a food & beverage server, not an engineering/technical DevOps role.",
     "id": "3a4fe37c",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ajoneuvoasentaja",
@@ -12827,14 +12817,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bc7effba-c8a7-4fb8-a983-fe7a8d93b686/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an automotive mechanic, not a software engineering/DevOps position.",
+    "reason": "The job is for an automotive mechanic (ajoneuvoasentaja) which does not match her electronics/telecoms background and skills.",
     "id": "0e9f056a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud Architect",
@@ -12843,14 +12832,13 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454755712",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Cloud Architect position, which does not directly match her background in release management, configuration management, and technical product specialist roles. She has some cloud experience but it's not her primary focus or strength.",
+    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. It's also an on-site/hybrid Vaasa Finland location which she may be willing to relocate for but does not match the EU remote preference.",
     "id": "d5545379",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI-Driven Cloud Architect",
@@ -12859,14 +12847,13 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-driven-cloud-architect-at-solteq-plc-4408913161",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a match for Domain/Role Type and Location & Work Model, but it explicitly requires Finnish language fluency which she does not have.",
+    "reason": "The role requires fluent Finnish or English, but Priya does not speak Finnish and her prior Finland-based employers operated in English. This disqualifies her from this role.",
     "id": "137bf907",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "4 kuukautta sitten",
+    "posted_date": "2026-05-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -12875,14 +12862,13 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-infrastructure-cloud-engineer-100-%25-remote-m-f-d-at-ewor-4461972175",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based jobs and requirement to be based in Finland or EU/Europe.",
+    "reason": "The role is a senior AI infrastructure cloud engineering position, which does not match her release management and regulatory compliance background. She has no AI/ML experience.",
     "id": "e384c39e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -12891,14 +12877,13 @@
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453052841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which the candidate does not speak.",
+    "reason": "The role is a pure software development position, not release management/DevOps-focused like her background. It's also an on-site/hybrid Finland-only role.",
     "id": "30568df5",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Engineer II",
