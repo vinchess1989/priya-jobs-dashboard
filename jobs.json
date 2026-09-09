@@ -15291,15 +15291,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-vaasan-oy-at-lantm%C3%A4nnen-unibake-4358934142",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match Priya's requirement to avoid jobs in the United States. Also, it is a general customer support role rather than her technical configuration management and DevOps experience.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 27 (char 26)",
     "id": "ee95ffbd",
     "source": "linkedin_fi_broad",
-    "posted_date": "2026-09-03",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Avoin hakemus Lantm\u00e4nnen Cerealia",
@@ -15307,15 +15306,14 @@
     "location": "Kotka, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-lantm%C3%A4nnen-cerealia-at-lantm%C3%A4nnen-4137878747",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a senior production management position, which is above Priya's experience level of ~15 years. She would be overqualified for this.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "023f3051",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/qwen/qwen3.6-27b",
+    "description_file": null
   },
   {
     "title": "Interest in EY-Parthenon?",
@@ -15324,14 +15322,13 @@
     "url": "https://fi.linkedin.com/jobs/view/interest-in-ey-parthenon%3F-at-ey-parthenon-4432790440",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based jobs.",
+    "reason": "The role is for a strategy consulting position at EY-Parthenon, which does not match her technical release management/DevOps background and experience.",
     "id": "4e410430",
     "source": "linkedin_fi_broad",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
+    "posted_date": "2026-09-04",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Avoin hakemus",
@@ -15340,14 +15337,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-suomen-rakennuskone-oy-3980260991",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an open application, not a specific role match for Priya's skills and experience.",
+    "reason": "This is an open application for various roles at Suomen Rakennuskone Oy, not a specific job match for Priya's skills and experience.",
     "id": "0d9216f2",
     "source": "linkedin_fi_broad",
     "posted_date": "2 vuotta sitten",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Asentaja",
@@ -15356,14 +15352,13 @@
     "url": "https://fi.linkedin.com/jobs/view/asentaja-at-certego-finland-4436855007",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vaasa, Finland, which does not match the candidate's requirement to only consider roles in Finland or EU/Europe.",
+    "reason": "The job is located in Vaasa, Finland which does not match the candidate's preferred locations of Finland (anywhere), EU/Europe remote roles. The role also requires Finnish/Swedish language skills which she does not have.",
     "id": "d10e0796",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Oy Forcit Ab AVOIN HAKEMUS",
@@ -15372,14 +15367,13 @@
     "url": "https://fi.linkedin.com/jobs/view/oy-forcit-ab-avoin-hakemus-at-forcit-group-4435414706",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Laukaa, Finland which does not match her requirement for roles only in Finland or the EU.",
+    "reason": "The job is located in Laukaa, Finland, which does not match her requirement to be based in Finland or EU/Europe.",
     "id": "379aad60",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Asentaja",
@@ -15388,14 +15382,13 @@
     "url": "https://fi.linkedin.com/jobs/view/asentaja-at-certego-finland-4407046716",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a valid Finnish driver's license, which Priya does not have.",
+    "reason": "The job is located in Sirkka, Lapland, Finland which does not match her preferred locations of anywhere in Finland, EU/Europe for remote roles. She is based in Oulu and open to relocating within Finland or working remotely there.",
     "id": "4a83af85",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-05-12",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Is\u00e4nn\u00f6itsij\u00e4",
@@ -15404,14 +15397,13 @@
     "url": "https://fi.linkedin.com/jobs/view/is%C3%A4nn%C3%B6itsij%C3%A4-at-is%C3%A4nn%C3%B6itsij%C3%A4toimisto-pohjola-oy-4460749385",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a property management position unrelated to semiconductor, VLSI, or EDA domains and does not fit the required technical release/DevOps profile.",
+    "reason": "The role is for a property management position, not matching her technical DevOps/Release Management background.",
     "id": "8cc0955f",
     "source": "linkedin_fi_broad",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Avoin hakemus \u2013 Tule RTK:laiseksi!",
@@ -15420,14 +15412,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-%E2%80%93-tule-rtk-laiseksi%21-at-rtk-palvelu-oy-4464945101",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates the strict non-negotiable exclusion of jobs located in the United States.",
+    "reason": "The job is an open application for a land surveyor role at RTK-Palvelu Oy in Finland, which does not match her semiconductor/VLSI/EDA industry background and experience.",
     "id": "1662b238",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Avoin hakemus",
@@ -15436,14 +15427,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-instru-optiikka-oy-4409791914",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an open application with no specific role listed, so it doesn't match the technical DevOps/EDA/VLSI profile.",
+    "reason": "The role is a general customer service/sales position, not release management/CI/CD-focused technical product specialist like her background. Also, it's an on-site/hybrid Espoo location, not fully remote.",
     "id": "c8181306",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-05-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IQI - avoin hakemus",
@@ -15452,14 +15442,13 @@
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464616523",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a senior IT position requiring at least 5 years of ICT experience, which she has. But it's an open application with no specific job title matching her background. The location Kotka Finland fits but the posting does not specify remote vs on-site work.",
+    "reason": "The role is a pure IT consulting project manager position, not DevOps/CI/CD/release management focused like her background. She would be overqualified.",
     "id": "4a40cfd6",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-08-28",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Avoin hakemus Lantm\u00e4nnen Unibake Finland",
@@ -15468,14 +15457,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-lantm%C3%A4nnen-unibake-finland-at-lantm%C3%A4nnen-unibake-4004156751",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, which she has not done in over 8 years. Her entire career arc since Nov 2012 has been release/CM/DevOps-focused, not writing new application code.",
+    "reason": "The role is a pure sales position, not a technical/product specialist role like her Topcon experience. It's quota-carrying business development.",
     "id": "491f9138",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Consulting Finland AVOIN HAKEMUS",
@@ -15484,14 +15472,13 @@
     "url": "https://fi.linkedin.com/jobs/view/consulting-finland-avoin-hakemus-at-forcit-group-4435432096",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales/business development position, not a technical product specialist or DevOps/CM/release management role which matches her background.",
+    "reason": "The role is a pure sales position, not a technical product specialist like her Topcon experience. It's also an open-ended 'avoin hakemus' with no specific deadline.",
     "id": "4bc3e08a",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Avoin hakemus Lantm\u00e4nnen Cerealia",
@@ -15500,14 +15487,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-lantm%C3%A4nnen-cerealia-at-lantm%C3%A4nnen-4137876993",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position, not a technical product specialist like her prior Topcon experience.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's requirement of being open to roles anywhere in Finland or remote EU/European roles.",
     "id": "7945533b",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Parturit Pohjoismaihin",
@@ -15516,14 +15502,13 @@
     "url": "https://fi.linkedin.com/jobs/view/parturit-pohjoismaihin-at-eutalents-4452148180",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for barbers/hairdressers, not DevOps/Release Management. It's a hard rejection based on domain.",
+    "reason": "The role is for hairdressers/barbers, not her technical/quality release management background.",
     "id": "ef65a76c",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Avoin hakemus - asennus",
