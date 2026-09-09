@@ -14182,14 +14182,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=dc364ce5edd28bbe",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a general open call for on-demand home services workers, not a specific technical role in semiconductor/VLSI/EDA. It does not match the domain requirements.",
+    "reason": "The job is for a temporary work platform connecting to home service and maintenance providers, not a technical role in semiconductor/VLSI/EDA.",
     "id": "ad95b8fd",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "L\u00e4\u00e4k\u00e4ri ik\u00e4\u00e4ntyneiden arviointiyksikk\u00f6\u00f6n Loimaalle",
@@ -14198,14 +14197,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6bb935b6df41307d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Loimaa, Finland, which does not match her strict exclusion of US locations and requirement to be based in Finland or EU.",
+    "reason": "The role requires fluent Finnish, which Priya does not speak.",
     "id": "263b6c9a",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "2027-12-31",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kokoonpanija, Sastamala",
@@ -14214,14 +14212,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=894099ab76a66bd1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sastamala, Finland, which does not match the candidate's strict exclusion of US-based jobs and preference for roles in Finland or EU/Europe.",
+    "reason": "The role is for mechanical assembly of large equipment, which does not match her electronics/telecoms background in software engineering and release management.",
     "id": "657aa0d6",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "S\u00e4hk\u00f6asentaja kokoonpanoon, Sastamala",
@@ -14230,14 +14227,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e715343b9a8be710",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sastamala, Finland, which does not match the candidate's strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The job is located in Sastamala, Finland, which does not match the candidate's requirement to only consider roles in Finland or EU/Europe.",
     "id": "80f68c03",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Automaatioasentaja, Helsinki",
@@ -14246,14 +14242,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f950d276ab2170dc",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site installation of building automation systems, not release management or DevOps. It's a hands-on technical field service position.",
+    "reason": "The role is for a construction automation technician, not a DevOps engineer with configuration management and release pipeline experience.",
     "id": "237be529",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Varhaiskasvatuksen lastenhoitaja",
@@ -14261,15 +14256,14 @@
     "location": "Kerava, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/710f3202-0df4-4d4a-9765-844b4dab9c72/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for an on-site early childhood educator position in Kerava, Finland, which does not match her strict exclusion of US-based roles and preference for EU/European remote positions.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "46f2a761",
     "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-23",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Lasten ja nuorten osasto Hyvink\u00e4\u00e4n sairaala",
@@ -14278,14 +14272,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/cfa2a240-4534-497e-8616-5d78e2b8b217/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a nurse working with children, which does not match her technical/quality/product specialist background in semiconductor/VLSI/EDA.",
+    "reason": "The role is a clinical nursing position for a children's ward, which does not match her technical/quality/product specialist background in semiconductor/VLSI/EDA. It is also located in Hyvink\u00e4\u00e4, Finland, which violates the requirement to be physically located in Finland or another EU country.",
     "id": "5202cf5e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Fysioterapeutti Kuntoutus Lasten ja nuorten sairaudet",
@@ -14294,14 +14287,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7c874c98-b564-4954-b7f8-2c2203ba4928/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a physical on-site position at HUS Helsinki University Hospital in Finland, which does not match her strict exclusion of US-based roles and her preference for remote EU roles over domestic Finnish on-site jobs.",
+    "reason": "The job is located in Helsinki, Finland which does not match her requirement to be based in Finland or EU/Europe.",
     "id": "a579b736",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Toimintaterapeutti Kuntoutus Lasten ja nuorten sairaudet",
@@ -14310,14 +14302,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d7d1a8e5-7855-4639-9f2d-d3a294623441/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a physical on-site position at HUS Helsinki University Hospital in Finland, which does not match her strict exclusion of jobs located anywhere in the United States. She will not relocate to the US.",
+    "reason": "The job is for a physical therapist working with children and youth at a hospital in Helsinki, Finland. The candidate Priyanga Ramachandran (Priya) has an electronics background and experience in technical roles like DevOps, release management, and product specialist - this is not a match.",
     "id": "dbe4cc8c",
     "source": "tyomarkkinatori",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Lasten vastaanotot Uusi lastensairaala",
@@ -14326,14 +14317,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/aad816d5-f771-4155-82c8-7ad5c20da229/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a pediatric nurse at a new children's hospital, which does not match her technical/quality product specialist background in regulated industries like medical devices.",
+    "reason": "The job requires a clinical medical license which Priya does not have.",
     "id": "60e36775",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-09",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Azure Platform Engineer/Architect",
@@ -14342,14 +14332,13 @@
     "url": "https://fi.linkedin.com/jobs/view/azure-platform-engineer-architect-at-zure-4450706911",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on Azure platform development and architecture, which does not match her release management/CI/CD/devOps background.",
+    "reason": "The job is located in Finland, which violates Priya's hard rejection rule against non-EU/Finland locations.",
     "id": "1b0a025c",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Infrastructure DevOps Engineer",
@@ -14357,15 +14346,14 @@
     "location": "Tallinn, Harjumaa, Estonia",
     "url": "https://ee.linkedin.com/jobs/view/senior-infrastructure-devops-engineer-at-pawatech-4457356294",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Tallinn, Harjumaa, Estonia, which does not match her strict exclusion of the United States and requirement for Finland or EU-based roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's experience and skills, especially her DevOps/CI/CD/release management background in regulated industries. The only potential mismatch is that it's not explicitly remote or EU-based - but since she is open to relocating within Finland/EU, this doesn't disqualify it.",
     "id": "6ba300e1",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/pawatech_senior_infrastructure_devops_e_6ba300e1.txt"
   },
   {
     "title": "AWS DevOps Engineer",
@@ -14377,11 +14365,10 @@
     "reason": "The job is located in Madrid, Spain which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "cae72086",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -14390,14 +14377,13 @@
     "url": "https://bg.linkedin.com/jobs/view/senior-devops-engineer-at-epam-systems-4461910672",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which does not match the candidate's preference for Finland or EU/European remote roles.",
+    "reason": "The job is located in Sofia, Bulgaria, which does not match the candidate's requirement to be based in Finland or open to EU/European remote roles.",
     "id": "364c62dd",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-04",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -14406,14 +14392,13 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-medicore-4464499799",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Utrecht, Netherlands which does not match the candidate's requirement to be based in Finland or EU/Europe.",
+    "reason": "The job is located in Utrecht, Netherlands which does not match the candidate's requirement for a role in Finland or EU/Europe.",
     "id": "13416ccf",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer \u2013 Continuous Integration Infrastructure - Tieto Tech Consulting (m/f/d)",
