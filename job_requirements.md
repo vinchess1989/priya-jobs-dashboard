@@ -2,7 +2,7 @@
 
 ## Candidate Profile
 * **Name:** Priyanga Ramachandran (goes by "Priya")
-* **Current Role:** Technical Communication Specialist & Product Specialist — Topcon Healthcare Solutions EMEA Oy, Oulu, Finland (Sep 2025–Present). Quality gatekeeper on the RDx tele-refraction/clinical-workflow platform (MDR / ISO 13485 regulated): reviews change documentation, validates approvals before release, owns traceability records, coordinates release readiness across dev/QA/product/regulatory teams.
+* **Current Role:** Not currently employed — actively job-searching. Most recently Technical Communication Specialist & Product Specialist at Topcon Healthcare Solutions EMEA Oy, Oulu, Finland (Sep 2025–Jul 2026): quality gatekeeper on the RDx tele-refraction/clinical-workflow platform (MDR / ISO 13485 regulated) — reviewed change documentation, validated approvals before release, owned traceability records, coordinated release readiness across dev/QA/product/regulatory teams. Immediately available (next possible working day).
 * **Education:**
   * Bachelor of Technology, Electronics & Telecommunications — CUSAT, Kerala, India (2011)
   * Advanced Diploma in Embedded Systems — Cranes Varsity, Bangalore, India

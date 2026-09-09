@@ -129,18 +129,69 @@ seen_urls.json, jobs_history.json) was wiped on 2026-09-08 since none of it matc
 domain — see the commit "Add manju_jobs's Finnish site list and reset stale semiconductor test
 data". `checkpoint.json`'s `target_index` was reset to 0 for the new target list.
 
+## tailor-resume / fill-form skills ported from manju_jobs (2026-09-09)
+
+`priya_jobs` now has working `tailor-resume`, `fill-form`, `find-apply-link`, and
+`mark-job-deleted` skills, ported from `manju_jobs` for Priya specifically, to be run by **Priya
+herself from her own separate PC** — not operated remotely from this machine. Key facts a future
+session needs:
+
+- **Private resume repo:** `vinchess1989/Priya-jobs-private` (public dashboard's own account) —
+  **note this diverges from Manju's convention**, whose private repo (`Manju-jobs`) lives under a
+  *different* account, `munchnambiar`. Don't assume both candidates' private repos live under the
+  same account. Cloned locally as a sibling: `c:\Users\vinee\Priya_jobs_private\`.
+- **Support scripts copied + adapted** from `manju_jobs`, each with the Firestore project ID /
+  private-repo slug swapped to Priya's own (`priya-jobs-dashboard` / `vinchess1989/Priya-jobs-private`):
+  `make_resume.py`, `html_to_pdf.py` (unchanged), `job_status_store.py` (new — priya_jobs didn't
+  have one before this; see `CLAUDE.md` for why it's needed despite no shared `.git`),
+  `sync_resume_links.py`, `scrape_application.py`, `find_repos.py`, `upload_resume_links.py`,
+  `site_patterns.json`. The env var for the private-dir override is `PRIYA_PRIVATE_DIR` (not
+  `MANJU_PRIVATE_DIR`).
+- **English-only** — no Finnish-language tailoring path exists for Priya (unlike Manju's
+  `master_data_fi.json` branch), since her own `job_requirements.md` already hard-rejects any job
+  requiring Finnish/Swedish, so a Finnish resume would never actually be used. This meaningfully
+  simplified `tailor-resume.md` versus Manju's version — no language-detection branch, no
+  `resume.labels`/`cover_letter.salutation` handling.
+- **Fields deliberately omitted from her `master_data.json`** (vs. Manju's template): no
+  `date_of_birth` (not provided — forms that ask for it get left blank, flagged for manual fill,
+  never invented), no `wage_subsidy_note` (palkkatuki eligibility unknown — don't assume she
+  qualifies), no `volunteering`/`achievements`/`publications_html` (none known). `make_resume.py`
+  handles all of these as optional/blank gracefully.
+- **References** (from the user, not the resume itself — neither of her source resumes lists any):
+  Vili Lang (Line Manager, Elektrobit) — vili.lang@elektrobit.com; Morgane Fleuriot Pajunen
+  (Engineering Manager, Topcon Healthcare) — Mob: 0504840007; Riitta Kasoli (QARA Specialist,
+  Topcon Healthcare) — riitta.kasoli@topcon.com.
+- **Employment status corrected**: her Topcon role actually ended **July 2026** (not "–Present" as
+  it might read out of context from the resume's own date range) — she is currently unemployed and
+  immediately available. `job_requirements.md`'s Candidate Profile was updated to reflect this.
+- **Photo**: `priya_photo.jpg`, provided directly by the user in a Claude Code session and saved to
+  `Priya_jobs_private\priya_photo.jpg`.
+- **Chrome automation profile**: named `Priya Automation Profile` (not `Automation Profile`) in
+  `fill-form.md`, deliberately distinct so it never collides with any other candidate's saved
+  logins if ever tested on a shared machine — though in practice this runs on Priya's own PC where
+  no collision risk exists anyway.
+- `Priyanga_CV_ICEYE_TechReleaseManager.pdf` (in `originial resumes\`) remains the tailoring
+  *style* reference noted earlier — shows how she's already reframed her experience toward a
+  release-management-titled role, useful context for `tailor-resume.md`'s profile-writing step.
+
 ## Open/unresolved
 
-- The six auxiliary `.claude/commands/*.md` skills (resume tailoring, form-filling, etc.) still
-  haven't been adapted for this project — core scrape+review+dashboard pipeline only, by design
-  for now. When they are, use `Priyanga_CV_ICEYE_TechReleaseManager.pdf` (see above) as the
-  tailoring reference/style template.
+- **Cross-machine setup on Priya's own PC not yet done** (this session can't touch her physical
+  machine): clone both repos (needs her own GitHub collaborator access on
+  `vinchess1989/priya-jobs-dashboard` and `vinchess1989/Priya-jobs-private`), Python venv +
+  `pip install` + `playwright install chromium` (the pip package alone doesn't include the browser
+  binary), Node.js + npm + `npm install playwright-core` (mirrors this machine's
+  `C:\Users\vinee\.claude\chrome-automation\` setup, needed for the CDP browser-automation scripts
+  `fill-form.md` writes), Chrome installed, and a first manual sign-in to whatever job sites she'll
+  apply through in the `Priya Automation Profile` browser window (never automated).
+- Not yet tested end-to-end: `/tailor-resume` hasn't been run against a real job ID to confirm the
+  generated PDF renders correctly with her real data (schema/rendering validation per
+  tailor-resume.md's own Step 4.5). Do this before considering the port fully verified.
+- `add-job-link.md`, `test-and-publish.md`, and the `email-apply` skill are still not ported — none
+  are dependencies of the four skills above; separate work if wanted later.
 - Full authenticated dashboard testing (a write action like "mark applied", signed in as
   `priyabkc99@gmail.com`) still needs Priya to do it herself — not something to automate via
   browser automation with her credentials.
-- No Windows Scheduled Task installed yet (`setup_windows_scheduler.bat` exists but hasn't been
-  run) — intentionally last in the setup sequence, only after the scraper has been verified
-  working manually at least once (now done — see above).
 
 ---
-Last updated: 2026-09-07
+Last updated: 2026-09-09

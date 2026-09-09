@@ -1,0 +1,129 @@
+{
+  "soite.rekrytointi.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-09",
+    "notes": "Laura ATS (rekrytointi.com), used by Keski-Pohjanmaan hyvinvointialue Soite. www.soite.fi/tyopaikat 301-redirects to soite.rekrytointi.com/paikat/?o=A_LOJ&list=1 (listing). Job detail page: index.php?jid=<id> (bare, no other params) returned a genuinely blank page/empty body over repeated Playwright navigations in one session -- do not rely on the bare jid= URL alone; instead resolve the full o=A_RJ&jid=&rspvt= URL first (via WebFetch on the listing, or by finding the 'SUBMIT AN APPLICATION' link text on a working detail-page load) and reuse that. The apply URL (o=A_A&jid=<id>&rspvt=<token>#login_form) worked reliably across many repeated navigations within the same rspvt token/session -- it does not need re-resolving before every visit like ta.rekrytointi.com's does. Form fields (English UI when Chrome auto-translates from Finnish; underlying field names unaffected): First/Last name (q[1][0]/q[2][0]), DOB day/month/year selects (q[133][0][day/month/year]), Mobile (q[4][0]), Email (q[6][0], id=auto-email; there's also an 'I own this email' checkbox, id=applicant-email-verification-input, but it is not visible/clickable via normal Playwright check() -- not required for submission, safe to skip), Home address (q[140][0]), repeatable Work experience (Employer/Job title/Main tasks q[22][1]/q[23][1]/q[24][1], start/end month+year as separate TEXT inputs not selects: q[25][1][month/year], q[26][1][month/year]), repeatable Training (institution q[30][1], degree textarea q[31][1], start/end month+year text inputs q[32][1][month/year]/q[33][1][month/year]), free-text motivation textarea (q[34][0]), Education level select (q[28][0]), Electronic notification radio (q[139][0], value 511=Yes/512=No). CV UPLOAD GOTCHA: the file input lives inside an <iframe id='iframe_60_0' src='...?o=A_UC&QID=60...'> and has onchange='parent.uploadAttachment(this)' -- Playwright's set_input_files() on that inner input correctly fires the AJAX auto-upload, but DO NOT also click any submit/download-labeled button inside that iframe afterward (there's a mislabeled input value='Download' whose onclick is actually 'this.form.submit()', a full page nav that discards the just-selected file and resets the widget to an empty data-filedata=[] state). Just set_input_files then wait ~5s; success shows as 'The file you uploaded: <filename>' with a DELETE button replacing the Choose-File/Download pair. Also: opening multiple tabs of the same apply URL in one browser triggers a native JS confirm dialog ('Please keep only one form open...') that will hang Playwright's page.goto() indefinitely unless a page.on('dialog', ...).accept() handler is registered BEFORE navigating. Submit flow is two-step: click #preview-button ('CONTINUE TO PREVIEW') -> lands on o=A_P preview page showing all entered values read back -- verify here -- then click the 'SUBMIT AN APPLICATION' button (get_by_text, not a plain CSS text= locator) -> lands on o=A_S with 'It worked! Your application has arrived.' confirming genuine submission."
+  },
+  "ta.rekrytointi.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-08-17",
+    "notes": "Laura ATS (rekrytointi.com), used by TA-Yhtiot. Server-side bot detection: any direct Playwright page.goto() to ta.rekrytointi.com/paikat/ (with or without a referer= option set) returns HTTP 200 but an empty shell '<html><head></head><body></body></html>' with zero JS/asset requests fired -- confirmed reproducible across many attempts/full browser restarts over multiple days, not a transient CDP issue. Fix: never navigate directly -- start from the original job posting page (e.g. the duunitori.fi listing), find the real 'Hae tyopaikkaa'/apply link on THAT page, and page.locator(...).click() it with context.expect_page() to catch the resulting new tab. A genuine user-driven click (real browser navigation event, not a scripted .goto with a referer= param) is what gets past the block -- setting the Referer header manually on a direct goto() did NOT work, only an actual click-through did. From there the flow is: job detail page (o=A_RJ) -> click 'JATA HAKEMUS' button -> login/application form page (o=A_A, session-token in rspvt= query param that rotates per visit, don't cache this URL) with fields: Etunimi*, Sukunimi*, Sahkopostiosoite*, Puhelin*, Katuosoite, Postinumero, Postitoimipaikka, Maa, Linkki LinkedIn-profiiliin, Palkkatoive* (mandatory -- unlike most sites this cannot be left blank, submission is blocked without a value; fill a plausible range e.g. matching the role's stated pay band rather than skipping it), Mista sait tiedon tasta tyopaikasta* (dropdown), Liita tahan CV* (file), Linkki sahkoisiin tyonaytteisiin, Liita tahan hakemuksesi* (file), Muut liitteet. scrape_application.py's generic form-detector fails to find this form when given the rspvt= URL directly (same block, or the form structure confuses it) -- fill it manually via a hardcoded script instead. SESSION EXPIRES: confirmed 2026-08-18 -- a form filled and left open/idle for ~24h had its rspvt= session token silently expire; the URL itself changed to a token-less o=A_P validation/error view showing both file attachments as missing (red 'Pakollinen kentta' required-field errors) even though they were genuinely uploaded and visually confirmed present the day before. The fix is to redo the whole click-through+fill fresh (old session is unrecoverable) and tell whoever is submitting to do so soon after a fill, not leave the tab sitting for a day -- don't trust a fill from a prior cycle as still valid without re-verifying the live page state first."
+  },
+  "baronacareers.com": {
+    "strategy": "direct",
+    "discovered": "2026-08-13",
+    "notes": "Barona's own applicant portal (SPA). A job listing URL like /job/<category-slug>?filters[job_id]=<id> loads a category search page and auto-selects the job matching filters[job_id] in the detail panel -- the category-slug part of the URL is NOT the job title, don't trust it. The 'Apply' element is a custom <span class=\"fz-btn\"> (React component, not a real <button>/<a> with href) -- get_by_role/get_by_text exact click on a <button> role times out; click the span itself (page.locator('span.fz-btn').filter(has_text='Apply')) or via get_by_text(exact=True) on the span. Clicking it does client-side navigation (no new tab) to /jobs/<job_id>/application, Barona's own multi-step application wizard (profile / attachments / cover letter, each with their own 'Edit'/'Write now' spans using the same non-native-button pattern -- same click workaround needed throughout). If the applicant already has a Barona account (logged in via Automation Profile Chrome), a CV may already be on file from a prior application -- always check Edit uploads and replace with the job-tailored resume rather than assuming it's already correct. Cover letter is a plain textarea with a 50-300 word hard limit (own field, not the tailored PDF -- write a condensed version). No final review/preview screen -- 'Submit Application' becomes enabled directly once all three steps show green checkmarks; stop there. ANOTHER URL PATTERN (confirmed 2026-08-15): a /fi/en/company/<company-slug> page (WebFetch and raw Invoke-WebRequest both 403 on this domain -- headless Playwright render required from the first hop, don't bother trying WebFetch/raw HTTP first) lists that employer's open roles as a 'View' link to /fi/en/jobs/<job-title-slug>-<company-slug> -- that job page has the same button pattern but rendered as a real <button> (not a span) with text 'Sign in and Apply', confirming a Barona account login is required before the application wizard is reachable. Job page also lists a named recruiter + direct email in an 'About the job' footer (e.g. 'Have questions about this job? Contact our recruiter: <name> <email>') as an alternate contact route."
+  },
+  "suomentulkkauspalvelu.fi": {
+    "strategy": "direct",
+    "discovered": "2026-08-13",
+    "notes": "Small employer (interpretation services, Tuusula). Job postings on aggregators (duunitori.fi) point to a dedicated apply page on this domain (e.g. /koordinaattori/), which itself is email-only — no fillable form, just a mailto contact (info@suomentulkkauspalvelu.fi)."
+  },
+  "jmo.fi": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-08-01",
+    "notes": "WordPress-based careers blog for Jokilaaksojen musiikkiopisto. The category listing (/category/avoimettyopaikat/) links to individual dated post pages (/YYYY/MM/DD/slug/), which in turn link out to an external application form (seen: vismasignforms.com). 2 hops total from the category page.",
+    "typical_hop_count": 2
+  },
+  "vismasignforms.com": {
+    "strategy": "direct",
+    "discovered": "2026-08-01",
+    "notes": "Visma-hosted application form host used by various Finnish employers/municipalities. The URL found via an employer's own site (e.g. jmo.fi) IS the form itself — no further hops needed once reached."
+  },
+  "kuntarekry.fi": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-07-19",
+    "notes": "Finnish municipal job portal (used by many cities/kunta employers). WebFetch's HTML-to-markdown conversion misses the apply button entirely (it returned a degenerate 'NEXT_URL: www.kuntarekry.fi' with no real path) because the button is a custom web component <ip-button-tracked eventType=\"apply_to_job\" href=\"...\" ariaLabel=\"Hae työpaikkaa\">, not a plain <a> tag. Go straight to raw HTML + grep for 'ip-button-tracked' rather than trying WebFetch first on this domain. The href points to a THIRD domain, kuntarekrytointi.fi (portal/candidate/application/<jobExtId>?portalId=rekryfi) — that's the real form URL, not kuntarekry.fi itself.",
+    "apply_button_grep": "ip-button-tracked eventType=\"apply_to_job\".*href=\"([^\"]+)\"",
+    "WARNING_auto_submit": "Confirmed 2026-07-31 (job 2d49f3b0, Turun AMK): this portal's application builder has NO separate final submit button to avoid clicking. Once every mandatory section (Perustiedot/Tutkinnot/Tyokokemus/Hakemus tehtavaan/Liitteet) is complete, the application auto-finalizes on its own -- the status badge flips from 'HAKEMUSTA EI JATETTY' to 'HAKEMUS JATETTY' (submitted) with no confirmation step, seemingly triggered just by the last required field/attachment being filled in. This happened without any explicit submit-labeled element being clicked. For any kuntarekry/kuntarekrytointi.fi application going forward: after filling the free-text 'Hakemus tehtavaan' section, deliberately leave at least one required field (e.g. the resume attachment in Liitteet) UNFILLED, screenshot to confirm the badge still reads 'HAKEMUSTA EI JATETTY', and only report the job as ready for Manju's own review with an explicit note that she must finish and submit it herself -- do not attempt to complete every required field automatically on this domain.",
+    "custom_elements_dom": "Uses shadow-DOM web components (SITE-HEADER, IP-BUTTON, IP-SECTION, etc.) -- plain document.querySelectorAll misses header nav/buttons entirely. Use Playwright's get_by_text() (pierces shadow DOM) instead, and verify count()/is_visible() per match since hidden aria-hidden duplicates are common (e.g. an ip-header inside a collapsed accordion panel matches the same text as the real visible link)."
+  },
+  "recright.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-07-28",
+    "notes": "Recright ATS. WebFetch sees only an empty SPA shell -- go straight to the CDP browser (connect_over_cdp, reuse the Automation Profile) for both hops. Hop 1: the employer careers listing page (e.g. recright.com/careers/en/<company-slug>) has zero visible job links via WebFetch but a live browser finds <a> tags per job with text matching the job title, e.g. href = recright.com/careers/fi/<company-slug>/<job-slug>-<hash>. Hop 2: that job page itself has 0 form inputs -- it's a description page with a 'Hae paikkaa'/'Apply' button; click it (page.get_by_text('Hae paikkaa', exact=True).click()) to navigate to <job-url>/apply, which is the real form (confirmed: 7 inputs, 1 textarea, 1 file upload for one listing)."
+  },
+  "jobly.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link. Confirmed hop chain for at least one listing: jobly.fi/tyopaikka/<slug> -> jobly.fi/node/<id>/apply-external (302) -> rekry.rainmaker.fi/jobs/<id>-<slug>/applications/new?... (a real Rainmaker ATS form). 2 hops via WebFetch, no raw HTML/JS bundle needed."
+  },
+  "duunitori.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link. CORRECTION (2026-07-24): the /hae path off a listing (e.g. <listing-path>/hae, reached by WebFetch following the 'Hae työpaikkaa' link) is NOT a real application form -- confirmed by live scrape_application.py: is_application_form() correctly rejects it as 'a job listing portal, not an application form' and no real apply link could be found from it either. WebFetch reporting 'FORM_URL: <url>' on that page appears to be a false positive/hallucination, not a reliable signal for this domain -- treat a duunitori.fi WebFetch FORM_URL hit with suspicion and verify live (scrape_application.py) before trusting it. The actual external apply destination for a given listing still needs to be found some other way (e.g. the employer's own site, not surfaced via this hop chain so far)."
+  },
+  "indeed.com": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link"
+  },
+  "fi.indeed.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-07-24",
+    "notes": "Indeed's fi.indeed.com/rc/clk?jk=<id> click-tracking links 302-redirect to the actual employer/ATS posting (e.g. emp.jobylon.com/jobs/<id>-<slug>/ for Jobylon-hosted listings). WebFetch follows the redirect automatically (reported as a cross-host redirect) — just re-fetch the redirect target as the next hop. Confirmed one Jobylon-hosted posting resolved to an email-only application (no form)."
+  },
+  "monster.com": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link"
+  },
+  "jobs.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link"
+  },
+  "te-palvelut.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "legacy TE portal — may redirect to tyomarkkinatori.fi"
+  },
+  "tyomarkkinatori.fi": {
+    "strategy": "api",
+    "discovered": "2026-07-18",
+    "notes": "SPA; job content loaded client-side by the TmtTyopaikkaHakuV2 widget. Page HTML alone (even raw) has no job data — do not bother with Step 2 raw-HTML fallback for this domain, go straight to the API.",
+    "id_regex": "avoimet-tyopaikat/([0-9a-fA-F-]{36})",
+    "api_template": "https://tyomarkkinatori.fi/api/jobposting-new/v1/public/jobpostings/{id}",
+    "apply_json_path": "application.url.<any language key present, e.g. .fi>",
+    "email_json_path": "recruiter.contacts[0].email — often empty (contactInfoVisible: false); when application.url.* is also empty, check application.helpText.<lang> for free-text instructions like 'Lähetä hakemus ja CV sähköpostilla: <email>' and regex the email out of that instead."
+  },
+  "mol.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link"
+  },
+  "oikotie.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link"
+  },
+  "rekrytointi.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "listing aggregator — has an external apply link"
+  },
+  "linkedin.com": {
+    "strategy": "network_intercept",
+    "notes": "companyApplyUrl only appears in voyager/graphql XHR responses, never in rendered HTML or WebFetch markdown. extract_company_apply_url.py's saved session file (C:\\Users\\vinee\\Manju_jobs_private\\sessions\\linkedin_session.json) does not exist on this machine as of 2026-07-28 -- prefer the dom_href fallback below over launching a fresh headless browser with that path.",
+    "intercept_hint": "See extract_company_apply_url.py: launch Playwright with the saved LinkedIn session, listen for responses whose URL contains 'voyager' or 'graphql', regex the body for \"companyApplyUrl\":\"([^\"]+)\".",
+    "dom_href_fallback": "Cheaper and doesn't need a session file: connect_over_cdp to the already-open Automation Profile Chrome (port 9222, already logged into LinkedIn), goto the job URL, evaluate JS to find the <a> or <button> whose trimmed textContent is exactly 'Apply' (not 'Easy Apply' -- that one is LinkedIn-native, no external form), and read its href directly. The href is a linkedin.com/safety/go/?url=<urlencoded target> wrapper -- urllib.parse.unquote the url= query param to get the real external ATS URL. Confirmed working 2026-07-28 for a talentadore.com job with zero companyApplyUrl hits in voyager/graphql.",
+    "easy_apply_only": "Confirmed 2026-08-02: when the dom_href_fallback scan finds only an 'Easy Apply' button (no plain 'Apply' with an external href), there is no external ATS -- the application form is a LinkedIn-native modal opened by clicking 'Easy Apply' on the job page itself. In this case set apply_url = the job's own LinkedIn URL (not a redirect target), and fill_form's Step 5 script must click the 'Easy Apply' button first to open the modal before locating form fields.",
+    "share_profile_interstitial": "Confirmed 2026-08-13 (job 86019248, SemiQon): sometimes the plain 'Apply' button has no direct external href to read -- clicking it opens a 'Share your profile?' interstitial modal first (a toggle + 'Continue' button, unrelated to Easy Apply). Clicking 'Continue' is what actually triggers the external navigation (opens a new tab). Use context.expect_page() around the 'Continue' click to catch it, rather than assuming the href is present on the initial 'Apply' element."
+  },
+  "valtiolle.fi": {
+    "strategy": "api",
+    "discovered": "2026-07-30",
+    "notes": "Finnish state (valtio) job portal. Job listing page (valtiolle.fi/fi/tyopaikat/<slug>-<id>/) has a HAE TYOPAIKKAA link/button that goes to rekry.valtiolle.fi/portal/candidate/application/<id>?portalId=rekryfi. If a saved Chrome autofill login exists for this portal (email/password prefilled on the login page), submitting the login form lands DIRECTLY on the application builder for that job (no extra click needed) -- Perustiedot/Tutkinnot/Kurssit/Kielitaito/Tyokokemus/Kokemus-patevyys-osaaminen/Hakemus tehtavaan/Liitteet accordion sections, many fields pre-filled from the candidate's saved profile (name, DOB, phone, address, email, e-delivery consent). IMPORTANT BLOCKER: the Perustiedot section always includes 'Onko sinulla Suomen kansalaisuus? (valtion virkamieslaki 7 pykala)' (Do you have Finnish citizenship?) as a required radio with neither option pre-selected -- this appeared on two different virka postings (a police lupasihteeri role and a hospital toimistosihteeri role), so it looks like a standard field the portal asks on every virka application regardless of whether that specific post is actually one of the citizenship-restricted categories under SS7. Do not guess/answer this on the candidate's behalf -- log a citizenship_eligibility_check action item and stop instead of proceeding further into the form. ALSO CHECK before assuming a blank slate: the candidate's saved profile can carry an already-started or already-submitted draft for a given job (look for 'Hakemus jatetty' vs 'Hakemusta ei jatetty' badge near the top, and a 'Hakemusta muokattu <date>' timestamp) predating the current session -- never overwrite existing Tyokokemus/Hakemus tehtavaan text found already filled in.",
+    "id_regex": "tyoavain/(\\d+)/",
+    "login_note": "Login page (rekry.valtiolle.fi/portal/candidate/login) had Chrome-saved credentials (email + password) that auto-filled; clicking the submit button logs in and redirects straight into the application for whichever job link was followed to get there."
+  },
+  "tyopaikat.eezy.fi": {
+    "strategy": "webfetch_hops",
+    "notes": "Eezy job-ad short-link redirector. Immediately redirects again to talent.core.eezy.fi/jobapply?custom_job_ad_id=<id> (the Flutter SPA). Treat as a pass-through hop."
+  },
+  "talent.core.eezy.fi": {
+    "strategy": "headless_render",
+    "notes": "Eezy Osaajat/Talent Flutter web app (flutter.js + main.dart.js, ~10MB bundle, CanvasKit/WebGL renderer), 100% canvas-drawn. IMPORTANT: the browser URL does NOT change between screens -- login/landing, the 'Start' confirmation screen, and the actual multi-step application form (Upload CV -> ... ) are all rendered client-side under the exact same URL https://talent.core.eezy.fi/jobapply?custom_job_ad_id=<id> (which itself normalizes to https://talent.core.eezy.fi/?custom_job_ad_id=<id>). There is NO separate deep-link URL for 'the actual form' -- do not try to find one. To reach the real form programmatically: goto the jobapply URL, wait ~10s for CanvasKit to paint, then click through in-app buttons by coordinate/text: 'Submit application' (or 'Continue' if an authenticated session already recognizes the user) -> 'Start' -> lands on 'Upload CV' (the first real form step). When opening this for Manju in a visible browser, pre-navigate through these clicks so she lands directly on the real form instead of the intro screen.",
+    "entry_url_template": "https://talent.core.eezy.fi/jobapply?custom_job_ad_id={id}",
+    "id_source": "redirect target from tyopaikat.eezy.fi/tyopaikat/{id}",
+    "authenticated": true,
+    "auth_notes": "Manju has an Eezy Talents account/profile created and logged in via the Automation Profile Chrome profile (%LOCALAPPDATA%\\Google\\Chrome\\Automation Profile), see .agents/skills/open_visible_browser. Reuse this session (launch_persistent_context with channel='chrome' against that user_data_dir) for all future Eezy jobs instead of a fresh/incognito context.",
+    "url_never_changes": true
+  },
+  "dittmarindrenius.teamtailor.com": {
+    "strategy": "direct",
+    "discovered": "2026-08-04",
+    "notes": "Teamtailor-hosted job page renders the application form directly on the job posting page itself (no separate apply-button hop)."
+  }
+}
