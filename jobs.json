@@ -10131,13 +10131,13 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/system-specialist-market-integration-at-euronext-4431228867",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Espoo, Finland which does not match the candidate's preference for roles in Finland or EU/Europe. She is open to remote but this is a local on-site/hybrid position.",
     "id": "e9c10e85",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "posted_date": "2026-08-10",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -10222,14 +10222,13 @@
     "url": "https://fi.linkedin.com/jobs/view/vision-and-inspection-technology-expert-at-amcor-4431720815",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Vision and Inspection Technology Expert, which does not directly match her technical communication/release management background. She has no experience in machine vision/inspection technology deployment.",
+    "reason": "The role is located in Turku, Finland which does not match her preferred locations of being open to roles anywhere in Finland or remote EU/European roles.",
     "id": "f78e46e9",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2 kuukautta sitten",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Change & Configuration Management Specialist, IRIS2 Programme Office",
@@ -10237,15 +10236,14 @@
     "location": "Unterf\u00f6hring, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/change-configuration-management-specialist-iris2-programme-office-at-ses-satellites-4435485214",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a match for Priya's experience in configuration management, change control, and stakeholder coordination across a large programme office.",
+    "matches_requirements": "no",
+    "reason": "The role is a pure Configuration Management Engineer position, not DevOps/CI/CD/release management like her background. It's also located in Germany, not Finland/EU.",
     "id": "58c42efa",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/ses_satellites_change___configuration_managem_58c42efa.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -10254,14 +10252,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-diehl-defence-4449810800",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Germany, which violates the strict non-negotiable exclusion of jobs based in the United States.",
+    "reason": "The role is located in Germany, which violates the strict non-negotiable exclusion of US-only roles.",
     "id": "14a448d0",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-12",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Gestionnaire de configuration (F/H)",
@@ -10269,15 +10266,14 @@
     "location": "M\u00e9rignac, Nouvelle-Aquitaine, France",
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-f-h-at-cgi-4438295741",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in M\u00e9rignac, Neu-Aquitanien, France which does not match the candidate's strict exclusion of the United States and requirement for a Finland/EU location.",
+    "matches_requirements": "yes",
+    "reason": "The role is a match for her configuration management, release management and DevOps experience, especially in regulated industries.",
     "id": "edc09e6b",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/cgi_gestionnaire_de_configuration__edc09e6b.txt"
   },
   {
     "title": "Configuration and Data Management (CADM) Lead \u2013 Space Galileo",
@@ -10286,14 +10282,13 @@
     "url": "https://nl.linkedin.com/jobs/view/configuration-and-data-management-cadm-lead-%E2%80%93-space-galileo-at-cgi-nederland-4455376077",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a strong match for Priya's experience with configuration management, release management, and regulated industries like automotive (ASPICE/TUV) and medical devices (MDR/ISO 13485). The space industry has similar rigorous quality and compliance requirements.",
+    "reason": "The role matches her experience with configuration management, release management, and regulated industries like automotive (Elektrobit) and medical devices (Topcon). It's in the Netherlands, which is part of the EU.",
     "id": "58d54051",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/cgi_nederland_configuration_and_data_managem_58d54051.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/cgi_nederland_configuration_and_data_managem_58d54051.txt"
   },
   {
     "title": "Hardware Configuration Manager (m/w/d)",
@@ -10302,14 +10297,13 @@
     "url": "https://de.linkedin.com/jobs/view/hardware-configuration-manager-m-w-d-at-fresenius-medical-care-4464320770",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The role is a pure hardware configuration management position, not a release/DevOps role like her background. Also, it's located in Germany which triggers both the US-specific and non-EU location hard rejections.",
     "id": "8760b2c9",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "vor 1 tag",
-    "deadline": "N/A",
+    "posted_date": "2026-09-07",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurations- und ILS-Manager:in (m/w/d)",
@@ -10318,14 +10312,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurations-und-ils-manager-in-m-w-d-at-ohb-se-4462782330",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hard rejection due to being located in Bremen, Germany, which does not match the candidate's location preferences for Finland or EU-wide remote roles.",
+    "reason": "The role is located in Bremen, Germany which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "deb5f987",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -10334,14 +10327,13 @@
     "url": "https://it.linkedin.com/jobs/view/configuration-manager-at-ayes-management-technology-consulting-4446229117",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a match for Priya's configuration management and product specialist experience, especially in regulated industries.",
+    "reason": "Matches her configuration management, release management, and product specialist background exactly.",
     "id": "d2d34e52",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/ayes___management____configuration_manager_d2d34e52.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/ayes___management____configuration_manager_d2d34e52.txt"
   },
   {
     "title": "Automotive Software Flasher - Muonio, Lapland",
@@ -10349,15 +10341,14 @@
     "location": "Muonio, Finland",
     "url": "https://www.jobly.fi/tyopaikka/automotive-software-flasher-2748751",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a hands-on Automotive Software Flasher position, requiring ECU flashing and diagnostics experience. Priya's background is in DevOps/CI-CD/release management, not automotive hardware/diagnostics.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her DevOps/CI-CD/release management background, especially in a regulated automotive context. It's located in Finland which she is open to.",
     "id": "931b06d3",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/e_motive_technology__automotive_software_flasher____931b06d3.txt"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija, robotiikka ja teko\u00e4ly",
@@ -10365,15 +10356,14 @@
     "location": "Oulu, Helsinki, Tampere, Sein\u00e4joki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-robotiikka-ja-tekoaly-2752293",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a system specialist focused on robotics and AI development, which does not match her release management, configuration management, and DevOps experience.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her background in system engineering, robotics, and AI development.",
     "id": "8f5d30ef",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/ammattiopisto_luovi__j_rjestelm_asiantuntija__robot_8f5d30ef.txt"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija (2 teht\u00e4v\u00e4\u00e4)",
@@ -10381,15 +10371,14 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2-tehtavaa-2746317",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of Finnish/Swedish language requirement.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's configuration management, release management, and Citrix expertise, with the added bonus of being in Finland.",
     "id": "36a1c22e",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-08-31",
     "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/valtori_j_rjestelm_asiantuntija__2_teh_36a1c22e.txt"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 Rakennusautomaatio (PK-seutu)",
@@ -10398,14 +10387,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-pk-seutu-2744897",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on feature development, not release management/DevOps which is her core strength and experience. It's also an onsite/hybrid Finland-only role.",
+    "reason": "The role is for a Systems Engineer focused on building automation systems, not release management, CI/CD, configuration management, or product specialist roles.",
     "id": "9d714145",
     "source": "jobly_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-08-27",
     "deadline": "2026-09-10",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -10414,14 +10402,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2737024",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language fluency, which Priya does not speak.",
+    "reason": "The role is located in Mikkeli or Kotka, Finland, which does not match her requirement for roles in Finland but open to EU/Europe.",
     "id": "64b736a5",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -10430,14 +10417,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2737856",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site positions in various Finnish cities, which does not match her strict exclusion of US roles and her preference to work remotely within Finland/EU.",
+    "reason": "The role is for j\u00e4rjestelm\u00e4asiantuntija (system specialist) positions in Finland, which match her location preferences. However, it does not have a strong enough DevOps/CI/CD/release management component to be a full match given her background and target job criteria.",
     "id": "02708e46",
     "source": "jobly_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-08-24",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Engineering Manager, Navigation Incidents",
