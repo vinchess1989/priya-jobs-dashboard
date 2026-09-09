@@ -10101,14 +10101,14 @@
     "location": "Rovaniemi, Lapland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464619455",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer match, with CI/CD pipeline ownership and infrastructure/tooling for software delivery. It's located in Rovaniemi, Finland which fits her location preferences.",
     "id": "6ea67704",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/iqi_iqi___avoin_hakemus_6ea67704.txt"
   },
   {
     "title": "Process Specialist - Product Master Data",
