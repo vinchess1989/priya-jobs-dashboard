@@ -1685,12 +1685,12 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=43406b63ecd78ec9",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The role is a pure Salesforce software development position, requiring feature development and admin work. She has no recent Salesforce experience (her certifications are outdated) and her background is in release management, configuration management, and DevOps pipeline ownership - not Salesforce feature development or admin work.",
     "id": "308a32f3",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -1746,14 +1746,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4d62b0725dc0bc72",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which Priya does not speak.",
+    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of non-EU/Finland locations.",
     "id": "94151ae3",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer, Tampere",
@@ -1762,14 +1761,13 @@
     "url": "https://www.jobly.fi/tyopaikka/devops-engineer-tampere-2740559",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer position, which matches her key skills and experience. It's located in Tampere, Finland, which she is open to.",
+    "reason": "Matches her DevOps/CI/CD/Linux/sysadmin background, hybrid work model, and Tampere location.",
     "id": "1b091dd5",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1b091dd5.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1b091dd5.txt"
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1777,15 +1775,14 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/senior-software-engineer-devops-platform-engineering-2750369",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires an approved security clearance statement, which Priya does not have.",
+    "matches_requirements": "yes",
+    "reason": "Matches her DevOps, CI/CD, release management background and is based in Finland with remote option.",
     "id": "f20de87e",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/dna_oyj_senior_software_engineer__devo_f20de87e.txt"
   },
   {
     "title": "Facebook",
@@ -1794,14 +1791,13 @@
     "url": "https://www.facebook.com/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a company called Jobly.fi, which appears to be a job search website rather than an actual hiring company. It does not list any specific open job roles with requirements and details.",
+    "reason": "The job is located in Helsinki, Finland which does not match her preference for roles in Finland or EU/Europe.",
     "id": "72167a89",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Instagram",
@@ -1810,14 +1806,13 @@
     "url": "https://instagram.com/jobly.fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not contain a specific date, deadline, company name, location, or detailed role description to evaluate against the criteria.",
+    "reason": "The job posting does not contain a specific job title, company name, location, deadline, or date posted that would allow evaluation against the given criteria.",
     "id": "6cbf22da",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Linkedin",
@@ -1826,14 +1821,13 @@
     "url": "https://linkedin.com/company/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a staffing and recruiting company, not a specific technical role that matches Priya's background.",
+    "reason": "The job posting is for a staffing/recruiting company (Jobly.fi) and does not list an open specific job. It's a general overview of their services, not a job search result.",
     "id": "cb4a0d29",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Specialist",
@@ -1841,15 +1835,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/configuration-specialist-at-iceye-4432885515",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software development position, not release/CM/DevOps-focused like her background.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her configuration management, release management, and DevOps experience, especially in a regulated manufacturing environment. It's located in Espoo, Finland which she is open to.",
     "id": "7219e2e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_configuration_specialist_7219e2e3.txt"
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1858,14 +1851,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207645",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure SAP CPQ configuration modeling/architecture position, not a DevOps/CI/CD/release management role. Her experience has been CI/CD ownership, not hands-on coding or architecture.",
+    "reason": "The role is for SAP Variant Configuration transformation, which does not directly match her CI/CD/release management background.",
     "id": "24d8c7e1",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Manager, CAD applications",
@@ -1874,14 +1866,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-cad-applications-at-neste-4460960922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Solution Manager for CAD applications, which does not match her technical release/CI/CD background. The job is also located in Porvoo, Finland, which violates her strict exclusion of any US-based roles.",
+    "reason": "The role is for a Solution Manager focused on CAD applications, which does not match her technical release/DevOps background and experience level. She would be overqualified and lack the CAD design skills.",
     "id": "17c43b90",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1889,15 +1880,14 @@
     "location": "Oulu, North Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456210615",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires deep SAP Variant Configuration (LO-VC and AVC) experience, which is not mentioned in Priya's background.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her SAP configuration and migration experience, with global impact.",
     "id": "7792763e",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/sulzer_sap_variant_configuration_tran_7792763e.txt"
   },
   {
     "title": "Solution Architect, PLM",
@@ -1906,14 +1896,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460366683",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Raisio, Finland which does not match her strict exclusion of non-Finland locations beyond EU.",
+    "reason": "The role is a PLM Solution Architect focused on Windchill, which does not match her strong release/CI/CD/regulated domain background. She has no PLM/Windchill experience.",
     "id": "26a4181d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Application Specialist (ERP)",
@@ -1921,15 +1910,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her release/CM/devops background but is a junior level, which she is overqualified for. However, it's in Finland and English-speaking.",
+    "matches_requirements": "yes",
+    "reason": "The role of Application Specialist (ERP) closely matches Priya's background in release management, quality assurance, and technical product specialist roles. The job is located in Tampere, Finland which she is open to.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/insta_application_specialist__erp__c80a30ad.txt"
   },
   {
     "title": "Maintenance processes and tools Expert",
@@ -1938,14 +1926,13 @@
     "url": "https://fi.linkedin.com/jobs/view/maintenance-processes-and-tools-expert-at-w%C3%A4rtsil%C3%A4-4460360486",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/CI-CD/release management role like her background. She would be overqualified.",
+    "reason": "The role requires a Bachelor's degree in engineering, IT, or business information systems, which is more than Priya's Advanced Diploma in Embedded Systems.",
     "id": "a7269837",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Implementation Consultant",
@@ -1954,14 +1941,13 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires 5-8 years of IT integrations and configuration experience, preferably in e-invoicing. Priya has over 15 years of experience but it is not specified what her background is in.",
+    "reason": "The role is a strong match for her domain/role type and location/work model, but requires 5-8 years of IT integrations/configuration experience which she does not have. She has over 15 years total.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "System Engineer",
