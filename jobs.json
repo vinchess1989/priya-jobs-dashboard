@@ -3666,15 +3666,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/devops-lead-at-danfoss-4439098724",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a senior DevOps Lead in Finland, matching her experience in CI/CD, release management, and configuration management.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong DevOps/CI/CD fit, but the location is unclear - it mentions Tampere but also Graasten, Vaasa, Kolding. She's open to Finland and EU remote but we'd need to clarify if this means Tampere or other locations.",
     "id": "1c9cfd91",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/danfoss_devops_lead_1c9cfd91.txt",
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "DevOps Lead",
@@ -3683,14 +3682,13 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-lead-at-danfoss-4439311335",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a close match but requires relocation to Vaasa, Finland which she may not be willing to do based on her current location in Oulu.",
+    "reason": "The role is a senior DevOps leadership position, requiring hands-on technical direction and platform transformation - this is well above her experience level. She has no prior DevOps lead/manager titles.",
     "id": "2077c140",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Flight Software Deployment Engineer",
@@ -3699,14 +3697,13 @@
     "url": "https://fi.linkedin.com/jobs/view/flight-software-deployment-engineer-at-iceye-4457323187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on satellite onboard updating systems, with no release management, configuration management, or CI/CD pipeline ownership. Her career has been heavily in those DevOps/release-focused areas rather than hands-on feature development.",
+    "reason": "The role is a strong match on domain/role type and experience level, but it is located in Espoo Finland which is a hard rejection for her due to her non-Finnish language skills.",
     "id": "89726f44",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Engineering Lead - Product Infra team",
@@ -3715,14 +3712,13 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-lead-product-infra-team-at-visual-components-4442069315",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/CI-CD/release-management role like her background. She would be overqualified.",
+    "reason": "The job is located in Espoo, Finland which does not match the candidate's strict exclusion of US locations and her preference for roles in Finland or EU/Europe.",
     "id": "5f237734",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Engineering Manager",
@@ -3731,14 +3727,13 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-manager-at-searchapi-4432267870",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position, not release/CM/DevOps-focused like her background.",
+    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
     "id": "25ebdc0d",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -3746,15 +3741,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-at-ge-healthcare-4462043115",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her DevOps/Release Management background, especially given the healthcare/regulated context.",
     "id": "69260c28",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_69260c28.txt"
   },
   {
     "title": "Senior Automation Engineer",
@@ -3763,14 +3757,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-automation-engineer-at-brawl-stars-4449546613",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Automation Engineer at Supercell, which does not match her technical communication and product specialist background.",
+    "reason": "The role is located in Helsinki, Finland which does not match her strict exclusion of US-based roles and willingness to relocate only within Finland or EU/Europe.",
     "id": "368b83ba",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Platform Engineer (SRE / DevSecOps)",
@@ -3778,15 +3771,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-platform-engineer-sre-devsecops-at-agion-4459980281",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Senior Platform Engineer (SRE / DevSecOps) position, which does not match her current focus on release management, configuration management, and product specialist roles in regulated industries. She has been in those areas since Nov 2012.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's DevOps/CI/CD/release management background, especially in a regulated cloud infrastructure context.",
     "id": "3919f12d",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/agion_senior_platform_engineer__sre__3919f12d.txt"
   },
   {
     "title": "Senior Automation Engineer",
@@ -3795,14 +3787,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-automation-engineer-at-supercell-4449527216",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI-CD/DevOps-focused like her background. Also hard rejects US locations.",
+    "reason": "The role is for a Senior Automation Engineer at Supercell, which specifically requires hands-on experience with mobile automation, device farms, CI/CD, job orchestration, infrastructure, or developer tooling. Priyanga Ramachandran's background is in release management, configuration management, DevOps, and regulated product specialist roles, not software development or mobile game engineering.",
     "id": "93fb8046",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ubuntu Enablement - Software Engineering Manager",
@@ -3810,15 +3801,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/ubuntu-enablement-software-engineering-manager-at-canonical-4262038441",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires strong Chinese language skills, which Priya does not have.",
+    "matches_requirements": "yes",
+    "reason": "The role is a software engineering management position with Linux experience, which matches her background and skills.",
     "id": "487a1006",
     "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "1 vuosi sitten",
+    "posted_date": "1 year ago",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/canonical_ubuntu_enablement___software_e_487a1006.txt"
   },
   {
     "title": "Reliability Engineer, Credit Connector Hub team (Helsinki/Oulu)",
@@ -3826,15 +3816,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/reliability-engineer-credit-connector-hub-team-helsinki-oulu-at-op-pohjola-4460311257",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/Reliability Engineering role focused on platform-level systems and automation.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her skills, but the location is not ideal as it requires her to be based in Finland.",
     "id": "f318d7d5",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Engineering Lead",
@@ -3843,14 +3832,13 @@
     "url": "https://fi.linkedin.com/jobs/view/quality-engineering-lead-at-brawl-stars-4460761486",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match the hard rejection criteria of being strictly against jobs located in the United States.",
+    "reason": "The role is located onsite in Helsinki, Finland which does not match her strict non-negotiable exclusion of US-based roles and her openness to relocate within Finland or work remotely EU-wide.",
     "id": "4d7d3960",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager til Sund & B\u00e6lt",
@@ -3858,15 +3846,14 @@
     "location": "Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/release-manager-til-sund-b%C3%A6lt-at-sund-b%C3%A6lt-4460064703",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Ostrobothnia, Finland, which does not match her strict exclusion for non-EU/Finland locations.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her release management, CI/CD pipeline ownership, and regulated industry experience. It's in Denmark which is in the EU.",
     "id": "6c02d07f",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/sund___b_lt_release_manager_til_sund___b_l_6c02d07f.txt"
   },
   {
     "title": "Senior Product Manager - Core Platform (Engine, Scale & Reliability)",
@@ -3875,14 +3862,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-core-platform-engine-scale-reliability-at-n8n-4448398906",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Product Manager focused on Core Platform (Engine, Scale & Reliability), which does not match her background in release management, configuration management, and DevOps. She has no product management experience.",
+    "reason": "The role is for a Senior Product Manager focused on Core Platform, Engine, Scale & Reliability - this matches her technical release/DevOps background and platform experience but does not directly align with her prior work in technical communication/documentation/product specialist roles.",
     "id": "6db5fe91",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Linux Enablement - Software Engineering Manager",
@@ -3890,15 +3876,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/linux-enablement-software-engineering-manager-at-canonical-4254969639",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering management position, not release/CM/DevOps-focused like her background. It's also in Helsinki, Finland.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "92830076",
     "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "1 year ago",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Technical Program Manager - Core Network Delivery & MNO Onboarding",
