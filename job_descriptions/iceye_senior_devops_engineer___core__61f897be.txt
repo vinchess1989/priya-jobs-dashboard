@@ -1,10 +1,10 @@
-Title: DevOps Engineer
+Title: Senior DevOps Engineer - Core Platform Engineering
 Company: ICEYE
 Location: Espoo, Finland
-URL: https://duunitori.fi/tyopaikat/tyo/devops-engineer-stshe-20438690
-Posted: 2026-07-20
+URL: https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-core-platform-engineering-stshe-20441032
+Posted: 2026-07-21
 Deadline: Open until filled
-Reason: The role is a strong DevOps Engineer match for her background, with CI/CD pipeline ownership and release management in a regulated industry. It's also fully remote.
+Reason: The role is a strong match for her DevOps/Release Management background, especially given the regulated/safety-critical context.
 
 ========================================
 JOB DESCRIPTION:
@@ -141,14 +141,14 @@ Sijainti
 Etsi
 Takaisin hakuun
 
-Duunitori / Avoimet työpaikat / DevOps Engineer
+Duunitori / Avoimet työpaikat / Senior DevOps Engineer - Core Platform Engineering
 
  
-DevOps Engineer
+Senior DevOps Engineer - Core Platform Engineering
 
 ICEYE - Espoo
 
-Published 20.7. (Open until further notice)
+Published 21.7. (Open until further notice)
 
  
 Save
@@ -160,77 +160,73 @@ Review this employer.
 
  Review employer
 Job description
-Role highlights:
-DevOps Engineer
+Senior DevOps Engineer - Core Platform Engineering
 Location: Espoo, Finland
-Department: Missions
-Reports to: Director of Delivery and Support
-Employment type: Permanent
-Workplace model: Hybrid
-Employment is subject to applicable security screening (incl. SUPO, where required)
+Department: Platform & Release Engineering - Engineering
+Reportsto: Infrastructure Engineering Lead
+Employmenttype: Permanent
+Workplacemodel: Hybrid / Office
+Employment is subject to applicable security screening (incl. SUPO)
 Why this role matters:
-As a DevOps Engineer your core purpose is to keep mission systems running smoothly by deploying ICEYE software, troubleshooting issues, and continuously improving processes and documentation. This work directly supports the success of ICEYE's Mission business line customers.
+As a Senior DevOps Engineer, you'll design and operate the core platform foundations that power ICEYE's products, enabling secure, scalable, and reliable services across cloud and on-prem environments.
 
 Who We Are
-ICEYE is the world leader in sovereign intelligence from space. We deliver persistent monitoring capabilities to detect and respond to changes in any location on Earth.
+ICEYE delivers space-based intelligence, surveillance, and reconnaissance (ISR) capabilities to governments and allied nations. This includes sovereign and turnkey ISR missions leveraging ICEYE's world-leading synthetic aperture radar (SAR) satellite technology, as well as access to data from the world's largest SAR satellite constellation. These capabilities enable partners to detect and respond to critical changes anywhere on Earth with unprecedented speed and accuracy, day or night and in any weather, supported by ultra high-resolution imagery and high-frequency revisits.
 
-ICEYE owns the world's largest and most advanced SAR (synthetic aperture radar) satellite constellation. To our customers we provide intelligence with unmatched quality, latency and revisit times, in any weather, day or night. To governments who choose to operate their own constellation we provide this proven capability as a sovereign system.
+As a trusted partner for defense, intelligence, security, and maritime domain awareness, ICEYE's near real-time data creates a tactical advantage for mission-critical operations. Designed for dual use, the platform also serves civil protection and commercial users for natural-catastrophe intelligence, insurance, maritime monitoring including oil-spill detection, and finance, contributing to global security and community resilience.
 
-ICEYE-built constellations serve customers in defence and intelligence, environmental monitoring, insurance and emergency management. We enable fast decisions that contribute to a safer future.
-
-Founded and headquartered in Finland, ICEYE operates globally with over 1000 employees across Europe, North America, the Middle East, and Asia-Pacific.
+ICEYE is headquartered in Finland and operates globally across Europe, North America, the Middle East, and Asia-Pacific. We have more than 900 employees, united by a shared vision: improving life on Earth by becoming the global source of truth in Earth Observation.
 
 Your day-to-day responsibilities
-Team Specific
-Software and Hardware Delivery: Delivering ground segments (the "brain" of satellite operations, processing satellite data into images) to Mission business customers.
-Technical Support: Providing technical support for both satellite and ground segment systems for Mission customers. Issue analysis and problem solving.
-Maintenance and Upgrades: Performing planned maintenance and software upgrades for customer on-premise systems (actual software development is handled by the Engineering organization).
-Continuous Improvement: Contributing to continuous improvement to promote the efficiency and effectiveness of the team's mission.
-Role Specific
-Ensures ground segment systems reliably deliver satellite data and imagery to Mission customers.
-Maintains uninterrupted operations by proactively supporting and upgrading customer on-premise environments.
-Rapidly resolves technical issues to minimize downtime and protect mission-critical services.
-Builds trust with customers through responsive technical support and seamless deployments.
-Drives continuous improvement by collaborating across teams and refining operational processes.
-
+Design, operate, and evolve core platform components including Kubernetes, ingress, service mesh, and secrets management
+Build and maintain reusable infrastructure modules using Terraform across AWS and on-prem environments
+Define and implement observability standards, including metrics, logs, traces, dashboards, and alerting
+Partner with product teams to guide platform adoption and enable scalable, platform-aligned architectures
+Automate platform lifecycle processes including provisioning, upgrades, and scaling
+Improve platform reliability, performance, and security through continuous iteration
+Support and mentor engineers on best practices in Kubernetes, networking, identity, and observability
+Reduce operational overhead through tooling, automation, and improved platform abstractions
 What we're looking for
-Technical Expertise: A strong dual foundation in both software development and DevOps principles, at least 5 years of professional experience with a focus on deployment, configuration, and operational management of software services, particularly within Kubernetes. Experience taking technical responsibility for a high-availability service.
-Communication: Excellent communication skills in both spoken and written English, enabling effective collaboration within an international team and with customer technical representatives.
-Qualifications: A Master's or Bachelor's degree in Computer Science or a related field.
-End-to-End System Diagnosis: Exceptional troubleshooting skills with the ability to diagnose complex issues across the entire stack-from underlying hardware and all layers of networking, up through vSphere, Linux, Kubernetes, and the applications themselves.
-Adaptability: Ability to participate in on-call rotation after 6 months onboarding is expected.
-
-
-The Technical Stack that you will be working with: Kubernetes (SUSE Rancher), Helm, on-prem/hybrid cloud deployments (VMware), Infrastructure as Code and automation (Ansible, Terraform, Bash, Python, Go), secrets management (OpenBao/Vault), Grafana observability, containerized PostgreSQL and InfluxDB administration, and REST API integrations.
-
-Application Process
-Talent Attraction interview
-Technical Task
-Technical Interview
-Interview with Director Delivery & Support
-Interview with SVP Missions
-References
+Must haves:
+5+ years of experience in DevOps, SRE, or Platform Engineering roles operating production systems
+Strong hands-on experience with Kubernetes, including cluster operations, networking, and lifecycle management
+Solid understanding of AWS fundamentals including networking, IAM, compute, and storage
+Experience with infrastructure as code using tools such as Terraform
+Practical experience with observability, including SLOs, metrics, logs, traces, and alerting
+Proficiency in at least one backend language such as Python or Go
+Strong Linux systems knowledge and troubleshooting skills
+Ability to collaborate across teams and communicate effectively in English
+Nice to haves:
+Experience with Rancher, Istio, External Secrets, or Vault
+Experience operating in restricted or air-gapped environments
+Experience with identity systems such as FusionAuth or SSO integrations
+Experience in regulated or mission-critical environments
+Experience with hybrid infrastructure across AWS and on-prem platforms
+Application process
+Recruiter interview
+Hiring manager interview
+Task Assignment
+Technical interview
+Final interview
 Working at ICEYE
 At ICEYE, you'll join a diverse and highly engaged team united by the ambition to make the impossible possible. As a global scale-up, we combine speed and ambition with the opportunity to take real ownership from day one. Your growth, wellbeing, and success are a priority, with continuous professional development, training opportunities, and a culture where collaboration is how we win.
 
 How We Work (Our Values)
 Make the impossible possible: We set ambitious goals and stay calm under pressure. We bring grit, optimism, and ownership when things get hard, and we keep moving until we find a way.
-Be curious: Go deep, ask questions, listen carefully, and think critically. Understand the "why" behind decisions.
+Be curious: Go deep, ask questions, listen carefully, and think critically. Understand the why behind decisions.
 See the big picture: Stay close to what's happening across the company so you can make better decisions. Consider how your work affects others.
 Drive effective teamwork: Create psychological safety, invite different perspectives, and build inclusive teams. There are no bad questions.
 Act as one team: We win together. We match tasks to the right owner and stay agile as priorities shift.
-Have fun: What we do matters-and it should be enjoyable. Celebrate progress, take pride in results, and share the wins.
+Have fun: What we do matters and it should be enjoyable. Celebrate progress, take pride in results, and share the wins.
 Benefits
 Our benefits are designed to support your health and wellbeing, at work and beyond. We keep improving them based on employee feedback, and offerings vary by location. Talent Acquisition will confirm what applies for this role and location during the process.
-
-Base salary range for this position is 5000 - 5900 EUR per month (gross) contingent on your experience level, and will be negotiated individually.
 
 Our Commitment to Diversity, Equity, and Inclusion
 We want ICEYE to be a place where people can be themselves and do great work. Different backgrounds and perspectives make us stronger, which is why we work to create an environment where people feel included, respected, and able to speak up. Whatever your background, we want you to bring your authentic self to the table.
 
-We're committed to fair, inclusive hiring and equal opportunity. Everyone is welcome to apply. If you need any adjustments or support during the recruitment process, tell us-we'll do our best to help.
+We're committed to fair, inclusive hiring and equal opportunity. Everyone is welcome to apply. If you need any adjustments or support during the recruitment process, tell us and we will do our best to help.
 
-Apply now to start your ICEYE journey, and help us continue to make the impossible possible together. Read more about ICEYE and working with us at iceye.com.
+Apply now to start your ICEYE journey and help us continue to make the impossible possible together. Read more about ICEYE and working with us at iceye.com.
 Apply
 Report a job ad
 Katso myös nämä
@@ -363,7 +359,7 @@ Autamme sinua tekemään modernia rekrytointia. Luomme juuri sinulle sopivan rat
 Tutustu palveluihimme Jätä työpaikkailmoitus ilmaiseksi
  
 
-Tämä työpaikka, DevOps Engineer, on ilmoitettu The Hub-palvelussa 20.07.2026 ja sen on julkaissut ICEYE. Kyseessä on Full-time työpaikka. Ilmoitus on toistaiseksi voimassa. Työpaikka sijaitsee kunnassa Espoo, osoitteessa Espoo. Ilmoituksen jättäneellä työnantajalla on tällä hetkellä avoimia työpaikkoja Duunitorilla yhteensä 91 kappaletta.
+Tämä työpaikka, Senior DevOps Engineer - Core Platform Engineering, on ilmoitettu The Hub-palvelussa 21.07.2026 ja sen on julkaissut ICEYE. Kyseessä on Full-time työpaikka. Ilmoitus on toistaiseksi voimassa. Työpaikka sijaitsee kunnassa Espoo, osoitteessa Espoo. Ilmoituksen jättäneellä työnantajalla on tällä hetkellä avoimia työpaikkoja Duunitorilla yhteensä 91 kappaletta.
 
 Kirjaudu sisään
  

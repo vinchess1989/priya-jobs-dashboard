@@ -9577,14 +9577,13 @@
     "url": "https://fi.indeed.com/viewjob?jk=0f1e2d3c4b5a6978",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Phoenix, Arizona, USA which violates the strict non-negotiable exclusion of any role located in the United States.",
+    "reason": "This US-based Phoenix, Arizona position is a hard rejection due to being located in the United States, which she strictly avoids.",
     "id": "3da5fb6c",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Account Executive, Nordics",
@@ -9593,14 +9592,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7090ed60c5295b21",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Stockholm, Sweden which does not match Priya's location preferences of Finland or EU-wide remote roles. She specifically excludes jobs in non-Finnish speaking countries like Sweden.",
+    "reason": "This role is located in Stockholm, Sweden which does not meet her location criteria of being in Finland or EU/Europe. It also falls under the hard rejection rule for non-EU/Non-Finland locations.",
     "id": "6eb4105a",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -9609,14 +9607,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/dna-senior-software-engineer-devops-platform-engineering-helsinki-sdsuu-20544961",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on feature development, not release management, CI/CD ownership, or product specialist roles which match her background.",
+    "reason": "The job is located in Helsinki, Finland which does not match the strict non-negotiable exclusion for the United States.",
     "id": "e79f4214",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps & Architecture Engineer",
@@ -9624,15 +9621,14 @@
     "location": "Helsinki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-architecture-engineer-sdsuu-20479077",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for Senior DevOps & Architecture Engineer, which does not match her technical communication and product specialist background.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her DevOps/CI/CD/release management background, especially in a regulated financial context. It's based in Helsinki which she's open to.",
     "id": "9e9143d1",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-08-12",
     "deadline": "2026-09-10",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/voima_gold_oy_senior_devops___architecture_e_9e9143d1.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -9641,14 +9637,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/devops-engineer-svsit-20492241",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer position at Vitec Software Group, which matches her key skills and experience. It's based in Kokkola, Finland with hybrid work model.",
+    "reason": "Strong DevOps Engineer match with Azure, Jira, Terraform, and Infrastructure as Code experience; hybrid role in Finland fits her location criteria.",
     "id": "314a20e4",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-08-14",
     "deadline": "2026-09-11",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/vitec_software_group_devops_engineer_314a20e4.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/vitec_software_group_devops_engineer_314a20e4.txt"
   },
   {
     "title": "DevOps Engineer, Tampere",
@@ -9657,14 +9652,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/devops-engineer-tampere-sasca-20510756",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer match for her CI/CD/release background, and it's located in Tampere Finland which she is open to.",
+    "reason": "The role is a strong DevOps Engineer match for her skills and background, especially with the CI/CD, Jenkins, Linux admin, scripting, and automation focus. The Tampere location is also ideal.",
     "id": "1767552d",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-08-24",
     "deadline": "2027-02-24",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1767552d.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1767552d.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -9672,15 +9666,14 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/devops-engineer-stshe-20450917",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position at ICEYE, which matches her key skills and experience in release management, CI/CD pipelines, and infrastructure as code.",
     "id": "10f6b912",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-07-28",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_devops_engineer_10f6b912.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -9689,14 +9682,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/devops-engineer-stshe-20438690",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a strong DevOps Engineer match for her skills and experience, especially given her regulated release management background from Elektrobit. The hybrid work model also fits.",
+    "reason": "The role is a strong DevOps Engineer match for her background, with CI/CD pipeline ownership and release management in a regulated industry. It's also fully remote.",
     "id": "176145f0",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-07-20",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/iceye_devops_engineer_176145f0.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_devops_engineer_176145f0.txt"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -9705,14 +9697,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-scsom-20536855",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a strong match for her DevOps/CI-CD/release management background in a regulated healthcare domain.",
+    "reason": "Matches her DevOps/CI/CD/release management background, located in Finland",
     "id": "74a92d27",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_74a92d27.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_74a92d27.txt"
   },
   {
     "title": "Senior DevOps Engineer - Core Platform Engineering",
@@ -9720,15 +9711,14 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-core-platform-engineering-stshe-20441032",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Senior DevOps Engineer, which does not match her current Product Specialist & Quality Gatekeeper role at Topcon Healthcare. The job also requires Finnish/Swedish fluency, which she lacks.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her DevOps/Release Management background, especially given the regulated/safety-critical context.",
     "id": "61f897be",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-07-21",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__61f897be.txt"
   },
   {
     "title": "Senior IT Operations Engineer - Snowflake-based Data Warehouse & DevOps",
@@ -9737,14 +9727,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/nordea-bank-abp-senior-it-operations-engineer-snowflake-based-data-warehouse-devops-sdsuu-20536051",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Snowflake-based data warehouse & DevOps engineer, while her background is in release management, CI/CD, and regulated product specialist roles.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "8abff6c4",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "16.9. klo 00:59",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4p\u00e4\u00e4llikk\u00f6",
@@ -9753,14 +9742,13 @@
     "url": "https://fi.linkedin.com/jobs/view/j%C3%A4rjestelm%C3%A4p%C3%A4%C3%A4llikk%C3%B6-at-vakuutuskeskus-ryhm%C3%A4-%E2%80%93-insurance-centre-4457324446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a permanent position at Vakuutuskeskus-ryhm\u00e4 \u2013 Insurance Centre, which is a hard rejection based on her strict exclusion of any job located in or restricted to the United States.",
+    "reason": "The role is located in Helsinki Metropolitan Area, Finland which does not match her requirement for a role based in Finland or EU/Europe.",
     "id": "225a4f03",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Service Manager, Systems",
@@ -9769,14 +9757,13 @@
     "url": "https://fi.linkedin.com/jobs/view/service-manager-systems-at-vr-4459696661",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which the candidate does not speak.",
+    "reason": "The role requires being physically located in Helsinki, Finland which does not match Priya's relocation criteria of only considering roles in Finland or EU/Europe.",
     "id": "3855eacc",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Process Platforms Manager, Microelectronics, Photonics and Quantum Technologies",
@@ -9784,15 +9771,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/process-platforms-manager-microelectronics-photonics-and-quantum-technologies-at-vtt-4459210438",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/DevOps-focused like her background. She would be overqualified.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her background, but the location (Espoo, Finland) is not explicitly stated in the job description text. The company name VTT does suggest it's likely a Finnish government research organization, but we should be more certain about the location before fully matching.",
     "id": "211cac58",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "BIM Manager",
@@ -9801,14 +9787,13 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-sisk-group-4410476898",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, which she has not done in her last 8+ years. Her experience is release/CM/DevOps-focused, not coding new application features.",
+    "reason": "The role is a BIM Manager focused on construction projects, which does not match her technical release/DevOps background. She has no experience in architecture/construction.",
     "id": "7f3f11e7",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Program Manager",
