@@ -15291,13 +15291,13 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-vaasan-oy-at-lantm%C3%A4nnen-unibake-4358934142",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 27 (char 26)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Helsinki, Finland which does not match her strict non-negotiable exclusion of working in or for the United States.",
     "id": "ee95ffbd",
     "source": "linkedin_fi_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -15306,13 +15306,13 @@
     "location": "Kotka, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-lantm%C3%A4nnen-cerealia-at-lantm%C3%A4nnen-4137878747",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is a pure manufacturing/production position, not DevOps/release management like her background. She would be overqualified.",
     "id": "023f3051",
     "source": "linkedin_fi_broad",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -15517,14 +15517,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-asennus-at-renoa-4248742084",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Jyv\u00e4skyl\u00e4, Finland which does not match the strict non-negotiable exclusion of the United States.",
+    "reason": "The role is for installation work on residential properties, while her experience is in configuration management and DevOps for regulated software products. She has no direct installation/field service background.",
     "id": "c8a39fac",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 vuosi sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Parturit Pohjoismaihin",
@@ -15533,14 +15532,13 @@
     "url": "https://fi.linkedin.com/jobs/view/parturit-pohjoismaihin-at-eutalents-4450936086",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rovaniemi, Finland which does not match the candidate's strict exclusion of US-based jobs.",
+    "reason": "The job is for barbers, not hairdressers/partners as the title suggests and the candidate profile indicates.",
     "id": "d1469ae8",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kuljettaja, Kajaani",
@@ -15549,14 +15547,13 @@
     "url": "https://fi.linkedin.com/jobs/view/kuljettaja-kajaani-at-posti-group-oyj-4461161849",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure delivery driver position, not release management/DevOps like her background. It's also an on-site job in Kajaani Finland, which she might consider but doesn't prefer over remote EU roles.",
+    "reason": "The role is for a delivery driver, not DevOps/Release Management. It also requires an ADR license and safety certificate which are not mentioned in her profile.",
     "id": "551d4ae0",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-09-05",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Developer Advocate \ud83e\udd51",
@@ -15565,14 +15562,13 @@
     "url": "https://fi.linkedin.com/jobs/view/developer-advocate-%F0%9F%A5%91-at-searchapi-4434437727",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on developing features using SearchApi's API, while Priya's background and skills are in DevOps, release management, configuration management, and technical product specialist roles. She has not done feature development since her early career.",
+    "reason": "The role is a pure feature development software engineering position, not release management/DevOps-focused like her background. She would be overqualified.",
     "id": "a9710a25",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sorvaaja",
@@ -15580,31 +15576,29 @@
     "location": "Vaasa, Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sorvaaja-at-abb-4460012163",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role of 'Sorvaaja' (lathe operator) closely matches her CNC machining background and experience. The job is located in Vaasa, Finland which fits her location preferences.",
+    "matches_requirements": "no",
+    "reason": "The role is located in Vaasa, Finland which does not match the candidate's requirement for a job in Finland but not restricted to US.",
     "id": "99a4f090",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/abb_sorvaaja_99a4f090.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Urologian vastaanotto Tornisairaala",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "HUS Helsingin yliopistollinen sairaala (Helsinki University Hospital)",
+    "location": "HELSINKI UUSIMAA, UUSIMAA, Suomi",
     "url": "https://fi.indeed.com/rc/clk?jk=50ef9e08aeb8943f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license, which Priya does not have.",
+    "reason": "The role is a nursing position for an urology clinic, which does not match her technical release management and DevOps background.",
     "id": "212c42f8",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4 \u2013 Keikkaty\u00f6 Rovaniemi Koskikatu 20 & Pohjolankatu 13",
@@ -15613,14 +15607,13 @@
     "url": "https://fi.indeed.com/viewjob?jk=fedcba9876543210",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rovaniemi, Finland, which violates Priya's strict exclusion of US-based jobs and her inability to speak Finnish or Swedish.",
+    "reason": "This is a sales role for keikkaty\u00f6 (temporary seasonal) positions, which does not match Priya's technical/quality-focused background and experience.",
     "id": "7f53261c",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Vastaava Ty\u00f6njohtaja, Valaistus, Turku",
@@ -15628,15 +15621,14 @@
     "location": "Turku, Finland",
     "url": "https://www.jobly.fi/tyopaikka/vastaava-tyonjohtaja-valaistus-turku-2743533",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Construction Project Manager overseeing road lighting construction and maintenance in Turku, Finland, which does not match her semiconductor/VLSI/EDA industry background.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her technical leadership experience in infrastructure construction and maintenance, with requirements for project management, logistics, scheduling, quality assurance, cost tracking, and subcontractor coordination.",
     "id": "8827028d",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/destia_oy_vastaava_ty_njohtaja__valaistu_8827028d.txt"
   },
   {
     "title": "Suunnittelija Diagnostiikkakeskus Digipalvelut",
@@ -15644,15 +15636,14 @@
     "location": "Meilahti, Finland",
     "url": "https://www.jobly.fi/tyopaikka/suunnittelija-diagnostiikkakeskus-digipalvelut-2743528",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a product specialist focused on clinical laboratory systems development and go-live coordination, which matches her Topcon experience but does not involve release management, CI/CD, or regulated compliance like her Elektrobit Automotive work. The Finnish language requirement also disqualifies her.",
+    "matches_requirements": "yes",
+    "reason": "The role involves software development, release management, and digital services for a large healthcare diagnostics center in Finland, which closely matches her background.",
     "id": "9c7174ed",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "2026-09-15",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/hus_diagnostiikkakes_suunnittelija_diagnostiikkakes_9c7174ed.txt"
   },
   {
     "title": "Laaja-alainen varhaiskasvatuksen erityisopettaja, Ymmerstan p\u00e4iv\u00e4koti",
@@ -15661,14 +15652,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bb9d8b08-67e1-441b-b62c-c5e2451683fc/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a preschool special educator position in Espoo, Finland, which does not match her background and experience in semiconductor/VLSI/EDA industry roles.",
+    "reason": "The job is located in Espoo, Finland which does not match her location preference of being open to roles anywhere in Finland or remote EU/European roles only.",
     "id": "c975da1f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Neuropsykologi Neurokeskus Hyvink\u00e4\u00e4n sairaala",
@@ -15677,14 +15667,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/66154bc1-593e-42e7-b262-c8b186e53a06/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish and Swedish, which Priya does not speak.",
+    "reason": "The role is for a clinical neuropsychologist, which requires a medical license and clinical healthcare experience that Priya does not have. Her background is in technical product/quality roles with release management, not clinical psychology or medicine.",
     "id": "432a44f5",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Neuropsykologi Neurokeskus Lohjan sairaala",
@@ -15692,15 +15681,14 @@
     "location": "Lohja, Uusimaa, Suomi",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/155ad9be-eef2-467a-a0e8-52df00eb3d8d/fi",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The job is for a neuropsychologist position at HUS Neurocenter in Lohja, Finland which matches Priya's background and location preferences.",
+    "matches_requirements": "no",
+    "reason": "The role requires a licensed psychologist with specialized neurology experience, which does not match Priya's background of technical product/quality specialist roles. She has no clinical healthcare qualifications.",
     "id": "a384bcb0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/hus_helsingin_yliopi_neuropsykologi_neurokeskus_loh_a384bcb0.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DEVOPS ENGINEER",
@@ -15709,14 +15697,13 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-cyso-cloud-4462583064",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Alkmaar, North Holland, Netherlands, which does not match the candidate's strict exclusion of the United States and requirement to work in Finland or EU/Europe.",
+    "reason": "The job is located in Alkmaar, North Holland, Netherlands which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "372f66e8",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "14 tuntia sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja Vihdin mielialah\u00e4iri\u00f6vastaanotolle",
