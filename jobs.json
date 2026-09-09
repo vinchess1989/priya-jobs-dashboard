@@ -12891,15 +12891,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=aaafdf82f009dcd1",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles based in Finland or the EU.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "d8c9e662",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/qwen/qwen3.6-27b",
+    "description_file": null
   },
   {
     "title": "IQI - avoin hakemus",
@@ -12907,15 +12906,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464625424",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Tampere, Finland which does not match the candidate's strict exclusion of US-based jobs.",
+    "matches_requirements": "yes",
+    "reason": "The role is a match for her experience in DevOps, release management and regulated industries like automotive (ASPICE/TUV). It's also located in Finland which she is open to.",
     "id": "69f334e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iqi_iqi___avoin_hakemus_69f334e3.txt"
   },
   {
     "title": "Senior People System Specialist",
@@ -12924,14 +12922,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-people-system-specialist-at-lindstr%C3%B6m-4462202306",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a People & Culture systems specialist, not an ERP/IT operations role focused on system development and integrations.",
+    "reason": "The role is for a People Systems Specialist, focused on developing people systems and processes, not release management, CI/CD, or technical configuration. The candidate has strong experience in those areas but this job does not match her key background.",
     "id": "d2e47ad6",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT Application Specialist",
@@ -12940,14 +12937,13 @@
     "url": "https://fi.linkedin.com/jobs/view/it-application-specialist-at-outokumpu-4458228432",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an IT Application Specialist position, which does not match her DevOps/Release Management background and experience level. It's a junior-level IT support role focused on application lifecycle management and end-user assistance.",
+    "reason": "The role is an IT Application Specialist, which does not match her DevOps/Release Management background and experience level. She has over a decade of CI/CD/release ownership, but this job is for application support and maintenance.",
     "id": "a88f4400",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -12956,14 +12952,13 @@
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453070704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position, not DevOps/CI/CD/release management which matches her background.",
+    "reason": "The job is located in Tampere, Finland which does not match her strict non-negotiable exclusion of the United States and requirement to be based in Finland or EU/Europe.",
     "id": "b908b522",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Document Controller",
@@ -12971,15 +12966,14 @@
     "location": "Oulu, North Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/document-controller-at-afry-4456736059",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Document Controller focused on configuration management and document control processes, while she has strong DevOps/CI/CD/release experience. The job does not match her key skills.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a close match for her experience, but the location is unclear - it doesn't specify Finland or EU-wide remote. More context needed to decide.",
     "id": "0500522c",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ITSM suunnittelija",
@@ -12988,14 +12982,13 @@
     "url": "https://fi.linkedin.com/jobs/view/itsm-suunnittelija-at-istekki-oy-4464382032",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an ITSM designer/developer, not a DevOps engineer with CI/CD and release management experience. Also, it's located in Espoo, Finland.",
+    "reason": "The role is for an ITSM designer/ITSM process expert, while Priya's background is in software engineering, release management, and DevOps. She lacks direct ITSM design experience.",
     "id": "dcdb601e",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cutover Lead",
@@ -13004,14 +12997,13 @@
     "url": "https://hu.linkedin.com/jobs/view/cutover-lead-at-aldi-international-it-services-hungary-4458170915",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which Priya does not speak.",
+    "reason": "The role is a pure IT cutover coordination position, not release management/CI/CD/DevOps. She has no direct experience in this domain.",
     "id": "0c19dd7d",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Staff / Senior Deployment & Release Manager",
@@ -13019,15 +13011,14 @@
     "location": "Frankfurt, Hesse, Germany",
     "url": "https://de.linkedin.com/jobs/view/staff-senior-deployment-release-manager-at-aerovect-4459365458",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on developing new features, not release management or DevOps/CI/CD ownership. Her career has been in release management and DevOps for her entire post-graduate career.",
+    "matches_requirements": "yes",
+    "reason": "Strong match on domain/role type (Deployment & Release Manager) and location (Frankfurt, Germany). Priya's experience is a very close fit for this role.",
     "id": "7b36073a",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/aerovect_staff___senior_deployment___re_7b36073a.txt"
   },
   {
     "title": "Technical Sales Support Specialist",
@@ -13036,14 +13027,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-support-specialist-at-abb-4463394648",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language, which the candidate does not possess.",
+    "reason": "The role requires more than 2 years of work experience in the electrical branch, which Priya does not have. She has a strong technical background but her most recent roles have been in release management and product specialist positions rather than direct sales or technical support.",
     "id": "6aa26aa7",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-09-05",
     "deadline": "2026-09-20",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Myynti-insin\u00f6\u00f6ri",
@@ -13052,14 +13042,13 @@
     "url": "https://fi.linkedin.com/jobs/view/myynti-insin%C3%B6%C3%B6ri-at-alupro-oy-4450461392",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tuusula, Finland which does not match her strict exclusion of the United States and requirement to be physically located in Finland or another EU country.",
+    "reason": "The role is for a sales position, not her technical release/DevOps background.",
     "id": "329e7230",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solutions Architect, Graduate Program",
@@ -13068,14 +13057,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-architect-graduate-program-at-nvidia-4447669568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is part of a graduate program, requiring an MS degree and completion by 2026 - she has a BT degree and completed her education in 2011. This disqualifies her.",
+    "reason": "The role is a graduate program position, which does not match her ~15 years of experience level.",
     "id": "272c941a",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myynti-insin\u00f6\u00f6ri \u2013 sis\u00e4myynti, Uddeholm/ voestalpine High Performance Metals Finland Oy Ab",
@@ -13084,14 +13072,13 @@
     "url": "https://fi.linkedin.com/jobs/view/myynti-insin%C3%B6%C3%B6ri-%E2%80%93-sis%C3%A4myynti-uddeholm-voestalpine-high-performance-metals-finland-oy-ab-at-hr-with-you-4463317953",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vantaa, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The job is located in Vantaa, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe. She also explicitly states she does not speak Finnish or Swedish.",
     "id": "bf6ce306",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-05",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sales Engineer",
@@ -13100,14 +13087,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-engineer-at-condair-oy-4454197195",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist role in release management.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which matches her Topcon experience, but this is explicitly ruled out under Hard Rejections as being a pure sales role mislabeled and not the technical product-specialist role she has.",
     "id": "826424c2",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Lead Application Engineer, Electrical",
@@ -13115,15 +13101,14 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-application-engineer-electrical-at-eaton-4408874302",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Lead Application Engineer, Electrical, which does not match her technical communication and release management background. She has some electrical engineering skills but this is a pure software/technical engineering role.",
+    "matches_requirements": "error",
+    "reason": "Could not extract text from page (anti-bot protection or empty page).",
     "id": "30b212c5",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "2026-08-26",
-    "deadline": "Open until filled",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Advisory Solutions Consultant",
