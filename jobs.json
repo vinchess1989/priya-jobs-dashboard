@@ -6351,15 +6351,14 @@
     "location": "Meerkerk, South Holland, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/technisch-product-specialist-moleculaire-filtratie-at-cf-industrial-4462788989",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires Dutch and English language proficiency, but she does not speak Finnish or Swedish despite working in Finland for her current and prior employers.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good technical/product specialist fit, but it's unclear if the travel and international exposure would be acceptable to Priya given her current location in Finland. She may need more information on this.",
     "id": "85519d4b",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 5 tagen",
+    "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktov\u00fd specialista / Produktov\u00e1 specialistka pro RTG techniku",
@@ -6367,14 +6366,13 @@
     "location": "Prague, Prague, Czechia",
     "url": "https://cz.linkedin.com/jobs/view/produktov%C3%BD-specialista-produktov%C3%A1-specialistka-pro-rtg-techniku-at-siemens-healthineers-4459210478",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "1f459d11",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 1 woche",
-    "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   }
 ]
