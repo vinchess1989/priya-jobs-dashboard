@@ -9951,12 +9951,12 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-consultant-architect-document-control-and-engineering-information-management-m-f-d-at-opentext-4445003278",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The role requires Finnish language fluency, which Priya does not speak.",
     "id": "1ab50621",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -9966,14 +9966,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/wfm-specialist-ty%C3%B6vuorosuunnittelun-asiantuntija-synsamin-palvelutoimintoihin-helsinkiin%21-at-synsam-group-finland-oy-4457165204",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "yes",
+    "reason": "The role of WFM Specialist / Ty\u00f6vuorosuunnittelun asiantuntija matches her experience in release management, DevOps and regulated industries. It's based in Helsinki Finland which she is open to.",
     "id": "31828aa6",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2026-08-26",
+    "deadline": "2026-09-17",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null
+    "description_file": "job_descriptions/synsam_group_finland_wfm_specialist___ty_vuorosuunn_31828aa6.txt"
   },
   {
     "title": "Document Controller",
@@ -10027,14 +10027,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-r-d-operations-specialist-at-relex-solutions-4458774075",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure AI/developer tools specialist, not release management/CI/CD/DevOps focused like Priya's background. She would be overqualified.",
+    "reason": "The role is a strong match on domain/role type and experience level, but it is located in Helsinki Finland which violates her strict non-negotiable exclusion of US-based roles. She would not be able to take this job.",
     "id": "ddc88d71",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Service Manager, Databricks",
@@ -10043,14 +10042,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-service-manager-databricks-at-w%C3%A4rtsil%C3%A4-4464358516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires being based in Helsinki, Finland, Vaasa, Finland, or Turku, Finland - which are hard rejections for her as she is located in Oulu, Finland and prefers roles anywhere in Finland or EU/Europe remote positions.",
+    "reason": "The job is located in Vaasa, Finland which violates the strict non-negotiable exclusion of US-only roles.",
     "id": "096c0394",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Data Center IT management Engineer - Finland",
@@ -10059,14 +10057,13 @@
     "url": "https://fi.linkedin.com/jobs/view/data-center-it-management-engineer-finland-at-tiktok-4460045849",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires hands-on experience with server hardware, which Priya does not have based on her skills and background.",
+    "reason": "The job is located in Kouvola, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe. She speaks fluent English but the Finnish language is a mandatory requirement for this role.",
     "id": "d91b39a4",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "System Specialist",
@@ -10075,14 +10072,13 @@
     "url": "https://fi.linkedin.com/jobs/view/system-specialist-at-valmet-4463396177",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vantaa, Finland which does not match her strict exclusion for working in Finland.",
+    "reason": "The role is located in Vantaa, Finland which does not match her preference for roles in Finland or EU/Europe. She is open to relocating within Finland but this specific location is a hard rejection.",
     "id": "5c92e3e7",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-05",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Solutions Engineer I, Scaled Solutions",
@@ -10091,14 +10087,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-solutions-engineer-i-scaled-solutions-at-google-4458987546",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a Bachelor's degree in Science, Technology, Engineering, Mathematics, or equivalent practical experience, which is more than Priyanga's current level of education and experience.",
+    "reason": "The role is for a Senior position, which does not match her mid-level experience of ~15 years.",
     "id": "e7baa59c",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IQI - avoin hakemus",
@@ -10106,15 +10101,14 @@
     "location": "Rovaniemi, Lapland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464619455",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a match on domain/role type and location, but lacks details on experience level.",
     "id": "6ea67704",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Process Specialist - Product Master Data",
@@ -10123,14 +10117,13 @@
     "url": "https://fi.linkedin.com/jobs/view/process-specialist-product-master-data-at-sandvik-4460722816",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not a DevOps/CI/CD/release management role. Her background has been heavily in release/configuration management and DevOps for her entire career since 2022, not software development.",
+    "reason": "The role is a pure sales position with 'quota-carrying' in the title, which she explicitly excludes. Her own 'Product Specialist' experience at Topcon was technical/quality not quota-carrying sales.",
     "id": "520817a0",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "System Specialist - Market Integration",
@@ -10138,15 +10131,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/system-specialist-market-integration-at-euronext-4431228867",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. Also, it's located in Espoo Finland.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "e9c10e85",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "2026-08-10",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "OPS Specialist",
@@ -10155,14 +10147,13 @@
     "url": "https://fi.linkedin.com/jobs/view/ops-specialist-at-academic-work-4458178157",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an IT Operations Specialist, which matches her background but she would be overqualified for a junior position. The job is also located in Espoo, not Helsinki.",
+    "reason": "The role is for an IT Operations Specialist, which does not match her DevOps/Release Management background and specific domain experience in automotive ASPICE/TUV and medical device MDR/ISO 13485. The job is also located in Tuusula, Finland, which violates the Hard Rejections rule against non-EU/Non-Finland locations.",
     "id": "786f74b4",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Modern Work Consultant",
@@ -10171,14 +10162,13 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444333878",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires deep Microsoft 365 and Copilot expertise, which is far beyond her current level of experience and skills. She has some general Microsoft 365 knowledge but no specific Copilot or AI consulting background.",
+    "reason": "The role is for a Modern Work Consultant specializing in Microsoft 365 Copilot and AI-assisted work, which does not match her technical release management/DevOps background. The job also requires Finnish/Swedish language fluency, which she lacks.",
     "id": "e6709172",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Lead System Engineer",
@@ -10187,14 +10177,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-lead-system-engineer-at-ge-vernova-4455778592",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Lead System Engineer position, which requires electrical design of substation secondary systems and familiarity with standards. Priyanga's background is in DevOps, release management, and product specialist roles in regulated industries like automotive and healthcare, not electrical system engineering.",
+    "reason": "The role is a Senior Lead System Engineer position, which does not match her background in release management, CI/CD, and technical product specialist roles. The job is also located in Tampere, Finland, which she may be willing to relocate for, but it doesn't match her key skills.",
     "id": "33932d92",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-19",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Modern Work Consultant",
@@ -10203,14 +10192,13 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444343075",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires deep technical expertise in Microsoft 365 Copilot and Power Platform, which is far beyond her current skills. She has some familiarity but this would be a senior-level position requiring much deeper experience than she currently has.",
+    "reason": "The role is for a Modern Work Consultant, which does not match her technical release management/DevOps background.",
     "id": "fb1f4040",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT Lead \u2013 Infrastructure, Operations & Support",
@@ -10218,15 +10206,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/it-lead-%E2%80%93-infrastructure-operations-support-at-reorbit-4452253815",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Helsinki, Finland which does not match her strict exclusion of US-based roles and her inability to speak Finnish/Swedish.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's experience with IT infrastructure, operations and support in a regulated environment. The job is located in Helsinki, Finland which she is open to.",
     "id": "f4579cee",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/reorbit_it_lead___infrastructure__oper_f4579cee.txt"
   },
   {
     "title": "Vision and Inspection Technology Expert",
