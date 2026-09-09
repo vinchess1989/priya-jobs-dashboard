@@ -7836,15 +7836,14 @@
     "location": "Forssa, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/forssan-metallityot-kokoonpanohitsaaja-forssa-sdsuu-20531554",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her release management, CI/CD, and regulated industry experience from Elektrobit and Topcon roles",
+    "matches_requirements": "no",
+    "reason": "The role is for a welder position, which does not match her technical writing and DevOps/CI-CD experience.",
     "id": "fba8eb06",
     "source": "duunitori_broad",
     "posted_date": "2026-09-01",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/forssan_metallity_t__kokoonpanohitsaaja__forssa_fba8eb06.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Yleisl\u00e4\u00e4k\u00e4ri ja ty\u00f6terveysl\u00e4\u00e4k\u00e4ri, Levi",
@@ -7853,14 +7852,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/terveystalo-yleislaakari-ja-tyoterveyslaakari-levi-sdsuu-20530352",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish, which Priya does not speak.",
+    "reason": "The role is for a physician (yleisl\u00e4\u00e4k\u00e4ri) and occupational health doctor, which does not match her background in technical product specialist/quality assurance/release management roles. The location is also outside Finland.",
     "id": "0bd5a2d3",
     "source": "duunitori_broad",
     "posted_date": "2026-08-31",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Suunnitteluinsin\u00f6\u00f6ri",
@@ -7868,15 +7866,14 @@
     "location": "Helsinki, Finland and 5 other locations in Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/wurth-suunnitteluinsinoori-sdsuu-20530240",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for software development, not release management/DevOps which is her main background and experience.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her release management, CI/CD, and regulated product specialist experience, in a Finland-based position.",
     "id": "04e7f212",
     "source": "duunitori_broad",
     "posted_date": "2026-08-31",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/w_rth_oy_suunnitteluinsin__ri_04e7f212.txt"
   },
   {
     "title": "Lastenl\u00e4\u00e4k\u00e4ri, Lasten Terveystalo",
@@ -7885,14 +7882,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/lastenlaakari-lasten-terveystalo-stser-20124705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The job is located in Helsinki, Finland which does not match her strict non-negotiable exclusion of US locations and her preference for roles in Finland or EU/Europe.",
     "id": "4bb7d6b6",
     "source": "duunitori_broad",
     "posted_date": "2026-08-31",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Finance Business Partner",
@@ -7900,15 +7896,14 @@
     "location": "Nurmij\u00e4rvi, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/premix-finance-business-partner-sdsuu-20525657",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Finance Business Partner position, which matches her domain/role type and experience level, but it requires fluent Finnish as well. She does not speak Finnish.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her release management, CI/CD, and regulated product specialist experience, especially in an international growth company. The hybrid work model allows flexibility.",
     "id": "85362238",
     "source": "duunitori_broad",
     "posted_date": "2026-08-30",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/premix_oy_finance_business_partner_85362238.txt"
   },
   {
     "title": "Infrahankkeiden valvoja | p\u00e4\u00e4kaupunkiseutu",
@@ -7917,14 +7912,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/wsp-finland-infrahankkeiden-valvoja-paakaupunkiseutu-sdsuu-20525607",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a good match for Priya's experience in release management, quality assurance and regulated industries like automotive (ASPICE/TUV) and medical devices (MDR/ISO 13485). The location is also ideal as she is open to roles anywhere in Finland or remote EU/Europe.",
+    "reason": "The role of Infrahankkeiden valvoja matches her experience in configuration management, release management and DevOps in regulated industries like automotive (EB Corbos) and medical devices (Topcon). She has the technical background in electronics & telecommunications to handle infrastructure projects.",
     "id": "c2eedf3a",
     "source": "duunitori_broad",
     "posted_date": "2026-08-29",
     "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/wsp_finland_infrahankkeiden_valvoja___p__k_c2eedf3a.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/wsp_finland_infrahankkeiden_valvoja___p__k_c2eedf3a.txt"
   },
   {
     "title": "Project Engineer- Finland",
@@ -7932,15 +7926,14 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-project-controller-finland-sastn-20479453",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Project Engineer/Commercial Manager focused on financial management, procurement and contract negotiation for data center infrastructure projects. This does not match her technical configuration management, CI/CD ownership, release management background in regulated industries.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "d3da3bd5",
     "source": "duunitori_broad",
-    "posted_date": "2026-08-28",
-    "deadline": "Open until filled",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Attendo-kodin johtaja, T\u00e4hdist\u00f6, Riihim\u00e4ki",
@@ -7948,15 +7941,14 @@
     "location": "Riihim\u00e4ki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=785fbd71fd032754",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Riihim\u00e4ki, Finland, which does not match her strict exclusion of non-EU/Finland locations.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "10edb84e",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Harjoittelija digitointiprojektiin",
@@ -7964,15 +7956,14 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/harjoittelija-digitointiprojektiin-2750558",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is an internship focused on digitization, archiving and scanning documents, which does not match her technical communication, product specialist, release management background in semiconductor/VLSI/EDA. It's a good fit for someone with lower experience looking to gain practical skills.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "82bdc956",
     "source": "jobly_broad",
     "posted_date": "N/A",
-    "deadline": "2026-09-20",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kokki, ABC Kuortti",
@@ -7981,14 +7972,13 @@
     "url": "https://www.jobly.fi/tyopaikka/ajoneuvosahkoasentaja-2748277",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a vehicle electrical system installer, not a product specialist or technical communication role like Priya's background. It also requires Finnish language fluency which she does not have.",
+    "reason": "The role is for a cook at a gas station convenience store, not related to semiconductors/VLSI/EDA.",
     "id": "69b4399d",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "2026-09-08",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ski Shop-ty\u00f6ntekij\u00e4, Yll\u00e4s Ski Resort, \u00c4k\u00e4slompolo",
@@ -7997,14 +7987,13 @@
     "url": "https://www.jobly.fi/tyopaikka/tarjoilija-lapland-hotels-olos-olostunturi-2685791",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Ski Shop sales assistant position, not matching her technical DevOps/CM/Product Specialist background.",
+    "reason": "The role is for a ski shop retail sales position, not DevOps/Release Management.",
     "id": "409c2fde",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4 \u2013 Keikkaty\u00f6 Rovaniemi Koskikatu 20 & Pohjolankatu 13",
@@ -8013,14 +8002,13 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-keikkatyo-rovaniemi-koskikatu-20-pohjolankatu-13-2753740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a retail sales position at R-kioski convenience stores, not an engineering/technical DevOps/release management job. It does not match her background.",
+    "reason": "The role is a retail sales position at R-kioski convenience stores, requiring no prior technical release management experience. Priya's background is in software engineering and technical product specialist roles with configuration/release management.",
     "id": "3fd0ce87",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Nosturiautonkuljettaja, vakkari, EURA",
@@ -8029,14 +8017,13 @@
     "url": "https://www.jobly.fi/tyopaikka/nosturiautonkuljettaja-vakkari-eura-2753720",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a heavy truck driver, not a software engineering or technical role that would match Priya's background and experience.",
+    "reason": "The role is for a heavy equipment operator, not a DevOps engineer or release manager with software engineering background.",
     "id": "da7abaae",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kaivinkoneen per\u00e4mies, KOUVOLA",
@@ -8045,14 +8032,13 @@
     "url": "https://www.jobly.fi/tyopaikka/kaivinkoneen-peramies-kouvola-2753719",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction operator, not a release/DevOps/Configuration Management position.",
+    "reason": "The role is for a construction equipment operator, not a software engineering/DevOps position.",
     "id": "fe653020",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Putkihitsaaja vakkari, HUMPPILA",
@@ -8061,14 +8047,13 @@
     "url": "https://www.jobly.fi/tyopaikka/putkihitsaaja-vakkari-humppila-2753718",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Humppila, Finland which does not match her strict exclusion of working in the United States.",
+    "reason": "The role is for a pipe welding technician, not a DevOps engineer, configuration manager, release manager, or product specialist. It requires Finnish language proficiency which Priya does not have.",
     "id": "748c729b",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ohjaaja (m\u00e4\u00e4r\u00e4aikainen ja osa-aikainen) Vamos Lahteen",
