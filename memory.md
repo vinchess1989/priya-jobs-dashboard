@@ -186,13 +186,19 @@ session needs:
   machine): clone both repos (needs her own GitHub collaborator access on
   `vinchess1989/priya-jobs-dashboard` and `vinchess1989/priya-jobs-private`), Python venv +
   `pip install` + `playwright install chromium` (the pip package alone doesn't include the browser
-  binary), Node.js + npm + `npm install playwright-core` (mirrors this machine's
-  `C:\Users\vinee\.claude\chrome-automation\` setup, needed for the CDP browser-automation scripts
-  `fill-form.md` writes), Chrome installed, and a first manual sign-in to whatever job sites she'll
-  apply through in the `Priya Automation Profile` browser window (never automated).
-- Not yet tested end-to-end: `/tailor-resume` hasn't been run against a real job ID to confirm the
-  generated PDF renders correctly with her real data (schema/rendering validation per
-  tailor-resume.md's own Step 4.5). Do this before considering the port fully verified.
+  binary), Chrome installed, and a first manual sign-in to whatever job sites she'll apply through
+  in the `Priya Automation Profile` browser window (never automated). **No Node.js/npm is needed**
+  — `fill-form.md`'s Step 4/5 browser automation (and `open_visible_browser/SKILL.md`) are 100%
+  Python `playwright.sync_api`, already covered by the venv above. (Earlier draft of this note
+  incorrectly said Node.js/`npm install playwright-core` was required, confusing this with the
+  unrelated Node-based `chrome-automation` tooling this Claude session itself used for one-off
+  browser automation during setup — that tooling has nothing to do with what the ported skills
+  actually run.)
+- Verified end-to-end on this machine (2026-09-09): generated a real resume PDF from Priya's actual
+  `master_data.json` and real photo via `make_resume.py` + `html_to_pdf.py`, visually confirmed
+  correct rendering. Not yet run via the actual `/tailor-resume` skill invocation against a real
+  job ID from `jobs.json` (only the underlying scripts were tested directly) — worth doing once,
+  either here or from Priya's machine, to confirm the full skill flow end-to-end.
 - `add-job-link.md`, `test-and-publish.md`, and the `email-apply` skill are still not ported — none
   are dependencies of the four skills above; separate work if wanted later.
 - Full authenticated dashboard testing (a write action like "mark applied", signed in as
