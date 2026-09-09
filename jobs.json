@@ -7926,12 +7926,12 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-project-controller-finland-sastn-20479453",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a commercial management position focused on financial oversight and contract negotiations, not release engineering or DevOps.",
     "id": "d3da3bd5",
     "source": "duunitori_broad",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2026-08-28",
+    "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -7941,12 +7941,12 @@
     "location": "Riihim\u00e4ki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=785fbd71fd032754",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Riihim\u00e4ki, Finland which does not match her requirement to only consider roles in Finland or EU/Europe.",
     "id": "10edb84e",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -7956,12 +7956,12 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/harjoittelija-digitointiprojektiin-2750558",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a temporary internship position, while Priya is looking for a permanent full-time position.",
     "id": "82bdc956",
     "source": "jobly_broad",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
@@ -8062,14 +8062,13 @@
     "url": "https://www.jobly.fi/tyopaikka/ohjaaja-maaraaikainen-ja-osa-aikainen-vamos-lahteen-2751761",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a part-time (40%) and fixed-term ohjaaja position in Finland, which does not match her full-time and remote preferences.",
+    "reason": "The role is for a part-time counselor at a youth center, not a technical DevOps/Release Management position. The job does not match her skills or experience.",
     "id": "5b8616f1",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyntiautomaattien t\u00e4ytt\u00e4ji\u00e4, PKS",
@@ -8078,14 +8077,13 @@
     "url": "https://www.jobly.fi/tyopaikka/myyntiautomaattien-tayttajia-pks-2753660",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for part-time kiosk attendants to staff R-Kioski convenience stores, not a DevOps/Release Management position. It involves stocking shelves and cashier duties.",
+    "reason": "The role is for part-time kiosk attendants, not her technical release/DevOps background.",
     "id": "7bf1bc81",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4, Sein\u00e4joki Kasperi Kasperinviita 15",
@@ -8094,14 +8092,13 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-seinajoki-kasperi-kasperinviita-15-2753706",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position for an R-kiosk store, which does not match Priya's technical/product specialist background and experience in release management/CI/CD.",
+    "reason": "The role is a retail sales associate position at an R-Kiosk convenience store, which does not match her technical DevOps/Release Management background and experience level.",
     "id": "ab794d54",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Paloilmoitinasentaja, Caverion, Rovaniemi",
@@ -8110,14 +8107,13 @@
     "url": "https://www.jobly.fi/tyopaikka/paloilmoitinasentaja-caverion-rovaniemi-2715615",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a fire alarm technician, which does not match her configuration management and DevOps background.",
+    "reason": "The role is for a fire alarm technician, which does not match her electronics/telecommunications background and configuration management experience.",
     "id": "5310cd72",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyntineuvottelija, Oulu",
@@ -8126,14 +8122,13 @@
     "url": "https://www.jobly.fi/tyopaikka/myyntineuvottelija-oulu-2743470",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying outbound sales position, not a product specialist or technical support role.",
+    "reason": "This is a quota-carrying sales role (mislabeled as 'Product Specialist') which Priya has explicitly excluded herself from based on her prior experience and current focus. She needs roles focused on technical/product quality, not outbound sales.",
     "id": "4c106ab2",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennusalan t\u00f6it\u00e4 \u2013 Lappeenranta (nopea aloitus)",
@@ -8142,14 +8137,13 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusalan-toita-lappeenranta-nopea-aloitus-2743471",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for construction workers, site laborers, and manual labor roles with no mention of DevOps, release management, configuration, product specialist, or regulated industries. It's a hard rejection based on domain/role type.",
+    "reason": "The role requires fluent Finnish language, which the candidate does not speak.",
     "id": "d41c7f3d",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Rakennusalan t\u00f6it\u00e4 Lahdessa, nopea aloitus",
@@ -8158,14 +8152,13 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusalan-toita-lahdessa-nopea-aloitus-2743472",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is construction field work, not a DevOps/Release Management/Product Specialist role in electronics/semiconductor/VLSI/EDA.",
+    "reason": "The role is an on-site construction labor position, not a technical DevOps/Release Management job. It requires no coding, configuration management, release pipelines, or regulated product experience.",
     "id": "7abb7092",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Projektity\u00f6ntekij\u00e4, Senaatti-kiinteist\u00f6t, Turku",
@@ -8174,14 +8167,13 @@
     "url": "https://www.jobly.fi/tyopaikka/projektityontekija-senaatti-kiinteistot-turku-2753586",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for digitizing architectural plans, not software development or DevOps.",
+    "reason": "The role is for digitizing architectural drawings, which does not match her technical communication/regulatory/quality background in semiconductor/VLSI/EDA.",
     "id": "1b60fd9e",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Betonimies",
@@ -8190,14 +8182,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/901d1b78-a85c-4de6-ad17-97c0781ebd97/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a concrete worker position in construction, not a DevOps, configuration management, release management, or product specialist role in a regulated software domain.",
+    "reason": "The job is located in Vantaa, Finland, which violates the strict non-negotiable exclusion of US-based roles.",
     "id": "6a3d91ba",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 0.01",
+    "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Teollinen pintak\u00e4sittelij\u00e4, Lepp\u00e4virta",
@@ -8206,14 +8197,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6de4b496-7678-4e7e-8a2f-047b50b74563/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lepp\u00e4virta, Finland which does not match the candidate's strict exclusion of US locations and preference for roles in Finland or EU/Europe.",
+    "reason": "The job is for a factory paint technician, which does not match her semiconductor/VLSI/EDA industry background and experience.",
     "id": "2e8f6030",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "22.09.2026, 12.10",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennussiivoojia Helsinkiin",
@@ -8222,14 +8212,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f9339662-1e47-4785-b304-23a3b7b364b6/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a cleaning position, not a technical DevOps/Release Management role.",
+    "reason": "The job is located in Helsinki, Finland which matches her location preferences.",
     "id": "1c2e1622",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 0.00",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sivistysjohtaja",
@@ -8238,14 +8227,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1c2829b7-8da7-4354-8727-3d10e92ba712/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Valkeakoski, Finland, which does not match the strict exclusion of US-based jobs.",
+    "reason": "The role is for a cultural director position in city government, not a technical DevOps/Release Management job.",
     "id": "9257ff6a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "L\u00e4hihoitaja vakituiseen ty\u00f6suhteeseen Lietoon",
