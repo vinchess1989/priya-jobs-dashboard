@@ -1202,7 +1202,7 @@
                     <td class="col-title" data-value="${job.title || 'Unknown Title'}">
                         <div style="display: flex; justify-content: space-between; align-items: center; gap: 15px;">
                             <a href="${job.url}" target="_blank" style="color: var(--text-primary); text-decoration: underline; text-decoration-color: rgba(255,255,255,0.3); text-underline-offset: 3px;">${job.title || 'Unknown Title'}</a>
-                            ${job.description_file ? `<a href="${job.description_file.startsWith('job_descriptions/') ? job.description_file : 'job_descriptions/' + job.description_file}" target="_blank" style="font-size: 0.7em; color: var(--color-yes); text-decoration: none; border: 1px solid rgba(16,185,129,0.3); padding: 2px 6px; border-radius: 4px; white-space: nowrap;" title="View extracted job description">[TXT]</a>` : ''}
+                            ${job.description_file ? `<a href="https://vinchess1989.github.io/priya-jobs-dashboard/${job.description_file.startsWith('job_descriptions/') ? job.description_file : 'job_descriptions/' + job.description_file}" target="_blank" style="font-size: 0.7em; color: var(--color-yes); text-decoration: none; border: 1px solid rgba(16,185,129,0.3); padding: 2px 6px; border-radius: 4px; white-space: nowrap;" title="View extracted job description">[TXT]</a>` : ''}
                         </div>
                     </td>
                     <td class="col-company">${job.company || 'Unknown Company'}</td>

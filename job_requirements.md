@@ -65,3 +65,7 @@ that are close but uncertain on one dimension, and explain why in each case.
    `posted_date`/`deadline`/`company`/`location` fields as instructed in the prompt itself.
 
 ### Automatically Added Negative Constraints (from UI Rejections):
+
+
+### Automatically Added Positive Constraints (from UI Approvals):
+- POSITIVE CONSTRAINT: The user explicitly approved a previous job because: 'due to configuration management'. Make sure to MATCH jobs that have this characteristic.
