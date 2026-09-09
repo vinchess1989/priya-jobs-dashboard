@@ -24138,15 +24138,16 @@
   {
     "title": "Salaries for Engineering Lead, Oulu, F16",
     "company": "Extract from page",
-    "location": "Extract from page",
+    "location": "Oulu, Finland",
     "url": "https://fi.indeed.com/career/engineering-lead/salaries/Oulu--F16",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Oulu, Finland, which does not match her current location of based in Oulu and open to roles anywhere in Finland.",
     "id": "248f391b",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   }
 ]
