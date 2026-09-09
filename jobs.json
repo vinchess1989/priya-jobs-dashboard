@@ -21081,15 +21081,14 @@
     "location": "Lahti, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/srv-rakennus-projekti-insinoori-datakeskushanke-lahti-sdsuu-20557148",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a project engineer on a data center project in Lahti, Finland, which does not match her strict exclusion of US-based roles and lack of Finnish/Swedish language skills.",
+    "matches_requirements": "yes",
+    "reason": "The role of Project Engineer for a data center project in Lahti directly matches Priya's background and skills, especially her experience with release management, quality gatekeeping, and regulated industries.",
     "id": "9bcc1f58",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/srv_rakennus_oy_projekti_insin__ri__datakeskus_9bcc1f58.txt"
   },
   {
     "title": "Join AlphaSense Helsinki Talent Community!",
@@ -21097,15 +21096,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/join-alphasense-helsinki-talent-community%21-at-alphasense-4129383971",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of the United States and her inability to speak Finnish/Swedish.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her experience, but the location is unclear as it only says 'Helsinki'. She may be open to remote roles in Europe.",
     "id": "19a5b478",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-04",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "LAITOSHUOLTAJIA, SIIVOOJIA SEK\u00c4 L\u00c4HETTEJ\u00c4 sairaalaymp\u00e4rist\u00f6\u00f6n",
@@ -21113,15 +21111,14 @@
     "location": "Kokkola, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/iss-palvelut-laitoshuoltajia-siivoojia-seka-lahetteja-sairaalaymparistoon-sdsuu-20554024",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kokkola, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her release management, quality gatekeeping and technical product specialist background.",
     "id": "bbc0df93",
     "source": "duunitori_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iss_palvelut_oy_laitoshuoltajia__siivoojia_sek_bbc0df93.txt"
   },
   {
     "title": "Rakennuslogistiikkaty\u00f6ntekij\u00f6it\u00e4 Turkuun",
@@ -21130,14 +21127,13 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennuslogistiikkatyontekijoita-turkuun-2727734",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site construction logistics workers in Turku, Finland, which does not match her current remote-only criteria. She is open to relocating within Finland but this job posting specifically requires being physically present in Turku.",
+    "reason": "The role is a construction logistics worker position, not related to semiconductors/VLSI/EDA.",
     "id": "ea2efb11",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tule taakankiinnitt\u00e4j\u00e4ksi Lahteen \u2013 aloitus heti!",
@@ -21146,14 +21142,13 @@
     "url": "https://www.jobly.fi/tyopaikka/tule-taakankiinnittajaksi-lahteen-aloitus-heti-2727736",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a taakankiinnitt\u00e4j\u00e4 (rear loader) in construction logistics, not DevOps/CI/CD/release management. It's also on-site in Lahti, Finland, not a match for her location preferences.",
+    "reason": "The role is for a taakankiinnitt\u00e4j\u00e4 (rear loader) in construction logistics, which does not match her technical/quality DevOps background. It's also an on-site Lahti role, not open to remote.",
     "id": "8a9229a9",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Asiakashankkija",
@@ -21162,14 +21157,13 @@
     "url": "https://www.jobly.fi/tyopaikka/asiakashankkija-2737640",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position (outbound telemarketing) which she has explicitly excluded, even though it uses 'Product Specialist' in the title. Her own Topcon product specialist experience was quality/technical not sales.",
+    "reason": "The role is a quota-carrying sales position, not a technical/product specialist role like her Topcon experience. This matches the 'Quota-Carrying Sales Roles Mislabeled as \"Product Specialist\"' hard rejection.",
     "id": "911fb0f7",
     "source": "jobly_broad",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ty\u00f6h\u00f6nosallistuva ty\u00f6njohtaja / Asentaja",
@@ -21178,14 +21172,13 @@
     "url": "https://www.jobly.fi/tyopaikka/tyohonosallistuva-tyonjohtaja-asentaja-2744013",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site assembly work in Hollola, Finland, which does not match her strict exclusion of US roles and her preference for remote EU roles.",
+    "reason": "The role is for on-site work in Hollola, Finland, which does not match her location preference of roles in Finland (remote or onsite) or EU/Europe. She would need to relocate.",
     "id": "aea3b8c7",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00e4 Peiron Oy:lle",
@@ -21194,14 +21187,13 @@
     "url": "https://www.jobly.fi/tyopaikka/tuotantotyontekija-peiron-oylle-2744015",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a factory worker position, which does not match her technical configuration management, DevOps, and product specialist background.",
+    "reason": "The role is a manufacturing worker position focused on production line tasks, which does not match her technical DevOps/Release Management background and skills.",
     "id": "da69a954",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Hitsaaja Peiron Oy:lle",
@@ -21210,14 +21202,13 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-peiron-oylle-2744016",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an on-site welding position in Finland, which does not match her strict exclusion of US-based roles and her preference for Finland/EU remote roles.",
+    "reason": "The role is for a welder, which does not match her technical writing and DevOps background.",
     "id": "1e1e48cb",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Elementtity\u00f6ntekij\u00e4 Kokem\u00e4elle",
@@ -21226,14 +21217,13 @@
     "url": "https://www.jobly.fi/tyopaikka/elementtityontekija-kokemaelle-2744017",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for concrete element fabrication, not software/DevOps/release engineering.",
+    "reason": "The role is for construction/factory manual labor (element casting, concrete work) and does not match her technical/quality engineering background in software/DevOps.",
     "id": "c72fffbe",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "CATEGORY MANAGER, PROCUREMENT (12 kk m\u00e4\u00e4r\u00e4aikaisuus)",
@@ -21242,14 +21232,13 @@
     "url": "https://www.jobly.fi/tyopaikka/category-manager-procurement-12-kk-maaraaikaisuus-2749195",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Category Manager focused on procurement, not DevOps/CI/CD/release management.",
+    "reason": "The role is for a procurement category manager focused on marketing, communication and event categories, which does not match her technical release/DevOps background. It's also an 12-month fixed-term contract rather than ongoing.",
     "id": "231e411b",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palveluvastaava J\u00e4\u00e4k\u00e4rinkankaan monitoimitalolle Ouluun",
@@ -21258,14 +21247,13 @@
     "url": "https://www.jobly.fi/tyopaikka/palveluvastaava-jaakarin-monitoimitalolle-ouluun-2732411",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language fluency, which Priya does not speak.",
+    "reason": "The role is for a food service server, not DevOps/release engineering. Priya's background and skills are not a match.",
     "id": "6e9279e6",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Hitsaajia kunnossapitoon Pieks\u00e4m\u00e4elle",
@@ -21274,14 +21262,13 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaajia-kunnossapitoon-pieksamaelle-2737622",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a welder/maintenance worker, not DevOps/CI/CD/release management. It's hands-on maintenance and repair work on rail cars.",
+    "reason": "The role is for a railway maintenance welder position, which does not match her semiconductor/VLSI/EDA background and experience. She has no welding experience.",
     "id": "66e2de99",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ASIANTUNTIJA (KYC \u2013 KNOW YOUR CUSTOMER)",
@@ -21290,14 +21277,13 @@
     "url": "https://www.jobly.fi/tyopaikka/asiantuntija-kyc-know-your-customer-2749086",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a KYC (Know Your Customer) specialist, which does not match her background in configuration management, release engineering and DevOps. She has no experience with financial services, KYC compliance or customer onboarding.",
+    "reason": "The role is for a KYC (Know Your Customer) specialist, which does not match her technical release/DevOps background and experience.",
     "id": "74036bfc",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Porrassiivooja, Turku",
@@ -21306,14 +21292,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3d9ee9d0-7594-430f-9d3a-3f719436ae63/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a seasonal cleaning position, which does not match her technical configuration management and product specialist background.",
+    "reason": "The role is a general cleaning position, not related to her semiconductor/VLSI/EDA background.",
     "id": "af25847d",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 15.22",
-    "deadline": "23.09.2026, 23.59",
+    "posted_date": "2026-09-09",
+    "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Project & Machine Safety Engineer, Actiw",
