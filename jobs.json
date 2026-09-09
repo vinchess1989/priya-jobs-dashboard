@@ -18412,14 +18412,13 @@
     "url": "https://www.jobly.fi/tyopaikka/hse-valvojia-mielenkiintoisiin-projekteihin-2732118",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an HSE Coordinator, not a DevOps Engineer, Configuration Manager, Release Manager, or Product Specialist. The key skills and responsibilities are focused on safety, health, environment coordination, audits, inspections, reporting, and documentation - this does not match her CI/CD/release management, version control, technical writing/documentation background.",
+    "reason": "The role requires Finnish language fluency, which Priya does not have.",
     "id": "a7e29abb",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Levysepp\u00e4hitsajaa, Toijala",
@@ -18428,14 +18427,13 @@
     "url": "https://www.jobly.fi/tyopaikka/levyseppahitsajaa-toijala-2748942",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manual sheet metal welder position, which does not align with the candidate\u2019s release/CM/DevOps expertise.",
+    "reason": "The role is a welding position focused on manufacturing, assembly and MIG/MAG welding per blueprints, which does not match her semiconductor/VLSI/EDA industry background and experience in DevOps, release management, configuration management, technical writing and product specialist roles.",
     "id": "17a9e103",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Eristeasentaja",
@@ -18444,14 +18442,13 @@
     "url": "https://www.jobly.fi/tyopaikka/eristeasentaja-2754033",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site installation work, not release management or DevOps.",
+    "reason": "The role is for a physical installer of insulation materials, not DevOps/CI/CD/release management. It requires construction and automotive mechanic skills, not her technical writing/product specialist background.",
     "id": "da18f568",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Asentajia / hitsaajia",
@@ -18460,14 +18457,13 @@
     "url": "https://www.jobly.fi/tyopaikka/asentajia-hitsaajia-talonrakennus-ja-lvis-ala-2434817",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site factory workers, not a technical DevOps/Release Management position.",
+    "reason": "The role is for factory assembly workers, not configuration management/release engineering.",
     "id": "8e83d49c",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-15",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palovahti",
@@ -18476,14 +18472,13 @@
     "url": "https://www.jobly.fi/tyopaikka/palovahti-2355560",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site industrial firefighting positions in Finland, which does not match her offsite remote-only preferences.",
+    "reason": "The role is for on-site industrial firefighting positions in Finland, which does not match her background in software release management and technical product support.",
     "id": "2a23b596",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00f6it\u00e4",
@@ -18492,14 +18487,13 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekijoita-2558946",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is construction work, not software/technical roles this candidate has experience in.",
+    "reason": "The role is for construction workers, not a technical DevOps/Release Management position that matches Priya's background and skills.",
     "id": "a07c957a",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tekninen asiantuntija",
@@ -18507,15 +18501,14 @@
     "location": "Vaasa, Finland",
     "url": "https://www.jobly.fi/tyopaikka/tekninen-asiantuntija-2737277",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is an electrical engineering customer support position, not a DevOps/CI-CD/release management role in semiconductors/VLSI/EDA.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her technical product specialist background, especially given the regulated/safety-critical domain of power grid infrastructure.",
     "id": "cacb754c",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/vaasan_s_hk_verkko_o_tekninen_asiantuntija_cacb754c.txt"
   },
   {
     "title": "CNC-Koneistaja Oulun Seudulle",
@@ -18524,14 +18517,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0cf14435-b30a-40d9-aafc-cfedb34f5e94/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a CNC machine operator, not her technical communication and product specialist background.",
+    "reason": "The job is located in Kempele, Finland which does not match her preference for roles anywhere in Finland or EU/Europe.",
     "id": "34d1358d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-04",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kunnossapitovastaava",
@@ -18540,14 +18532,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/814e02eb-2bdf-4601-8261-a3c96adb4297/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vesilahti, Finland which does not match her strict exclusion of US-based roles and her preference for roles in Finland or EU/Europe.",
+    "reason": "The job is located in Vesilahti, Finland which does not match her preference for roles anywhere in Finland or remote EU/European roles.",
     "id": "def44b19",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Varusteluasentaja \u2013 Pori",
@@ -18556,14 +18547,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/66f2b7cd-ca7f-4a95-8d65-11c843f55dc8/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a mechanical assembler, not a DevOps engineer, configuration manager, release manager, or product specialist with regulated industry experience. The job is also physically located in Finland, which she cannot relocate to.",
+    "reason": "The role is for an assembler, not a release manager or DevOps engineer with scripting/automation experience.",
     "id": "04278e04",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "28.09.2026, 00.00",
+    "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja, Kotiutumisen tuen tiimi (Kauhava-Evij\u00e4rvi)",
@@ -18572,14 +18562,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d5cc2e76-e498-48e4-b463-a98549baad0f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a home healthcare nurse, not her technical/DevOps background.",
+    "reason": "The role is for a home care nurse, not a technical DevOps/Release Management position.",
     "id": "37c5ff91",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Erityisluokanopettajan sijaisuus",
@@ -18588,14 +18577,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/89bc7df1-62b4-45a2-afef-369f48dda03d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sein\u00e4joki, Finland which does not match her strict exclusion of non-EU/Finland locations.",
+    "reason": "The job is located in Sein\u00e4joki, Finland, which does not match her requirement for roles in Finland (preferred) or EU/Europe (acceptable).",
     "id": "ad5e16e2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "18.09.2026, 15:00",
+    "deadline": "2026-09-18",
     "description_file": null,
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "needs_re_review": true
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "CMM-Operaattori Oulun Seudulle",
@@ -18603,15 +18591,14 @@
     "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a856aba3-4c64-44af-a189-e2a0ec9dae34/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Oulu, Finland which matches her location preferences.",
+    "matches_requirements": "yes",
+    "reason": "The role is for a CMM operator / programmer on the Oulu region, Finland with daytime work. It matches her background in release management and quality assurance.",
     "id": "43f84bbe",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/tyomarkkinatori_fi___cmm_operaattori_oulun_seudulle_43f84bbe.txt"
   },
   {
     "title": "Asentaja",
@@ -18620,14 +18607,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/37f96fc3-8802-4e19-99e7-928cbc9cddeb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an automotive equipment technician/assembler, not a DevOps/CI/CD/release management specialist. It requires B-kortti (driver's license) and experience with vehicle technology.",
+    "reason": "The role is an on-site assemblers position, not a DevOps/Release Management role with her skillset.",
     "id": "52c963e2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kohdevastaava / Kouluvahtimestari keikkaty\u00f6h\u00f6n",
@@ -18636,14 +18622,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5584b22b-a60b-4c82-b69e-425fb88bd651/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a school guard/monitor, not a technical DevOps/Release Management position. It requires experience in the specific domain of being a substitute teacher/guard at schools and handling routine tasks there.",
+    "reason": "The role is for a school guard/attendance monitor, not DevOps, release management, or technical product specialist.",
     "id": "7f96976e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-04",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kirvesmies Lahteen.",
