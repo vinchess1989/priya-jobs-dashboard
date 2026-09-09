@@ -12797,17 +12797,18 @@
   },
   {
     "title": "Myyntip\u00e4\u00e4llikk\u00f6 Jyv\u00e4skyl\u00e4",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Taloturva Group Oy",
+    "location": "Jyv\u00e4skyl\u00e4, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e84d4c4f-4faf-470b-aa2a-2acbb5bfc545/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which matches her experience, but it's explicitly a quota-carrying business development/sales role not a technical/product specialist quality role like her Topcon experience. This mislabeled sales title hard rejects based on her actual background.",
     "id": "a3f9ca24",
     "source": "tyomarkkinatori",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "deadline": "27.09.2026, 23.59",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Tarjoilija",
@@ -12826,17 +12827,17 @@
   },
   {
     "title": "Ajoneuvoasentaja",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "HR WorkForce Oy Turku",
+    "location": "Kaarina, Paimio, Turku, Salo, Sauvo, Varsinais-Suomi, Suomi",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bc7effba-c8a7-4fb8-a983-fe7a8d93b686/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 5 column 15 (char 167)",
+    "matches_requirements": "no",
+    "reason": "The role is for an automotive mechanic, not a software engineering/DevOps position.",
     "id": "0e9f056a",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "posted_date": "2026-09-08",
+    "deadline": "2026-09-30",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   }
 ]
