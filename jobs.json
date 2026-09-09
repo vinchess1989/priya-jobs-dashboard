@@ -23402,17 +23402,17 @@
   },
   {
     "title": "Office & Event Coordinator (osa-aikainen), Voltan L\u00e4hienergia Oy, Helsinki",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Voltan L\u00e4hienergia Oy",
+    "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/office-event-coordinator-osa-aikainen-voltan-lahienergia-oy-helsinki-2749599",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is an office/event coordinator position, which does not match her technical background in configuration management, release engineering, and DevOps. It's a general admin/coordination role that doesn't leverage her specialized skills.",
     "id": "28fca8f5",
     "source": "jobly_broad",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
