@@ -13656,13 +13656,13 @@
     "location": "Helsinki, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7c66b128-d4b0-4959-b3c2-d247753fc488/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 6 column 14 (char 214)",
+    "matches_requirements": "no",
+    "reason": "The job is located at HUS Helsinki University Hospital, which requires Finnish language fluency and does not match her English-only working proficiency.",
     "id": "c4e9590c",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "posted_date": "2026-09-09",
+    "deadline": "2026-09-22",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -13747,14 +13747,13 @@
     "url": "https://fi.linkedin.com/jobs/view/support-engineer-at-poolia-finland-4459507865",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a junior-level customer support position, not a senior DevOps/Release Engineer like Priya's background. Also, it's in Helsinki Finland.",
+    "reason": "The role is a pure software development position, not DevOps/Release Management like her background. It's also located in Helsinki Finland which matches location but not domain.",
     "id": "5605dacd",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Data Engineer",
@@ -13763,14 +13762,13 @@
     "url": "https://fi.linkedin.com/jobs/view/data-engineer-at-%C5%8Dura-4446247103",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Data Engineer focused on research operations and data infrastructure, which does not closely match her release/CI/CD/CM background in regulated industries.",
+    "reason": "The role requires a Bachelor's or Master\u2019s Degree in Computer Science, Physics, Math, or related field, which is more than Priya's B.Tech Electronics & Telecommunications degree.",
     "id": "e633bf38",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT-arkkitehti (Linux-infrastruktuuri)",
@@ -13778,15 +13776,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/it-arkkitehti-linux-infrastruktuuri-at-tampere-university-4456009337",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Tampere, Finland, which does not match the candidate's strict exclusion of US-based jobs.",
+    "matches_requirements": "yes",
+    "reason": "The role of IT Architect (Linux Infrastructure) matches her experience and skills, especially given her background in configuration management, release management, and DevOps/CI-CD in regulated industries.",
     "id": "eb8d913e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
-    "deadline": "21 23:59",
+    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/tampere_university_it_arkkitehti__linux_infrastru_eb8d913e.txt"
   },
   {
     "title": "DATA ENGINEER",
@@ -13795,14 +13792,13 @@
     "url": "https://fi.linkedin.com/jobs/view/data-engineer-at-recordly-4458963750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based jobs.",
+    "reason": "The role is based in Helsinki, Finland which does not match her strict exclusion of US-based roles and her preference for EU/European locations.",
     "id": "3d396af5",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Lead Architect",
@@ -13811,14 +13807,13 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-architect-at-eficode-4454910624",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Lead Architect position, which requires significant software architecture and technical leadership experience - far more than her current configuration/release management focus allows. She would be overqualified for this.",
+    "reason": "The role is a technical leadership position requiring hands-on AI/GenAI integration, which does not match her background. She also lacks Finnish fluency.",
     "id": "2f81ccc1",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior IT Engineer",
@@ -13826,15 +13821,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-it-engineer-at-prog-it-4450324735",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is an on-site Senior IT Engineer position located in Tampere, Finland, which does not match her strict exclusion of US-based roles and her preference for remote EU/European roles over local Finland-only positions.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her IT infrastructure engineering background, is located in Finland, and does not require Finnish/Swedish language.",
     "id": "a6b02530",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/prog_it_senior_it_engineer_a6b02530.txt"
   },
   {
     "title": "Azure Developer",
@@ -13843,14 +13837,13 @@
     "url": "https://fi.linkedin.com/jobs/view/azure-developer-at-hiq-finland-4446623744",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish and English language fluency, which Priya does not speak.",
+    "reason": "The role is a pure software development position, not DevOps/CI/CD/release management like her background. She would be overqualified.",
     "id": "e41658e6",
     "source": "linkedin_fi_devops_engineer_p2",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Data Center Operations Engineer",
@@ -13859,14 +13852,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-center-operations-engineer-at-milestone-technologies-inc-4445553507",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Data Center Operations Engineer, which does not closely match her Configuration Management/Release Management background and skills.",
+    "reason": "The role is for a Senior Data Center Operations Engineer, which does not match her Configuration Management/Release Management background and skills.",
     "id": "8b1b000b",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Production Data Engineer",
@@ -13875,14 +13867,13 @@
     "url": "https://fi.linkedin.com/jobs/view/production-data-engineer-at-meyer-turku-4462134032",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Production Data Engineer, which requires hands-on data engineering and systems integration work - Priyanga's background is in release management, DevOps, configuration management, not direct software development or data engineering. The job also requires Finnish/Swedish language fluency, which she does not have.",
+    "reason": "The role is a Production Data Engineer position at Meyer Turku shipyard, which does not match her key skills in release management, CI/CD pipelines, regulated product quality, and technical documentation. The job is also physically located in Turku, Finland, which she may be willing to relocate for but does not match her current remote/offshore experience.",
     "id": "7ce97eb8",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -13890,15 +13881,14 @@
     "location": "Immenstaad am Bodensee, Baden-W\u00fcrttemberg, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-aip-services-gmbh-4437008155",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is pure software development (C, C++, WPF) with no release management, CI/CD, configuration management, or DevOps experience required. Her entire career has been in those areas since 2012.",
+    "matches_requirements": "yes",
+    "reason": "The role is a configuration management position in the aerospace/aviation industry, which matches her background and skills.",
     "id": "f434edb9",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "vor 1 woche",
+    "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/aip_services_gmbh_configuration_manager__m_w_d__f434edb9.txt"
   },
   {
     "title": "Senior Release & Delivery Manager",
@@ -13906,15 +13896,14 @@
     "location": "Bucharest, Romania",
     "url": "https://ro.linkedin.com/jobs/view/senior-release-delivery-manager-at-luxoft-4464311121",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on skills but located in Romania, which Priya may not be willing to relocate for. She is open to roles anywhere in Finland and remote EU/European roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's experience with release management, CI/CD pipelines, and regulated industries. The remote location in Romania is acceptable.",
     "id": "4f21c62b",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/luxoft_senior_release___delivery_mana_4f21c62b.txt"
   },
   {
     "title": "Avoin hakemus",
@@ -13923,14 +13912,13 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-cinia-4406170076",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an open application, not a specific role match for her skills and experience.",
+    "reason": "The role is a general open application, not for a specific technical DevOps/Release Management position.",
     "id": "44ace9da",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-05-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Driver in Finland, Kannus",
@@ -13939,14 +13927,13 @@
     "url": "https://fi.linkedin.com/jobs/view/driver-in-finland-kannus-at-tsmg-holding-4091657249",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a driver position collecting images for mapping, not a DevOps/Release Management/Product Specialist role.",
+    "reason": "The role is for a driver collecting field data, not DevOps/CI/CD/release management.",
     "id": "3104aba2",
     "source": "linkedin_fi_broad",
-    "posted_date": "vor 1 jahr",
+    "posted_date": "1 year ago",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Interest in EY?",
@@ -13954,15 +13941,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/interest-in-ey%3F-at-ey-4433105008",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a good match for her experience with release management, CI/CD pipelines, and regulated industries like automotive (ASPICE/TUV) and medical devices (MDR/ISO 13485). She has the required skills in configuration management, DevOps, and technical documentation.",
     "id": "67e9f680",
     "source": "linkedin_fi_broad",
-    "posted_date": "vor 4 tagen",
+    "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/ey_interest_in_ey__67e9f680.txt"
   },
   {
     "title": "Driver in Finland, Kolari",
