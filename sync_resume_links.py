@@ -16,7 +16,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-PRIVATE_SLUG   = "vinchess1989/Priya-jobs-private"
+PRIVATE_SLUG   = "vinchess1989/priya-jobs-private"
 GITHUB_BASE    = f"https://github.com/{PRIVATE_SLUG}/blob/main/Resumes"
 INPUT_CSV_NAME = "input.csv"
 

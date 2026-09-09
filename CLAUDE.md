@@ -16,7 +16,7 @@ fixed bug with a non-obvious cause, a changed architecture/config. Don't log rou
 
 This repo is a genuinely independent sibling — its own GitHub repo (`priya-jobs-dashboard`), own
 Firebase project (`priya-jobs-dashboard`, own dedicated Firestore database), own venv, own private
-resume repo (`vinchess1989/Priya-jobs-private` — note: a **different account** than Manju's private
+resume repo (`vinchess1989/priya-jobs-private` — note: a **different account** than Manju's private
 repo, which lives under `munchnambiar`; don't assume the same account for both). It does **not**
 have manju_jobs's `jobs.json` merge-driver apparatus (`git_jobs_merge_driver.py`,
 `setup_merge_driver.ps1`, `.gitattributes`) — with no shared `.git`, that specific machinery isn't

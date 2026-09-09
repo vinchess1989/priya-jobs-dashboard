@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 PUBLIC_SLUG  = "vinchess1989/priya-jobs-dashboard"
-PRIVATE_SLUG = "vinchess1989/Priya-jobs-private"
+PRIVATE_SLUG = "vinchess1989/priya-jobs-private"
 
 SEARCH_ROOTS = [
     Path.home(),

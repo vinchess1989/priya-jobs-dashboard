@@ -7,7 +7,7 @@ Usage:
     python upload_resume_links.py --input links.csv  # custom input file
 
 Input CSV format (columns: job_id, resume_url, cover_letter_url):
-    f6aaa66f, https://github.com/vinchess1989/Priya-jobs-private/blob/main/Resumes/f6aaa66f_resume.md, https://github.com/vinchess1989/Priya-jobs-private/blob/main/Resumes/f6aaa66f_cover_letter.md
+    f6aaa66f, https://github.com/vinchess1989/priya-jobs-private/blob/main/Resumes/f6aaa66f_resume.md, https://github.com/vinchess1989/priya-jobs-private/blob/main/Resumes/f6aaa66f_cover_letter.md
 
 Lines starting with # are treated as comments and ignored.
 """

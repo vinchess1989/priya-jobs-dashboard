@@ -136,12 +136,18 @@ data". `checkpoint.json`'s `target_index` was reset to 0 for the new target list
 herself from her own separate PC** — not operated remotely from this machine. Key facts a future
 session needs:
 
-- **Private resume repo:** `vinchess1989/Priya-jobs-private` (public dashboard's own account) —
+- **Private resume repo:** `vinchess1989/priya-jobs-private` (public dashboard's own account) —
   **note this diverges from Manju's convention**, whose private repo (`Manju-jobs`) lives under a
   *different* account, `munchnambiar`. Don't assume both candidates' private repos live under the
-  same account. Cloned locally as a sibling: `c:\Users\vinee\Priya_jobs_private\`.
+  same account. Cloned locally as a sibling: `c:\Users\vinee\Priya_jobs_private\` — note the local
+  **folder** name uses `Priya_jobs_private` (underscores, capital P) while the actual **GitHub**
+  repo is `priya-jobs-private` (hyphens, lowercase); this mismatch is harmless (the local folder
+  name is never compared against the remote slug — `find_repos.py` locates it by matching the git
+  remote URL, not the directory name) but don't "fix" the local folder name expecting it to need
+  to match, and don't typo the GitHub slug's casing when referencing it directly (e.g. in a browser
+  URL — GitHub redirects case-insensitively, but scripts/config should use the exact real casing).
 - **Support scripts copied + adapted** from `manju_jobs`, each with the Firestore project ID /
-  private-repo slug swapped to Priya's own (`priya-jobs-dashboard` / `vinchess1989/Priya-jobs-private`):
+  private-repo slug swapped to Priya's own (`priya-jobs-dashboard` / `vinchess1989/priya-jobs-private`):
   `make_resume.py`, `html_to_pdf.py` (unchanged), `job_status_store.py` (new — priya_jobs didn't
   have one before this; see `CLAUDE.md` for why it's needed despite no shared `.git`),
   `sync_resume_links.py`, `scrape_application.py`, `find_repos.py`, `upload_resume_links.py`,
@@ -178,7 +184,7 @@ session needs:
 
 - **Cross-machine setup on Priya's own PC not yet done** (this session can't touch her physical
   machine): clone both repos (needs her own GitHub collaborator access on
-  `vinchess1989/priya-jobs-dashboard` and `vinchess1989/Priya-jobs-private`), Python venv +
+  `vinchess1989/priya-jobs-dashboard` and `vinchess1989/priya-jobs-private`), Python venv +
   `pip install` + `playwright install chromium` (the pip package alone doesn't include the browser
   binary), Node.js + npm + `npm install playwright-core` (mirrors this machine's
   `C:\Users\vinee\.claude\chrome-automation\` setup, needed for the CDP browser-automation scripts
