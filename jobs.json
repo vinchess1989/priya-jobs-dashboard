@@ -15057,7 +15057,7 @@
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -15141,13 +15141,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-at-fluido-4408795864",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is for a Solution Architect advising on declarative functions in Salesforce, which does not match her CI/CD/release management background. It's more feature development.",
     "id": "6b69382d",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "posted_date": "2026-05-12",
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Solution Architect",
