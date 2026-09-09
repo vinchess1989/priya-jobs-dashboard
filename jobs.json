@@ -21096,13 +21096,13 @@
     "location": "Delft, South Holland, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-recx-b-v-4463026216",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on skills but may be too senior for her experience level.",
     "id": "d4c3fcac",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "posted_date": "2026-06-11",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
