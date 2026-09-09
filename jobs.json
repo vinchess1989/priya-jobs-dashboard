@@ -16612,14 +16612,13 @@
     "url": "https://fi.linkedin.com/jobs/view/project-manager-combat-system-at-saab-4462173609",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The role requires frequent travel to Saab Sweden, which violates the non-US location requirement.",
     "id": "c530d836",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "hace 6 d\u00edas",
+    "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tech Lead finanssitoimialan asiakkaidemme transformaatiohankkeisiin",
@@ -16627,15 +16626,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/tech-lead-finanssitoimialan-asiakkaidemme-transformaatiohankkeisiin-at-cgi-4449055288",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on skills but the location is specified as Tampere, Finland which does not fit her strict exclusion of Finnish/Swedish language requirements. She speaks only English.",
+    "matches_requirements": "no",
+    "reason": "The role is a Tech Lead for financial sector transformation projects, which does not match her DevOps/CM/release management background.",
     "id": "89e79d98",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Project Manager",
@@ -16644,14 +16642,13 @@
     "url": "https://fi.linkedin.com/jobs/view/project-manager-at-fortum-4462822328",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Espoo, Finland, which does not match the candidate's strict exclusion of non-Finnish and non-EU locations.",
+    "reason": "The role is a Senior Project Manager position, which does not match her mid-to-senior level target roles. She has ~15 years of experience and would be overqualified for this.",
     "id": "2e0b2d65",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "hace 5 d\u00edas",
+    "posted_date": "N/A",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Manager, Partners team",
@@ -16660,14 +16657,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-partners-team-at-upcloud-4459761893",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales quota-carrying business development position using 'Product Specialist' as a title, which she explicitly excludes. Her own 'Product Specialist' experience (Topcon) is quality/technical, not sales.",
+    "reason": "The role is for a Product Manager on UpCloud's Partnerships team, which does not match her configuration management, release engineering, and product specialist background.",
     "id": "70dc6b28",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kehitt\u00e4misp\u00e4\u00e4llikk\u00f6 Helsingin yliopiston kirjastoon",
@@ -16675,15 +16671,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/kehitt%C3%A4misp%C3%A4%C3%A4llikk%C3%B6-helsingin-yliopiston-kirjastoon-at-university-of-helsinki-4463247677",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves product specialist duties but also mentions project management and coordination, which is a bit broader than her typical release/CM focus.",
+    "matches_requirements": "no",
+    "reason": "The role is a university librarian position, which does not match her technical/DevOps background and experience.",
     "id": "63313e1c",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IQI - avoin hakemus",
@@ -16691,15 +16686,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464625422",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure DevOps Engineer position with no release management, configuration management, or product specialist components - her key skills and experience are not well-matched to this.",
+    "matches_requirements": "yes",
+    "reason": "The role is a Senior level DevOps Engineer position with IQI, which matches Priya's experience and skills.",
     "id": "34016d51",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/iqi_iqi___avoin_hakemus_34016d51.txt"
   },
   {
     "title": "ERP-projektip\u00e4\u00e4llikk\u00f6",
@@ -16707,15 +16701,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/erp-projektip%C3%A4%C3%A4llikk%C3%B6-at-gofore-4459951423",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a close match for her experience, but the ERP focus and project management aspects are less clear than DevOps/CI/CD/release roles. More details on the specific ERP systems and project types would help clarify fit.",
+    "matches_requirements": "no",
+    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified.",
     "id": "50b3ad5e",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Project Manager",
@@ -16724,14 +16717,13 @@
     "url": "https://fi.linkedin.com/jobs/view/project-manager-at-nextpharma-4463387230",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Project Manager position at NextPharma, which does not match her current Product Specialist & Quality Gatekeeper role at Topcon Healthcare. The job is also located in Tampere, Finland, which conflicts with her strict exclusion of US-based roles.",
+    "reason": "The role is a pure technical project management position, not focused on release/configuration management or DevOps which are her key strengths and recent focus. Also, it's located in Tampere Finland.",
     "id": "b6c21b43",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "hace 4 d\u00edas",
+    "posted_date": "2026-09-04",
     "deadline": "2026-09-25",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "CNC-koneistaja",
@@ -16740,14 +16732,13 @@
     "url": "https://www.jobly.fi/tyopaikka/cnc-koneistaja-2734226",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Huittinen, Finland, which does not match the candidate's requirement to be based in Finland or EU/Europe.",
+    "reason": "The role is for a CNC machine operator, not a DevOps engineer with release management and configuration experience.",
     "id": "52be1028",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Autonasentaja",
@@ -16756,14 +16747,13 @@
     "url": "https://www.jobly.fi/tyopaikka/autonasentaja-2732987",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an automotive mechanic, not a DevOps engineer, release manager, or product specialist in a regulated industry.",
+    "reason": "The role is for an automotive mechanic, not a DevOps engineer with release management experience in regulated industries.",
     "id": "50418e61",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ravintolaty\u00f6ntekij\u00e4, Leijona Catering, Sodankyl\u00e4",
@@ -16772,14 +16762,13 @@
     "url": "https://www.jobly.fi/tyopaikka/ravintolatyontekija-leijona-catering-sodankyla-2731951",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a restaurant worker, not a semiconductor/VLSI/EDA industry position that matches Priyanga's background and skills.",
+    "reason": "The role is for a restaurant worker, not a semiconductor/VLSI/EDA technical position that matches Priyanga's background and skills.",
     "id": "60da44cf",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4, Mikkeli",
@@ -16788,14 +16777,13 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusaputyontekija-mikkeli-2713047",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction assistant position, which does not match her technical/quality product specialist background in semiconductor/VLSI/EDA. It's an unrelated manual labor job.",
+    "reason": "The role is for a construction assistant, not DevOps/CI/CD/release management. She has no relevant construction experience.",
     "id": "dcdfed2d",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Laser-, plasma- ja polttoleikkaajia Lapualle",
@@ -16804,14 +16792,13 @@
     "url": "https://www.jobly.fi/tyopaikka/laser-plasma-ja-polttoleikkaajia-lapualle-2748919",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lapua, Finland, which does not match her strict exclusion for Finnish/Swedish language requirements.",
+    "reason": "The job is located in Lapua, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "3bf0856a",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Privacy, Data & Cyber Regulatory Counsel",
@@ -16820,14 +16807,13 @@
     "url": "https://www.jobly.fi/tyopaikka/privacy-data-cyber-regulatory-counsel-2753777",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a qualified lawyer admitted in at least one EU member state or in England and Wales, which does not match Priya's background. She has a technical/communications background, not legal.",
+    "reason": "This role is for a Privacy, Data & Cyber Regulatory Counsel at Nokia's Espoo headquarters in Finland, which does not match the semiconductor/VLSI/EDA industry focus. The job requires a qualified lawyer admitted in an EU member state or England/Wales with GDPR, cybersecurity regulation, and supervisory authority engagement experience.",
     "id": "4eae95ca",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tietohallintotiimin vet\u00e4j\u00e4",
@@ -16835,15 +16821,14 @@
     "location": "Espoo, Finland",
     "url": "https://www.jobly.fi/tyopaikka/tietohallintotiimin-vetaja-2753778",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Tietohallintotiimin vet\u00e4j\u00e4 (IT Infrastructure Team Lead), which does not match her background in release management, CI/CD, and product specialist roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves leading an IT team, but it's unclear if this is a DevOps/CI/CD/release management focus vs. pure IT infrastructure and support - more context needed to assess full fit.",
     "id": "42a0389b",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ruotsinkielinen asiakasneuvoja Espanjaan Fuengirolaan",
