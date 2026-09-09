@@ -11767,14 +11767,13 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-manager-maas-at-canonical-4345276036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is a match on Domain/Role Type and Location & Work Model, but it's a Senior-level position which would normally be a 'yes' fit for her experience level. However, the mandatory Finnish/Swedish language requirement is a hard rejection because she does not speak either language.",
     "id": "950f06cb",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-01-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer - K0s Team",
@@ -11782,15 +11781,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-k0s-team-at-mirantis-4449482859",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on Kubernetes and k0s project development, while the candidate has significant experience in release management, configuration management, CI/CD pipelines, and regulated product roles. The skills do not closely match.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her experience in DevOps, release management, and regulated industries like automotive (ASPICE/TUV) and medical devices (MDR/ISO 13485). The location is open to Finland or remote EU roles.",
     "id": "b8e84ae3",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-10",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/mirantis_senior_software_engineer___k0s_b8e84ae3.txt"
   },
   {
     "title": "Software Engineering Manager - Cross-platform C++ - Multipass",
@@ -11799,14 +11797,13 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineering-manager-cross-platform-c%2B%2B-multipass-at-canonical-4340329433",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role entails leading a team of remote engineers, but this is an engineering manager position for cross-platform C++ development of Multipass, not a DevOps/Release Management role like Priya's background.",
+    "reason": "The role requires a background in software engineering, but the candidate has over 15 years of experience in release management, DevOps and technical product specialist roles. The job is looking for someone with modern C++ development and cross-platform experience on macOS and Windows.",
     "id": "3facedf1",
     "source": "linkedin_fi_broad",
     "posted_date": "9 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Computer Vision (Camera) Researcher",
@@ -11815,14 +11812,13 @@
     "url": "https://fi.linkedin.com/jobs/view/computer-vision-camera-researcher-at-microtech-global-ltd-4428809098",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a research position focused on developing AI models for computational photography and image/video enhancement, which does not match Priya's release/CI/CD/devOps background.",
+    "reason": "The role is focused on computer vision research for mobile imaging platforms, which does not match her release/CM/DevOps background.",
     "id": "635ce7a3",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer, New product, Threat Detection, Full-stack",
@@ -11830,15 +11826,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-new-product-threat-detection-full-stack-at-hoxhunt-4461985598",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on building new product features, while Priya's background and ideal roles are in release management, configuration/CI/CD pipeline ownership, regulated product specialist (not feature development), and not hands-on coding.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's background in release management, CI/CD pipelines, and regulated product specialist experience. It's located in Helsinki, Finland which she is open to.",
     "id": "c2dc6a86",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/hoxhunt_senior_software_engineer__new__c2dc6a86.txt"
   },
   {
     "title": "Senior Data Engineer",
@@ -11847,14 +11842,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-engineer-at-benjamin-4443582499",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering feature development position, not release/CM/DevOps-focused like her background.",
+    "reason": "The role is for a Senior Data Engineer, which does not match her primary experience and skills in release management, configuration management, CI/CD pipelines, and regulated product specialist roles.",
     "id": "385eb263",
     "source": "linkedin_fi_broad",
     "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Total Rewards Partner, Equity Compensation",
@@ -11863,14 +11857,13 @@
     "url": "https://fi.linkedin.com/jobs/view/total-rewards-partner-equity-compensation-at-supercell-4429447247",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based jobs.",
+    "reason": "The role is for a Total Rewards Partner with equity compensation, which does not match her technical configuration management and DevOps background. She would be overqualified.",
     "id": "b52fa89e",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Investment Director (Remote)",
@@ -11879,14 +11872,13 @@
     "url": "https://fi.linkedin.com/jobs/view/investment-director-remote-at-rgg-capital-4456506502",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an Investment Director at a single family office, RGG Capital, which deploys proprietary capital into hedge funds and systematic strategies. This does not match her semiconductor/VLSI/EDA industry background.",
+    "reason": "The role is a Director-level investment position at a single-family office, which does not match her Senior DevOps/Release Management background and regulated industry experience. She would be overqualified for this research-focused investment director role.",
     "id": "24b10946",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Data Scientist / AI Engineer",
@@ -11895,14 +11887,13 @@
     "url": "https://fi.linkedin.com/jobs/view/data-scientist-ai-engineer-at-fluxion-4449325899",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure AI/ML engineering position focused on building and shipping production code, not an end-to-end data science role with release management responsibilities like the candidate has. The location is also remote worldwide which does not match her preference for EU/Europe based roles.",
+    "reason": "The role is for a Data Scientist / AI Engineer, which does not match her background in release management, configuration, and DevOps. She has some coding experience but this is an end-to-end software engineering position.",
     "id": "249bffd2",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kehitt\u00e4j\u00e4, Dynamics 365",
@@ -11911,14 +11902,13 @@
     "url": "https://fi.linkedin.com/jobs/view/kehitt%C3%A4j%C3%A4-dynamics-365-at-meltlake-4448732573",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/configuration management focused like her recent experience. She would need to relocate to Helsinki.",
+    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US locations and her preference for roles in Finland or EU/Europe.",
     "id": "6eaf5506",
     "source": "linkedin_fi_broad",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Head of Engineering",
@@ -11927,14 +11917,13 @@
     "url": "https://fi.linkedin.com/jobs/view/head-of-engineering-at-chaos-4460498781",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Head of Engineering, which matches her domain/role type. However, it requires fluent Finnish or Swedish as a hard requirement, which she does not speak.",
+    "reason": "The role is for a Head of Engineering at CHAOS, which specifically requires hands-on engineering and taking technical ownership. The candidate has strong software engineering skills but this role is more senior and strategic than her typical experience.",
     "id": "f0909f82",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer, New product, Human Risk, Full-stack",
@@ -11942,15 +11931,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-new-product-human-risk-full-stack-at-hoxhunt-4457945661",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Senior Software Engineer on a new product focused on human risk and full-stack development, which does not closely match her current focus on release management, CI/CD, configuration management, and regulated quality in automotive and healthcare. The job is also physically located in Helsinki, Finland, which she would need to relocate to.",
+    "matches_requirements": "yes",
+    "reason": "This senior software engineer role at Hoxhunt matches Priya's background and experience, especially her release management and DevOps skills in regulated industries like automotive (EB Corbos) and medical devices (Topcon). The full-stack nature of the role is also a good fit.",
     "id": "a1857d73",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/hoxhunt_senior_software_engineer__new__a1857d73.txt"
   },
   {
     "title": "Senior Data & Analytics Engineer (Europe, 100% remote)",
@@ -11959,14 +11947,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-analytics-engineer-europe-100%25-remote-at-limeflight-4431901033",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Data & Analytics Engineer, but the hard rejections rule out this job because it's located in Finland which violates the strict non-negotiable exclusion of any jobs located in or restricted to the United States.",
+    "reason": "The job is located in Czechia, which is outside Finland and outside the EU.",
     "id": "9fe76def",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Performance Marketing Lead (Native Ads)",
@@ -11975,14 +11962,13 @@
     "url": "https://fi.linkedin.com/jobs/view/performance-marketing-lead-native-ads-at-capslock-4434633617",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Performance Marketing Lead, which focuses on media buying and campaign optimization for native advertising channels like Taboola. This is a marketing and sales-focused position, not in semiconductor/VLSI/EDA engineering or technical roles like DevOps, configuration management, product specialist that the candidate has experience in from her past roles at Elektrobit Automotive, Accenture, Topcon.",
+    "reason": "The role is for a Performance Marketing Lead specializing in Native Ads, which does not match her Configuration Management, Release Management, and DevOps background in automotive/medical regulated industries.",
     "id": "cef9372c",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cost Engineer (Construction) - Norway / Sweden / Finland (Hybrid)",
@@ -11991,14 +11977,13 @@
     "url": "https://fi.linkedin.com/jobs/view/cost-engineer-construction-norway-sweden-finland-hybrid-at-laminar-projects-4455409292",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Cost Engineer focused on construction projects, while her background is in software engineering, DevOps, release management, and technical writing. She has no relevant construction experience.",
+    "reason": "The role is for a Cost Engineer focused on construction projects, while her background is in software engineering, release management, and DevOps. She does not have relevant construction cost management experience.",
     "id": "cf10c531",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "MYYM\u00c4L\u00c4P\u00c4\u00c4LLIKK\u00d6 'Espoo'",
