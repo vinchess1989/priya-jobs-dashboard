@@ -5001,14 +5001,14 @@
     "location": "Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-manager-at-softserve-4458627139",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's release management and DevOps experience, with a focus on CI/CD pipelines and deployment processes.",
     "id": "88ba1ab9",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/softserve_release_manager_88ba1ab9.txt"
   },
   {
     "title": "Release Manager F/H",
@@ -5197,14 +5197,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-line-specialist-at-amcor-4407884333",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Product Line Specialist, which does not match her technical release/DevOps background and experience level. She has ~15 years of experience, but this entry-level position is explicitly for candidates with 0-2 years.",
+    "reason": "The role is a Product Line Specialist focused on commercial and market analysis, not DevOps/CI/CD/release management.",
     "id": "bf32ec10",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Field Clinical Specialist, EP (Southern Finland)",
@@ -5213,14 +5212,13 @@
     "url": "https://fi.linkedin.com/jobs/view/field-clinical-specialist-ep-southern-finland-at-boston-scientific-4445987866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language proficiency, which Priya does not have.",
+    "reason": "The role is a clinical specialist position focused on electrophysiology (EP) medical devices, not a technical release management/DevOps role. Priya's background is in software engineering and product support, not healthcare or medical device sales.",
     "id": "4be33b07",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -5229,14 +5227,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-specialist-at-sandvik-4459200075",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a good technical product specialist fit, but it's unclear if they would consider her ~15 years of experience senior-level enough for this junior B.Sc.-preferred role. She might be overqualified.",
+    "reason": "The role is a good match for her technical product specialist experience, but the location is in Finland which she may be willing to relocate to but it's not explicitly stated.",
     "id": "2dbce52b",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Application Engineer - Electrification",
@@ -5245,14 +5242,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-application-engineer-electrification-at-danfoss-4436935000",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lappeenranta, Finland which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is a pure software engineering position focused on developing new features, which does not match her ~8-year release/CM/DevOps background. The job is also located in Lappeenranta, Finland, which violates her strict exclusion of US-only roles and falls outside the EU.",
     "id": "9a58d1f7",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-06",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Digimyynnin ja teknisen kehityksen asiantuntija",
@@ -5260,15 +5256,14 @@
     "location": "P\u00e4ij\u00e4t-H\u00e4me, Finland",
     "url": "https://fi.linkedin.com/jobs/view/digimyynnin-ja-teknisen-kehityksen-asiantuntija-at-staffpoint-oy-4462299347",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in P\u00e4ij\u00e4t-H\u00e4me, Finland, which does not match her strict exclusion of US-based roles and her preference for Finland/EU remote roles over other countries.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's experience in release management, DevOps, and product specialist roles in regulated industries. The location is open to Finland or remote EU-wide, which fits her relocation flexibility.",
     "id": "0fbb1090",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/staffpoint_oy_digimyynnin_ja_teknisen_kehity_0fbb1090.txt"
   },
   {
     "title": "Forestry Specialist, Digital Solutions",
@@ -5277,14 +5272,13 @@
     "url": "https://fi.linkedin.com/jobs/view/forestry-specialist-digital-solutions-at-john-deere-4461611213",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Forestry Specialist, Digital Solutions, which does not match her technical communication and product specialist background in regulated industries like medical devices. The job is also located in Tampere, Finland, which she may be open to but the description does not clearly state this.",
+    "reason": "The role is a Forestry Specialist focused on digital solutions for John Deere's forestry equipment, which does not match her technical writing, release management, and DevOps background in regulated industries.",
     "id": "31038c16",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Specialist",
@@ -5292,15 +5286,14 @@
     "location": "Turku Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/technical-specialist-at-plm-group-4456718751",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure technical support/customer training position, not DevOps/CI/CD/release management like her background. Also Turku location.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her technical specialist and customer support experience, but the location is not ideal as it's in Turku Finland rather than remote EU-wide which she prefers.",
     "id": "5e2c5ed2",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Medical Operations - Finland",
@@ -5309,14 +5302,13 @@
     "url": "https://fi.linkedin.com/jobs/view/medical-operations-finland-at-tandem-health-4463337961",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires native level Finnish fluency, which Priya does not have.",
+    "reason": "The role is a pure product specialist/technical support position, not an engineering or DevOps release management role like her background. Also hard rejects due to non-EU location.",
     "id": "45f73113",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Principle Field Presales, Manufacturing (Nordics)",
@@ -5325,14 +5317,13 @@
     "url": "https://fi.linkedin.com/jobs/view/principle-field-presales-manufacturing-nordics-at-relex-solutions-4454045292",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales position, not a technical product specialist or DevOps/CI-CD role.",
+    "reason": "The role is a quota-carrying sales position using 'Product Specialist' as a sales-team job title, which she has never held. Her own 'Product Specialist' experience (Topcon) was quality/technical, not sales.",
     "id": "ac417ce9",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Presales Specialist",
@@ -5341,14 +5332,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-presales-specialist-at-hitachi-energy-4427914170",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish/Swedish, which Priya does not speak.",
+    "reason": "The role is a pure technical presales specialist position focused on customer-facing solution sales, which does not match her release/CM/DevOps background and experience. The job is also located in Vaasa, Finland, which violates the hard rejection rule against non-EU/non-Finland locations.",
     "id": "beef247b",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-05-12",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Consultant - Tieto Caretech (m/f/d)",
@@ -5357,14 +5347,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-consultant-tieto-caretech-m-f-d-at-tieto-4464499745",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Espoo, Uusimaa, Finland which does not match her hard rejection of non-EU/Non-Finland locations beyond the US-specific rule.",
+    "reason": "The role is a pure sales position titled 'Solution Consultant' which she has explicitly ruled out under her Hard Rejections for quota-carrying product specialist roles mislabeled as non-sales 'Product Specialist'. Her own Product Specialist experience at Topcon was quality/technical, not sales.",
     "id": "6d3bc568",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Commercial Product Manager",
@@ -5373,14 +5362,13 @@
     "url": "https://fi.linkedin.com/jobs/view/commercial-product-manager-at-fortum-4462826281",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a commercial product manager focused on large corporate customers, which does not match her technical release/CM/DevOps background and experience.",
+    "reason": "The role is for a Commercial Product Manager focused on large corporate customers, which does not match her technical/quality product specialist background and release/CI/CD experience. The job is also located in Espoo, Finland, which violates her requirement to avoid non-EU/non-Finland locations outside the Hard Rejections.",
     "id": "4639465d",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Application Engineer Standard Precision and Low Power",
@@ -5388,15 +5376,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/application-engineer-standard-precision-and-low-power-at-u-blox-4464444539",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for technical support, but lacks some of the product management and R&D collaboration Priya has. She may need to clarify her fit.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her technical product specialist background, release management experience, and is located in Finland.",
     "id": "38e42879",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/u_blox_application_engineer_standard__38e42879.txt"
   },
   {
     "title": "Solution Consultant - Tieto Caretech (m/f/d)",
@@ -5405,14 +5392,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-consultant-tieto-caretech-m-f-d-at-tieto-4464491895",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified.",
+    "reason": "The role is a Solution Consultant focused on healthcare software, which does not match her technical release management and DevOps background in automotive/medical device domains.",
     "id": "4a5ba99a",
     "source": "linkedin_fi_product_specialist_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Pre-Sales Engineer SaaS Industry (Technical Finnish Speaker)",
