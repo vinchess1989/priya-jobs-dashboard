@@ -6127,14 +6127,13 @@
     "url": "https://be.linkedin.com/jobs/view/productspecialist-at-stihl-benelux-4463373603",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist role focused on training and support.",
+    "reason": "The role requires French, Dutch, and English language proficiency, which Priya does not have.",
     "id": "de626d61",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-09-05",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist (f/m/x) \u2013 Particle Characterization",
@@ -6142,15 +6141,14 @@
     "location": "Graz, Styria, Austria",
     "url": "https://at.linkedin.com/jobs/view/product-specialist-f-m-x-%E2%80%93-particle-characterization-at-anton-paar-4451902705",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent German and English, which Priya does not speak.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good technical/product specialist fit, but the location Graz, Austria might be too far to commute from her current Oulu Finland home base. She's open to relocating within Finland or EU/Europe but not specified if she'd consider an international move like this.",
     "id": "0be855f4",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktspezialist/in XRD (m/w/d)",
@@ -6159,14 +6157,13 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-in-xrd-m-w-d-at-bruker-4463377694",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent German and English, which Priya does not speak.",
+    "reason": "The position is entry\u2011level (1\u20132 years experience) while the candidate has ~15 years of experience.",
     "id": "da17613b",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 4 tagen",
+    "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -6174,15 +6171,14 @@
     "location": "San Vito al Tagliamento, Friuli-Venezia Giulia, Italy",
     "url": "https://it.linkedin.com/jobs/view/product-specialist-at-sirmax-4442668057",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is located in San Vito al Tagliamento, Friuli-Venezia Giulia, Italy which does not match her location constraint of being open only to roles in Finland or EU/Europe.",
     "id": "437ba773",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2026-08-10",
+    "deadline": "07/21/2026",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   },
   {
     "title": "Sp\u00e9cialiste Produits Champs op\u00e9ratoires et Protection st\u00e9riles France/Benelux (H/F)",
@@ -6191,14 +6187,13 @@
     "url": "https://fr.linkedin.com/jobs/view/sp%C3%A9cialiste-produits-champs-op%C3%A9ratoires-et-protection-st%C3%A9riles-france-benelux-h-f-at-medline-europe-4461967095",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is pure feature-development software engineering, not release/CM/DevOps-focused like her background.",
+    "reason": "The role is a sales/product specialist position focused on medical device products, which requires French language fluency and does not match her English-only proficiency. It also falls under LinkedIn's hard rejection rule for any job restricted to France.",
     "id": "ebfc9c79",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 4 tagen",
-    "deadline": "N/A",
+    "posted_date": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "PRODUCT SPECIALIST - Surgery",
@@ -6207,14 +6202,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-surgery-at-quanta-system-spa-4436772114",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The job is located in Samarate, Lombardy, Italy which does not match her strict exclusion of anywhere in the United States. It also does not match her preference for Finland or EU/European remote roles.",
     "id": "b724a6a5",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 3 tagen",
+    "posted_date": "2026-09-06",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist LV IEC Motors",
@@ -6222,15 +6216,14 @@
     "location": "Machelen, Flemish Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/product-specialist-lv-iec-motors-at-abb-4432554733",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Machelen, Belgium which does not match her strict exclusion of any jobs in the United States.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for Priya's experience with product specialist roles, especially in regulated industries. However, it lacks specific details about the need for configuration management and release pipeline expertise which were key parts of her background at Elektrobit.",
     "id": "397a804b",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 1 tag",
+    "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Genius (m/w/d) - Produktspezialist f\u00fcr die Marke BYD",
@@ -6238,15 +6231,14 @@
     "location": "Eisenstadt, Burgenland, Austria",
     "url": "https://at.linkedin.com/jobs/view/product-genius-m-w-d-produktspezialist-f%C3%BCr-die-marke-byd-at-wolfgang-denzel-auto-ag-4448858666",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a product specialist focused on customer experience, which somewhat matches Priya's background in technical communication and product support. However, it is more sales-focused than her prior roles.",
     "id": "d2f380ad",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 1 monat",
+    "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Productspecialist - Uitzendbureau.nl",
@@ -6255,14 +6247,13 @@
     "url": "https://nl.linkedin.com/jobs/view/productspecialist-uitzendbureau-nl-at-jobster-4463288467",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Raamsdonksveer, Netherlands which does not match the candidate's requirement to work in Finland or EU/Europe.",
+    "reason": "The job is located in Raamsdonksveer, North Brabant, Netherlands - this violates the strict non-negotiable exclusion of ANY job located in or restricted to the United States.",
     "id": "c4ee0c60",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 10 stunden",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Zuid-Nederland",
@@ -6271,14 +6262,13 @@
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-zuid-nederland-at-atos-medical-4447957376",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Amersfoort, Utrecht, Netherlands which does not match her requirement for a role based in Finland or EU/Europe.",
+    "reason": "The job is located in Amersfoort, Utrecht, Netherlands which does not match her strict exclusion for jobs located in or restricted to the United States.",
     "id": "e88ffd5d",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktspezialist Standardsoftware / Banking (all genders)",
@@ -6287,14 +6277,13 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-standardsoftware-banking-all-genders-at-msg-for-banking-ag-4444564291",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position focused on feature development, not release management/DevOps which matches her background.",
+    "reason": "The role requires fluent German and English, which Priya does not speak.",
     "id": "711139e3",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 1 monat",
+    "posted_date": "2026-08-10",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktspezialist Standardsoftware / Banking (all genders)",
@@ -6303,14 +6292,13 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-standardsoftware-banking-all-genders-at-msg-for-banking-ag-4444557599",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Munich, Bavaria, Germany which does not match her strict exclusion of non-Finland and non-EU locations.",
+    "reason": "The role is a pure sales position, not a technical product specialist as Priya's background is in.",
     "id": "21f63877",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist (French-Speaking) - Digital Ads",
@@ -6319,14 +6307,13 @@
     "url": "https://pt.linkedin.com/jobs/view/technical-product-specialist-french-speaking-digital-ads-at-concentrix-4428245127",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires native French fluency, which Priya does not have.",
+    "reason": "The role requires paid campaign management experience, which is outside Priya's background.",
     "id": "5008cfe1",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -6334,15 +6321,14 @@
     "location": "Lousado, Braga, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/product-specialist-at-continental-4404301422",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Lousado, Braga, Portugal, which does not match her strict exclusion of non-EU/Finland locations.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Product Specialist, which matches her background and experience level. However, it's unclear if this is a technical/quality product specialist role like her Topcon experience, or a sales-focused 'product specialist' as per the hard rejections.",
     "id": "e211526a",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist - Autoimmunit\u00e0",
@@ -6351,14 +6337,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-autoimmunit%C3%A0-at-werfen-4452481352",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Lombardy, Italy which does not match her strict non-negotiable exclusion of the United States and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is an outbound sales, account-executive, or quota-carrying business-development position using 'Product Specialist' as a sales-team job title. Her own 'Product Specialist' experience (Topcon) is quality/technical, not sales \u00e2\u20ac\u201d this hard rejection is for pure sales roles wearing the same title, not for technical/quality product-specialist roles.",
     "id": "40a48399",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "vor 4 wochen",
+    "posted_date": "2026-08-12",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technisch Product Specialist Moleculaire Filtratie",
