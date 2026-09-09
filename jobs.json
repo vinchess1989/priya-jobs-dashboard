@@ -12441,15 +12441,14 @@
     "location": "Kouvola, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=e1e32c3643eb0152",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kouvola, Finland, which does not match her strict exclusion of US-based roles and her preference for Finland or EU-wide remote.",
+    "matches_requirements": "yes",
+    "reason": "The role is for a nurse (sairaanhoitaja) at Attendo Kurjenmiekka in Kouvola, Finland. It matches Priya's background and she meets all the requirements.",
     "id": "706b6757",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/attendo_oy_sairaanhoitaja_attendo_kurjenm_706b6757.txt"
   },
   {
     "title": "Apulaisravintolap\u00e4\u00e4llikk\u00f6 Mylly (Raisio)",
@@ -12458,14 +12457,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6de82fe619c3254f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an Assistant Restaurant Manager at a specific Friends & Brgrs location in Finland, which does not match her target domain/role type of DevOps, release management, configuration management, or regulated product specialist roles.",
+    "reason": "The role is for an on-site Apulaisravintolap\u00e4\u00e4llikk\u00f6 position in Turku, Finland, which does not match her strict non-negotiable exclusion of any jobs located in or restricted to the United States.",
     "id": "e137e224",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Marine Surveyor",
@@ -12474,14 +12472,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cab9001b6fa50ee6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Marine Surveyor, which does not match her technical communication and product specialist background in semiconductor/VLSI/EDA. The job also requires Finnish/Swedish language skills, which she lacks.",
+    "reason": "The role is for a Marine Surveyor, which does not match Priya's technical writing and DevOps/CI/CD background. She has no marine industry experience.",
     "id": "8bfa8509",
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Koulunk\u00e4ynninohjaajia \u2013 vaativa erityinen tuki, m\u00e4\u00e4r\u00e4aikainen, J\u00e4rvenp\u00e4\u00e4n Yhteiskoulu",
@@ -12490,14 +12487,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ca3df6fa92dcf6e0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in J\u00e4rvenp\u00e4\u00e4, Finland, which does not match the candidate's strict exclusion of US-based jobs.",
+    "reason": "The role is for Koulunk\u00e4ynninohjaajia (school guidance counselors) in a Finnish school system, not related to semiconductors/VLSI/EDA. It's also a full-time teaching position, not an engineering or technical job.",
     "id": "3b5c7433",
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja, Tyks yleisl\u00e4\u00e4ketieteen sairaalaosastot, Raisio",
@@ -12506,14 +12502,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1d240a58ecde6e7b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a valid LOVe-l\u00e4\u00e4kehoitolupa, which is a clinical medical license specific to drug-induced treatment. Priya does not have this license and it is a mandatory requirement.",
+    "reason": "The job is located in Raisio, Finland which does not match the strict non-negotiable exclusion of jobs located in the United States.",
     "id": "9ca3fa08",
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "L\u00e4hihoitaja vammaispalveluihin H\u00e4meenlinnaan",
@@ -12522,14 +12517,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=30ad715448a4afdf",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in H\u00e4meenlinna, Finland, which violates the strict non-negotiable exclusion of jobs located in the United States.",
+    "reason": "The job is for a healthcare worker position assisting disabled residents, which does not match her technical configuration/release management background.",
     "id": "9d8bfcbd",
     "source": "indeed_fi_broad_p2",
-    "posted_date": "8.9.2026 klo 16:17",
-    "deadline": "23.9.2026 klo 15:00",
+    "posted_date": "2026-09-08",
+    "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "L\u00e4hihoitaja, Teiskon kotihoito, Tampere",
@@ -12538,14 +12532,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=fb698da2f582c2fe",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a home care nurse position, which does not match her technical configuration management and product specialist background.",
+    "reason": "The job is for a home care nurse, which requires clinical healthcare experience and licensing that Priya does not have. Her background is in technical product support/quality assurance, not hands-on patient care.",
     "id": "e90afc5e",
     "source": "indeed_fi_broad_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "L\u00e4hihoitajan sijaisuus Assi-sairaalan perusterveydenhuollon osastolle",
@@ -12554,14 +12547,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=877b7d0a2fd20b8a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Requires a healthcare license which Priya does not have based on her background.",
+    "reason": "The job is located in H\u00e4meenlinna, Finland which does not match the candidate's requirement to be located in Finland or EU.",
     "id": "ff753410",
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Siivoojan toimi",
@@ -12570,14 +12562,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1330735f27408a27",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a janitor position, which does not match her technical and senior-level experience in DevOps, release management, and product specialist roles.",
+    "reason": "The job is for a school cleaner position in Kittil\u00e4, Finland, which does not match her skills and experience.",
     "id": "35b07748",
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Luokanopettajan sijaisuudet vuosiluokille 1-6",
@@ -12586,14 +12577,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1f21249ca412670f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is only open to residents of Sastamala, Finland, which does not match the candidate's location preference for roles in Finland or EU-wide remote positions.",
+    "reason": "The job is for substitute teaching positions in Finland, which does not match her background in semiconductor/VLSI/EDA and release management.",
     "id": "9e3d68fd",
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "2027-03-02",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Uustuote -myyntiedustaja OTIS",
@@ -12602,14 +12592,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f6d9cbc895085437",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hard rejection due to being located in Finland, which Priya strictly avoids per her non-negotiable exclusion for US and Finnish/Swedish language requirements.",
+    "reason": "The role is a sales position for new construction business development, which does not match her technical/product specialist background.",
     "id": "5eeb5cfa",
     "source": "indeed_fi_broad_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2026-08-04",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Testaaja, Helsinki",
@@ -12618,14 +12607,13 @@
     "url": "https://www.jobly.fi/tyopaikka/testaaja-helsinki-2748639",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Android app testing position, which does not match her CI/CD/release management background.",
+    "reason": "The role mandates fluent Finnish language skills, which the candidate does not have (hard rejection).",
     "id": "9eca588e",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Ajanvaraaja, Taloturva Group Oy,Jyv\u00e4skyl\u00e4",
@@ -12633,15 +12621,14 @@
     "location": "Jyv\u00e4skyl\u00e4, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/cb6082b3-eae0-4dda-9854-8309a29e8a58/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a sales position (myyj\u00e4, myyntiedustaja) which she explicitly avoids due to being mislabeled as 'Product Specialist' in her own background. The job description clearly states this is an outbound sales role for home renovation bookings, not a technical/product specialist role.",
+    "matches_requirements": "yes",
+    "reason": "The role is a pure sales position requiring outbound calls to schedule appointments, which matches her background but she has explicitly stated she wants to avoid quota-carrying sales roles",
     "id": "166bca50",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/taloturva_group_oy_ajanvaraaja__taloturva_group_o_166bca50.txt"
   },
   {
     "title": "asiakashankinnan tiiminvet\u00e4j\u00e4 Lahti",
@@ -12650,14 +12637,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b3ded350-3f12-4d8b-83fb-7dd1771b6bf7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales team leader position, not a DevOps/CI/CD/release management role like her background. It's also an on-site job in Lahti Finland, not remote.",
+    "reason": "The job is located in Lahti, Finland which does not match her preference for roles anywhere in Finland or remote EU/European roles.",
     "id": "c666cf82",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "viem\u00e4rinsukittaja Turku",
@@ -12666,14 +12652,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a739ce0d-5c60-46bf-82a2-86e7723dde0f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Turku, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU countries.",
+    "reason": "The job is located in Turku, Finland which does not match her preference for roles anywhere in Finland or EU-wide remote positions.",
     "id": "50407b36",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4, Lahti",
