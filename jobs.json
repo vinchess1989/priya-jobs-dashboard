@@ -17737,14 +17737,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d7b6b529-c3d2-4411-9c4d-294fb78c6acd/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a TRIWA LIFE project coordinator, which does not match her technical DevOps/CM/release background. She needs roles in electronics/telecoms/VLSI/EDA with CI/CD/automation.",
+    "reason": "The role is a project management position focused on coordinating restoration activities and public outreach, which does not directly match her technical release/CM/DevOps background.",
     "id": "0dcd38df",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Varastoty\u00f6ntekij\u00e4/Huoltoasentaja",
@@ -17753,14 +17752,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/735f71a4-af40-4f14-b395-36c6b484e13a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lahti, Finland which does not match the candidate's strict exclusion of US-based jobs.",
+    "reason": "The job is located in Lahti, Finland which does not match the candidate's requirement to only consider roles in Finland or EU-wide remote positions.",
     "id": "508d7064",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri (Design Engineer), Vantaa tai Tampere, Afry",
@@ -17768,15 +17766,14 @@
     "location": "Vantaa tai Tampere, Suomi",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a1d25472-54ed-4473-9c40-c8364e0c230c/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Siemens PCS 7 and Honeywell automation engineer position, which does not match her configuration management, release management, CI/CD pipeline experience in regulated industries.",
+    "matches_requirements": "yes",
+    "reason": "The role is for a Design Engineer focused on automation systems, which matches her background and skills. It is located in Finland, where she is open to working.",
     "id": "8d3f5c07",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/afry_finland_oy_automaatioinsin__ri__design_en_8d3f5c07.txt"
   },
   {
     "title": "Ilmal\u00e4mp\u00f6pumppuasentaja, Espoo",
@@ -17785,14 +17782,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/27dd67d6-8614-46dc-9b56-fcd7b25b1472/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an HVAC technician assembling, maintaining and troubleshooting air conditioning pumps in residential homes - this does not match her semiconductor/VLSI/EDA background at all.",
+    "reason": "The role is for an on-site HVAC technician/assembler, not a software/DevOps/release management position which is her background.",
     "id": "b2962f0a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Telineasentajia",
@@ -17801,14 +17797,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/53e5f4c7-d279-41d0-82c1-88b04a4c1d1d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for line assembly work, not software/technical writing/DevOps roles that match her background.",
+    "reason": "The role is for on-site telineasentajia (rigger/forklift operators) in Lappeenranta, Finland, which does not match her location preferences of being open to remote EU roles or relocating within Finland only. She would not be interested in this purely on-site Finnish position.",
     "id": "0a1202f0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-12",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri (Design Engineer), Vantaa tai Tampere, Afry",
@@ -17816,15 +17811,14 @@
     "location": "Vantaa tai Tampere, Suomi",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/90c70084-ebb3-485c-b192-ad312aece9e2/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Finland, which does not match Priya's hard rejection of US-based jobs.",
+    "matches_requirements": "yes",
+    "reason": "The role matches her background in configuration management, release management and technical product specialist roles in regulated industries.",
     "id": "f7d81cef",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/afry_finland_oy_automaatioinsin__ri__design_en_f7d81cef.txt"
   },
   {
     "title": "Timpuri",
@@ -17833,14 +17827,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c11bf110-7c00-4d0b-a45e-39e4b8f4272c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rovaniemi, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The job is located in Rovaniemi, Finland which does not match her preferred location of being open to roles anywhere in Finland or EU/Europe but restricted from the United States.",
     "id": "47de76d9",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-05",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Varhaiskasvatuksen erityisopettaja",
@@ -17849,14 +17842,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7c296cb9-1e51-4c8e-b3ee-d52b45d851a3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Varhaiskasvatuksen erityisopettaja (Early Childhood Special Education Teacher) in Finland, which does not match her technical/quality/product specialist background and release management experience.",
+    "reason": "The job is located in Siuntio, Finland which does not match her non-negotiable exclusion of US locations.",
     "id": "cfc8311d",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 9.30",
-    "deadline": "11.10.2026, 15.00",
+    "posted_date": "2026-09-09",
+    "deadline": "2026-10-11",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Privacy, Data & Cyber Regulatory CounselNokiaEspooGo to job site",
@@ -17864,15 +17856,14 @@
     "location": "Espoo",
     "url": "https://www.jobly.fi/en/job/privacy-data-cyber-regulatory-counsel-2753777",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "This role matches Priya's background well, especially her experience with regulated industries and release management.",
+    "matches_requirements": "no",
+    "reason": "The role requires a qualified lawyer admitted in at least one EU member state or in England and Wales, which does not match Priya's background.",
     "id": "a8a9aa53",
     "source": "work_in_finland",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/nokia_privacy__data___cyber_regulato_a8a9aa53.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Hitsaaja tuotantoty\u00f6h\u00f6n",
@@ -17881,14 +17872,13 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-tuotantotyohon-2750267",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a welding technician in manufacturing, not DevOps, release management, or product specialist roles that match her background.",
+    "reason": "The role is for a welding technician in production, not her release/DevOps background.",
     "id": "4de88780",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-17",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palveluvastaavia p\u00e4\u00e4kaupunkiseudulle",
@@ -17897,14 +17887,13 @@
     "url": "https://www.jobly.fi/tyopaikka/ruokapalveluvastaavia-paakaupunkiseudulle-2748764",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for kitchen staff serving food, not a DevOps/Release Engineer or Product Specialist.",
+    "reason": "The role is for kitchen staff, not DevOps/Release Management or technical product specialist roles that match her background.",
     "id": "49dc088e",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "MIG/MAG-hitsaajia telakalle",
@@ -17913,14 +17902,13 @@
     "url": "https://www.jobly.fi/tyopaikka/mig-mag-hitsaajia-telakalle-2748765",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for MIG/MAG welding, which does not match Priya's technical communication and product specialist background. She has no welding experience.",
+    "reason": "The role is for MIG/MAG welding specialists at a shipyard, not a semiconductor/VLSI/EDA job.",
     "id": "1f6f47f4",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Automotive Testing Analyst - Muonio, Lapland",
@@ -17929,14 +17917,13 @@
     "url": "https://www.jobly.fi/tyopaikka/automotive-testing-hw-analyst-2748761",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a technical position assisting vehicle testing, which does not match Priya's background in software engineering, DevOps, release management and product specialist roles. She has no automotive industry experience.",
+    "reason": "The role is for an Automotive Testing Analyst, which involves vehicle trials and data handling. Priya's background is in software engineering, release management, and DevOps/CI-CD with a strong focus on automotive safety-critical products (Elektrobit), not hands-on vehicle testing or data analysis.",
     "id": "7e342b1e",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Maanrakennusty\u00f6ntekij\u00e4/kaivinkoneiden kaveri",
@@ -17945,14 +17932,13 @@
     "url": "https://www.jobly.fi/tyopaikka/maanrakennustyontekija-kaivinkoneiden-kaveri-2753867",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction laborer position, not an engineering or technical role that would match Priya's background and experience.",
+    "reason": "The role is a construction worker position, not an engineering/technical role that matches Priya's background and experience.",
     "id": "4a21f30e",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Keitti\u00f6toimen vastaava, vakituinen, HYVINK\u00c4\u00c4",
@@ -17961,14 +17947,13 @@
     "url": "https://www.jobly.fi/tyopaikka/keittiotoimen-vastaava-vakituinen-hyvinkaa-2753855",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a kitchen manager position, which requires cooking and managing a kitchen operation. The candidate profile indicates strong release management, DevOps, and technical communication skills but no culinary experience.",
+    "reason": "The role is a kitchen manager position focused on food preparation and kitchen operations, not release management, CI/CD pipelines, configuration, or product specialist roles. Priya's background does not match this kitchen management job.",
     "id": "4a9e465a",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "N\u00e4rv\u00e5rdare, Esperi Almahemmet",
