@@ -16386,15 +16386,14 @@
     "location": "Helsinki, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b6743c1c-c778-4ffc-b057-f1f9259bd244/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her strict exclusion of the United States and requirement to be based in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a good match for her release management, CI/CD, and regulated industry experience, and it's located in Finland which she is open to.",
     "id": "54cef630",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/treamer_finland_oy_operatiivinen_kohdevastaava_ma_54cef630.txt"
   },
   {
     "title": "Erikoisl\u00e4\u00e4k\u00e4ri, gynekologia, Vaasan keskussairaala, Pohjanmaan hyvinvointialue",
@@ -16403,30 +16402,28 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0ebe5047-9a27-42bf-9339-ead961c62a40/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a licensed specialist in gynecology and obstetrics, which does not match Priya's background. She has technical communication and product specialist experience but no clinical qualifications.",
+    "reason": "This is a clinical medical license/healthcare provider role, which does not match her background in release management, technical communication, and regulated product specialist work.",
     "id": "8e103533",
     "source": "tyomarkkinatori",
     "posted_date": "9.9.2026, 8.00",
     "deadline": "23.09.2026, 15.00",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kaivinkoneen per\u00e4mies/lapiomies Sein\u00e4joelle.",
-    "company": "Extract from page",
+    "company": "Lokki Henkil\u00f6st\u00f6palvelut Oy",
     "location": "Sein\u00e4joki, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/310eda64-4a4c-4380-9509-7e59efbc4e7d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sein\u00e4joki, Finland, which does not match Priya's location constraints of only considering roles in Finland or remote EU/European roles.",
+    "reason": "The role is for a construction equipment operator, not a software engineering/DevOps position that would match Priya's background and experience.",
     "id": "1d0b69c0",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "L\u00e4hihoitaja (80 %), Solg\u00e5rd, Mustasaari, Pohjanmaan hyvinvointialue",
@@ -16435,14 +16432,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/35036e04-946b-4507-a0a7-6a8961f807e1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish and Swedish, which Priya does not speak.",
+    "reason": "The role is for a healthcare worker (nursing assistant) which does not match her technical/quality-focused background and experience. It's also located in Finland, but that alone is not enough to make it a strong fit given the mismatched domain.",
     "id": "c42ad667",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "23.09.2026, 15.00",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kaivinkoneenkuljettaja Etel\u00e4-Pohjanmaan alueelle!",
@@ -16451,14 +16447,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5fb97ec6-ac4a-4b8c-86d7-2265b236999e/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a heavy equipment operator, not a technical configuration management/DevOps role.",
+    "reason": "The job requires Finnish language proficiency and is an excavator driver role, not matching the candidate's DevOps/Release/Configuration management background.",
     "id": "5d13e0f6",
     "source": "tyomarkkinatori",
     "posted_date": "9.9.2026, 8.00",
-    "deadline": "01.10.2026, 23.59",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "2026-10-01",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Lukion lehtorin sijaisuus (\u00c4I)",
@@ -16467,14 +16462,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/79ea4114-9c98-4187-a800-b610e2264f29/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a high school substitute teacher, not a semiconductor/VLSI/EDA industry job.",
+    "reason": "The role is for a high school substitute teacher, which does not match her technical background in DevOps, release management, and regulated product roles.",
     "id": "76c75647",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-15",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sosiaality\u00f6ntekij\u00e4 Lastensuojelu, Kouvola",
@@ -16482,15 +16476,14 @@
     "location": "Kouvola, Suomi",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d6b11fe6-1c77-43e4-a2d1-455305490fbb/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kouvola, Finland which does not match her strict exclusion of US-based jobs and requirement to be based in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is for a social worker position in Finland, which matches her background and location preferences.",
     "id": "b7038d6d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "23.09.2026, 23.59",
+    "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/kymenlaakson_hyvinvo_sosiaality_ntekij__lastensuoje_b7038d6d.txt"
   },
   {
     "title": "Tuntiopettaja, s\u00e4hk\u00f6- ja automaatioala / Tredu",
@@ -16499,14 +16492,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/fc5d8128-6d42-4887-862f-f9e23d0aaab5/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tampere, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is for a part-time teaching position in the electrical and automation field, not a release management or DevOps engineer job.",
     "id": "45d72402",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Testausinsin\u00f6\u00f6ri - s\u00e4hk\u00f6",
@@ -16514,15 +16506,14 @@
     "location": "Vantaa, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/912c97d1-234f-4d77-9f10-000e73f768ca/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Vantaa, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a test engineer position with experience in EMC testing and knowledge of electrical engineering, which matches Priya's background.",
     "id": "5bc4b3da",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/etteplan_testausinsin__ri___s_hk__5bc4b3da.txt"
   },
   {
     "title": "Gestor/a de configuraci\u00f3n",
@@ -16531,14 +16522,13 @@
     "url": "https://es.linkedin.com/jobs/view/gestor-a-de-configuraci%C3%B3n-at-alten-spain-4442810686",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Configuration Manager position, but the hard rejections rule out any software engineering roles that are pure development of new features. Her background has been release management, CI/CD ownership, and configuration management in regulated industries - not hands-on coding or feature dev.",
+    "reason": "The job is located in Madrid, Spain which does not match the candidate's location preferences of Finland or EU-wide remote roles.",
     "id": "692e9fb5",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "hace 1 semana",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurations- und ILS-Manager:in (m/w/d)",
@@ -16547,14 +16537,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurations-und-ils-manager-in-m-w-d-at-ohb-se-4462802672",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Maguncia, Renania-Palatinado, Alemania (Mainz, Rhineland-Palatinate, Germany), which does not match the candidate's location preferences of Finland or EU/Europe. It also requires German language fluency.",
+    "reason": "The role is located in Germany, which does not match the candidate's requirement for Finland or EU-based roles.",
     "id": "52f5626e",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Execution Leader/Scrum Master for Embedded Banking",
@@ -16563,14 +16552,13 @@
     "url": "https://fi.linkedin.com/jobs/view/execution-leader-scrum-master-for-embedded-banking-at-emagine-4463502292",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role combines Scrum Master duties with execution leadership and AI enablement, which could be a good fit for her Agile/DevOps background. However, it's not explicitly stated to include release management or CI/CD ownership.",
+    "reason": "The role is a strong match for her Agile/Scrum experience, but the embedded banking domain and AI enablement aspects are less clear fits compared to automotive/medical device regulated products. She would likely need more training in Open Banking, digital platforms, and financial services technology ecosystems.",
     "id": "c077dd0e",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-01",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SAP Project Manager",
@@ -16579,14 +16567,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-project-manager-at-tata-consultancy-services-4452398394",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language skills, which Priya does not have.",
+    "reason": "The role is a SAP Project Manager, which does not closely match her technical release/CM background and experience level. She has no SAP-specific skills mentioned.",
     "id": "c2d24416",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Project Manager",
@@ -16594,15 +16581,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-project-manager-at-taskmill-4427434587",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for Priya's background, with a focus on project management and delivery in a Finnish company. The job is located in Helsinki, Finland which fits her relocation criteria.",
     "id": "1a2a7c09",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "hace 2 meses",
     "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/taskmill_senior_project_manager_1a2a7c09.txt"
   },
   {
     "title": "ERP projektip\u00e4\u00e4llikk\u00f6",
@@ -16610,15 +16596,14 @@
     "location": "Salo, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/erp-projektip%C3%A4%C3%A4llikk%C3%B6-at-sck-consulting-oy-4462284759",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which Priya does not speak.",
+    "matches_requirements": "yes",
+    "reason": "The role of ERP projektip\u00e4\u00e4llikk\u00f6 matches her background in configuration management, release management and technical product specialist roles in regulated industries like automotive (EB Corbos) and healthcare (Topcon). She has the required experience level and is open to Finland-based roles.",
     "id": "9473c702",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/sck_consulting_oy_erp_projektip__llikk__9473c702.txt"
   },
   {
     "title": "Project Manager, Combat System",
