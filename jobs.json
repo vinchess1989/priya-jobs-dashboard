@@ -19536,15 +19536,14 @@
     "location": "Bremen, Bremen, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-naxcon-group-4465012503",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a mid-senior Configuration Manager position, matching her background and experience level.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "2b92a127",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "2026-09-08",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/naxcon_group_configuration_manager__m_f_d___2b92a127.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Transformation Lead (SAP & ServiceNow",
@@ -19552,15 +19551,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/transformation-lead-sap-servicenow-at-fujitsu-4462172451",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Transformation Lead specifically focused on SAP & ServiceNow, while Priyanga's background and skills are in configuration management, release management, CI/CD, and DevOps for embedded systems and regulated industries like automotive and healthcare. She does not have relevant SAP or ServiceNow project leadership experience.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her DevOps/Release Management background, but it's unclear if she would be considered for this SAP & ServiceNow focus without more details.",
     "id": "055cb05e",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -19569,14 +19567,13 @@
     "url": "https://pt.linkedin.com/jobs/view/release-manager-at-act-digital-4463837271",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role of Release Manager closely matches Priya's experience and skills, especially her release management, configuration management, and DevOps experience from Elektrobit.",
+    "reason": "The role is a strong match for Priya's experience in release management, version control, and DevOps pipeline ownership.",
     "id": "b9c995b8",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/act_digital_release_manager_b9c995b8.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/act_digital_release_manager_b9c995b8.txt"
   },
   {
     "title": "Produktspecialist indenfor procedurepakker",
@@ -19585,14 +19582,13 @@
     "url": "https://dk.linkedin.com/jobs/view/produktspecialist-indenfor-procedurepakker-at-vingmed-a-s-4464316123",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Birker\u00f8d, Denmark which does not match the strict non-negotiable exclusion of the United States mentioned in the hard rejections.",
+    "reason": "The role is a pure sales position titled 'Product Specialist' which she is overqualified for, and it requires Danish language fluency which she does not speak.",
     "id": "32615e5e",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-07",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Research Scientist, Quantum Error Correction",
@@ -19601,14 +19597,13 @@
     "url": "https://fi.linkedin.com/jobs/view/research-scientist-quantum-error-correction-at-vtt-4462216429",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Research Scientist focused on quantum error correction, while her background and experience are in DevOps/CI-CD, release management, and technical communication. The job is located in Espoo, Finland which does not match her strict exclusion of US-based roles.",
+    "reason": "The role is a research scientist position focused on quantum error correction, which does not match her background in release management, CI/CD, and technical product specialist roles. She has some coding experience but this is not emphasized.",
     "id": "48597150",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-23",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Production Test Engineer, Hyvink\u00e4\u00e4",
@@ -19616,15 +19611,14 @@
     "location": "Hyvink\u00e4\u00e4, Finland",
     "url": "https://www.jobly.fi/tyopaikka/production-test-engineer-hyvinkaa-2673866",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a good match for Priya's experience with configuration management, release pipelines, and regulated product specialist work. It is an on-site position in Finland.",
+    "matches_requirements": "no",
+    "reason": "The role is an onsite Production Test Engineer position, which does not match her release/CI/CD/DevOps background and experience level.",
     "id": "fa1ce5da",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/academic_work_production_test_engineer__hyvi_fa1ce5da.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palvelutiskimyyj\u00e4",
@@ -19633,14 +19627,13 @@
     "url": "https://www.jobly.fi/tyopaikka/palvelutiskimyyja-2700374",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for cashier/store clerk work on retail service counters, not a technical DevOps/CM/Product Specialist position. It's also an open-ended job listing without a specific deadline.",
+    "reason": "The role is for cashier/food service roles on retail store checkout counters, not her technical DevOps/Release Management background.",
     "id": "88b15521",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Levysepp\u00e4hitsaaja",
@@ -19649,14 +19642,13 @@
     "url": "https://www.jobly.fi/tyopaikka/levyseppahitsaaja-2743909",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a welding trainer, not a DevOps/Release Engineer or Product Specialist.",
+    "reason": "The role is a welding trainer position, which does not match her technical release management and DevOps background.",
     "id": "0f5153c8",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kattopinnoittaja / -maalari",
@@ -19665,14 +19657,13 @@
     "url": "https://www.jobly.fi/tyopaikka/kattopinnoittaja-maalari-2749075",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires at least 3 months of experience, which is more than Priyanga's 15 years. She would be overqualified.",
+    "reason": "The role is for a painter/muralist working on residential/commercial buildings, not a semiconductor/VLSI/EDA industry job.",
     "id": "f7a0b9d9",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palvelukonsulentti, Vaasa",
@@ -19681,14 +19672,13 @@
     "url": "https://www.jobly.fi/tyopaikka/palvelukonsulentti-vaasa-2749079",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a part-time to full-time on-site position in Vaasa, Finland, which does not match her strict non-negotiable exclusion of US-based roles and her preference for EU/Europe remote roles based in Finland or other EU countries.",
+    "reason": "The role is a coffee kiosk service position, not a DevOps, configuration management, release management, or technical product specialist role.",
     "id": "e5c44cb0",
     "source": "jobly_broad",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Laboratoriohoitaja Diagnostiikkakeskus Preanalytiikka Vantaa ja Kerava",
@@ -19697,14 +19687,13 @@
     "url": "https://www.jobly.fi/tyopaikka/laboratoriohoitaja-diagnostiikkakeskus-preanalytiikka-vantaa-ja-kerava-2749081",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a licensed lab technician, which Priya does not have. Her background is in software engineering and technical documentation, not clinical lab work.",
+    "reason": "The role requires a licensed phlebotomist, which Priya does not have. Her electronics/telecoms background and prior roles in technical communication, product specialist, DevOps, and release management do not qualify her for this clinical lab technician position.",
     "id": "9f0ab20c",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
-    "deadline": "N/A",
+    "deadline": "2026-10-02",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Yhdistelm\u00e4ty\u00f6ntekij\u00e4 p\u00e4iv\u00e4kotiin",
@@ -19713,14 +19702,13 @@
     "url": "https://www.jobly.fi/tyopaikka/yhdistelmatyontekija-paivakotiin-2749082",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a combination cleaner/cook assistant at daycare centers and schools in Helsinki, Finland. It does not match her technical/regulated industry experience.",
+    "reason": "The role is for a combination cleaner and kitchen helper at daycare centers in Helsinki, Finland. It does not match her semiconductor/VLSI/EDA industry background or job requirements.",
     "id": "11f43891",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Osallistuva iltaty\u00f6njohtaja rakennuslogistiikkaan Lappeenrantaan",
@@ -19729,14 +19717,13 @@
     "url": "https://www.jobly.fi/tyopaikka/osallistuva-tyonjohtaja-rakennuslogistiikkaan-lappeenrantaan-2713540",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a full-time permanent position, which does not match her preference for mid-to-senior contract/consulting roles.",
+    "reason": "The role is for a construction logistics coordinator, not her configuration management/DevOps/release experience.",
     "id": "9f09efba",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Head of Growth Marketing",
@@ -19745,14 +19732,13 @@
     "url": "https://www.jobly.fi/tyopaikka/head-growth-marketing-2706927",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a Bachelor's degree, seven years' experience and English skills, which is significantly more than Priya's qualifications. She has a BTech in Electronics & Telecommunications from CUSAT (2011) plus an Advanced Diploma in Embedded Systems.",
+    "reason": "The role is a marketing leadership position focused on paid user acquisition and growth, which does not match her technical DevOps/CM/release background. It's also based in Helsinki, Finland, not a fit for her hard rejection of US-only roles.",
     "id": "4bd95077",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Varastoty\u00f6ntekij\u00e4, Oulu Rusko",
@@ -19761,14 +19747,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0c9cec39-10bd-4eab-9c45-22d5ef01e221/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a warehouse worker position, which does not match her technical configuration management, DevOps, and product specialist background.",
+    "reason": "The role is for a warehouse worker, not a software engineering/DevOps position that matches Priya's background and skills.",
     "id": "8dc4eb51",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "20.09.2026, 00.00",
+    "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kokki Punaisen Piipun Kievariin",
