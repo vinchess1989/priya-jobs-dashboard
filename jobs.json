@@ -24036,13 +24036,13 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/senior-devops-engineer-at-loka-4451532068",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on skills, but the location is outside Finland and EU which are hard rejections for Priya based on her profile.",
     "id": "9b5905e1",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "posted_date": "h\u00e1 1 m\u00eas",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
