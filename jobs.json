@@ -17902,12 +17902,12 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-tuotantotyohon-2750267",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 6 column 14 (char 240)",
     "id": "4de88780",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
