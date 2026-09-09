@@ -19536,13 +19536,13 @@
     "location": "Bremen, Bremen, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-naxcon-group-4465012503",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is for a Configuration Manager focused on technical product structure and documentation, not release/CI/CD ownership. Priya's experience is more in DevOps/CI/CD than configuration management.",
     "id": "2b92a127",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "vor 7 stunden",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
@@ -19762,14 +19762,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6e70b49e-ccad-4877-aeb0-1941a4815b44/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a cook, not a technical configuration management/release engineer.",
+    "reason": "The role is for a baker, not a software engineering or DevOps position.",
     "id": "f9ab239d",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 13.37",
-    "deadline": "20.09.2026, 10.43",
+    "posted_date": "2026-09-09",
+    "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Huoltoasentaja, osa-aikainen, VIHTI",
@@ -19778,14 +19777,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/897675df-0766-4172-87c7-42f6a667b4d7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a full-time maintenance technician position, not a DevOps/Release Management/Product Specialist role that matches her background.",
+    "reason": "The role is for a part-time maintenance technician position, which does not match her full-time senior DevOps/Release Management experience and skills.",
     "id": "581a1c45",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-28",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4",
@@ -19794,14 +19792,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e4dce95b-04c7-4a5a-9064-77f01f4388b5/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kuopio, Finland, which does not match her strict exclusion of non-EU/Finland locations.",
+    "reason": "The role is for construction site helpers, which does not match her technical/quality/product specialist background in release management and DevOps. It's also an on-site job in Kuopio, Finland, which she is open to but doesn't strictly require.",
     "id": "a2b67487",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-24",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "S\u00e4hk\u00f6alan ammattilaiset datakeskusty\u00f6maalle Kouvola",
@@ -19810,14 +19807,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ddbf3d65-a70e-4999-8288-b61bfb3184c8/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kouvola, Finland, which does not match her strict exclusion of US-based jobs and her preference for roles in Finland or EU countries.",
+    "reason": "The role is for on-site work in Kouvola, Finland which matches her location preferences.",
     "id": "15d96ef3",
     "source": "tyomarkkinatori",
     "posted_date": "9.9.2026, 13.29",
     "deadline": "31.10.2026, 23.59",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "hitsaaja",
@@ -19826,14 +19822,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ae25c924-b5fc-4fc2-a33d-d6c363a0fca1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hands-on welding position, not a DevOps/CI/CD/release management role like her background. It's a hard rejection based on domain/role type.",
+    "reason": "The job is located in Ylitornio, Finland which does not match the candidate's requirement to be located either in Finland or another EU country or a remote role open to the EU.",
     "id": "aa8081b6",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Asbestipurkaja",
@@ -19842,14 +19837,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/da6c993a-43c0-49a9-a0a0-2768a3be584b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires specific asbestos removal experience and certifications, which Priya does not have. Her background is in software engineering, release management, and DevOps/CI-CD.",
+    "reason": "The role is for asbestos removal, which Priya has no experience with and no relevant skills for. Her background is in software engineering, DevOps, release management and technical product specialist roles - not physical asbestos removal work.",
     "id": "d3086ea2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tiiminvet\u00e4j\u00e4 asennusty\u00f6, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -19858,30 +19852,28 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7555db67-faae-400c-b8f9-2d12ccc993f1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a contractor position, not an employee role which matches her experience level.",
+    "reason": "The role is for a construction site team leader, which does not match her technical release/DevOps background and experience level. She has no construction industry experience.",
     "id": "d84eb347",
     "source": "tyomarkkinatori",
     "posted_date": "9.9.2026, 13.26",
     "deadline": "16.09.2026, 07.59",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Purkuty\u00f6ntekij\u00e4",
-    "company": "Extract from page",
+    "company": "Worker Pohjois-Suomi Oy",
     "location": "Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/116864d1-0648-41f4-b86b-a750a362b9b4/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates the strict no-US rule and her inability to speak Finnish/Swedish.",
+    "reason": "The role is for a construction demolition worker, not DevOps/CI/CD/release management.",
     "id": "c46c1e88",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "9.9.2026, 13.26",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Hammashoitaja, H\u00e4meenlinna",
@@ -19890,14 +19882,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e6dd12d3-2d2d-4ea3-93a8-723d932cedd8/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in H\u00e4meenlinna, Finland, which violates her strict exclusion of US-based jobs and her preference for roles in Finland over other EU countries.",
+    "reason": "The role is for a dental hygienist, not her technical/quality release management background.",
     "id": "f73efe52",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Puskukoneenkuljettaja Kajaaniin",
@@ -19906,14 +19897,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1d49a2d1-f1f5-4be1-b343-12b69541fd99/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a specialized 3D excavator operator, not a general DevOps/Release Engineer.",
+    "reason": "The role is for 3D crane operators, not a software engineering position. The candidate has significant experience in embedded systems and VLSI/EDA but this job does not match her background.",
     "id": "fe795f8e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "3D-taitoinen kaivinkoneenkuljettaja Kajaaniin",
@@ -19922,14 +19912,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/36420ebf-b522-49b6-84cc-98247d915bbe/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Finland, which violates her strict exclusion of US and non-EU locations.",
+    "reason": "The role is for a 3D-capable heavy equipment operator, not a software engineering/DevOps position. The job description does not match her technical background.",
     "id": "43334ef3",
     "source": "tyomarkkinatori",
-    "posted_date": "9.9.2026, 13.24",
-    "deadline": "30.09.2026, 12.00",
+    "posted_date": "N/A",
+    "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "K\u00e4silumity\u00f6ntekij\u00f6it\u00e4 talvikaudelle 2026 - 2027",
@@ -19938,14 +19927,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bdeac455-0d18-43eb-8484-de5dc453f1ca/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for seasonal manual labor positions, not a technical role like DevOps, configuration management, release management, or product specialist.",
+    "reason": "The role is for seasonal manual labor positions, not a technical DevOps/Release Management position like her background.",
     "id": "796fccf2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
-    "deadline": "20.10.2026, 00.00",
+    "deadline": "2026-10-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Purchase Manager",
@@ -19954,14 +19942,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1eb24668-41db-4e2a-ac71-3d0d459fee3a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/DevOps-focused like her background. She has been in release roles for over 8 years and would not be a fit for this.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' which Priya has explicitly excluded herself from based on her prior experience at Topcon. The job title misleads by using 'Product Specialist', but the actual responsibilities are in outbound sales and business development, not technical product support.",
     "id": "cfbfe9c7",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Siivooja Kemiin",
@@ -19970,14 +19957,13 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2ea00d5c-0304-4c1f-9f3d-b66cea0e2e10/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a general cleaning position, not related to Priya's technical configuration management and DevOps experience.",
+    "reason": "The role is for a janitor position at a factory in Kemi, Finland, which does not match her semiconductor/VLSI/EDA industry experience and senior-level job search.",
     "id": "3b7378f1",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Customer Success Manager, FinlandAcademic WorkEspooGo to job site",
