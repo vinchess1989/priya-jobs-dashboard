@@ -11542,14 +11542,13 @@
     "url": "https://www.jobly.fi/tyopaikka/product-sales-specialist-2751187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, not a technical product specialist or DevOps/CI/CD-focused role which matches her background.",
+    "reason": "The role is a quota-carrying sales position, not a technical product specialist or DevOps/CM/release management role.",
     "id": "c14f03b6",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -11557,15 +11556,14 @@
     "location": "Vaasa, Finland",
     "url": "https://www.jobly.fi/tyopaikka/product-specialist-2739005",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure software engineering position developing new features, while her background is release/CI/CD configuration management. She has no feature development experience in over 8 years.",
+    "matches_requirements": "yes",
+    "reason": "This Product Specialist role matches her domain/role type and location/work model criteria, with a strong fit for her release management, CM, and DevOps background in regulated industries.",
     "id": "0cd9b476",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/hae_paikkaa_product_specialist_0cd9b476.txt"
   },
   {
     "title": "Product Data Specialist",
@@ -11574,14 +11572,13 @@
     "url": "https://www.jobly.fi/tyopaikka/product-data-specialista-2744875",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales quota-carrying business development position using 'Product Specialist' as its title, which Priya explicitly hard-rejects. Her own Topcon 'Product Specialist' experience was quality/technical not sales.",
+    "reason": "The role is a pure product specialist position focused on Excel and PIM systems, with no DevOps/CI/CD/release management component. She has over 15 years of experience in those areas but not product data handling.",
     "id": "9c27d2dc",
     "source": "jobly_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Production Controller, Turku Site",
@@ -11590,14 +11587,13 @@
     "url": "https://www.jobly.fi/tyopaikka/production-controller-turku-site-2748395",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Production Controller focused on finance, operations and analytics to drive performance across manufacturing - this matches her technical communication/documentation background poorly. The job is also located in Turku, Finland which she may be willing to relocate for but it's not stated explicitly.",
+    "reason": "The role is for a Production Controller with finance, analytics and operations focus, while her background is in software engineering, release management, DevOps and technical product specialist roles. The job also requires strong Finnish/Swedish language skills which she does not have.",
     "id": "9e563ea5",
     "source": "jobly_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Development Specialist / Manager (Supply Chain data)",
@@ -11605,15 +11601,14 @@
     "location": "Helsinki, Vaasa or Turku, Finland",
     "url": "https://www.jobly.fi/tyopaikka/development-specialist-manager-supply-chain-data-2753263",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves development work with Power BI, data products and improving supply chain processes, which is a good fit for her DevOps/CI-CD/release management background. However, it's not clear if this is a pure feature-development software engineering role or more of a product-specialist/technical-consulting position focused on data tools/reporting. More context would be needed to fully assess.",
+    "matches_requirements": "no",
+    "reason": "The role is focused on developing data-driven supply chain processes, while her background and experience is in release management, DevOps, and regulated product specialist roles. There is no direct overlap.",
     "id": "3ffd4def",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Support Specialist, Virta, Helsinki",
@@ -11622,14 +11617,13 @@
     "url": "https://www.jobly.fi/tyopaikka/technical-support-specialist-virta-helsinki-2727871",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is pure technical support, while Priya's background is in DevOps/CI-CD/release management. She has no direct customer-facing tech support experience.",
+    "reason": "The role is a Technical Support Specialist position focused on customer-facing support and ticketing, not release management, CI/CD ownership, or product specialist roles that match her background.",
     "id": "4c5943fb",
     "source": "jobly_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Vaski Group: Product Sales Specialist",
@@ -11638,14 +11632,13 @@
     "url": "https://www.jobly.fi/tyopaikka/vaski-group-product-sales-specialist-2751250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sein\u00e4joki, Finland, which does not match her strict exclusion of anywhere in the United States and her preference for roles in Finland or EU/Europe.",
+    "reason": "The role is a Product Sales Specialist, which falls under Hard Rejections for pure sales roles mislabeled as 'Product Specialist'. Her own 'Product Specialist' experience (Topcon) was quality/technical, not quota-carrying sales.",
     "id": "deddd4b7",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Material Specialist, External Production",
@@ -11654,14 +11647,13 @@
     "url": "https://www.jobly.fi/tyopaikka/material-specialist-external-production-2746429",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an on-site/hybrid position physically located in Turku, Finland, which does not match her strict exclusion of US-only roles and her preference to work anywhere in Finland or remotely EU-wide.",
+    "reason": "The role is for an on-site/hybrid position physically located in Turku, Finland, which does not match her requirement to be open only to remote roles based anywhere in the EU/Europe.",
     "id": "03b69d7a",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "PC Product Specialist",
@@ -11670,14 +11662,13 @@
     "url": "https://www.jobly.fi/tyopaikka/pc-product-specialist-2747995",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position using 'Product Specialist' as its title, which is explicitly excluded.",
+    "reason": "The role is a quota-carrying sales position mislabeled as 'Product Specialist', which she has explicitly excluded herself from taking.",
     "id": "a79d1a97",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-01",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AV Product Specialist",
@@ -11686,14 +11677,13 @@
     "url": "https://www.jobly.fi/tyopaikka/av-product-specialist-2747067",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is quota-carrying sales, not product specialist as Priya's Topcon experience was quality/technical, not sales.",
+    "reason": "The role is a quota-carrying sales position titled 'Product Specialist' but focused on outbound B2B AV product sales, not her technical/product-specialist background in quality/regulatory documentation/release management.",
     "id": "f41ad810",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-08-31",
     "deadline": "2026-09-20",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Production Data Engineer",
@@ -11702,14 +11692,13 @@
     "url": "https://www.jobly.fi/tyopaikka/production-data-engineer-2748856",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Production Data Engineer, which involves hands-on data engineering and systems integration work in manufacturing - this matches her technical background but does not cover her recent experience in release management, configuration mgmt, DevOps/CI/CD, or regulated product specialist roles.",
+    "reason": "The job is located in Turku, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "6bd1184c",
     "source": "jobly_fi_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Manager - Security",
@@ -11722,10 +11711,9 @@
     "id": "1adcda8c",
     "source": "jobly_fi_product_specialist",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tuoteasiantuntija, Lapinlahti",
@@ -11734,14 +11722,13 @@
     "url": "https://www.jobly.fi/tyopaikka/tuoteasiantuntija-lapinlahti-2753209",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Product Specialist focused on quality and technical product support, not release/CM/DevOps. Priya's strong fit is in those areas, not hands-on product development.",
+    "reason": "The role is for a Product Specialist focused on quality and technical product support, not release/CI/CD/devops. Priya's background is heavily in CI/CD/release management, not pure product specialist roles.",
     "id": "1db2c5a1",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-25",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Supply Chain Trainee",
@@ -11750,14 +11737,13 @@
     "url": "https://www.jobly.fi/tyopaikka/supply-chain-trainee-2745246",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Supply Chain Trainee, which does not match her technical communication and product specialist background in semiconductor/VLSI/EDA. She needs senior-level roles in DevOps, release management, configuration management, or regulated product specialist.",
+    "reason": "The role is a Supply Chain Trainee focused on project work, not matching her technical DevOps/CM/release background. It's also an entry-level trainee position explicitly for new grads, which she is overqualified for.",
     "id": "13da156b",
     "source": "jobly_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "2026-09-13",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Engine Programmer",
@@ -11766,14 +11752,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-engine-programmer-at-brawl-stars-4442339873",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which violates her strict exclusion of US-based jobs and her requirement to speak Finnish/Swedish natively.",
+    "reason": "The role is a pure software engineering position focused on developing new engine features, not release management, CI/CD ownership, or product specialist roles which match her background.",
     "id": "35c766b1",
     "source": "linkedin_fi_broad",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Engineering Manager, MAAS",
