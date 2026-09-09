@@ -24062,17 +24062,17 @@
   },
   {
     "title": "Autonasentaja",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Tmi Autopeltipalvelu Hyvink\u00e4\u00e4",
+    "location": "Hyvink\u00e4\u00e4, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/028cfe25-8995-4a20-bd09-f676d14de8ac/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is an automotive mechanic position, not a DevOps/Release Management role with her technical background.",
     "id": "5aac5f83",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "posted_date": "9.9.2026, 23.15",
+    "deadline": "30.09.2026, 23.59",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   }
 ]
