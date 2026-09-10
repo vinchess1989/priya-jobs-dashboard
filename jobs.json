@@ -26886,13 +26886,13 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-sensor-tower-4454669120",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 27 (char 26)",
+    "matches_requirements": "no",
+    "reason": "The job is located in Lisboa, Portugal which does not match her location preference of Finland or EU-wide remote roles.",
     "id": "c2bba166",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "2026-08-27",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
