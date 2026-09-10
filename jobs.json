@@ -26211,13 +26211,13 @@
     "location": "Varese, Lombardy, Italy",
     "url": "https://it.linkedin.com/jobs/view/jr-configuration-manager-aerospace-sector-at-migso-pcubed-4458084945",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is a pure Junior Configuration Management Specialist position, which does not match her senior release management, CI/CD ownership background. She would be overqualified.",
     "id": "7cdf0577",
     "source": "linkedin_eu_configuration_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
