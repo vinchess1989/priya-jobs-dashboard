@@ -36419,5 +36419,50 @@
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
+  },
+  {
+    "title": "Manager, Inventory Performance",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://www.jobly.fi/tyopaikka/manager-inventory-performance-2755517",
+    "visited": "yes",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "id": "80a4d084",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "LOUNASKOKKI",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/aefd1b75-2ac9-42c7-b79d-3f2c99ea92bd/fi",
+    "visited": "yes",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "id": "b6633585",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/qwen/qwen3.6-27b",
+    "description_file": null
+  },
+  {
+    "title": "(Senior) Patent CounselNokiaEspooGo to job site",
+    "company": "Nokia",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/en/job/senior-patent-counsel-2755292",
+    "visited": "yes",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her domain/role type, but the location is unclear - it doesn't specify Finland vs remote. She's open to relocating in Finland and to fully remote EU roles.",
+    "id": "61d7961c",
+    "source": "work_in_finland",
+    "posted_date": "N/A",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": null
   }
 ]
