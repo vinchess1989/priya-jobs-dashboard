@@ -36891,13 +36891,13 @@
     "location": "Niort, Nouvelle-Aquitaine, France",
     "url": "https://fr.linkedin.com/jobs/view/change-manager-f-h-at-ais-4447551644",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a match on domain/role type and location/work model, but the salary range is missing to fully confirm a yes.",
     "id": "b188a2fb",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 mois",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
