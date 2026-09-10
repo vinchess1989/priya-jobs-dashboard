@@ -33453,16 +33453,17 @@
   {
     "title": "Asentajia ovi- ja elementtitehtaalle",
     "company": "Extract from page",
-    "location": "Extract from page",
+    "location": "Oulu, Finland",
     "url": "https://fi.indeed.com/viewjob?jk=f1e2d3c4b5a67890",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The job is located in Oulu, Finland which does not match the job posting location.",
     "id": "efe607fb",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Rovaniemi | Santa's Hotel Noelle: Vastaanottovirkailija",
