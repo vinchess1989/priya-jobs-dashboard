@@ -31622,18 +31622,18 @@
   },
   {
     "title": "Verkostosuunnittelija",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Omexom Suomi",
+    "location": "Turku, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/omexom-suomi-verkostosuunnittelija-turku-sdsuu-20560546",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 4 column 18 (char 137)",
+    "matches_requirements": "yes",
+    "reason": "The role of Network Designer matches her experience with configuration management, release management, and DevOps in regulated industries.",
     "id": "976c45c6",
     "source": "duunitori_configuration_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "posted_date": "2026-09-10",
+    "deadline": "2026-09-23",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/omexom_suomi_verkostosuunnittelija_976c45c6.txt"
   },
   {
     "title": "Kokenut j\u00e4rjestelm\u00e4orientoitunut talousasiantuntija (controller)",
