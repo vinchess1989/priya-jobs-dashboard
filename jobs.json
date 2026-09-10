@@ -25521,12 +25521,13 @@
     "location": "Extract from page",
     "url": "https://fi.indeed.com/viewjob?jk=a1b2c3d4e5f67890",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The job is located in Finland, which does not match the candidate's requirement to avoid jobs restricted to the United States.",
     "id": "6ce4275e",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   }
 ]
