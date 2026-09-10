@@ -26887,12 +26887,12 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-sensor-tower-4454669120",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 27 (char 26)",
     "id": "c2bba166",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
   },
   {
@@ -26901,14 +26901,14 @@
     "location": "Brussels, Brussels Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/devops-engineer-at-vivid-resourcing-4441976431",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "Strong DevOps/Cloud Engineer role with good match on skills and experience level, located in EU (Belgium).",
     "id": "564b1ba4",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/vivid_resourcing_devops_engineer_564b1ba4.txt"
   },
   {
     "title": "Ing\u00e9nieur DevOps/Ing\u00e9nieure DevOps",
@@ -27066,13 +27066,13 @@
     "location": "Paris, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/expert-adobe-aem-assets-at-accenture-france-4327979457",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. She would be overqualified.",
     "id": "67e1dece",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
