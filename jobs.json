@@ -25529,5 +25529,35 @@
     "deadline": "Open until filled",
     "description_file": null,
     "eval_model": "local/hermes-3-llama-3.1-8b"
+  },
+  {
+    "title": "S\u00e4hk\u00f6asentaja",
+    "company": "Kotkan kaupunki",
+    "location": "Kotka, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0c3d9b2c-ae33-4e61-9178-6332bec2a59a/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is an electrical electrician position, not a DevOps, configuration management, or release management role.",
+    "id": "fc3641f0",
+    "source": "tyomarkkinatori",
+    "posted_date": "julkaistu 10.9.2026, 4.00",
+    "deadline": "2026-09-30",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Peruskoulun luokanopettaja",
+    "company": "Kotkan kaupunki",
+    "location": "Kotka, Suomi",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/96e9ab40-8a68-42f2-85da-97e1402e61cf/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The position is a primary school teaching role in Finland, which does not align with the candidate\u2019s DevOps/Release/Configuration Management expertise.",
+    "id": "01d293e7",
+    "source": "tyomarkkinatori",
+    "posted_date": "2026-09-10",
+    "deadline": "2026-09-24",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
