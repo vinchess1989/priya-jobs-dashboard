@@ -25836,13 +25836,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-%E2%80%93-finland-launch-growth-at-trust-in-soda-4460989866",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a senior product manager, which does not align with Priyanga\u2019s release/CM/DevOps-focused background.",
     "id": "b619d246",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "groq/openai/gpt-oss-20b"
   },
   {
     "title": "Product Manager, AutoMine Machines",
@@ -25850,13 +25851,14 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-manager-automine-machines-at-sandvik-4459259192",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Turku, Finland which does not match her preferred location of being open to roles anywhere in Finland or EU/Europe but not willing to relocate to the United States.",
     "id": "f7a040c3",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "posted_date": "2026-09-03",
+    "deadline": "2026-09-15",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Data Engineering Lead",
