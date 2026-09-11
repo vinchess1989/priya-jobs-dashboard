@@ -37827,7 +37827,7 @@
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -37857,7 +37857,7 @@
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
   },
   {
@@ -37917,7 +37917,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -37927,12 +37927,12 @@
     "url": "https://pt.linkedin.com/jobs/view/agile-azure-devops-manager-at-gamearound-4465815432",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 293 (char 292)",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "41f859af",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -37977,7 +37977,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/qwen/qwen3.6-27b",
     "description_file": null
   },
   {
@@ -38001,14 +38001,14 @@
     "location": "Neuilly-sur-Seine, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/luxe-freelance-solution-delivery-manager-release-manager-at-ecaris-4458099270",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role is a Release Manager/Delivery Manager in France, matching her experience and skill set in release management and CI/CD, with English as the working language and an EU location.",
     "id": "ae34475a",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/ecaris_luxe___freelance_solution_deli_ae34475a.txt"
   },
   {
     "title": "Project Manager (Devops)",
