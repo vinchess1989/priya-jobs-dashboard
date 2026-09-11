@@ -37897,7 +37897,7 @@
     "url": "https://de.linkedin.com/jobs/view/sap-release-manager-m-w-d-at-dr-falk-pharma-4438780829",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: 400 Client Error: Bad Request for url: http://127.0.0.1:1234/v1/chat/completions",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "684d23ed",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
@@ -37912,7 +37912,7 @@
     "url": "https://pt.linkedin.com/jobs/view/delivery-manager-at-bloq-it-4457481307",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: 400 Client Error: Bad Request for url: http://127.0.0.1:1234/v1/chat/completions",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "5f7fb0a9",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
@@ -37932,7 +37932,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -37942,7 +37942,7 @@
     "url": "https://de.linkedin.com/jobs/view/service-manager-change-management-release-management-m-w-d-at-deutsche-wertpapierservice-bank-ag-4443117691",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: 400 Client Error: Bad Request for url: http://127.0.0.1:1234/v1/chat/completions",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "5cfcbf21",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
@@ -37977,7 +37977,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -38037,7 +38037,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   }
 ]
