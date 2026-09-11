@@ -36967,12 +36967,12 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d33e7fd9efaff9bd",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "dfac460b",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "groq/qwen/qwen3.6-27b",
     "description_file": null
   },
   {
