@@ -37116,14 +37116,14 @@
     "location": "Kotka, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/system-specialist-at-valmet-4465862987",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "Matches her background in configuration management, release pipelines, and regulated industries like automotive (Elektrobit) and medical devices (Topcon). Good fit for her experience level. Located in Finland.",
     "id": "7f675786",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null
+    "posted_date": "2026-09-11",
+    "deadline": "2026-09-20",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "description_file": "job_descriptions/valmet_system_specialist_7f675786.txt"
   },
   {
     "title": "Hae nyt",
@@ -37176,13 +37176,14 @@
     "location": "Porto, Porto, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/senior-release-manager-at-dellent-4464822101",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is located in Porto, Portugal which does not match the candidate's requirement to be based in Finland or EU/Europe.",
     "id": "fb22c262",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Product Specialist Accessories",
@@ -37190,13 +37191,14 @@
     "location": "Raisio, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-specialist-accessories-at-hiab-4466022510",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluent Finnish, which Priya does not speak.",
     "id": "3de2c312",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "description_file": null
+    "posted_date": "1 tunti sitten",
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Product Specialist to BYD Finland",
@@ -37204,13 +37206,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-specialist-to-byd-finland-at-byd-europe-4464585271",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a good match for her product specialist experience, but the location is unclear - it doesn't specify Finland as the location. Also, it's not clear if this is an on-site/hybrid or fully remote position.",
     "id": "8d990cb1",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-11",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "local/hermes-3-llama-3.1-8b"
   },
   {
     "title": "Avoin hakemus \u2013 Tule RTK:laiseksi!",
