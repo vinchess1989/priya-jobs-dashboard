@@ -37602,7 +37602,7 @@
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -37611,13 +37611,13 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/systems-and-software-team-lead-at-iceye-4465873490",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match on domain/role type, but the location is Espoo, Finland which would require her to relocate. She is open to relocating within Finland but not specified for an international EU move.",
     "id": "c50ebeb0",
     "source": "linkedin_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
