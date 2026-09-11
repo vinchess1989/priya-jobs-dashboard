@@ -37902,7 +37902,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -37927,12 +37927,12 @@
     "url": "https://pt.linkedin.com/jobs/view/agile-azure-devops-manager-at-gamearound-4465815432",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 25 (char 24)",
     "id": "41f859af",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -38017,12 +38017,12 @@
     "url": "https://es.linkedin.com/jobs/view/project-manager-devops-at-kairos-digital-solutions-4457926158",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "reason": "Failed to get or parse LLM response: Unterminated string starting at: line 1 column 10 (char 9)",
     "id": "5161eba2",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
   },
   {
