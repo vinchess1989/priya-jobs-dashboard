@@ -37596,13 +37596,13 @@
     "location": "Lisbon, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/senior-devops-engineer-openshift-french-speaker-at-dellent-4464822097",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The role requires French language fluency, which Priya does not speak.",
     "id": "ca568cc7",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "posted_date": "h\u00e1 1 dia",
+    "deadline": "Open until filled",
+    "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null
   },
   {
