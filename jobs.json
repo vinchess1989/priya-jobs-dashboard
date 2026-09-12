@@ -37647,7 +37647,7 @@
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -37737,7 +37737,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -37791,14 +37791,14 @@
     "location": "Dublin, County Dublin, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/product-delivery-manager-servicenow-at-jpmorganchase-4442443445",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with her release management and product delivery expertise and is located in the EU.",
     "id": "c74f2d7a",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/jpmorganchase_product_delivery_manager___ser_c74f2d7a.txt"
   },
   {
     "title": "Senior Test und Deployment Manager:in, 3139",
