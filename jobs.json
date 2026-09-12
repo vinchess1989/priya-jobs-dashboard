@@ -37686,13 +37686,13 @@
     "location": "Lisbon, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-habber-tec-portugal-4459199119",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
+    "matches_requirements": "no",
+    "reason": "The posting is entry\u2011level (Premier emploi) and not suitable for a candidate with ~15 years of experience.",
     "id": "f88f8598",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
   },
   {
@@ -37842,7 +37842,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -37857,7 +37857,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   }
 ]
