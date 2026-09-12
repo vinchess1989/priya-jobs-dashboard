@@ -37642,12 +37642,12 @@
     "url": "https://lu.linkedin.com/jobs/view/devops-engineer-at-talan-4394772413",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: Expecting property name enclosed in double quotes: line 5 column 21 (char 219)",
+    "reason": "Failed to get or parse LLM response: Expecting value: line 1 column 1 (char 0)",
     "id": "46bc15da",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -37782,7 +37782,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -37857,7 +37857,7 @@
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   }
 ]
