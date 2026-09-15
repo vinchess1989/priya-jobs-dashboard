@@ -48153,5 +48153,50 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Senior DevOps Engineer",
+    "company": "Payslip",
+    "location": "Dublin, County Dublin, Ireland",
+    "url": "https://ie.linkedin.com/jobs/view/senior-devops-engineer-at-payslip-4420409492",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "0b157b4c",
+    "source": "linkedin_eu_devops_engineer",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Product Expert",
+    "company": "Moventia",
+    "location": "Sant Cugat del Vall\u00e8s, Catalonia, Spain",
+    "url": "https://es.linkedin.com/jobs/view/product-expert-at-moventia-4446797348",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a sales-oriented Product Expert position in a dealership, which does not align with the candidate\u2019s release/CM/DevOps expertise and is a quota-carrying sales role.",
+    "id": "b33a11fe",
+    "source": "linkedin_eu_product_specialist",
+    "posted_date": "2026-08-17",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Kokki (Asialainen Ravintola)",
+    "company": "Kokki (Asialainen Ravintola)",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c20a47e8-4fa7-4812-b567-28d446e15acc/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "17852ded",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
