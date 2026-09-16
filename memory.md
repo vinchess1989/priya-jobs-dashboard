@@ -180,6 +180,19 @@ session needs:
   *style* reference noted earlier — shows how she's already reframed her experience toward a
   release-management-titled role, useful context for `tailor-resume.md`'s profile-writing step.
 
+## Work-permit status must appear in every cover letter (2026-09-16)
+
+Priya holds a valid residence permit to work in Finland (no visa sponsorship needed) and has
+already applied for a permanent residence permit there (in progress, not yet granted). Per her
+explicit instruction, **every** cover letter must state this, not just when a posting asks about
+it. Wired into `tailor-resume.md`'s Step 2 (`cover_letter.paragraphs` point 4 + the "Priya's
+profile" facts list — the old "previously held valid work authorization through prior employment"
+phrasing there was stale/imprecise and has been replaced) and into
+`priya-jobs-private/Resumes/Master/master_data.json`'s reference cover-letter paragraph, so future
+`/tailor-resume` runs pick it up automatically without being told again. Retrofitted into the
+already-generated `68d00df0` (memberio) cover letter as the first real end-to-end test of this
+skill.
+
 ## Cross-machine setup on Priya's own PC completed (2026-09-15)
 
 Done on Priya's actual machine (`C:\Users\priya`), not this session's original dev box. Notes for
@@ -240,4 +253,4 @@ future sessions:
   browser automation with her credentials.
 
 ---
-Last updated: 2026-09-15
+Last updated: 2026-09-16
