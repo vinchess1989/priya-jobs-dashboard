@@ -48723,5 +48723,50 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Kahvilaty\u00f6ntekij\u00f6it\u00e4 helsinkiin",
+    "company": "Eezy Henkil\u00f6st\u00f6palvelut Oy",
+    "location": "Espoo, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3dcb48cd-872c-4705-b120-5aa80c57b3c3/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The position is for cafe workers, not a release/DevOps/Configuration Management role.",
+    "id": "14035c0b",
+    "source": "tyomarkkinatori",
+    "posted_date": "2026-09-16",
+    "deadline": "2026-10-25",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Suuhygienisti, Eurajoki",
+    "company": "Suuhygienisti, Eurajoki",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/de3c0527-4d2f-4ced-8a11-f8bea75ae258/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "ca8004ce",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Projektip\u00e4\u00e4llikk\u00f6 s\u00e4hk\u00f6asemahankkeisiin",
+    "company": "Projektip\u00e4\u00e4llikk\u00f6 s\u00e4hk\u00f6asemahankkeisiin",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c7c199f3-942b-49a6-ba82-494ceab61e31/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "d57c663a",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
