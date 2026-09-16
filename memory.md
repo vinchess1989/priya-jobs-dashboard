@@ -180,14 +180,48 @@ session needs:
   *style* reference noted earlier — shows how she's already reframed her experience toward a
   release-management-titled role, useful context for `tailor-resume.md`'s profile-writing step.
 
+## Cross-machine setup on Priya's own PC completed (2026-09-15)
+
+Done on Priya's actual machine (`C:\Users\priya`), not this session's original dev box. Notes for
+future sessions:
+- Neither `git` nor real `python` was present — Windows' bare `python`/`python3` resolved to the
+  Microsoft Store stub alias, not an interpreter. Installed both via `winget` (`Git.Git`,
+  `Python.Python.3.12`), plus `GitHub.cli` since neither repo's `git clone` worked unauthenticated
+  (the *public* dashboard repo also demanded credentials over plain HTTPS with no stored
+  credential helper — not just the private one). `gh auth login` (interactive browser flow, done
+  by Priya herself) plus `git config --global credential.https://github.com.helper "!gh auth
+  git-credential"` unblocked both clones.
+- **`vinchess1989/priya-jobs-private` did not exist yet at the start of this session** — `gh repo
+  view`/`gh repo list vinchess1989` confirmed no such repo, not a permissions issue. It came into
+  existence (with `Resumes/` and `priya_photo.jpg` already in it) between one retry and the next,
+  presumably created by the account owner outside this session. Confirmed `PRIVATE` visibility via
+  `gh repo view ... --json visibility` after cloning.
+- Cloned as true siblings: `C:\Users\priya\priya_jobs\` and `C:\Users\priya\priya-jobs-private\`
+  (this time using the hyphenated name matching the GitHub slug, unlike the earlier
+  `Priya_jobs_private` local-folder naming on the other machine noted below — both work fine since
+  `find_repos.py` matches on git remote URL, not folder name).
+- **Gotcha that cost real debugging time**: this environment's shell tool spawns a fresh process
+  per command with no PATH refresh after `winget install`, so `git`/`gh`/`python` all resolved to
+  "not recognized" even right after a successful install — and, non-obviously, this also silently
+  broke `find_repos.py` itself on the first attempt (`PUBLIC_REPO=NOT FOUND` /
+  `PRIVATE_REPO=NOT FOUND` even though both repos were correctly cloned right there), because its
+  `subprocess.run(["git", "-C", ...])` calls inherit the same stale-PATH process environment as
+  whatever invoked it — a `NOT FOUND` result from this script doesn't necessarily mean a sibling
+  layout problem, check `git` is actually on PATH in that same shell first. Fixed per-command by
+  rebuilding `$env:Path` from the Machine+User registry values before every git/python invocation.
+- venv + `pip install playwright requests python-dotenv beautifulsoup4 filelock pytest` +
+  `playwright install chromium` all succeeded normally once PATH/git/python were sorted.
+  `find_repos.py` and `job_status_store.py get --url ... --field apply_url` (→ `NONE`) both verified
+  working. Chrome already present at the standard path. `setup_windows_scheduler.bat`
+  deliberately not run yet, per instruction, pending Priya's own end-to-end
+  `/tailor-resume`/`/fill-form` test.
+
 ## Open/unresolved
 
-- **Cross-machine setup on Priya's own PC not yet done** (this session can't touch her physical
-  machine): clone both repos (needs her own GitHub collaborator access on
-  `vinchess1989/priya-jobs-dashboard` and `vinchess1989/priya-jobs-private`), Python venv +
-  `pip install` + `playwright install chromium` (the pip package alone doesn't include the browser
-  binary), Chrome installed, and a first manual sign-in to whatever job sites she'll apply through
-  in the `Priya Automation Profile` browser window (never automated). **No Node.js/npm is needed**
+- Priya still needs to do the first manual sign-in to whatever job sites she'll apply through, in
+  the `Priya Automation Profile` Chrome window that `fill-form` launches on first use — never
+  automated, never done with her credentials by any session. Hasn't happened yet as of this setup.
+- **No Node.js/npm is needed**
   — `fill-form.md`'s Step 4/5 browser automation (and `open_visible_browser/SKILL.md`) are 100%
   Python `playwright.sync_api`, already covered by the venv above. (Earlier draft of this note
   incorrectly said Node.js/`npm install playwright-core` was required, confusing this with the
@@ -206,4 +240,4 @@ session needs:
   browser automation with her credentials.
 
 ---
-Last updated: 2026-09-09
+Last updated: 2026-09-15
