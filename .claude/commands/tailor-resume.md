@@ -169,7 +169,7 @@ Note: Priya's template has no `wage_subsidy_note`, `volunteering`, `achievements
   1. Hook — what drew Priya to this company and role specifically.
   2. Most relevant experience — connect it directly to the job requirements (Elektrobit/Topcon release, CM, or DevOps work, whichever maps best).
   3. Why this company — something specific from the posting or company.
-  4. Working language / location — she's based in Oulu, Finland, and has worked fully in English throughout her career there; mention willingness to relocate within Finland or work remotely across the EU if relevant to this posting.
+  4. Working language / location / work authorization — she's based in Oulu, Finland, and has worked fully in English throughout her career there; mention willingness to relocate within Finland or work remotely across the EU if relevant to this posting. **Always state explicitly, in every cover letter regardless of role or company, that she holds a valid residence permit to work in Finland, so no visa sponsorship is required, and that she has already applied for a permanent residence permit in Finland.** This is a hard requirement, not optional context — do not omit it even if the paragraph otherwise reads fine without it.
   5. Close — availability (next possible working day, since she's not currently employed), contact invitation.
 
 **`cover_letter.sign_off`:** `"Yours sincerely"`.
@@ -184,7 +184,7 @@ Note: Priya's template has no `wage_subsidy_note`, `volunteering`, `achievements
 - English fluent/professional working proficiency. Does **not** speak Finnish or Swedish — both her Finland-based employers (Topcon, Elektrobit) operate fully in English.
 - Based in Oulu, Finland. Open to roles anywhere in Finland (any work model) and remote roles based in the EU/Europe more broadly (see `job_requirements.md` for the exact scope).
 - Not currently employed — her last role (Topcon) ended July 2026. Available: next possible working day.
-- Has the right to work in Finland (previously held valid work authorization there through her prior employment).
+- **Holds a valid residence permit to work in Finland — no visa sponsorship is needed.** She has also already applied for a permanent residence permit in Finland (application in progress, not yet granted). This must appear in every cover letter (see paragraph 4 above), not just when the job posting asks about it.
 - References: Vili Lang (Line Manager, Elektrobit) — vili.lang@elektrobit.com; Morgane Fleuriot Pajunen (Engineering Manager, Topcon Healthcare) — Mob: 0504840007; Riitta Kasoli (QARA Specialist, Topcon Healthcare) — riitta.kasoli@topcon.com.
 - No wage-subsidy (palkkatuki) eligibility is claimed for her — do not add a wage-subsidy paragraph or banner to any resume/cover letter.
 
