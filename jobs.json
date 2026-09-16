@@ -12,7 +12,9 @@
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/memberio_devops_engineer_68d00df0.txt"
+    "description_file": "job_descriptions/memberio_devops_engineer_68d00df0.txt",
+    "applied": "yes",
+    "user_review": "done"
   },
   {
     "title": "DevOps Engineer",
@@ -162,7 +164,9 @@
     "posted_date": "2026-09-03",
     "deadline": "2026-09-16",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/talentadore_devsecops_engineer_4b53885e.txt"
+    "description_file": "job_descriptions/talentadore_devsecops_engineer_4b53885e.txt",
+    "applied": "yes",
+    "user_review": "done"
   },
   {
     "title": "Cloud Engineer - Finland",
@@ -50639,6 +50643,51 @@
     "reason": "Extracted via regex fallback",
     "id": "ad4f3c02",
     "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Machinist, Bluefors OyBluefors OyHelsinkiGo to job site",
+    "company": "Bluefors Oy",
+    "location": "Helsinki, Finland",
+    "url": "https://www.jobly.fi/en/job/machinist-bluefors-oy-2759084",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a machinist position, not a release/CM/DevOps or product specialist role.",
+    "id": "b88bedae",
+    "source": "work_in_finland",
+    "posted_date": "2026-09-16",
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Project Engineer, ABB Marine & PortsABB Oy Marine and PortsHelsinkiGo to job site",
+    "company": "Propulsion Control Systems",
+    "location": "Oulu, Finland",
+    "url": "https://www.jobly.fi/en/job/project-engineer-abb-marine-ports-2759085",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "4225cad7",
+    "source": "work_in_finland",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Developer Experience EngineerVerdaHelsinkiGo to job site",
+    "company": "Face Tracking\nDistance Technologies",
+    "location": "San Francisco, CA, USA",
+    "url": "https://thehub.fi/jobs/6aa9dd24f0b1bfe4cfb0532e",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "41f971a5",
+    "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
