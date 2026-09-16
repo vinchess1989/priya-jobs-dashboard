@@ -48768,5 +48768,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Kokoonpanija",
+    "company": "Adecco Finland Oy",
+    "location": "Lohja, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2106203e-0ed2-4e19-bf01-13996491a929/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a metal parts assembly position, not a software/DevOps or configuration management role.",
+    "id": "94112c31",
+    "source": "tyomarkkinatori",
+    "posted_date": "julkaistu 16.9.2026, 7.37",
+    "deadline": "2026-09-18",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Sosiaalialan ohjaaja, Support House Oy, Riihil\u00e4hde, Lastenkoti Kide ohjaaja, Hyvink\u00e4\u00e4",
+    "company": "Support House Oy",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/fc96708d-f18f-4b75-a16b-9498f4d58f85/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "2fc90a04",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
