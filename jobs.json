@@ -54286,17 +54286,18 @@
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00e4",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Tuotantoty\u00f6ntekij\u00e4",
+    "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e456447a-30f7-4777-9d21-fa209f76941b/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
     "id": "97add5b9",
     "source": "tyomarkkinatori",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "Kunnossapitoasentaja",
