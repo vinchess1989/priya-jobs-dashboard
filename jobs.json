@@ -54328,5 +54328,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Betonielementtien valmistaja, Lahti",
+    "company": "Mestarit Henkil\u00f6st\u00f6palvelut Oy",
+    "location": "Lahti, Suomi",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f727621a-fddd-415c-8152-0608e51112a5/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a concrete manufacturing position, not a release/CM/DevOps or technical product specialist role.",
+    "id": "7d7756d4",
+    "source": "tyomarkkinatori",
+    "posted_date": "17.9.2026, 7.50",
+    "deadline": "2026-10-02",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "L\u00e4hihoitajia lastensuojeluyksikk\u00f6\u00f6n (keikkaty\u00f6)",
+    "company": "L\u00e4hihoitajia lastensuojeluyksikk\u00f6\u00f6n (keikkaty\u00f6)",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c19f218f-551d-4852-a6d4-0f8cd230e67a/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "28708181",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
