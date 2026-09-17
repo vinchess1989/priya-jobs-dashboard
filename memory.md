@@ -161,8 +161,9 @@ session needs:
 - **Fields deliberately omitted from her `master_data.json`** (vs. Manju's template): no
   `date_of_birth` (not provided — forms that ask for it get left blank, flagged for manual fill,
   never invented), no `wage_subsidy_note` (palkkatuki eligibility unknown — don't assume she
-  qualifies), no `volunteering`/`achievements`/`publications_html` (none known). `make_resume.py`
-  handles all of these as optional/blank gracefully.
+  qualifies), no `achievements`/`publications_html` (none known). `make_resume.py` handles all of
+  these as optional/blank gracefully. **`volunteering` is no longer in that omitted list** — see
+  the dated entry below (added 2026-09-17).
 - **References** (from the user, not the resume itself — neither of her source resumes lists any):
   Vili Lang (Line Manager, Elektrobit) — vili.lang@elektrobit.com; Morgane Fleuriot Pajunen
   (Engineering Manager, Topcon Healthcare) — Mob: 0504840007; Riitta Kasoli (QARA Specialist,
@@ -179,6 +180,35 @@ session needs:
 - `Priyanga_CV_ICEYE_TechReleaseManager.pdf` (in `originial resumes\`) remains the tailoring
   *style* reference noted earlier — shows how she's already reframed her experience toward a
   release-management-titled role, useful context for `tailor-resume.md`'s profile-writing step.
+
+## Volunteering entry added to every resume (2026-09-17)
+
+Priya's `master_data.json` now has a real `resume.volunteering` entry (previously omitted as "none
+known" — see the note above): Namaste Oulu, a cultural program she successfully conducted as part
+of Oulu's European Capital of Culture (Oulu2026). Per her instruction, this must appear in **every**
+tailored resume, not selectively. Wired into `tailor-resume.md`'s Step 2 (new
+`resume.volunteering` rule: always copy verbatim from the template, never omit) and into the
+master template itself, so future `/tailor-resume` runs pick it up automatically. Retrofitted into
+all resumes tailored before this date (`68d00df0`, `4b53885e`, `5561f02a`, `a5ad27d8`,
+`69260c28`, `83b81ba0`, and the manually-added Nokia job `00035459` — see below) by editing each
+job's `*_data.json`, regenerating HTML/PDF, and re-verifying the rendered PDF. Since the PDF file
+paths/URLs didn't change, no Firestore/`input.csv` re-sync was needed — the dashboard's existing
+links already serve the updated file content.
+
+## Manually-tailored jobs outside the scraped pipeline (2026-09-17)
+
+Not every `/tailor-resume` target comes from `jobs.json` — Priya can paste a job posting she found
+herself (e.g. copied directly from a company's careers site when the URL itself isn't fetchable,
+like an Oracle Cloud HCM / Taleo-style JS-rendered career page that returns nothing useful to
+WebFetch or web search). For these: generate a synthetic 8-hex-char `job_id` (the company's own
+posting ID, zero-padded, works well and stays traceable — e.g. Nokia posting 35459 became
+`00035459`), write `PRIVATE\Resumes\<job_id>\<job_id>_data.json` and generate the PDFs exactly as
+normal, and commit to `PRIVATE` — but **skip** `sync_resume_links.py` and the `PUBLIC\input.csv`
+commit (Steps 6–7), since a job with no `jobs.json` entry would just log a
+`WARN: job_id '...' not found in jobs.json — skipping` and never actually reach Firestore/the
+dashboard anyway. These stay as local-only PDFs for Priya to use directly, not dashboard-tracked
+jobs. No checkpoint file is created either, since the checkpoint/resume mechanism assumes a
+`jobs.json`-backed job.
 
 ## Work-permit status + started-learning-Finnish must appear in every cover letter (2026-09-16)
 
@@ -258,4 +288,4 @@ future sessions:
   browser automation with her credentials.
 
 ---
-Last updated: 2026-09-16
+Last updated: 2026-09-17

@@ -159,7 +159,9 @@ English-only — Priya does not speak Finnish or Swedish, and her `job_requireme
 
 **`resume.references`:** Always copy the entire array verbatim from the template (same names, titles, contacts). Never omit this array; a missing `references` silently renders an empty "REFERENCES" section heading with no content and no error.
 
-Note: Priya's template has no `wage_subsidy_note`, `volunteering`, `achievements`, `publications_html`, or `labels` fields — do not invent content for these; simply omit them (or copy them if a later edit to `master_data.json` ever adds real content there).
+**`resume.volunteering`:** Always copy the entire array verbatim from the template (currently one entry: Namaste Oulu, a cultural program she successfully conducted as part of Oulu's European Capital of Culture, Oulu2026). Never omit this array — include it in every tailored resume regardless of role or company.
+
+Note: Priya's template has no `wage_subsidy_note`, `achievements`, `publications_html`, or `labels` fields — do not invent content for these; simply omit them (or copy them if a later edit to `master_data.json` ever adds real content there).
 
 **`cover_letter.date`:** Use today's date formatted as `"9 September 2026"`.
 
