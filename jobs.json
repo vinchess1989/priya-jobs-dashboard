@@ -59098,5 +59098,50 @@
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
+  },
+  {
+    "title": "Senior DevOps Engineer",
+    "company": "Commit",
+    "location": "Warsaw, Mazowieckie, Poland",
+    "url": "https://pl.linkedin.com/jobs/view/senior-devops-engineer-at-commit-4468676592",
+    "visited": "yes",
+    "matches_requirements": "yes",
+    "reason": "The role is a senior DevOps Engineer in Poland, matching her experience and skill set, with no hard rejection criteria violated.",
+    "id": "d1de962a",
+    "source": "linkedin_eu_devops_engineer",
+    "posted_date": "2026-09-17",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/commit_senior_devops_engineer_d1de962a.txt"
+  },
+  {
+    "title": "CNC- machinist",
+    "company": "ENGLANNIKSI",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f0f57e89-510b-4eef-ba3e-ff9bceb22816/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "c7ad5e69",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Tuotantoty\u00f6ntekij\u00e4",
+    "company": "Tuotantoty\u00f6ntekij\u00e4",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/740c1294-9108-46a2-8631-c2f82028b8e5/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "a872a015",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
