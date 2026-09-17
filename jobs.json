@@ -54283,5 +54283,49 @@
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
+  },
+  {
+    "title": "Tuotantoty\u00f6ntekij\u00e4",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e456447a-30f7-4777-9d21-fa209f76941b/fi",
+    "visited": "yes",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
+    "id": "97add5b9",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "description_file": null
+  },
+  {
+    "title": "Kunnossapitoasentaja",
+    "company": "Extract from page",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/334c27fc-0b80-4845-84e3-4d6bdbef073c/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "24792568",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Puheterapeutin sijaisuus, Kankaanp\u00e4\u00e4",
+    "company": "Puheterapeutin sijaisuus, Kankaanp\u00e4\u00e4",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/89eb4792-f041-4a11-8e83-4d9f52580e10/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "3111c1b2",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
