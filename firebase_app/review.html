@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review — Priya's Job Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-primary: #0a0d16;
+            --bg-secondary: #111524;
+            --bg-card: rgba(17, 21, 37, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --color-yes: #10b981;
+            --color-no: #ef4444;
+            --color-pending: #f59e0b;
+            --color-maybe: #60a5fa;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.15) transparent; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        header {
+            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;
+            padding: 1rem 2rem; background: var(--bg-secondary); border-bottom: 1px solid var(--border-color);
+            position: sticky; top: 0; z-index: 10;
+        }
+        .logo-area { display: flex; align-items: center; gap: 0.75rem; }
+        .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px; background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700; font-size: 1.1rem;
+        }
+        .logo-title { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; }
+        .back-link {
+            color: var(--text-secondary); text-decoration: none; font-size: 0.875rem; display: flex; align-items: center; gap: 0.4rem;
+        }
+        .back-link:hover { color: var(--text-primary); }
+        #auth-container {
+            display: flex; gap: 1rem; align-items: center; background: rgba(255,255,255,0.03);
+            border: 1px solid var(--border-color); border-radius: 2rem; padding: 0.25rem 0.25rem 0.25rem 1.25rem;
+        }
+        #user-email { font-size: 0.875rem; color: var(--text-secondary); display: none; }
+        #login-btn, #logout-btn {
+            border: none; padding: 0.5rem 1rem; border-radius: 2rem; cursor: pointer;
+            font-family: 'Space Grotesk', sans-serif; font-weight: 600; color: white;
+        }
+        #login-btn { background: #6366f1; }
+        #logout-btn { background: #ef4444; display: none; }
+
+        .tabs { display: flex; gap: 0.5rem; padding: 1.5rem 2rem 0; flex-wrap: wrap; }
+        .tab-btn {
+            background: none; border: 1px solid var(--border-color); color: var(--text-secondary);
+            padding: 0.6rem 1.25rem; border-radius: 0.75rem 0.75rem 0 0; cursor: pointer;
+            font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 0.9rem;
+        }
+        .tab-btn.active { color: var(--text-primary); background: var(--bg-card); border-bottom-color: var(--bg-card); }
+        .tab-btn .count { color: var(--text-secondary); font-weight: 400; margin-left: 0.35rem; }
+
+        main { padding: 0 2rem 3rem; }
+        .panel { display: none; }
+        .panel.active { display: block; }
+
+        .empty-state { text-align: center; padding: 4rem 1rem; color: var(--text-secondary); }
+
+        .table-container {
+            width: 100%;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 1.25rem 1.25rem 0 0;
+            padding: 1.5rem;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            margin-top: 1.5rem;
+        }
+        .table-scroll-area {
+            overflow-x: auto;
+            overflow-y: auto;
+            max-height: calc(100vh - 250px);
+            margin: 0 -1.5rem; margin-bottom: 0;
+            padding: 0 1.5rem;
+        }
+        table {
+            width: 100%;
+            min-width: 1000px;
+            border-collapse: separate;
+            border-spacing: 0;
+            text-align: left;
+            font-size: 0.925rem;
+        }
+        thead {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            background-color: #121727;
+        }
+        th, td {
+            padding: 1rem 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        th {
+            color: #ffffff;
+            font-weight: 700;
+            font-family: 'Space Grotesk', sans-serif;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.2s;
+        }
+        th:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+        tr:hover td {
+            background-color: rgba(255, 255, 255, 0.015);
+        }
+        .resizable-header {
+            resize: horizontal;
+            overflow: auto;
+            min-width: 60px;
+            padding: 1rem 0.75rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        th.resizable-th {
+            padding: 0;
+        }
+
+        .action-type-badge {
+            display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em; text-transform: uppercase;
+            padding: 0.25rem 0.65rem; border-radius: 1rem; color: white; white-space: nowrap;
+        }
+        .action-type-badge.create_login { background: var(--color-pending); }
+        .action-type-badge.upload_video { background: var(--color-maybe); }
+        .action-type-badge.email_application { background: #8b5cf6; }
+
+        tr.done td { opacity: 0.6; }
+
+        .btn {
+            border: none; border-radius: 0.6rem; padding: 0.55rem 1rem; cursor: pointer;
+            font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 0.85rem; color: white;
+            display: inline-flex; align-items: center; gap: 0.4rem; margin-right: 0.5rem;
+        }
+        .btn.apply { background: var(--color-yes); }
+        .btn.delete { background: var(--color-no); }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .section-label {
+            font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.1rem; text-transform: uppercase;
+            letter-spacing: 0.04em; color: var(--text-primary); margin: 1.75rem 0 1rem; padding-left: 0.5rem;
+        }
+        .section-label:first-child { margin-top: 0; }
+
+        a { color: #60a5fa; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .action-check input { width: 18px; height: 18px; cursor: pointer; }
+
+        .chart-container {
+            background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 1.25rem;
+            padding: 1.5rem; margin-top: 1.5rem; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px);
+            overflow-x: auto;
+        }
+        .chart-title {
+            font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1rem; margin-bottom: 1rem;
+        }
+        .bar-chart-svg text { fill: var(--text-secondary); font-size: 0.7rem; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .bar-chart-bar { fill: var(--color-pending); transition: fill 0.15s; }
+        .bar-chart-bar:hover { fill: #fbbf24; }
+        .bar-chart-gridline { stroke: rgba(255, 255, 255, 0.08); stroke-width: 1; }
+        .bar-chart-tooltip {
+            position: fixed; background: #1e243b; border: 1px solid var(--border-color); border-radius: 0.5rem;
+            padding: 0.5rem 0.75rem; font-size: 0.8rem; color: var(--text-primary); pointer-events: none;
+            z-index: 1000; display: none; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); white-space: nowrap;
+        }
+
+        .spinner-container { text-align: center; padding: 4rem 1rem; color: var(--text-secondary); }
+        .spinner {
+            width: 36px; height: 36px; border: 3px solid var(--border-color); border-top-color: #6366f1;
+            border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 1rem;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .filter-row th { position: relative; overflow: visible; padding: 0; }
+        .ms-btn {
+            width: 100%; padding: 0.5rem; background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color); border-radius: 0.375rem;
+            color: var(--text-primary); font-size: 0.8rem; text-align: left;
+            cursor: pointer; display: flex; justify-content: space-between; align-items: center; white-space: nowrap;
+        }
+        .ms-btn:hover { background: rgba(255, 255, 255, 0.08); }
+        .ms-dropdown {
+            position: absolute; top: 100%; left: 0; width: 100%; min-width: 180px; max-height: 250px;
+            overflow-y: auto; background: #1e243b; border: 1px solid var(--border-color);
+            border-radius: 0.375rem; z-index: 100; display: none; padding: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .ms-dropdown.show { display: block; }
+        .ms-option {
+            display: flex; align-items: center; gap: 0.5rem; padding: 0.3rem;
+            cursor: pointer; border-radius: 0.25rem; font-size: 0.85rem; color: #d1d5db;
+        }
+        .ms-option:hover { background: rgba(255, 255, 255, 0.05); color: white; }
+        .ms-option input[type="checkbox"] { cursor: pointer; }
+
+    </style>
+    <!-- Firebase Compat SDKs -->
+    <script src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
+    <script src="/__/firebase/10.7.1/firebase-auth-compat.js"></script>
+    <script src="/__/firebase/10.7.1/firebase-firestore-compat.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="logo-area">
+        <div class="logo-icon">P</div>
+        <div class="logo-title">Review Queue</div>
+        <a class="back-link" href="index.html"><i class="fas fa-arrow-left"></i> Back to Dashboard</a>
+    </div>
+    <div id="auth-container">
+        <span id="user-email"></span>
+        <button id="login-btn">Sign in with Google</button>
+        <button id="logout-btn">Sign Out</button>
+    </div>
+</header>
+
+<div class="tabs">
+    <button class="tab-btn active" id="tab-btn-weak" onclick="switchTab('weak')">Weak Matches <span class="count" id="weak-count"></span></button>
+    <button class="tab-btn" id="tab-btn-actions" onclick="switchTab('actions')">Action Items <span class="count" id="actions-count"></span></button>
+    <button class="tab-btn" id="tab-btn-filled" onclick="switchTab('filled')">Filled Forms <span class="count" id="filled-count"></span></button>
+    <button class="tab-btn" id="tab-btn-autosubmitted" onclick="switchTab('autosubmitted')">Auto-Submitted <span class="count" id="autosubmitted-count"></span></button>
+</div>
+
+<main>
+    <div class="panel active" id="panel-weak">
+        <div id="weak-content" class="spinner-container"><div class="spinner"></div><div>Loading jobs…</div></div>
+    </div>
+    <div class="panel" id="panel-actions">
+        <div id="actions-content" class="spinner-container"><div class="spinner"></div><div>Loading jobs…</div></div>
+    </div>
+    <div class="panel" id="panel-filled">
+        <div id="filled-content" class="spinner-container"><div class="spinner"></div><div>Loading jobs…</div></div>
+    </div>
+    <div class="panel" id="panel-autosubmitted">
+        <div id="autosubmitted-content" class="spinner-container"><div class="spinner"></div><div>Loading jobs…</div></div>
+    </div>
+</main>
+
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyD7HMh89qKQqR6AK_FmcktJtEe1b350paQ",
+        authDomain: "priya-jobs-dashboard.firebaseapp.com",
+        projectId: "priya-jobs-dashboard",
+        storageBucket: "priya-jobs-dashboard.firebasestorage.app",
+        messagingSenderId: "901811987209",
+        appId: "1:901811987209:web:7778d92af8d792beec29d8",
+        measurementId: "G-5DET11NC31"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    const ALLOWED_EMAILS = ['munchnambiar@gmail.com', 'priyabkc99@gmail.com'];
+
+    let currentUser = null;
+    let isAuthorized = false;
+    let sharedJobsState = {};
+    let firestoreUnsubscribe = null;
+    let allJobs = [];
+    let deletedJobsData = [];
+    let dataLoaded = false;
+
+    const ACTION_TYPE_LABELS = {
+        create_login: 'Create Login',
+        upload_video: 'Upload Video',
+        email_application: 'Email Application',
+    };
+
+    function escapeHtml(str) {
+        const div = document.createElement('div');
+        div.textContent = str == null ? '' : String(str);
+        return div.innerHTML;
+    }
+
+    function switchTab(tab) {
+        document.getElementById('tab-btn-weak').classList.toggle('active', tab === 'weak');
+        document.getElementById('tab-btn-actions').classList.toggle('active', tab === 'actions');
+        document.getElementById('tab-btn-filled').classList.toggle('active', tab === 'filled');
+        document.getElementById('tab-btn-autosubmitted').classList.toggle('active', tab === 'autosubmitted');
+        document.getElementById('panel-weak').classList.toggle('active', tab === 'weak');
+        document.getElementById('panel-actions').classList.toggle('active', tab === 'actions');
+        document.getElementById('panel-filled').classList.toggle('active', tab === 'filled');
+        document.getElementById('panel-autosubmitted').classList.toggle('active', tab === 'autosubmitted');
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const loginBtn = document.getElementById('login-btn');
+        const logoutBtn = document.getElementById('logout-btn');
+        const userEmail = document.getElementById('user-email');
+
+        auth.onAuthStateChanged(user => {
+            if (user) {
+                currentUser = user;
+                isAuthorized = ALLOWED_EMAILS.includes(user.email);
+                loginBtn.style.display = 'none';
+                logoutBtn.style.display = 'block';
+                userEmail.style.display = 'block';
+                userEmail.textContent = user.email + (isAuthorized ? '' : ' (Read-Only)');
+
+                fetchJobsData();
+
+                if (firestoreUnsubscribe) firestoreUnsubscribe();
+                firestoreUnsubscribe = db.collection('shared_state').doc('job_status').onSnapshot(doc => {
+                    sharedJobsState = doc.exists ? doc.data() : {};
+                    if (dataLoaded) renderAll();
+                });
+            } else {
+                currentUser = null;
+                isAuthorized = false;
+                loginBtn.style.display = 'block';
+                logoutBtn.style.display = 'none';
+                userEmail.style.display = 'none';
+                userEmail.textContent = '';
+                sharedJobsState = {};
+                if (firestoreUnsubscribe) { firestoreUnsubscribe(); firestoreUnsubscribe = null; }
+                document.getElementById('weak-content').innerHTML = '<div class="empty-state">Please sign in with Google to view the review queue.</div>';
+                document.getElementById('actions-content').innerHTML = '<div class="empty-state">Please sign in with Google to view the review queue.</div>';
+                document.getElementById('filled-content').innerHTML = '<div class="empty-state">Please sign in with Google to view the review queue.</div>';
+                document.getElementById('autosubmitted-content').innerHTML = '<div class="empty-state">Please sign in with Google to view the review queue.</div>';
+            }
+        });
+
+        loginBtn.addEventListener('click', () => {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            auth.signInWithPopup(provider).catch(err => {
+                console.error(err);
+                alert('Login Error: ' + err.message);
+            });
+        });
+
+        logoutBtn.addEventListener('click', () => auth.signOut().catch(console.error));
+    });
+
+    function fetchJobsData() {
+        Promise.all([
+            fetch('https://vinchess1989.github.io/priya-jobs-dashboard/jobs.json?nocache=' + Date.now()),
+            fetch('https://vinchess1989.github.io/priya-jobs-dashboard/deleted.json?nocache=' + Date.now()).catch(() => null)
+        ]).then(responses => Promise.all([
+            responses[0].json(),
+            responses[1] && responses[1].ok ? responses[1].json() : Promise.resolve([])
+        ])).then(([jobs, deleted]) => {
+            allJobs = jobs;
+            deletedJobsData = deleted || [];
+            dataLoaded = true;
+            renderAll();
+        }).catch(err => {
+            console.error('Failed to load jobs data', err);
+            document.getElementById('weak-content').innerHTML = '<div class="empty-state">Could not load jobs.json.</div>';
+            document.getElementById('actions-content').innerHTML = '<div class="empty-state">Could not load jobs.json.</div>';
+            document.getElementById('filled-content').innerHTML = '<div class="empty-state">Could not load jobs.json.</div>';
+            document.getElementById('autosubmitted-content').innerHTML = '<div class="empty-state">Could not load jobs.json.</div>';
+        });
+    }
+
+    function renderAll() {
+        renderWeakMatches();
+        renderActionItems();
+        renderFilledForms();
+        renderAutoSubmitted();
+    }
+
+    // ── Weak Matches tab ──────────────────────────────────────────────
+
+
+        // Global storage for filters
+        if (!window._tableFilters) window._tableFilters = new Map();
+
+        function clearAllFilters() {
+            document.querySelectorAll('.ms-dropdown input[type="checkbox"]').forEach(cb => {
+                cb.checked = false;
+            });
+            document.querySelectorAll('.ms-dropdown input[type="number"]').forEach(input => {
+                input.value = '';
+            });
+            document.querySelectorAll('.ms-dropdown input[type="text"]').forEach(input => {
+                input.value = '';
+                input.dispatchEvent(new Event('input'));
+            });
+            document.querySelectorAll('.panel.active table').forEach(table => applyTableFilters(table));
+        }
+
+        function setupTableFilters(table) {
+            const thead = table.querySelector('thead');
+            const tbody = table.querySelector('tbody');
+            if (!thead || !tbody) return;
+            const headers = thead.querySelectorAll('tr:first-child th');
+
+            // Add Clear All Filters button if not exists
+            if (!document.getElementById('clear-filters-btn')) {
+                const tabsDiv = document.querySelector('.tabs');
+                if (tabsDiv) {
+                    const clearBtn = document.createElement('button');
+                    clearBtn.id = 'clear-filters-btn';
+                    clearBtn.className = 'btn';
+                    clearBtn.style = 'margin-left: auto; background: var(--bg-card); color: var(--text-secondary); border: 1px solid var(--border-color);';
+                    clearBtn.innerHTML = '<i class="fas fa-times"></i> Clear All Filters';
+                    clearBtn.onclick = clearAllFilters;
+                    tabsDiv.appendChild(clearBtn);
+                }
+            }
+
+            const filterRow = document.createElement('tr');
+            filterRow.className = 'filter-row';
+
+            headers.forEach((th, colIndex) => {
+                const fth = document.createElement('th');
+                const headerText = th.textContent.trim();
+
+                if (headerText === 'Actions' || headerText === 'Status') {
+                    filterRow.appendChild(fth);
+                    return;
+                }
+
+                const uniqueVals = new Set();
+                tbody.querySelectorAll('tr').forEach(tr => {
+                    const td = tr.children[colIndex];
+                    if (td) uniqueVals.add(td.textContent.trim());
+                });
+                const sortedVals = Array.from(uniqueVals).sort((a,b)=>a.localeCompare(b));
+
+                let extraFilterHtml = '';
+                if (headerText === 'Deadline' || headerText === 'Created' || headerText === 'Completed' || headerText === 'Posted Date') {
+                    extraFilterHtml = `
+                        <div style="margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px;">
+                            <label style="font-size: 0.8rem; color: var(--text-secondary); display: block; margin-bottom: 4px;">Max days from today:</label>
+                            <input type="number" class="days-filter" placeholder="e.g. 2" style="width: 100%; padding: 4px 8px; border-radius: 4px; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); color: white; font-size: 0.8rem; box-sizing: border-box;" onchange="applyTableFilters(document.querySelector('.panel.active table'))">
+                        </div>
+                    `;
+                }
+
+                let optionsHtml = `
+                    <div style="position: sticky; top: -8px; background: #1e243b; z-index: 10; padding: 8px 8px 4px 8px; margin: -8px -8px 4px -8px; border-bottom: 1px solid rgba(255,255,255,0.1);">
+                        ${extraFilterHtml}
+                        <div style="display: flex; gap: 8px; margin-bottom: 4px;">
+                            <button type="button" onclick="const p=this.closest('.ms-dropdown'); p.querySelectorAll('input[type=checkbox]').forEach(cb=>{cb.checked=true;}); applyTableFilters(document.querySelector('.panel.active table'));" style="background:none; border:none; color:#a78bfa; font-size:0.75rem; cursor:pointer; padding:0;">Select All</button>
+                            <button type="button" onclick="const p=this.closest('.ms-dropdown'); p.querySelectorAll('input[type=checkbox]').forEach(cb=>{cb.checked=false;}); applyTableFilters(document.querySelector('.panel.active table'));" style="background:none; border:none; color:var(--text-secondary); font-size:0.75rem; cursor:pointer; padding:0;">Clear</button>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Search..." oninput="const val=this.value.toLowerCase(); this.closest('.ms-dropdown').querySelectorAll('.ms-option').forEach(opt => { opt.style.display = opt.textContent.toLowerCase().includes(val) ? '' : 'none'; })" onclick="event.stopPropagation()" style="width: 100%; padding: 4px 8px; border-radius: 4px; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); color: white; font-size: 0.8rem; outline: none; box-sizing: border-box;">
+                        </div>
+                    </div>
+                `;
+                sortedVals.forEach(val => {
+                    optionsHtml += `<label class="ms-option"><input type="checkbox" value="${val.replace(/"/g, '&quot;')}"> ${val}</label>`;
+                });
+
+                // Create the dropdown and append to body
+                const dropdownId = 'filter-col-' + Math.random().toString(36).substr(2, 9);
+                const dropdown = document.createElement('div');
+                dropdown.className = 'ms-dropdown';
+                dropdown.id = dropdownId;
+                dropdown.innerHTML = optionsHtml;
+                document.body.appendChild(dropdown);
+
+                window._tableFilters.set(colIndex, dropdown);
+
+                fth.innerHTML = `
+                    <div class="ms-container" style="position:relative;">
+                        <button class="ms-btn" onclick="
+                            event.stopPropagation();
+                            const d = document.getElementById('${dropdownId}');
+                            const rect = this.getBoundingClientRect();
+                            const show = d.classList.contains('show');
+                            document.querySelectorAll('.ms-dropdown').forEach(x => x.classList.remove('show'));
+                            if (!show) {
+                                d.style.top = (rect.bottom + window.scrollY) + 'px';
+                                d.style.left = rect.left + 'px';
+                                d.classList.add('show');
+                            }
+                        ">Filter... <span style="font-size:0.7em;">▼</span></button>
+                    </div>
+                `;
+                dropdown.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                    cb.addEventListener('change', () => applyTableFilters(table));
+                });
+                filterRow.appendChild(fth);
+            });
+            thead.appendChild(filterRow);
+        }
+
+        function parseDateApprox(str) {
+            if (!str) return null;
+            // finnish DD.MM.YYYY
+            let m = str.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
+            if (m) return new Date(m[3], m[2]-1, m[1]);
+            // finnish without year DD.MM.
+            m = str.match(/^(\d{1,2})\.(\d{1,2})\.?$/);
+            if (m) {
+                const now = new Date();
+                let year = now.getFullYear();
+                if (m[2] < now.getMonth() + 1) year++;
+                return new Date(year, m[2]-1, m[1]);
+            }
+            // standard YYYY-MM-DD
+            m = str.match(/(\d{4})-(\d{2})-(\d{2})/);
+            if (m) return new Date(m[1], m[2]-1, m[3]);
+            // try normal parse
+            const d = new Date(str);
+            return isNaN(d.getTime()) ? null : d;
+        }
+
+        function applyTableFilters(table) {
+            const tbody = table.querySelector('tbody');
+            const thead = table.querySelector('thead');
+            if (!thead || !tbody) return;
+
+            const filterRow = thead.querySelector('.filter-row');
+            if (!filterRow) return;
+            const cols = filterRow.children;
+            const today = new Date();
+            today.setHours(0,0,0,0);
+
+            tbody.querySelectorAll('tr').forEach(tr => {
+                let showRow = true;
+                for (let colIndex = 0; colIndex < cols.length; colIndex++) {
+                    const dropdown = window._tableFilters.get(colIndex);
+                    if (!dropdown) continue;
+
+                    const cellVal = tr.children[colIndex] ? tr.children[colIndex].textContent.trim() : '';
+
+                    // Days filter
+                    const daysInput = dropdown.querySelector('.days-filter');
+                    if (daysInput && daysInput.value) {
+                        const maxDays = parseInt(daysInput.value, 10);
+                        if (!isNaN(maxDays)) {
+                            const d = parseDateApprox(cellVal);
+                            if (d) {
+                                const diffDays = Math.ceil((d.getTime() - today.getTime()) / (1000 * 3600 * 24));
+                                if (diffDays > maxDays) {
+                                    showRow = false;
+                                    break;
+                                }
+                            } else {
+                                // Not a valid date - hide them if days specified
+                                const lower = cellVal.toLowerCase();
+                                if (lower.includes('open') || lower.includes('n/a')) {
+                                    showRow = false;
+                                    break;
+                                } else {
+                                    showRow = false;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+
+                    const checkedBoxes = Array.from(dropdown.querySelectorAll('input[type="checkbox"]:checked'));
+                    if (checkedBoxes.length > 0) {
+                        const allowedVals = checkedBoxes.map(cb => cb.value);
+                        if (!allowedVals.includes(cellVal)) {
+                            showRow = false;
+                            break;
+                        }
+                    }
+                }
+                tr.style.display = showRow ? '' : 'none';
+            });
+        }
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.ms-dropdown') && !e.target.closest('.ms-btn')) {
+                document.querySelectorAll('.ms-dropdown').forEach(d => d.classList.remove('show'));
+            }
+        });
+
+
+
+    function renderWeakMatches() {
+        const container = document.getElementById('weak-content');
+        const weak = allJobs.filter(job => {
+            const state = sharedJobsState[job.url] || {};
+            if (state.deletion_reason) return false;
+            if (state.applied === 'yes' || job.applied === 'yes') return false;
+            const matchVal = state.matches_requirements || job.matches_requirements || 'pending';
+            return matchVal === 'maybe';
+        });
+
+        document.getElementById('weak-count').textContent = weak.length ? `(${weak.length})` : '';
+
+        if (weak.length === 0) {
+            container.innerHTML = '<div class="empty-state">No weak matches waiting for review.</div>';
+            return;
+        }
+
+        container.innerHTML = `
+            <div class="table-container">
+                <div class="table-scroll-area">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 80px">ID</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Company</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 250px">Job Title</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Location</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 120px">Deadline</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 300px">Reason</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 220px">Actions</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${weak.map(job => {
+                                const reason = escapeHtml(job.reason || '');
+                                return `
+                                    <tr data-url="${escapeHtml(job.url)}">
+                                        <td style="font-family: monospace;">${escapeHtml(job.id || '')}</td>
+                                        <td>${escapeHtml(job.company)}</td>
+                                        <td><a href="${escapeHtml(job.url)}" target="_blank" rel="noopener">${escapeHtml(job.title)}</a></td>
+                                        <td>${escapeHtml(job.location)}</td>
+                                        <td>${escapeHtml(job.deadline || 'N/A')}</td>
+                                        <td><div style="max-height: 80px; overflow-y: auto;">${reason}</div></td>
+                                        <td>
+                                            <button class="btn apply" ${isAuthorized ? '' : 'disabled'} onclick="applyWeakMatch('${escapeHtml(job.url)}', this)"><i class="fas fa-check"></i> Apply</button>
+                                            <button class="btn delete" ${isAuthorized ? '' : 'disabled'} onclick="deleteWeakMatch('${escapeHtml(job.url)}', this)"><i class="fas fa-trash"></i> Delete</button>
+                                        </td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+        setupTableFilters(container.querySelector('table'));
+    }
+
+    async function applyWeakMatch(url, btn) {
+        const reason = prompt("Why should this job be promoted to a 'yes' match? (optional)");
+        if (reason === null) return;
+        const finalReason = reason.trim() || 'Promoted from weak match via review dashboard';
+        btn.disabled = true;
+        try {
+            // priority_fill_form_at pushes this to the front of /fill-form auto's queue so it
+            // gets processed on the very next hourly cycle, before the listing can expire out
+            // from under an unprocessed promotion (same mechanism used for resolved login-wall
+            // action items above).
+            await db.collection('shared_state').doc('job_status').update(
+                new firebase.firestore.FieldPath(url, 'matches_requirements'), 'yes',
+                new firebase.firestore.FieldPath(url, 'user_reason'), finalReason,
+                new firebase.firestore.FieldPath(url, 'priority_fill_form_at'), new Date().toISOString(),
+                new firebase.firestore.FieldPath(url, 'user_review'), 'done'
+            );
+        } catch (e) {
+            console.error(e);
+            alert('Failed to save to cloud database.');
+            btn.disabled = false;
+        }
+    }
+
+    async function deleteWeakMatch(url, btn) {
+        const state = sharedJobsState[url] || {};
+        const job = allJobs.find(j => j.url === url) || {};
+        const alreadyApplied = state.applied === 'yes' || job.applied === 'yes';
+        if (alreadyApplied && !confirm('This job is marked as already applied. Delete anyway?')) return;
+
+        const reason = prompt('Reason for deleting this job?', 'No longer accepting applications');
+        if (reason === null) return;
+        btn.disabled = true;
+        try {
+            await db.collection('shared_state').doc('job_status').update(
+                new firebase.firestore.FieldPath(url, 'deletion_reason'), reason.trim() || 'No longer accepting applications'
+            );
+        } catch (e) {
+            console.error(e);
+            alert('Failed to save to cloud database.');
+            btn.disabled = false;
+        }
+    }
+
+    // ── Action Items tab ──────────────────────────────────────────────
+    function renderActionItems() {
+        const container = document.getElementById('actions-content');
+        const items = [];
+        for (const [url, state] of Object.entries(sharedJobsState)) {
+            if (state && state.action_item) {
+                const job = allJobs.find(j => j.url === url) || deletedJobsData.find(j => j.url === url) || {};
+                items.push({ url, job, actionItem: state.action_item });
+            }
+        }
+
+        const outstanding = items.filter(i => i.actionItem.status !== 'done')
+            .sort((a, b) => new Date(b.actionItem.created_at || 0) - new Date(a.actionItem.created_at || 0));
+        const completed = items.filter(i => i.actionItem.status === 'done')
+            .sort((a, b) => new Date(b.actionItem.done_at || 0) - new Date(a.actionItem.done_at || 0));
+
+        document.getElementById('actions-count').textContent = outstanding.length ? `(${outstanding.length})` : '';
+
+        if (items.length === 0) {
+            container.innerHTML = '<div class="empty-state">No action items right now.</div>';
+            return;
+        }
+
+        const renderTable = (itemsList, done) => {
+            if (!itemsList.length) return '<div class="empty-state" style="padding:1.5rem;">Nothing here yet.</div>';
+            return `
+                <div class="table-container" style="margin-bottom: 2rem;">
+                    <div class="table-scroll-area">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 140px">Type</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 80px">ID</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Company</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 250px">Job Title</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 300px">Detail</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 120px">Posted Date</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 120px">Deadline</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 150px">${done ? 'Completed' : 'Created'}</div></th>
+                                    <th class="resizable-th"><div class="resizable-header" style="width: 100px">Status</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${itemsList.map(item => {
+                                    const title = item.job.title || '(job no longer in jobs.json)';
+                                    const company = item.job.company || '';
+                                    const type = item.actionItem.type || 'unknown';
+                                    const typeLabel = ACTION_TYPE_LABELS[type] || type;
+                                    const detail = escapeHtml(item.actionItem.detail || '');
+                                    const dateStr = done
+                                        ? (item.actionItem.done_at ? new Date(item.actionItem.done_at).toLocaleString() : '')
+                                        : (item.actionItem.created_at ? new Date(item.actionItem.created_at).toLocaleString() : '');
+                                    const titleHtml = item.job.url
+                                        ? `<a href="${escapeHtml(item.job.url)}" target="_blank" rel="noopener">${escapeHtml(title)}</a>`
+                                        : escapeHtml(title);
+                                    return `
+                                        <tr class="${done ? 'done' : ''}" data-url="${escapeHtml(item.url)}">
+                                            <td><span class="action-type-badge ${escapeHtml(type)}">${escapeHtml(typeLabel)}</span></td>
+                                            <td style="font-family: monospace;">${escapeHtml(item.job.id || '')}</td>
+                                            <td>${escapeHtml(company)}</td>
+                                            <td>${titleHtml}</td>
+                                            <td><div style="max-height: 80px; overflow-y: auto;">${detail}</div></td>
+                                            <td>${escapeHtml(item.job.posted_date || 'N/A')}</td>
+                                            <td>${escapeHtml(item.job.deadline || 'N/A')}</td>
+                                            <td>${escapeHtml(dateStr)}</td>
+                                            <td>
+                                                <label class="action-check" style="cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+                                                    <input type="checkbox" style="width:18px; height:18px; cursor:pointer;" ${done ? 'checked disabled' : ''} ${isAuthorized ? '' : 'disabled'}
+                                                           onchange="toggleActionItemDone('${escapeHtml(item.url)}', this, '${escapeHtml(type)}')">
+                                                    Done
+                                                </label>
+                                            </td>
+                                        </tr>
+                                    `;
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        };
+
+        let html = '';
+        html += '<div class="section-label">Outstanding</div>';
+        html += renderTable(outstanding, false);
+        html += '<div class="section-label">Completed</div>';
+        html += renderTable(completed, true);
+
+        container.innerHTML = html;
+        container.querySelectorAll('table').forEach(table => setupTableFilters(table));
+    }
+
+    async function toggleActionItemDone(url, checkbox, actionType) {
+        if (!checkbox.checked) return;
+        checkbox.disabled = true;
+        try {
+            const updates = [
+                new firebase.firestore.FieldPath(url, 'action_item', 'status'), 'done',
+                new firebase.firestore.FieldPath(url, 'action_item', 'done_at'), new Date().toISOString()
+            ];
+            if (actionType === 'email_application' || actionType === 'upload_video') {
+                // Emailed applications and video-upload submissions are considered submitted
+                // the moment this is checked.
+                const appliedDate = new Date().toISOString().split('T')[0];
+                updates.push(new firebase.firestore.FieldPath(url, 'applied'), 'yes');
+                updates.push(new firebase.firestore.FieldPath(url, 'applied_date'), appliedDate);
+            } else if (actionType === 'create_login') {
+                // Clear auto_fill_attempted_at so /fill-form auto's candidate filter picks this
+                // job back up now that the login blocker is resolved, and flag it so the next
+                // run's sort puts it ahead of the normal deadline-ascending queue.
+                updates.push(new firebase.firestore.FieldPath(url, 'auto_fill_attempted_at'), firebase.firestore.FieldValue.delete());
+                updates.push(new firebase.firestore.FieldPath(url, 'priority_fill_form_at'), new Date().toISOString());
+            }
+            await db.collection('shared_state').doc('job_status').update(...updates);
+        } catch (e) {
+            console.error(e);
+            alert('Failed to save to cloud database.');
+            checkbox.checked = false;
+            checkbox.disabled = false;
+        }
+    }
+
+    // ── Filled Forms tab ──────────────────────────────────────────────
+    function renderFilledForms() {
+        const container = document.getElementById('filled-content');
+        const filled = [];
+        for (const [url, state] of Object.entries(sharedJobsState)) {
+            if (!state || !state.form_filled || state.form_filled.status !== 'pending_review') continue;
+            if (state.deletion_reason) continue;
+            const appliedVal = state.applied || 'no';
+            if (appliedVal === 'yes') continue;
+            const job = allJobs.find(j => j.url === url) || {};
+            filled.push({ url, job, formFilled: state.form_filled });
+        }
+        filled.sort((a, b) => new Date(b.formFilled.filled_at || 0) - new Date(a.formFilled.filled_at || 0));
+
+        document.getElementById('filled-count').textContent = filled.length ? `(${filled.length})` : '';
+
+        if (filled.length === 0) {
+            container.innerHTML = '<div class="empty-state">No filled forms waiting for review.</div>';
+            return;
+        }
+
+        container.innerHTML = `
+            <div class="table-container">
+                <div class="table-scroll-area">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 80px">ID</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Company</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 250px">Job Title</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Location</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 120px">Deadline</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Filled At</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 220px">Actions</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${filled.map(item => {
+                                const title = item.job.title || '(job no longer in jobs.json)';
+                                const titleHtml = item.job.url
+                                    ? `<a href="${escapeHtml(item.job.url)}" target="_blank" rel="noopener">${escapeHtml(title)}</a>`
+                                    : escapeHtml(title);
+                                const filledAtStr = item.formFilled.filled_at ? new Date(item.formFilled.filled_at).toLocaleString() : '';
+                                return `
+                                    <tr data-url="${escapeHtml(item.url)}">
+                                        <td style="font-family: monospace;">${escapeHtml(item.job.id || '')}</td>
+                                        <td>${escapeHtml(item.job.company || '')}</td>
+                                        <td>${titleHtml}</td>
+                                        <td>${escapeHtml(item.job.location || '')}</td>
+                                        <td>${escapeHtml(item.job.deadline || 'N/A')}</td>
+                                        <td>${escapeHtml(filledAtStr)}</td>
+                                        <td>
+                                            <label class="action-check" style="cursor: pointer; display: inline-flex; align-items: center; gap: 0.5rem; margin-right: 1rem;">
+                                                <input type="checkbox" style="width:18px; height:18px; cursor:pointer;" ${isAuthorized ? '' : 'disabled'}
+                                                       onchange="toggleFormFilledDone('${escapeHtml(item.url)}', this)">
+                                                Done
+                                            </label>
+                                            <button class="btn delete" ${isAuthorized ? '' : 'disabled'} onclick="deleteFilledForm('${escapeHtml(item.url)}', this)"><i class="fas fa-trash"></i> Delete</button>
+                                        </td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+        setupTableFilters(container.querySelector('table'));
+    }
+
+    async function toggleFormFilledDone(url, checkbox) {
+        if (!checkbox.checked) return;
+        checkbox.disabled = true;
+        try {
+            const appliedDate = new Date().toISOString().split('T')[0];
+            await db.collection('shared_state').doc('job_status').update(
+                new firebase.firestore.FieldPath(url, 'applied'), 'yes',
+                new firebase.firestore.FieldPath(url, 'applied_date'), appliedDate,
+                new firebase.firestore.FieldPath(url, 'form_filled', 'status'), 'done',
+                new firebase.firestore.FieldPath(url, 'form_filled', 'done_at'), new Date().toISOString()
+            );
+        } catch (e) {
+            console.error(e);
+            alert('Failed to save to cloud database.');
+            checkbox.checked = false;
+            checkbox.disabled = false;
+        }
+    }
+
+    async function deleteFilledForm(url, btn) {
+        const reason = prompt('Reason for deleting this job?', 'No longer accepting applications');
+        if (reason === null) return;
+        btn.disabled = true;
+        try {
+            await db.collection('shared_state').doc('job_status').update(
+                new firebase.firestore.FieldPath(url, 'deletion_reason'), reason.trim() || 'No longer accepting applications'
+            );
+        } catch (e) {
+            console.error(e);
+            alert('Failed to save to cloud database.');
+            btn.disabled = false;
+        }
+    }
+
+    // ── Auto-Submitted Forms in Review tab ──────────────────────────────
+    // Forms that a third-party ATS submitted on its own (e.g. reactively on a file
+    // upload) before /fill-form's "never click submit" step ever got a chance to
+    // hand the form to Priya for review — see fill-form.md Step 5.5 and manju_jobs's
+    // memory.md Teamtailor auto-submit incident. Tracked via form_filled.auto_submitted.
+    function renderAutoSubmitted() {
+        const container = document.getElementById('autosubmitted-content');
+        const items = [];
+        for (const [url, state] of Object.entries(sharedJobsState)) {
+            if (!state || !state.form_filled || !state.form_filled.auto_submitted) continue;
+            const job = allJobs.find(j => j.url === url) || deletedJobsData.find(j => j.url === url) || {};
+            items.push({ url, job, formFilled: state.form_filled });
+        }
+        items.sort((a, b) => {
+            const tsA = a.formFilled.auto_submitted_at || a.formFilled.filled_at || 0;
+            const tsB = b.formFilled.auto_submitted_at || b.formFilled.filled_at || 0;
+            return new Date(tsB) - new Date(tsA); // latest first
+        });
+
+        document.getElementById('autosubmitted-count').textContent = items.length ? `(${items.length})` : '';
+
+        if (items.length === 0) {
+            container.innerHTML = '<div class="empty-state">No auto-submitted forms — every filled form so far went through manual confirmation.</div>';
+            return;
+        }
+
+        const dailyCounts = new Map();
+        items.forEach(item => {
+            const ts = item.formFilled.auto_submitted_at || item.formFilled.filled_at;
+            if (!ts) return;
+            const day = ts.split('T')[0];
+            dailyCounts.set(day, (dailyCounts.get(day) || 0) + 1);
+        });
+        const chartData = Array.from(dailyCounts.keys()).sort().map(day => ({ date: day, count: dailyCounts.get(day) }));
+
+        container.innerHTML = `
+            <div class="chart-container">
+                <div class="chart-title">Auto-Submitted Forms Per Day</div>
+                <div id="autosubmitted-chart"></div>
+            </div>
+            <div class="table-container">
+                <div class="table-scroll-area">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 80px">ID</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Company</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 250px">Job Title</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 150px">Location</div></th>
+                                <th class="resizable-th"><div class="resizable-header" style="width: 180px">Submitted At</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${items.map(item => {
+                                const title = item.job.title || '(job no longer in jobs.json)';
+                                const titleHtml = item.job.url
+                                    ? `<a href="${escapeHtml(item.job.url)}" target="_blank" rel="noopener">${escapeHtml(title)}</a>`
+                                    : escapeHtml(title);
+                                const ts = item.formFilled.auto_submitted_at || item.formFilled.filled_at;
+                                const submittedStr = ts ? new Date(ts).toLocaleString() : '';
+                                return `
+                                    <tr data-url="${escapeHtml(item.url)}">
+                                        <td style="font-family: monospace;">${escapeHtml(item.job.id || '')}</td>
+                                        <td>${escapeHtml(item.job.company || '')}</td>
+                                        <td>${titleHtml}</td>
+                                        <td>${escapeHtml(item.job.location || '')}</td>
+                                        <td>${escapeHtml(submittedStr)}</td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        `;
+        renderDailyBarChart(document.getElementById('autosubmitted-chart'), chartData);
+        setupTableFilters(container.querySelector('table'));
+    }
+
+    function renderDailyBarChart(el, data) {
+        if (!el || data.length === 0) return;
+        const width = Math.max(el.clientWidth || 600, data.length * 36 + 60);
+        const height = 220;
+        const padding = { top: 10, right: 20, bottom: 40, left: 36 };
+        const plotW = width - padding.left - padding.right;
+        const plotH = height - padding.top - padding.bottom;
+        const maxCount = Math.max(...data.map(d => d.count), 1);
+        const barGap = 8;
+        const slot = plotW / data.length;
+        const barWidth = Math.max(slot - barGap, 4);
+
+        const yTicks = 4;
+        let gridlines = '';
+        let yLabels = '';
+        for (let i = 0; i <= yTicks; i++) {
+            const val = Math.round((maxCount / yTicks) * i);
+            const y = padding.top + plotH - (val / maxCount) * plotH;
+            gridlines += `<line class="bar-chart-gridline" x1="${padding.left}" y1="${y}" x2="${width - padding.right}" y2="${y}" />`;
+            yLabels += `<text x="${padding.left - 8}" y="${y + 4}" text-anchor="end">${val}</text>`;
+        }
+
+        let bars = '';
+        let xLabels = '';
+        data.forEach((d, i) => {
+            const x = padding.left + i * slot + (slot - barWidth) / 2;
+            const barH = Math.max((d.count / maxCount) * plotH, 2);
+            const y = padding.top + plotH - barH;
+            const labelDate = new Date(d.date + 'T00:00:00');
+            const shortLabel = labelDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+            const fullLabel = labelDate.toLocaleDateString();
+            bars += `<rect class="bar-chart-bar" x="${x}" y="${y}" width="${barWidth}" height="${barH}" rx="3"
+                        onmousemove="showBarTooltip(event, '${escapeHtml(fullLabel)}', ${d.count})"
+                        onmouseleave="hideBarTooltip()" />`;
+            xLabels += `<text x="${x + barWidth / 2}" y="${height - padding.bottom + 16}" text-anchor="middle">${escapeHtml(shortLabel)}</text>`;
+        });
+
+        el.innerHTML = `
+            <svg class="bar-chart-svg" width="100%" height="${height}" viewBox="0 0 ${width} ${height}" preserveAspectRatio="xMinYMin meet" style="overflow: visible; min-width: ${width}px; display: block;">
+                ${gridlines}
+                ${yLabels}
+                ${bars}
+                ${xLabels}
+            </svg>
+            <div id="bar-chart-tooltip" class="bar-chart-tooltip"></div>
+        `;
+    }
+
+    function showBarTooltip(evt, dateLabel, count) {
+        const tip = document.getElementById('bar-chart-tooltip');
+        if (!tip) return;
+        tip.textContent = `${dateLabel}: ${count} auto-submitted`;
+        tip.style.left = (evt.clientX + 14) + 'px';
+        tip.style.top = (evt.clientY - 10) + 'px';
+        tip.style.display = 'block';
+    }
+</script>
+</body>
+</html>
