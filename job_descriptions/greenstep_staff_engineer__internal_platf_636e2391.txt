@@ -1,0 +1,250 @@
+Title: Staff Engineer, Internal Platform and APIs - Greenstep Espoo
+Company: Greenstep
+Location: Espoo, Uusimaa, Finland
+URL: https://fi.linkedin.com/jobs/view/staff-engineer-internal-platform-and-apis-greenstep-espoo-at-greenstep-4466699840
+Posted: 2026-09-18
+Deadline: 2026-10-11
+Reason: The role is a senior DevOps/platform engineering position in Finland with English as the primary language, matching Priyanga's experience and location preferences.
+
+========================================
+JOB DESCRIPTION:
+========================================
+
+LinkedIn kunnioittaa yksityisyyttäsi
+
+LinkedIn ja kolmannet osapuolet käyttävät välttämättömiä ja ei-välttämättömiä evästeitä palvelujemme tarjoamiseen, suojaamiseen, analysointiin ja parantamiseen sekä osuvien mainosten näyttämiseen sinulle (mukaan lukien ammattilais- ja työpaikkailmoitukset) LinkedInissä ja niiden ulkopuolella. Lisätietoja on evästekäytännössämme.
+
+Hyväksy ei-välttämättömien evästeiden käyttö valitsemalla Hyväksy tai estä niiden käyttö valitsemalla Hylkää. Voit päivittää valintasi milloin tahansa asetuksista.
+
+Hyväksy Hylkää
+Hyppää pääsisältöön
+LinkedIn
+Työt
+Poista teksti
+Poista teksti
+Kirjaudu sisään
+Liity nyt
+Staff Engineer, Internal Platform and APIs - Greenstep Espoo
+Greenstep  Espoo
+34 minuuttia sitten   Ole ensimmäisten 25 hakijan joukossa
+  
+
+Katso, kuka Greenstep on palkattu tähän rooliin
+
+Hae 
+Tallenna
+Arvioi sopivuuttasi tekoälyn avulla
+
+Hanki tekoälypohjaisia neuvoja tähän työhön ja muita eksklusiivisia ominaisuuksia.
+
+Olenko sopiva tähän työhön?
+Räätälöi ansioluetteloni
+Have you ever looked at a sprawling internal IT estate and known exactly how much smaller and safer it could be? We have one. Hundreds of repositories and thousands of Azure Functions, Logic Apps and low-code flows, built by many hands over many years. We are looking for one person to own turning it into a small number of well-designed, centralized APIs running on Kubernetes.
+
+Greenstep is a Finnish, family-owned growth company founded in 2010 that provides high-quality technology and back-office services to support its clients' growth and success. Today we are a community of more than 800 experts working in the Nordics and across Europe. We have grown organically, and today Greenstep has people in Finland, Åland, Sweden, Norway, Estonia, Denmark and the Netherlands. We share one goal: to help growth companies become leaders in their fields.
+
+Our internal automation grew as fast as the company did. It works, mostly, and nobody can see all of it. That is the problem you will solve.
+
+The Role
+
+You own the target architecture for Greenstep's internal platform and you build a large part of it yourself. You lead our internal developers technically, and you decide what gets consolidated, what gets rewritten and what gets deleted. Deleting is a big part of the job.
+
+What will you do as a Staff Engineer:
+
+
+Set and own the target architecture and build most of it. A handful of centralized, versioned APIs with clear ownership, running on AKS, with authentication, observability and access control solved once instead of in every repo.
+Inventory the estate, then shrink it. You map what exists, decide what gets consolidated, what gets rewritten and what gets deleted. Deleting is a big part of the job.
+Design the migration so it is boring. Functions and Kubernetes run side by side while traffic shifts incrementally. No big-bang cutover, no weekend where payroll stops.
+Move business logic out of low-code. HR, payroll, finance and client onboarding flows become services that can be tested, versioned and reused.
+Build the platform, not just the services. Service templates, CI/CD, GitOps, infrastructure as code, secrets handling, API gateway, tracing and metrics. You set the standard by shipping it first.
+Make agentic development normal here. Migrating thousands of functions by hand is not realistic. You design the workflow, the review gates and the guardrails that keep AI-generated code safe to put in front of payroll data, and you use these tools heavily yourself.
+Lead the internal developers technically. Architecture reviews, pairing, code review, and a roadmap business stakeholders can actually follow.
+Partner with the App Factory staff engineer, who owns the internal applications, so those apps consume your APIs instead of talking to source systems directly.
+
+
+What We're Looking For
+
+You have taken a sprawling estate and made it smaller and safer before. You can describe what you kept, what you killed, and how you got people to agree. You are as comfortable in a design review as you are explaining to a payroll team why their flow is being replaced and what they gain.
+
+What you bring:
+
+
+7+ years in software and cloud engineering, including several years leading platform or API consolidation at scale. You can describe an estate you made smaller: what you kept, what you killed, and how you got people to agree.
+Deep Python backend experience, and the judgment to know when a service should not be Python at all.
+Production Kubernetes you have operated, not just deployed: Helm, GitOps, ingress, secrets, resource limits, upgrades.
+Event-driven workloads on Kubernetes, specifically KEDA or equivalent. You know why scale-to-zero and queue-depth scaling decide whether this migration saves money or costs it.
+Azure fluency: networking, security, Entra ID, Workload Identity, Key Vault, API Management, Functions and Logic Apps, including how to migrate off the parts that should not be there.
+Terraform, as the single source of truth for infrastructure. State management, modules, drift, and a review process that treats infrastructure changes like code changes.
+Security as a default, not a review stage. Centralizing payroll and HR APIs across six jurisdictions means centralizing trust: least privilege, managed identity over secrets, auditability, data residency, ISO 27001 and GDPR in the design rather than bolted on after.
+Deliberate, heavy use of AI coding agents to write and refactor in volume, and clear opinions about where they fail.
+Technical leadership without a management title.
+Working language is English. Finnish helps when working with Finnish business teams but is not required.
+
+
+Extra but not mandatory: Reading Go well enough to debug the tooling you depend on.
+
+You join Greenstep's internal technology team, which builds and runs the platforms our 800 experts use every day. You work alongside our internal developers, the BI Book product team and our data and analytics specialists, and directly with the business owners in HR, payroll and finance whose processes run on the platform.
+
+Why Greenstep?
+
+Greenstep Oy is a family company founded in 2010 that provides high-quality services to support its clients' business and growth. Every Greenstepper matters to us, and alongside interesting work we want to offer excellent employment for everyone. You join a community where expertise, responsibility and caring for each other show in everyday work. Across Greenstep we are already a network of more than 800 experts. Together we move forward while building our own professional expertise.
+
+💚 Support for your well-being. For us, everyone's well-being and well-being at work are top priorities. Our occupational health is comprehensive, and our offices are ergonomically designed. The Flex benefit and lunch discount offered through Epassi are available to you. However, the number one thing that supports your well-being at work is a sustainably built resource budget.
+
+💚 A salary model that matches your responsibilities and experience. All Greenstep employees are also included in our Together bonus, through which we share 10% of the annual operating profit among all employees, regardless of role.
+
+💚 Support and time for development and strengthening your skills. At Greenstep, continuous learning is at the core of what we do. Our own Greenstep Academy offers training in various topics almost weekly!
+
+💚 Career opportunities in a growing family-owned company. We grow organically primarily with a few small exceptions where the culture has been 100% on par with ours. Because, we want to grow in a controlled manner, profitably and without compromising on quality. For us, growth means new opportunities: we can make a more positive impact on society, create new jobs, invest in the development and skills of our personnel, and enable business continuity. Our culture has developed together over the years, and our values are reflected in our everyday work.
+
+Interested? Great, we'd love to hear from you!
+
+This role is located in our Espoo office. With our hybrid work model, we are at least 50% of the work time at the office with our colleagues! Please note that Greenstep doesn't sponsor work visas, so to work with us, you need to hold a full-time work permit and live close to mentioned location.
+
+If what you read sparked your interest, we’d love to hear more about you! We review applications on a rolling basis and will proceed as soon as suitable candidates are identified, so please submit your application before 11.10.2026.
+
+Our process usually has three interview rounds. One of them is a practical work sample that mirrors the real job, and you are welcome to use any AI tooling you like. For the selected candidate we call references and run a credit check.
+
+We can't wait to hear from you!
+Show more 
+Seniority level
+Keskijohto
+Työn tyyppi
+Kokopäiväinen
+Työtehtävä
+Koneenrakennus ja Tietotekniikka
+Industries
+Talouspalvelut
+  
+
+Lähetteet lisäävät mahdollisuuksiasi haastatteluun Greenstep 2x
+
+Katso, kenet tunnet
+
+Saat ilmoituksen uusista Käyttöjärjestelmäympäristösuunnittelija työpaikoista .Espoo
+
+Kirjaudu sisään luodaksesi työpaikkahälytyksen
+Samankaltaiset työpaikat
+Senior / Staff Software Engineer (New Product) - Greenstep Espoo
+Senior / Staff Software Engineer (New Product) - Greenstep Espoo
+Greenstep
+Espoo
+1 päivä sitten
+Principal Software Engineer
+Principal Software Engineer
+Virta Ltd
+Helsinki
+1 kuukausi sitten
+Staff Backend Engineer, Greenfield Product - 100% Remote - Europe
+Staff Backend Engineer, Greenfield Product - 100% Remote - Europe
+Hostaway
+Helsinki
+1 kuukausi sitten
+Principal Engineer, Platform
+Principal Engineer, Platform
+Smartly
+Helsinki
+2 viikkoa sitten
+Principal Engineer, Mobile Platform & Backend Systems
+Principal Engineer, Mobile Platform & Backend Systems
+AlphaSense
+Helsinki
+1 viikko sitten
+Principal Software Engineer
+Principal Software Engineer
+Virta Ltd
+Helsinki Metropolitan Area
+1 viikko sitten
+Show more jobs like this 
+Muita katsottuja
+Backend Engineer
+Backend Engineer
+
+Star IT
+
+Espoo
+2 viikkoa sitten
+Senior Software Engineer, Supercell ID (Backend)
+Senior Software Engineer, Supercell ID (Backend)
+
+Supercell
+
+Helsinki
+2 viikkoa sitten
+MarTech Engineer
+MarTech Engineer
+
+Supercell
+
+Helsinki
+2 viikkoa sitten
+Portfolio Architect
+Portfolio Architect
+
+Basware
+
+Espoo
+2 viikkoa sitten
+Software Development Engineer III, Logistics API
+Software Development Engineer III, Logistics API
+
+Mapbox
+
+Helsinki
+5 päivää sitten
+Head of Engineering
+Head of Engineering
+
+CHAOS
+
+Helsinki
+2 viikkoa sitten
+Senior Software Architect (B2B online platform)
+Senior Software Architect (B2B online platform)
+
+DNA Oyj
+
+Helsinki
+1 päivä sitten
+Ohjelmistoarkkitehti
+Ohjelmistoarkkitehti
+
+Nitor
+
+Helsinki
+3 viikkoa sitten
+Solution Architect
+Solution Architect
+
+Konecranes
+
+Hyvinkää
+1 viikko sitten
+Senior Software Engineer
+Senior Software Engineer
+
+Forge Digital
+
+Helsinki Metropolitan Area
+5 000,00 € - 6 000,00 €
+2 päivää sitten
+LinkedIn
+© 2026
+Tietoja
+Saavutettavuus
+Käyttäjäsopimus
+Tietosuojakäytäntö
+Evästekäytännöt
+Tekijänoikeuskäytännöt
+Brändikäytäntö
+Vieraiden hallinta
+Yhteisön ohjeet
+Kieli
+Kirjaudu sisään nähdäksesi, keitä tunnet jo Greenstep
+Kirjaudu sähköpostiosoitteella
+
+tai
+
+Oletko uusi LinkedIn-käyttäjä? Liity nyt
+
+Kun liityt tai kirjaudut sisään valitsemalla Jatka, hyväksyt LinkedInin käyttäjäsopimuksen, tietosuojakäytännön ja evästekäytännön.
