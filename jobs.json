@@ -65023,5 +65023,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Projektip\u00e4\u00e4llikk\u00f6 (LV), Tampere",
+    "company": "Are Oy",
+    "location": "Tampere, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/projektipaallikko-lv-tampere-2748281",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job is a project management role in building maintenance, not a release/DevOps/CM role.",
+    "id": "cd6f4dbd",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-18",
+    "deadline": "2026-09-20",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Rakennusammattilainen, Oulu (m\u00e4\u00e4r\u00e4aikainen)",
+    "company": "Hae paikkaa",
+    "location": "Oulu, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/rakennusammattilainen-oulu-maaraaikainen-2746519",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "0c538217",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
