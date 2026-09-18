@@ -64858,5 +64858,20 @@
     "deadline": "2026-10-18",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
+  },
+  {
+    "title": "Hae nyt",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=3b6e95ac-5e35-46ae-9c89-1d0116551782-ZnJhcHJvZDE&iaUid=1k2rbrf5n26qg001&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k2rbrf4fhbn4801%26jk%3Da4146a917838a45c%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k2rbrevkhbn4800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoDz67M2ebfiOFTDNB0LbzkdCdPP%26astse%3D59e040e72d893b37%26assa%3D3205&spn=0",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "dc77af77",
+    "source": "indeed_fi_release_manager",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
