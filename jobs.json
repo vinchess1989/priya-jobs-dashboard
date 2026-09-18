@@ -64873,5 +64873,50 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Senior Fullstack Engineer",
+    "company": "Argentina; Brazil; Helsinki; Romania; United Kingdom",
+    "location": "Helsinki, Finland",
+    "url": "https://fi.indeed.com/rc/clk?jk=52ca21d6b476a881",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "af97b16f",
+    "source": "indeed_fi_devops_engineer",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Palkat - Full Stack Developer",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://fi.indeed.com/career/full-stack-developer/salaries",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "49785592",
+    "source": "indeed_fi_devops_engineer",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Salaries for Full Stack Developer, Helsinki, F19",
+    "company": "Extract from page",
+    "location": "Helsinki, Finland",
+    "url": "https://fi.indeed.com/career/full-stack-developer/salaries/Helsinki--F19",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The posting is for a pure Full Stack Developer role (feature development) which is a hard rejection for the candidate's release/CM/DevOps focus.",
+    "id": "034ee127",
+    "source": "indeed_fi_devops_engineer",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   }
 ]
