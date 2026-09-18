@@ -60271,17 +60271,18 @@
   },
   {
     "title": "Junatarjoilijoita VR:lle Turkuun",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Junatarjoilijoita VR:lle Turkuun",
+    "location": "Pune, India",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9c323328-874c-41d3-8735-c9a383c382ab/fi",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=120)",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
     "id": "ffcc82b0",
     "source": "tyomarkkinatori",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "description_file": null
+    "description_file": null,
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "Sairaanhoitaja, Mainiokoti Katariina, Kaarina",
