@@ -64798,5 +64798,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "ServiceNow-arkkitehti",
+    "company": "CGI",
+    "location": "Helsinki, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/servicenow-arkkitehti-at-cgi-4460508652",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "id": "b50d1de8",
+    "source": "linkedin_fi_configuration_manager",
+    "posted_date": "3 viikkoa sitten",
+    "deadline": "2026-10-04",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Electrification Engineer, Hyvink\u00e4\u00e4",
+    "company": "Hae paikkaa",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/electrification-engineer-hyvinkaa-2739718",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "3e76ce1c",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
