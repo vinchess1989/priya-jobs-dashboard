@@ -64903,5 +64903,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Hinausautonkuljettaja",
+    "company": "Hinausautonkuljettaja",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/31ff0f1d-0bd3-4cfa-88bf-6ae7e5a4f9fc/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "e31db73a",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Sairaanhoitaja, Attendo Jalava, Joroinen",
+    "company": "Attendo Oy",
+    "location": "Joroinen, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4603cad3-3a48-4ad2-b031-3146b2c59c8b/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role requires Finnish language proficiency, which the candidate does not have (hard rejection).",
+    "id": "856e67b4",
+    "source": "tyomarkkinatori",
+    "posted_date": "18.9.2026, 21.49",
+    "deadline": "2026-10-11",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   }
 ]
