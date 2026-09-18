@@ -64933,5 +64933,35 @@
     "deadline": "2026-10-11",
     "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
+  },
+  {
+    "title": "K\u00e4silumity\u00f6ntekij\u00e4 arkit\u00f6ihin",
+    "company": "Hae paikkaa",
+    "location": "Oulu, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/kasilumityontekija-arkitoihin-2761550",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "e227cce3",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Konelumity\u00f6ntekij\u00e4",
+    "company": "Hae paikkaa",
+    "location": "Extract from page",
+    "url": "https://www.jobly.fi/tyopaikka/konelumityontekija-2761551",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "12884865",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
