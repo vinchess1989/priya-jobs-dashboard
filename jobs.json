@@ -65623,5 +65623,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Asiakashankkija",
+    "company": "Suoramarkkinointi Mega Oy",
+    "location": "Kerava, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/asiakashankkija-2720090",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a sales position requiring fluent Finnish, which does not align with the candidate\u2019s release/CM/DevOps background and language skills.",
+    "id": "369eead3",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-19",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "S\u00e4hk\u00f6asentaja, Lahti",
+    "company": "S\u00e4hk\u00f6asentaja, Lahti",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/60da05ff-4a6a-4106-a88c-ed12d337e653/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "47b62adb",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
