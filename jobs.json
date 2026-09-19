@@ -65413,5 +65413,35 @@
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
+  },
+  {
+    "title": "Maanrakennusty\u00f6ntekij\u00f6it\u00e4 ratat\u00f6ihin",
+    "company": "Hae paikkaa",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/maanrakennustyontekijoita-ratatoihin-2604668",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "52453946",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "CNC turning/lathe machinist",
+    "company": "Hunaja Works Oy",
+    "location": "Turku, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2bb2b7fe-4d07-4b98-830a-b216bb761b81/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a CNC turning/lathe machinist position, which does not align with Priyanga\u2019s software release/CM/DevOps expertise.",
+    "id": "8e1f7930",
+    "source": "tyomarkkinatori",
+    "posted_date": "2026-09-19",
+    "deadline": "2026-10-01",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
