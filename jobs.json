@@ -65278,5 +65278,35 @@
     "deadline": "2026-09-29",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
+  },
+  {
+    "title": "Rakennusty\u00f6ntekij\u00f6it\u00e4 Vaasaan",
+    "company": "Rakennusty\u00f6ntekij\u00f6it\u00e4 Vaasaan",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b1ce4c0e-9e4e-40bf-afe7-e1ef95f7a720/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "5efcbcb5",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Yhdistelm\u00e4ajoneuvonkuljettaja",
+    "company": "KA Trans Ab Oy",
+    "location": "Vaasa, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d92994d5-dd37-4944-805a-156459556d3b/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The position is a combination vehicle driver role, not a DevOps, configuration, release, or product specialist position.",
+    "id": "7b3dd666",
+    "source": "tyomarkkinatori",
+    "posted_date": "2026-09-19",
+    "deadline": "2026-10-17",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
