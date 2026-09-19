@@ -65773,5 +65773,50 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Henkil\u00f6kohtainen avustaja",
+    "company": "Benehoiva",
+    "location": "Sastamala, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/36abc937-e3b4-470f-b44d-56ef19bd7076/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a personal assistant position, not a DevOps, configuration management, or release management role.",
+    "id": "27e836c1",
+    "source": "tyomarkkinatori",
+    "posted_date": "2026-09-19",
+    "deadline": "2026-09-22",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Henkil\u00f6kohtainen avustaja",
+    "company": "Henkil\u00f6kohtainen avustaja",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2cf5e9e6-6967-430a-8af2-177efdfe1a2b/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "969d7156",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Henkil\u00f6kohtainen avustaja",
+    "company": "Henkil\u00f6kohtainen avustaja",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c72d3f05-8eee-4552-b0ed-6ab12eed7320/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "8ce5e339",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
