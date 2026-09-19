@@ -65818,5 +65818,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Purkuty\u00f6ntekij\u00e4",
+    "company": "Hae paikkaa",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/purkutyontekija-2408253",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "ed585de9",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "siivooja",
+    "company": "Lecator Oy",
+    "location": "Kouvola, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/76cb8bb6-c274-44fb-bd27-8cd534735030/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job requires Finnish language and is a cleaning role, not matching her release/DevOps background.",
+    "id": "32457c81",
+    "source": "tyomarkkinatori",
+    "posted_date": "19.9.2026, 18.15",
+    "deadline": "2026-09-22",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   }
 ]
