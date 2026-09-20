@@ -66373,5 +66373,50 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Yhdistelm\u00e4ajoneuvonkuljettaja, vakituinen, HAMINA",
+    "company": "Henkil\u00f6st\u00f6palvelut Duuri-tiimi Oy",
+    "location": "Hamina, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/yhdistelmaajoneuvonkuljettaja-vakituinen-hamina-2761661",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job is for a truck driver, not a release/DevOps/Configuration Management role.",
+    "id": "371356bf",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-20",
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Putkiasentaja, m\u00e4\u00e4r\u00e4aikainen, TUUSULA",
+    "company": "Henkil\u00f6st\u00f6palvelut Duuri-tiimi Oy",
+    "location": "Tuusula, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/putkiasentaja-maaraaikainen-tuusula-2761660",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a pipe installer in Finland, unrelated to the candidate\u2019s release/CM/DevOps expertise.",
+    "id": "f720af0d",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-20",
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Metsuri",
+    "company": "Nurmix Oy",
+    "location": "Tampere, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/149bcfa0-99b5-40e5-b883-d742a07aab75/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a physical forestry position, not a DevOps, configuration, release, or product specialist role.",
+    "id": "a65f62bc",
+    "source": "tyomarkkinatori",
+    "posted_date": "2026-09-20",
+    "deadline": "2026-10-04",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
