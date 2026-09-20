@@ -65758,5 +65758,35 @@
     "deadline": "2026-09-30",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
+  },
+  {
+    "title": "(Senior) Legal Counsel @ Arval",
+    "company": "Hae paikkaa",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/senior-legal-counsel-arval-2751624",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "5609a785",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Kirvesmies",
+    "company": "Avertas Oy",
+    "location": "Kaarina, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/55c22c0d-964a-411a-9bc9-5a52aea2218b/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job is a construction (kirvesmies) role, not a DevOps, configuration management, or release management position.",
+    "id": "e5cced4c",
+    "source": "tyomarkkinatori",
+    "posted_date": "20.9.2026, 10.20",
+    "deadline": "2026-10-02",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
