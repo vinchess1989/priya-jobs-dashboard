@@ -65713,5 +65713,50 @@
     "deadline": "2026-10-30",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
+  },
+  {
+    "title": "Lis\u00e4tulo oman ty\u00f6n ohella yritt\u00e4j\u00e4n\u00e4 Kouvolassa | Siivous ja kotipalvelu",
+    "company": "Lis\u00e4tulo oman ty\u00f6n ohella yritt\u00e4j\u00e4n\u00e4 Kouvolassa | Siivous ja kotipalvelu",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e5e7da92-a91d-44fb-8ec5-5029400fdbfc/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "07a3150c",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Lis\u00e4tulo oman ty\u00f6n ohella yritt\u00e4j\u00e4n\u00e4 Lappeenranassa | Siivous ja kotipalvelu",
+    "company": "Lis\u00e4tulo oman ty\u00f6n ohella yritt\u00e4j\u00e4n\u00e4 Lappeenranassa | Siivous ja kotipalvelu",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3beb5611-4b1d-4b0c-9572-8abefecdc90d/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "c9f2e8f1",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Lis\u00e4tulo oman ty\u00f6n ohella yritt\u00e4j\u00e4n\u00e4 Vaasassa | Siivous ja kotipalvelu",
+    "company": "Sevalia Oy",
+    "location": "Vaasa, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/96e8a9f4-e347-4972-a95d-9a269707a5f5/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job is a Finnish-language cleaning/home services side gig, not a technical release/DevOps role and requires fluent Finnish.",
+    "id": "2d71050e",
+    "source": "tyomarkkinatori",
+    "posted_date": "20.9.2026, 9.47",
+    "deadline": "2026-09-30",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
