@@ -66358,5 +66358,20 @@
     "deadline": "2026-11-30",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
+  },
+  {
+    "title": "Baarity\u00f6ntekij\u00e4, tarvittaessa t\u00f6ihin kutsuttava, SEIN\u00c4JOKI",
+    "company": "Hae paikkaa",
+    "location": "Extract from page",
+    "url": "https://www.jobly.fi/tyopaikka/baarityontekija-tarvittaessa-toihin-kutsuttava-seinajoki-2761659",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "2cd5ae2d",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
