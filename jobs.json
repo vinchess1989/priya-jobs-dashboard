@@ -65998,5 +65998,35 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
+  },
+  {
+    "title": "Maanrakennusty\u00f6ntekij\u00f6it\u00e4",
+    "company": "Hae paikkaa",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/maanrakennustyontekijoita-2355556",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "918ea342",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Kuorma-autonkuljettaja maanajoon",
+    "company": "Hae paikkaa",
+    "location": "Espoo, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/kuorma-autonkuljettaja-maanajoon-2616303",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "a5f400fd",
+    "source": "jobly_broad",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
