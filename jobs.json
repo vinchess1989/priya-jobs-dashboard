@@ -65878,5 +65878,35 @@
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
+  },
+  {
+    "title": "Glitter Forum etsii 25h/vko ykk\u00f6smyyj\u00e4\u00e4",
+    "company": "Glitter Forum etsii 25h/vko ykk\u00f6smyyj\u00e4\u00e4",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/290a56a9-7eba-4828-b1e0-c77f24d43395/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "bb014a4e",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Logistics Worker \u2013 Data Centre Project, Mikkeli",
+    "company": "Mono Rakennus Oy",
+    "location": "Mikkeli, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/58c3686d-2d92-4589-af96-ecb6d846f4ad/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a logistics worker for a construction site, not a release/CM/DevOps or product specialist position.",
+    "id": "e4603429",
+    "source": "tyomarkkinatori",
+    "posted_date": "julkaistu 20.9.2026, 14.00",
+    "deadline": "2026-10-10",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   }
 ]
