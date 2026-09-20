@@ -66193,5 +66193,50 @@
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
+  },
+  {
+    "title": "Tarjoilija talvisesonkiin 26-27, Saariselk\u00e4",
+    "company": "Worker Henkil\u00f6st\u00f6ratkaisut",
+    "location": "Saariselk\u00e4, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/tarjoilija-talvisesonkiin-26-27-saariselka-2691509",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a seasonal hospitality waiter position, not a DevOps, configuration management, release management, or technical product specialist role.",
+    "id": "167cd95d",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-20",
+    "deadline": "2026-09-30",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Kokki talvisesonkiin 26-27, Saariselk\u00e4",
+    "company": "Hae paikkaa",
+    "location": "Tampere, Finland",
+    "url": "https://www.jobly.fi/tyopaikka/kokki-talvisesonkiin-26-27-saariselka-2691081",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The position is a seasonal cooking role, unrelated to DevOps, configuration management, or release engineering.",
+    "id": "04bd5c4f",
+    "source": "jobly_broad",
+    "posted_date": "2026-09-20",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Henkil\u00f6kohtainen avustaja",
+    "company": "Henkil\u00f6kohtainen avustaja",
+    "location": "Oulu, Finland",
+    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2b679baa-228c-4a1e-b0cc-b1fb2c7ff10b/fi",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
+    "id": "619947e0",
+    "source": "tyomarkkinatori",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
