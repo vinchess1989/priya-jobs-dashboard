@@ -1417,6 +1417,18 @@ GROQ_MODELS = [m.strip() for m in os.environ.get("GROQ_MODELS", "openai/gpt-oss-
 
 _cloud_model_cooldown_until = {}  # "label/model" -> epoch seconds; see _try_cloud_provider
 
+def _truncated_without_verdict(resp_json):
+    """True when the model hit max_tokens before producing a verdict - typically a reasoning
+    model (gemma-4, gpt-oss, qwen3) that spent the whole budget on hidden reasoning, leaving
+    `content` empty or mid-<think>. Without this check the JSON-parse fallback quietly
+    scored every such response as 'no' (1,700+ on-domain jobs wrongly rejected)."""
+    try:
+        choice = resp_json['choices'][0]
+        content = (choice.get('message') or {}).get('content') or ''
+        return choice.get('finish_reason') == 'length' and not re.search(r'"match"\s*:', content)
+    except Exception:
+        return False
+
 def _try_cloud_provider(messages, endpoint, api_key, models, temperature, max_tokens, timeout, label):
     """Try each model in `models` against `endpoint` in order, stopping at the first
     success (single attempt per model, no retry loop - see _call_llm_with_fallback for
@@ -1455,7 +1467,15 @@ def _try_cloud_provider(messages, endpoint, api_key, models, temperature, max_to
                 print(f"  [LLM] {label} model '{model}' rate-limited, cooling down {cooldown_seconds:.0f}s, trying next...")
                 continue
             response.raise_for_status()
-            return response.json(), f"{label}/{model}"
+            resp_json = response.json()
+            if _truncated_without_verdict(resp_json):
+                bigger = max(max_tokens * 8, 4096)
+                print(f"  [LLM] {label} model '{model}' used its whole {max_tokens}-token budget without a verdict - retrying once with {bigger}...")
+                payload["max_tokens"] = bigger
+                response = requests.post(endpoint, headers=headers, json=payload, timeout=timeout * 3)
+                response.raise_for_status()
+                resp_json = response.json()
+            return resp_json, f"{label}/{model}"
         except Exception as e:
             print(f"  [LLM] {label} model '{model}' failed ({e}), trying next...")
     return None
@@ -1490,7 +1510,14 @@ def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, 
         "max_tokens": max_tokens,
     }
     response = _post_llm_with_retry(llm_endpoint, headers, local_payload, timeout=timeout_local)
-    return response.json(), f"local/{llm_model}"
+    resp_json = response.json()
+    if _truncated_without_verdict(resp_json):
+        bigger = max(max_tokens * 8, 4096)
+        print(f"  [LLM] local model '{llm_model}' used its whole {max_tokens}-token budget without a verdict (reasoning model?) - retrying once with {bigger}...")
+        local_payload["max_tokens"] = bigger
+        response = _post_llm_with_retry(llm_endpoint, headers, local_payload, timeout=timeout_local * 4)
+        resp_json = response.json()
+    return resp_json, f"local/{llm_model}"
 
 def review_pending_jobs(specific_urls=None):
     """Visit URLs of pending jobs, extract description, and evaluate using a local LLM."""
@@ -1580,7 +1607,7 @@ def review_pending_jobs(specific_urls=None):
                     cleaned_text = clean_page_text(text)
 
                     today_str = datetime.now().strftime("%Y-%m-%d")
-                    prompt = f"""Please act as an expert job reviewer for the semiconductor/VLSI/EDA industry. Read the following job description and evaluate it against the requirements.
+                    prompt = f"""Please act as an expert job reviewer. Read the following job description and evaluate it against the candidate's requirements below.
 
 Respond ONLY with a valid JSON object matching this exact structure:
 
@@ -1602,8 +1629,8 @@ Return a JSON object with exactly six keys:
 - "reason": a short 1-sentence explanation of your decision.
 - "posted_date": a string, the exact date string as it appears in the text (e.g. '3 weeks ago', '12.6.2026', '2026-06-12'). Do NOT calculate relative dates yourself; simply return the raw string. If not found, return 'N/A'.
 - "deadline": a string, the deadline for applying formatted strictly as YYYY-MM-DD (e.g. '2026-06-30'). If it is open-ended or 'open until filled', return 'Open until filled'. If not found, return 'N/A'.
-- "company": a string, the name of the hiring company as stated in the job posting (e.g. 'Intel' or 'N/A' if not found). Do NOT use the job board name (e.g. do NOT return 'Indeed' or 'LinkedIn' or 'Naukri').
-- "location": a string, the city and country of the job. For Indian cities, use the format 'City, India' (e.g. 'Bengaluru, India'). For the Delhi-NCR metro area (Noida, Gurgaon, Greater Noida), return 'Delhi NCR, India'. For US cities, include the state (e.g. 'San Jose, CA, USA'). Return 'N/A' only if truly unknown. If fully remote worldwide, return 'Remote (Worldwide)'.
+- "company": a string, the name of the hiring company as stated in the job posting (e.g. 'Nokia' or 'N/A' if not found). Do NOT use the job board name (e.g. do NOT return 'Indeed' or 'LinkedIn' or 'Duunitori').
+- "location": a string, the city and country of the job (e.g. 'Helsinki, Finland'; for US cities include the state, e.g. 'Austin, TX, USA'). If the job is remote, say what it is restricted to (e.g. 'Remote (EU)', 'Remote (US only)', 'Remote (Worldwide)'). Return 'N/A' only if truly unknown.
 
 IMPORTANT: Extract company and location ONLY from information explicitly stated in the job description text. Do NOT guess or hallucinate values.
 Do not include any conversational intro/outro or explanations outside the JSON object.
@@ -1617,7 +1644,7 @@ Do not include any conversational intro/outro or explanations outside the JSON o
 
                         # Use robust JSON extraction
                         result = extract_json_from_text(content)
-                        match = str(result.get("match", "no")).lower()
+                        match = str(result.get("match", "error")).lower()
                         reason = str(result.get("reason", "No reason provided by LLM."))
 
                         # Only accept AI dates if we don't already have a valid one
@@ -1655,7 +1682,10 @@ Do not include any conversational intro/outro or explanations outside the JSON o
                             job['company'] = regex_company
 
                         if match not in ["yes", "maybe", "no"]:
-                            match = "no"
+                            # Unparseable/truncated output is a failed review, not a rejection: 'error'
+                            # jobs are retried next cycle, whereas coercing to 'no' silently buried them.
+                            match = "error"
+                            reason = "LLM returned no parseable verdict (empty or truncated output); will retry."
                     except (requests.exceptions.RequestException, json.JSONDecodeError, KeyError, IndexError) as llm_err:
                         match = "error"
                         reason = f"Failed to get or parse LLM response: {llm_err}"
