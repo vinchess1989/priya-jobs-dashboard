@@ -6,6 +6,18 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Major Features
+1. **Priya's Job Search Automation:** Scrapes customer success, administrative, hospitality, and educational opportunities across Finland and remote portals.
+2. **Hybrid Cloud & Local LLM Scoring:** Evaluates applicant match score using Groq API (`llama-3.3-70b-versatile`) with seamless local fallback to LM Studio.
+3. **Standalone Dedicated Firebase Project:** Fully independent Firestore database and Firebase Hosting (`priya-jobs-dashboard`).
+4. **Automated Application Tracker:** Live status columns tracking applied dates, response rates, and follow-ups.
+5. **Resume & Cover Letter Generator:** Automatically builds tailored resumes stored in `Priya_jobs_private/`.
+
+## Minor Features & Utilities
+- **Daily Quota Cooldown Management:** Proactively rotates between cloud and local inference to respect free-tier rate limits.
+- **Deleted Jobs Archive:** Separate JSON storage ensuring discarded postings aren't re-scraped.
+- **Direct Application Deeplinks:** Instant launch buttons directly into corporate ATS portals.
+
 ## Independent infrastructure
 
 Unlike `vineeth_jobs` (separate repo, separate Firebase project, but was originally considered as
@@ -263,6 +275,32 @@ future sessions:
   working. Chrome already present at the standard path. `setup_windows_scheduler.bat`
   deliberately not run yet, per instruction, pending Priya's own end-to-end
   `/tailor-resume`/`/fill-form` test.
+
+## Reasoning-model reviewer silently rejected everything (found + fixed 2026-09-20)
+
+Symptom: dashboard "no jobs added" for days — total plateaued ~4,400 and Yes count froze at ~342-345.
+Real cause: LM Studio's active local model was switched to `google/gemma-4-26b-a4b-qat`, a **reasoning
+model**. With `max_tokens=500` it spent ~497 tokens on hidden reasoning (`reasoning_content`), returned
+**empty `content`** (`finish_reason: "length"`), `extract_json_from_text` fell to its regex fallback (reason
+"Extracted via regex fallback"), and `review_pending_jobs` then coerced the unparseable result to **"no"**.
+Result: 1,449 gemma reviews → 0 yes / 0 maybe / 1,449 "no", plus ~250 more from Groq qwen/gpt-oss (same
+truncation). Genuine on-domain jobs (Release Manager, Senior DevOps Engineer, ANYbotics DevOps Remote…)
+were buried as "no". `manju_jobs` got hit identically (~2,050 gemma reviews, 100% fallback); `vineeth_jobs`
+barely used gemma (8 reviews) so it's mostly fine.
+
+Fixes in `scraper.py`: (1) `_truncated_without_verdict()` + a one-time retry with `max(max_tokens*8, 4096)`
+in both `_try_cloud_provider` and the local branch of `_call_llm_with_fallback` (gemma needs ~1,100 tokens;
+LM Studio ignores `reasoning_effort` / `enable_thinking` for it — verified, so budget is the only lever);
+(2) unparseable/missing verdict is now `"error"` (retried next cycle) instead of coerced to `"no"`;
+(3) the review prompt no longer says "semiconductor/VLSI/EDA reviewer" (fork leftover) or lists Indian-city
+location examples. 217 wrongly-"no" jobs with on-domain titles were re-queued via `needs_re_review`.
+Other diagnostics worth knowing: "Extracted via regex fallback" as a job's `reason` is the fingerprint of
+this failure — `Where reason -like "*regex fallback*"` counts affected jobs; `jobs_history.json` daily
+`NetAdded` + per-`eval_model` verdict counts in `jobs.json` are the fastest health check. Gemma at 4096
+tokens is slow (~1-2 min/job under LM Studio contention); `hermes-3-llama-3.1-8b` (non-reasoning) had 0%
+fallback and is ~10x faster if a fast local model is preferred — the LM Studio model is shared by all three
+dashboards, so switching it is the user's call. Groq `qwen/qwen3.6-27b` now returns 404 (model retired) —
+drop it from `GROQ_MODELS`.
 
 ## Open/unresolved
 
