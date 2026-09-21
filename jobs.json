@@ -39575,13 +39575,13 @@
     "location": "Toulouse, Occitanie, France",
     "url": "https://fr.linkedin.com/jobs/view/delivery-manager-at-easymile-4459207252",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "maybe",
+    "reason": "The role requires daily fluency in French and is located in France, which requires relocation and exceeds the candidate's current language skills.",
     "id": "a3300d59",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "il y a 2 semaines",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -40206,14 +40206,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-wound-closure-healing-veneto-occidentale-e-trentino-alto-adige-at-johnson-johnson-medtech-4466316361",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "Job is a sales role, not a technical product specialist or release/CM role.",
     "id": "bd9ddcc5",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "(Jr) Digital Casino Product Specialist",
@@ -40222,14 +40221,13 @@
     "url": "https://be.linkedin.com/jobs/view/jr-digital-casino-product-specialist-at-golden-palace-casino-sports-4464510013",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is an entry-level position and requires fluency in French or Dutch, which the candidate does not possess.",
     "id": "95065b5b",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 sem",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -40238,14 +40236,13 @@
     "url": "https://es.linkedin.com/jobs/view/product-specialist-at-geely-auto-espa%C3%B1a-4465379608",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires fluent Spanish, which the candidate does not speak.",
     "id": "ac5c484d",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sp\u00e9cialiste produit \u2013 dispositifs chirurgicaux",
@@ -40329,14 +40326,13 @@
     "url": "https://be.linkedin.com/jobs/view/product-specialist-%E2%80%93-surgical-technologies-at-palto-4466076246",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires Dutch language proficiency and clinical/surgical expertise for operating room support, which does not align with the candidate's technical release management and documentation background.",
     "id": "6178be04",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 sem",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Clinical Science Associate Product Specialist Dermatology Triveneto",
@@ -40345,14 +40341,13 @@
     "url": "https://it.linkedin.com/jobs/view/clinical-science-associate-product-specialist-dermatology-triveneto-at-sanofi-4464641298",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This is a pharmaceutical sales and medical information role requiring a scientific degree, which is entirely outside the candidate's expertise in DevOps, Release Management, and Technical Documentation.",
     "id": "432ee097",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 sem",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Applications Specialist - Medical",
@@ -40406,14 +40401,13 @@
     "url": "https://de.linkedin.com/jobs/view/clinical-product-specialist-anwendungsberater-f%C3%BCr-infusionstechnologie-infusionspumpen-im-au%C3%9Fendienst-100-%25-m-w-d-at-codan-medical-ag-4465336895",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires fluent German and a clinical/nursing background, which does not align with the candidate's technical DevOps and Release Management expertise.",
     "id": "4a5d08fe",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Analytics Engineer",
@@ -40631,15 +40625,14 @@
     "location": "Tallinn, Harjumaa, Estonia",
     "url": "https://ee.linkedin.com/jobs/view/senior-devops-engineer-at-bonapolia-4443195419",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "yes",
+    "reason": "The role is a Senior DevOps Engineer position in the EU (Estonia) requiring English and CI/CD/AWS expertise, which aligns perfectly with the candidate's background in regulated environments and DevOps.",
     "id": "36d27cf9",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "il y a 2 mois",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/bonapolia_senior_devops_engineer_36d27cf9.txt"
   },
   {
     "title": "Release and Delivery Manager",
@@ -40647,15 +40640,14 @@
     "location": "Bucharest, Romania",
     "url": "https://ro.linkedin.com/jobs/view/release-and-delivery-manager-at-wipro-romania-4461135636",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "yes",
+    "reason": "The role is a Release and Delivery Manager in Romania (EU) with responsibilities and skills that align with the candidate\u2019s release management and CI/CD experience.",
     "id": "7bc69a60",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/wipro_romania_release_and_delivery_manager_7bc69a60.txt"
   },
   {
     "title": "Forward Deployed Engineer",
@@ -40663,15 +40655,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/forward-deployed-engineer-at-stott-and-may-4465148168",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role's focus on production deployment and system integration aligns with her DevOps/Release expertise, though it also requires hands-on software development for AI agents.",
     "id": "3d4e2a22",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 sem",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Produktspezialist Pflanzenschutztechnik(m/w/d)",
@@ -40710,14 +40701,13 @@
     "url": "https://es.linkedin.com/jobs/view/accounting-product-specialist-at-pennylane-4450609662",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires specialized accounting and bookkeeping expertise which is not part of the candidate's technical and release management background.",
     "id": "ddac49fe",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 2 jours",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Roma Est - Frosinone",
@@ -40726,14 +40716,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-roma-est-frosinone-at-prodeco-pharma-4429967263",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "Job is a sales-focused Product Specialist role, which is a hard rejection for this candidate.",
     "id": "0c7fd17b",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 1 mois",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Senior Digital Product Specialist_Digital Compliance Solutions",
@@ -40741,15 +40730,14 @@
     "location": "Bucharest Metropolitan Area",
     "url": "https://ro.linkedin.com/jobs/view/senior-digital-product-specialist-digital-compliance-solutions-at-unicredit-4458886139",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role matches her experience in functional ownership and regulated environments, but it is a hybrid role in Romania requiring relocation.",
     "id": "984d301a",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "il y a 3 semaines",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -40763,9 +40751,8 @@
     "source": "linkedin_eu_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Product Specialist - Cleaning Technology (w/m/d)",
@@ -40773,15 +40760,14 @@
     "location": "B\u00fcchen, Schleswig-Holstein, Germany",
     "url": "https://de.linkedin.com/jobs/view/product-specialist-cleaning-technology-w-m-d-at-gea-group-4460346830",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "5ce3b8cf",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "PRODUCT SPECIALIST - PHOTONICS",
