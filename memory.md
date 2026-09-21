@@ -220,7 +220,11 @@ commit (Steps 6–7), since a job with no `jobs.json` entry would just log a
 `WARN: job_id '...' not found in jobs.json — skipping` and never actually reach Firestore/the
 dashboard anyway. These stay as local-only PDFs for Priya to use directly, not dashboard-tracked
 jobs. No checkpoint file is created either, since the checkpoint/resume mechanism assumes a
-`jobs.json`-backed job.
+`jobs.json`-backed job. **Caveat:** `sync_resume_links.py` rescans *every* `Resumes\` folder, so
+the next sync run for any other job still logs that WARN for the manual job and writes its row
+into `input.csv` (row for `00035459` was committed 2026-09-21 this way). Harmless — no Firestore
+write, and the CSV links point at the private repo — but don't expect skipping Steps 6–7 to keep a
+manual job out of `input.csv` permanently.
 
 ## Work-permit status + started-learning-Finnish must appear in every cover letter (2026-09-16)
 
