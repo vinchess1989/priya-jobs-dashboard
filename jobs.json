@@ -37575,21 +37575,6 @@
     "description_file": null
   },
   {
-    "title": "Tech Lead (Financial and Trading Platforms)",
-    "company": "Helen",
-    "location": "Helsinki, Uusimaa, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/tech-lead-financial-and-trading-platforms-at-helen-4462811168",
-    "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
-    "id": "5808f46e",
-    "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
-  },
-  {
     "title": "Lead Developer",
     "company": "If Insurance",
     "location": "Espoo, Uusimaa, Finland",
@@ -37625,15 +37610,14 @@
     "location": "Cracow, Ma\u0142opolskie, Poland",
     "url": "https://pl.linkedin.com/jobs/view/test-release-manager-at-comarch-4464999069",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns perfectly with her release management and QA expertise, but it is a hybrid position in Poland requiring on-site presence, which would require relocation from Finland.",
     "id": "eb4ea97e",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Release & Delivery Manager",
@@ -37641,15 +37625,14 @@
     "location": "Bucharest, Romania",
     "url": "https://ro.linkedin.com/jobs/view/senior-release-delivery-manager-at-luxoft-romania-4463336042",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management expertise and is located within the EU, though it would require relocation from Finland.",
     "id": "abf052e4",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -37657,15 +37640,14 @@
     "location": "Bucharest Metropolitan Area",
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-streamwide-romania-4461567570",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management expertise, but it is a hybrid position in Romania which would require relocation.",
     "id": "313dc058",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Rollout / Release Manager (all gender) 700",
@@ -37673,15 +37655,14 @@
     "location": "Regensburg, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/rollout-release-manager-all-gender-700-at-alten-4463429856",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her Release and Rollout Management expertise, but it is located in Germany, which would require relocation.",
     "id": "5d832ebc",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "ReleasePlus-Manager (m/w/d)",
@@ -37689,15 +37670,14 @@
     "location": "M\u00fcnster, North Rhine-Westphalia, Germany",
     "url": "https://de.linkedin.com/jobs/view/releaseplus-manager-m-w-d-at-finanz-informatik-4390824262",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "fcc80eee",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Customer Success Specialist (Helsinki)",
@@ -37720,15 +37700,14 @@
     "location": "Eindhoven, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-verlichting-uitzendbureau-nl-at-jobster-4465758889",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "14f100df",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Productspecialist - Uitzendbureau.nl",
@@ -38201,15 +38180,14 @@
     "location": "Greater Malm\u00f6 Metropolitan Area",
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-lfv-4467076515",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role matches the Configuration Manager domain, but the on-site location is in Sweden (EU) requiring relocation, which is acceptable but not ideal.",
     "id": "48a54f4b",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Solution Architect, Core Banking System Environments (Helsinki/Oulu)",
@@ -38668,14 +38646,13 @@
     "url": "https://fi.linkedin.com/jobs/view/backend-engineer-growth-platform-at-wolt-4465772994",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "Job is a pure backend development role, not a release/CM/DevOps position.",
     "id": "808e7166",
     "source": "linkedin_fi_broad",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Viem\u00e4rinpesuautonkuljettaja, HETI!, PELLO",
@@ -38818,15 +38795,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/forward-deployed-engineer-at-salesforce-4453368067",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The candidate's Salesforce certifications and technical delivery background are excellent, but the role's focus on AI solution development is a pivot from her recent specialization in Release and Configuration Management.",
     "id": "83f56ebd",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT System Specialist",
@@ -38924,15 +38900,14 @@
     "location": "Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-test-automation-engineer-at-hiq-finland-4457751225",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "061efe43",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Forward Deployed Engineer",
@@ -38940,15 +38915,14 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/forward-deployed-engineer-at-stott-and-may-4459983157",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role involves production deployment and technical implementation, but is primarily a customer-facing engineering position rather than a dedicated Release or Configuration Management role.",
     "id": "2583f69e",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI Forward Deployed Engineer",
@@ -38956,15 +38930,14 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/ai-forward-deployed-engineer-at-siili-solutions-4462838314",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role's focus on deployment and infrastructure aligns with her DevOps background, but it requires specific AI/ML engineering experience not explicitly listed in her profile.",
     "id": "87d7a179",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI Developer",
@@ -39077,15 +39050,14 @@
     "location": "Madrid, Community of Madrid, Spain",
     "url": "https://es.linkedin.com/jobs/view/senior-devops-platform-engineer-at-tata-consultancy-services-4465763441",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "yes",
+    "reason": "The role is a senior DevOps Engineer in Madrid, Spain, matching her skill set, experience level, and EU location preference.",
     "id": "59d0ec45",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/tata_consultancy_ser_senior_devops___platform_engin_59d0ec45.txt"
   },
   {
     "title": "DevOps Engineer (Remoto)",
@@ -39093,15 +39065,14 @@
     "location": "Las Rozas de Madrid, Community of Madrid, Spain",
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-remoto-at-knowmad-mood-4430006677",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position focused on Azure DevOps and CI/CD, which aligns with her technical expertise and is located in the EU (Spain) with remote options.",
     "id": "a6d63a42",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "groq/qwen/qwen3.6-27b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/knowmad_mood_devops_engineer__remoto__a6d63a42.txt"
   },
   {
     "title": "Senior DevOps Engineer",
