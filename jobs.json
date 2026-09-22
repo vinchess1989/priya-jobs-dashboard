@@ -3588,14 +3588,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-owner-engineering-ai-platform-capabilities-helsinki-oulu-at-op-pohjola-4460353228",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
+    "matches_requirements": "yes",
+    "reason": "The role focuses on engineering platform capabilities, SDLC, and CI/CD, which aligns perfectly with her extensive background in release management and DevOps.",
     "id": "6123f26c",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": "job_descriptions/op_pohjola_product_owner__engineering_ai__6123f26c.txt"
   },
   {
     "title": "Technical Project Manager",
@@ -3693,15 +3693,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sr-product-manager-at-copado-4443625222",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Senior Product Manager focused on AI-native DevOps for Salesforce, which does not closely match her technical configuration management and release engineering background. She has some product specialist experience but it was quality/technical/regulatory, not pure product strategy.",
+    "matches_requirements": "maybe",
+    "reason": "The candidate's deep expertise in Salesforce and DevOps is a perfect domain match, though her recent experience is in Release/CM execution rather than Product Management strategy.",
     "id": "e8830803",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Product Manager - Paper.io 2",
@@ -3710,14 +3709,13 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-paper-io-2-at-voodoo-4462768659",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a product manager for a mobile game, which does not align with the candidate\u2019s release/CM/DevOps background.",
+    "reason": "The role is a product manager for a mobile game, which does not align with Priyanga\u2019s release/CM/DevOps experience in regulated domains.",
     "id": "6d1c0f63",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SAP PMO",
@@ -3726,14 +3724,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-pmo-at-tata-consultancy-services-4449123399",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior SAP PMO Lead, which does not match her current skillset and experience level.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "fe55744d",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Feature Lead",
@@ -3741,15 +3738,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/feature-lead-at-supercell-4400855141",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature development engineering position, not a DevOps/CI/CD/release management role which matches her background.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a senior product/feature leadership position, which is a different domain than her core expertise in Release Management and DevOps.",
     "id": "4b7472c6",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Tech Lead - Google Cloud Platform Infrastructure, Data Mesh and AI Platforms team",
@@ -3757,15 +3753,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/tech-lead-google-cloud-platform-infrastructure-data-mesh-and-ai-platforms-team-at-nordea-4460343507",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Tech Lead on Google Cloud Platform infrastructure, AI platforms and data mesh in Nordea Bank. This does not match her background in release management, configuration management, CI/CD pipelines or regulated product specialist roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is a senior DevOps/Platform engineering lead in Finland, matching her CI/CD, Terraform, and regulated\u2011environment experience without language or location conflicts.",
     "id": "717258ab",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-30",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": "job_descriptions/nordea_tech_lead___google_cloud_platf_717258ab.txt"
   },
   {
     "title": "Technical Release Manager",
@@ -3774,14 +3769,13 @@
     "url": "https://hu.linkedin.com/jobs/view/technical-release-manager-at-rollout-it-4463509647",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a strong match for her release management, DevOps and technical coordination experience in regulated environments.",
+    "reason": "The role is a Technical Release Manager in Hungary, matching the candidate\u2019s release management expertise and EU location preference.",
     "id": "26549093",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/rollout_it_technical_release_manager_26549093.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/rollout_it_technical_release_manager_26549093.txt"
   },
   {
     "title": "Senior Release Manager",
@@ -3789,15 +3783,14 @@
     "location": "Dublin, County Dublin, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/senior-release-manager-at-uniphar-group-4429114199",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure SAP technical specialist position focused on environment provisioning and release management, which does not match her strong DevOps/CI/CD/release-management background. She has no SAP experience.",
+    "matches_requirements": "yes",
+    "reason": "The role is a direct match for her Senior Release Manager profile and is located within the EU, which she is open to.",
     "id": "ebb400b9",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/uniphar_group_senior_release_manager_ebb400b9.txt"
   },
   {
     "title": "Release Manager (m/w/d)",
@@ -3805,15 +3798,14 @@
     "location": "Kiel, Schleswig-Holstein, Germany",
     "url": "https://de.linkedin.com/jobs/view/release-manager-m-w-d-at-spectrum-ag-4452268581",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her release management, CI/CD pipeline experience and regulated industry background.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "42f1e789",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/spectrum_ag_release_manager__m_w_d__42f1e789.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -3822,14 +3814,13 @@
     "url": "https://mt.linkedin.com/jobs/view/release-manager-at-platin-gaming-ltd-4415496863",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Malta, which does not match the candidate's requirement for being based in Finland or the EU.",
+    "reason": "The posting states that applications are no longer accepted, which is a hard rejection.",
     "id": "2d7f8b1f",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "DevOps & Release Lead",
@@ -3838,14 +3829,13 @@
     "url": "https://bg.linkedin.com/jobs/view/devops-release-lead-at-fadata-4433925793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which does not match her strict exclusion for US-only roles and her preference for Finland/EU-based positions.",
+    "reason": "Job is closed and no longer accepting applications.",
     "id": "d51c0f06",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Product Release Manager (m/w/d) \u2013 Software & CI/CD",
@@ -3853,15 +3843,14 @@
     "location": "Kiel, Flemish Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/product-release-manager-m-w-d-%E2%80%93-software-ci-cd-at-aconext-4460475498",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release management/DevOps-focused like her background.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management and CI/CD expertise, but it is located in Belgium, which would require relocation.",
     "id": "d601bc75",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager (all genders)",
@@ -3869,15 +3858,14 @@
     "location": "Warsaw, Mazowieckie, Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-manager-all-genders-at-mettler-toledo-international-inc-4461973262",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type, but it's located in Poland which would require relocation. She is open to relocating within Finland and to remote roles based in the EU/Europe, but this isn't explicitly stated as an option.",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "84fec480",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -3886,14 +3874,13 @@
     "url": "https://dk.linkedin.com/jobs/view/release-manager-at-festina-finance-4459770959",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hareskovby, Denmark which does not match the candidate's requirement to be based in Finland or EU/Europe.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "9aca5e89",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -6392,22 +6379,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Math Modeler",
-    "company": "Extract from page",
-    "location": "Helsinki, Turku, FI",
-    "url": "https://fi.indeed.com/rc/clk?jk=262ca79178a2ca21",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match the candidate's strict exclusion of US-based roles and her preference for EU-based opportunities.",
-    "id": "eb9884b5",
-    "source": "indeed_fi_product_specialist",
-    "posted_date": "N/A",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Product Solutions Specialist - Europe, 100% remote",
     "company": "LimeFlight",
     "location": "Berlin, Germany",
@@ -7779,38 +7750,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Rengasasentajia Tampereen alueelle",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Tampere, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/eb9004d4-d752-48b5-bbdb-5754aa527f21/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for tire changers, which does not match her technical configuration management and product specialist background.",
-    "id": "745e2c61",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Haalaajia/kodinkoneasentajia",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Espoo, Helsinki, Vantaa, Uusimaa, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b845c2ff-554e-417d-a8e9-07a16899efb1/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for manual labor moving furniture and supplies, not technical configuration management/release engineering.",
-    "id": "c1607dc6",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -9765,22 +9704,6 @@
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": "job_descriptions/ammattiopisto_luovi__j_rjestelm_asiantuntija__robot_8f5d30ef.txt",
-    "needs_re_review": true
-  },
-  {
-    "title": "J\u00e4rjestelm\u00e4asiantuntija (2 teht\u00e4v\u00e4\u00e4)",
-    "company": "Valtori",
-    "location": "Helsinki, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2-tehtavaa-2746317",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for Priya's configuration management, release management, and Citrix expertise, with the added bonus of being in Finland.",
-    "id": "36a1c22e",
-    "source": "jobly_fi_configuration_manager",
-    "posted_date": "2026-08-31",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/valtori_j_rjestelm_asiantuntija__2_teh_36a1c22e.txt",
     "needs_re_review": true
   },
   {
@@ -11784,22 +11707,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Sairaanhoitaja, Tyks yleisl\u00e4\u00e4ketieteen sairaalaosastot, Raisio",
-    "company": "Varsinais-Suomen hyvinvointialue",
-    "location": "Raisio, Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=1d240a58ecde6e7b",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Raisio, Finland which does not match the strict non-negotiable exclusion of jobs located in the United States.",
-    "id": "9ca3fa08",
-    "source": "indeed_fi_broad_p2",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "L\u00e4hihoitaja vammaispalveluihin H\u00e4meenlinnaan",
     "company": "Kanta-H\u00e4meen hyvinvointialue",
     "location": "H\u00e4meenlinna, Finland",
@@ -13029,22 +12936,6 @@
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "IT-arkkitehti (Linux-infrastruktuuri)",
-    "company": "Tampere University",
-    "location": "Tampere, Pirkanmaa, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/it-arkkitehti-linux-infrastruktuuri-at-tampere-university-4456009337",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role of IT Architect (Linux Infrastructure) matches her experience and skills, especially given her background in configuration management, release management, and DevOps/CI-CD in regulated industries.",
-    "id": "eb8d913e",
-    "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2026-09-02",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/tampere_university_it_arkkitehti__linux_infrastru_eb8d913e.txt",
     "needs_re_review": true
   },
   {
@@ -16149,22 +16040,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-01",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "HR-/ty\u00f6maa-assistentti maanrakennusalan yritykseen",
-    "company": "Rekrymesta Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Sotkamo, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5f00058e-6ce6-4556-9dd5-0558d355bc87/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for an HR/Worksite Assistant in a construction industry project, which does hands-on Excel and office document work. Priya's background is in technical communication, product specialist roles, release management, DevOps, and regulated industries - not administrative or construction project assistant work.",
-    "id": "5142fded",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -19467,22 +19342,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Raskaan kaluston rengasasentaja Espoo ja Vantaa",
-    "company": "Kaveriontti Oy",
-    "location": "Espoo, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/303cb751-8b2a-45fb-ab8b-67514bd3b457/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Espoo, Finland which does not match her location preference of being open to roles anywhere in Finland or EU/Europe but not specifically there.",
-    "id": "1390d2e4",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Kokenut j\u00e4rjestelm\u00e4kehitt\u00e4j\u00e4 (integraatiot ja alustat) - Avoin haku",
     "company": "IQI",
     "location": "Helsinki, Uusimaa, Finland",
@@ -20262,22 +20121,6 @@
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "ASIANTUNTIJA (KYC \u2013 KNOW YOUR CUSTOMER)",
-    "company": "Business Finland",
-    "location": "Helsinki, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/asiantuntija-kyc-know-your-customer-2749086",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a KYC (Know Your Customer) specialist, which does not match her technical release/DevOps background and experience.",
-    "id": "74036bfc",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -21608,22 +21451,6 @@
     "deadline": "18.09.2026, 23.59",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Liiketoiminta-analyytikko",
-    "company": "Helen Oy",
-    "location": "Helsinki, Uusimaa, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2a842b99-2a45-403a-8ea9-a28667e5f640/fi",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a good match for Priya's skills and experience, especially her release management, configuration management, and DevOps background. It's located in Finland which she is open to.",
-    "id": "c41f7a67",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/helen_oy_liiketoiminta_analyytikko_c41f7a67.txt",
     "needs_re_review": true
   },
   {
@@ -24327,38 +24154,6 @@
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Tekninen asiantuntija | Vaasan S\u00e4hk\u00f6verkko",
-    "company": "Vaasan S\u00e4hk\u00f6 Oy",
-    "location": "Vaasa, Ostrobothnia, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/tekninen-asiantuntija-vaasan-s%C3%A4hk%C3%B6verkko-at-vaasan-s%C3%A4hk%C3%B6-oy-4453412707",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Vaasa, Finland which does not match her requirement for roles in Finland but open to remote EU/European roles.",
-    "id": "b42e1acf",
-    "source": "linkedin_fi_product_specialist",
-    "posted_date": "3 viikkoa sitten",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Global Technical Training Specialist",
-    "company": "Normet Group",
-    "location": "Iisalmi, North Savo, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/global-technical-training-specialist-at-normet-group-4464361849",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure technical training specialist focused on coordinating and creating training materials, not release management, DevOps, or regulated product roles that match her background.",
-    "id": "906c5bed",
-    "source": "linkedin_fi_product_specialist",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -30412,22 +30207,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Kiviasennustaitoinen maanrakennusty\u00f6ntekij\u00e4",
-    "company": "WorkPower Rakennus Otava Oy",
-    "location": "Tampere, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3d21d70a-5024-4d65-bdb4-62fe8b38dc56/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a construction worker, not an engineering/technical role with her skills.",
-    "id": "e77f5820",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Laminointity\u00f6ntekij\u00e4, Akaa",
     "company": "WireStaff Oy",
     "location": "Akaa, Pirkanmaa, Finland",
@@ -30924,22 +30703,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Hammashoitaja",
-    "company": "Hammasvelho Oy",
-    "location": "Tampere, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c59786d6-7a07-4121-b529-d7f623a6eb7e/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a dental hygienist position, not related to her semiconductor/VLSI/EDA background and experience.",
-    "id": "cbbadae8",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Varhaiskasvatuksen lastenhoitaja, Katisten p\u00e4iv\u00e4koti, toistaiseksi 1.10.2026 alkaen",
     "company": "H\u00e4meenlinnan kaupunki",
     "location": "H\u00e4meenlinna, Finland",
@@ -31255,22 +31018,6 @@
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Ajoneuvoasentaja",
-    "company": "Broman Group Oy",
-    "location": "Kokkola, Central Ostrobothnia, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/ajoneuvoasentaja-at-broman-group-oy-4464334357",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires a valid B driving license, which is not relevant to Priya's background.",
-    "id": "1b983377",
-    "source": "linkedin_fi_broad",
-    "posted_date": "2026-09-07",
-    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -32972,22 +32719,6 @@
     "needs_re_review": true
   },
   {
-    "title": "IV-asentaja, Kuopio",
-    "company": "Visio Henkil\u00f6st\u00f6ratkaisut Uusimaa Oy",
-    "location": "Kuopio, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6a2a0a94-4753-431c-a4cb-eba2e401eb21/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for an IV assembler, which does not match her semiconductor/VLSI/EDA background and experience.",
-    "id": "30e7352e",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Keitti\u00f6n vuoromestari - Brasserie Deux, Tampere",
     "company": "YES Your Excellent Staff Oy",
     "location": "Tampere, Finland",
@@ -33031,22 +32762,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-01",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Sairaanhoitaja (m\u00e4\u00e4r\u00e4aikainen), Mehil\u00e4inen Riihim\u00e4ki",
-    "company": "Mehil\u00e4inen Oy",
-    "location": "Riihim\u00e4ki, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/775d2eb9-201a-4ae6-bb2c-152af351ff94/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a temporary maternity leave cover position, which does not match her senior DevOps/Release Management experience and long-term availability.",
-    "id": "dc5d7855",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-21",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -33324,22 +33039,6 @@
     "needs_re_review": true
   },
   {
-    "title": "IT-arkkitehti (Linux-infrastruktuuri)",
-    "company": "Tampere University",
-    "location": "Tampere, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/it-arkkitehti-linux-infrastruktuuri-2738684",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for an IT Architect specializing in Linux infrastructure, requiring deep technical expertise in Linux environments and related technologies. Priya's background is more focused on release management, DevOps, CI/CD, and product specialist roles with a quality/regulatory focus rather than hands-on Linux architecture and infrastructure engineering.",
-    "id": "248b755a",
-    "source": "jobly_broad",
-    "posted_date": "N/A",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Kaivinkoneen per\u00e4mies y\u00f6vuoroon",
     "company": "Eezy Henkil\u00f6st\u00f6palvelut",
     "location": "Espoo, Finland",
@@ -33369,22 +33068,6 @@
     "deadline": "2026-09-27",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Kokoonpanija, Sein\u00e4joki",
-    "company": "YES Your Excellent Staff Oy",
-    "location": "Sein\u00e4joki, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/998a4b2f-02f5-4174-8f4f-ad7c27390c53/fi",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her technical background, release management experience, and is located in Finland",
-    "id": "1d4e2583",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-21",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/yes_your_excellent_s_kokoonpanija__sein_joki_1d4e2583.txt",
     "needs_re_review": true
   },
   {
@@ -39021,22 +38704,6 @@
     "needs_re_review": true
   },
   {
-    "title": "CNC-hioja, Tampere",
-    "company": "Worknow Oy",
-    "location": "Tampere, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d971c96d-bb1b-480f-a9af-58a6a2c82039/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency, which the candidate does not have.",
-    "id": "fef5ce2d",
-    "source": "tyomarkkinatori",
-    "posted_date": "14.9.2026, 17.10",
-    "deadline": "2026-09-21",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Aloitteleva ajoneuvoasentaja monimerkkikorjaamoon (12-15\u20ac)",
     "company": "Aloitteleva ajoneuvoasentaja monimerkkikorjaamoon (12-15\u20ac)",
     "location": "Tampere, Finland",
@@ -39097,22 +38764,6 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Teollisuuden s\u00e4hk\u00f6- ja automaatioasentaja",
-    "company": "Worknow Oy",
-    "location": "Tampere, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/74956997-a8c0-4703-8833-037ee8aaa3b9/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Job is for industrial electrical installation, not a release/DevOps/CM role.",
-    "id": "f7c0a653",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-14",
-    "deadline": "2026-09-21",
-    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
     "needs_re_review": true
   },
@@ -39497,22 +39148,6 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Myyntineuvottelija",
-    "company": "TN Kustannus Oy",
-    "location": "Helsinki, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/68969524-7ecf-402b-9e84-f098e0b300a0/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure sales position requiring Finnish language, which does not match the candidate's technical/release focus and language skills.",
-    "id": "03ec4eb2",
-    "source": "tyomarkkinatori",
-    "posted_date": "julkaistu 14.9.2026, 18.39",
-    "deadline": "2026-09-21",
-    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
     "needs_re_review": true
   },
@@ -68298,22 +67933,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "J\u00e4lkik\u00e4sittelij\u00e4/tuotantoty\u00f6ntekij\u00e4 Paraisille",
-    "company": "Worker Henkil\u00f6st\u00f6ratkaisut",
-    "location": "Kaarina, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/jalkikasittelija-paraisille-2756414",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Job requires fluent Finnish language, which the candidate does not have.",
-    "id": "6e91470a",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-17",
-    "deadline": "2026-09-21",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
     "needs_re_review": true
