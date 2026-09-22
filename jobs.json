@@ -1558,14 +1558,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=38ab7c626140afd2",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position in Finland that aligns with her extensive experience in CI/CD, deployment, and operational management.",
     "id": "7cae75ba",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/iceye_devops_engineer_7cae75ba.txt"
   },
   {
     "title": "Senior DevOps Engineer - Core Platform Engineering",
@@ -1588,14 +1588,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=d41b600073aff59c",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "yes",
+    "reason": "The role's focus on platform engineering, CI/CD, and automation aligns well with her extensive background in release management, configuration management, and DevOps.",
     "id": "fb37fffb",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt"
   },
   {
     "title": "Staff Developer Advocate",
@@ -1603,13 +1603,13 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=4c3b86712c6b1625",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a Staff Developer Advocate focused on API enablement and developer content, which does not align with the candidate\u2019s target domains of release management, configuration management, or product specialist in regulated environments.",
     "id": "31240eb6",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -1648,13 +1648,13 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=223c30814249e037",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that the position is no longer open.",
     "id": "f6bb3fc1",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -1663,13 +1663,13 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=e81816b3afcc5e98",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a Senior Data Architect, which does not align with the candidate's target DevOps/Release/Configuration Management/Product Specialist focus.",
     "id": "bc3a9dfc",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -1693,14 +1693,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=4d62b0725dc0bc72",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "yes",
+    "reason": "The role's focus on CI/CD architecture, release ownership, and delivery automation aligns directly with her extensive background in DevOps and Release Management.",
     "id": "94151ae3",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt"
   },
   {
     "title": "DevOps Engineer, Tampere",
@@ -1709,14 +1709,13 @@
     "url": "https://www.jobly.fi/tyopaikka/devops-engineer-tampere-2740559",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Matches her DevOps/CI/CD/Linux/sysadmin background, hybrid work model, and Tampere location.",
+    "reason": "The role is a DevOps Engineer in Tampere, Finland, matching the candidate\u2019s domain, location, and experience level.",
     "id": "1b091dd5",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1b091dd5.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1b091dd5.txt"
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1725,14 +1724,13 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-software-engineer-devops-platform-engineering-2750369",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Matches her DevOps, CI/CD, release management background and is based in Finland with remote option.",
+    "reason": "The role's focus on DevOps, platform engineering, and CI/CD automation aligns perfectly with her extensive experience in release management and automation.",
     "id": "f20de87e",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-23",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/dna_oyj_senior_software_engineer__devo_f20de87e.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/dna_oyj_senior_software_engineer__devo_f20de87e.txt"
   },
   {
     "title": "Facebook",
@@ -1741,14 +1739,13 @@
     "url": "https://www.facebook.com/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Finland which does not match her preference for roles in Finland or EU/Europe.",
+    "reason": "The posting contains no actual job description or role details, so it does not match any target domain or role.",
     "id": "72167a89",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Instagram",
@@ -1757,14 +1754,13 @@
     "url": "https://instagram.com/jobly.fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not contain a specific job title, company name, location, deadline, or date posted that would allow evaluation against the given criteria.",
+    "reason": "Job posting lacks a specific role, location, or relevant details to evaluate against the candidate\u2019s criteria.",
     "id": "6cbf22da",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Linkedin",
@@ -1773,14 +1769,13 @@
     "url": "https://linkedin.com/company/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a staffing/recruiting company (Jobly.fi) and does not list an open specific job. It's a general overview of their services, not a job search result.",
+    "reason": "The provided text is a company profile for a recruitment agency and does not contain a specific job description.",
     "id": "cb4a0d29",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Configuration Specialist",
@@ -1789,14 +1784,13 @@
     "url": "https://fi.linkedin.com/jobs/view/configuration-specialist-at-iceye-4432885515",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a strong match for her configuration management, release management, and DevOps experience, especially in a regulated manufacturing environment. It's located in Espoo, Finland which she is open to.",
+    "reason": "The role is a strong match for her configuration management, change control, and technical documentation expertise in a regulated manufacturing environment.",
     "id": "7219e2e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/iceye_configuration_specialist_7219e2e3.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/iceye_configuration_specialist_7219e2e3.txt"
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1805,14 +1799,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207645",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for SAP Variant Configuration transformation, which does not directly match her CI/CD/release management background.",
+    "reason": "The role requires deep, hands-on expertise in SAP Variant Configuration (LO-VC and AVC), which is a specific functional ERP domain distinct from the candidate's expertise in software release management and CI/CD.",
     "id": "24d8c7e1",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1820,15 +1813,14 @@
     "location": "Oulu, North Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456210615",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her SAP configuration and migration experience, with global impact.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a senior configuration leadership position that aligns with her seniority and 'Configuration Management' background, but requires specialized SAP expertise not explicitly mentioned in her profile.",
     "id": "7792763e",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/sulzer_sap_variant_configuration_tran_7792763e.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Solution Architect, PLM",
@@ -1836,15 +1828,14 @@
     "location": "Raisio, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460366683",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a PLM Solution Architect focused on Windchill, which does not match her strong release/CI/CD/regulated domain background. She has no PLM/Windchill experience.",
+    "matches_requirements": "maybe",
+    "reason": "The role's focus on PLM and release management aligns with her configuration management background, but she lacks explicit experience with the Windchill platform.",
     "id": "26a4181d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Application Specialist (ERP)",
