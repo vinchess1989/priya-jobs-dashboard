@@ -3468,15 +3468,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/quality-engineering-lead-at-brawl-stars-4460761486",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located onsite in Helsinki, Finland which does not match her strict non-negotiable exclusion of US-based roles and her openness to relocate within Finland or work remotely EU-wide.",
+    "matches_requirements": "yes",
+    "reason": "Extracted via regex fallback",
     "id": "4d7d3960",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": "job_descriptions/brawl_stars_quality_engineering_lead_4d7d3960.txt"
   },
   {
     "title": "Release Manager til Sund & B\u00e6lt",
@@ -3484,15 +3483,14 @@
     "location": "Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/release-manager-til-sund-b%C3%A6lt-at-sund-b%C3%A6lt-4460064703",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role matches her release management, CI/CD pipeline ownership, and regulated industry experience. It's in Denmark which is in the EU.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "6c02d07f",
     "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "2026-09-02",
-    "deadline": "2026-09-30",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/sund___b_lt_release_manager_til_sund___b_l_6c02d07f.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Product Manager - Core Platform (Engine, Scale & Reliability)",
@@ -3500,15 +3498,14 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-core-platform-engine-scale-reliability-at-n8n-4448398906",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a Senior Product Manager focused on Core Platform, Engine, Scale & Reliability - this matches her technical release/DevOps background and platform experience but does not directly align with her prior work in technical communication/documentation/product specialist roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Product Management position, whereas the candidate's expertise is primarily in Release Management, Configuration Management, and DevOps, though there is significant overlap in technical platform delivery and release coordination.",
     "id": "6db5fe91",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Linux Enablement - Software Engineering Manager",
@@ -3516,15 +3513,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/linux-enablement-software-engineering-manager-at-canonical-4254969639",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Software Engineering Manager position focused on Linux enablement, which matches her background and skills.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns well with her seniority and technical enablement background, but requires Chinese language proficiency which is not listed in her profile.",
     "id": "92830076",
     "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "1 year ago",
+    "posted_date": "1 vuosi sitten",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/canonical_linux_enablement___software_en_92830076.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Program Manager - Core Network Delivery & MNO Onboarding",
@@ -3533,14 +3529,13 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-program-manager-core-network-delivery-mno-onboarding-at-skylo-4426344910",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CI/CD/DevOps focused like her background. She would be overqualified.",
+    "reason": "The role requires deep telecom core/signalling engineering experience, which is not covered by the candidate\u2019s background in release management and embedded software.",
     "id": "3e2518e3",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Quality Engineering Lead",
@@ -3548,15 +3543,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/quality-engineering-lead-at-supercell-4460718307",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type, but the location (Helsinki) is a 'maybe' as she's open to relocating within Finland.",
+    "matches_requirements": "yes",
+    "reason": "The role's focus on QA strategy, automation, and integrating quality gates into CI/CD pipelines aligns perfectly with her extensive experience in release management and DevOps.",
     "id": "7afe508f",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/supercell_quality_engineering_lead_7afe508f.txt"
   },
   {
     "title": "Software Development Manager",
@@ -3564,15 +3558,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/software-development-manager-at-hansen-technologies-4435780243",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Senior Software Engineering Management position, which does not match her mid-senior level DevOps/Release Management background. She has no software engineering experience to offer.",
+    "matches_requirements": "yes",
+    "reason": "The role focuses on engineering excellence, CI/CD, and DevOps practices, which aligns with her extensive background in release management and quality gatekeeping.",
     "id": "743b9ba4",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/hansen_technologies_software_development_manager_743b9ba4.txt"
   },
   {
     "title": "Senior SW Project Manager",
@@ -3580,15 +3573,14 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-sw-project-manager-at-safegrid-%E2%80%93-a-g-w-electric-company-4457761025",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her technical project management and coordination experience, but the location is unclear as it only says 'Turku, Finland' without specifying if this is on-site/hybrid/remote.",
+    "matches_requirements": "yes",
+    "reason": "The role focuses on technical coordination, release management, and process oversight, which aligns with her background in release management and technical product specialization.",
     "id": "0906a2f2",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/safegrid___a_g_w_ele_senior_sw_project_manager_0906a2f2.txt"
   },
   {
     "title": "Product Owner, Engineering AI Platform & Capabilities (Helsinki/Oulu)",
@@ -3596,15 +3588,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-owner-engineering-ai-platform-capabilities-helsinki-oulu-at-op-pohjola-4460353228",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Helsinki, Finland which does not match the Oulu location specified in the job title.",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "6123f26c",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Project Manager",
@@ -3612,15 +3603,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-at-taskmill-4462310633",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her technical project management experience, but the location is unclear - it doesn't specify Finland. She may be willing to relocate there.",
+    "matches_requirements": "no",
+    "reason": "The role mandates fluent Finnish language skills, which the candidate does not have.",
     "id": "bda9ec4c",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Senior Project Manager",
@@ -3629,14 +3619,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-project-manager-at-relex-solutions-4460472640",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Project Manager for software implementation, which does not closely match her DevOps/CM/release background. The job is also located in Helsinki Finland, which she is open to but would prefer roles based in other EU countries.",
+    "reason": "The role is a general project manager position, not focused on release/CM/DevOps responsibilities that match the candidate's expertise.",
     "id": "f4b1e9cd",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "ICT Manager / ICT Projektip\u00e4\u00e4llikk\u00f6",
@@ -3645,14 +3634,13 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-manager-ict-projektip%C3%A4%C3%A4llikk%C3%B6-at-helsinki-shipyard-4453426139",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an ICT Manager / ICT Projektip\u00e4\u00e4llikk\u00f6, which does not directly match her technical release/DevOps background and experience level. The job is also located in Helsinki Finland, which she is open to but prefers other EU locations over.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted and requires fluent Finnish, which the candidate does not speak.",
     "id": "6b16931e",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Senior Project Manager",
@@ -3661,14 +3649,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-project-manager-at-solita-4457742853",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Project Manager focused on large-scale digital transformation projects, which does not directly match her DevOps/CI/CD/release management background. The location is also in Finland, which she is open to but the job did not specify being remote.",
+    "reason": "The role requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "b13183aa",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Senior Product Manager",
@@ -3677,14 +3664,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-at-qoco-systems-ltd-4459205623",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires strong discovery skills including customer interviewing, observation, problem framing, data analysis, hypothesis creation, prototyping, experimentation and validation. Priyanga Ramachandran's background is primarily in software engineering, release management, CI/CD pipelines, technical documentation and quality assurance, not product discovery or customer-facing research.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "a126d773",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Senior Product Manager - Paper.io 2",
@@ -3693,14 +3679,13 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-paper-io-2-at-voodoo-4462770662",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure product management position focused on live game operations, which does not match her strong background in DevOps/CI/CD/release management and configuration management.",
+    "reason": "Extracted via regex fallback",
     "id": "35aa6e5a",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Sr. Product Manager",
