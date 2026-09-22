@@ -1843,15 +1843,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role of Application Specialist (ERP) closely matches Priya's background in release management, quality assurance, and technical product specialist roles. The job is located in Tampere, Finland which she is open to.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/insta_application_specialist__erp__c80a30ad.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Implementation Consultant",
@@ -1859,15 +1858,14 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a strong match for her domain/role type and location/work model, but requires 5-8 years of IT integrations/configuration experience which she does not have. She has over 15 years total.",
+    "matches_requirements": "yes",
+    "reason": "The role is a technical implementation and solution specialist position in Finland, which aligns with her experience in technical product specialization and configuration.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/thomson_reuters_implementation_consultant_2d4e2bf2.txt"
   },
   {
     "title": "System Engineer",
@@ -1875,15 +1873,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/system-engineer-at-iceye-4427036824",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Espoo, Finland which does not match the candidate's requirement to be located in Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role's emphasis on automated deployment pipelines and version-controlled configurations aligns well with her expertise in DevOps and Configuration Management.",
     "id": "84c95aff",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/iceye_system_engineer_84c95aff.txt"
   },
   {
     "title": "Senior Implementation Consultant",
@@ -1891,15 +1888,14 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-consultant-at-thomson-reuters-4460058834",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure sales quota-carrying position titled 'Product Specialist', which she has explicitly excluded as non-matching to her background.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with the 'Product Specialist' definition through its focus on application configuration and technical support, but it is a pivot from her recent focus on Release and DevOps.",
     "id": "c7fcb0b3",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "ERP Solutions Manager",
@@ -1907,15 +1903,14 @@
     "location": "Kauhajoki, South Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/erp-solutions-manager-at-ikh-group-4462205522",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for an on-site/hybrid position physically located in Kauhajoki, Finland which does not match her strict non-negotiable exclusion of US-only roles and her preference for EU/Europe-based remote positions.",
+    "matches_requirements": "yes",
+    "reason": "Extracted via regex fallback",
     "id": "c7deb945",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt"
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
@@ -1923,15 +1918,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/google-workspace-consultant-%E2%80%93-turn-technology-into-more-meaningful-ways-of-working-at-gapps-4390153797",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Google Workspace Consultant focused on helping organizations with adoption and change, which does not match her background in embedded software engineering, release management, and technical documentation. She would be overqualified for this junior consultant-level position.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves technical configuration and implementation which aligns with her skills, but the domain (Google Workspace/IT Consulting) differs from her core expertise in software release and CI/CD in regulated industries.",
     "id": "d5c23071",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "ERP & Master Data Specialist",
@@ -1955,15 +1949,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/cpu-solutions-specialist-at-verda-4456274102",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her technical product specialist background, but it's unclear if relocation to Helsinki would be allowed based on the text.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "eec5b12d",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "M365-asiantuntija",
@@ -1972,14 +1965,13 @@
     "url": "https://fi.linkedin.com/jobs/view/m365-asiantuntija-at-cgi-4464399052",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish/Swedish fluency, which Priya does not have.",
+    "reason": "Job requires fluent Finnish, which the candidate does not have.",
     "id": "be3156ab",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Integration Lead",
@@ -1987,15 +1979,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/integration-lead-at-solita-4461874814",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her integration/DevOps/release background, especially with the regulated/safety-critical aspects. The only open question is location - it's in Finland but not explicitly EU-wide remote.",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "ddb36711",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-24",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Master Data Lead",
@@ -2003,15 +1994,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/master-data-lead-at-kalmar-4461686814",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her DevOps/Release Management background, but the location (Tampere, Finland) would require relocation which she may not be willing to do.",
+    "matches_requirements": "no",
+    "reason": "The role is a Master Data Lead focused on data quality and analytics, not a DevOps, Configuration Management, Release Management, or technical Product Specialist position.",
     "id": "96cdf075",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-26",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "IT Solution Manager - FICO",
@@ -2019,15 +2009,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/it-solution-manager-fico-at-neste-4460250750",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Espoo, Finland which does not match her strict exclusion of US locations.",
+    "matches_requirements": "maybe",
+    "reason": "The candidate has strong experience in operational readiness, compliance, and lifecycle management, but lacks the specific SAP Finance (FICO) domain expertise required.",
     "id": "456232f8",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Microsoft 365 -konsultti",
@@ -2036,14 +2025,13 @@
     "url": "https://fi.linkedin.com/jobs/view/microsoft-365-konsultti-at-futuriot-4439007984",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which Priya does not speak.",
+    "reason": "The role is a Microsoft 365 Consultant position, which does not align with her specialized expertise in Release Management, Configuration Management, and DevOps in regulated industries.",
     "id": "928a3f19",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -2051,15 +2039,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/release-manager-at-finnplay-4463195385",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a match for her release management experience, and it's located in Espoo, Finland which she is open to.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "e695eceb",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/finnplay_release_manager_e695eceb.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Solution Manager, Managed File Transfer (MFT) & EDI",
@@ -2067,15 +2054,14 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-managed-file-transfer-mft-edi-at-fiskars-group-4457320334",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which Priya does not speak.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves technical ownership of integration platforms, which is adjacent to her DevOps and configuration management expertise, but requires specific B2B integration knowledge.",
     "id": "a6a18706",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "BIM Manager",
@@ -2084,14 +2070,13 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-john-sisk-son-ltd-4409265801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a BIM Manager in construction, which does not match Priya's electronics/telecoms background and release management focus. She has no experience in architecture/construction or digital project delivery.",
+    "reason": "The BIM Manager role focuses on construction BIM processes, not on release, configuration management, or DevOps, which are the candidate\u2019s core expertise.",
     "id": "0de2628d",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
