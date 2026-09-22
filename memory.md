@@ -6,6 +6,20 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Documentation-domain keywords added (2026-09-22)
+
+`_KEYWORD_TERMS` in `scraper.py` now includes `"Technical Writer"` and `"Documentation
+Specialist"` alongside the original four (DevOps Engineer, Configuration Manager, Release
+Manager, Product Specialist), at Priya's request to widen the dashboard to documentation-focused
+roles. This is a genuine fit, not a stretch — she has real Technical Writing & Translation
+Specialist (Accenture) and Technical Communication Specialist (Topcon) experience, both already
+used heavily in tailored resumes. `job_requirements.md`'s Domain/Role Type criteria (Target Job
+Criteria §1) got a matching new bullet so the LLM screening step scores these correctly instead of
+treating them as off-domain. No `FIXED_SITES` or site-template changes needed — new
+`_KEYWORD_TERMS` entries automatically get crossed with every existing site template (LinkedIn
+FI/EU, Indeed, Jobly, etc.) via `generate_targets()`. Takes effect on the scraper's next run (once
+daily at 08:00, or sooner if run manually).
+
 ## Major Features
 1. **Priya's Job Search Automation:** Scrapes customer success, administrative, hospitality, and educational opportunities across Finland and remote portals.
 2. **Hybrid Cloud & Local LLM Scoring:** Evaluates applicant match score using Groq API (`llama-3.3-70b-versatile`) with seamless local fallback to LM Studio.
