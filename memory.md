@@ -6,6 +6,25 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Vinjey Software Systems experience entry was missing from every resume (2026-09-23)
+
+`job_requirements.md` has always listed **Vinjey Software Systems (Nov 2012 – Dec 2013)** as part
+of Priya's real background ("earlier hands-on software engineering — C#, C++, embedded/DSP"), but
+this fifth, earliest role was never actually added to `master_data.json` when the candidate
+profile was first filled in (2026-09-06/07) — the template only ever had four experience entries
+(Topcon, Elektrobit, Accenture, Pronto). That meant it was silently missing from every tailored
+resume generated before 2026-09-23, twelve jobs' worth. Priya caught this herself and asked where
+it was. Fixed by asking her for the job title (she said "Software Engineer, similar to Pronto")
+and adding a fifth entry to the master template — title "Software Engineer", company "Vinjey
+Software Systems", dates "Nov 2012 – Dec 2013", two bullets about embedded/DSP software in C/C++
+(the exact scope `job_requirements.md` names, nothing further invented) — placed after Pronto as
+the earliest role. Retrofitted into all 12 already-tailored resumes' `*_data.json` files, then
+regenerated and visually re-verified each PDF still fits one page. `tailor-resume.md`'s
+`resume.experience` rule and "Priya's profile" facts list were both updated from "four entries" to
+"five entries" so future runs include Vinjey automatically. **If a future session notices any other
+fact in `job_requirements.md`'s Candidate Profile that isn't reflected in `master_data.json`,
+treat it the same way — check, don't assume the template is complete.**
+
 ## Documentation-domain keywords added (2026-09-22)
 
 `_KEYWORD_TERMS` in `scraper.py` now includes `"Technical Writer"` and `"Documentation
