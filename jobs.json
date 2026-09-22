@@ -3858,13 +3858,13 @@
     "location": "Warsaw, Mazowieckie, Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-manager-all-genders-at-mettler-toledo-international-inc-4461973262",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong technical match for her release management skills, but it is a hybrid position in Poland requiring relocation and she is overqualified for the listed junior seniority.",
     "id": "84fec480",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -3889,14 +3889,13 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-groupe-sii-4464451651",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type and experience level, but the location (Bucharest, Romania) would require relocation for her. She's open to relocating within Finland/EU but not specified about moving internationally.",
+    "reason": "The role is an excellent match for her release management and regulated industry experience, but it is located in Romania, which would require relocation.",
     "id": "7b890e66",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Engineer",
@@ -3904,15 +3903,14 @@
     "location": "Budapest, Budapest, Hungary",
     "url": "https://hu.linkedin.com/jobs/view/release-engineer-at-telio-group-4451208597",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary which does not match her requirement for Finland or EU-based roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a junior release engineer, which may not match Priyanga's senior-level experience.",
     "id": "cd8aa6f4",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Software Release & Configuration Manager (m/f/d)",
@@ -3920,15 +3918,14 @@
     "location": "Greater Munich Metropolitan Area",
     "url": "https://de.linkedin.com/jobs/view/software-release-configuration-manager-m-f-d-at-quantum-systems-4445724986",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her experience in software release management, configuration management, and product specialist roles in regulated industries.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a perfect match for her skills, but it is an on-site/hybrid role in another EU country (Germany) which requires relocation.",
     "id": "bfa6b4a3",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/quantum_systems_software_release___configurati_bfa6b4a3.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Engineering Manager- Release & Developer Productivity",
@@ -3936,15 +3933,14 @@
     "location": "Amsterdam Area",
     "url": "https://nl.linkedin.com/jobs/view/engineering-manager-release-developer-productivity-at-super-4439493182",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Amsterdam, Netherlands which does not match her strict exclusion of US-based roles and her preference for Finland/EU locations.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with her release engineering and DevOps expertise, is a senior position located in the EU, and requires English only.",
     "id": "fbd87cf6",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/super_engineering_manager__release___fbd87cf6.txt"
   },
   {
     "title": "Release Manager (1614)",
@@ -3952,15 +3948,14 @@
     "location": "Athens, Attiki, Greece",
     "url": "https://gr.linkedin.com/jobs/view/release-manager-1614-at-upcominds-4448176604",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her release management and DevOps experience, but the location in Athens Greece may require relocation which she has mentioned as open to within Finland/EU but not explicitly worldwide.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "279bd1e5",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Lead/Delivery Manager",
@@ -3968,15 +3963,14 @@
     "location": "Dublin, County Dublin, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/technical-lead-delivery-manager-at-gcs-4463247826",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role matches her experience with release management, cross-team coordination, and delivery lifecycle responsibilities in a SaaS platform. It's also located in Dublin, which she is open to.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with her release management and delivery expertise, but the hybrid requirement in Dublin would require relocation from Finland.",
     "id": "7cd11cbe",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/gcs_technical_lead_delivery_manage_7cd11cbe.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "IT Release Manager",
@@ -3984,15 +3978,14 @@
     "location": "Sofia, Sofia City, Bulgaria",
     "url": "https://bg.linkedin.com/jobs/view/it-release-manager-at-dormakaba-4455653022",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which does not match the candidate's preference for Finland or EU/European remote roles.",
+    "matches_requirements": "maybe",
+    "reason": "Extracted via regex fallback",
     "id": "206336fb",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -4000,15 +3993,14 @@
     "location": "Brussels Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/release-manager-at-tata-consultancy-services-4460963519",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a good match for her release management and DevOps experience, but the location is outside Finland/EU. She would need to relocate.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluent English and either French or Dutch, which the candidate does not possess.",
     "id": "90164855",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager (w/m/d)",
@@ -4017,14 +4009,13 @@
     "url": "https://de.linkedin.com/jobs/view/release-manager-w-m-d-at-kind-gmbh-co-kg-4427328399",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software development position, not release management/DevOps focused like her background.",
+    "reason": "The position requires C1 level German proficiency, which the candidate does not possess.",
     "id": "2a391be7",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Software Delivery Manager \u2013 Dublin City (3 days onsite per week)",
@@ -4032,15 +4023,14 @@
     "location": "Dublin, County Dublin, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/software-delivery-manager-%E2%80%93-dublin-city-3-days-onsite-per-week-at-it-search-4464453963",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her experience in DevOps, release management, and software delivery for a multinational company based in Dublin.",
+    "matches_requirements": "no",
+    "reason": "The posting states that applications are no longer accepted.",
     "id": "c8a4ee15",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/it_search_software_delivery_manager___du_c8a4ee15.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -4048,15 +4038,14 @@
     "location": "Athens, Attiki, Greece",
     "url": "https://gr.linkedin.com/jobs/view/release-manager-at-iknowhow-sa-4443289322",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her experience with release management, CI/CD, and DevOps - a strong technical fit for this role.",
+    "matches_requirements": "no",
+    "reason": "The posting indicates that applications are no longer accepted.",
     "id": "87424292",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/iknowhow_sa_release_manager_87424292.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Product Release Manager (m/w/x)",
@@ -4064,15 +4053,14 @@
     "location": "Kiel, Schleswig-Holstein, Germany",
     "url": "https://de.linkedin.com/jobs/view/product-release-manager-m-w-x-at-k-tronik-gmbh-4452583027",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type, but the location is non-negotiable Finland and she does not speak Finnish/Swedish. She would need to relocate to Germany.",
+    "matches_requirements": "no",
+    "reason": "Job is no longer accepting applications.",
     "id": "6cdfb399",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -4080,15 +4068,14 @@
     "location": "Rotterdam and The Hague",
     "url": "https://nl.linkedin.com/jobs/view/release-manager-at-pracyva-4461187039",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her domain/role type of release management, with key skills like deployment, data migration coordination, and ITIL release processes. Located in Rotterdam and The Hague, which are both in the EU.",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "36b8d2b6",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/pracyva_release_manager_36b8d2b6.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "PMT-Release Engineering",
