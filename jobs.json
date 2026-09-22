@@ -2956,13 +2956,13 @@
     "location": "Kassel, Hesse, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-all-gender-%E2%80%93-engineering-change-management-999-at-alten-4432743779",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her Configuration Management expertise and is located in the EU, but requires German proficiency which is not listed in her profile.",
     "id": "91940bfe",
     "source": "linkedin_eu_remote_configuration_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "4 uker siden",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -3077,14 +3077,13 @@
     "url": "https://www.indeed.com/help/job-seekers/articles/33465379855501-cloudflare-errors-basic-troubleshooting?hl=en",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a general troubleshooting guide article, not a specific job opening with requirements matching her profile.",
+    "reason": "The posting is a troubleshooting article, not a job listing, and contains no role, company, or location information.",
     "id": "468c5bc5",
     "source": "indeed_fi_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "IT Service Data and Configuration Product Owner, Tampere or Helsinki",
@@ -3093,14 +3092,13 @@
     "url": "https://www.jobly.fi/tyopaikka/it-service-data-and-configuration-product-owner-tampere-or-helsinki-2745565",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which Priya does not speak.",
+    "reason": "Job posting is no longer active.",
     "id": "3bb50043",
     "source": "jobly_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Paloilmoitinj\u00e4rjestelm\u00e4asiantuntija - p\u00e4\u00e4kaupunkiseutu",
@@ -3109,14 +3107,13 @@
     "url": "https://www.jobly.fi/tyopaikka/paloilmoitinjarjestelmaasiantuntija-paakaupunkiseutu-2748265",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site work in Finland, which violates her non-negotiable exclusion of US-based roles.",
+    "reason": "The role requires Finnish language fluency and hands\u2011on electrical installation work, which does not align with Priyanga\u2019s release/CM/DevOps background and she does not speak Finnish.",
     "id": "d4d4dbb3",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Digitaalisen identiteetin erityisasiantuntija",
@@ -3125,14 +3122,13 @@
     "url": "https://www.jobly.fi/tyopaikka/digitaalisen-identiteetin-erityisasiantuntija-2736452",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a digital identity specialist focused on university IT services, not release management or DevOps.",
+    "reason": "The position requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "ae272bbe",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija (s\u00e4hk\u00f6), Hyvink\u00e4\u00e4",
@@ -3140,15 +3136,14 @@
     "location": "Hyvink\u00e4\u00e4, Finland",
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-sahko-hyvinkaa-2750410",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a good match for her experience with release management, CI/CD pipelines, and regulated industries like automotive (ASPICE/TUV) and medical devices. It's in Finland, which she is open to.",
+    "matches_requirements": "no",
+    "reason": "The role is for a physical electrical technician/maintenance specialist, which is entirely outside the candidate's domain of software release management and DevOps.",
     "id": "14146148",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "2026-09-25",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/are_oy_j_rjestelm_asiantuntija__s_hk__14146148.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija (turvatekniikka), Oulu",
@@ -3157,14 +3152,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-turvatekniikka-oulu-2751202",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish/Swedish language fluency, which Priya does not speak.",
+    "reason": "The role requires fluent Finnish and is a field technician position for physical security systems, which does not align with the candidate's expertise in software release and DevOps.",
     "id": "066953c9",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-25",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -3173,14 +3167,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2750652",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Raisio, Finland which does not match her location preferences of being open to roles anywhere in Finland or EU/Europe but not in the United States.",
+    "reason": "The posting is closed and no longer accepting applications.",
     "id": "6b9abc6a",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Kouvola",
@@ -3189,14 +3182,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-kouvola-2738793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kouvola, Finland, which does not match her strict exclusion of non-EU/Finland locations.",
+    "reason": "The position requires fluent Finnish, which the candidate does not speak.",
     "id": "93f41d3f",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Espoo",
@@ -3205,14 +3197,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-espoo-2738782",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a system specialist in building automation, which does not match her semiconductor/VLSI/EDA background and experience.",
+    "reason": "The position requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "5ae9e447",
     "source": "jobly_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-17",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Tampere/Pirkanmaa",
@@ -3221,14 +3212,13 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-tampere-pirkanmaa-2743997",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for on-site work in Tampere/Pirkanmaa, Finland, which does not match her location preference of being open to remote roles based anywhere in the EU/Europe.",
+    "reason": "Job requires Finnish language proficiency, which the candidate does not have.",
     "id": "05db82a7",
     "source": "jobly_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Haussa myyji\u00e4 Helsinkiin, Turkuun & Ouluun",
@@ -3237,14 +3227,13 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/sector-alarm-haussa-myyjia-helsinkiin-tampereelle-turkuun-turku-sdsuu-20531731",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Helsinki, Turku & Oulu, Finland which does not match her location preference of being open to roles anywhere in Finland (remote or on-site) but specifically excluding the United States.",
+    "reason": "The role is a quota-carrying sales position that requires excellent Finnish language skills, which the candidate does not possess.",
     "id": "c8790afe",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "WSP:ll\u00e4 avoinna useita rooleja rakennuttamisessa (Tampere, Oulu, Rovaniemi, Vaasa tai Sein\u00e4joki)",
@@ -3252,15 +3241,14 @@
     "location": "Tampere, Oulu, Rovaniemi, Vaasa, Sein\u00e4joki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/wsp-finland-wsplla-avoinna-useita-rooleja-rakennuttamisessa-tampere-oulu-tai-rovaniemi-sdsuu-20479402",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role matches her experience in release management, CI/CD pipelines, and regulated industries like automotive (EB Corbos) and medical devices (Topcon). She is open to roles anywhere in Finland or remote EU/European roles.",
+    "matches_requirements": "no",
+    "reason": "The application period has ended and the roles are in the construction industry, which does not match the candidate's software release and DevOps background.",
     "id": "e1ead95d",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/wsp_finland_wsp_ll__avoinna_useita_rooleja_e1ead95d.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "jobbland.se",
