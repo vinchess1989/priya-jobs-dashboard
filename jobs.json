@@ -5272,13 +5272,13 @@
     "location": "Leusden, Utrecht, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-at-afas-software-4424654104",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "no",
+    "reason": "The position is explicitly listed as entry-level (instapniveau), which is a hard rejection for a candidate with 15 years of experience.",
     "id": "55fc21c3",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "3 maanden geleden",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -5302,13 +5302,13 @@
     "location": "Eindhoven, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-verlichting-uitzendbureau-nl-at-jobster-4463278494",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "no",
+    "reason": "The role is a Product Management position in the lighting industry, which does not align with the candidate's specialized expertise in software release management, CI/CD, and DevOps.",
     "id": "1adfcce6",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2 weken geleden",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -5318,14 +5318,13 @@
     "url": "https://at.linkedin.com/jobs/view/produktspezialist-w-m-d-at-anton-paar-consumertec-gmbh-4446646073",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure product specialist position focused on customer-facing technical support and application development, not release management/CI/CD/devops. Her strong background in those areas does not match this job.",
+    "reason": "Job is entry-level only, which does not match candidate's 15 years of experience.",
     "id": "9cc4d12c",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Product Specialist Cardiology",
@@ -5333,15 +5332,14 @@
     "location": "Rome, Latium, Italy",
     "url": "https://it.linkedin.com/jobs/view/product-specialist-cardiology-at-terumo-europe-4461090570",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Rome, Italy which does not match her strict non-negotiable exclusion of working in the United States.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "76c6de19",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "2026-09-02",
-    "deadline": "Open until filled",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Urologie & Vrouwengezondheid",
@@ -5350,14 +5348,13 @@
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-urologie-vrouwengezondheid-at-burger-support-bv-4457305792",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales position for medical devices, not a technical product specialist role focused on release management and quality. The job title 'Product Specialist' is misleadingly used in place of a quota-carrying sales or business development role.",
+    "reason": "The role is a quota\u2011carrying medical sales position, which is a hard rejection for the candidate.",
     "id": "9343ddea",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Produktspezialist (m/w/d) im Produktmanagement",
@@ -5365,15 +5362,14 @@
     "location": "Pfullendorf, Baden-W\u00fcrttemberg, Germany",
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-m-w-d-im-produktmanagement-at-kramer-werke-gmbh-4458475305",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure sales position mislabeled as 'Product Specialist', which she has done before (Topcon) but this job description focuses heavily on quota-carrying outbound sales rather than technical/product specialist work.",
+    "matches_requirements": "maybe",
+    "reason": "The role title aligns with her Product Specialist experience and the location is within the EU, but the full job description is not provided to confirm language requirements or specific duties.",
     "id": "4f0d8234",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Produktspezialist*in GC/GC-MS im Au\u00dfendienst",
@@ -5382,14 +5378,13 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-in-gc-gc-ms-im-au%C3%9Fendienst-at-shimadzu-deutschland-gmbh-4457787813",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure sales position with 'Product Specialist' in the title, which she has explicitly excluded as quota-carrying sales roles mislabeled. Her own product-specialist experience at Topcon was quality/technical, not sales.",
+    "reason": "The role is a quota\u2011carrying sales position, which is a hard rejection for this candidate.",
     "id": "7bc7c1be",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Internal Product Specialist Chemistry",
@@ -5398,14 +5393,13 @@
     "url": "https://be.linkedin.com/jobs/view/internal-product-specialist-chemistry-at-avantor-4459359201",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish or Swedish, which Priya does not speak.",
+    "reason": "The role is a commercial sales-oriented product specialist position, not a technical release/CM/DevOps role that matches the candidate\u2019s expertise.",
     "id": "45a0b512",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Product Specialist Diabetes Toscana",
@@ -5414,14 +5408,13 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-diabetes-toscana-at-wws-careers-4464087363",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales-oriented product specialist position, not a release/CM/DevOps role.",
+    "reason": "The role is a field-based sales and clinical application position, which falls under the hard rejection for quota-carrying sales roles mislabeled as 'Product Specialist'.",
     "id": "1c3cd6ea",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Global Product Specialist",
@@ -5429,15 +5422,14 @@
     "location": "Burnfoot, County Donegal, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/global-product-specialist-at-vertiv-4403464278",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Burnfoot, County Donegal, Ireland which does not match her location preferences of Finland or EU/Europe.",
+    "matches_requirements": "yes",
+    "reason": "The role is a senior-level Product Specialist position in the EU, aligning with her experience in technical product documentation and lifecycle management.",
     "id": "efceaa41",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/vertiv_global_product_specialist_efceaa41.txt"
   },
   {
     "title": "Productspecialist",
@@ -5446,14 +5438,13 @@
     "url": "https://be.linkedin.com/jobs/view/productspecialist-at-abiom-4451192424",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting states it is no longer accepting applications (closed position).",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "58252c50",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-08-12",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Commercial Vehicle Product Specialist",
@@ -5462,14 +5453,13 @@
     "url": "https://ie.linkedin.com/jobs/view/commercial-vehicle-product-specialist-at-mercedes-benz-commercial-vehicles-ireland-4455432402",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland which does not match the candidate's requirement to be based in Finland or EU/Europe.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "f373a774",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist (m/f)",
@@ -5478,14 +5468,13 @@
     "url": "https://si.linkedin.com/jobs/view/technical-product-specialist-m-f-at-iskraemeco-4462763490",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a good technical product specialist fit, but the location is unclear - it doesn't state whether this is fully remote or requires on-site work in Kranj. More details are needed to determine if it's an exact match.",
+    "reason": "The role aligns with her technical product specialist and documentation expertise, but requires relocation to Slovenia.",
     "id": "d1811e8d",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -5493,15 +5482,14 @@
     "location": "Breda, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-at-zemic-europe-4462794281",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Breda, Netherlands which does not match her requirement for a role in Finland or EU/Europe.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "b6b0039e",
     "source": "linkedin_eu_product_specialist_p2",
-    "posted_date": "2026-09-08",
-    "deadline": "Open until filled",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist Power",
@@ -5509,15 +5497,14 @@
     "location": "Zaandam, North Holland, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-power-at-boels-rental-4454008177",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Zaandam, Netherlands, which does not match the candidate's requirement to be based in Finland or EU/Europe.",
+    "matches_requirements": "maybe",
+    "reason": "Product Specialist role in the EU with a mid-level experience requirement; candidate is overqualified and would need to relocate to the Netherlands.",
     "id": "cfa60fc0",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist PDM-TPS-001",
