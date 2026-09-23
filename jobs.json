@@ -509,14 +509,13 @@
     "url": "https://ee.linkedin.com/jobs/view/devops-engineer-at-relax-gaming-ltd-4455765917",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and automation skills, but it is an on-site position in Estonia which would require relocation.",
+    "reason": "The candidate is overqualified for this Associate-level role, but the technical skills and location are a strong match.",
     "id": "3850ed31",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer - Zecure Gaming",
@@ -524,15 +523,14 @@
     "location": "Ta' Xbiex, Ta' Xbiex, Malta",
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-zecure-gaming-at-betsson-group-4437790389",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and CI/CD expertise and is located in the EU, but it is an on-site position in Malta which would require relocation.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer in Malta, an EU location, matching Priyanga\u2019s skills and experience in CI/CD, cloud, and infrastructure automation.",
     "id": "c7895e8f",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
-    "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "description_file": "job_descriptions/betsson_group_devops_engineer___zecure_gamin_c7895e8f.txt",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
   },
   {
     "title": "DevOps Engineer",
@@ -541,14 +539,13 @@
     "url": "https://lv.linkedin.com/jobs/view/devops-engineer-at-arrise-4435471425",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is an on-site DevOps position in Latvia (EU) which would require relocation, and the candidate is highly experienced for the requirements.",
+    "reason": "The role is a strong match for her DevOps and CI/CD skills, but it is an on-site position in Latvia which would require relocation.",
     "id": "d2fc2145",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer | Mid | Infra",
@@ -556,15 +553,14 @@
     "location": "Kaunas, Kaunas, Lithuania",
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-infra-at-nord-security-4424716628",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD skills, but it is located in Lithuania, which would require relocation.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position in the EU, which aligns with her CI/CD, automation, and release management expertise and her openness to EU-based remote work.",
     "id": "cee506cb",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
-    "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "description_file": "job_descriptions/nord_security_devops_engineer___mid___infra_cee506cb.txt",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer",
@@ -573,14 +569,13 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-kilo%E2%84%A2-4415711499",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps skills and is in the EU, but it requires being onsite in Vilnius 4 days a week and is listed as an entry-level position.",
+    "reason": "The candidate is overqualified for this entry-level role, and the position requires on-site presence in Lithuania.",
     "id": "8d73999a",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer (Cloud Platform)",
@@ -589,14 +584,13 @@
     "url": "https://lv.linkedin.com/jobs/view/devops-engineer-cloud-platform-at-luminor-group-4442123388",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and automation expertise and is located in the EU, but would require relocation and the company expresses a preference for candidates already in the Baltics.",
+    "reason": "The role aligns with her DevOps and technical writing expertise and is located within the EU, but would require relocation from Finland.",
     "id": "6cbaa998",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer",
@@ -605,14 +599,13 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-cimsolutions-4462956369",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Applications are no longer accepted.",
+    "reason": "The posting states it is no longer accepting applications.",
     "id": "cfa340d6",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b"
   },
   {
     "title": "Cloud Engineer",
@@ -620,15 +613,14 @@
     "location": "Galway, County Galway, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/cloud-engineer-at-ministry-brands-4448518153",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a hybrid position in Ireland, which is within the EU, but would require relocation for the candidate.",
+    "matches_requirements": "no",
+    "reason": "Job is entry-level only, which does not match the candidate's 15 years of experience.",
     "id": "9a90ffbe",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b"
   },
   {
     "title": "DevOps Engineer (m/w/d)",
@@ -637,14 +629,13 @@
     "url": "https://at.linkedin.com/jobs/view/devops-engineer-m-w-d-at-knapp-4460964775",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD expertise, but requires relocation to Austria.",
+    "reason": "The role is a strong match for her DevOps and CI/CD expertise and is located in the EU, but the job description is in German, making the language requirement uncertain.",
     "id": "15267fb0",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -652,15 +643,14 @@
     "location": "Tallinn, Harjumaa, Estonia",
     "url": "https://ee.linkedin.com/jobs/view/devops-engineer-at-defsecintel-solutions-4415929692",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer position in the EU, matching her CI/CD, Docker, and cloud infrastructure expertise.",
+    "matches_requirements": "maybe",
+    "reason": "The role matches her DevOps and CI/CD expertise in an EU location, but the posting is listed as entry-level, making her overqualified.",
     "id": "a39b58a1",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/defsecintel_solution_devops_engineer_a39b58a1.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Site Reliability Engineer / DevOps",
@@ -668,15 +658,14 @@
     "location": "Riga, Riga, Latvia",
     "url": "https://lv.linkedin.com/jobs/view/site-reliability-engineer-devops-at-ubiquiti-inc-4395231617",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Latvian, which the candidate does not possess.",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "9db5a671",
     "source": "linkedin_eu_remote_devops_engineer",
-    "posted_date": "il y a 1\u00a0jour",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -685,14 +674,13 @@
     "url": "https://bg.linkedin.com/jobs/view/devops-engineer-at-tiebreak-4461396478",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role matches her DevOps and CI/CD expertise, but the location in Bulgaria requires relocation outside Finland, making it a potential but uncertain fit.",
     "id": "9af2d433",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "AWS Cloud Engineer",
@@ -701,14 +689,13 @@
     "url": "https://ie.linkedin.com/jobs/view/aws-cloud-engineer-at-viotas-4448582467",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a DevOps/Cloud Engineer position in the EU, which aligns with her extensive experience in CI/CD, automation, and release management.",
+    "reason": "The role aligns with her DevOps and automation expertise and is located in the EU, which she is open to.",
     "id": "91008996",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/viotas_aws_cloud_engineer_91008996.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/viotas_aws_cloud_engineer_91008996.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -716,15 +703,14 @@
     "location": "Cyprus",
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-payabl-4462281202",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role matches her DevOps and CI/CD expertise and offers remote work within the EU (Portugal and Poland).",
+    "matches_requirements": "error",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "fcd07e5e",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/payabl__devops_engineer_fcd07e5e.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -733,14 +719,13 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-fxpro-4458717703",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps and CI/CD expertise, but requires relocation to Cyprus, which is in the EU.",
+    "reason": "The role matches her DevOps and CI/CD expertise, but it is located in Cyprus, which would require relocation from Finland.",
     "id": "35df58b9",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Data DevOps Engineer (m/f/x)",
