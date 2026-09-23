@@ -69,3 +69,11 @@ that are close but uncertain on one dimension, and explain why in each case.
 
 ### Automatically Added Positive Constraints (from UI Approvals):
 - POSITIVE CONSTRAINT: The user explicitly approved a previous job because: 'due to configuration management'. Make sure to MATCH jobs that have this characteristic.
+
+
+### Automatically Added Positive Constraints (from UI Approvals):
+- POSITIVE CONSTRAINT: The user explicitly approved a previous job because: 'i worked as a technical communications specialist at topcon healthcare.'. Make sure to MATCH jobs that have this characteristic.
+
+
+### Automatically Added Positive Constraints (from UI Approvals):
+- POSITIVE CONSTRAINT: The user explicitly approved a previous job because: 'Test engineer starting roles'. Make sure to MATCH jobs that have this characteristic.
