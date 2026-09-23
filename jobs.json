@@ -3484,12 +3484,12 @@
     "url": "https://fi.linkedin.com/jobs/view/release-manager-til-sund-b%C3%A6lt-at-sund-b%C3%A6lt-4460064703",
     "visited": "yes",
     "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
     "id": "6c02d07f",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
   {
@@ -4068,14 +4068,14 @@
     "location": "Rotterdam and The Hague",
     "url": "https://nl.linkedin.com/jobs/view/release-manager-at-pracyva-4461187039",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
+    "matches_requirements": "yes",
+    "reason": "The job title 'Release Manager' aligns with the candidate's expertise in release and configuration management, and the location is within the EU.",
     "id": "36b8d2b6",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": "job_descriptions/pracyva_release_manager_36b8d2b6.txt"
   },
   {
     "title": "PMT-Release Engineering",
@@ -4084,14 +4084,13 @@
     "url": "https://nl.linkedin.com/jobs/view/pmt-release-engineering-at-super-4392869754",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Matches her technical release engineering background, located in Amsterdam which she is open to",
+    "reason": "Extracted via regex fallback",
     "id": "3fcbbd2e",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/super_pmt_release_engineering_3fcbbd2e.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/super_pmt_release_engineering_3fcbbd2e.txt"
   },
   {
     "title": "Release Manager",
@@ -4099,15 +4098,14 @@
     "location": "Warsaw, Mazowieckie, Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-manager-at-omada-4463371002",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her experience level, domain expertise, and location preferences",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management and CI/CD expertise, but it is a hybrid position in Poland or Spain requiring relocation.",
     "id": "45abdfee",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/omada_release_manager_45abdfee.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Software Release Manager",
@@ -4116,14 +4114,13 @@
     "url": "https://se.linkedin.com/jobs/view/software-release-manager-at-procruitment-ab-4456477453",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greater J\u00f6nk\u00f6ping Metropolitan Area, Sweden which does not match the candidate's preference for Finland or EU/European remote roles.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "85c3d12e",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -4131,15 +4128,14 @@
     "location": "Romania",
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-cognizant-4434544605",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Strong match on release management, DevOps, and cross-team coordination - key skills of the candidate.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management expertise, but it is a hybrid position in Romania requiring some onsite presence.",
     "id": "389b2cc8",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/cognizant_release_manager_389b2cc8.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release & Deployment Manager",
@@ -4147,15 +4143,14 @@
     "location": "Lisbon, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/release-deployment-manager-at-havi-4453146768",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her background well, especially release management and DevOps experience with Azure tools.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns well with her release management and DevOps expertise, but requires relocation to Portugal.",
     "id": "8cf95738",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/havi_release___deployment_manager_8cf95738.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Engineer",
@@ -4163,15 +4158,14 @@
     "location": "Amsterdam, North Holland, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/release-engineer-at-engflow-4427632105",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Amsterdam, Netherlands which does not match her hard rejection rule of being located in Finland or within the EU.",
+    "matches_requirements": "yes",
+    "reason": "The role is a Release Engineer position focused on CI/CD and deployment ownership, which aligns with her 15 years of experience in release management and DevOps, and the location is within the EU.",
     "id": "07c8799d",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/engflow_release_engineer_07c8799d.txt"
   },
   {
     "title": "Technical Program Manager ID83550",
@@ -4180,14 +4174,13 @@
     "url": "https://si.linkedin.com/jobs/view/technical-program-manager-id83550-at-agileengine-4458635778",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Release Manager, which does not directly match her Technical Program Manager title and focus on product strategy. The job also requires 4+ years of experience, which she has, but it's unclear if this would be considered senior/lead-level for her.",
+    "reason": "The posting states that applications are no longer accepted, which is a hard rejection.",
     "id": "0f418515",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Change & release manager",
@@ -4195,15 +4188,14 @@
     "location": "Berchem, Flemish Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/change-release-manager-at-crelan-4463611260",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her experience in change and release management, with ITIL, DevOps, CI/CD pipeline knowledge, and stakeholder coordination.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management expertise, but requires relocation to Belgium and the posting is in Dutch.",
     "id": "c7b28ead",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/crelan_change___release_manager_c7b28ead.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager (m/w/d) agile Software Integration",
@@ -4211,15 +4203,14 @@
     "location": "M\u00f6nchengladbach, North Rhine-Westphalia, Germany",
     "url": "https://de.linkedin.com/jobs/view/release-manager-m-w-d-agile-software-integration-at-scheidt-bachmann-4456599213",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her release management, CI/CD, and software engineering background in a regulated industry.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management and automation skills, but it requires very good German, which is not listed in her profile.",
     "id": "69583346",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/scheidt___bachmann_release_manager__m_w_d__agile__69583346.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Lead",
@@ -4227,15 +4218,14 @@
     "location": "Cracow, Ma\u0142opolskie, Poland",
     "url": "https://pl.linkedin.com/jobs/view/release-lead-at-dyson-4451649818",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type, but the location is Poland which is a hard rejection for her based on her strict non-negotiable exclusion of US-only roles.",
+    "matches_requirements": "yes",
+    "reason": "The role is a Release Lead in Poland, matching her release management expertise and EU location requirements with no disqualifying constraints.",
     "id": "9dfb7e42",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/dyson_release_lead_9dfb7e42.txt"
   },
   {
     "title": "Release Manager",
@@ -4244,14 +4234,13 @@
     "url": "https://be.linkedin.com/jobs/view/release-manager-at-m2q-4448290193",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kontich, Flemish Region, Belgium, which does not match the candidate's requirement for being open to roles anywhere in Finland or remote roles based in the EU/Europe.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "2b528434",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -4259,15 +4248,14 @@
     "location": "Malmo, Sk\u00e5ne County, Sweden",
     "url": "https://se.linkedin.com/jobs/view/release-manager-at-sharkmob-4463336839",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is located in Malm\u00f6, Sweden which does not match Priya's requirement for a job in Finland or EU/Europe.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her Release Management experience and is located within the EU, though it would require relocation from Finland.",
     "id": "6f63f8cf",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Release Manager",
@@ -4276,14 +4264,13 @@
     "url": "https://hu.linkedin.com/jobs/view/technical-release-manager-at-allianz-technology-4433096579",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match on domain/role type, but the location (Budapest, Hungary) would require relocation and is not explicitly stated as open to remote.",
+    "reason": "The role is a strong match for her release management and automation expertise, but requires relocation to Hungary.",
     "id": "6e66b890",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-07-11",
     "deadline": "N/A",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Software Release Manager R&D (M/F)",
@@ -4715,7 +4702,9 @@
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": "job_descriptions/iceye_technical_release_manager_e286ba53.txt",
-    "needs_re_review": true
+    "needs_re_review": true,
+    "applied": "yes",
+    "user_review": "done"
   },
   {
     "title": "Senior Electrical Engineer",
@@ -9099,7 +9088,9 @@
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": "job_descriptions/iceye_senior_devops_engineer___core__61f897be.txt",
-    "needs_re_review": true
+    "needs_re_review": true,
+    "applied": "yes",
+    "user_review": "done"
   },
   {
     "title": "Senior IT Operations Engineer - Snowflake-based Data Warehouse & DevOps",
@@ -9531,7 +9522,9 @@
     "deadline": "Open until filled",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": "job_descriptions/reorbit_it_lead___infrastructure__oper_f4579cee.txt",
-    "needs_re_review": true
+    "needs_re_review": true,
+    "applied": "yes",
+    "user_review": "done"
   },
   {
     "title": "Vision and Inspection Technology Expert",
@@ -50753,7 +50746,9 @@
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": "job_descriptions/iceye_devops_engineer_fa82b7d4.txt",
-    "needs_re_review": true
+    "needs_re_review": true,
+    "applied": "yes",
+    "user_review": "done"
   },
   {
     "title": "DevOps Engineer",
