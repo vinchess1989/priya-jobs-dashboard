@@ -23,7 +23,7 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-engineer-at-iceye-4445960867",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer position located in Finland that aligns with the candidate's expertise in CI/CD, automation, and infrastructure management.",
+    "reason": "The role is a DevOps Engineer position in Espoo, Finland, which aligns with her CI/CD, automation, and infrastructure expertise.",
     "id": "93da1e87",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-08",
@@ -38,7 +38,7 @@
     "url": "https://fi.linkedin.com/jobs/view/platform-engineer-at-verda-4443157940",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role aligns with her DevOps and CI/CD expertise and is located in Finland.",
+    "reason": "The role's focus on Kubernetes, CI/CD, and infrastructure automation aligns well with her extensive experience in DevOps and Release Management.",
     "id": "b660086a",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-04",
@@ -53,12 +53,12 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-at-forge-digital-4461059442",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting is closed and no longer accepting applications.",
+    "reason": "The posting states that applications are no longer accepted, which is a hard rejection.",
     "id": "6aea84f4",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -68,12 +68,12 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-at-61n-4461048521",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language and is already closed, disqualifying the candidate.",
+    "reason": "Job requires mandatory Finnish language proficiency, which the candidate does not have.",
     "id": "aa7e42d9",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
   },
   {
@@ -83,12 +83,12 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-cloud-platform-developer-at-phz-full-stack-4449075461",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on DevOps, cloud infrastructure, and CI/CD pipelines aligns well with her extensive experience in release management and automation.",
+    "reason": "The role is a DevOps Cloud Platform Developer in Finland, matching her DevOps and configuration management experience in a regulated environment.",
     "id": "c105b7ba",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": "job_descriptions/phz_full_stack_devops_cloud_platform_develope_c105b7ba.txt"
   },
   {
@@ -132,12 +132,12 @@
     "url": "https://fi.linkedin.com/jobs/view/site-reliability-engineer-at-upcloud-4448279284",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The senior Site Reliability Engineer role involves CI/CD, automation, and infrastructure management in Finland, matching the candidate's DevOps/Release expertise.",
+    "reason": "The role's focus on CI/CD, automation, and release management aligns well with her extensive experience in DevOps and configuration management.",
     "id": "f26c922c",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": "job_descriptions/upcloud_site_reliability_engineer_f26c922c.txt"
   },
   {
@@ -147,7 +147,7 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-lead-at-wapice-ltd-4461607295",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish, which is a mandatory requirement and the candidate does not speak the language.",
     "id": "89396fb4",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-03",
@@ -179,7 +179,7 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-engineer-finland-at-firemind-4453562978",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role focuses on cloud automation, infrastructure-as-code, and operational workflows, which aligns with her DevOps and automation expertise.",
+    "reason": "The role's focus on cloud automation, self-healing infrastructure, and policy-as-code aligns well with her extensive experience in DevOps, CI/CD, and regulated automation.",
     "id": "28eee4b4",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-18",
@@ -193,14 +193,14 @@
     "location": "Lisbon, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/nearshore-sector-devops-with-artifactory-jfrog-at-devoteam-4397297279",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her DevOps, CI/CD, and Artifactory expertise and is located within the EU.",
+    "matches_requirements": "maybe",
+    "reason": "The role matches her DevOps and Artifactory expertise, but is a 'maybe' as it is an on-site/hybrid role in another EU country requiring relocation.",
     "id": "3bea0064",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/devoteam_nearshore_sector__devops__with_3bea0064.txt"
+    "description_file": null
   },
   {
     "title": "Senior DevOps",
@@ -209,7 +209,7 @@
     "url": "https://pt.linkedin.com/jobs/view/senior-devops-at-nimber-4448570600",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD skills, but requires being based in Portugal, which would necessitate relocation.",
+    "reason": "The role is a strong technical match for her DevOps expertise, but requires being based in Portugal, which would require relocation.",
     "id": "4b7c41d4",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-10",
@@ -224,7 +224,7 @@
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-aws-kubernetes-y-terraform-remoto-at-slashmobility-4430868278",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This is a DevOps Engineer role located in Spain (EU) that explicitly offers remote work, matching her technical expertise and location preferences.",
+    "reason": "The role is a DevOps Engineer position located in Spain (EU) and offers remote work, matching the candidate's target role and location preferences.",
     "id": "2f4c9d80",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-07-11",
@@ -239,7 +239,7 @@
     "url": "https://bg.linkedin.com/jobs/view/senior-devops-engineer-at-dreamix-4459829524",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Senior DevOps Engineer in the EU (Bulgaria) which matches the candidate's extensive experience in CI/CD, automation, and cloud infrastructure.",
+    "reason": "The role is a Senior DevOps Engineer position in Bulgaria (EU) that offers unlimited home office, which aligns with the candidate's preference for EU-based remote work.",
     "id": "39867e23",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-02",
@@ -253,14 +253,14 @@
     "location": "Porto, Porto, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/distributed-cloud-devops-engineer-at-devoteam-4389578029",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer in Portugal (EU) with responsibilities that align with the candidate\u2019s CI/CD, release management, and infrastructure expertise.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with her DevOps and CI/CD expertise, but requires relocation to Portugal.",
     "id": "71ff6bbc",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/devoteam_distributed_cloud___devops_eng_71ff6bbc.txt"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -269,12 +269,12 @@
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-at-machete-4449824879",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "Job posting is closed and no longer accepting applications.",
     "id": "7ad28dcb",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-12",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
   },
   {
@@ -284,10 +284,10 @@
     "url": "https://es.linkedin.com/jobs/view/programador-a-senior-devops-at-serem-consultor%C3%ADa-empresarial-4455054056",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns well with her DevOps and CI/CD expertise, but the job specifies a preference for residency in certain Spanish regions, which may be a constraint for a candidate based in Finland.",
+    "reason": "The role matches her DevOps and CI/CD expertise, but the posting expresses a preference for candidates residing in specific Spanish regions.",
     "id": "1db05ccb",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "hace 1 mes",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
@@ -305,7 +305,8 @@
     "posted_date": "2026-09-01",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": "job_descriptions/hiberus_devops_engineer_1e13be8a.txt"
+    "description_file": "job_descriptions/hiberus_devops_engineer_1e13be8a.txt",
+    "needs_re_review": true
   },
   {
     "title": "Ing\u00e9nieur DevOps F/H",
@@ -320,7 +321,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -335,7 +337,8 @@
     "posted_date": "hace 2 meses",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-120b"
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "needs_re_review": true
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -350,7 +353,8 @@
     "posted_date": "hace 1 a\u00f1o",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer - Platform Team CUC (m/w/d)",
@@ -365,7 +369,8 @@
     "posted_date": "2026-08-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps",
@@ -380,7 +385,8 @@
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior DevOps Engineer (m/w/d) f\u00fcr PACCA Programm",
@@ -395,7 +401,8 @@
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior DevOps Engineer",
@@ -410,7 +417,8 @@
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -425,7 +433,8 @@
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer (Naxxar, Malta)",
@@ -440,7 +449,8 @@
     "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -455,7 +465,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -470,7 +481,8 @@
     "posted_date": "2026-07-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer (Cloud Platform)",
@@ -485,7 +497,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer | Mid | Infra",
@@ -500,7 +513,8 @@
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": "job_descriptions/nord_security_devops_engineer___mid___infra_95021265.txt",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -515,7 +529,8 @@
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer - Zecure Gaming",
@@ -530,7 +545,8 @@
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "description_file": "job_descriptions/betsson_group_devops_engineer___zecure_gamin_c7895e8f.txt",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -545,7 +561,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer | Mid | Infra",
@@ -560,7 +577,8 @@
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": "job_descriptions/nord_security_devops_engineer___mid___infra_cee506cb.txt",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -575,7 +593,8 @@
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer (Cloud Platform)",
@@ -590,7 +609,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat"
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -605,7 +625,8 @@
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-120b"
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "needs_re_review": true
   },
   {
     "title": "Cloud Engineer",
@@ -620,7 +641,8 @@
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-20b"
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer (m/w/d)",
@@ -635,7 +657,8 @@
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -650,7 +673,8 @@
     "posted_date": "2026-09-05",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Site Reliability Engineer / DevOps",
@@ -665,7 +689,8 @@
     "posted_date": "2026-09-21",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -680,7 +705,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "AWS Cloud Engineer",
@@ -695,7 +721,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/viotas_aws_cloud_engineer_91008996.txt"
+    "description_file": "job_descriptions/viotas_aws_cloud_engineer_91008996.txt",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -710,7 +737,8 @@
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/payabl__devops_engineer_fcd07e5e.txt"
+    "description_file": "job_descriptions/payabl__devops_engineer_fcd07e5e.txt",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -725,7 +753,8 @@
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Data DevOps Engineer (m/f/x)",
@@ -740,7 +769,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -755,7 +785,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Software Engineer - DevOps | PGIM Ireland",
@@ -770,7 +801,8 @@
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -785,7 +817,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -800,7 +833,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": "job_descriptions/xm_devops_engineer_902c7efe.txt"
+    "description_file": "job_descriptions/xm_devops_engineer_902c7efe.txt",
+    "needs_re_review": true
   },
   {
     "title": "Platform DevOps Engineer - Infra",
@@ -815,7 +849,8 @@
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Middle DevOps Engineer",
@@ -830,7 +865,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -845,7 +881,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -860,7 +897,8 @@
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -875,7 +913,8 @@
     "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/nicoll_curtin_devops_engineer_fb660567.txt"
+    "description_file": "job_descriptions/nicoll_curtin_devops_engineer_fb660567.txt",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -890,7 +929,8 @@
     "posted_date": "2026-06-10",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -905,7 +945,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Site Reliability | DevOps Engineer",
@@ -920,7 +961,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -935,7 +977,8 @@
     "posted_date": "1 jaar geleden",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -950,7 +993,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/chillbase_devops_engineer_4fffa016.txt"
+    "description_file": "job_descriptions/chillbase_devops_engineer_4fffa016.txt",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -965,7 +1009,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Cloud Engineer",
@@ -980,7 +1025,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -995,7 +1041,8 @@
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1010,7 +1057,8 @@
     "posted_date": "2026-08-25",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1025,7 +1073,8 @@
     "posted_date": "2025-12-12",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1040,7 +1089,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1055,7 +1105,8 @@
     "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1070,7 +1121,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Kokenut j\u00e4rjestelm\u00e4kehitt\u00e4j\u00e4 (integraatiot ja alustat) - Avoin haku",
@@ -1085,7 +1137,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Software Engineer",
@@ -1100,7 +1153,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "AI Engineer - Analytics, Planning and AI",
@@ -1115,7 +1169,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Cloud Engineer",
@@ -1130,7 +1185,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -1145,7 +1201,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Associate Solutions Architect , AWS Finland",
@@ -1160,7 +1217,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "AI Forward Deployed Engineer",
@@ -1175,7 +1233,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1190,7 +1249,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1205,7 +1265,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Full-Stack Engineer",
@@ -1220,7 +1281,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1252,7 +1314,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior DevOps Engineer",
@@ -1267,7 +1330,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_e7a34650.txt"
+    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_e7a34650.txt",
+    "needs_re_review": true
   },
   {
     "title": "Senior Infrastructure Engineer",
@@ -1282,7 +1346,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Software Engineer (Rendering)",
@@ -1297,7 +1362,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Forward Deployed Embedded Software Engineer",
@@ -1312,7 +1378,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Technical Solutions Engineer I, Scaled Solutions",
@@ -1327,7 +1394,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/google_technical_solutions_engineer_i_32d7eb81.txt"
+    "description_file": "job_descriptions/google_technical_solutions_engineer_i_32d7eb81.txt",
+    "needs_re_review": true
   },
   {
     "title": "Senior Test Automation Engineer",
@@ -1342,7 +1410,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Flight Software Deployment Engineer",
@@ -1357,7 +1426,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_flight_software_deployment_eng_91b8cdfc.txt"
+    "description_file": "job_descriptions/iceye_flight_software_deployment_eng_91b8cdfc.txt",
+    "needs_re_review": true
   },
   {
     "title": "Principal Software Engineer",
@@ -1372,7 +1442,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior/Staff Platform Observability Engineer",
@@ -1387,7 +1458,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/iceye_senior_staff_platform_observab_3946939c.txt"
+    "description_file": "job_descriptions/iceye_senior_staff_platform_observab_3946939c.txt",
+    "needs_re_review": true
   },
   {
     "title": "Senior AI Engineer",
@@ -1419,7 +1491,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Lead Architect",
@@ -1434,7 +1507,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Principal Engineer",
@@ -1449,7 +1523,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevSecOps Engineer",
@@ -1464,7 +1539,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Software Integration & Release Engineer",
@@ -1479,7 +1555,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Backend Engineer (all genders) - Remote Nordics Europe",
@@ -1494,7 +1571,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Data Engineer",
@@ -1509,7 +1587,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1541,7 +1620,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1556,7 +1636,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt"
+    "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer",
@@ -1588,7 +1669,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt"
+    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt",
+    "needs_re_review": true
   },
   {
     "title": "Staff Platform Engineer - Core Platform Engineering",
@@ -1603,7 +1685,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt"
+    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt",
+    "needs_re_review": true
   },
   {
     "title": "Staff Developer Advocate",
@@ -1618,7 +1701,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Software Engineer (Developer Enablement)",
@@ -1633,7 +1717,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_senior_software_engineer__deve_16cb105d.txt"
+    "description_file": "job_descriptions/iceye_senior_software_engineer__deve_16cb105d.txt",
+    "needs_re_review": true
   },
   {
     "title": "Forward Deployed Engineer - Public sector, Nonprofit and Education",
@@ -1648,7 +1733,8 @@
     "posted_date": "posted 30+ days ago",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/salesforce_forward_deployed_engineer___pu_308a32f3.txt"
+    "description_file": "job_descriptions/salesforce_forward_deployed_engineer___pu_308a32f3.txt",
+    "needs_re_review": true
   },
   {
     "title": "Staff Engineer \u2013 Core Developer Experience (DevEx)",
@@ -1663,7 +1749,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_f6bb3fc1.txt"
+    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_f6bb3fc1.txt",
+    "needs_re_review": true
   },
   {
     "title": "Senior Data Arkkitehti",
@@ -1678,7 +1765,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "DevOps Lead",
@@ -1693,7 +1781,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/danfoss_devops_lead_f9db3911.txt"
+    "description_file": "job_descriptions/danfoss_devops_lead_f9db3911.txt",
+    "needs_re_review": true
   },
   {
     "title": "Staff Cloud Platform Engineer - Cloud Developer Experience",
@@ -1708,7 +1797,8 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt"
+    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Engineer, Tampere",
@@ -1723,7 +1813,8 @@
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1738,7 +1829,8 @@
     "posted_date": "2026-09-03",
     "deadline": "2026-09-23",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Facebook",
@@ -1753,7 +1845,8 @@
     "posted_date": "14 tuntia sitten",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Instagram",
@@ -1768,7 +1861,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Linkedin",
@@ -1783,7 +1877,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Specialist",
@@ -1815,7 +1910,8 @@
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1830,7 +1926,8 @@
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Solution Architect, PLM",
@@ -1845,7 +1942,8 @@
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Application Specialist (ERP)",
@@ -1860,7 +1958,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Implementation Consultant",
@@ -1875,7 +1974,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/thomson_reuters_implementation_consultant_2d4e2bf2.txt"
+    "description_file": "job_descriptions/thomson_reuters_implementation_consultant_2d4e2bf2.txt",
+    "needs_re_review": true
   },
   {
     "title": "System Engineer",
@@ -1890,7 +1990,8 @@
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_system_engineer_84c95aff.txt"
+    "description_file": "job_descriptions/iceye_system_engineer_84c95aff.txt",
+    "needs_re_review": true
   },
   {
     "title": "Senior Implementation Consultant",
@@ -1905,7 +2006,8 @@
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/thomson_reuters_senior_implementation_consulta_c7fcb0b3.txt"
+    "description_file": "job_descriptions/thomson_reuters_senior_implementation_consulta_c7fcb0b3.txt",
+    "needs_re_review": true
   },
   {
     "title": "ERP Solutions Manager",
@@ -1920,7 +2022,8 @@
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt"
+    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt",
+    "needs_re_review": true
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
@@ -1935,7 +2038,8 @@
     "posted_date": "2026-08-05",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "ERP & Master Data Specialist",
@@ -1966,7 +2070,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "M365-asiantuntija",
@@ -1981,7 +2086,8 @@
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Integration Lead",
@@ -1996,7 +2102,8 @@
     "posted_date": "2026-09-08",
     "deadline": "2026-09-24",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt"
+    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt",
+    "needs_re_review": true
   },
   {
     "title": "Master Data Lead",
@@ -2011,7 +2118,8 @@
     "posted_date": "2026-09-04",
     "deadline": "2026-09-26",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "IT Solution Manager - FICO",
@@ -2026,7 +2134,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Microsoft 365 -konsultti",
@@ -2041,7 +2150,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Release Manager",
@@ -2073,7 +2183,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "BIM Manager",
@@ -2088,7 +2199,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -2103,7 +2215,8 @@
     "posted_date": "1 viikko sitten",
     "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Design and Engineering Tools Deployment Lead NB Zone",
@@ -2118,7 +2231,8 @@
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/schneider_electric_design_and_engineering_tools_d_ddd78a41.txt"
+    "description_file": "job_descriptions/schneider_electric_design_and_engineering_tools_d_ddd78a41.txt",
+    "needs_re_review": true
   },
   {
     "title": "Team Leader, Document Coordinator",
@@ -2133,7 +2247,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/sumitomo_shi_fw_team_leader__document_coordina_736e6a64.txt"
+    "description_file": "job_descriptions/sumitomo_shi_fw_team_leader__document_coordina_736e6a64.txt",
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2148,7 +2263,8 @@
     "posted_date": "10 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2163,7 +2279,8 @@
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2178,7 +2295,8 @@
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (Ingl\u00e9s alto)",
@@ -2193,7 +2311,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Confirmed Configuration Manager",
@@ -2208,7 +2327,8 @@
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (w/m/d) f\u00fcr sicherheitskritische Systeme",
@@ -2223,7 +2343,8 @@
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2238,7 +2359,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": "job_descriptions/iceye_configuration_manager_7c6676a6.txt"
+    "description_file": "job_descriptions/iceye_configuration_manager_7c6676a6.txt",
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2253,7 +2375,8 @@
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2268,7 +2391,8 @@
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration manager M-BOM",
@@ -2283,7 +2407,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration manager E- & M-BOM",
@@ -2298,7 +2423,8 @@
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Gestor/a de la configuraci\u00f3n 3DEX - Ingl\u00e9s C1",
@@ -2313,7 +2439,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/cimpa_plm_services_gestor_a_de_la_configuraci_n_3_1dffe5e5.txt"
+    "description_file": "job_descriptions/cimpa_plm_services_gestor_a_de_la_configuraci_n_3_1dffe5e5.txt",
+    "needs_re_review": true
   },
   {
     "title": "Gestionnaire de Configuration F/H",
@@ -2328,7 +2455,8 @@
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Industrial Configuration Manager - PLM",
@@ -2343,7 +2471,8 @@
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -2358,7 +2487,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/knds_deutschland_konfigurationsmanager__m_w_d__9d7bf772.txt"
+    "description_file": "job_descriptions/knds_deutschland_konfigurationsmanager__m_w_d__9d7bf772.txt",
+    "needs_re_review": true
   },
   {
     "title": "\u00c4nderungsmanager (m/w/d)",
@@ -2373,7 +2503,8 @@
     "posted_date": "vor 9 monaten",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2388,7 +2519,8 @@
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (all genders)",
@@ -2403,7 +2535,8 @@
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": "job_descriptions/vincorion_configuration_manager__all_gen_c405dce8.txt"
+    "description_file": "job_descriptions/vincorion_configuration_manager__all_gen_c405dce8.txt",
+    "needs_re_review": true
   },
   {
     "title": "Konfigurationsmanager (all genders)",
@@ -2418,7 +2551,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (w/m/d)",
@@ -2433,7 +2567,8 @@
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/mbda_deutschland_configuration_manager__w_m_d__30e1eb41.txt"
+    "description_file": "job_descriptions/mbda_deutschland_configuration_manager__w_m_d__30e1eb41.txt",
+    "needs_re_review": true
   },
   {
     "title": "Konfigurations- und \u00c4nderungsmanager (m/w/d)",
@@ -2448,7 +2583,8 @@
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager",
@@ -2463,7 +2599,8 @@
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/sener_configuration_manager_2e1b841d.txt"
+    "description_file": "job_descriptions/sener_configuration_manager_2e1b841d.txt",
+    "needs_re_review": true
   },
   {
     "title": "Gestionnaire de Configuration H/F",
@@ -2478,7 +2615,8 @@
     "posted_date": "vor 2 wochen",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Konfigurations- und \u00c4nderungsmanager (m/w/d)",
@@ -2493,7 +2631,8 @@
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/diehl_defence_konfigurations__und__nderungsm_ff90966f.txt"
+    "description_file": "job_descriptions/diehl_defence_konfigurations__und__nderungsm_ff90966f.txt",
+    "needs_re_review": true
   },
   {
     "title": "Konfigurationsmanager (m/w/d) Kiel",
@@ -2508,7 +2647,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -2523,7 +2663,8 @@
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Technischer Konfigurationsmanager (m/w/d) - Defence",
@@ -2538,7 +2679,8 @@
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2553,7 +2695,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2568,7 +2711,8 @@
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2583,7 +2727,8 @@
     "posted_date": "vor 2 tagen",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration manager",
@@ -2598,7 +2743,8 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2613,7 +2759,8 @@
     "posted_date": "2026-07-11",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2628,7 +2775,8 @@
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (m/w/d) \u2013 Defence & Technology",
@@ -2643,7 +2791,8 @@
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/randstad_deutschland_configuration_manager__m_w_d___ce87e38f.txt"
+    "description_file": "job_descriptions/randstad_deutschland_configuration_manager__m_w_d___ce87e38f.txt",
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2658,7 +2807,8 @@
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null
+    "description_file": null,
+    "needs_re_review": true
   },
   {
     "title": "Configuration Manager (m/w/d)",
