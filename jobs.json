@@ -1365,13 +1365,13 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=2b9a5d13444b76a5",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "no",
+    "reason": "The role is a senior architectural leadership position, not a release, configuration management, DevOps, or technical writing role that matches the candidate\u2019s expertise.",
     "id": "5c9b1662",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -1898,15 +1898,14 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-consultant-at-thomson-reuters-4460058834",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with the 'Product Specialist' definition through its focus on application configuration and technical support, but it is a pivot from her recent focus on Release and DevOps.",
+    "matches_requirements": "yes",
+    "reason": "The role focuses on application configuration, technical implementation, and solution specialization, which aligns with her extensive experience in configuration management and technical product support.",
     "id": "c7fcb0b3",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/thomson_reuters_senior_implementation_consulta_c7fcb0b3.txt"
   },
   {
     "title": "ERP Solutions Manager",
@@ -1915,14 +1914,13 @@
     "url": "https://fi.linkedin.com/jobs/view/erp-solutions-manager-at-ikh-group-4462205522",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role involves end-to-end ownership of ERP implementation, including go/no-go decisions, cutover management, and technical documentation, which aligns with her release management and technical specialist background.",
     "id": "c7deb945",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt"
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
@@ -1931,14 +1929,13 @@
     "url": "https://fi.linkedin.com/jobs/view/google-workspace-consultant-%E2%80%93-turn-technology-into-more-meaningful-ways-of-working-at-gapps-4390153797",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role involves technical configuration and implementation which aligns with her skills, but the domain (Google Workspace/IT Consulting) differs from her core expertise in software release and CI/CD in regulated industries.",
+    "reason": "The role involves configuration and documentation which aligns with her skills, but her recent focus is on DevOps/Release Management rather than SaaS implementation.",
     "id": "d5c23071",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-05",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ERP & Master Data Specialist",
@@ -1969,8 +1966,7 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "M365-asiantuntija",
@@ -1979,14 +1975,13 @@
     "url": "https://fi.linkedin.com/jobs/view/m365-asiantuntija-at-cgi-4464399052",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish, which the candidate does not have.",
     "id": "be3156ab",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Integration Lead",
@@ -1995,14 +1990,13 @@
     "url": "https://fi.linkedin.com/jobs/view/integration-lead-at-solita-4461874814",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on managing integration lifecycles, coordinating development, and ensuring system reliability aligns with her extensive experience in release management and technical coordination.",
+    "reason": "The role's focus on managing integration lifecycles, defining ways of working, and coordinating development capacity aligns well with her extensive experience in release management and configuration management.",
     "id": "ddb36711",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-24",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt"
   },
   {
     "title": "Master Data Lead",
@@ -2010,15 +2004,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/master-data-lead-at-kalmar-4461686814",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Master Data Lead focused on data quality and analytics, not a DevOps, Configuration Management, Release Management, or technical Product Specialist position.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves data integrity and process management similar to configuration management, but focuses on master data rather than software release pipelines.",
     "id": "96cdf075",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-26",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "IT Solution Manager - FICO",
@@ -2027,14 +2020,13 @@
     "url": "https://fi.linkedin.com/jobs/view/it-solution-manager-fico-at-neste-4460250750",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate has strong experience in operational readiness, compliance, and lifecycle management, but lacks the specific SAP Finance (FICO) domain expertise required.",
+    "reason": "The candidate has strong experience in operational readiness, compliance, and stakeholder management, but lacks the specific SAP and finance domain expertise required for this role.",
     "id": "456232f8",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Microsoft 365 -konsultti",
@@ -2043,14 +2035,13 @@
     "url": "https://fi.linkedin.com/jobs/view/microsoft-365-konsultti-at-futuriot-4439007984",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Microsoft 365 Consultant position, which does not align with her specialized expertise in Release Management, Configuration Management, and DevOps in regulated industries.",
+    "reason": "Extracted via regex fallback",
     "id": "928a3f19",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -2076,14 +2067,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-managed-file-transfer-mft-edi-at-fiskars-group-4457320334",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role involves technical ownership of integration platforms, which is adjacent to her DevOps and configuration management expertise, but requires specific B2B integration knowledge.",
+    "reason": "The role's focus on technical ownership and platform implementation aligns with her DevOps and Release Management expertise, though the specific EDI/MFT domain is a slight shift from her software release background.",
     "id": "a6a18706",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "BIM Manager",
@@ -2092,14 +2082,13 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-john-sisk-son-ltd-4409265801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The BIM Manager role focuses on construction BIM processes, not on release, configuration management, or DevOps, which are the candidate\u2019s core expertise.",
+    "reason": "Extracted via regex fallback",
     "id": "0de2628d",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -2107,15 +2096,14 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207644",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires specialized expertise in SAP Variant Configuration (LO-VC/AVC), which is a functional ERP domain distinct from the candidate's expertise in Software Configuration Management and DevOps.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "316bdc49",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "2026-08-26",
-    "deadline": "2026-09-27",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Design and Engineering Tools Deployment Lead NB Zone",
@@ -2124,14 +2112,13 @@
     "url": "https://fi.linkedin.com/jobs/view/design-and-engineering-tools-deployment-lead-nb-zone-at-schneider-electric-4390142630",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on software deployment, training, and technical support aligns well with her background in technical communication and product specialization.",
+    "reason": "The role focuses on software deployment, training, and technical enablement, which aligns with her expertise in technical communication and product specialist functions.",
     "id": "ddd78a41",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/schneider_electric_design_and_engineering_tools_d_ddd78a41.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/schneider_electric_design_and_engineering_tools_d_ddd78a41.txt"
   },
   {
     "title": "Team Leader, Document Coordinator",
@@ -2140,14 +2127,13 @@
     "url": "https://fi.linkedin.com/jobs/view/team-leader-document-coordinator-at-sumitomo-shi-fw-4444949878",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This leadership role in document management and compliance in Finland aligns perfectly with her extensive experience in release documentation, quality gatekeeping, and regulated industry standards.",
+    "reason": "The role aligns with her extensive experience in technical documentation, compliance, and managing complex documentation processes in regulated environments.",
     "id": "736e6a64",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/sumitomo_shi_fw_team_leader__document_coordina_736e6a64.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/sumitomo_shi_fw_team_leader__document_coordina_736e6a64.txt"
   },
   {
     "title": "Configuration Manager",
