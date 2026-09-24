@@ -2096,12 +2096,12 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207644",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "no",
+    "reason": "The candidate's configuration management expertise is in software release and version control, whereas this role requires specialized expertise in SAP Variant Configuration (product configuration logic).",
     "id": "316bdc49",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "1 viikko sitten",
+    "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
   },
@@ -2142,14 +2142,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-invensity-4331452080",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires business fluency in Swedish, which the candidate does not speak.",
+    "reason": "The job requires business fluency in Swedish, which the candidate does not speak.",
     "id": "d6f6d7b4",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "10 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2158,14 +2157,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4462820318",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires proficiency in Swedish, which the candidate does not speak.",
+    "reason": "The role requires strong Swedish language proficiency, which the candidate does not have.",
     "id": "30769f8d",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2174,14 +2172,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-tistel-4454503500",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted and requires Swedish citizenship.",
     "id": "4bd10207",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (Ingl\u00e9s alto)",
@@ -2189,15 +2186,14 @@
     "location": "Madrid, Community of Madrid, Spain",
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-ingl%C3%A9s-alto-at-cimpa-plm-services-4430913906",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Configuration Manager in an EU aerospace/defence context, matching the candidate\u2019s extensive CM/Release experience and English\u2011only environment.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a perfect match for her skills, but requires relocation to Spain as it is a hybrid position.",
     "id": "4129f869",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/cimpa_plm_services_configuration_manager__ingl_s__4129f869.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Confirmed Configuration Manager",
@@ -2205,15 +2201,14 @@
     "location": "Hamburg, Hamburg, Germany",
     "url": "https://de.linkedin.com/jobs/view/confirmed-configuration-manager-at-sogeclair-4459814497",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a direct match for her Configuration Management expertise in a highly regulated industry and is located within the EU.",
+    "matches_requirements": "no",
+    "reason": "The job posting is closed and no longer accepting applications.",
     "id": "5885d541",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/sogeclair_confirmed_configuration_manage_5885d541.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Configuration Manager (w/m/d) f\u00fcr sicherheitskritische Systeme",
@@ -2222,14 +2217,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-w-m-d-f%C3%BCr-sicherheitskritische-systeme-at-xpertscout-gmbh-4461889180",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is an excellent technical match for her configuration management and safety-critical background, but requires business-fluent German which she does not speak.",
+    "reason": "The candidate is a strong technical match for configuration management in safety-critical systems, but the role requires business-fluent German.",
     "id": "c4d7d572",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2238,14 +2232,13 @@
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-at-iceye-4435340117",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a direct match for her Configuration Management expertise in a regulated industry and is located within the EU.",
+    "reason": "The role is a Configuration Manager in Spain, matching her expertise and location preferences.",
     "id": "7c6676a6",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_configuration_manager_7c6676a6.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/iceye_configuration_manager_7c6676a6.txt"
   },
   {
     "title": "Configuration Manager",
@@ -2260,8 +2253,7 @@
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2270,14 +2262,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-wingcopter-4461895061",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her Configuration Management expertise, but requires relocation to Germany.",
+    "reason": "The role is a perfect match for her skills and domain, but she is overqualified for the 'Junior' seniority level indicated in the posting.",
     "id": "ed64730b",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager M-BOM",
@@ -2286,14 +2277,13 @@
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-m-bom-at-thales-4417076267",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management expertise, but requires French proficiency which she does not possess.",
+    "reason": "The role is a strong match for her configuration management expertise, but the requirement for French proficiency is uncertain as she only lists English.",
     "id": "85338cc7",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager E- & M-BOM",
@@ -2301,15 +2291,14 @@
     "location": "Herstal, Walloon Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-e-m-bom-at-thales-4455784234",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a configuration manager in a regulated environment, located in Belgium (EU), requiring English proficiency and matching the candidate\u2019s extensive CM and release experience.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong technical match for her configuration management expertise, but the requirement for French proficiency is uncertain as it is not listed in her profile.",
     "id": "6e1571c2",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/thales_configuration_manager_e____m_b_6e1571c2.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Gestor/a de la configuraci\u00f3n 3DEX - Ingl\u00e9s C1",
@@ -2318,14 +2307,13 @@
     "url": "https://es.linkedin.com/jobs/view/gestor-a-de-la-configuraci%C3%B3n-3dex-ingl%C3%A9s-c1-at-cimpa-plm-services-4430881922",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Configuration Manager position in the EU requiring English, which aligns with her extensive experience in configuration management and release processes.",
+    "reason": "The role is a direct match for her Configuration Management expertise and is located within the EU.",
     "id": "1dffe5e5",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/cimpa_plm_services_gestor_a_de_la_configuraci_n_3_1dffe5e5.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/cimpa_plm_services_gestor_a_de_la_configuraci_n_3_1dffe5e5.txt"
   },
   {
     "title": "Gestionnaire de Configuration F/H",
@@ -2334,14 +2322,13 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-f-h-at-scalian-4462781516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "89236e10",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Industrial Configuration Manager - PLM",
@@ -2349,15 +2336,14 @@
     "location": "Li\u00e8ge, Walloon Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/industrial-configuration-manager-plm-at-sparagus-4392945690",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The candidate's configuration management and regulated industry experience is a strong match, but the requirement for fluency in French is an uncertainty as it is not listed in her profile.",
+    "matches_requirements": "no",
+    "reason": "The posting states that applications are no longer accepted, which is a hard rejection.",
     "id": "ba1b5765",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
