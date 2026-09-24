@@ -1048,11 +1048,11 @@
     "location": "Maia, Porto, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-skrey-4448938235",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
+    "matches_requirements": "maybe",
+    "reason": "The role is a DevOps position in the EU, but the candidate is overqualified for an 'Assistant' level role and the position requires Portuguese proficiency.",
     "id": "5de14a1a",
     "source": "linkedin_eu_remote_devops_engineer_p2",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null
@@ -1139,14 +1139,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3b38860e12bb7153",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a remote AI Infrastructure Cloud Engineer in Finland, aligning with DevOps responsibilities but lacking details on experience level and specific release/CM duties.",
+    "reason": "Job title suggests a DevOps/Cloud Engineer role, but lack of description prevents confirming seniority or regulated domain fit.",
     "id": "0a01ce58",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Associate Solutions Architect , AWS Finland",
@@ -1154,15 +1153,14 @@
     "location": "FIN, Helsinki",
     "url": "https://fi.indeed.com/rc/clk?jk=5879cb9fab112796",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job description provides no substantive details to evaluate, and the 'Associate Solutions Architect' title does not align with the candidate's core expertise in Release and Configuration Management.",
+    "matches_requirements": "maybe",
+    "reason": "The Associate Solutions Architect role is not explicitly a release/CM/DevOps or technical documentation position, so fit is uncertain.",
     "id": "277ae730",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "AI Forward Deployed Engineer",
@@ -1171,14 +1169,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a5f1e6636d2fc227",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role appears to be a pure feature-development AI engineering position with no release, configuration\u2011management, or DevOps focus, which is a hard rejection.",
+    "reason": "The role of AI Forward Deployed Engineer is a software engineering position, which does not align with the candidate's specialized focus on Release Management, Configuration Management, or DevOps.",
     "id": "73c544e8",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1186,15 +1183,14 @@
     "location": "Futurice Helsinki, Futurice Tampere",
     "url": "https://fi.indeed.com/rc/clk?jk=08e41726d2d88ff7",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a junior-level software development position focused on feature development, which does not align with her senior-level expertise in release management and DevOps.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "05ee3179",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1202,15 +1198,14 @@
     "location": "Oulu, Finland",
     "url": "https://fi.indeed.com/viewjob?jk=890abcdef0123456",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Junior Software Developer position, which is a pure feature-development role and an entry-level position, both of which are hard rejections for this candidate.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "5917e00e",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Full-Stack Engineer",
@@ -1218,15 +1213,14 @@
     "location": "Helsinki, Stockholm \u00b7 Hybrid",
     "url": "https://fi.indeed.com/rc/clk?jk=a6d487e21cf9674f",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Full-Stack Engineer position, which is a hard rejection as it focuses on feature development rather than release, configuration management, or DevOps.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "b149f4c2",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1251,15 +1245,14 @@
     "location": "Stockholm, Sweden",
     "url": "https://fi.indeed.com/rc/clk?jk=a3dd4347fa805626",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role could involve DevOps or developer tooling, aligning with her background, but the posting lacks sufficient detail to confirm a clear match.",
     "id": "70bc5904",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/pacera_developer_experience_engineer_70bc5904.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -1268,14 +1261,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3cea80895aa67fa9",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Senior DevOps Engineer in Finland, matching her DevOps/release expertise and location preferences.",
+    "reason": "Senior DevOps Engineer role in Finland aligns with candidate\u2019s experience and qualifications.",
     "id": "e7a34650",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_e7a34650.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_e7a34650.txt"
   },
   {
     "title": "Senior Infrastructure Engineer",
@@ -1284,14 +1276,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f3757d4070cd1b75",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title and location are a strong match for her profile, but the provided text lacks specific details regarding the role's exact responsibilities and language requirements.",
+    "reason": "The job title suggests an infrastructure focus, but the description does not confirm CI/CD or release\u2011management responsibilities that align with the candidate\u2019s expertise.",
     "id": "e1d2cf9a",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (Rendering)",
@@ -1300,14 +1291,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6ddc2f1ebd1b4466",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is a pure feature-development role with no release/CM/DevOps responsibilities.",
+    "reason": "The role is a pure feature-development Senior Software Engineer (Rendering), which does not align with the candidate\u2019s focus on release, configuration management, DevOps, or technical documentation in regulated domains.",
     "id": "9a83e369",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Forward Deployed Embedded Software Engineer",
@@ -1316,14 +1306,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=0b46170c33898cb9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a forward\u2011deployed embedded software engineer, a pure feature\u2011development position with no release/CM responsibilities, which does not align with the candidate\u2019s release/CM focus.",
+    "reason": "The role is a software engineering position focused on feature development, which is a hard rejection for the candidate's current career focus.",
     "id": "35e71680",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Solutions Engineer I, Scaled Solutions",
@@ -1331,15 +1320,14 @@
     "location": "Eemshaven, Netherlands; Saint-Ghislain, Belgium; Fredericia, Denmark; Hamina, Finland; Dublin, Ireland; Frankfurt, Germany",
     "url": "https://fi.indeed.com/rc/clk?jk=911bf5ba2af2c3f2",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is located in Finland and is a technical position, but the 'Engineer I' title suggests a junior level that may not align with her 15 years of experience.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "32d7eb81",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Test Automation Engineer",
@@ -1347,15 +1335,14 @@
     "location": "Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=10d1d5183d8b289d",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job title is highly relevant to the candidate's automation and CI/CD expertise, but the provided job description text is empty, preventing a definitive assessment of the specific responsibilities.",
+    "matches_requirements": "no",
+    "reason": "The role is a Senior Test Automation Engineer, which does not align with the candidate\u2019s expertise in DevOps, release/CM, or technical writing.",
     "id": "6149e026",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Flight Software Deployment Engineer",
@@ -1364,14 +1351,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8c578324c3b6a834",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role of Deployment Engineer aligns with her expertise in release management and CI/CD, and the location is within Finland and the EU.",
+    "reason": "The Deployment Engineer role aligns with her extensive experience in release management, CI/CD pipelines, and software deployment processes.",
     "id": "91b8cdfc",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_flight_software_deployment_eng_91b8cdfc.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_flight_software_deployment_eng_91b8cdfc.txt"
   },
   {
     "title": "Principal Software Engineer",
