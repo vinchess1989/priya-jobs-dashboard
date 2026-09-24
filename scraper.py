@@ -1796,6 +1796,21 @@ def update_git():
         git_kw = dict(cwd=repo_dir, env=env, capture_output=True, text=True,
                       stdin=subprocess.DEVNULL)
 
+        # Refuse to commit onto a detached HEAD / half-finished rebase: every push from that
+        # state fails silently and the dashboard goes stale (happened 2026-09-23, see memory.md).
+        git_dir = os.path.join(repo_dir, ".git")
+        if (os.path.isdir(os.path.join(git_dir, "rebase-merge"))
+                or os.path.isdir(os.path.join(git_dir, "rebase-apply"))):
+            print("ERROR: A git rebase is in progress in this repo - skipping Git update. "
+                  "Finish or abort it (git rebase --continue / --abort) so pushes can resume.")
+            return
+        branch = subprocess.run(["git", "symbolic-ref", "--short", "-q", "HEAD"],
+                                timeout=15, **git_kw).stdout.strip()
+        if not branch:
+            print("ERROR: Repo is on a detached HEAD - skipping Git update. "
+                  "Check out main so pushes can resume.")
+            return
+
         # Add updated files
         subprocess.run(["git", "add", "jobs.json", "seen_urls.json", "checkpoint.json",
                         "job_descriptions", "jobs_history.json", "deleted.json"],
@@ -1811,21 +1826,39 @@ def update_git():
                            check=True, timeout=60, **git_kw)
 
             # Check for GitHub token in environment variables
-            push_cmd = ["git", "push"]
+            remote = "origin"
             github_token = os.environ.get("GITHUB_TOKEN")
             if github_token:
                 remote_result = subprocess.run(["git", "config", "--get", "remote.origin.url"],
                                                timeout=15, **git_kw)
                 remote_url = remote_result.stdout.strip()
                 if remote_url.startswith("https://"):
-                    auth_url = remote_url.replace("https://", f"https://{github_token}@")
-                    push_cmd = ["git", "push", auth_url]
+                    remote = remote_url.replace("https://", f"https://{github_token}@")
 
+            def git_error(result):
+                err = (result.stderr or result.stdout or "").strip()
+                return (err.replace(github_token, "***") if github_token else err)[-400:]
+
+            # Integrate remote commits (e.g. tailor-resume's "Update resume links") before
+            # pushing, otherwise the push is rejected as non-fast-forward. On conflict, keep our
+            # side (-X theirs = the commits being replayed, i.e. this run's scraper output) and
+            # always abort a failed rebase so the repo is never left mid-rebase.
             try:
-                subprocess.run(push_cmd, check=True, timeout=120, **git_kw)
+                pull = subprocess.run(["git", "pull", "--rebase", "-X", "theirs", remote, branch],
+                                      timeout=180, **git_kw)
+                pull_failed = pull.returncode != 0
+            except subprocess.TimeoutExpired:
+                pull, pull_failed = None, True
+            if pull_failed:
+                subprocess.run(["git", "rebase", "--abort"], timeout=60, **git_kw)
+                print("WARNING: git pull --rebase failed (rebase aborted): "
+                      + (git_error(pull) if pull else "timed out"))
+
+            push = subprocess.run(["git", "push", remote, branch], timeout=120, **git_kw)
+            if push.returncode == 0:
                 print("Successfully pushed updates to GitHub!")
-            except subprocess.CalledProcessError:
-                print("Failed to push to GitHub (Check your GITHUB_TOKEN or internet connection).")
+            else:
+                print(f"Failed to push to GitHub: {git_error(push)}")
         else:
             print("No changes to commit. GitHub is already up to date.")
     except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:

@@ -6,6 +6,26 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Dashboard "Stale Data" — scraper stuck committing to a detached HEAD (found + fixed 2026-09-24)
+
+The dashboard's ⚠️ Stale Data badge fires when GitHub Pages' `jobs.json` `Last-Modified` is >24h
+old (`firebase_app/index.html` `onDataLoaded`). On 2026-09-23 22:19 a manual publish did
+`git pull --rebase` that stopped at step 1/30 and was left unfinished (`.git/rebase-merge`
+present). The long-running scraper kept committing every cycle onto the resulting detached HEAD,
+and its bare `git push` failed every time with a misleading "Check your GITHUB_TOKEN" message, so
+nothing reached `origin/main` for ~37h while the scraper looked healthy. Restarting the scraper
+does NOT fix this — check `git status -sb` for `HEAD (no branch)` / "rebasing" first.
+Recovery used: stop priya orchestrator+scraper, commit working tree, `git branch scraper-detached`,
+`git rebase --abort`, merge `scraper-detached` into `main` (merge, not rebase — replaying 30
+`jobs.json` commits conflicts on every step), take the scraper side for all generated files
+(`jobs.json`, `job_descriptions/*`, `checkpoint.json`, `deleted.json`) — main-side `jobs.json`
+diffs were only re-review flags/re-evals, which the requirements-hash check regenerates — push,
+restart. Hardening in `scraper.py`'s git step: skips (with a clear ERROR) when a rebase is in
+progress or HEAD is detached; does `git pull --rebase -X theirs <remote> <branch>` before pushing
+(aborting on any failure so it can't strand a rebase itself); prints git's real error (token
+masked). Nothing pulled before pushing previously, so any remote commit (e.g. tailor-resume's
+"Update resume links") also made pushes fail. Not yet ported to manju_jobs/vineeth_jobs.
+
 ## Vinjey Software Systems experience entry was missing from every resume (2026-09-23)
 
 `job_requirements.md` has always listed **Vinjey Software Systems (Nov 2012 – Dec 2013)** as part
