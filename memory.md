@@ -6,6 +6,39 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Vinjey Software Systems experience entry was missing from every resume (2026-09-23)
+
+`job_requirements.md` has always listed **Vinjey Software Systems (Nov 2012 – Dec 2013)** as part
+of Priya's real background ("earlier hands-on software engineering — C#, C++, embedded/DSP"), but
+this fifth, earliest role was never actually added to `master_data.json` when the candidate
+profile was first filled in (2026-09-06/07) — the template only ever had four experience entries
+(Topcon, Elektrobit, Accenture, Pronto). That meant it was silently missing from every tailored
+resume generated before 2026-09-23, twelve jobs' worth. Priya caught this herself and asked where
+it was. Fixed by asking her for the job title (she said "Software Engineer, similar to Pronto")
+and adding a fifth entry to the master template — title "Software Engineer", company "Vinjey
+Software Systems", dates "Nov 2012 – Dec 2013", two bullets about embedded/DSP software in C/C++
+(the exact scope `job_requirements.md` names, nothing further invented) — placed after Pronto as
+the earliest role. Retrofitted into all 12 already-tailored resumes' `*_data.json` files, then
+regenerated and visually re-verified each PDF still fits one page. `tailor-resume.md`'s
+`resume.experience` rule and "Priya's profile" facts list were both updated from "four entries" to
+"five entries" so future runs include Vinjey automatically. **If a future session notices any other
+fact in `job_requirements.md`'s Candidate Profile that isn't reflected in `master_data.json`,
+treat it the same way — check, don't assume the template is complete.**
+
+## Documentation-domain keywords added (2026-09-22)
+
+`_KEYWORD_TERMS` in `scraper.py` now includes `"Technical Writer"` and `"Documentation
+Specialist"` alongside the original four (DevOps Engineer, Configuration Manager, Release
+Manager, Product Specialist), at Priya's request to widen the dashboard to documentation-focused
+roles. This is a genuine fit, not a stretch — she has real Technical Writing & Translation
+Specialist (Accenture) and Technical Communication Specialist (Topcon) experience, both already
+used heavily in tailored resumes. `job_requirements.md`'s Domain/Role Type criteria (Target Job
+Criteria §1) got a matching new bullet so the LLM screening step scores these correctly instead of
+treating them as off-domain. No `FIXED_SITES` or site-template changes needed — new
+`_KEYWORD_TERMS` entries automatically get crossed with every existing site template (LinkedIn
+FI/EU, Indeed, Jobly, etc.) via `generate_targets()`. Takes effect on the scraper's next run (once
+daily at 08:00, or sooner if run manually).
+
 ## Major Features
 1. **Priya's Job Search Automation:** Scrapes customer success, administrative, hospitality, and educational opportunities across Finland and remote portals.
 2. **Hybrid Cloud & Local LLM Scoring:** Evaluates applicant match score using Groq API (`llama-3.3-70b-versatile`) with seamless local fallback to LM Studio.
@@ -220,7 +253,11 @@ commit (Steps 6–7), since a job with no `jobs.json` entry would just log a
 `WARN: job_id '...' not found in jobs.json — skipping` and never actually reach Firestore/the
 dashboard anyway. These stay as local-only PDFs for Priya to use directly, not dashboard-tracked
 jobs. No checkpoint file is created either, since the checkpoint/resume mechanism assumes a
-`jobs.json`-backed job.
+`jobs.json`-backed job. **Caveat:** `sync_resume_links.py` rescans *every* `Resumes\` folder, so
+the next sync run for any other job still logs that WARN for the manual job and writes its row
+into `input.csv` (row for `00035459` was committed 2026-09-21 this way). Harmless — no Firestore
+write, and the CSV links point at the private repo — but don't expect skipping Steps 6–7 to keep a
+manual job out of `input.csv` permanently.
 
 ## Work-permit status + started-learning-Finnish must appear in every cover letter (2026-09-16)
 

@@ -149,7 +149,7 @@ English-only — Priya does not speak Finnish or Swedish, and her `job_requireme
 
 **`resume.profile`:** 2–3 sentences, highly specific to this role and company. Directly connect Priya's most relevant background (Configuration Management, Release Management, DevOps/CI-CD in regulated safety-critical industries) to the stated requirements. Do not just summarise her CV — name the company and what they need.
 
-**`resume.experience`:** Keep all four entries exactly as in the template (same dates, companies, titles). Reorder the four entries so the most relevant experience appears first. Within each entry, reorder and reword the bullets to front-load skills mentioned in the job description.
+**`resume.experience`:** Keep all five entries exactly as in the template (same dates, companies, titles), including Vinjey Software Systems — do not drop the earliest entry. Reorder the five entries so the most relevant experience appears first. Within each entry, reorder and reword the bullets to front-load skills mentioned in the job description.
 
 **`resume.education`:** Keep both entries as in the template, **using the exact same keys** (`qual`, `inst`, and `bold` where set). Do not rename these keys (e.g. to `degree`/`school`) — `make_resume.py` reads `qual`/`inst` specifically and silently renders blank rows for any other key names.
 
@@ -182,6 +182,7 @@ Note: Priya's template has no `wage_subsidy_note`, `achievements`, `publications
 - Senior Software Engineer — Release & Configuration Management, Elektrobit Automotive Finland Oy, Oulu (Aug 2022 – Jun 2025): owned end-to-end release execution for EB Corbos Hypervisor & EB Corbos Linux (ASPICE/TUV automotive-grade safety-critical products), built/ran CI/CD pipelines (Jenkins, GitHub Actions), defined branching/baselining strategy, wrote Python/Bash release automation, supported ASPICE/TUV external audits (achieved RFM quality level).
 - Technical Writing & Translation Specialist / Application Development Specialist, Accenture (Apr 2016 – Apr 2025): owned release documentation each sprint on Salesforce-based platforms, certified Salesforce Admin/App Builder.
 - Software Engineer, Pronto Software Solutions Pvt. Ltd., India (Dec 2013 – Apr 2015): built Windows desktop apps in C#/C++.
+- Software Engineer, Vinjey Software Systems (Nov 2012 – Dec 2013): embedded and DSP-based software in C/C++, earliest role in her career.
 - Certifications: Salesforce Administrator (ADM 201), Salesforce Platform App Builder (DEX 402), Microsoft Azure Fundamentals.
 - English fluent/professional working proficiency. Does **not** currently speak Finnish or Swedish — both her Finland-based employers (Topcon, Elektrobit) operate fully in English — so `job_requirements.md`'s hard-rejection of roles requiring either still stands. She **has started learning Finnish** with a view to the future (not yet conversational) — mention this forward-looking commitment in every cover letter (see paragraph 4 above), but never phrase it as current proficiency.
 - Based in Oulu, Finland. Open to roles anywhere in Finland (any work model) and remote roles based in the EU/Europe more broadly (see `job_requirements.md` for the exact scope).

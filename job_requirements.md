@@ -46,6 +46,7 @@ that are close but uncertain on one dimension, and explain why in each case.
 * **Configuration Manager / Configuration Management Engineer** — version control strategy, branching/baselining, CM plans, build audits.
 * **Release Manager / Technical Release Manager** — end-to-end release ownership, go/no-go decisions, cross-team release coordination, release documentation.
 * **Product Specialist** — technical/quality product-support role (not quota-carrying sales), especially where it involves documentation, validation, or customer-facing technical support.
+* **Technical Writer / Documentation Specialist / Technical Communication Specialist** — release notes, change documentation, functional/user guides, SOPs, or other technical documentation ownership. Matches her Accenture (Technical Writing & Translation Specialist) and Topcon (Technical Communication Specialist) experience directly.
 * **Especially strong fit:** any of the above in a regulated/safety-critical domain (automotive ASPICE/TUV, medical device MDR/ISO 13485, or similar regulated software) — this exactly matches her Elektrobit and Topcon background.
 
 **2. Location & Work Model:** Must satisfy at least ONE of:

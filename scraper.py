@@ -136,6 +136,8 @@ _KEYWORD_TERMS = [
     {"en": "Configuration Manager"},
     {"en": "Release Manager"},
     {"en": "Product Specialist"},
+    {"en": "Technical Writer"},
+    {"en": "Documentation Specialist"},
 ]
 
 # ── Sites that accept a keyword injected into the URL ─────────────────────

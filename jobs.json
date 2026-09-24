@@ -283,15 +283,14 @@
     "location": "Murcia, Regi\u00f3n de Murcia, Spain",
     "url": "https://es.linkedin.com/jobs/view/programador-a-senior-devops-at-serem-consultor%C3%ADa-empresarial-4455054056",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a 100% remote DevOps position in Spain, which aligns with her extensive experience in CI/CD, automation, and release management.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns well with her DevOps and CI/CD expertise, but the job specifies a preference for residency in certain Spanish regions, which may be a constraint for a candidate based in Finland.",
     "id": "1db05ccb",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "2026-08-26",
-    "deadline": "Open until filled",
+    "posted_date": "hace 1 mes",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/serem_consultor_a_em_programador_a_senior_devops_1db05ccb.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -300,14 +299,13 @@
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-at-hiberus-4459661329",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The candidate's extensive experience in DevOps, CI/CD, and automation tools like Jenkins and GitHub Actions aligns well with the role, and the position is located within the EU.",
+    "reason": "DevOps Engineer role in Spain matches her experience and skill set.",
     "id": "1e13be8a",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/hiberus_devops_engineer_1e13be8a.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/hiberus_devops_engineer_1e13be8a.txt"
   },
   {
     "title": "Ing\u00e9nieur DevOps F/H",
@@ -316,14 +314,13 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-f-h-at-mbda-4428872296",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is a strong match for her DevOps and CI/CD expertise in a regulated environment, but it is located in France, which would require relocation.",
     "id": "8fb0e94c",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -332,14 +329,13 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-diggers-4435984009",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is explicitly categorized as an entry-level role ('Premier emploi'), which is a hard rejection for a candidate with 15 years of experience.",
+    "reason": "The posting is for an entry\u2011level position requiring no experience, which is a hard rejection for this senior\u2011level candidate.",
     "id": "79827539",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "il y a 2 mois",
+    "posted_date": "hace 2 meses",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b"
   },
   {
     "title": "Ing\u00e9nieur DevOps H/F",
@@ -347,15 +343,14 @@
     "location": "Paris, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-diggers-4140687984",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and automation skills, but it is listed as an entry-level position and the posting is in French.",
+    "matches_requirements": "no",
+    "reason": "The posting is explicitly for a no\u2011experience (entry\u2011level) DevOps role, which conflicts with the candidate\u2019s 15 years of experience.",
     "id": "1aaa9e8c",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "1 year ago",
+    "posted_date": "hace 1 a\u00f1o",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
   },
   {
     "title": "DevOps Engineer - Platform Team CUC (m/w/d)",
@@ -364,14 +359,13 @@
     "url": "https://sk.linkedin.com/jobs/view/devops-engineer-platform-team-cuc-m-w-d-at-deutsche-telekom-4448152929",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong skill match for a DevOps Engineer, but requires relocation to Slovakia as remote work is restricted to residents of Slovakia.",
+    "reason": "The role matches her DevOps and CI/CD expertise, but remote work is restricted to Slovakia, necessitating relocation.",
     "id": "8ce820a3",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps",
@@ -380,14 +374,13 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-at-dellent-4462943598",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting is closed and no longer accepting applications.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "f33ad09f",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer (m/w/d) f\u00fcr PACCA Programm",
@@ -396,14 +389,13 @@
     "url": "https://sk.linkedin.com/jobs/view/senior-devops-engineer-m-w-d-f%C3%BCr-pacca-programm-at-deutsche-telekom-4448154742",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and release management expertise, but requires relocation to Slovakia as remote work is restricted to Slovakian residents.",
+    "reason": "The role matches her DevOps and configuration management expertise, but requires relocation to Slovakia as remote work is restricted to local residents.",
     "id": "b56b97f5",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -412,14 +404,13 @@
     "url": "https://se.linkedin.com/jobs/view/senior-devops-engineer-at-carasent-group-4451696108",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires strong communication skills in Swedish, which the candidate does not speak, and it is a hybrid position in Sweden that does not offer relocation.",
+    "reason": "The role requires strong verbal and written communication skills in Swedish, which the candidate does not speak.",
     "id": "d578f1d8",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -428,14 +419,13 @@
     "url": "https://ie.linkedin.com/jobs/view/devops-engineer-at-st-engineering-idirect-4439311604",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is a strong match for her DevOps and automation skills, but it is located in Ireland, which would require relocation.",
     "id": "7a9eed31",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer (Naxxar, Malta)",
@@ -450,8 +440,7 @@
     "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -459,15 +448,14 @@
     "location": "Sliema, Sliema, Malta",
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-at-light-wonder-igaming-4434495299",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer in Malta, matching her skills, experience level, and language requirements, and is within the EU.",
+    "matches_requirements": "maybe",
+    "reason": "The candidate's technical skills are a strong match for the DevOps role, but she is significantly overqualified for the 2-4 years of experience requested.",
     "id": "bb453949",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "description_file": "job_descriptions/light___wonder___iga_devops_engineer_bb453949.txt",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "needs_re_review": true
+    "description_file": null,
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer",
@@ -475,15 +463,14 @@
     "location": "Vilnius, Vilniaus, Lithuania",
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-kiloverse-4429325356",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps and CI/CD expertise and is located in the EU, but she is overqualified for an 'entry level' role and it requires onsite presence in Lithuania.",
+    "matches_requirements": "no",
+    "reason": "Extracted via regex fallback",
     "id": "39b59ece",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-07-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
   },
   {
     "title": "DevOps Engineer (Cloud Platform)",
@@ -491,15 +478,14 @@
     "location": "Tallinn, Harjumaa, Estonia",
     "url": "https://ee.linkedin.com/jobs/view/devops-engineer-cloud-platform-at-luminor-group-4442120445",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a mid-senior DevOps Engineer in Estonia (EU) with English as the primary language, matching Priyanga\u2019s skills and location preferences.",
+    "matches_requirements": "maybe",
+    "reason": "The candidate's DevOps and CI/CD skills are a strong match, but the role is located in Estonia, which would require relocation from Finland.",
     "id": "3a1db8c6",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "description_file": "job_descriptions/luminor_group_devops_engineer__cloud_platfor_3a1db8c6.txt",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "needs_re_review": true
+    "description_file": null,
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer | Mid | Infra",
@@ -508,14 +494,13 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-infra-at-nord-security-4424719631",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role aligns with her DevOps and CI/CD expertise and is located in the EU with remote flexibility.",
     "id": "95021265",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": "job_descriptions/nord_security_devops_engineer___mid___infra_95021265.txt",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer",
@@ -524,14 +509,13 @@
     "url": "https://ee.linkedin.com/jobs/view/devops-engineer-at-relax-gaming-ltd-4455765917",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and automation skills, but it is an on-site position in Estonia which would require relocation.",
+    "reason": "The candidate is overqualified for this Associate-level role, but the technical skills and location are a strong match.",
     "id": "3850ed31",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer - Zecure Gaming",
@@ -539,15 +523,14 @@
     "location": "Ta' Xbiex, Ta' Xbiex, Malta",
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-zecure-gaming-at-betsson-group-4437790389",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and CI/CD expertise and is located in the EU, but it is an on-site position in Malta which would require relocation.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer in Malta, an EU location, matching Priyanga\u2019s skills and experience in CI/CD, cloud, and infrastructure automation.",
     "id": "c7895e8f",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
-    "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "description_file": "job_descriptions/betsson_group_devops_engineer___zecure_gamin_c7895e8f.txt",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b"
   },
   {
     "title": "DevOps Engineer",
@@ -556,14 +539,13 @@
     "url": "https://lv.linkedin.com/jobs/view/devops-engineer-at-arrise-4435471425",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is an on-site DevOps position in Latvia (EU) which would require relocation, and the candidate is highly experienced for the requirements.",
+    "reason": "The role is a strong match for her DevOps and CI/CD skills, but it is an on-site position in Latvia which would require relocation.",
     "id": "d2fc2145",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer | Mid | Infra",
@@ -571,15 +553,14 @@
     "location": "Kaunas, Kaunas, Lithuania",
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-infra-at-nord-security-4424716628",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD skills, but it is located in Lithuania, which would require relocation.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer position in the EU, which aligns with her CI/CD, automation, and release management expertise and her openness to EU-based remote work.",
     "id": "cee506cb",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
-    "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "description_file": "job_descriptions/nord_security_devops_engineer___mid___infra_cee506cb.txt",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer",
@@ -588,14 +569,13 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-kilo%E2%84%A2-4415711499",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps skills and is in the EU, but it requires being onsite in Vilnius 4 days a week and is listed as an entry-level position.",
+    "reason": "The candidate is overqualified for this entry-level role, and the position requires on-site presence in Lithuania.",
     "id": "8d73999a",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer (Cloud Platform)",
@@ -604,14 +584,13 @@
     "url": "https://lv.linkedin.com/jobs/view/devops-engineer-cloud-platform-at-luminor-group-4442123388",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns with her DevOps and automation expertise and is located in the EU, but would require relocation and the company expresses a preference for candidates already in the Baltics.",
+    "reason": "The role aligns with her DevOps and technical writing expertise and is located within the EU, but would require relocation from Finland.",
     "id": "6cbaa998",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat"
   },
   {
     "title": "DevOps Engineer",
@@ -620,14 +599,13 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-cimsolutions-4462956369",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Applications are no longer accepted.",
+    "reason": "The posting states it is no longer accepting applications.",
     "id": "cfa340d6",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b"
   },
   {
     "title": "Cloud Engineer",
@@ -635,15 +613,14 @@
     "location": "Galway, County Galway, Ireland",
     "url": "https://ie.linkedin.com/jobs/view/cloud-engineer-at-ministry-brands-4448518153",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a hybrid position in Ireland, which is within the EU, but would require relocation for the candidate.",
+    "matches_requirements": "no",
+    "reason": "Job is entry-level only, which does not match the candidate's 15 years of experience.",
     "id": "9a90ffbe",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b"
   },
   {
     "title": "DevOps Engineer (m/w/d)",
@@ -652,14 +629,13 @@
     "url": "https://at.linkedin.com/jobs/view/devops-engineer-m-w-d-at-knapp-4460964775",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD expertise, but requires relocation to Austria.",
+    "reason": "The role is a strong match for her DevOps and CI/CD expertise and is located in the EU, but the job description is in German, making the language requirement uncertain.",
     "id": "15267fb0",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -667,15 +643,14 @@
     "location": "Tallinn, Harjumaa, Estonia",
     "url": "https://ee.linkedin.com/jobs/view/devops-engineer-at-defsecintel-solutions-4415929692",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer position in the EU, matching her CI/CD, Docker, and cloud infrastructure expertise.",
+    "matches_requirements": "maybe",
+    "reason": "The role matches her DevOps and CI/CD expertise in an EU location, but the posting is listed as entry-level, making her overqualified.",
     "id": "a39b58a1",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/defsecintel_solution_devops_engineer_a39b58a1.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Site Reliability Engineer / DevOps",
@@ -684,14 +659,13 @@
     "url": "https://lv.linkedin.com/jobs/view/site-reliability-engineer-devops-at-ubiquiti-inc-4395231617",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Latvian, which the candidate does not possess.",
+    "reason": "The position requires fluency in Latvian, which the candidate does not speak.",
     "id": "9db5a671",
     "source": "linkedin_eu_remote_devops_engineer",
-    "posted_date": "il y a 1\u00a0jour",
+    "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -700,14 +674,13 @@
     "url": "https://bg.linkedin.com/jobs/view/devops-engineer-at-tiebreak-4461396478",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role matches her DevOps and CI/CD expertise, but the location in Bulgaria requires relocation outside Finland, making it a potential but uncertain fit.",
     "id": "9af2d433",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "AWS Cloud Engineer",
@@ -716,14 +689,13 @@
     "url": "https://ie.linkedin.com/jobs/view/aws-cloud-engineer-at-viotas-4448582467",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a DevOps/Cloud Engineer position in the EU, which aligns with her extensive experience in CI/CD, automation, and release management.",
+    "reason": "The role aligns with her DevOps and automation expertise and is located in the EU, which she is open to.",
     "id": "91008996",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/viotas_aws_cloud_engineer_91008996.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/viotas_aws_cloud_engineer_91008996.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -732,14 +704,13 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-payabl-4462281202",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role matches her DevOps and CI/CD expertise and offers remote work within the EU (Portugal and Poland).",
+    "reason": "The role is a DevOps Engineer position offering remote work in the EU, which aligns with the candidate's extensive experience in CI/CD, automation, and infrastructure.",
     "id": "fcd07e5e",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/payabl__devops_engineer_fcd07e5e.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/payabl__devops_engineer_fcd07e5e.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -748,14 +719,13 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-fxpro-4458717703",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps and CI/CD expertise, but requires relocation to Cyprus, which is in the EU.",
+    "reason": "The role matches her DevOps and CI/CD expertise, but it is located in Cyprus, which would require relocation from Finland.",
     "id": "35df58b9",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Data DevOps Engineer (m/f/x)",
@@ -764,14 +734,13 @@
     "url": "https://mt.linkedin.com/jobs/view/data-devops-engineer-m-f-x-at-tipico-4456712215",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The posting explicitly states it is no longer accepting applications.",
     "id": "67a60c0c",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -780,14 +749,13 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-robin-radar-systems-4367192401",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and automation skills, but requires living in the Netherlands, which would require relocation from Finland.",
+    "reason": "Strong match for her DevOps and CI/CD skills, but requires relocation to the Netherlands.",
     "id": "463e3a96",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Engineer - DevOps | PGIM Ireland",
@@ -796,14 +764,13 @@
     "url": "https://ie.linkedin.com/jobs/view/software-engineer-devops-pgim-ireland-at-pgim-ireland-4447159325",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD expertise in an EU location, but she is significantly overqualified for the 2-3 years of experience requested.",
+    "reason": "The role aligns with her DevOps and CI/CD expertise, but she is significantly overqualified for the 2-3 years of experience requested.",
     "id": "4dc7698b",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -811,15 +778,14 @@
     "location": "Maastricht, Limburg, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-ilionx-4429366859",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer position in the Netherlands, which aligns with her extensive experience in CI/CD, release management, and automation.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a DevOps Engineer in the EU (Netherlands), matching her domain, but requires on-site work outside Finland, making relocation uncertain.",
     "id": "b67130af",
     "source": "linkedin_eu_remote_devops_engineer",
-    "posted_date": "2026-08-19",
-    "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/ilionx_devops_engineer_b67130af.txt",
-    "needs_re_review": true
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -827,15 +793,14 @@
     "location": "Athens, Attiki, Greece",
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-xm-4458070555",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps and CI/CD skills and is located in the EU, but may require relocation from Finland.",
+    "matches_requirements": "yes",
+    "reason": "Job matches DevOps Engineer role in EU with required skills and location.",
     "id": "902c7efe",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/xm_devops_engineer_902c7efe.txt"
   },
   {
     "title": "Platform DevOps Engineer - Infra",
@@ -850,8 +815,7 @@
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Middle DevOps Engineer",
@@ -859,15 +823,14 @@
     "location": "Cyprus",
     "url": "https://cy.linkedin.com/jobs/view/middle-devops-engineer-at-emerging-travel-group-4456718046",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps position in an EU country (Cyprus) that offers remote work, matching her expertise in CI/CD and automation.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with her DevOps and CI/CD expertise, and while located in Cyprus, it offers remote work options within the EU.",
     "id": "c42c27cb",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/emerging_travel_grou_middle_devops_engineer_c42c27cb.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -876,14 +839,13 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-xm-4458063602",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps and CI/CD expertise, but requires relocation to Cyprus (EU).",
+    "reason": "The role is a DevOps Engineer in Cyprus (EU) and matches the candidate\u2019s skill set, but the associate-level seniority may be below her 15\u2011year experience, making it a potential but uncertain fit.",
     "id": "48f5178d",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -892,14 +854,13 @@
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-upstream-4455868445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting indicates that applications are no longer accepted.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "1985003c",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -908,14 +869,13 @@
     "url": "https://ie.linkedin.com/jobs/view/devops-engineer-at-nicoll-curtin-4460489748",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role aligns with her DevOps and CI/CD expertise and is located in the EU, which is within her acceptable work range.",
+    "reason": "The role is a Mid-Senior DevOps Engineer position in Ireland (EU) focusing on CI/CD and automation, which aligns perfectly with the candidate's 15 years of experience in DevOps and Release Management.",
     "id": "fb660567",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/nicoll_curtin_devops_engineer_fb660567.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/nicoll_curtin_devops_engineer_fb660567.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -924,14 +884,13 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-treehouse-nl-4391865001",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate is overqualified for this mid-level DevOps role and would require relocation to the Netherlands, although the role is within the EU.",
+    "reason": "The role is a strong technical match for her DevOps skills, but she is significantly overqualified and the position requires being physically present in Rotterdam, Netherlands.",
     "id": "329c397c",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -940,14 +899,13 @@
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-alphaomegazed-sa-4461145962",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her DevOps expertise and is located in the EU (Greece), but would require relocation as it is not explicitly listed as remote.",
+    "reason": "Extracted via regex fallback",
     "id": "bc4d2250",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Site Reliability | DevOps Engineer",
@@ -955,15 +913,14 @@
     "location": "Thessaloniki Metropolitan Area",
     "url": "https://gr.linkedin.com/jobs/view/site-reliability-devops-engineer-at-kaizen-gaming-4441168678",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a strong match for her DevOps and CI/CD expertise and is located within the EU with remote options available.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her DevOps/SRE expertise and is located in the EU, but it is uncertain if the remote option allows working from Finland or is restricted to Greece.",
     "id": "80171f58",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/kaizen_gaming_site_reliability___devops_engi_80171f58.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -971,15 +928,14 @@
     "location": "Den Bosch, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-mstack-4253716245",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role is a DevOps Engineer in the EU, but it is listed as entry-level ('Instapniveau'), which may not align with her 15 years of experience.",
     "id": "f3abae89",
     "source": "linkedin_eu_remote_devops_engineer_p2",
-    "posted_date": "N/A",
+    "posted_date": "1 jaar geleden",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -987,15 +943,14 @@
     "location": "Limassol, Cyprus",
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-chillbase-4457280412",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a DevOps Engineer in Cyprus (EU), but it is an on-site/hybrid position requiring relocation.",
+    "matches_requirements": "yes",
+    "reason": "The role is a DevOps Engineer in Cyprus, an EU location, matching her experience and skill set, and there are no hard-rejection conditions.",
     "id": "4fffa016",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-01",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/chillbase_devops_engineer_4fffa016.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -1004,14 +959,13 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-playtech-4457250138",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a DevOps Engineer in Cyprus, an EU country, which is a potential relocation but not a guaranteed fit for the candidate\u2019s preference for Finland or EU remote work.",
+    "reason": "The role is a strong match for her DevOps and CI/CD expertise, but it is located in Cyprus, which would require relocation from Finland.",
     "id": "b59e4a1b",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Cloud Engineer",
@@ -1020,14 +974,13 @@
     "url": "https://mt.linkedin.com/jobs/view/cloud-engineer-at-pentasia-4448858183",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps and Azure expertise, but it is a hybrid position in Malta requiring relocation.",
+    "reason": "The role is a strong match for her DevOps and Azure expertise, but it is a hybrid position in Malta requiring relocation.",
     "id": "98f5db6b",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1036,14 +989,13 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-nasdaq-4445487843",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a DevOps/Cloud position in the EU (Lithuania), but it is a hybrid role requiring on-site presence, which would require relocation.",
+    "reason": "The role aligns with her DevOps and automation skills and is located in the EU, but requires a hybrid presence in Vilnius, Lithuania, which would require relocation.",
     "id": "bfc74c76",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1052,14 +1004,13 @@
     "url": "https://ro.linkedin.com/jobs/view/devops-engineer-at-opswat-4430969454",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a DevOps Engineer in Romania (EU), which matches her skill set and is within her acceptable relocation/remote scope, though it is an on-site/hybrid role.",
+    "reason": "The role is a DevOps Engineer position in Romania (EU) that matches her CI/CD and automation skills, but it is an on-site/hybrid role in another EU country requiring relocation.",
     "id": "d90c78c1",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1068,14 +1019,13 @@
     "url": "https://lu.linkedin.com/jobs/view/devops-engineer-at-sogeti-4341774320",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role requires fluency in French, which is not listed in the candidate's profile, although the DevOps technical skills and EU location are a strong match.",
+    "reason": "The candidate's technical skills in DevOps and CI/CD are a strong match, but the role requires fluency in French, which is not listed in her profile.",
     "id": "df76f5ba",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2025-12-12",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1084,14 +1034,13 @@
     "url": "https://hr.linkedin.com/jobs/view/devops-engineer-at-elixirr-digital-4304884181",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her DevOps and CI/CD expertise and is located in the EU, but it is a hybrid role in Croatia rather than a fully remote position.",
+    "reason": "The role is a strong match for her DevOps and CI/CD skills and is located in the EU, but it is a hybrid position in Croatia which would require relocation.",
     "id": "3adeef5c",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1100,14 +1049,13 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-skrey-4448938235",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is in the EU (Portugal) which is a relocation possibility, but the candidate is overqualified for an 'Assistente' level position.",
+    "reason": "The role is a DevOps position in the EU, but the candidate is overqualified for an 'Assistant' level role and the position requires Portuguese proficiency.",
     "id": "5de14a1a",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1115,15 +1063,14 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-air-apps-4461160895",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "DevOps Engineer role in Portugal aligns with candidate\u2019s experience and EU location preference.",
+    "matches_requirements": "no",
+    "reason": "The posting is closed to applications ('Er kan niet meer worden gesolliciteerd'), which triggers a hard rejection.",
     "id": "d5ef439e",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/air_apps_devops_engineer_d5ef439e.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Kokenut j\u00e4rjestelm\u00e4kehitt\u00e4j\u00e4 (integraatiot ja alustat) - Avoin haku",
@@ -1131,15 +1078,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=05954a652e7c946a",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job description contains no actual role details, and the title 'System Developer' suggests a feature-development role, which is a hard rejection for this candidate.",
+    "matches_requirements": "maybe",
+    "reason": "The role includes DevOps and platform engineering which aligns with her expertise, but the primary focus is on system development and the posting is in Finnish.",
     "id": "ecd371fb",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Engineer",
@@ -1148,14 +1094,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=54688743b9774c9a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluent spoken and written Finnish, which the candidate does not speak.",
+    "reason": "Candidate does not speak Finnish, which is a mandatory requirement.",
     "id": "6b0373a7",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "AI Engineer - Analytics, Planning and AI",
@@ -1164,14 +1109,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=be7eb474e572ae57",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an AI Engineer position, which is a feature-development software engineering role and does not align with the candidate's focus on release, configuration management, or DevOps.",
+    "reason": "The AI Engineer role focuses on analytics and planning, which does not align with Priyanga\u2019s release/CM/DevOps or technical documentation expertise.",
     "id": "b2502084",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Senior Cloud Engineer",
@@ -1179,15 +1123,14 @@
     "location": "Finland, Spain; Fully Remote",
     "url": "https://fi.indeed.com/rc/clk?jk=f361f6e7efc1d768",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The job title 'Senior Cloud Engineer' aligns with the candidate's DevOps and automation background, but the provided job description text is empty, making it impossible to confirm the specific responsibilities.",
     "id": "355b918e",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/easor_senior_cloud_engineer_355b918e.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -1196,14 +1139,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3b38860e12bb7153",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a remote AI Infrastructure Cloud Engineer in Finland, aligning with DevOps responsibilities but lacking details on experience level and specific release/CM duties.",
+    "reason": "Job title suggests a DevOps/Cloud Engineer role, but lack of description prevents confirming seniority or regulated domain fit.",
     "id": "0a01ce58",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Associate Solutions Architect , AWS Finland",
@@ -1211,15 +1153,14 @@
     "location": "FIN, Helsinki",
     "url": "https://fi.indeed.com/rc/clk?jk=5879cb9fab112796",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job description provides no substantive details to evaluate, and the 'Associate Solutions Architect' title does not align with the candidate's core expertise in Release and Configuration Management.",
+    "matches_requirements": "maybe",
+    "reason": "The Associate Solutions Architect role is not explicitly a release/CM/DevOps or technical documentation position, so fit is uncertain.",
     "id": "277ae730",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "AI Forward Deployed Engineer",
@@ -1228,14 +1169,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a5f1e6636d2fc227",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role appears to be a pure feature-development AI engineering position with no release, configuration\u2011management, or DevOps focus, which is a hard rejection.",
+    "reason": "The role of AI Forward Deployed Engineer is a software engineering position, which does not align with the candidate's specialized focus on Release Management, Configuration Management, or DevOps.",
     "id": "73c544e8",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1244,14 +1184,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=08e41726d2d88ff7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a junior-level software development position focused on feature development, which does not align with her senior-level expertise in release management and DevOps.",
+    "reason": "The posting is for a junior software developer role focused on feature development, which does not align with the candidate's senior release/DevOps/CM expertise.",
     "id": "05ee3179",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1260,14 +1199,13 @@
     "url": "https://fi.indeed.com/viewjob?jk=890abcdef0123456",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Junior Software Developer position, which is a pure feature-development role and an entry-level position, both of which are hard rejections for this candidate.",
+    "reason": "The posting is for a Junior Software Developer focused on feature development, which falls under the hard rejection for pure feature\u2011development roles.",
     "id": "5917e00e",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Senior Full-Stack Engineer",
@@ -1276,14 +1214,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a6d487e21cf9674f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Full-Stack Engineer position, which is a hard rejection as it focuses on feature development rather than release, configuration management, or DevOps.",
+    "reason": "The role is a Full-Stack Engineer position, which is a hard rejection as it focuses on feature development rather than release management, configuration management, or DevOps.",
     "id": "b149f4c2",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1308,15 +1245,14 @@
     "location": "Stockholm, Sweden",
     "url": "https://fi.indeed.com/rc/clk?jk=a3dd4347fa805626",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "matches_requirements": "maybe",
+    "reason": "The role could involve DevOps or developer tooling, aligning with her background, but the posting lacks sufficient detail to confirm a clear match.",
     "id": "70bc5904",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/pacera_developer_experience_engineer_70bc5904.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -1325,14 +1261,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3cea80895aa67fa9",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Senior DevOps Engineer in Finland, matching her DevOps/release expertise and location preferences.",
+    "reason": "Senior DevOps Engineer role in Finland aligns with candidate\u2019s experience and qualifications.",
     "id": "e7a34650",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_e7a34650.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_e7a34650.txt"
   },
   {
     "title": "Senior Infrastructure Engineer",
@@ -1341,14 +1276,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f3757d4070cd1b75",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title and location are a strong match for her profile, but the provided text lacks specific details regarding the role's exact responsibilities and language requirements.",
+    "reason": "The job title suggests an infrastructure focus, but the description does not confirm CI/CD or release\u2011management responsibilities that align with the candidate\u2019s expertise.",
     "id": "e1d2cf9a",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (Rendering)",
@@ -1357,14 +1291,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6ddc2f1ebd1b4466",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is a pure feature-development role with no release/CM/DevOps responsibilities.",
+    "reason": "The role is a pure feature-development Senior Software Engineer (Rendering), which does not align with the candidate\u2019s focus on release, configuration management, DevOps, or technical documentation in regulated domains.",
     "id": "9a83e369",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Forward Deployed Embedded Software Engineer",
@@ -1373,14 +1306,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=0b46170c33898cb9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a forward\u2011deployed embedded software engineer, a pure feature\u2011development position with no release/CM responsibilities, which does not align with the candidate\u2019s release/CM focus.",
+    "reason": "The role is a software engineering position focused on feature development, which is a hard rejection for the candidate's current career focus.",
     "id": "35e71680",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Technical Solutions Engineer I, Scaled Solutions",
@@ -1388,15 +1320,14 @@
     "location": "Eemshaven, Netherlands; Saint-Ghislain, Belgium; Fredericia, Denmark; Hamina, Finland; Dublin, Ireland; Frankfurt, Germany",
     "url": "https://fi.indeed.com/rc/clk?jk=911bf5ba2af2c3f2",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is located in Finland and is a technical position, but the 'Engineer I' title suggests a junior level that may not align with her 15 years of experience.",
+    "matches_requirements": "yes",
+    "reason": "The role's focus on troubleshooting, automation, and process improvement aligns well with her background in release management, CI/CD, and technical documentation.",
     "id": "32d7eb81",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/google_technical_solutions_engineer_i_32d7eb81.txt"
   },
   {
     "title": "Senior Test Automation Engineer",
@@ -1404,15 +1335,14 @@
     "location": "Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=10d1d5183d8b289d",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job title is highly relevant to the candidate's automation and CI/CD expertise, but the provided job description text is empty, preventing a definitive assessment of the specific responsibilities.",
+    "matches_requirements": "no",
+    "reason": "The role is a Senior Test Automation Engineer, which does not align with the candidate\u2019s expertise in DevOps, release/CM, or technical writing.",
     "id": "6149e026",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Flight Software Deployment Engineer",
@@ -1421,14 +1351,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8c578324c3b6a834",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role of Deployment Engineer aligns with her expertise in release management and CI/CD, and the location is within Finland and the EU.",
+    "reason": "The Deployment Engineer role aligns with her extensive experience in release management, CI/CD pipelines, and software deployment processes.",
     "id": "91b8cdfc",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_flight_software_deployment_eng_91b8cdfc.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_flight_software_deployment_eng_91b8cdfc.txt"
   },
   {
     "title": "Principal Software Engineer",
@@ -1436,15 +1365,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=2b9a5d13444b76a5",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role focuses on engineering standards and infrastructure/deployment strategies, which aligns with her DevOps/CM background, though the title is Software Engineer.",
+    "matches_requirements": "no",
+    "reason": "The role is a senior architectural leadership position, not a release, configuration management, DevOps, or technical writing role that matches the candidate\u2019s expertise.",
     "id": "5c9b1662",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Senior/Staff Platform Observability Engineer",
@@ -1453,14 +1381,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3fbcb1122d825255",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role aligns with her extensive background in DevOps, CI/CD, and automation, particularly within highly regulated and mission-critical environments.",
+    "reason": "The role is a senior platform/observability engineering position in Finland that aligns with her DevOps/release/automation expertise and requires English.",
     "id": "3946939c",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_senior_staff_platform_observab_3946939c.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": "job_descriptions/iceye_senior_staff_platform_observab_3946939c.txt"
   },
   {
     "title": "Senior AI Engineer",
@@ -1486,14 +1413,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=65e19ac213fce7b5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Lead Architect focuses on system architecture rather than the candidate's core expertise in Release Management, Configuration Management, or DevOps.",
+    "reason": "Extracted via regex fallback",
     "id": "b36ac148",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Lead Architect",
@@ -1502,14 +1428,13 @@
     "url": "https://fi.indeed.com/viewjob?jk=789abcdef0123456",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description is empty and provides no information regarding the role's responsibilities, company, or specific location restrictions.",
+    "reason": "Job is remote worldwide, not limited to EU, violating location constraints.",
     "id": "f6272112",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Principal Engineer",
@@ -1518,14 +1443,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=79b8b9971db03a7f",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "Insufficient job details to confirm domain/role type alignment with candidate's release/CM expertise.",
+    "reason": "Job description lacks sufficient detail to confirm alignment with the candidate\u2019s release/CM/DevOps expertise.",
     "id": "274fdbaa",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevSecOps Engineer",
@@ -1534,14 +1458,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cdd8a82d35501ac2",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title and responsibilities align with DevOps/Release roles, but the location is listed only as \\\\",
+    "reason": "The posting is for a DevSecOps Engineer, which aligns with her DevOps/Release/Configuration Management expertise, but the location and experience level details are not specified, making fit uncertain.",
     "id": "a8228c5d",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Integration & Release Engineer",
@@ -1550,14 +1473,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d6a60ac8d91779ea",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role matches her release and integration expertise, but the unspecified \\\\",
+    "reason": "The role title indicates a release/DevOps focus, but the posting lacks specific location, experience level, and deadline details, making fit uncertain.",
     "id": "75a77ca4",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Backend Engineer (all genders) - Remote Nordics Europe",
@@ -1566,14 +1488,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=97cbfd3588468506",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position (Backend Engineer) which is a hard rejection as it lacks release, configuration management, or DevOps responsibilities.",
+    "reason": "The role is a Backend Engineer position, which is a hard rejection as the candidate's recent career focus is on Release Management and DevOps rather than pure feature development.",
     "id": "423c14fe",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Data Engineer",
@@ -1582,14 +1503,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cfb4b68e1c9e669a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Data Engineer focused on data development, not a DevOps, release, configuration management, or technical product specialist position.",
+    "reason": "The role is a pure feature-development data engineering position with no release, configuration-management, or DevOps focus.",
     "id": "e1bc7f40",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1615,14 +1535,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3e0b3af0bc2b598e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is a Senior Customer Support Engineer, which does not align with the candidate\u2019s expertise in release management, configuration management, DevOps, or technical documentation.",
     "id": "c19ffcb8",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1631,14 +1550,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=bc2c0d0c35a4eb31",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The job title is DevOps Engineer and the location is Helsinki, Finland, which aligns with the candidate's target roles and location preferences.",
+    "reason": "DevOps Engineer role in Helsinki, Finland aligns with Priyanga\u2019s skills and location preferences.",
     "id": "d961b17e",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt"
   },
   {
     "title": "DevOps Engineer",
@@ -1664,14 +1582,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ba20eab65b252257",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Senior DevOps Engineer position located in Espoo, Finland, which aligns with her extensive experience in CI/CD and release management and her availability in Finland.",
+    "reason": "Senior DevOps Engineer role in Espoo, Finland aligns with candidate\u2019s experience and location preferences.",
     "id": "183c39df",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt"
   },
   {
     "title": "Staff Platform Engineer - Core Platform Engineering",
@@ -1680,14 +1597,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d41b600073aff59c",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on platform engineering, CI/CD, and automation aligns well with her extensive background in release management, configuration management, and DevOps.",
+    "reason": "The role is a Staff Platform Engineer in Espoo, Finland, which aligns with her extensive experience in DevOps, CI/CD, and release management.",
     "id": "fb37fffb",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt"
   },
   {
     "title": "Staff Developer Advocate",
@@ -1695,15 +1611,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=4c3b86712c6b1625",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Staff Developer Advocate focused on API enablement and developer content, which does not align with the candidate\u2019s target domains of release management, configuration management, or product specialist in regulated environments.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a developer advocate, which is not a direct match to the candidate\u2019s release/CM/technical writing focus, but shares some documentation and developer\u2011facing responsibilities.",
     "id": "31240eb6",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (Developer Enablement)",
@@ -1711,15 +1626,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=2713e5b42fe4b719",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The title suggests a developer\u2011enablement role that could involve DevOps or release tooling, but the posting lacks details to confirm a clear fit.",
+    "matches_requirements": "yes",
+    "reason": "The 'Developer Enablement' focus aligns with her extensive experience in CI/CD, release management, and automation, and the role is located in Finland.",
     "id": "16cb105d",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/iceye_senior_software_engineer__deve_16cb105d.txt"
   },
   {
     "title": "Forward Deployed Engineer - Public sector, Nonprofit and Education",
@@ -1728,14 +1642,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=43406b63ecd78ec9",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The candidate is a certified Salesforce Administrator and App Builder, and the role is located in Finland.",
+    "reason": "The role's focus on technical delivery, configuration, and deployment on the Salesforce platform aligns well with her Salesforce certifications and technical implementation experience.",
     "id": "308a32f3",
     "source": "indeed_fi_devops_engineer_p3",
-    "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "posted_date": "posted 30+ days ago",
+    "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/salesforce_forward_deployed_engineer___pu_308a32f3.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/salesforce_forward_deployed_engineer___pu_308a32f3.txt"
   },
   {
     "title": "Staff Engineer \u2013 Core Developer Experience (DevEx)",
@@ -1743,15 +1656,14 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=223c30814249e037",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting explicitly states that the position is no longer open.",
+    "matches_requirements": "yes",
+    "reason": "The role's focus on Developer Experience (DevEx) aligns with her extensive background in DevOps, CI/CD, and release automation.",
     "id": "f6bb3fc1",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_f6bb3fc1.txt"
   },
   {
     "title": "Senior Data Arkkitehti",
@@ -1760,14 +1672,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e81816b3afcc5e98",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Data Architect, which does not align with the candidate's target DevOps/Release/Configuration Management/Product Specialist focus.",
+    "reason": "The role of Senior Data Architect does not align with the candidate's specialized expertise in Release Management, Configuration Management, and DevOps.",
     "id": "bc3a9dfc",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "DevOps Lead",
@@ -1776,14 +1687,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f614e615f2b4e17e",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The DevOps Lead role aligns with her DevOps and release management expertise and is located in Finland.",
+    "reason": "The DevOps Lead role aligns with the candidate's DevOps and release management expertise and is located in Finland/Denmark, which meets her location preferences.",
     "id": "f9db3911",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/danfoss_devops_lead_f9db3911.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": "job_descriptions/danfoss_devops_lead_f9db3911.txt"
   },
   {
     "title": "Staff Cloud Platform Engineer - Cloud Developer Experience",
@@ -1792,14 +1702,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4d62b0725dc0bc72",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on CI/CD architecture, release ownership, and delivery automation aligns directly with her extensive background in DevOps and Release Management.",
+    "reason": "The role's focus on cloud platform engineering and developer experience aligns with her expertise in CI/CD, automation, and DevOps.",
     "id": "94151ae3",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt"
   },
   {
     "title": "DevOps Engineer, Tampere",
@@ -1807,15 +1716,14 @@
     "location": "Tampere, Finland",
     "url": "https://www.jobly.fi/tyopaikka/devops-engineer-tampere-2740559",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a DevOps Engineer in Tampere, Finland, matching the candidate\u2019s domain, location, and experience level.",
+    "matches_requirements": "no",
+    "reason": "Job posting is no longer active.",
     "id": "1b091dd5",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": "job_descriptions/academic_work_devops_engineer__tampere_1b091dd5.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (DevOps & Platform Engineering)",
@@ -1823,15 +1731,14 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/senior-software-engineer-devops-platform-engineering-2750369",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role's focus on DevOps, platform engineering, and CI/CD automation aligns perfectly with her extensive experience in release management and automation.",
+    "matches_requirements": "no",
+    "reason": "Job posting is no longer active (closed).",
     "id": "f20de87e",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "2026-09-23",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/dna_oyj_senior_software_engineer__devo_f20de87e.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Facebook",
@@ -1840,14 +1747,13 @@
     "url": "https://www.facebook.com/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting contains no actual job description or role details, so it does not match any target domain or role.",
+    "reason": "The provided text is a description of a job search service (Jobly.fi) and does not contain a specific job posting or role requirements.",
     "id": "72167a89",
     "source": "jobly_fi_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "14 tuntia sitten",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Instagram",
@@ -1856,14 +1762,13 @@
     "url": "https://instagram.com/jobly.fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting lacks a specific role, location, or relevant details to evaluate against the candidate\u2019s criteria.",
+    "reason": "The posting provides no job description, role, or location information and does not match any target domain.",
     "id": "6cbf22da",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Linkedin",
@@ -1872,14 +1777,13 @@
     "url": "https://linkedin.com/company/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a company profile for a recruitment agency and does not contain a specific job description.",
+    "reason": "The provided text is a company profile for a recruitment agency rather than a specific job posting.",
     "id": "cb4a0d29",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Specialist",
@@ -1904,15 +1808,14 @@
     "location": "Kotka, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207645",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires deep, hands-on expertise in SAP Variant Configuration (LO-VC and AVC), which is a specific functional ERP domain distinct from the candidate's expertise in software release management and CI/CD.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a configuration management position, but requires specialized SAP Variant Configuration expertise which is distinct from the candidate's software and release configuration management background.",
     "id": "24d8c7e1",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -1921,14 +1824,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456210615",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a senior configuration leadership position that aligns with her seniority and 'Configuration Management' background, but requires specialized SAP expertise not explicitly mentioned in her profile.",
+    "reason": "The candidate has extensive experience in Configuration Management and Release Management, but this role requires specialized expertise in SAP Variant Configuration (LO-VC/AVC) which is not in her profile.",
     "id": "7792763e",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Architect, PLM",
@@ -1937,14 +1839,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460366683",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role's focus on PLM and release management aligns with her configuration management background, but she lacks explicit experience with the Windchill platform.",
+    "reason": "The role's focus on release management and lifecycle configuration aligns with her background, but requires specific Windchill PLM expertise not explicitly listed in her profile.",
     "id": "26a4181d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Application Specialist (ERP)",
@@ -1953,14 +1854,13 @@
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting explicitly states it is no longer accepting applications and requires fluent Finnish, which the candidate does not speak.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Implementation Consultant",
@@ -1969,14 +1869,13 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a technical implementation and solution specialist position in Finland, which aligns with her experience in technical product specialization and configuration.",
+    "reason": "The role's focus on application configuration, implementation, and technical documentation aligns well with her background in configuration management and technical product specialization.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/thomson_reuters_implementation_consultant_2d4e2bf2.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/thomson_reuters_implementation_consultant_2d4e2bf2.txt"
   },
   {
     "title": "System Engineer",
@@ -1985,14 +1884,13 @@
     "url": "https://fi.linkedin.com/jobs/view/system-engineer-at-iceye-4427036824",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's emphasis on automated deployment pipelines and version-controlled configurations aligns well with her expertise in DevOps and Configuration Management.",
+    "reason": "The role's emphasis on automated deployment pipelines and version-controlled configurations directly aligns with her expertise in Configuration Management and DevOps.",
     "id": "84c95aff",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_system_engineer_84c95aff.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_system_engineer_84c95aff.txt"
   },
   {
     "title": "Senior Implementation Consultant",
@@ -2000,15 +1898,14 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-consultant-at-thomson-reuters-4460058834",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with the 'Product Specialist' definition through its focus on application configuration and technical support, but it is a pivot from her recent focus on Release and DevOps.",
+    "matches_requirements": "yes",
+    "reason": "The role focuses on application configuration, technical implementation, and solution specialization, which aligns with her extensive experience in configuration management and technical product support.",
     "id": "c7fcb0b3",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/thomson_reuters_senior_implementation_consulta_c7fcb0b3.txt"
   },
   {
     "title": "ERP Solutions Manager",
@@ -2017,14 +1914,13 @@
     "url": "https://fi.linkedin.com/jobs/view/erp-solutions-manager-at-ikh-group-4462205522",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role involves end-to-end ownership of ERP implementation, including go/no-go decisions, cutover management, and technical documentation, which aligns with her release management and technical specialist background.",
     "id": "c7deb945",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt"
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
@@ -2033,14 +1929,13 @@
     "url": "https://fi.linkedin.com/jobs/view/google-workspace-consultant-%E2%80%93-turn-technology-into-more-meaningful-ways-of-working-at-gapps-4390153797",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role involves technical configuration and implementation which aligns with her skills, but the domain (Google Workspace/IT Consulting) differs from her core expertise in software release and CI/CD in regulated industries.",
+    "reason": "The role involves configuration and documentation which aligns with her skills, but her recent focus is on DevOps/Release Management rather than SaaS implementation.",
     "id": "d5c23071",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-05",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ERP & Master Data Specialist",
@@ -2071,8 +1966,7 @@
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "M365-asiantuntija",
@@ -2081,14 +1975,13 @@
     "url": "https://fi.linkedin.com/jobs/view/m365-asiantuntija-at-cgi-4464399052",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish, which the candidate does not have.",
     "id": "be3156ab",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Integration Lead",
@@ -2097,14 +1990,13 @@
     "url": "https://fi.linkedin.com/jobs/view/integration-lead-at-solita-4461874814",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on managing integration lifecycles, coordinating development, and ensuring system reliability aligns with her extensive experience in release management and technical coordination.",
+    "reason": "The role's focus on managing integration lifecycles, defining ways of working, and coordinating development capacity aligns well with her extensive experience in release management and configuration management.",
     "id": "ddb36711",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-24",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/solita_integration_lead_ddb36711.txt"
   },
   {
     "title": "Master Data Lead",
@@ -2112,15 +2004,14 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/master-data-lead-at-kalmar-4461686814",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Master Data Lead focused on data quality and analytics, not a DevOps, Configuration Management, Release Management, or technical Product Specialist position.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves data integrity and process management similar to configuration management, but focuses on master data rather than software release pipelines.",
     "id": "96cdf075",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "2026-09-26",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "IT Solution Manager - FICO",
@@ -2129,14 +2020,13 @@
     "url": "https://fi.linkedin.com/jobs/view/it-solution-manager-fico-at-neste-4460250750",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate has strong experience in operational readiness, compliance, and lifecycle management, but lacks the specific SAP Finance (FICO) domain expertise required.",
+    "reason": "The candidate has strong experience in operational readiness, compliance, and stakeholder management, but lacks the specific SAP and finance domain expertise required for this role.",
     "id": "456232f8",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Microsoft 365 -konsultti",
@@ -2145,14 +2035,13 @@
     "url": "https://fi.linkedin.com/jobs/view/microsoft-365-konsultti-at-futuriot-4439007984",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Microsoft 365 Consultant position, which does not align with her specialized expertise in Release Management, Configuration Management, and DevOps in regulated industries.",
+    "reason": "Extracted via regex fallback",
     "id": "928a3f19",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -2178,14 +2067,13 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-managed-file-transfer-mft-edi-at-fiskars-group-4457320334",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role involves technical ownership of integration platforms, which is adjacent to her DevOps and configuration management expertise, but requires specific B2B integration knowledge.",
+    "reason": "The role's focus on technical ownership and platform implementation aligns with her DevOps and Release Management expertise, though the specific EDI/MFT domain is a slight shift from her software release background.",
     "id": "a6a18706",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "BIM Manager",
@@ -2194,14 +2082,13 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-john-sisk-son-ltd-4409265801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The BIM Manager role focuses on construction BIM processes, not on release, configuration management, or DevOps, which are the candidate\u2019s core expertise.",
+    "reason": "Extracted via regex fallback",
     "id": "0de2628d",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "SAP Variant Configuration Transformation Lead",
@@ -2210,14 +2097,13 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-variant-configuration-transformation-lead-at-sulzer-4456207644",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires specialized expertise in SAP Variant Configuration (LO-VC/AVC), which is a functional ERP domain distinct from the candidate's expertise in Software Configuration Management and DevOps.",
+    "reason": "The candidate's configuration management expertise is in software release and version control, whereas this role requires specialized expertise in SAP Variant Configuration (product configuration logic).",
     "id": "316bdc49",
     "source": "linkedin_fi_configuration_manager_p3",
-    "posted_date": "2026-08-26",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-09-27",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Design and Engineering Tools Deployment Lead NB Zone",
@@ -2226,14 +2112,13 @@
     "url": "https://fi.linkedin.com/jobs/view/design-and-engineering-tools-deployment-lead-nb-zone-at-schneider-electric-4390142630",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on software deployment, training, and technical support aligns well with her background in technical communication and product specialization.",
+    "reason": "The role focuses on software deployment, training, and technical enablement, which aligns with her expertise in technical communication and product specialist functions.",
     "id": "ddd78a41",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/schneider_electric_design_and_engineering_tools_d_ddd78a41.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/schneider_electric_design_and_engineering_tools_d_ddd78a41.txt"
   },
   {
     "title": "Team Leader, Document Coordinator",
@@ -2242,14 +2127,13 @@
     "url": "https://fi.linkedin.com/jobs/view/team-leader-document-coordinator-at-sumitomo-shi-fw-4444949878",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This leadership role in document management and compliance in Finland aligns perfectly with her extensive experience in release documentation, quality gatekeeping, and regulated industry standards.",
+    "reason": "The role aligns with her extensive experience in technical documentation, compliance, and managing complex documentation processes in regulated environments.",
     "id": "736e6a64",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/sumitomo_shi_fw_team_leader__document_coordina_736e6a64.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/sumitomo_shi_fw_team_leader__document_coordina_736e6a64.txt"
   },
   {
     "title": "Configuration Manager",
@@ -2258,14 +2142,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-invensity-4331452080",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires business fluency in Swedish, which the candidate does not speak.",
+    "reason": "The job requires business fluency in Swedish, which the candidate does not speak.",
     "id": "d6f6d7b4",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "10 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2274,14 +2157,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4462820318",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires proficiency in Swedish, which the candidate does not speak.",
+    "reason": "The role requires strong Swedish language proficiency, which the candidate does not have.",
     "id": "30769f8d",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2290,14 +2172,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-tistel-4454503500",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted and requires Swedish citizenship.",
     "id": "4bd10207",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (Ingl\u00e9s alto)",
@@ -2305,15 +2186,14 @@
     "location": "Madrid, Community of Madrid, Spain",
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-ingl%C3%A9s-alto-at-cimpa-plm-services-4430913906",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Configuration Manager in an EU aerospace/defence context, matching the candidate\u2019s extensive CM/Release experience and English\u2011only environment.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a perfect match for her skills, but requires relocation to Spain as it is a hybrid position.",
     "id": "4129f869",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/cimpa_plm_services_configuration_manager__ingl_s__4129f869.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Confirmed Configuration Manager",
@@ -2321,15 +2201,14 @@
     "location": "Hamburg, Hamburg, Germany",
     "url": "https://de.linkedin.com/jobs/view/confirmed-configuration-manager-at-sogeclair-4459814497",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a direct match for her Configuration Management expertise in a highly regulated industry and is located within the EU.",
+    "matches_requirements": "no",
+    "reason": "The job posting is closed and no longer accepting applications.",
     "id": "5885d541",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/sogeclair_confirmed_configuration_manage_5885d541.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Configuration Manager (w/m/d) f\u00fcr sicherheitskritische Systeme",
@@ -2338,14 +2217,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-w-m-d-f%C3%BCr-sicherheitskritische-systeme-at-xpertscout-gmbh-4461889180",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is an excellent technical match for her configuration management and safety-critical background, but requires business-fluent German which she does not speak.",
+    "reason": "The candidate is a strong technical match for configuration management in safety-critical systems, but the role requires business-fluent German.",
     "id": "c4d7d572",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2354,14 +2232,13 @@
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-at-iceye-4435340117",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a direct match for her Configuration Management expertise in a regulated industry and is located within the EU.",
+    "reason": "The role is a Configuration Manager in Spain, matching her expertise and location preferences.",
     "id": "7c6676a6",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_configuration_manager_7c6676a6.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/iceye_configuration_manager_7c6676a6.txt"
   },
   {
     "title": "Configuration Manager",
@@ -2376,8 +2253,7 @@
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2386,14 +2262,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-wingcopter-4461895061",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her Configuration Management expertise, but requires relocation to Germany.",
+    "reason": "The role is a perfect match for her skills and domain, but she is overqualified for the 'Junior' seniority level indicated in the posting.",
     "id": "ed64730b",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager M-BOM",
@@ -2402,14 +2277,13 @@
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-m-bom-at-thales-4417076267",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management expertise, but requires French proficiency which she does not possess.",
+    "reason": "The role is a strong match for her configuration management expertise, but the requirement for French proficiency is uncertain as she only lists English.",
     "id": "85338cc7",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager E- & M-BOM",
@@ -2417,15 +2291,14 @@
     "location": "Herstal, Walloon Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-e-m-bom-at-thales-4455784234",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a configuration manager in a regulated environment, located in Belgium (EU), requiring English proficiency and matching the candidate\u2019s extensive CM and release experience.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong technical match for her configuration management expertise, but the requirement for French proficiency is uncertain as it is not listed in her profile.",
     "id": "6e1571c2",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/thales_configuration_manager_e____m_b_6e1571c2.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   },
   {
     "title": "Gestor/a de la configuraci\u00f3n 3DEX - Ingl\u00e9s C1",
@@ -2434,14 +2307,13 @@
     "url": "https://es.linkedin.com/jobs/view/gestor-a-de-la-configuraci%C3%B3n-3dex-ingl%C3%A9s-c1-at-cimpa-plm-services-4430881922",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Configuration Manager position in the EU requiring English, which aligns with her extensive experience in configuration management and release processes.",
+    "reason": "The role is a direct match for her Configuration Management expertise and is located within the EU.",
     "id": "1dffe5e5",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/cimpa_plm_services_gestor_a_de_la_configuraci_n_3_1dffe5e5.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/cimpa_plm_services_gestor_a_de_la_configuraci_n_3_1dffe5e5.txt"
   },
   {
     "title": "Gestionnaire de Configuration F/H",
@@ -2450,14 +2322,13 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-f-h-at-scalian-4462781516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "89236e10",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Industrial Configuration Manager - PLM",
@@ -2465,15 +2336,14 @@
     "location": "Li\u00e8ge, Walloon Region, Belgium",
     "url": "https://be.linkedin.com/jobs/view/industrial-configuration-manager-plm-at-sparagus-4392945690",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The candidate's configuration management and regulated industry experience is a strong match, but the requirement for fluency in French is an uncertainty as it is not listed in her profile.",
+    "matches_requirements": "no",
+    "reason": "The posting states that applications are no longer accepted, which is a hard rejection.",
     "id": "ba1b5765",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -2481,15 +2351,14 @@
     "location": "Munich, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-knds-deutschland-4433093013",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management skills, but requires relocation to Germany.",
+    "matches_requirements": "yes",
+    "reason": "The role is a direct match for her Configuration Management and technical documentation expertise in a highly regulated and complex engineering environment.",
     "id": "9d7bf772",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/knds_deutschland_konfigurationsmanager__m_w_d__9d7bf772.txt"
   },
   {
     "title": "\u00c4nderungsmanager (m/w/d)",
@@ -2498,14 +2367,13 @@
     "url": "https://de.linkedin.com/jobs/view/%C3%A4nderungsmanager-m-w-d-at-dynamit-nobel-defence-gmbh-4327276994",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a perfect match for her configuration and change management expertise in a regulated industry, but the job is in Germany and the posting is in German, which may require German language proficiency.",
+    "reason": "The role is a perfect match for her configuration and change management expertise in a regulated industry, but it is located in Germany, which would require relocation and potentially German language proficiency.",
     "id": "9f0b55c9",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "vor 9 monaten",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2514,14 +2382,13 @@
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-at-sener-aerospace-defence-4441269323",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her Configuration Management expertise in a regulated industry, but requires relocation to Spain.",
+    "reason": "The role is a strong match for her configuration management and regulated industry expertise, but it is located in Spain, which would require relocation or a remote work arrangement.",
     "id": "8d49e26b",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (all genders)",
@@ -2529,15 +2396,14 @@
     "location": "Altenstadt, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-all-genders-at-vincorion-4413455236",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role requires business-fluent German, which is not listed in the candidate's profile.",
+    "matches_requirements": "yes",
+    "reason": "Extracted via regex fallback",
     "id": "c405dce8",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": "job_descriptions/vincorion_configuration_manager__all_gen_c405dce8.txt"
   },
   {
     "title": "Konfigurationsmanager (all genders)",
@@ -2546,14 +2412,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-all-genders-at-vincorion-4428865440",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is an excellent technical match for her configuration management and safety-critical background, but it requires negotiation-level German which she does not speak.",
+    "reason": "The role is a strong match for her configuration management and safety-critical background, but requires business-fluent German, which she does not speak.",
     "id": "96f0b79b",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (w/m/d)",
@@ -2561,15 +2426,14 @@
     "location": "Schrobenhausen, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-w-m-d-at-mbda-deutschland-4422423035",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her configuration management expertise and regulated industry background, but requires relocation to Germany.",
+    "matches_requirements": "yes",
+    "reason": "The role is a direct match for her Configuration Management expertise in a regulated industry and is located within the EU.",
     "id": "30e1eb41",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/mbda_deutschland_configuration_manager__w_m_d__30e1eb41.txt"
   },
   {
     "title": "Konfigurations- und \u00c4nderungsmanager (m/w/d)",
@@ -2577,15 +2441,14 @@
     "location": "R\u00f6thenbach an der Pegnitz, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/konfigurations-und-%C3%A4nderungsmanager-m-w-d-at-diehl-defence-4438324102",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a direct match for her configuration and change management expertise in a highly regulated industry.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a perfect match for her configuration management expertise, but requires relocation to Germany.",
     "id": "e2b505bd",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/diehl_defence_konfigurations__und__nderungsm_e2b505bd.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager",
@@ -2594,14 +2457,13 @@
     "url": "https://es.linkedin.com/jobs/view/configuration-manager-at-sener-4440620263",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is a direct match for her Configuration Management and documentation expertise in a regulated industry, located within the EU.",
     "id": "2e1b841d",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/sener_configuration_manager_2e1b841d.txt",
-    "needs_re_review": true
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/sener_configuration_manager_2e1b841d.txt"
   },
   {
     "title": "Gestionnaire de Configuration H/F",
@@ -2610,14 +2472,13 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-h-f-at-axiome-groupe-4462860445",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management expertise, but it is located in France and the posting is in French, which may require relocation and language proficiency.",
+    "reason": "The role is a perfect match for her configuration management expertise, but it requires relocation to France and the posting is in French, suggesting a potential language barrier.",
     "id": "ea0faee4",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "vor 2 wochen",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurations- und \u00c4nderungsmanager (m/w/d)",
@@ -2626,14 +2487,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurations-und-%C3%A4nderungsmanager-m-w-d-at-diehl-defence-4259180714",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a direct match for her expertise in configuration and change management and is located within the EU.",
+    "reason": "The role is a direct match for her Configuration and Change Management expertise and is located within the EU.",
     "id": "ff90966f",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/diehl_defence_konfigurations__und__nderungsm_ff90966f.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/diehl_defence_konfigurations__und__nderungsm_ff90966f.txt"
   },
   {
     "title": "Konfigurationsmanager (m/w/d) Kiel",
@@ -2642,14 +2502,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-kiel-at-dynamit-nobel-defence-gmbh-4432906709",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is an excellent match for her configuration management and safety-critical background, but it requires German language skills which she does not possess.",
+    "reason": "The role is a perfect match for her configuration management and safety-critical background, but it requires German language proficiency which she does not possess.",
     "id": "d8c4ee2f",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -2658,14 +2517,13 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-bertrandt-group-4428049187",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate is a strong technical match for the Configuration Management role, but the position requires German language skills which the candidate does not have.",
+    "reason": "The role is a strong match for her Configuration Management expertise in regulated industries, but requires German proficiency which is not listed in her profile.",
     "id": "92738079",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technischer Konfigurationsmanager (m/w/d) - Defence",
@@ -2674,14 +2532,13 @@
     "url": "https://de.linkedin.com/jobs/view/technischer-konfigurationsmanager-m-w-d-defence-at-bertrandt-group-4462977446",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong technical match for her configuration management background, but requires C1-level German which is not listed in her profile.",
+    "reason": "The role matches her configuration management expertise and is located in the EU, but requires C1-level German which is not listed in her profile.",
     "id": "416b2c79",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2689,15 +2546,14 @@
     "location": "Pl\u00f6n, Schleswig-Holstein, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-jobspace-4461094056",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is categorized as entry-level (Berufseinstieg) and requires German language proficiency, which does not align with the candidate's senior-level experience and English-only profile.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her configuration management expertise, but the requirement for German proficiency is a potential barrier.",
     "id": "68285261",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2706,14 +2562,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461293647",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management expertise and seniority, but requires German proficiency and would require relocation to Germany.",
+    "reason": "The role is a strong match for her configuration management experience in regulated industries, but requires German proficiency which she does not possess.",
     "id": "fd9dc84c",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2722,14 +2577,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461282869",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate's configuration management and regulated industry experience is a strong match, but the role requires German proficiency which she does not have.",
+    "reason": "The role is a strong match for her configuration management experience, but it requires relocation to Germany and proficiency in German, which she does not speak.",
     "id": "810d6750",
     "source": "linkedin_eu_configuration_manager_p2",
-    "posted_date": "vor 3 wochen",
+    "posted_date": "vor 2 tagen",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager",
@@ -2738,14 +2592,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4458202752",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in Swedish, which the candidate does not speak.",
+    "reason": "The role requires strong Swedish language skills, which the candidate does not have.",
     "id": "a37f7407",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2754,14 +2607,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-quantum-systems-4431833898",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a perfect match for her configuration management and traceability expertise, but it is located in Germany, which would require relocation.",
+    "reason": "The role is a strong match for her configuration management and technical documentation skills, but requires relocation to Germany.",
     "id": "c5915ea0",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2770,14 +2622,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-blackned-gmbh-4442614212",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate's technical expertise in Configuration Management and regulated environments is a strong match, but the role requires fluent German.",
+    "reason": "The role is a strong technical match for her Configuration Management background, but it requires fluent German, which is not listed in her profile.",
     "id": "224491aa",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d) \u2013 Defence & Technology",
@@ -2785,15 +2636,14 @@
     "location": "Bremen, Bremen, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-%E2%80%93-defence-technology-at-randstad-deutschland-4463519108",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her configuration management expertise and is located in the EU, but would require relocation to Germany.",
+    "matches_requirements": "yes",
+    "reason": "The role is a Configuration Manager position located in Germany, which is within the EU and matches her professional experience.",
     "id": "ce87e38f",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/randstad_deutschland_configuration_manager__m_w_d___ce87e38f.txt"
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2802,14 +2652,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461286764",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management expertise, but requires relocation to Germany and specifies German language proficiency which is not listed in her profile.",
+    "reason": "The role is a strong match for her configuration management background, but requires German proficiency which is not listed in her profile.",
     "id": "ba76ca79",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -7954,54 +7803,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Senior Sales Representative / Valokuitunen",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy (recruiter), Valokuitunen Oy (hiring company)",
-    "location": "Rauma, Uusikaupunki, Kankaanp\u00e4\u00e4, Turku, Naantali, Raisio, Pori, Varsinais-Suomi, Satakunta, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1f2cc443-0530-42c3-b572-ec99902e6437/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a sales representative position, which does not match her technical configuration management and DevOps background.",
-    "id": "827a52d6",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Senior Sales Representative / Valokuitunen",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Kuopio, Savonlinna, Iisalmi, Varkaus, Pieks\u00e4m\u00e4ki +3",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f0b5bf37-58a6-4860-aa8d-fc943fa6814a/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kuopio, Savonlinna, Iisalmi, Varkaus, Pieks\u00e4m\u00e4ki, all in Finland. This matches the Hard Rejections rule that she will not relocate outside of Finland for a new role.",
-    "id": "7a702b5c",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Sisustuskirvesmies",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "M\u00e4ntt\u00e4-Vilppula, Pirkanmaa, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/83b2ab00-b403-4316-ba1e-51886443dec6/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a carpenter position, not related to electronics/semiconductor/VLSI/EDA.",
-    "id": "24e55a64",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Palveluohjaaja Onni siivouspalveluihin Kuusamoon",
     "company": "Onni",
     "location": "Kuusamo, Finland",
@@ -8047,22 +7848,6 @@
     "deadline": "2026-10-04",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Process EngineerW\u00e4rtsil\u00e4VaasaGo to job site",
-    "company": "W\u00e4rtsil\u00e4",
-    "location": "Vaasa, Finland",
-    "url": "https://www.jobly.fi/en/job/process-engineer-2753372",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "Matches her process engineering background, based in Finland, and is a senior-level role",
-    "id": "68a1f255",
-    "source": "work_in_finland",
-    "posted_date": "N/A",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/w_rtsil__process_engineerw_rtsil_vaasag_68a1f255.txt",
     "needs_re_review": true
   },
   {
@@ -10744,22 +10529,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Technology Manager, Industrial Filtration",
-    "company": "Metso",
-    "location": "Tampere, Pirkanmaa, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/technology-manager-industrial-filtration-at-metso-4463264257",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, not release/CM/DevOps-focused like her background. This hard rejects her based on the job description text.",
-    "id": "cd7941f1",
-    "source": "linkedin_fi_product_specialist_p3",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Partner & Product Specialist (IT Services)",
     "company": "BMIT Technologies",
     "location": "Kalkara, Malta",
@@ -11896,22 +11665,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Sairaanhoitaja Attendo Kurjenmiekka Kouvola",
-    "company": "Attendo Oy",
-    "location": "Kouvola, Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=e1e32c3643eb0152",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is for a nurse (sairaanhoitaja) at Attendo Kurjenmiekka in Kouvola, Finland. It matches Priya's background and she meets all the requirements.",
-    "id": "706b6757",
-    "source": "indeed_fi_broad_p2",
-    "posted_date": "N/A",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/attendo_oy_sairaanhoitaja_attendo_kurjenm_706b6757.txt",
-    "needs_re_review": true
-  },
-  {
     "title": "Apulaisravintolap\u00e4\u00e4llikk\u00f6 Mylly (Raisio)",
     "company": "Friends & Brgrs",
     "location": "Turku (Mylly), Finland",
@@ -11944,22 +11697,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Koulunk\u00e4ynninohjaajia \u2013 vaativa erityinen tuki, m\u00e4\u00e4r\u00e4aikainen, J\u00e4rvenp\u00e4\u00e4n Yhteiskoulu",
-    "company": "J\u00e4rvenp\u00e4\u00e4n kaupunki",
-    "location": "J\u00e4rvenp\u00e4\u00e4, Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=ca3df6fa92dcf6e0",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for Koulunk\u00e4ynninohjaajia (school guidance counselors) in a Finnish school system, not related to semiconductors/VLSI/EDA. It's also a full-time teaching position, not an engineering or technical job.",
-    "id": "3b5c7433",
-    "source": "indeed_fi_broad_p2",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "L\u00e4hihoitaja vammaispalveluihin H\u00e4meenlinnaan",
     "company": "Kanta-H\u00e4meen hyvinvointialue",
     "location": "H\u00e4meenlinna, Finland",
@@ -11971,22 +11708,6 @@
     "source": "indeed_fi_broad_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-23",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "L\u00e4hihoitaja, Teiskon kotihoito, Tampere",
-    "company": "Pirkanmaan hyvinvointialue",
-    "location": "Teisko, Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=fb698da2f582c2fe",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is for a home care nurse, which requires clinical healthcare experience and licensing that Priya does not have. Her background is in technical product support/quality assurance, not hands-on patient care.",
-    "id": "e90afc5e",
-    "source": "indeed_fi_broad_p2",
-    "posted_date": "2026-09-08",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -13075,22 +12796,6 @@
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Sairaanhoitaja Varahenkil\u00f6st\u00f6",
-    "company": "HUS Helsingin yliopistollinen sairaala",
-    "location": "Helsinki, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7c66b128-d4b0-4959-b3c2-d247753fc488/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located at HUS Helsinki University Hospital, which requires Finnish language fluency and does not match her English-only working proficiency.",
-    "id": "c4e9590c",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -15178,22 +14883,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Teollinen pintak\u00e4sittelij\u00e4, Lepp\u00e4virta",
-    "company": "Worker Henkil\u00f6st\u00f6ratkaisut",
-    "location": "Lepp\u00e4virta, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/teollinen-pintakasittelija-leppavirta-2742716",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a factory coating technician, not her semiconductor/VLSI/EDA background.",
-    "id": "0dee9902",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Tuntiopettaja tekniikka",
     "company": "Oy Vaasan ammattikorkeakoulu - Vasa yrkesh\u00f6gskola Ab",
     "location": "Vaasa, Finland",
@@ -15285,22 +14974,6 @@
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-23",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Sairaanhoitaja Varahenkil\u00f6st\u00f6",
-    "company": "HUS Helsingin yliopistollinen sairaala",
-    "location": "Helsinki, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/sairaanhoitaja-varahenkilosto-2753757",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for on-site nurses at specific hospital units in Helsinki, Finland, which does not match her location preferences of being open to remote roles based anywhere in the EU/Europe.",
-    "id": "3581f388",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -15674,22 +15347,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Sairaanhoitaja Attendo Kurjenmiekka Kouvola",
-    "company": "Attendo Oy",
-    "location": "Kouvola, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/26d8c591-6b25-469c-b348-b42e4c1353f8/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires a nursing degree, which Priya does not have based on her education and experience listed.",
-    "id": "ac4775d5",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Ravintolaty\u00f6ntekij\u00e4, Leijona Catering, Sodankyl\u00e4",
     "company": "Leijona Catering Oy",
     "location": "Sodankyl\u00e4, Finland",
@@ -15701,22 +15358,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-29",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Tietohallintotiimin vet\u00e4j\u00e4",
-    "company": "Maatalousyritt\u00e4jien el\u00e4kelaitos Melan",
-    "location": "Espoo, Uusimaa, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/06de97b5-050d-4d4e-a52d-8c89491f9b56/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a 'Tietohallintotiimin vet\u00e4j\u00e4' (IT Team Manager) which does not match her technical release management and DevOps background. She has no IT or infrastructure management experience.",
-    "id": "70e7ce4a",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -16229,22 +15870,6 @@
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Tietohallintotiimin vet\u00e4j\u00e4",
-    "company": "Nordrec Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Espoo, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/tietohallintotiimin-vetaja-2753778",
-    "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves leading an IT team, but it's unclear if this is a DevOps/CI/CD/release management focus vs. pure IT infrastructure and support - more context needed to assess full fit.",
-    "id": "42a0389b",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -18555,22 +18180,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Alamies Lahteen",
-    "company": "Worker Henkil\u00f6st\u00f6ratkaisut",
-    "location": "Lahti, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/alamies-lahteen-2732216",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a construction laborer, not a DevOps engineer or release manager with software engineering experience.",
-    "id": "45bf6709",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "System Specialist / Senior System Specialist",
     "company": "Valmet",
     "location": "Oulu or Kemi, Finland",
@@ -18667,38 +18276,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Kultapalat-perhep\u00e4iv\u00e4hoitaja",
-    "company": "Kultapalat Oy",
-    "location": "K\u00e4rk\u00f6l\u00e4, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9afb27f9-efbc-4ff9-9d9f-35ee41baba70/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a family day care provider, which does not match her technical/regulated release management background.",
-    "id": "6467d60c",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Tarjoilija talveksi, Ravintola Nili, Rovaniemi",
-    "company": "Lis\u00e4palvelu Pohjois-Suomi Oy",
-    "location": "Rovaniemi, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1abc721e-69e6-43e9-96cd-f0d493a3f91e/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a server position at a restaurant, not the semiconductor/VLSI/EDA industry the reviewer specializes in.",
-    "id": "8e856540",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Liikenneasematy\u00f6ntekij\u00e4, St1 Lapua Tamppari, Lapua",
     "company": "Bolt.Works Oy",
     "location": "Lapua, Finland",
@@ -18726,22 +18303,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Kultapalat-perhep\u00e4iv\u00e4hoitaja",
-    "company": "Kultapalat Oy",
-    "location": "Rauma, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e877cd3d-7897-4154-9b3d-9072d13de6f0/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a family daycare provider, which does not match her technical/regulated industry background and experience.",
-    "id": "21d76ca7",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -20523,22 +20084,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Myyj\u00e4 Uudellemaalle / Kattokeskus",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Kuopio, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7dd39f0e-94f5-4d74-9b4e-0ace654966de/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kuopio, Finland which does not match her preference for roles anywhere in Finland or EU/Europe.",
-    "id": "6a89a6af",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Project Engineer \u2013 Vaasa",
     "company": "Academic Work Finland Oy",
     "location": "Kaskinen, Peders\u00f6ren kunta, Vaasa, Ostrobothnia, Finland",
@@ -20646,22 +20191,6 @@
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Postdoctoral Researcher, Mathematical Sciences, Faculty of ScienceOulun YliopistoOuluGo to job site",
-    "company": "Oulun Yliopisto (University of Oulu)",
-    "location": "Oulu, Finland",
-    "url": "https://www.jobly.fi/en/job/postdoctoral-researcher-mathematical-sciences-faculty-science-2754364",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure research position focused on mathematical and computational methods, which does not match her strong release/CI/CD/configuration management background.",
-    "id": "27c13d27",
-    "source": "work_in_finland",
-    "posted_date": "N/A",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -22908,22 +22437,6 @@
   },
   {
     "title": "Myyj\u00e4 taloyhti\u00f6myyntiin / Valokuitunen",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Joensuu, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f290e04a-c0a3-4062-8ac8-d6bedc0a3fa8/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Joensuu, Finland which does not match the candidate's requirement to be located in Finland or EU/Europe.",
-    "id": "95a3b4ad",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Myyj\u00e4 taloyhti\u00f6myyntiin / Valokuitunen",
     "company": "Valokuitunen Oy",
     "location": "Lahti, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3140b13d-127b-4bfb-80fb-f19e3e1e69a9/fi",
@@ -22982,22 +22495,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "9.9.2026, 23.03",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Myyj\u00e4 taloyhti\u00f6myyntiin / Valokuitunen",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Kouvola, Kotka, Kymenlaakso, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5adc0143-1f74-4e16-8503-a5a1bb389d52/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Kouvola, Kotka, Kymenlaakso, Finland which does not match her strict exclusion for US-based roles.",
-    "id": "a1ce1bbb",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -25239,22 +24736,6 @@
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Technology Manager, Industrial Filtration",
-    "company": "Metso",
-    "location": "Espoo, Uusimaa, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/technology-manager-industrial-filtration-at-metso-4463270237",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure sales position, not technical/product specialist as Priya's background is.",
-    "id": "f402af83",
-    "source": "linkedin_fi_product_specialist",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -28876,22 +28357,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Myyj\u00e4 taloyhti\u00f6myyntiin / Valokuitunen",
-    "company": "Valokuitunen Oy",
-    "location": "Tampere, Pirkanmaa, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9c107d6a-e1a6-4c68-aa3c-f38071c7616d/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a sales representative selling fiber optic services to apartment buildings, not a DevOps engineer or release manager.",
-    "id": "66cbcea6",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "RAU-suunnittelija teollisuuskohteisiin",
     "company": "Mestarit Henkil\u00f6st\u00f6palvelut Oy",
     "location": "Helsinki, Suomi",
@@ -28903,22 +28368,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-09-25",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Myyj\u00e4 Tampereelle / Valokuitunen",
-    "company": "Osuma Henkil\u00f6st\u00f6palvelut Oy",
-    "location": "Tampere, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ac930237-4367-4ac3-8893-183e1d2247f6/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Tampere, Finland which does not match the candidate's requirement to be based in Finland or EU/Europe.",
-    "id": "b5797fb8",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -29079,22 +28528,6 @@
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "2026-09-30",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Kokoonpanija kolmivuoroty\u00f6h\u00f6n",
-    "company": "Worker Henkil\u00f6st\u00f6ratkaisut",
-    "location": "Akaa, Kangasala, Lemp\u00e4\u00e4l\u00e4, Nokia, Pirkkala, Tampere, Valkeakoski, Yl\u00f6j\u00e4rvi Pirkanmaa, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/kokoonpanija-kolmivuorotyohon-2754945",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a manufacturing assembly line position, not DevOps/Release Management. She has no manufacturing background.",
-    "id": "35e93115",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -30252,22 +29685,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Kokenut j\u00e4rjestelm\u00e4orientoitunut talousasiantuntija (controller)",
-    "company": "Arco Architecture Company Oy",
-    "location": "Helsinki, Finland",
-    "url": "https://duunitori.fi/tyopaikat/tyo/arco-architecture-kokenut-jarjestelmaorientoitunut-talousasiantuntija-controller-sdsuu-20557692",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role of 'Kokenut j\u00e4rjestelm\u00e4orientoitunut talousasiantuntija (controller)' in Helsinki matches her experience and location preferences.",
-    "id": "1aaa6fe9",
-    "source": "duunitori_configuration_manager",
-    "posted_date": "2026-09-09",
-    "deadline": "2026-09-22",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": "job_descriptions/arco_architecture_co_kokenut_j_rjestelm_orientoitun_1aaa6fe9.txt",
-    "needs_re_review": true
-  },
-  {
     "title": "Product Specialist Accessories",
     "company": "Hiab",
     "location": "Helsinki, Finland",
@@ -30919,22 +30336,6 @@
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-04",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Sairaanhoitaja",
-    "company": "A-klinikka Oy",
-    "location": "Espoo, Suomi",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/64982ad4-bc78-453d-83a7-5d24b0789997/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a nurse, not her technical/quality configuration management background.",
-    "id": "ad1d3439",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-10",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -35511,22 +34912,6 @@
     "source": "linkedin_fi_broad",
     "posted_date": "h\u00e1 2 semanas",
     "deadline": "Open until filled",
-    "eval_model": "local/hermes-3-llama-3.1-8b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Kiinteist\u00f6nhoitaja ulkoaluet\u00f6ihin, Rovaniemi",
-    "company": "Luotea",
-    "location": "Rovaniemi, Lapland, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/kiinteist%C3%B6nhoitaja-ulkoaluet%C3%B6ihin-rovaniemi-at-luotea-4464444740",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is for a property maintenance outdoor role in Rovaniemi, Finland, which does not match her skills in DevOps, release management, and regulated product specialist roles. She requires a technical/quality-focused role in those domains.",
-    "id": "b9e322e7",
-    "source": "linkedin_fi_broad",
-    "posted_date": "h\u00e1 2 dias",
-    "deadline": "2026-09-22",
     "eval_model": "local/hermes-3-llama-3.1-8b",
     "description_file": null,
     "needs_re_review": true
@@ -42765,22 +42150,6 @@
     "needs_re_review": true
   },
   {
-    "title": "IT-palvelusuunnittelija Tietohallinto",
-    "company": "HUS",
-    "location": "Helsinki, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/it-palvelusuunnittelija-tietohallinto-2752811",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and Swedish, which the candidate does not possess.",
-    "id": "48828cc2",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-15",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Sairaanhoitaja P\u00e4iv\u00e4kirurgia Lasten ja nuorten sairaudet",
     "company": "Hae paikkaa",
     "location": "Helsinki, Finland",
@@ -45130,22 +44499,6 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Nostinlaiteasentaja, Pirkkala",
-    "company": "Worknow Oy",
-    "location": "Pirkkala, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f3ed6600-13f8-4b40-a109-f98522283ec0/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a mechanical lift equipment installer, not a DevOps, configuration, release, or technical product specialist position.",
-    "id": "b478f1c9",
-    "source": "tyomarkkinatori",
-    "posted_date": "15.9.2026, 12.40",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
     "needs_re_review": true
   },
@@ -48106,22 +47459,6 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Taksinkuljettaja, Helsinki, Espoo, Vantaa - Uber & Bolt",
-    "company": "Nordlink Henkil\u00f6st\u00f6vuokraus Oy",
-    "location": "Helsinki, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c41b5c60-895b-4926-88f9-5fb0f8d66c1e/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a taxi driver position, not a DevOps, configuration, release, or product specialist role.",
-    "id": "37470501",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-15",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
     "needs_re_review": true
   },
@@ -52604,22 +51941,6 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Koneasentaja",
-    "company": "Hae paikkaa",
-    "location": "Espoo, Helsinki, Vantaa, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/koneasentaja-2616286",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires Finnish language proficiency and is a mechanical installer position, which are hard exclusions.",
-    "id": "d644c87a",
-    "source": "jobly_broad",
-    "posted_date": "2026-09-07",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
     "needs_re_review": true
   },
@@ -60448,22 +59769,6 @@
     "needs_re_review": true
   },
   {
-    "title": "Product Development Chemist",
-    "company": "Teknos Oy",
-    "location": "Helsinki, Finland",
-    "url": "https://www.jobly.fi/tyopaikka/product-development-chemist-2760657",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a chemistry product development position, not aligned with the candidate\u2019s release/CM/DevOps background.",
-    "id": "8c56e8bb",
-    "source": "jobly_broad",
-    "posted_date": "julkaistu 17.09.2026",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "A la carte-tarjoilija joulusesonkiin",
     "company": "A la carte-tarjoilija joulusesonkiin",
     "location": "Oulu, Finland",
@@ -60556,22 +59861,6 @@
     "posted_date": "17.9.2026, 23.55",
     "deadline": "2026-09-30",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "L\u00e4hihoitaja osa-aika/keikka ty\u00f6h\u00f6n kotihoitoon Lohjalle",
-    "company": "Sam's Care Oy",
-    "location": "Lohja, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6ea5eb57-1966-42cc-86d2-a8f024b02e34/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The position is a nursing role requiring a medical license and Finnish language skills, which does not align with the candidate\u2019s release/DevOps background.",
-    "id": "74782996",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-18",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
     "needs_re_review": true
   },
@@ -68018,22 +67307,6 @@
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja",
-    "company": "Benehoiva",
-    "location": "Sastamala, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/36abc937-e3b4-470f-b44d-56ef19bd7076/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a personal assistant position, not a DevOps, configuration management, or release management role.",
-    "id": "27e836c1",
-    "source": "tyomarkkinatori",
-    "posted_date": "2026-09-19",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Henkil\u00f6kohtainen avustaja",
     "company": "Henkil\u00f6kohtainen avustaja",
     "location": "Oulu, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2cf5e9e6-6967-430a-8af2-177efdfe1a2b/fi",
@@ -68077,22 +67350,6 @@
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "siivooja",
-    "company": "Lecator Oy",
-    "location": "Kouvola, Finland",
-    "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/76cb8bb6-c274-44fb-bd27-8cd534735030/fi",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Job requires Finnish language and is a cleaning role, not matching her release/DevOps background.",
-    "id": "32457c81",
-    "source": "tyomarkkinatori",
-    "posted_date": "19.9.2026, 18.15",
-    "deadline": "2026-09-22",
-    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
     "needs_re_review": true
   },
