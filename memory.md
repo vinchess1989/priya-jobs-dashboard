@@ -6,6 +6,27 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Mobile app shell on firebase_app/index.html (2026-09-25)
+
+Below `(max-width: 768px), (max-height: 550px) and (orientation: landscape)` the dashboard renders
+as an app: sticky compact header, fixed bottom nav (Jobs / Filters / Status / Review→review.html),
+views driven by `body.mview-{jobs,filters,status}` via `setMobileView()`. All CSS is one appended
+block at the end of `<style>`; desktop rules untouched (verified: desktop layout geometry identical
+before/after at 1440×900). Gotchas: table rows become cards via CSS grid on `tbody tr` — must NOT
+use `!important` on that `display`, since `renderPage()` pages rows with inline `display:none`.
+Filters view turns both `<thead>` rows into a label|filter grid (`tr {display:contents}` + per-column
+`grid-row`). `body` uses `overflow-x: clip` (not hidden) or every sticky bar breaks. The mobile block
+overrides the old "max-content zoom-out in landscape" rule for phones.
+`review.html` got the same shell (2026-09-25): bottom nav = its 4 tabs (via existing `switchTab()`,
+which now calls `onMobileTabChange`) + Board link, with tab-count badges; rows → cards labelled
+generically by `labelMobileCells()` from each table's header text (`data-label`/`data-role`),
+re-run by a MutationObserver on `<main>`; filter row → scrolling chip strip; `.ms-dropdown` pinned
+to screen edges. Gotcha: panels keep the `spinner-container` class after rendering (4rem padding) —
+neutralised on mobile with `:has()`. Both pages deployed to Firebase Hosting 2026-09-25
+(`firebase deploy` from `firebase_app/`; firestore.rules was already current).
+Verified with a Playwright harness that stubs `window.firebase` (auto sign-in) and loads the live
+GitHub Pages `jobs.json`, then runs the mobile-app-shell skill's `audit_mobile.js`.
+
 ## Dashboard "Stale Data" — scraper stuck committing to a detached HEAD (found + fixed 2026-09-24)
 
 The dashboard's ⚠️ Stale Data badge fires when GitHub Pages' `jobs.json` `Last-Modified` is >24h

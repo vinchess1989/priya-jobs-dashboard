@@ -677,6 +677,524 @@
             cursor: pointer;
             flex-shrink: 0;
         }
+
+        /* =====================================================================
+           MOBILE APP SHELL — additive only; no desktop rule above is edited.
+           Applies to portrait phones AND short landscape phones. The page is
+           split into three views driven by body.mview-{jobs,filters,status}
+           (set by the bottom nav): job cards / column filters / stats+account.
+           ===================================================================== */
+        .mobile-app-bottom-nav,
+        .mobile-subnav {
+            display: none;
+        }
+
+        @media (max-width: 768px), (max-height: 550px) and (orientation: landscape) {
+            :root {
+                --hdr-h: 52px;
+                --subnav-h: 40px;
+                --mnav-h: 58px;
+                --mobile-accent: #a5b4fc;
+            }
+
+            /* --- Viewport lock. body gets overflow-x: clip, not hidden: hidden
+               would make body a scroll container and break every sticky bar
+               below. Also cancels the old "zoom out to see the full table in
+               landscape" max-content rule, which the card layout replaces. */
+            html {
+                width: 100% !important;
+                max-width: 100vw !important;
+                min-width: 0 !important;
+                overflow-x: hidden !important;
+            }
+            body {
+                width: 100% !important;
+                max-width: 100vw !important;
+                min-width: 0 !important;
+                overflow-x: clip !important;
+                padding: 0 0 calc(var(--mnav-h) + env(safe-area-inset-bottom, 0px)) 0 !important;
+            }
+
+            /* --- Compact sticky app bar: logo, title, status dot. */
+            header {
+                position: sticky;
+                top: 0;
+                z-index: 300;
+                flex-direction: row !important;
+                flex-wrap: nowrap !important;
+                align-items: center !important;
+                gap: 0.5rem !important;
+                height: var(--hdr-h);
+                padding: 0 0.75rem !important;
+                margin: 0 !important;
+                background: rgba(10, 13, 22, 0.96);
+                backdrop-filter: blur(18px);
+                -webkit-backdrop-filter: blur(18px);
+            }
+            .logo-area { flex: 1 1 auto; min-width: 0; gap: 0.5rem; }
+            .logo-icon { width: 2rem; height: 2rem; font-size: 1.1rem; flex-shrink: 0; }
+            .logo-title {
+                font-size: 1.05rem;
+                min-width: 0;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            header > div:last-child {
+                width: auto !important;
+                flex: 0 0 auto;
+                flex-wrap: nowrap !important;
+                gap: 0.4rem !important;
+            }
+            .file-status-indicator { padding: 0.55rem 0.65rem; cursor: pointer; }
+            .status-dot { width: 0.6rem; height: 0.6rem; }
+            #file-status-text { display: none; }
+
+            /* --- Clutter removal: one explicit list. Each item either moved
+               to another view (re-shown below) or is desktop-only detail. */
+            .logo-area > a[href="review.html"],                  /* Review is a bottom-nav tab */
+            header > div:last-child > div:has(> #re-review-btn), /* -> Status view */
+            #auth-container,                                     /* -> Status view / signed-out */
+            thead,                                               /* -> Filters view */
+            .table-info-bar,                                     /* -> Status + Filters views */
+            #llm-filter-bar,                                     /* -> Filters view */
+            .table-info-item:first-child > .table-info-value,    /* "Tip: check multiple options..." */
+            tbody td.col-id,
+            tbody td.col-sync,
+            tbody td.col-visited,
+            tbody td.col-matches > div,                          /* eval-model caption */
+            tbody td.col-user-reason:has(.user-reason-cell:empty) {
+                display: none !important;
+            }
+
+            body.mview-filters tbody,
+            body.mview-status tbody,
+            body.mview-filters #pagination-container,
+            body.mview-status #pagination-container {
+                display: none !important;
+            }
+
+            /* --- Width-safe container chain. backdrop-filter is dropped so the
+               container is not a containing block for the sticky/fixed bars. */
+            .table-container {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0 !important;
+                padding: 0.6rem 0.6rem 0 !important;
+                border: none;
+                border-radius: 0;
+                background: transparent;
+                box-shadow: none;
+                backdrop-filter: none;
+                -webkit-backdrop-filter: none;
+                overflow: visible !important;
+            }
+            .table-scroll-area {
+                overflow: visible !important;
+                max-height: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            table, tbody { display: block; width: 100%; }
+            .upload-zone { width: auto; margin: 0.6rem; padding: 1.5rem 1rem; }
+            canvas { max-width: 100%; }
+            #chart-tooltip { max-width: calc(100vw - 16px); }
+
+            /* --- Jobs view: each table row renders as a card. No !important on
+               display: renderPage() pages rows via inline display:none. */
+            tbody tr {
+                display: grid;
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                grid-template-areas:
+                    "title    title    title"
+                    "company  company  jobid"
+                    "location location location"
+                    "posted   deadline source"
+                    "matches  applied  review"
+                    "reason   reason   reason"
+                    "ureason  ureason  ureason";
+                gap: 0.45rem 0.6rem;
+                padding: 0.8rem 0.85rem;
+                margin-bottom: 0.65rem;
+                background: var(--bg-card);
+                border: 1px solid var(--border-color);
+                border-radius: 0.9rem;
+            }
+            tbody td {
+                display: block;
+                padding: 0 !important;
+                border: none !important;
+                width: auto !important;
+                min-width: 0 !important;
+                font-size: 0.82rem;
+            }
+            tr:hover td { background: none; }
+            tbody td.col-title { grid-area: title; }
+            tbody td.col-title > div { align-items: flex-start !important; gap: 0.6rem !important; }
+            tbody td.col-title a:first-child {
+                font-size: 1rem;
+                font-weight: 600;
+                line-height: 1.3;
+                overflow-wrap: anywhere;
+            }
+            tbody td.col-company { grid-area: company; font-weight: 600; font-size: 0.88rem; }
+            tbody td.col-job-id {
+                grid-area: jobid;
+                text-align: right;
+                font-family: 'Space Grotesk', sans-serif;
+                font-size: 0.72rem;
+                color: var(--text-secondary);
+                align-self: center;
+            }
+            tbody td.col-location { grid-area: location; font-size: 0.78rem; color: var(--text-secondary); }
+            tbody td.col-posted { grid-area: posted; }
+            tbody td.col-deadline { grid-area: deadline; }
+            tbody td.col-source { grid-area: source; }
+            tbody td.col-matches { grid-area: matches; }
+            tbody td.col-applied { grid-area: applied; }
+            tbody td.col-user-review { grid-area: review; }
+            tbody td.col-reason { grid-area: reason; }
+            tbody td.col-user-reason { grid-area: ureason; }
+
+            tbody td.col-posted::before { content: "Posted"; }
+            tbody td.col-deadline::before { content: "Deadline"; }
+            tbody td.col-source::before { content: "Source"; }
+            tbody td.col-matches::before { content: "Match"; }
+            tbody td.col-applied::before { content: "Applied"; }
+            tbody td.col-user-review::before { content: "Review"; }
+            tbody td.col-user-reason::before { content: "Your note"; }
+            tbody td.col-posted::before,
+            tbody td.col-deadline::before,
+            tbody td.col-source::before,
+            tbody td.col-matches::before,
+            tbody td.col-applied::before,
+            tbody td.col-user-review::before,
+            tbody td.col-user-reason::before {
+                display: block;
+                margin-bottom: 0.2rem;
+                font-size: 0.6rem;
+                font-weight: 700;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+                color: var(--text-secondary);
+            }
+            tbody td .source-tag { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: top; }
+            tbody select.status-pill { width: 100%; min-height: 40px; }
+            tbody td .status-pill, tbody td .status-btn { max-width: 100%; }
+
+            /* AI reason / user note: two lines, tap to expand (title tooltips
+               do not exist on touch). */
+            .reason-cell,
+            .user-reason-cell {
+                max-width: none !important;
+                white-space: normal !important;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                font-size: 0.8rem;
+                line-height: 1.4;
+                cursor: pointer;
+            }
+            .reason-cell.expanded,
+            .user-reason-cell.expanded {
+                display: block;
+                -webkit-line-clamp: unset;
+            }
+
+            /* Pagination sticks under the app bar, so Next is reachable from
+               anywhere in a 100-card page. Buttons relabelled to arrows. */
+            #pagination-container {
+                position: sticky;
+                top: var(--hdr-h);
+                z-index: 250;
+                gap: 0.5rem;
+                padding: 0.4rem 0.6rem !important;
+                margin: -0.6rem -0.6rem 0.65rem;
+                background: rgba(10, 13, 22, 0.94) !important;
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+            }
+            #pagination-container > div:first-child { min-width: 0; font-size: 0.72rem !important; line-height: 1.3; }
+            #pagination-container > div:last-child { flex-shrink: 0; gap: 0.35rem !important; }
+            #pagination-container > div:last-child > * {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 40px;
+                padding: 0.3rem 0.65rem !important;
+                font-size: 0.75rem;
+                white-space: nowrap;
+            }
+            #pagination-container button { min-width: 44px; font-size: 0 !important; }
+            #pagination-container button::before { font-size: 1.2rem; line-height: 1; }
+            #pagination-container button:first-child::before { content: "\2039"; }
+            #pagination-container button:last-child::before { content: "\203A"; }
+
+            /* --- Filters view: the two header rows become a label | filter
+               form. tr is display:contents so both rows' cells share one grid;
+               cell N of each row lands on grid row N-1 (column # has no filter). */
+            body.mview-filters .table-info-bar { display: block !important; margin-bottom: 0.6rem; }
+            body.mview-filters .table-info-item:not(:first-child) { display: none !important; }
+            body.mview-filters .table-info-item:first-child {
+                flex-direction: row !important;
+                flex-wrap: wrap;
+                gap: 0.5rem !important;
+                width: 100%;
+                margin: 0 !important;
+            }
+            body.mview-filters .table-info-item:first-child > button {
+                flex: 1 1 0;
+                min-height: 44px;
+                padding: 0.5rem 0.75rem !important;
+                border-radius: 0.6rem !important;
+                font-size: 0.82rem !important;
+                white-space: nowrap;
+            }
+            body.mview-filters #llm-filter-bar { display: flex !important; margin-bottom: 0.9rem; }
+            .llm-pill { min-height: 36px; padding: 0.35rem 0.75rem; font-size: 0.78rem; }
+
+            body.mview-filters thead {
+                display: grid !important;
+                grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+                gap: 0.35rem 0.6rem;
+                align-items: center;
+                position: static;
+                padding: 0 0 1rem;
+                background: transparent;
+            }
+            body.mview-filters thead tr { display: contents; }
+            body.mview-filters thead th {
+                display: block;
+                padding: 0 !important;
+                border: none;
+                width: auto !important;
+                min-width: 0 !important;
+                background: transparent !important;
+            }
+            body.mview-filters thead th:first-child { display: none; }
+            body.mview-filters thead tr:first-child th { grid-column: 1; }
+            body.mview-filters thead tr.filter-row th { grid-column: 2; }
+            thead th:nth-child(2) { grid-row: 1; }
+            thead th:nth-child(3) { grid-row: 2; }
+            thead th:nth-child(4) { grid-row: 3; }
+            thead th:nth-child(5) { grid-row: 4; }
+            thead th:nth-child(6) { grid-row: 5; }
+            thead th:nth-child(7) { grid-row: 6; }
+            thead th:nth-child(8) { grid-row: 7; }
+            thead th:nth-child(9) { grid-row: 8; }
+            thead th:nth-child(10) { grid-row: 9; }
+            thead th:nth-child(11) { grid-row: 10; }
+            thead th:nth-child(12) { grid-row: 11; }
+            thead th:nth-child(13) { grid-row: 12; }
+            thead th:nth-child(14) { grid-row: 13; }
+            thead th:nth-child(15) { grid-row: 14; }
+            body.mview-filters .resizable-header {
+                resize: none;
+                overflow: visible;
+                min-width: 0;
+                padding: 0.45rem 0;
+                font-size: 0.85rem;
+            }
+            .ms-btn { min-height: 44px; font-size: 0.85rem; }
+            .ms-option { padding: 0.65rem 0.8rem; font-size: 0.9rem; }
+
+            /* --- Status view: the header expands to show connection status,
+               Re-Review and account; the counts render as tiles below it. */
+            body.mview-status header {
+                position: relative;
+                height: auto;
+                flex-wrap: wrap !important;
+                padding: 0.6rem 0.75rem 0.75rem !important;
+            }
+            body.mview-status header > div:last-child {
+                width: 100% !important;
+                flex-direction: column;
+                align-items: stretch !important;
+            }
+            body.mview-status #file-status-text { display: inline; }
+            body.mview-status header > div:last-child > div:has(> #re-review-btn),
+            body.mview-status #auth-container {
+                display: flex !important;
+            }
+            body.mview-status .file-status-indicator,
+            body.mview-status header > div:last-child > div:has(> #re-review-btn),
+            body.mview-status #auth-container {
+                justify-content: space-between;
+                min-height: 48px;
+                padding: 0.4rem 0.5rem 0.4rem 0.9rem !important;
+                border-radius: 0.8rem !important;
+            }
+            body.mview-status .file-status-indicator { justify-content: flex-start; cursor: default; }
+            #user-email { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+            #re-review-btn, #login-btn, #logout-btn { min-height: 40px; flex-shrink: 0; }
+
+            body.mview-status .table-info-bar {
+                display: grid !important;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-auto-flow: dense;
+                gap: 0.5rem !important;
+                margin: 0.25rem 0 0;
+            }
+            body.mview-status .table-info-item:first-child { display: none !important; }
+            body.mview-status .table-info-item {
+                align-items: flex-start !important;
+                width: auto !important;
+                min-width: 0;
+                padding: 0.7rem 0.8rem;
+                background: var(--bg-card);
+                border: 1px solid var(--border-color);
+                border-radius: 0.8rem;
+            }
+            body.mview-status .table-info-item:nth-child(5) { grid-column: 1 / -1; }
+
+            /* Signed out: nothing loads until sign-in, so the Sign-in button
+               must be on the first screen whatever the active view. */
+            body:has(#login-btn:not([style*="display: none"])) header {
+                height: auto;
+                flex-wrap: wrap !important;
+                padding: 0.6rem 0.75rem !important;
+            }
+            body:has(#login-btn:not([style*="display: none"])) header > div:last-child { width: 100% !important; }
+            body:has(#login-btn:not([style*="display: none"])) #auth-container {
+                display: flex !important;
+                flex: 1 1 auto;
+                justify-content: flex-end;
+            }
+
+            /* --- Contents bar (Filters view): one chip per column filter. */
+            .mobile-subnav {
+                display: flex;
+                position: sticky;
+                top: var(--hdr-h);
+                z-index: 280;
+                align-items: center;
+                gap: 0.4rem;
+                height: var(--subnav-h);
+                padding: 0 0.75rem;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                background: rgba(10, 13, 22, 0.94);
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+                border-bottom: 1px solid var(--border-color);
+            }
+            .mobile-subnav::-webkit-scrollbar { display: none; }
+            .mobile-subnav:empty { display: none; }
+            [data-page] { scroll-margin-top: calc(var(--hdr-h) + var(--subnav-h) + 8px); }
+            .subnav-chip {
+                flex: 0 0 auto;
+                padding: 0.32rem 0.75rem;
+                border-radius: 999px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                background: rgba(255, 255, 255, 0.06);
+                color: #cbd5e1;
+                font-family: inherit;
+                font-size: 0.72rem;
+                font-weight: 600;
+                white-space: nowrap;
+                cursor: pointer;
+                touch-action: manipulation;
+                user-select: none;
+                -webkit-user-select: none;
+                position: relative;
+            }
+            /* Visual chip stays compact; the hit area fills the bar height. */
+            .subnav-chip::after { content: ''; position: absolute; inset: -7px -3px; }
+            .subnav-chip.active {
+                background: linear-gradient(135deg, #6366f1, #8b5cf6);
+                border-color: transparent;
+                color: #fff;
+                font-weight: 700;
+            }
+
+            /* --- Fixed bottom navigation. */
+            .mobile-app-bottom-nav {
+                display: flex !important;
+                position: fixed !important;
+                bottom: 0 !important;
+                left: 0 !important;
+                right: 0 !important;
+                width: 100vw !important;
+                max-width: 100vw !important;
+                height: calc(var(--mnav-h) + env(safe-area-inset-bottom, 0px)) !important;
+                padding: 0 0.5rem env(safe-area-inset-bottom, 0px) !important;
+                justify-content: space-around !important;
+                align-items: center !important;
+                background: rgba(10, 13, 22, 0.96) !important;
+                backdrop-filter: blur(24px) !important;
+                -webkit-backdrop-filter: blur(24px) !important;
+                border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+                box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.6) !important;
+                transform: translateZ(0) !important;
+                -webkit-transform: translateZ(0) !important;
+                will-change: transform !important;
+                z-index: 99999 !important;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+            .mobile-nav-item {
+                display: flex !important;
+                flex: 1 !important;
+                max-width: 88px !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+                gap: 3px !important;
+                min-height: 44px;
+                padding: 0.3rem 0.4rem !important;
+                background: none !important;
+                border: none !important;
+                border-radius: 8px !important;
+                color: var(--text-secondary) !important;
+                font-family: inherit !important;
+                text-decoration: none !important;
+                cursor: pointer !important;
+                touch-action: manipulation;
+                transition: transform 0.15s ease, color 0.15s ease !important;
+            }
+            .mobile-nav-item:active { transform: scale(0.92) !important; }
+            .mobile-nav-item.active { color: var(--mobile-accent) !important; }
+            .mobile-nav-item.active .mobile-nav-icon { filter: drop-shadow(0 0 8px rgba(129, 140, 248, 0.7)); }
+            .mobile-nav-icon { font-size: 1.05rem; line-height: 1; }
+            .mobile-nav-label { font-size: 0.66rem; font-weight: 700; white-space: nowrap; }
+
+            /* --- iOS focus-zoom guard + touch ergonomics. */
+            input, select, textarea {
+                font-size: 16px !important;
+                max-width: 100%;
+            }
+            button { touch-action: manipulation; }
+        }
+
+        /* Landscape phones: vertical room is scarce — shorter bars, icon
+           beside label, and two card columns to use the width. */
+        @media (max-height: 550px) and (orientation: landscape) {
+            :root {
+                --hdr-h: 44px;
+                --subnav-h: 34px;
+                --mnav-h: 46px;
+            }
+            .logo-icon { width: 1.6rem; height: 1.6rem; font-size: 0.95rem; }
+            .logo-title { font-size: 0.95rem; }
+            .mobile-nav-item {
+                flex-direction: row !important;
+                gap: 6px !important;
+                max-width: none !important;
+            }
+            .mobile-nav-label { font-size: 0.72rem; }
+            .subnav-chip { padding: 0.24rem 0.6rem; font-size: 0.66rem; }
+            tbody {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.6rem;
+                align-items: start;
+            }
+            tbody tr { margin-bottom: 0; }
+            body.mview-status .table-info-bar { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+            body.mview-filters thead { grid-template-columns: minmax(0, 200px) minmax(0, 380px); }
+        }
     </style>
     <!-- Firebase Compat SDKs -->
     <script src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
@@ -711,6 +1229,9 @@
             </div>
         </div>
     </header>
+
+    <!-- Mobile contents bar (hidden on desktop; filled by buildSubnav) -->
+    <nav class="mobile-subnav" id="mobile-subnav" aria-label="Sections"></nav>
 
     <!-- Fallback drag & drop container -->
     <section class="upload-zone" id="upload-zone">
@@ -2241,6 +2762,129 @@
             </div>
         </div>
     </div>
+
+    <!-- Mobile bottom navigation (hidden on desktop) -->
+    <nav class="mobile-app-bottom-nav" aria-label="Main">
+        <button class="mobile-nav-item active" id="mnav-jobs" onclick="setMobileView('jobs')">
+            <span class="mobile-nav-icon"><i class="fas fa-briefcase"></i></span>
+            <span class="mobile-nav-label">Jobs</span>
+        </button>
+        <button class="mobile-nav-item" id="mnav-filters" onclick="setMobileView('filters')">
+            <span class="mobile-nav-icon"><i class="fas fa-filter"></i></span>
+            <span class="mobile-nav-label">Filters</span>
+        </button>
+        <button class="mobile-nav-item" id="mnav-status" onclick="setMobileView('status')">
+            <span class="mobile-nav-icon"><i class="fas fa-chart-simple"></i></span>
+            <span class="mobile-nav-label">Status</span>
+        </button>
+        <a class="mobile-nav-item" href="review.html">
+            <span class="mobile-nav-icon"><i class="fas fa-list-check"></i></span>
+            <span class="mobile-nav-label">Review</span>
+        </a>
+    </nav>
+
+    <script>
+        // ── Mobile app shell ───────────────────────────────────────────────────
+        // The view classes only have CSS rules below the mobile breakpoint, so
+        // on desktop none of this changes what is rendered.
+        const MOBILE_MQ = '(max-width: 768px), (max-height: 550px) and (orientation: landscape)';
+        const MOBILE_NAV_IDS = { jobs: 'mnav-jobs', filters: 'mnav-filters', status: 'mnav-status' };
+        const subnavEl = document.getElementById('mobile-subnav');
+        document.body.classList.add('mview-jobs');
+
+        function isMobileLayout() { return window.matchMedia(MOBILE_MQ).matches; }
+
+        function updateMobileNavActive(key) {
+            document.querySelectorAll('.mobile-nav-item').forEach(b => b.classList.remove('active'));
+            const el = document.getElementById(MOBILE_NAV_IDS[key]);
+            if (el) el.classList.add('active');
+        }
+
+        function setMobileView(key) {
+            Object.keys(MOBILE_NAV_IDS).forEach(k => document.body.classList.toggle('mview-' + k, k === key));
+            document.querySelectorAll('.ms-dropdown.open').forEach(d => d.classList.remove('open'));
+            updateMobileNavActive(key);
+            window.scrollTo(0, 0);
+            buildSubnav();
+        }
+
+        // Contents-bar jump targets: the LLM model pills plus one per column
+        // filter. Re-marked on every rebuild because buildTable() recreates them.
+        function markMobileSections() {
+            const llm = document.getElementById('llm-filter-bar');
+            if (llm) { llm.dataset.page = ''; llm.dataset.pageLabel = 'Model'; }
+            document.querySelectorAll('thead tr:first-child th').forEach((th, i) => {
+                const h = th.querySelector('.resizable-header');
+                if (i === 0 || !h || !h.firstChild) return;
+                th.dataset.page = '';
+                th.dataset.pageLabel = h.firstChild.textContent.replace('↕', '').trim();
+            });
+        }
+
+        function currentViewSections() {
+            return Array.from(document.querySelectorAll('[data-page]'))
+                .filter(el => el.getClientRects().length)
+                .sort((a, b) => (parseInt(getComputedStyle(a).order, 10) || 0) - (parseInt(getComputedStyle(b).order, 10) || 0));
+        }
+
+        function buildSubnav() {
+            markMobileSections();
+            const pages = isMobileLayout() ? currentViewSections() : [];
+            if (pages.length < 2) { subnavEl.innerHTML = ''; return; }
+            subnavEl.innerHTML = pages.map((el, i) =>
+                `<button class="subnav-chip" data-idx="${i}">${el.dataset.pageLabel || 'Section ' + (i + 1)}</button>`
+            ).join('');
+            Array.from(subnavEl.children).forEach((chip, i) => {
+                chip.addEventListener('click', () => pages[i].scrollIntoView({ behavior: 'smooth', block: 'start' }));
+            });
+            _subnavActiveIdx = -1;
+            updateSubnavActive();
+        }
+
+        let _subnavActiveIdx = -1;
+        let _subnavRaf = 0;
+        function updateSubnavActive() {
+            _subnavRaf = 0;
+            if (!subnavEl.children.length) return;
+            const pages = currentViewSections();
+            if (!pages.length) return;
+            const refLine = subnavEl.getBoundingClientRect().bottom + 8;
+            let idx = 0, best = Infinity;
+            pages.forEach((p, i) => {
+                const d = Math.abs(p.getBoundingClientRect().top - refLine);
+                if (d < best) { best = d; idx = i; }
+            });
+            if (idx === _subnavActiveIdx) return;
+            _subnavActiveIdx = idx;
+            Array.from(subnavEl.children).forEach((c, i) => c.classList.toggle('active', i === idx));
+            // Keep the active chip centred in its own row without scrollIntoView,
+            // which can interrupt the page's momentum scroll on mobile.
+            const chip = subnavEl.children[idx];
+            if (chip) subnavEl.scrollLeft = chip.offsetLeft - (subnavEl.clientWidth - chip.offsetWidth) / 2;
+        }
+        document.addEventListener('scroll', () => {
+            if (!_subnavRaf) _subnavRaf = requestAnimationFrame(updateSubnavActive);
+        }, true);
+        window.addEventListener('resize', buildSubnav);
+
+        // buildTable() replaces the whole table (thead included), so rebuild the
+        // chips whenever the jobs container's children are swapped out.
+        let _subnavRebuildTimer = null;
+        new MutationObserver(() => {
+            clearTimeout(_subnavRebuildTimer);
+            _subnavRebuildTimer = setTimeout(buildSubnav, 50);
+        }).observe(document.getElementById('jobs-container'), { childList: true });
+
+        // Tap the status dot to open the Status view; tap a clamped reason to
+        // expand it (hover tooltips do not exist on touch).
+        document.querySelector('.file-status-indicator').addEventListener('click', () => {
+            if (isMobileLayout()) setMobileView('status');
+        });
+        document.addEventListener('click', e => {
+            const cell = e.target.closest('.reason-cell, .user-reason-cell');
+            if (cell && isMobileLayout()) cell.classList.toggle('expanded');
+        });
+    </script>
 
 </body>
 </html>

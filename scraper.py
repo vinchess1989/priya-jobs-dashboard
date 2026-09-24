@@ -1842,9 +1842,11 @@ def update_git():
             # Integrate remote commits (e.g. tailor-resume's "Update resume links") before
             # pushing, otherwise the push is rejected as non-fast-forward. On conflict, keep our
             # side (-X theirs = the commits being replayed, i.e. this run's scraper output) and
-            # always abort a failed rebase so the repo is never left mid-rebase.
+            # always abort a failed rebase so the repo is never left mid-rebase. --autostash:
+            # without it, any uncommitted hand edit (dashboard HTML, memory.md) makes git
+            # refuse the pull outright.
             try:
-                pull = subprocess.run(["git", "pull", "--rebase", "-X", "theirs", remote, branch],
+                pull = subprocess.run(["git", "pull", "--rebase", "--autostash", "-X", "theirs", remote, branch],
                                       timeout=180, **git_kw)
                 pull_failed = pull.returncode != 0
             except subprocess.TimeoutExpired:

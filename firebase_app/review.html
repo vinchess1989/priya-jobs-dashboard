@@ -212,6 +212,328 @@
         .ms-option:hover { background: rgba(255, 255, 255, 0.05); color: white; }
         .ms-option input[type="checkbox"] { cursor: pointer; }
 
+        /* =====================================================================
+           MOBILE APP SHELL — additive only; no desktop rule above is edited.
+           Applies to portrait phones AND short landscape phones. Table rows
+           render as cards; cells are labelled from their column header by
+           labelMobileCells() (data-label / data-role attributes).
+           ===================================================================== */
+        .mobile-app-bottom-nav,
+        .mobile-subnav {
+            display: none;
+        }
+
+        @media (max-width: 768px), (max-height: 550px) and (orientation: landscape) {
+            :root {
+                --hdr-h: 52px;
+                --subnav-h: 40px;
+                --mnav-h: 58px;
+                --mobile-accent: #a5b4fc;
+            }
+
+            /* --- Viewport lock (body: clip, not hidden, so sticky bars work). */
+            html {
+                width: 100% !important;
+                max-width: 100vw !important;
+                overflow-x: hidden !important;
+            }
+            body {
+                width: 100% !important;
+                max-width: 100vw !important;
+                overflow-x: clip !important;
+                padding-bottom: calc(var(--mnav-h) + env(safe-area-inset-bottom, 0px)) !important;
+            }
+
+            /* --- Compact sticky app bar. */
+            header {
+                flex-wrap: nowrap !important;
+                gap: 0.5rem !important;
+                height: var(--hdr-h);
+                padding: 0 0.75rem !important;
+                z-index: 300;
+                background: rgba(17, 21, 36, 0.96);
+                backdrop-filter: blur(18px);
+                -webkit-backdrop-filter: blur(18px);
+            }
+            .logo-area { flex: 1 1 auto; min-width: 0; gap: 0.5rem; }
+            .logo-icon { width: 2rem; height: 2rem; flex-shrink: 0; }
+            .logo-title { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+            #auth-container { flex-shrink: 0; gap: 0.5rem; padding: 0.2rem !important; }
+            #login-btn, #logout-btn { min-height: 38px; font-size: 0.85rem; }
+
+            /* --- Clutter removal: the tab row and back link live in the bottom
+               nav; the account email and the resize handles are desktop detail. */
+            .back-link,
+            .tab-btn,
+            #user-email,
+            thead tr:first-child,
+            .filter-row th:empty {
+                display: none !important;
+            }
+
+            /* The Clear All Filters button (appended into .tabs) stays. */
+            .tabs { padding: 0.6rem 0.75rem 0 !important; justify-content: flex-end; }
+            .tabs:not(:has(#clear-filters-btn)) { display: none; }
+            #clear-filters-btn { margin: 0 !important; min-height: 40px; }
+
+            main { padding: 0 0.6rem 1rem !important; }
+            /* Panels keep their loading "spinner-container" class (4rem/1rem
+               padding, centred text) after rendering — drop it once filled. */
+            main .spinner-container:has(table, .section-label, .chart-container) {
+                padding: 0 !important;
+                text-align: left;
+            }
+            #clear-filters-btn { font-size: 0.8rem; padding: 0.45rem 0.9rem; }
+            .section-label { margin: 1.1rem 0 0.6rem; font-size: 0.95rem; }
+
+            /* --- Width-safe containers; tables become card stacks. */
+            .table-container,
+            .chart-container {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0 !important;
+                margin-top: 0.75rem;
+                padding: 0 !important;
+                border: none;
+                border-radius: 0;
+                background: transparent;
+                box-shadow: none;
+                backdrop-filter: none;
+                -webkit-backdrop-filter: none;
+                overflow: visible !important;
+            }
+            .table-container[style*="margin-bottom"] { margin-bottom: 0.5rem !important; }
+            .chart-container {
+                padding: 0.9rem !important;
+                background: var(--bg-card);
+                border: 1px solid var(--border-color);
+                border-radius: 0.9rem;
+                overflow-x: auto !important;
+            }
+            .table-scroll-area {
+                overflow: visible !important;
+                max-height: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            table, thead, tbody { display: block; width: 100%; min-width: 0 !important; }
+
+            /* Filter row -> horizontally scrolling strip of labelled chips. */
+            thead { position: static; background: transparent; margin-bottom: 0.6rem; }
+            .filter-row {
+                display: flex;
+                gap: 0.4rem;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                padding-bottom: 2px;
+            }
+            .filter-row::-webkit-scrollbar { display: none; }
+            .filter-row th { display: block; flex: 0 0 auto; padding: 0 !important; border: none; background: none !important; }
+            .filter-row .ms-btn {
+                width: auto;
+                min-height: 40px;
+                gap: 0.4rem;
+                padding: 0.4rem 0.8rem;
+                border-radius: 999px;
+                font-size: 0 !important;       /* hides "Filter..."; label comes from ::before */
+            }
+            .filter-row .ms-btn::before { content: attr(data-label); font-size: 0.8rem; }
+            .filter-row .ms-btn > span { font-size: 0.6rem !important; }
+            /* Dropdowns are absolutely positioned at the button's x by JS; pin
+               them to the screen edges instead so they can never overflow. */
+            .ms-dropdown {
+                left: 8px !important;
+                right: 8px;
+                width: auto !important;
+                min-width: 0;
+                max-height: 50vh;
+            }
+            .ms-option { padding: 0.6rem 0.5rem; font-size: 0.9rem; }
+
+            tbody tr {
+                display: grid;   /* no !important: applyTableFilters() hides rows inline */
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.5rem 0.75rem;
+                padding: 0.8rem 0.85rem;
+                margin-bottom: 0.65rem;
+                background: var(--bg-card);
+                border: 1px solid var(--border-color);
+                border-radius: 0.9rem;
+            }
+            tbody td {
+                display: block;
+                min-width: 0;
+                padding: 0 !important;
+                border: none !important;
+                font-size: 0.85rem;
+                overflow-wrap: anywhere;
+            }
+            tr:hover td { background: none; }
+            tbody td::before {
+                content: attr(data-label);
+                display: block;
+                margin-bottom: 0.15rem;
+                font-size: 0.6rem;
+                font-weight: 700;
+                letter-spacing: 0.06em;
+                text-transform: uppercase;
+                color: var(--text-secondary);
+            }
+            tbody td[data-role="title"] { grid-column: 1 / -1; order: -3; font-size: 1rem; font-weight: 600; line-height: 1.3; }
+            tbody td[data-role="company"] { order: -2; font-weight: 600; }
+            tbody td[data-role="id"] { order: -1; text-align: right; font-size: 0.72rem; color: var(--text-secondary); align-self: center; }
+            tbody td[data-role="title"]::before,
+            tbody td[data-role="company"]::before,
+            tbody td[data-role="id"]::before,
+            tbody td[data-role="actions"]::before { display: none; }
+            tbody td[data-role="wide"],
+            tbody td[data-role="actions"] { grid-column: 1 / -1; }
+            tbody td[data-role="wide"] > div { max-height: none !important; overflow: visible !important; font-size: 0.82rem; line-height: 1.4; color: #d1d5db; }
+            tbody td[data-role="actions"] { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+            tbody td[data-role="actions"] .btn { flex: 1 1 0; justify-content: center; min-height: 44px; margin: 0; }
+            tbody td[data-role="actions"] .action-check { min-height: 44px; margin-right: 0.5rem !important; }
+
+            /* --- Contents bar (tabs with more than one section). */
+            .mobile-subnav {
+                display: flex;
+                position: sticky;
+                top: var(--hdr-h);
+                z-index: 280;
+                align-items: center;
+                gap: 0.4rem;
+                height: var(--subnav-h);
+                padding: 0 0.75rem;
+                overflow-x: auto;
+                scrollbar-width: none;
+                background: rgba(10, 13, 22, 0.94);
+                backdrop-filter: blur(14px);
+                -webkit-backdrop-filter: blur(14px);
+                border-bottom: 1px solid var(--border-color);
+            }
+            .mobile-subnav::-webkit-scrollbar { display: none; }
+            .mobile-subnav:empty { display: none; }
+            [data-page] { scroll-margin-top: calc(var(--hdr-h) + var(--subnav-h) + 8px); }
+            .subnav-chip {
+                position: relative;
+                flex: 0 0 auto;
+                padding: 0.32rem 0.75rem;
+                border-radius: 999px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                background: rgba(255, 255, 255, 0.06);
+                color: #cbd5e1;
+                font-family: inherit;
+                font-size: 0.72rem;
+                font-weight: 600;
+                white-space: nowrap;
+                cursor: pointer;
+                touch-action: manipulation;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+            .subnav-chip::after { content: ''; position: absolute; inset: -7px -3px; }
+            .subnav-chip.active {
+                background: linear-gradient(135deg, #6366f1, #8b5cf6);
+                border-color: transparent;
+                color: #fff;
+                font-weight: 700;
+            }
+
+            /* --- Fixed bottom navigation. */
+            .mobile-app-bottom-nav {
+                display: flex !important;
+                position: fixed !important;
+                bottom: 0 !important;
+                left: 0 !important;
+                right: 0 !important;
+                width: 100vw !important;
+                height: calc(var(--mnav-h) + env(safe-area-inset-bottom, 0px)) !important;
+                padding: 0 0.35rem env(safe-area-inset-bottom, 0px) !important;
+                justify-content: space-around !important;
+                align-items: center !important;
+                background: rgba(10, 13, 22, 0.96) !important;
+                backdrop-filter: blur(24px) !important;
+                -webkit-backdrop-filter: blur(24px) !important;
+                border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+                box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.6) !important;
+                transform: translateZ(0) !important;
+                -webkit-transform: translateZ(0) !important;
+                will-change: transform !important;
+                z-index: 99999 !important;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+            .mobile-nav-item {
+                position: relative;
+                display: flex !important;
+                flex: 1 !important;
+                max-width: 80px !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+                gap: 3px !important;
+                min-height: 44px;
+                padding: 0.3rem 0.2rem !important;
+                background: none !important;
+                border: none !important;
+                border-radius: 8px !important;
+                color: var(--text-secondary) !important;
+                font-family: inherit !important;
+                text-decoration: none !important;
+                cursor: pointer !important;
+                touch-action: manipulation;
+                transition: transform 0.15s ease, color 0.15s ease !important;
+            }
+            .mobile-nav-item:active { transform: scale(0.92) !important; }
+            .mobile-nav-item.active { color: var(--mobile-accent) !important; }
+            .mobile-nav-item.active .mobile-nav-icon { filter: drop-shadow(0 0 8px rgba(129, 140, 248, 0.7)); }
+            .mobile-nav-icon { font-size: 1.05rem; line-height: 1; }
+            .mobile-nav-label { font-size: 0.66rem; font-weight: 700; white-space: nowrap; }
+            .mobile-nav-badge {
+                position: absolute;
+                top: 2px;
+                left: calc(50% + 6px);
+                min-width: 16px;
+                padding: 0 4px;
+                border-radius: 999px;
+                background: #6366f1;
+                color: #fff;
+                font-size: 0.6rem;
+                font-weight: 700;
+                line-height: 16px;
+                text-align: center;
+            }
+            .mobile-nav-badge:empty { display: none; }
+
+            /* --- iOS focus-zoom guard. */
+            input, select, textarea { font-size: 16px !important; max-width: 100%; }
+            button { touch-action: manipulation; }
+        }
+
+        /* Landscape phones: shorter bars, icon beside label, two card columns. */
+        @media (max-height: 550px) and (orientation: landscape) {
+            :root {
+                --hdr-h: 44px;
+                --subnav-h: 34px;
+                --mnav-h: 46px;
+            }
+            .logo-icon { width: 1.6rem; height: 1.6rem; font-size: 0.95rem; }
+            .mobile-nav-item {
+                flex-direction: row !important;
+                gap: 6px !important;
+                max-width: none !important;
+            }
+            .mobile-nav-label { font-size: 0.72rem; }
+            .mobile-nav-badge { position: static; }
+            .subnav-chip { padding: 0.24rem 0.6rem; font-size: 0.66rem; }
+            tbody {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.6rem;
+                align-items: start;
+            }
+            tbody tr { margin-bottom: 0; }
+        }
     </style>
     <!-- Firebase Compat SDKs -->
     <script src="/__/firebase/10.7.1/firebase-app-compat.js"></script>
@@ -232,6 +554,9 @@
         <button id="logout-btn">Sign Out</button>
     </div>
 </header>
+
+<!-- Mobile contents bar (hidden on desktop; filled by buildSubnav) -->
+<nav class="mobile-subnav" id="mobile-subnav" aria-label="Sections"></nav>
 
 <div class="tabs">
     <button class="tab-btn active" id="tab-btn-weak" onclick="switchTab('weak')">Weak Matches <span class="count" id="weak-count"></span></button>
@@ -254,6 +579,34 @@
         <div id="autosubmitted-content" class="spinner-container"><div class="spinner"></div><div>Loading jobs…</div></div>
     </div>
 </main>
+
+<!-- Mobile bottom navigation (hidden on desktop) -->
+<nav class="mobile-app-bottom-nav" aria-label="Main">
+    <button class="mobile-nav-item active" id="mnav-weak" onclick="switchTab('weak')">
+        <span class="mobile-nav-icon"><i class="fas fa-scale-balanced"></i></span>
+        <span class="mobile-nav-label">Weak</span>
+        <span class="mobile-nav-badge" data-count-from="weak-count"></span>
+    </button>
+    <button class="mobile-nav-item" id="mnav-actions" onclick="switchTab('actions')">
+        <span class="mobile-nav-icon"><i class="fas fa-bolt"></i></span>
+        <span class="mobile-nav-label">Actions</span>
+        <span class="mobile-nav-badge" data-count-from="actions-count"></span>
+    </button>
+    <button class="mobile-nav-item" id="mnav-filled" onclick="switchTab('filled')">
+        <span class="mobile-nav-icon"><i class="fas fa-file-signature"></i></span>
+        <span class="mobile-nav-label">Filled</span>
+        <span class="mobile-nav-badge" data-count-from="filled-count"></span>
+    </button>
+    <button class="mobile-nav-item" id="mnav-autosubmitted" onclick="switchTab('autosubmitted')">
+        <span class="mobile-nav-icon"><i class="fas fa-paper-plane"></i></span>
+        <span class="mobile-nav-label">Auto</span>
+        <span class="mobile-nav-badge" data-count-from="autosubmitted-count"></span>
+    </button>
+    <a class="mobile-nav-item" href="index.html">
+        <span class="mobile-nav-icon"><i class="fas fa-table-list"></i></span>
+        <span class="mobile-nav-label">Board</span>
+    </a>
+</nav>
 
 <script>
     const firebaseConfig = {
@@ -301,6 +654,7 @@
         document.getElementById('panel-actions').classList.toggle('active', tab === 'actions');
         document.getElementById('panel-filled').classList.toggle('active', tab === 'filled');
         document.getElementById('panel-autosubmitted').classList.toggle('active', tab === 'autosubmitted');
+        if (window.onMobileTabChange) onMobileTabChange(tab);
     }
 
     window.addEventListener('DOMContentLoaded', () => {
@@ -1047,6 +1401,127 @@
         tip.style.top = (evt.clientY - 10) + 'px';
         tip.style.display = 'block';
     }
+</script>
+
+<script>
+    // ── Mobile app shell ───────────────────────────────────────────────────
+    // Attributes set here only have CSS rules below the mobile breakpoint, so
+    // on desktop none of this changes what is rendered.
+    const MOBILE_MQ = '(max-width: 768px), (max-height: 550px) and (orientation: landscape)';
+    const subnavEl = document.getElementById('mobile-subnav');
+    const CELL_ROLES = {
+        'Job Title': 'title', 'Company': 'company', 'ID': 'id',
+        'Reason': 'wide', 'Detail': 'wide', 'Actions': 'actions', 'Status': 'actions',
+    };
+
+    function isMobileLayout() { return window.matchMedia(MOBILE_MQ).matches; }
+
+    function updateMobileNavActive(key) {
+        document.querySelectorAll('.mobile-nav-item').forEach(b => b.classList.remove('active'));
+        const el = document.getElementById('mnav-' + key);
+        if (el) el.classList.add('active');
+    }
+
+    // Called from switchTab(), so the highlight follows the tab however it opened.
+    function onMobileTabChange(tab) {
+        updateMobileNavActive(tab);
+        document.querySelectorAll('.ms-dropdown.show').forEach(d => d.classList.remove('show'));
+        if (isMobileLayout()) window.scrollTo(0, 0);
+        buildSubnav();
+    }
+
+    // Card layout: label every cell (and filter chip) with its column header,
+    // and tag the cells that get a special position in the card.
+    function labelMobileCells() {
+        document.querySelectorAll('main table').forEach(table => {
+            const heads = Array.from(table.querySelectorAll('thead tr:first-child th')).map(th => th.textContent.trim());
+            table.querySelectorAll('tbody tr').forEach(tr => {
+                Array.from(tr.children).forEach((td, i) => {
+                    td.dataset.label = heads[i] || '';
+                    if (CELL_ROLES[heads[i]]) td.dataset.role = CELL_ROLES[heads[i]];
+                });
+            });
+            table.querySelectorAll('.filter-row th').forEach((th, i) => {
+                const btn = th.querySelector('.ms-btn');
+                if (btn) btn.dataset.label = heads[i] || 'Filter';
+            });
+        });
+        // Mirror the tab counts ("(12)") into the bottom-nav badges.
+        document.querySelectorAll('.mobile-nav-badge[data-count-from]').forEach(badge => {
+            const src = document.getElementById(badge.dataset.countFrom);
+            badge.textContent = src ? src.textContent.replace(/[()]/g, '').trim() : '';
+        });
+    }
+
+    // Contents-bar jump targets: section headings (Outstanding / Completed)
+    // and, on the Auto-Submitted tab, the chart and the forms list.
+    function markMobileSections() {
+        document.querySelectorAll('main .section-label').forEach(el => {
+            el.dataset.page = '';
+            el.dataset.pageLabel = el.textContent.trim();
+        });
+        document.querySelectorAll('main .chart-container').forEach(chart => {
+            chart.dataset.page = '';
+            chart.dataset.pageLabel = 'Chart';
+            const list = chart.nextElementSibling;
+            if (list && list.classList.contains('table-container')) {
+                list.dataset.page = '';
+                list.dataset.pageLabel = 'Forms';
+            }
+        });
+    }
+
+    function currentViewSections() {
+        return Array.from(document.querySelectorAll('.panel.active [data-page]'))
+            .filter(el => el.getClientRects().length)
+            .sort((a, b) => (parseInt(getComputedStyle(a).order, 10) || 0) - (parseInt(getComputedStyle(b).order, 10) || 0));
+    }
+
+    let _subnavActiveIdx = -1;
+    let _subnavRaf = 0;
+
+    function buildSubnav() {
+        markMobileSections();
+        const pages = isMobileLayout() ? currentViewSections() : [];
+        if (pages.length < 2) { subnavEl.innerHTML = ''; return; }
+        subnavEl.innerHTML = pages.map((el, i) =>
+            `<button class="subnav-chip" data-idx="${i}">${escapeHtml(el.dataset.pageLabel || 'Section ' + (i + 1))}</button>`
+        ).join('');
+        Array.from(subnavEl.children).forEach((chip, i) => {
+            chip.addEventListener('click', () => pages[i].scrollIntoView({ behavior: 'smooth', block: 'start' }));
+        });
+        _subnavActiveIdx = -1;
+        updateSubnavActive();
+    }
+
+    function updateSubnavActive() {
+        _subnavRaf = 0;
+        if (!subnavEl.children.length) return;
+        const pages = currentViewSections();
+        if (!pages.length) return;
+        const refLine = subnavEl.getBoundingClientRect().bottom + 8;
+        let idx = 0, best = Infinity;
+        pages.forEach((p, i) => {
+            const d = Math.abs(p.getBoundingClientRect().top - refLine);
+            if (d < best) { best = d; idx = i; }
+        });
+        if (idx === _subnavActiveIdx) return;
+        _subnavActiveIdx = idx;
+        Array.from(subnavEl.children).forEach((c, i) => c.classList.toggle('active', i === idx));
+        const chip = subnavEl.children[idx];
+        if (chip) subnavEl.scrollLeft = chip.offsetLeft - (subnavEl.clientWidth - chip.offsetWidth) / 2;
+    }
+    document.addEventListener('scroll', () => {
+        if (!_subnavRaf) _subnavRaf = requestAnimationFrame(updateSubnavActive);
+    }, true);
+    window.addEventListener('resize', buildSubnav);
+
+    // Every render*() call replaces a panel's innerHTML; relabel after each.
+    let _mobileRelabelTimer = null;
+    new MutationObserver(() => {
+        clearTimeout(_mobileRelabelTimer);
+        _mobileRelabelTimer = setTimeout(() => { labelMobileCells(); buildSubnav(); }, 50);
+    }).observe(document.querySelector('main'), { childList: true, subtree: true });
 </script>
 </body>
 </html>
