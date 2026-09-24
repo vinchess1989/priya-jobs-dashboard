@@ -2531,8 +2531,8 @@
     "location": "Kassel, Hesse, Germany",
     "url": "https://de.linkedin.com/jobs/view/technischer-konfigurationsmanager-m-w-d-defence-at-bertrandt-group-4462977446",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
+    "matches_requirements": "maybe",
+    "reason": "The role matches her configuration management expertise and is located in the EU, but requires C1-level German which is not listed in her profile.",
     "id": "416b2c79",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-08",
@@ -2577,14 +2577,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461282869",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate's configuration management and regulated industry experience is a strong match, but the role requires German proficiency which she does not have.",
+    "reason": "The role is a strong match for her configuration management experience, but it requires relocation to Germany and proficiency in German, which she does not speak.",
     "id": "810d6750",
     "source": "linkedin_eu_configuration_manager_p2",
-    "posted_date": "vor 3 wochen",
+    "posted_date": "vor 2 tagen",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration manager",
@@ -2593,14 +2592,13 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4458202752",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in Swedish, which the candidate does not speak.",
+    "reason": "The role requires strong Swedish language skills, which the candidate does not have.",
     "id": "a37f7407",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2609,14 +2607,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-quantum-systems-4431833898",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a perfect match for her configuration management and traceability expertise, but it is located in Germany, which would require relocation.",
+    "reason": "The role is a strong match for her configuration management and technical documentation skills, but requires relocation to Germany.",
     "id": "c5915ea0",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2625,14 +2622,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-blackned-gmbh-4442614212",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The candidate's technical expertise in Configuration Management and regulated environments is a strong match, but the role requires fluent German.",
+    "reason": "The role is a strong technical match for her Configuration Management background, but it requires fluent German, which is not listed in her profile.",
     "id": "224491aa",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d) \u2013 Defence & Technology",
@@ -2640,15 +2636,14 @@
     "location": "Bremen, Bremen, Germany",
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-%E2%80%93-defence-technology-at-randstad-deutschland-4463519108",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her configuration management expertise and is located in the EU, but would require relocation to Germany.",
+    "matches_requirements": "yes",
+    "reason": "The role is a Configuration Manager position located in Germany, which is within the EU and matches her professional experience.",
     "id": "ce87e38f",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/randstad_deutschland_configuration_manager__m_w_d___ce87e38f.txt"
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2657,14 +2652,13 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461286764",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong match for her configuration management expertise, but requires relocation to Germany and specifies German language proficiency which is not listed in her profile.",
+    "reason": "The role is a strong match for her configuration management background, but requires German proficiency which is not listed in her profile.",
     "id": "ba76ca79",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration Manager (m/w/d)",
