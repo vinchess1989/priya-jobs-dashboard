@@ -1183,13 +1183,13 @@
     "location": "Futurice Helsinki, Futurice Tampere",
     "url": "https://fi.indeed.com/rc/clk?jk=08e41726d2d88ff7",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The posting is for a junior software developer role focused on feature development, which does not align with the candidate's senior release/DevOps/CM expertise.",
     "id": "05ee3179",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -1198,13 +1198,13 @@
     "location": "Oulu, Finland",
     "url": "https://fi.indeed.com/viewjob?jk=890abcdef0123456",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The posting is for a Junior Software Developer focused on feature development, which falls under the hard rejection for pure feature\u2011development roles.",
     "id": "5917e00e",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null
   },
   {
@@ -1213,8 +1213,8 @@
     "location": "Helsinki, Stockholm \u00b7 Hybrid",
     "url": "https://fi.indeed.com/rc/clk?jk=a6d487e21cf9674f",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a Full-Stack Engineer position, which is a hard rejection as it focuses on feature development rather than release management, configuration management, or DevOps.",
     "id": "b149f4c2",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
@@ -1365,15 +1365,14 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=2b9a5d13444b76a5",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role focuses on engineering standards and infrastructure/deployment strategies, which aligns with her DevOps/CM background, though the title is Software Engineer.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "5c9b1662",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior/Staff Platform Observability Engineer",
@@ -1381,15 +1380,14 @@
     "location": "Espoo",
     "url": "https://fi.indeed.com/rc/clk?jk=3fbcb1122d825255",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with her extensive background in DevOps, CI/CD, and automation, particularly within highly regulated and mission-critical environments.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "3946939c",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_senior_staff_platform_observab_3946939c.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior AI Engineer",
@@ -1415,14 +1413,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=65e19ac213fce7b5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Lead Architect focuses on system architecture rather than the candidate's core expertise in Release Management, Configuration Management, or DevOps.",
+    "reason": "Extracted via regex fallback",
     "id": "b36ac148",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Lead Architect",
@@ -1430,15 +1427,14 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/viewjob?jk=789abcdef0123456",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job description is empty and provides no information regarding the role's responsibilities, company, or specific location restrictions.",
+    "matches_requirements": "error",
+    "reason": "Could not extract text from page (anti-bot protection or empty page).",
     "id": "f6272112",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Principal Engineer",
@@ -1447,14 +1443,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=79b8b9971db03a7f",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "Insufficient job details to confirm domain/role type alignment with candidate's release/CM expertise.",
+    "reason": "Job description lacks sufficient detail to confirm alignment with the candidate\u2019s release/CM/DevOps expertise.",
     "id": "274fdbaa",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevSecOps Engineer",
@@ -1463,14 +1458,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cdd8a82d35501ac2",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title and responsibilities align with DevOps/Release roles, but the location is listed only as \\\\",
+    "reason": "The posting is for a DevSecOps Engineer, which aligns with her DevOps/Release/Configuration Management expertise, but the location and experience level details are not specified, making fit uncertain.",
     "id": "a8228c5d",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Integration & Release Engineer",
@@ -1478,15 +1472,14 @@
     "location": "Multiple Locations \u00b7 Hybrid",
     "url": "https://fi.indeed.com/rc/clk?jk=d6a60ac8d91779ea",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her release and integration expertise, but the unspecified \\\\",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=480)",
     "id": "75a77ca4",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Backend Engineer (all genders) - Remote Nordics Europe",
@@ -1494,15 +1487,14 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/rc/clk?jk=97cbfd3588468506",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position (Backend Engineer) which is a hard rejection as it lacks release, configuration management, or DevOps responsibilities.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "423c14fe",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Data Engineer",
@@ -1511,14 +1503,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cfb4b68e1c9e669a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Data Engineer focused on data development, not a DevOps, release, configuration management, or technical product specialist position.",
+    "reason": "The role is a pure feature-development data engineering position with no release, configuration-management, or DevOps focus.",
     "id": "e1bc7f40",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1544,14 +1535,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3e0b3af0bc2b598e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is a Senior Customer Support Engineer, which does not align with the candidate\u2019s expertise in release management, configuration management, DevOps, or technical documentation.",
     "id": "c19ffcb8",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -1560,14 +1550,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=bc2c0d0c35a4eb31",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The job title is DevOps Engineer and the location is Helsinki, Finland, which aligns with the candidate's target roles and location preferences.",
+    "reason": "DevOps Engineer role in Helsinki, Finland aligns with Priyanga\u2019s skills and location preferences.",
     "id": "d961b17e",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt"
   },
   {
     "title": "DevOps Engineer",
