@@ -128,7 +128,9 @@ BLOCKED_TITLE_KEYWORDS = [
 
 # ─────────────────────────────────────────────────────────────────────────────
 # JOB SOURCES — DevOps / Release & Configuration Management / Product Specialist
-# Scope: Finland (Priya is Oulu-based) + remote-EU
+# Scope: Finland (Priya is Oulu-based, any work model) + fully remote roles
+# worldwide, excluding the US (the US exclusion is enforced by the LLM screen
+# in job_requirements.md, since remote searches can't filter it out by URL).
 # ─────────────────────────────────────────────────────────────────────────────
 # ── Keyword terms — each has an English variant (all Priya sites are English)
 _KEYWORD_TERMS = [
@@ -139,7 +141,9 @@ _KEYWORD_TERMS = [
     {"en": "Technical Writer"},
     {"en": "Documentation Specialist"},
     {"en": "Requirements Engineer"},
+    {"en": "Requirements Manager"},
     {"en": "Quality Engineer"},
+    {"en": "Quality Manager"},
     {"en": "EU MDR"},
     {"en": "ISO 13485"},
 ]
@@ -155,11 +159,13 @@ _KEYWORD_SITE_TEMPLATES = [
         "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=Finland&sortBy=DD",
     },
     {
-        "id_prefix": "linkedin_eu",
+        # Remote-only (f_WT=2), worldwide. Replaced the old on-site EU search
+        # (2026-09-25) when on-site/hybrid roles outside Finland went out of scope.
+        "id_prefix": "linkedin_ww_remote",
         "platform": "linkedin",
         "lang": "en",
         "pages": 2,
-        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=European%20Union&sortBy=DD",
+        "url_template": "https://www.linkedin.com/jobs/search?keywords={term_enc}&location=Worldwide&f_WT=2&sortBy=DD",
     },
     {
         "id_prefix": "linkedin_eu_remote",
@@ -201,7 +207,7 @@ _KEYWORD_SITE_TEMPLATES = [
 # ── Fixed sites (career pages, boards that don't fit a keyword URL template) —
 # broad, no-keyword sweeps sorted by newest, matching manju_jobs's site list
 # (Duunitori/Indeed/Jobly/Kuntarekry/Työmarkkinatori/MeetFrank), adapted to
-# Finland + remote-EU scope instead of Worldwide.
+# Finland scope (remote-worldwide coverage comes from the keyword templates above).
 FIXED_SITES = [
     {"id": "linkedin_fi_broad", "platform": "linkedin",        "pages": 3,         "url": "https://www.linkedin.com/jobs/search?location=Finland&sortBy=DD"},
     {"id": "duunitori_broad",   "platform": "duunitori",       "scroll_count": 12, "url": "https://duunitori.fi/tyopaikat?jarjestys=uusimmat"},
@@ -214,6 +220,9 @@ FIXED_SITES = [
 ]
 
 _DEFAULT_SCROLL_COUNT = 8
+
+# Main loop: max time between scrape passes while a review backlog is pending.
+SCRAPE_INTERVAL_SECONDS = 3600
 
 
 def _page_url(base_url: str, platform: str, page_idx: int) -> str:
@@ -784,6 +793,9 @@ def scrape_all_jobs(max_jobs=200):
                     if job['url'] not in seen_urls:
                         job['id'] = hashlib.md5(job['url'].encode('utf-8')).hexdigest()[:8]
                         job['source'] = target['id']
+                        # First-seen time (with UTC offset) - drives the dashboard's
+                        # "added today" card; jobs.json has no other per-job add date.
+                        job['added_at'] = datetime.now().astimezone().isoformat(timespec='seconds')
                         all_extracted_jobs.append(job)
                         seen_urls.add(job['url'])
                         added += 1
@@ -2316,6 +2328,9 @@ def main():
     input_thread = threading.Thread(target=listen_for_input, daemon=True)
     input_thread.start()
 
+    # Monotonic time of the last scrape pass; 0 forces one on the first iteration.
+    last_scrape_at = 0.0
+
     while not stop_event.is_set():
         try:
             poll_firebase_feedback()
@@ -2342,8 +2357,14 @@ def main():
             except Exception as e:
                 print(f"Error reading jobs file: {e}")
 
-        if pending_jobs:
-            # We have pending jobs, flush a batch of them first
+        # A requirements change re-queues every job, and draining that backlog takes
+        # days - so a scrape pass still runs at least every SCRAPE_INTERVAL_SECONDS
+        # even while re-reviews are pending (before 2026-09-25, scraping waited for
+        # an empty queue and no new jobs were found for a week).
+        scrape_due = time.monotonic() - last_scrape_at >= SCRAPE_INTERVAL_SECONDS
+        if pending_jobs and not scrape_due:
+            # Never-evaluated jobs first, then re-reviews (stable sort keeps file order).
+            pending_jobs.sort(key=lambda j: 0 if j.get('matches_requirements') in ('pending', 'error') else 1)
             print(f"\nINFO: Flushing pending jobs first. {len(pending_jobs)} pending jobs remaining.")
             batch_urls = [j['url'] for j in pending_jobs[:15]]
             try:
@@ -2375,6 +2396,7 @@ def main():
 
         quota = 15
         new_jobs = []
+        last_scrape_at = time.monotonic()
 
         try:
             print(f"\nINFO: Scanning for up to {quota} new unseen jobs...")

@@ -18,12 +18,34 @@ two new Domain/Role Type bullets (Requirements Engineer, Quality Engineer) plus 
 "Especially strong fit" line calling out MDR/ISO-13485-centered roles specifically. Same mechanism
 as the 2026-09-22 Technical Writer/Documentation Specialist addition below — no `FIXED_SITES`
 changes needed, new `_KEYWORD_TERMS` entries automatically cross with every existing site template.
-Takes effect on the scraper's next run. Checked at the time of this edit: no Windows Scheduled
-Task exists for this project (`Get-ScheduledTask` shows nothing matching priya_jobs/scraper —
-`setup_windows_scheduler.bat` still hasn't been run) and no `scraper.py` process was currently
-running. The ~37h continuous run described in the detached-HEAD entry below was a manually-started
-long-running foreground/background process, not a scheduled task — don't assume scheduling is live
-just because a long run happened once. A manual run is still needed to pick these keywords up.
+Takes effect on the scraper's next run. **Correction (same day):** an earlier version of this
+note said no scheduled task exists — wrong. The Windows Scheduled Task is named
+`PriyaJobsLocalLLMOrchestrator` (runs `venv\Scripts\python.exe orchestrator.py`, which spawns
+`scraper.py`); a search for "priya_jobs"/"scraper" in task names misses it. Restart with
+`Stop-ScheduledTask` / `Start-ScheduledTask -TaskName PriyaJobsLocalLLMOrchestrator`.
+
+## Location scope narrowed, Today card, scrape starvation fix (2026-09-25)
+
+- **Location scope** (Priya's request): Finland (any work model) OR fully remote and open to
+  someone in Finland (worldwide / EU / Europe / EMEA / Nordics), never US. On-site/hybrid in other
+  EU countries is now a hard "no" (was "maybe"). `job_requirements.md` Hard Rejections + §2 rewritten;
+  scraper's on-site `linkedin_eu` template replaced by `linkedin_ww_remote` (location=Worldwide&f_WT=2).
+  Keywords added: "Requirements Manager", "Quality Manager".
+- **Scrape starvation bug:** main loop only scraped when zero jobs were pending review; a
+  requirements change re-queues ~4,200 jobs, so no new jobs were scraped 2026-09-18 → 09-25. Now a
+  scrape pass runs at least every `SCRAPE_INTERVAL_SECONDS` (3600) regardless, and review batches take
+  never-evaluated jobs before re-reviews.
+- **`added_at`** (new per-job field, ISO with offset): stamped by the scraper when a job is first
+  seen; backfilled for existing jobs from the first `jobs.json` commit containing each URL
+  (`git cat-file --batch` over all commits, regex on `"url"`). Drives the dashboard **Today card**:
+  new yes-matches in Finland added today (location regex of Finnish places, or Finland-only source
+  with unknown location) + applications today (`shared_state/job_status[url].applied_date == local
+  today`). The dashboard Applied dropdown now writes `applied_date` (it didn't before); review.html
+  now writes it in LOCAL date (was UTC via toISOString — wrong between 00:00–03:00 Finnish time).
+- Dashboard: Location column free-text "contains" filter (`#location-text-filter`, AND-ed with the
+  checkboxes, persisted as `locationText`). History charts got a Detail/Day/Week/Month switch
+  (`_chartGranularity`, end-of-period snapshot per bucket, applied = period max); review.html's
+  Auto-Submitted bar chart got Day/Week/Month (counts summed).
 
 ## Mobile app shell on firebase_app/index.html (2026-09-25)
 

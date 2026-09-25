@@ -212,6 +212,19 @@
         .ms-option:hover { background: rgba(255, 255, 255, 0.05); color: white; }
         .ms-option input[type="checkbox"] { cursor: pointer; }
 
+        /* Chart aggregation switch (Day / Week / Month) */
+        .chart-gran {
+            display: inline-flex; gap: 2px; padding: 2px; border-radius: 999px;
+            background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .chart-gran button {
+            padding: 3px 11px; border: none; border-radius: 999px; background: none;
+            color: rgba(255, 255, 255, 0.55); font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.72rem; font-weight: 600; cursor: pointer;
+        }
+        .chart-gran button:hover { color: #fff; }
+        .chart-gran button.active { background: rgba(99, 102, 241, 0.35); color: #fff; }
+
         /* =====================================================================
            MOBILE APP SHELL — additive only; no desktop rule above is edited.
            Applies to portrait phones AND short landscape phones. Table rows
@@ -638,6 +651,12 @@
         upload_video: 'Upload Video',
         email_application: 'Email Application',
     };
+
+    // Local-calendar YYYY-MM-DD; the dashboard's "applied today" card compares
+    // applied_date against the local date, so a UTC date would miscount after midnight.
+    function localDateStr(d) {
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    }
 
     function escapeHtml(str) {
         const div = document.createElement('div');
@@ -1143,7 +1162,7 @@
             if (actionType === 'email_application' || actionType === 'upload_video') {
                 // Emailed applications and video-upload submissions are considered submitted
                 // the moment this is checked.
-                const appliedDate = new Date().toISOString().split('T')[0];
+                const appliedDate = localDateStr(new Date());
                 updates.push(new firebase.firestore.FieldPath(url, 'applied'), 'yes');
                 updates.push(new firebase.firestore.FieldPath(url, 'applied_date'), appliedDate);
             } else if (actionType === 'create_login') {
@@ -1236,7 +1255,7 @@
         if (!checkbox.checked) return;
         checkbox.disabled = true;
         try {
-            const appliedDate = new Date().toISOString().split('T')[0];
+            const appliedDate = localDateStr(new Date());
             await db.collection('shared_state').doc('job_status').update(
                 new firebase.firestore.FieldPath(url, 'applied'), 'yes',
                 new firebase.firestore.FieldPath(url, 'applied_date'), appliedDate,
@@ -1303,7 +1322,10 @@
 
         container.innerHTML = `
             <div class="chart-container">
-                <div class="chart-title">Auto-Submitted Forms Per Day</div>
+                <div class="chart-title" style="display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap;">
+                    <span id="autosubmitted-chart-title">Auto-Submitted Forms Per Day</span>
+                    <div class="chart-gran" role="group" aria-label="Aggregation"><button data-gran="day">Day</button><button data-gran="week">Week</button><button data-gran="month">Month</button></div>
+                </div>
                 <div id="autosubmitted-chart"></div>
             </div>
             <div class="table-container">
@@ -1341,9 +1363,59 @@
                 </div>
             </div>
         `;
-        renderDailyBarChart(document.getElementById('autosubmitted-chart'), chartData);
+        _autoSubmittedDaily = chartData;
+        renderAutoSubmittedChart();
         setupTableFilters(container.querySelector('table'));
     }
+
+    // ── Bar-chart aggregation (Day / Week (Mon-start) / Month: counts are summed) ──
+    const BAR_GRANS = ['day', 'week', 'month'];
+    let _barChartGran = (() => {
+        try { const g = localStorage.getItem('barChartGranularity'); return BAR_GRANS.includes(g) ? g : 'day'; }
+        catch (e) { return 'day'; }
+    })();
+    let _autoSubmittedDaily = [];
+
+    function aggregateDailyCounts(daily, gran) {
+        if (gran === 'day') return daily;
+        const buckets = new Map();
+        daily.forEach(({ date, count }) => {
+            const dt = new Date(date + 'T00:00:00');
+            const start = new Date(dt.getFullYear(), dt.getMonth(), gran === 'month' ? 1 : dt.getDate());
+            if (gran === 'week') start.setDate(start.getDate() - ((start.getDay() + 6) % 7));
+            const key = localDateStr(start);
+            const b = buckets.get(key) || {
+                date: key,
+                count: 0,
+                label: gran === 'month'
+                    ? start.toLocaleDateString(undefined, { month: 'short', year: 'numeric' })
+                    : 'Wk ' + start.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }),
+                fullLabel: gran === 'month'
+                    ? start.toLocaleDateString(undefined, { month: 'long', year: 'numeric' })
+                    : 'Week of ' + start.toLocaleDateString(),
+            };
+            b.count += count;
+            buckets.set(key, b);
+        });
+        return Array.from(buckets.keys()).sort().map(k => buckets.get(k));
+    }
+
+    function renderAutoSubmittedChart() {
+        const el = document.getElementById('autosubmitted-chart');
+        if (!el) return;
+        const title = document.getElementById('autosubmitted-chart-title');
+        if (title) title.textContent = 'Auto-Submitted Forms Per ' + { day: 'Day', week: 'Week', month: 'Month' }[_barChartGran];
+        document.querySelectorAll('.chart-gran button').forEach(b => b.classList.toggle('active', b.dataset.gran === _barChartGran));
+        renderDailyBarChart(el, aggregateDailyCounts(_autoSubmittedDaily, _barChartGran));
+    }
+
+    document.addEventListener('click', e => {
+        const btn = e.target.closest('.chart-gran button');
+        if (!btn || !BAR_GRANS.includes(btn.dataset.gran)) return;
+        _barChartGran = btn.dataset.gran;
+        try { localStorage.setItem('barChartGranularity', _barChartGran); } catch (err) {}
+        renderAutoSubmittedChart();
+    });
 
     function renderDailyBarChart(el, data) {
         if (!el || data.length === 0) return;
@@ -1374,8 +1446,8 @@
             const barH = Math.max((d.count / maxCount) * plotH, 2);
             const y = padding.top + plotH - barH;
             const labelDate = new Date(d.date + 'T00:00:00');
-            const shortLabel = labelDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
-            const fullLabel = labelDate.toLocaleDateString();
+            const shortLabel = d.label || labelDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+            const fullLabel = d.fullLabel || labelDate.toLocaleDateString();
             bars += `<rect class="bar-chart-bar" x="${x}" y="${y}" width="${barWidth}" height="${barH}" rx="3"
                         onmousemove="showBarTooltip(event, '${escapeHtml(fullLabel)}', ${d.count})"
                         onmouseleave="hideBarTooltip()" />`;

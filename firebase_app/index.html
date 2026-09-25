@@ -678,6 +678,85 @@
             flex-shrink: 0;
         }
 
+        .filter-row input.col-text-filter { margin-bottom: 6px; }
+
+        /* "Today" card — new Finland matches + applications today */
+        .today-card {
+            width: 100%;
+            margin-bottom: 1.5rem;
+            padding: 1.1rem 1.4rem 1.2rem;
+            border-radius: 1.25rem;
+            background:
+                linear-gradient(var(--bg-secondary), var(--bg-secondary)) padding-box,
+                linear-gradient(135deg, rgba(99, 102, 241, 0.7), rgba(16, 185, 129, 0.55), rgba(244, 114, 182, 0.6)) border-box;
+            border: 1px solid transparent;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+        }
+        .today-card-head {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 0.8rem;
+        }
+        .today-card-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #fcd34d;
+        }
+        .today-card-date { font-size: 0.8rem; color: var(--text-secondary); }
+        .today-card-stats {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+        }
+        .today-stat {
+            padding: 0.9rem 1.1rem;
+            border-radius: 0.9rem;
+            background: var(--color-yes-bg);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+        }
+        .today-stat.applied {
+            background: rgba(244, 114, 182, 0.1);
+            border-color: rgba(244, 114, 182, 0.25);
+        }
+        .today-stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1;
+            color: var(--color-yes);
+        }
+        .today-stat.applied .today-stat-value { color: #f472b6; }
+        .today-stat-label { margin-top: 0.35rem; font-size: 0.9rem; font-weight: 600; color: var(--text-primary); }
+        .today-stat-sub { margin-top: 0.2rem; font-size: 0.75rem; color: var(--text-secondary); min-height: 1em; }
+
+        /* History-chart aggregation switch (Detail / Day / Week / Month) */
+        .chart-gran {
+            display: inline-flex;
+            gap: 2px;
+            padding: 2px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .chart-gran button {
+            padding: 2px 9px;
+            border: none;
+            border-radius: 999px;
+            background: none;
+            color: rgba(255, 255, 255, 0.55);
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.68rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .chart-gran button:hover { color: #fff; }
+        .chart-gran button.active { background: rgba(99, 102, 241, 0.35); color: #fff; }
+
         /* =====================================================================
            MOBILE APP SHELL — additive only; no desktop rule above is edited.
            Applies to portrait phones AND short landscape phones. The page is
@@ -1062,6 +1141,18 @@
                 justify-content: flex-end;
             }
 
+            /* --- Today card: top of the Jobs view only. */
+            .today-card { width: auto; margin: 0.6rem 0.6rem 0; padding: 0.8rem 0.9rem 0.9rem; border-radius: 0.9rem; }
+            .today-card-head { margin-bottom: 0.55rem; }
+            .today-card-stats { gap: 0.6rem; }
+            .today-stat { padding: 0.7rem 0.8rem; }
+            .today-stat-value { font-size: 2rem; }
+            .today-stat-label { font-size: 0.78rem; line-height: 1.3; }
+            body.mview-filters #today-card,
+            body.mview-status #today-card {
+                display: none !important;
+            }
+
             /* --- Contents bar (Filters view): one chip per column filter. */
             .mobile-subnav {
                 display: flex;
@@ -1233,6 +1324,26 @@
     <!-- Mobile contents bar (hidden on desktop; filled by buildSubnav) -->
     <nav class="mobile-subnav" id="mobile-subnav" aria-label="Sections"></nav>
 
+    <!-- Today at a glance (filled by updateTodayCard once data loads) -->
+    <section class="today-card" id="today-card" style="display: none;" aria-label="Today">
+        <div class="today-card-head">
+            <span class="today-card-title"><i class="fas fa-sun"></i> Today</span>
+            <span class="today-card-date" id="today-card-date"></span>
+        </div>
+        <div class="today-card-stats">
+            <div class="today-stat">
+                <div class="today-stat-value" id="today-fi-matches">0</div>
+                <div class="today-stat-label">new matching jobs in Finland</div>
+                <div class="today-stat-sub" id="today-fi-maybe"></div>
+            </div>
+            <div class="today-stat applied">
+                <div class="today-stat-value" id="today-applied">0</div>
+                <div class="today-stat-label">jobs applied today</div>
+                <div class="today-stat-sub" id="today-applied-sub"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- Fallback drag & drop container -->
     <section class="upload-zone" id="upload-zone">
         <div class="upload-icon">📥</div>
@@ -1287,6 +1398,49 @@
         const uploadZone = document.getElementById('upload-zone');
         const fileInput = document.getElementById('file-input');
         const jobsContainer = document.getElementById('jobs-container');
+
+        // Local-calendar YYYY-MM-DD (toISOString() would give the UTC date, which is
+        // yesterday's date for Finland between 00:00 and 03:00).
+        function localDateStr(d) {
+            return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+        }
+
+        // "Within Finland": the location names Finland or a Finnish city/region, or the
+        // job came from a Finland-only search and its location wasn't captured.
+        const FINLAND_LOCATION_RE = /finland|suomi|helsinki|espoo|vantaa|kauniainen|tampere|turku|oulu|jyv[äa]skyl[äa]|kuopio|lahti|pori|joensuu|lappeenranta|vaasa|sein[äa]joki|rovaniemi|kajaani|kotka|h[äa]meenlinna|porvoo|mikkeli|kokkola|salo|uusimaa|pirkanmaa|varsinais|pohjois|keski-suomi|kainuu|lappi/i;
+        const FINLAND_SOURCE_RE = /^(linkedin_fi|indeed_fi|duunitori|jobly|kuntarekry|tyomarkkinatori|work_in_finland)/;
+        function isFinlandJob(job) {
+            const loc = job.location || '';
+            if (FINLAND_LOCATION_RE.test(loc)) return true;
+            const unknownLoc = !loc || /^(n\/a|unknown|extract from page)$/i.test(loc.trim());
+            return unknownLoc && FINLAND_SOURCE_RE.test(job.source || '');
+        }
+
+        function updateTodayCard() {
+            const card = document.getElementById('today-card');
+            if (!card || !allJobs.length) return;
+            const today = localDateStr(new Date());
+            let fiYes = 0, fiMaybe = 0;
+            allJobs.forEach(job => {
+                if (!job.added_at || localDateStr(new Date(job.added_at)) !== today) return;
+                if (!isFinlandJob(job)) return;
+                const state = sharedJobsState[job.url] || {};
+                const matchVal = state.matches_requirements || job.matches_requirements || 'pending';
+                if (matchVal === 'yes') fiYes++;
+                else if (matchVal === 'maybe') fiMaybe++;
+            });
+            const appliedToday = Object.values(sharedJobsState)
+                .filter(s => s && s.applied === 'yes' && s.applied_date === today).length;
+            document.getElementById('today-fi-matches').textContent = fiYes;
+            document.getElementById('today-fi-maybe').textContent = fiMaybe ? `+ ${fiMaybe} maybe` : '';
+            const appliedTotal = allJobs.filter(job =>
+                ((sharedJobsState[job.url] || {}).applied || job.applied) === 'yes').length;
+            document.getElementById('today-applied').textContent = appliedToday;
+            document.getElementById('today-applied-sub').textContent = `${appliedTotal} applied in total`;
+            document.getElementById('today-card-date').textContent =
+                new Date().toLocaleDateString([], { weekday: 'long', day: 'numeric', month: 'long' });
+            card.style.display = 'block';
+        }
 
         // Initial Data Fetch on load
         window.addEventListener('DOMContentLoaded', () => {
@@ -1773,6 +1927,7 @@
             buildMultiSelectFilters();
             buildLlmFilter();
             filterTable();
+            updateTodayCard();
         }
 
         window.toggleAllFilters = function(colIndex, checkState, event) {
@@ -1790,6 +1945,8 @@
             const deadlineInput = document.getElementById('deadline-days-filter');
             if(postedInput) postedInput.value = '';
             if(deadlineInput) deadlineInput.value = '';
+            const locationTextInput = document.getElementById('location-text-filter');
+            if (locationTextInput) locationTextInput.value = '';
             selectedLlmModels.clear();
             buildLlmFilter();
             filterTable();
@@ -1872,7 +2029,13 @@
                     optionsHtml += `<label class="ms-option"><input type="checkbox" value="${val.replace(/"/g, '&quot;')}"> ${val}</label>`;
                 });
                 
+                // Location also gets a free-text "contains" box (e.g. "Remote", "Oulu"),
+                // since exact-value checkboxes can't express "any location mentioning X".
+                const textFilterHtml = i === 4
+                    ? `<input type="text" id="location-text-filter" class="col-text-filter" placeholder="Type to filter…" oninput="filterTable()" autocomplete="off">`
+                    : '';
                 container.innerHTML = `
+                    ${textFilterHtml}
                     <div class="ms-container" style="position:relative;">
                         <button class="ms-btn" onclick="toggleDropdown(${i}, event)">Filter... <span>▼</span></button>
                         <div class="ms-dropdown" id="ms-dropdown-${i}">
@@ -1897,6 +2060,8 @@
                     const deadlineInput = document.getElementById('deadline-days-filter');
                     if (postedInput && saved.postedLimit !== null && saved.postedLimit !== undefined) postedInput.value = saved.postedLimit;
                     if (deadlineInput && saved.deadlineLimit !== null && saved.deadlineLimit !== undefined) deadlineInput.value = saved.deadlineLimit;
+                    const locationTextInput = document.getElementById('location-text-filter');
+                    if (locationTextInput && saved.locationText) locationTextInput.value = saved.locationText;
                     
                     if (saved.colFilters) {
                         for (let i = 1; i <= 14; i++) {
@@ -1984,6 +2149,9 @@
             const deadlineDaysInput = document.getElementById('deadline-days-filter');
             const postedLimit = (postedDaysInput && postedDaysInput.value) ? parseInt(postedDaysInput.value) : null;
             const deadlineLimit = (deadlineDaysInput && deadlineDaysInput.value) ? parseInt(deadlineDaysInput.value) : null;
+            const locationTextInput = document.getElementById('location-text-filter');
+            const locationText = locationTextInput ? locationTextInput.value.trim() : '';
+            const locationNeedle = locationText.toLowerCase();
 
             const today = new Date();
             today.setHours(0,0,0,0);
@@ -1997,7 +2165,8 @@
                 let summaryTexts = [...checked];
                 if (i === 6 && postedLimit !== null && !isNaN(postedLimit)) summaryTexts.unshift(`< ${postedLimit}d`);
                 if (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) summaryTexts.unshift(`< ${deadlineLimit}d`);
-                
+                if (i === 4 && locationText) summaryTexts.unshift(`"${locationText}"`);
+
                 const summaryDiv = document.getElementById(`active-filters-${i}`);
                 if (summaryDiv) {
                     if (summaryTexts.length > 0) {
@@ -2010,7 +2179,7 @@
                     }
                 }
                 
-                if (checked.length > 0 || (i === 6 && postedLimit !== null && !isNaN(postedLimit)) || (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit))) {
+                if (checked.length > 0 || (i === 6 && postedLimit !== null && !isNaN(postedLimit)) || (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) || (i === 4 && locationText)) {
                     filters[i] = checked;
                 }
             }
@@ -2022,6 +2191,7 @@
                     postedLimit: (!isNaN(postedLimit) ? postedLimit : null),
                     deadlineLimit: (!isNaN(deadlineLimit) ? deadlineLimit : null),
                     colFilters: filters,
+                    locationText: locationText,
                     llmModels: Array.from(selectedLlmModels)
                 };
                 localStorage.setItem('jobBoardFilters_' + projectId, JSON.stringify(filtersToSave));
@@ -2062,6 +2232,11 @@
                             Math.ceil((deadlineMs - todayMs) / DAY_MS) >= 0 &&
                             Math.ceil((deadlineMs - todayMs) / DAY_MS) <= deadlineLimit;
                         passesCheckbox = filters[i].length === 0 ? passesDate : (passesCheckbox || passesDate);
+                    }
+
+                    // Location text narrows further (AND) on top of any ticked checkboxes.
+                    if (i === 4 && locationNeedle && !val.toLowerCase().includes(locationNeedle)) {
+                        passesCheckbox = false;
                     }
 
                     if (!passesCheckbox) { show = false; break; }
@@ -2212,8 +2387,12 @@
                         timestamp: firebase.firestore.FieldValue.serverTimestamp()
                     });
                     
+                    // applied_date (local YYYY-MM-DD) feeds the "applied today" card.
                     await db.collection("shared_state").doc("job_status").set({
-                        [url]: { applied: newState }
+                        [url]: {
+                            applied: newState,
+                            applied_date: newState === 'yes' ? localDateStr(new Date()) : firebase.firestore.FieldValue.delete()
+                        }
                     }, { merge: true });
                     
                     select.disabled = false;
@@ -2367,6 +2546,75 @@
         }
         
         // ── History trend chart ────────────────────────────────────────────────
+        // Aggregation: 'detail' = the original 6-hour slots + raw last-24h points;
+        // 'day' / 'week' (Mon-start) / 'month' = one point per period.
+        const CHART_GRANS = ['detail', 'day', 'week', 'month'];
+        let _chartGranularity = (() => {
+            try { const g = localStorage.getItem('chartGranularity'); return CHART_GRANS.includes(g) ? g : 'detail'; }
+            catch (e) { return 'detail'; }
+        })();
+
+        function _bucketStart(dt, gran) {
+            const d = new Date(dt.getFullYear(), dt.getMonth(), gran === 'month' ? 1 : dt.getDate());
+            if (gran === 'week') d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+            return d;
+        }
+
+        function _bucketLabel(start, gran) {
+            if (gran === 'month') return start.toLocaleDateString([], { month: 'short', year: 'numeric' });
+            const day = start.toLocaleDateString([], { month: 'short', day: 'numeric' });
+            return gran === 'week' ? 'Wk ' + day : day;
+        }
+
+        // Level metrics (total/yes/maybe) take the period's LAST snapshot, i.e. the
+        // end-of-period value; applied takes the period's max. The Added/Deleted bars
+        // then show net change between consecutive periods, same as in detail view.
+        function _aggregateHistory(data, gran) {
+            const buckets = new Map();
+            data.slice()
+                .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
+                .forEach(d => {
+                    const start = _bucketStart(new Date(d.timestamp), gran);
+                    const prev = buckets.get(start.getTime());
+                    buckets.set(start.getTime(), {
+                        ...d,
+                        applied: Math.max(prev ? prev.applied : 0, d.applied ?? 0),
+                        _label: _bucketLabel(start, gran),
+                        _hasChurn: (prev && prev._hasChurn) || d.added !== undefined || d.deleted !== undefined,
+                    });
+                });
+            return Array.from(buckets.keys()).sort((a, b) => a - b).map(k => buckets.get(k));
+        }
+
+        function _syncGranButtons() {
+            document.querySelectorAll('.chart-gran button').forEach(b =>
+                b.classList.toggle('active', b.dataset.gran === _chartGranularity));
+        }
+
+        async function _setChartGranularity(gran) {
+            if (!CHART_GRANS.includes(gran)) return;
+            _chartGranularity = gran;
+            try { localStorage.setItem('chartGranularity', gran); } catch (e) {}
+            _syncGranButtons();
+            const data = await _loadChartHistory();
+            const tip = document.getElementById('chart-tooltip');
+            if (tip.style.display === 'block') {
+                _renderChart(document.getElementById('chart-tooltip-canvas'), data, tip._metric || 'total');
+            }
+            const modal = document.getElementById('chart-modal');
+            if (modal.style.display === 'flex') {
+                _onModalMouseLeave();
+                _renderChart(document.getElementById('chart-modal-canvas'), data, modal._metric || 'total');
+            }
+        }
+
+        document.addEventListener('click', e => {
+            const btn = e.target.closest('.chart-gran button');
+            if (!btn) return;
+            e.stopPropagation();
+            _setChartGranularity(btn.dataset.gran);
+        });
+
         let _chartHistory = null;
         async function _loadChartHistory() {
             if (_chartHistory !== null) return _chartHistory;
@@ -2382,6 +2630,10 @@
             ctx.clearRect(0, 0, W, H);
             const _cutoffMs = new Date('2026-06-15T00:00:00').getTime();
             data = (data || []).filter(d => new Date(d.timestamp).getTime() >= _cutoffMs);
+            const _gran = _chartGranularity;
+            if (_gran !== 'detail') {
+                data = _aggregateHistory(data, _gran);
+            } else {
             const _24hAgoMs = Date.now() - 24 * 60 * 60 * 1000;
             const _older = data.filter(d => new Date(d.timestamp).getTime() < _24hAgoMs);
             const _recent = data.filter(d => new Date(d.timestamp).getTime() >= _24hAgoMs)
@@ -2414,7 +2666,9 @@
                 }
             });
             data = _olderPoints.concat(_recentPoints);
-            if (!data || data.length < 2) {
+            }
+            // An aggregated view can legitimately be a single bucket (e.g. the first month).
+            if (!data || data.length < (_gran === 'detail' ? 2 : 1)) {
                 ctx.fillStyle = 'rgba(255,255,255,0.4)'; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
                 ctx.fillText('Not enough data yet', W / 2, H / 2); return;
             }
@@ -2457,6 +2711,7 @@
             const allVals = data.flatMap(d => LINES.map(l => d[l.key] ?? 0));
             const minVal = Math.max(0, Math.min(...allVals) - 1), maxVal = Math.max(...allVals) + 1, range = maxVal - minVal || 1;
             const pL = 38, pR = showAdded ? 34 : 10, pT = 22, pB = 36, cW = W - pL - pR, cH = H - pT - pB;
+            const xAt = i => data.length > 1 ? pL + (i / (data.length - 1)) * cW : pL + cW / 2;
             ctx.strokeStyle = 'rgba(255,255,255,0.06)'; ctx.lineWidth = 1;
             for (let i = 0; i <= 4; i++) {
                 const y = pT + cH * i / 4;
@@ -2475,7 +2730,7 @@
                 const barW = Math.max(3, Math.min(10, spacing * 0.45));
                 const zeroY = pT + cH - (0 - rMin) / rRange * cH;
                 data.forEach((d, i) => {
-                    const x = pL + (i / (data.length - 1)) * cW;
+                    const x = xAt(i);
                     const addedVal = addedVals[i], deletedVal = deletedVals[i];
                     if (addedVal > 0) {
                         const y = pT + cH - (addedVal - rMin) / rRange * cH;
@@ -2504,14 +2759,14 @@
             LINES.forEach(line => {
                 ctx.strokeStyle = line.color; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.beginPath();
                 data.forEach((d, i) => {
-                    const x = pL + (i / (data.length - 1)) * cW;
+                    const x = xAt(i);
                     const y = pT + cH - ((d[line.key] ?? 0) - minVal) / range * cH;
                     i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
                 }); ctx.stroke();
                 if (data.length <= 40) {
                     ctx.fillStyle = line.color;
                     data.forEach((d, i) => {
-                        const x = pL + (i / (data.length - 1)) * cW;
+                        const x = xAt(i);
                         const y = pT + cH - ((d[line.key] ?? 0) - minVal) / range * cH;
                         ctx.beginPath(); ctx.arc(x, y, 2.5, 0, Math.PI * 2); ctx.fill();
                     });
@@ -2526,19 +2781,20 @@
             let lastLabelX = -Infinity;
             let lastDateStr = null;
             data.forEach((d, i) => {
-                const x = pL + (i / (data.length - 1)) * cW;
+                const x = xAt(i);
                 const isLast = i === data.length - 1;
                 const dt = new Date(d.timestamp);
                 const dateStr = dt.toDateString();
                 const isNewDay = dateStr !== lastDateStr;
                 lastDateStr = dateStr;
-                if (!isLast && !isNewDay && x - lastLabelX < 22) return;
+                // Aggregated buckets carry their own label; just avoid overlapping ones.
+                if (d._label ? (!isLast && x - lastLabelX < 22) : (!isLast && !isNewDay && x - lastLabelX < 22)) return;
                 lastLabelX = x;
                 ctx.save();
                 ctx.translate(x, pT + cH + 5);
                 ctx.rotate(-Math.PI / 4);
                 ctx.fillStyle = 'rgba(255,255,255,0.4)'; ctx.font = '9px sans-serif'; ctx.textAlign = 'right';
-                ctx.fillText(isNewDay ? dt.toLocaleString([], { month: 'short', day: 'numeric' }) : fmtTime(d), 0, 0);
+                ctx.fillText(d._label || (isNewDay ? dt.toLocaleString([], { month: 'short', day: 'numeric' }) : fmtTime(d)), 0, 0);
                 ctx.restore();
             });
             let lx = pL;
@@ -2561,7 +2817,7 @@
                 ctx.fillText('Deleted', lx + 16, pT - 3);
             }
             canvas._chartPoints = data.map((d, i) => {
-                const x = pL + (i / (data.length - 1)) * cW;
+                const x = xAt(i);
                 const yMap = {};
                 LINES.forEach(l => { yMap[l.key] = pT + cH - ((d[l.key] ?? 0) - minVal) / range * cH; });
                 const lines = LINES.map(l => ({ key: l.key, label: l.label, color: l.color, val: d[l.key] ?? 0 }));
@@ -2607,6 +2863,7 @@
         async function _openChartModal(metric) {
             _hideChartTooltip();
             const modal = document.getElementById('chart-modal');
+            modal._metric = metric;
             document.getElementById('chart-modal-title').textContent =
                 metric === 'yes' ? 'Yes & Maybe matches over time'
                 : metric === 'applied' ? 'Applied jobs over time'
@@ -2635,7 +2892,9 @@
             ovCtx.clearRect(0, 0, ov.width, ov.height);
             if (nearest && minDist < 30) {
                 const dt = new Date(nearest.d.timestamp);
-                const ts = dt.toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+                const ts = nearest.d._label
+                    ? `${nearest.d._label} (end of period)`
+                    : dt.toLocaleString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
                 const vals = nearest.lines.map(l => `<span style="color:${l.color}">${l.label}: ${l.val}</span>`).join('&nbsp;&nbsp;');
                 ptTip.innerHTML = `<div style="font-size:0.65rem;color:rgba(255,255,255,0.45);margin-bottom:2px">${ts}</div><div style="font-size:0.7rem">${vals}</div>`;
                 ptTip.style.display = 'block';
@@ -2664,6 +2923,7 @@
             el.addEventListener('click', () => _openChartModal(metric));
         }
         document.addEventListener('DOMContentLoaded', () => {
+            _syncGranButtons();
             const tip = document.getElementById('chart-tooltip');
             tip.addEventListener('mouseenter', _cancelChartHide);
             tip.addEventListener('mouseleave', _scheduleChartHide);
@@ -2742,7 +3002,10 @@
 
     <!-- History trend chart tooltip -->
     <div id="chart-tooltip" style="display:none;position:absolute;z-index:9999;background:#161b2e;border:1px solid rgba(255,255,255,0.12);border-radius:0.75rem;padding:0.75rem 1rem 0.6rem;box-shadow:0 20px 50px rgba(0,0,0,0.75);width:350px;">
-        <div id="chart-tooltip-title" style="font-size:0.72rem;font-weight:600;color:rgba(255,255,255,0.55);margin-bottom:0.5rem;font-family:'Space Grotesk',sans-serif;letter-spacing:0.04em;text-transform:uppercase;"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:0.5rem;margin-bottom:0.5rem;">
+            <div id="chart-tooltip-title" style="font-size:0.72rem;font-weight:600;color:rgba(255,255,255,0.55);font-family:'Space Grotesk',sans-serif;letter-spacing:0.04em;text-transform:uppercase;"></div>
+            <div class="chart-gran" role="group" aria-label="Aggregation"><button data-gran="detail">Detail</button><button data-gran="day">Day</button><button data-gran="week">Week</button><button data-gran="month">Month</button></div>
+        </div>
         <canvas id="chart-tooltip-canvas" width="318" height="130" style="cursor:pointer;" title="Click to expand"></canvas>
     </div>
 
@@ -2754,6 +3017,7 @@
         <div style="background:#161b2e;border:1px solid rgba(255,255,255,0.12);border-radius:1rem;padding:1.25rem 1.5rem;position:relative;width:680px;max-width:95vw;box-shadow:0 30px 80px rgba(0,0,0,0.8);">
             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;">
                 <div id="chart-modal-title" style="font-size:0.72rem;font-weight:600;color:rgba(255,255,255,0.55);font-family:'Space Grotesk',sans-serif;letter-spacing:0.04em;text-transform:uppercase;"></div>
+                <div class="chart-gran" role="group" aria-label="Aggregation" style="margin-left:auto;margin-right:0.75rem;"><button data-gran="detail">Detail</button><button data-gran="day">Day</button><button data-gran="week">Week</button><button data-gran="month">Month</button></div>
                 <button id="chart-modal-close" style="background:none;border:none;color:rgba(255,255,255,0.5);font-size:1.4rem;cursor:pointer;padding:0;line-height:1;font-family:sans-serif;">×</button>
             </div>
             <div style="position:relative;">
