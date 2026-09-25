@@ -31,7 +31,8 @@
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": "job_descriptions/iceye_devops_engineer_93da1e87.txt",
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "Platform Engineer",
@@ -47,7 +48,8 @@
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": "job_descriptions/verda_platform_engineer_b660086a.txt",
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "(Senior) DevOps Engineer",
@@ -63,7 +65,8 @@
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null,
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "(Senior) DevOps Engineer",
@@ -79,7 +82,8 @@
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": null,
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "Devops Cloud Platform Developer",
@@ -95,7 +99,8 @@
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": "job_descriptions/phz_full_stack_devops_cloud_platform_develope_c105b7ba.txt",
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "Platform Engineer",
@@ -147,7 +152,8 @@
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": "job_descriptions/upcloud_site_reliability_engineer_f26c922c.txt",
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "DevOps Lead",
@@ -163,7 +169,8 @@
     "deadline": "2026-09-30",
     "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "DevSecOps Engineer",
@@ -197,7 +204,8 @@
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
     "description_file": "job_descriptions/firemind_cloud_engineer___finland_28eee4b4.txt",
-    "added_at": "2026-09-08T23:25:00+03:00"
+    "added_at": "2026-09-08T23:25:00+03:00",
+    "needs_re_review": true
   },
   {
     "title": "Nearshore Sector| DevOps (with artifactory jfrog)",
@@ -71504,5 +71512,229 @@
     "description_file": null,
     "needs_re_review": true,
     "added_at": "2026-09-20T23:15:19+03:00"
+  },
+  {
+    "title": "Kattomyyj\u00e4",
+    "company": "Kattokeskus Suomi Oy",
+    "location": "Nurmij\u00e4rvi, Porvoo, Kirkkonummi, Pirkkala, Turku, Jyv\u00e4skyl\u00e4, Kuopio, Oulu, Finland",
+    "url": "https://duunitori.fi/tyopaikat/tyo/kattokeskus-suomi-kattomyyja-sdsuu-20600807",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a field sales position requiring fluent Finnish, which the candidate does not speak.",
+    "id": "7e3e19d6",
+    "source": "duunitori_requirements_engineer",
+    "added_at": "2026-09-25T15:53:34+03:00",
+    "posted_date": "2026-09-25",
+    "deadline": "2026-10-18",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Myyntiedustaja - Useita paikkakuntia",
+    "company": "Renoa",
+    "location": "Oulu, Finland",
+    "url": "https://duunitori.fi/tyopaikat/tyo/myyntiedustaja-renoa-useita-paikkakuntia-srsen-20594492",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a quota-carrying sales position (Sales Representative), which does not align with the candidate's technical, release management, or documentation expertise.",
+    "id": "0c147256",
+    "source": "duunitori_requirements_engineer",
+    "added_at": "2026-09-25T15:53:34+03:00",
+    "posted_date": "2026-09-23",
+    "deadline": "2026-10-24",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "S\u00e4hk\u00f6asentajia Etel\u00e4-Suomen datakeskushankkeisiin",
+    "company": "Lavonia Group Oy",
+    "location": "Helsinki, Finland",
+    "url": "https://duunitori.fi/tyopaikat/tyo/sahkoasentajia-etela-suomen-datakeskushankkeisiin-slsav-20531918",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is for an electrician, which is entirely outside the candidate's professional expertise in software release management, DevOps, and technical documentation.",
+    "id": "001be2ec",
+    "source": "duunitori_requirements_engineer",
+    "added_at": "2026-09-25T15:53:34+03:00",
+    "posted_date": "2026-09-24",
+    "deadline": "2026-10-04",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Business Analyst, Public sector",
+    "company": "Twoday",
+    "location": "Oulu, North Ostrobothnia, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/business-analyst-public-sector-at-twoday-4464510517",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The position requires fluent Finnish, which the candidate does not speak.",
+    "id": "deef0227",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Spacecraft Analysis Team Lead",
+    "company": "ICEYE",
+    "location": "Espoo, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/spacecraft-analysis-team-lead-at-iceye-4455777123",
+    "visited": "yes",
+    "matches_requirements": "maybe",
+    "reason": "The role involves requirements management and verification, but the core focus on spacecraft system modeling and analysis is a departure from the candidate's recent focus on release and configuration management.",
+    "id": "5b5bb156",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Systems Engineering Lead",
+    "company": "Thomas Thor",
+    "location": "Helsinki Metropolitan Area",
+    "url": "https://fi.linkedin.com/jobs/view/systems-engineering-lead-at-thomas-thor-4459192367",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job is closed and no longer accepting applications.",
+    "id": "dcd9676d",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "1 kuukausi sitten",
+    "deadline": "N/A",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
+  },
+  {
+    "title": "Solution Analyst",
+    "company": "HiQ Finland",
+    "location": "Helsinki Metropolitan Area",
+    "url": "https://fi.linkedin.com/jobs/view/solution-analyst-at-hiq-finland-4446615976",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The position requires fluent Finnish language skills, which the candidate does not possess.",
+    "id": "edfd9608",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "3 viikkoa sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Senior System Engineer",
+    "company": "ReOrbit",
+    "location": "Helsinki, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/senior-system-engineer-at-reorbit-4452268726",
+    "visited": "yes",
+    "matches_requirements": "maybe",
+    "reason": "The role's focus on requirements engineering and V&V aligns with her expertise in regulated industries, but she lacks the specific space industry experience required.",
+    "id": "bf5e1057",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Manager, Application Management Services K-ryhm\u00e4\u00e4n",
+    "company": "Kesko - K-Group",
+    "location": "Helsinki, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/manager-application-management-services-k-ryhm%C3%A4%C3%A4n-at-kesko-k-group-4471483535",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role requires excellent communication skills in both Finnish and English, but the candidate does not speak Finnish.",
+    "id": "4ea711df",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "deadline": "2026-10-11",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Customer Analytics & Insights Manager",
+    "company": "Oomi Energia",
+    "location": "Vantaa, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/customer-analytics-insights-manager-at-oomi-energia-4469713713",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "id": "064163a6",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "deadline": "2026-10-11",
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
+  },
+  {
+    "title": "Head of System Engineering",
+    "company": "ReOrbit",
+    "location": "Helsinki, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/head-of-system-engineering-at-reorbit-4459222656",
+    "visited": "yes",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with her expertise in requirements management and quality processes, but requires specialized satellite domain expertise and high-level leadership.",
+    "id": "93031851",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Product Owner - TietoCaretech (m/f/d)",
+    "company": "Tieto",
+    "location": "Espoo, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/product-owner-tietocaretech-m-f-d-at-tieto-4467266713",
+    "visited": "yes",
+    "matches_requirements": "yes",
+    "reason": "The role's focus on requirements management and regulatory compliance (MDR/ISO 13485) in the healthcare sector aligns well with her extensive experience in quality gatekeeping and regulated software environments.",
+    "id": "8ea9baa3",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "1 viikko sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": "job_descriptions/tieto_product_owner___tietocaretech__8ea9baa3.txt"
+  },
+  {
+    "title": "Temenos Senior Consultant and Functional Architect \u2013 Core Banking & Payments",
+    "company": "Accenture Nordics",
+    "location": "Helsinki, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/temenos-senior-consultant-and-functional-architect-%E2%80%93-core-banking-payments-at-accenture-nordics-4453246910",
+    "visited": "yes",
+    "matches_requirements": "maybe",
+    "reason": "The candidate's expertise in requirements, configuration, and release management aligns with the role's functional aspects, but she lacks the specific Temenos and banking domain experience required.",
+    "id": "4715d9d3",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "1 viikko sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
+  },
+  {
+    "title": "Dynamics 365 Contact Center Consultant",
+    "company": "Accenture Nordics",
+    "location": "Helsinki, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/dynamics-365-contact-center-consultant-at-accenture-nordics-4467577275",
+    "visited": "yes",
+    "matches_requirements": "maybe",
+    "reason": "The role involves requirements engineering and CRM-related work which aligns with her background, but she lacks the required extensive expertise in Microsoft Dynamics 365.",
+    "id": "151d69e5",
+    "source": "linkedin_fi_requirements_manager",
+    "added_at": "2026-09-25T15:54:02+03:00",
+    "posted_date": "1 viikko sitten",
+    "deadline": "N/A",
+    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "description_file": null
   }
 ]
