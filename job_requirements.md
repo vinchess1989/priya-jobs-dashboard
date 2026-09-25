@@ -47,7 +47,9 @@ that are close but uncertain on one dimension, and explain why in each case.
 * **Release Manager / Technical Release Manager** — end-to-end release ownership, go/no-go decisions, cross-team release coordination, release documentation.
 * **Product Specialist** — technical/quality product-support role (not quota-carrying sales), especially where it involves documentation, validation, or customer-facing technical support.
 * **Technical Writer / Documentation Specialist / Technical Communication Specialist** — release notes, change documentation, functional/user guides, SOPs, or other technical documentation ownership. Matches her Accenture (Technical Writing & Translation Specialist) and Topcon (Technical Communication Specialist) experience directly.
-* **Especially strong fit:** any of the above in a regulated/safety-critical domain (automotive ASPICE/TUV, medical device MDR/ISO 13485, or similar regulated software) — this exactly matches her Elektrobit and Topcon background.
+* **Requirements Engineer** — requirements analysis, requirements traceability, and linking requirements to test results and change documentation. Matches her traceability-record ownership at Topcon and Elektrobit directly.
+* **Quality Engineer / Quality Assurance Engineer** — quality gatekeeping, pre-release validation, audit-readiness, and compliance with regulated-industry quality standards. Matches her quality-gatekeeper role at Topcon and ASPICE/TUV audit support at Elektrobit directly.
+* **Especially strong fit:** any of the above in a regulated/safety-critical domain (automotive ASPICE/TUV, medical device MDR/ISO 13485, or similar regulated software) — this exactly matches her Elektrobit and Topcon background. Roles centered specifically on **EU MDR** or **ISO 13485** compliance, quality, or regulatory affairs are an especially strong fit given her direct hands-on Topcon experience with both.
 
 **2. Location & Work Model:** Must satisfy at least ONE of:
 * Anywhere in Finland, any work model (on-site, hybrid, or remote) — she is open to relocating within Finland.

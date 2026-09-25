@@ -6,6 +6,25 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Requirements Engineer / Quality Engineer / MDR / ISO 13485 keywords added (2026-09-25)
+
+`_KEYWORD_TERMS` in `scraper.py` now also includes `"Requirements Engineer"`, `"Quality
+Engineer"`, `"EU MDR"`, and `"ISO 13485"`, at Priya's request. All four are genuine fits, not
+stretches: Requirements Engineer matches her real requirements-traceability ownership at Topcon
+and Elektrobit; Quality Engineer matches her quality-gatekeeper role at Topcon and ASPICE/TUV
+audit support at Elektrobit; MDR/EU MDR and ISO 13485 are the exact regulated-medical-device
+standards she worked under hands-on at Topcon. `job_requirements.md`'s Target Job Criteria §1 got
+two new Domain/Role Type bullets (Requirements Engineer, Quality Engineer) plus an expanded
+"Especially strong fit" line calling out MDR/ISO-13485-centered roles specifically. Same mechanism
+as the 2026-09-22 Technical Writer/Documentation Specialist addition below — no `FIXED_SITES`
+changes needed, new `_KEYWORD_TERMS` entries automatically cross with every existing site template.
+Takes effect on the scraper's next run. Checked at the time of this edit: no Windows Scheduled
+Task exists for this project (`Get-ScheduledTask` shows nothing matching priya_jobs/scraper —
+`setup_windows_scheduler.bat` still hasn't been run) and no `scraper.py` process was currently
+running. The ~37h continuous run described in the detached-HEAD entry below was a manually-started
+long-running foreground/background process, not a scheduled task — don't assume scheduling is live
+just because a long run happened once. A manual run is still needed to pick these keywords up.
+
 ## Mobile app shell on firebase_app/index.html (2026-09-25)
 
 Below `(max-width: 768px), (max-height: 550px) and (orientation: landscape)` the dashboard renders

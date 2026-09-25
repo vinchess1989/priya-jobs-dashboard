@@ -138,6 +138,10 @@ _KEYWORD_TERMS = [
     {"en": "Product Specialist"},
     {"en": "Technical Writer"},
     {"en": "Documentation Specialist"},
+    {"en": "Requirements Engineer"},
+    {"en": "Quality Engineer"},
+    {"en": "EU MDR"},
+    {"en": "ISO 13485"},
 ]
 
 # ── Sites that accept a keyword injected into the URL ─────────────────────
