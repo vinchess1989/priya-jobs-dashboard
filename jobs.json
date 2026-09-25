@@ -1427,8 +1427,8 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/viewjob?jk=789abcdef0123456",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "maybe",
+    "reason": "Job description not available, cannot assess fit.",
     "id": "f6272112",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
@@ -1472,13 +1472,13 @@
     "location": "Multiple Locations \u00b7 Hybrid",
     "url": "https://fi.indeed.com/rc/clk?jk=d6a60ac8d91779ea",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with release and integration responsibilities, but the location is unspecified, making it unclear if it meets the Finland/EU requirement.",
     "id": "75a77ca4",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null
   },
   {
@@ -1534,8 +1534,8 @@
     "location": "Helsinki",
     "url": "https://fi.indeed.com/rc/clk?jk=3e0b3af0bc2b598e",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a Senior Customer Support Engineer, which does not align with the candidate\u2019s expertise in release management, configuration management, DevOps, or technical documentation.",
     "id": "c19ffcb8",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
@@ -1582,14 +1582,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ba20eab65b252257",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "Senior DevOps Engineer role in Espoo, Finland aligns with candidate\u2019s experience and location preferences.",
+    "reason": "Senior DevOps Engineer role in Finland aligns with candidate\u2019s experience and location preferences.",
     "id": "183c39df",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt"
   },
   {
     "title": "Staff Platform Engineer - Core Platform Engineering",
@@ -1598,14 +1597,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d41b600073aff59c",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Staff Platform Engineer in Espoo, Finland, which aligns with her extensive experience in DevOps, CI/CD, and release management.",
+    "reason": "The role is a senior-level Platform Engineering position in Finland, which aligns with her DevOps and CI/CD expertise.",
     "id": "fb37fffb",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_staff_platform_engineer___core_fb37fffb.txt"
   },
   {
     "title": "Staff Developer Advocate",
@@ -1613,15 +1611,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=4c3b86712c6b1625",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a developer advocate, which is not a direct match to the candidate\u2019s release/CM/technical writing focus, but shares some documentation and developer\u2011facing responsibilities.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "31240eb6",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
-    "deadline": "Open until filled",
+    "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer (Developer Enablement)",
@@ -1630,14 +1627,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2713e5b42fe4b719",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The 'Developer Enablement' focus aligns with her extensive experience in CI/CD, release management, and automation, and the role is located in Finland.",
+    "reason": "The role's focus on Developer Enablement aligns with her expertise in CI/CD, release management, and automation, and the position is located in Finland.",
     "id": "16cb105d",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/iceye_senior_software_engineer__deve_16cb105d.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/iceye_senior_software_engineer__deve_16cb105d.txt"
   },
   {
     "title": "Forward Deployed Engineer - Public sector, Nonprofit and Education",
@@ -1645,15 +1641,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=43406b63ecd78ec9",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role's focus on technical delivery, configuration, and deployment on the Salesforce platform aligns well with her Salesforce certifications and technical implementation experience.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "308a32f3",
     "source": "indeed_fi_devops_engineer_p3",
-    "posted_date": "posted 30+ days ago",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/salesforce_forward_deployed_engineer___pu_308a32f3.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Staff Engineer \u2013 Core Developer Experience (DevEx)",
@@ -1662,14 +1657,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=223c30814249e037",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on Developer Experience (DevEx) aligns with her extensive background in DevOps, CI/CD, and release automation.",
+    "reason": "The role's focus on Developer Experience aligns with her expertise in CI/CD and automation, and the position is located in Finland.",
     "id": "f6bb3fc1",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_f6bb3fc1.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_f6bb3fc1.txt"
   },
   {
     "title": "Senior Data Arkkitehti",
@@ -1677,15 +1671,14 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=e81816b3afcc5e98",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role of Senior Data Architect does not align with the candidate's specialized expertise in Release Management, Configuration Management, and DevOps.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "bc3a9dfc",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Lead",
@@ -1694,14 +1687,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f614e615f2b4e17e",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The DevOps Lead role aligns with the candidate's DevOps and release management expertise and is located in Finland/Denmark, which meets her location preferences.",
+    "reason": "The DevOps Lead role aligns with her DevOps and release management expertise and is located in Finland (acceptable location).",
     "id": "f9db3911",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/danfoss_devops_lead_f9db3911.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/danfoss_devops_lead_f9db3911.txt"
   },
   {
     "title": "Staff Cloud Platform Engineer - Cloud Developer Experience",
@@ -1710,14 +1702,13 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4d62b0725dc0bc72",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role's focus on cloud platform engineering and developer experience aligns with her expertise in CI/CD, automation, and DevOps.",
+    "reason": "The role is a senior-level Cloud Platform Engineer position in Helsinki, which aligns with her DevOps and CI/CD expertise.",
     "id": "94151ae3",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__94151ae3.txt"
   },
   {
     "title": "DevOps Engineer, Tampere",
@@ -1725,15 +1716,14 @@
     "location": "Tampere, Finland",
     "url": "https://www.jobly.fi/tyopaikka/devops-engineer-tampere-2740559",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Job posting is no longer active.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "1b091dd5",
     "source": "jobly_fi_devops_engineer",
-    "posted_date": "2026-09-07",
-    "deadline": "Open until filled",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Facebook",
@@ -1742,14 +1732,13 @@
     "url": "https://www.facebook.com/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a description of a job search service (Jobly.fi) and does not contain a specific job posting or role requirements.",
+    "reason": "The provided text is a description of a job search service (Jobly.fi) on Facebook and does not contain a specific job posting.",
     "id": "72167a89",
     "source": "jobly_fi_devops_engineer",
-    "posted_date": "14 tuntia sitten",
+    "posted_date": "1 pv",
     "deadline": "Open until filled",
     "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Instagram",
