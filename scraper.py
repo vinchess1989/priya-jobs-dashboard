@@ -1435,6 +1435,11 @@ GROQ_MODELS = [m.strip() for m in os.environ.get("GROQ_MODELS", "openai/gpt-oss-
 
 _cloud_model_cooldown_until = {}  # "label/model" -> epoch seconds; see _try_cloud_provider
 
+# Minimum max_tokens for local LM Studio calls, and the HTTP timeout that budget needs -
+# see _call_llm_with_fallback.
+LOCAL_LLM_MIN_MAX_TOKENS = 4096
+LOCAL_LLM_BIG_BUDGET_TIMEOUT = 900
+
 def _truncated_without_verdict(resp_json):
     """True when the model hit max_tokens before producing a verdict - typically a reasoning
     model (gemma-4, gpt-oss, qwen3) that spent the whole budget on hidden reasoning, leaving
@@ -1511,7 +1516,11 @@ def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, 
     Returns (response_json, provider_label) so callers can log/record which LLM actually
     produced the result - provider_label is e.g. 'groq/openai/gpt-oss-120b' or
     'local/<model>'."""
-    groq_api_key = os.environ.get("GROQ_API_KEY")
+    # PRIYA_GROQ_API_KEY (this repo's .env) is priya_jobs's own Groq account, so its
+    # free-tier quota isn't drained by manju_jobs/vineeth_jobs. It has to be a separate
+    # name: GROQ_API_KEY is a Windows User env var shared by all three scrapers, and
+    # load_dotenv() never overrides an existing variable.
+    groq_api_key = os.environ.get("PRIYA_GROQ_API_KEY") or os.environ.get("GROQ_API_KEY")
     if groq_api_key:
         result = _try_cloud_provider(messages, GROQ_ENDPOINT, groq_api_key, GROQ_MODELS, temperature, max_tokens, timeout_groq, "groq")
         if result:
@@ -1521,20 +1530,26 @@ def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, 
     llm_api_key = os.environ.get("LOCAL_LLM_API_KEY")
     if llm_api_key:
         headers["Authorization"] = f"Bearer {llm_api_key}"
+    # Local calls get the big budget up front. The local model (gemma-4) is a reasoning
+    # model that exhausted a 500-token budget on hidden reasoning on nearly every job,
+    # which used to cost a wasted first pass plus a 4096-token retry. A non-reasoning
+    # model just stops after its JSON, so the larger cap costs it nothing.
+    local_max_tokens = max(max_tokens, LOCAL_LLM_MIN_MAX_TOKENS)
     local_payload = {
         "model": llm_model,
         "messages": messages,
         "temperature": temperature,
-        "max_tokens": max_tokens,
+        "max_tokens": local_max_tokens,
     }
-    response = _post_llm_with_retry(llm_endpoint, headers, local_payload, timeout=timeout_local)
+    # Timeout must cover the whole budget: measured 2026-09-26 on the shared server,
+    # ~40s prompt processing + 4096 tokens at ~6.5 tok/s ≈ 670s. Anything shorter turns
+    # long reasoning into ReadTimeouts that restart the job from scratch.
+    response = _post_llm_with_retry(llm_endpoint, headers, local_payload,
+                                    timeout=max(timeout_local, LOCAL_LLM_BIG_BUDGET_TIMEOUT)
+                                    if local_max_tokens > max_tokens else timeout_local)
     resp_json = response.json()
     if _truncated_without_verdict(resp_json):
-        bigger = max(max_tokens * 8, 4096)
-        print(f"  [LLM] local model '{llm_model}' used its whole {max_tokens}-token budget without a verdict (reasoning model?) - retrying once with {bigger}...")
-        local_payload["max_tokens"] = bigger
-        response = _post_llm_with_retry(llm_endpoint, headers, local_payload, timeout=timeout_local * 4)
-        resp_json = response.json()
+        print(f"  [LLM] WARNING: local model '{llm_model}' used its whole {local_max_tokens}-token budget without a verdict.")
     return resp_json, f"local/{llm_model}"
 
 def review_pending_jobs(specific_urls=None):
