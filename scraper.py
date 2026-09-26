@@ -1433,6 +1433,16 @@ GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 # score instead of text - not a chat model at all, would fail every single call).
 GROQ_MODELS = [m.strip() for m in os.environ.get("GROQ_MODELS", "openai/gpt-oss-120b,openai/gpt-oss-20b,openai/gpt-oss-safeguard-20b,qwen/qwen3.6-27b").split(",") if m.strip()]
 
+# Google Gemini via its OpenAI-compatible endpoint - second cloud provider, tried after
+# Groq and before local (key: PRIYA_GEMINI_API_KEY in this repo's .env; unset = skipped).
+# Each model has its own free-tier quota, so they rotate like GROQ_MODELS. Validated
+# 2026-09-27 on 40 jobs with the real review prompt: gemini-3.1-flash-lite matched the
+# reference verdict 32/40 exactly (37/40 counting yes<->maybe as close), got all 11
+# rejections right, median 1.5s/job; slightly strict on borderline jobs. 3.5-flash-lite
+# scored lower (28/40), so it's second. gemini-2.5-flash-lite is closed to new accounts.
+GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+GEMINI_MODELS = [m.strip() for m in os.environ.get("GEMINI_MODELS", "gemini-3.1-flash-lite,gemini-3.5-flash-lite").split(",") if m.strip()]
+
 _cloud_model_cooldown_until = {}  # "label/model" -> epoch seconds; see _try_cloud_provider
 
 # Minimum max_tokens for local LM Studio calls, and the HTTP timeout that budget needs -
@@ -1505,8 +1515,8 @@ def _try_cloud_provider(messages, endpoint, api_key, models, temperature, max_to
 
 def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, max_tokens=500, timeout_local=120, timeout_groq=60):
     """Try Groq first (free-tier cloud inference, no local contention), rotating through
-    GROQ_MODELS in order until one succeeds, falling back to the local LM Studio server
-    only once every Groq model has failed - missing GROQ_API_KEY, network error, rate
+    GROQ_MODELS in order until one succeeds, then Gemini (GEMINI_MODELS), falling back to
+    the local LM Studio server only once every cloud model has failed - missing key, network error, rate
     limit, bad response, anything. Each attempt is a single shot with no retry loop of its
     own: a failure there just means "not available right now", and moving on (to the next
     model, then to local - which already retries/waits its turn, see _post_llm_with_retry)
@@ -1523,6 +1533,12 @@ def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, 
     groq_api_key = os.environ.get("PRIYA_GROQ_API_KEY") or os.environ.get("GROQ_API_KEY")
     if groq_api_key:
         result = _try_cloud_provider(messages, GROQ_ENDPOINT, groq_api_key, GROQ_MODELS, temperature, max_tokens, timeout_groq, "groq")
+        if result:
+            return result
+
+    gemini_api_key = os.environ.get("PRIYA_GEMINI_API_KEY")
+    if gemini_api_key:
+        result = _try_cloud_provider(messages, GEMINI_ENDPOINT, gemini_api_key, GEMINI_MODELS, temperature, max_tokens, timeout_groq, "gemini")
         if result:
             return result
 
