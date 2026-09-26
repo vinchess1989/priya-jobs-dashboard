@@ -1,0 +1,39 @@
+# Trial only: checks which scrape targets return job links from a GitHub-hosted runner.
+# Lives on the actions-probe branch and never commits, pushes, calls an LLM or writes
+# Firestore - the production scraper on the home PC is unaffected.
+name: Scrape probe (trial)
+
+on:
+  push:
+    branches: [actions-probe]
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright requests python-dotenv beautifulsoup4 filelock
+          python -m playwright install --with-deps chromium
+
+      - name: Probe all targets
+        env:
+          TZ: Europe/Helsinki
+          PYTHONIOENCODING: utf-8
+        run: python -u actions_probe.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: probe-results
+          path: probe_out/
