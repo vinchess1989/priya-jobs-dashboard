@@ -151,11 +151,24 @@ projects). `priya_jobs` has its own:
 ## Shared with manju_jobs/vineeth_jobs (deliberate, independent decisions)
 
 - **`GROQ_API_KEY`**: same key as the other two scrapers (a Windows User env var, machine-wide).
-  This splits an already-tight free-tier daily quota three ways — accepted knowingly. The
-  existing `_call_llm_with_fallback`/`_try_cloud_provider` per-model cooldown tracking (see
-  `manju_jobs/memory.md`) already degrades gracefully to local LLM when Groq's quota is
-  exhausted, so this isn't a functional blocker, just something to be aware of if reviews seem
-  slow.
+  This splits an already-tight free-tier daily quota three ways. **Since 2026-09-26** the scraper
+  prefers `PRIYA_GROQ_API_KEY` from this repo's `.env` (gitignored; created with an empty value)
+  — a key from a *separate Groq account* gives priya_jobs its own quota. It must be a different
+  variable name: `load_dotenv()` never overrides the existing `GROQ_API_KEY` user env var. Empty =
+  falls back to the shared key. Why it matters (measured 2026-09-25): failed Groq calls cost ~0.4s
+  (429s return instantly), while priya's local calls queue behind manju/vineeth — 8,009 local vs
+  1,139 Groq verdicts in the log. So Groq-first is right; more Groq quota is the lever, not
+  local-first.
+- **Local calls use `max_tokens=4096` up front** (`LOCAL_LLM_MIN_MAX_TOKENS`, 2026-09-26). gemma-4
+  (reasoning) exhausted the 500-token budget on nearly every job, which cost a wasted first pass
+  plus a 4096 retry each time (578 retries in the log). HTTP timeout for that budget is
+  `LOCAL_LLM_BIG_BUDGET_TIMEOUT` = 900s: LM Studio server log (`~\.lmstudio\server-logs\`) showed
+  gemma-4 generating at only ~6.5 tok/s (prompt processing ~190 tok/s, ~7.3k-token prompts ≈ 40s),
+  so 4096 tokens ≈ 670s — the old 480s turned long reasoning into ReadTimeouts. The ~6.5 tok/s
+  generation speed is the real bottleneck for all three dashboards.
+- **Restarting:** `Stop-ScheduledTask PriyaJobsLocalLLMOrchestrator` kills the orchestrator but
+  NOT the child `scraper.py` — kill that PID too, or the new scraper refuses to start (single-
+  instance lock) and the old code keeps running.
 - **Local LLM priority chain**: `OpenClaw > manju_jobs > vineeth_jobs > priya_jobs` (lowest).
   `priya_jobs/scraper.py`'s `_post_llm_with_retry` defers to both `MANJU_PRIORITY_LOCK_FILE` and
   `VINEETH_PRIORITY_LOCK_FILE` (poll-and-release, same pattern `vineeth_jobs` already used for
@@ -444,5 +457,17 @@ drop it from `GROQ_MODELS`.
   `priyabkc99@gmail.com`) still needs Priya to do it herself — not something to automate via
   browser automation with her credentials.
 
+## Re-Review Button Removal & Request Neutralization (2026-09-26)
+
+- **Inadvertent Click Ignored**: The user accidentally clicked the dashboard's "Re-Review" button. `shared_state/re_review_request` in Firestore was immediately patched from `status: "requested"` to `status: "idle"` before the scraper's `poll_re_review_request()` picked it up, preventing an unintended batch re-evaluation loop of all jobs.
+- **Button Removal from Dashboard**:
+  - Removed `<button id="re-review-btn">` and its parent container from [firebase_app/index.html](file:///c:/Users/vinee/priya_jobs/firebase_app/index.html).
+  - Cleaned up `#re-review-btn` CSS rules, mobile responsive styling, and `:has(> #re-review-btn)` layout queries.
+  - Removed `triggerReReview()` and the real-time `onSnapshot` listener on `shared_state/re_review_request`.
+- **Deployment**: Successfully deployed the updated dashboard to Firebase Hosting (`priya-jobs-dashboard.web.app`).
+
+## Keywords & Role Expansion Audit (2026-09-26)
+- Recent additions to [job_requirements.md](file:///c:/Users/vinee/priya_jobs/job_requirements.md) (`Quality Engineer / Quality Manager`, `Requirements Engineer`, `EU MDR / ISO 13485`, `Technical Writer / Documentation Specialist`, `Test Engineer`) yielded **75+ YES matches** and multiple MAYBEs, including high-fit roles in Oulu (NestAI QA Full-Stack, Nordea Backend QA, Nokia Defense Test Engineer) and across Finland (Teleste Quality Manager, Eaton Customer Quality Engineer, ICEYE Supplier Quality Engineer).
+
 ---
-Last updated: 2026-09-17
+Last updated: 2026-09-26

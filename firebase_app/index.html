@@ -448,21 +448,6 @@
             border-color: rgba(255, 255, 255, 0.2);
         }
 
-        #re-review-btn {
-            background: linear-gradient(135deg, #6366f1, #8b5cf6);
-            color: white;
-            border: none;
-            padding: 0.45rem 1rem;
-            border-radius: 2rem;
-            cursor: pointer;
-            font-family: 'Space Grotesk', sans-serif;
-            font-weight: 600;
-            font-size: 0.8rem;
-            transition: opacity 0.2s;
-        }
-        #re-review-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-        #re-review-btn:not(:disabled):hover { opacity: 0.85; }
-        #re-review-status { font-size: 0.78rem; }
 
         .reason-cell {
             max-width: 200px;
@@ -832,7 +817,6 @@
             /* --- Clutter removal: one explicit list. Each item either moved
                to another view (re-shown below) or is desktop-only detail. */
             .logo-area > a[href="review.html"],                  /* Review is a bottom-nav tab */
-            header > div:last-child > div:has(> #re-review-btn), /* -> Status view */
             #auth-container,                                     /* -> Status view / signed-out */
             thead,                                               /* -> Filters view */
             .table-info-bar,                                     /* -> Status + Filters views */
@@ -1078,8 +1062,8 @@
             .ms-btn { min-height: 44px; font-size: 0.85rem; }
             .ms-option { padding: 0.65rem 0.8rem; font-size: 0.9rem; }
 
-            /* --- Status view: the header expands to show connection status,
-               Re-Review and account; the counts render as tiles below it. */
+            /* --- Status view: the header expands to show connection status
+               and account; the counts render as tiles below it. */
             body.mview-status header {
                 position: relative;
                 height: auto;
@@ -1092,12 +1076,10 @@
                 align-items: stretch !important;
             }
             body.mview-status #file-status-text { display: inline; }
-            body.mview-status header > div:last-child > div:has(> #re-review-btn),
             body.mview-status #auth-container {
                 display: flex !important;
             }
             body.mview-status .file-status-indicator,
-            body.mview-status header > div:last-child > div:has(> #re-review-btn),
             body.mview-status #auth-container {
                 justify-content: space-between;
                 min-height: 48px;
@@ -1106,7 +1088,7 @@
             }
             body.mview-status .file-status-indicator { justify-content: flex-start; cursor: default; }
             #user-email { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-            #re-review-btn, #login-btn, #logout-btn { min-height: 40px; flex-shrink: 0; }
+            #login-btn, #logout-btn { min-height: 40px; flex-shrink: 0; }
 
             body.mview-status .table-info-bar {
                 display: grid !important;
@@ -1305,13 +1287,6 @@
                 <div id="file-status-dot" class="status-dot"></div>
                 <span id="file-status-text">Connecting...</span>
             </div>
-            <!-- Re-Review Trigger -->
-            <div style="display: flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 2rem; padding: 0.25rem 1rem 0.25rem 0.25rem;">
-                <button id="re-review-btn" onclick="triggerReReview()" title="Re-review all yes/maybe/pending jobs against current requirements">
-                    <i class="fas fa-sync-alt"></i> Re-Review
-                </button>
-                <span id="re-review-status" style="color: var(--text-secondary);"></span>
-            </div>
             <!-- Auth Container -->
             <div id="auth-container" style="display: flex; gap: 1rem; align-items: center; background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-color); border-radius: 2rem; padding: 0.25rem 0.25rem 0.25rem 1.25rem;">
                 <span id="user-email" style="font-size: 0.875rem; color: var(--text-secondary); display: none;"></span>
@@ -1472,46 +1447,6 @@
                         if (allJobs.length > 0) buildTable();
                     });
 
-                    // Live status for Re-Review button
-                    let reReviewStaleTimer = null;
-                    db.collection('shared_state').doc('re_review_request').onSnapshot(doc => {
-                        const btn = document.getElementById('re-review-btn');
-                        const statusEl = document.getElementById('re-review-status');
-                        if (!btn || !statusEl) return;
-                        if (reReviewStaleTimer) { clearTimeout(reReviewStaleTimer); reReviewStaleTimer = null; }
-                        if (!doc.exists) {
-                            btn.disabled = false;
-                            statusEl.textContent = '';
-                            return;
-                        }
-                        const s = doc.data().status;
-                        if (s === 'requested') {
-                            btn.disabled = true;
-                            statusEl.style.color = '#f59e0b';
-                            statusEl.textContent = 'Queued…';
-                            reReviewStaleTimer = setTimeout(() => {
-                                btn.disabled = false;
-                                statusEl.style.color = '#ef4444';
-                                statusEl.textContent = 'Timed out — try again';
-                            }, 10 * 60 * 1000);
-                        } else if (s === 'in_progress') {
-                            btn.disabled = true;
-                            statusEl.style.color = '#60a5fa';
-                            statusEl.textContent = 'Reviewing…';
-                            reReviewStaleTimer = setTimeout(() => {
-                                btn.disabled = false;
-                                statusEl.style.color = '#ef4444';
-                                statusEl.textContent = 'Timed out — try again';
-                            }, 30 * 60 * 1000);
-                        } else if (s === 'completed') {
-                            btn.disabled = false;
-                            statusEl.style.color = '#10b981';
-                            statusEl.textContent = 'Done ✓';
-                        } else {
-                            btn.disabled = false;
-                            statusEl.textContent = '';
-                        }
-                    });
                 } else {
                     currentUser = null;
                     loginBtn.style.display = 'block';
@@ -2935,26 +2870,6 @@
         });
         // ── End history trend chart ────────────────────────────────────────────
 
-        async function triggerReReview() {
-            if (typeof db === 'undefined' || db === null) {
-                alert("Firebase not initialized. Please sign in first.");
-                return;
-            }
-            try {
-                document.getElementById('re-review-btn').disabled = true;
-                document.getElementById('re-review-status').textContent = 'Queued…';
-                document.getElementById('re-review-status').style.color = '#f59e0b';
-                await db.collection('shared_state').doc('re_review_request').set({
-                    status: 'requested',
-                    requestedAt: firebase.firestore.FieldValue.serverTimestamp()
-                });
-            } catch (e) {
-                console.error(e);
-                alert("Failed to trigger re-review: " + e.message);
-                document.getElementById('re-review-btn').disabled = false;
-                document.getElementById('re-review-status').textContent = '';
-            }
-        }
 
         async function autoMarkUserReviewDone(url) {
             let currentReview = (sharedJobsState[url] && sharedJobsState[url].user_review) || 'pending';
