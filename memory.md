@@ -6,6 +6,46 @@ job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vin
 [../vineeth_jobs/memory.md](../vineeth_jobs/memory.md) for the shared infrastructure this project
 plugs into.
 
+## Dashboard: "Added" column, days-ago filter & clickable Today card (2026-09-27)
+
+- **"Added" column added to table:**
+  - Placed at column index 7 (between "Posted" and "Deadline").
+  - Formatted using `formatAddedDate(dateStr)` using local date calculation (`localDateStr(d)`) to avoid timezone rollbacks in Finland (UTC+3): displays "Today", "Yesterday", or "DD Mon YYYY", with full ISO string & time in tooltip.
+  - Sorting (`sortTable(7)`): parses timestamp chronologically (supports ISO `added_at` strings), placing `'N/A'` or empty dates at the bottom.
+  - Mobile card view: updated mobile CSS grid template (`"posted added deadline"` in one row) with `::before` pseudo-element `"Added"`.
+- **Days-ago filter for "Added" column:**
+  - Input `#added-days-filter` with quick chip buttons: `Today` (0d), `3d`, `7d`, `14d`, `30d`.
+  - Filter logic in `filterTable()` checks `diffDays = Math.round((todayUtcMs - addedMs) / DAY_MS)` such that `diffDays >= 0 && diffDays <= addedLimit`. Entering `7` filters jobs added in the last 7 days; `0` matches jobs added today.
+  - Persisted in localStorage (`addedLimit`).
+- **Interactive Today Card ("New matching in Finland today"):**
+  - Added click handler `window.filterTodayFinlandJobs('all')` on the stat card.
+  - Automatically resets conflicting column filters, sets `#added-days-filter` to `0`, `#location-text-filter` to `Finland`, checks `yes` and `maybe` in the Matches filter, re-filters the table, and smoothly scrolls to `#jobs-table`.
+  - Location filtering enhanced so when `locationNeedle` is `finland` or `suomi`, it also matches any job flagged `isFinlandJob` (even if the raw text is e.g. "Helsinki Metropolitan Area" or "Espoo").
+
+## Trial: running the scraper off this PC via GitHub Actions (2026-09-27)
+
+Goal: stop depending on this PC / LM Studio (Groq + Gemini now work). Firebase itself can't
+host it (Functions: Blaze plan + 9–60 min limit + heavy Chromium); GitHub Actions is free and
+unlimited for this public repo. First step was a **read-only probe** on branch `actions-probe`
+(never merged to `main`): `actions_probe.py` reuses `scraper.generate_targets()` + parsers, and
+writes only `probe_out/`, which is uploaded as an artifact; `.github/workflows/scrape-probe.yml` runs on push to
+that branch / manual dispatch. No commits, LLM or Firestore — live scraper unaffected. Made in a
+separate git worktree so the live scraper's working copy on `main` is never switched. Pushing
+the workflow file worked despite `gh auth status` showing only the `repo` scope.
+Blockers still open before a real cloud run: `review_pending_jobs` bails if `LOCAL_LLM_ENDPOINT`
+is unset (needs a cloud-only mode); main loop never exits (needs a one-cycle mode for the 6h job
+limit); `orchestrator.py`/`setup_windows_scheduler.bat` hardcode `C:\Users\vinee\priya_jobs`;
+only one machine may run the scraper at a time (push uses `-X theirs` → last writer wins).
+Home-PC baseline per target: `Found N` lines in `logs/scraper_*.log`.
+**Probe result (run 36276109211, 169 targets, ~40 min):** LinkedIn (all 4 families) works fully
+from Actions — 90 targets compared, Actions found at least as many links as home in every
+family. Työmarkkinatori and Work in Finland work.
+**Duunitori and Jobly are blocked** by a Cloudflare "Just a moment..." challenge (work at home) —
+~28 of ~290 lifetime "yes" jobs came from them. Indeed returns 403 + Cloudflare challenge from
+Actions, **but is mostly blocked at home too**: nearly every Indeed target logs exactly
+"Found 3" = the challenge page's links, not jobs (only occasional real pages). Kuntarekry 0
+both places (known, see below); MeetFrank times out both places.
+
 ## Requirements Engineer / Quality Engineer / MDR / ISO 13485 keywords added (2026-09-25)
 
 `_KEYWORD_TERMS` in `scraper.py` now also includes `"Requirements Engineer"`, `"Quality
@@ -159,6 +199,18 @@ projects). `priya_jobs` has its own:
   (429s return instantly), while priya's local calls queue behind manju/vineeth — 8,009 local vs
   1,139 Groq verdicts in the log. So Groq-first is right; more Groq quota is the lever, not
   local-first.
+- **Gemini as second cloud provider (2026-09-27):** order is Groq → Gemini → local.
+  `PRIYA_GEMINI_API_KEY` in `.env`, `GEMINI_MODELS` default `gemini-3.1-flash-lite,gemini-3.5-flash-lite`
+  via Google's OpenAI-compatible endpoint (reuses `_try_cloud_provider`). `gemini-2.5-flash-lite` is
+  closed to new accounts (404). Validation on 40 jobs: 3.1-flash-lite 32/40 exact (37/40 yes≈maybe),
+  all rejections right, slightly strict on borderline; 3.5-flash-lite 28/40. Live result: 60 of 63
+  verdicts in the first ~7 min came from Gemini (~1.5s each) vs ~3–5 min/job locally. Free tier is
+  capped per model per day (~500 requests each, Google adjusts it), so under backlog it exhausts
+  within hours and falls through to local; paid tier ≈ $0.25/$1.50 per 1M tokens. Free-tier prompts
+  may be used by Google for training (prompt includes Priya's profile).
+- **PRIYA_GROQ_API_KEY turned out to be in the SAME Groq organization** as the shared key (daily
+  request counter 999→998→997→996 alternated across both keys), so it adds no quota. A second key
+  only helps if created under a different Groq account.
 - **Local calls use `max_tokens=4096` up front** (`LOCAL_LLM_MIN_MAX_TOKENS`, 2026-09-26). gemma-4
   (reasoning) exhausted the 500-token budget on nearly every job, which cost a wasted first pass
   plus a 4096 retry each time (578 retries in the log). HTTP timeout for that budget is
@@ -433,6 +485,16 @@ tokens is slow (~1-2 min/job under LM Studio contention); `hermes-3-llama-3.1-8b
 fallback and is ~10x faster if a fast local model is preferred — the LM Studio model is shared by all three
 dashboards, so switching it is the user's call. Groq `qwen/qwen3.6-27b` now returns 404 (model retired) —
 drop it from `GROQ_MODELS`.
+
+Why gemma-4-26b is slow (checked 2026-09-27): its LM Studio load config
+(`~\.lmstudio\.internal\user-concrete-model-default-config\google\gemma-4-26b-a4b-qat.json`) has
+`offloadRatio: 1`, so the 15.6 GB Q4_0 file is forced onto the 12 GB RTX 3060 and spills into Windows shared
+memory (nvidia-smi 11.5/12 GB used, ~4 tok/s measured). The fix to try is LM Studio's "Force Model Expert
+Weights onto CPU" (MoE, ~4B active). Separately, the custom chat template defaults `enable_thinking` to false
+and pre-fills an empty thought channel, but the QAT build **still emits `reasoning_content`** (64 reasoning
+tokens for a one-word answer), so thinking can't be disabled; keep the 4096 budget. Candidate replacements
+(not yet downloaded or tested): Granite 4.1 8B (non-thinking, 5.3 GB), Qwen3 14B Q4_K_M (~9 GB, thinking
+toggle), gpt-oss-20b with `reasoning_effort=low` (~12 GB).
 
 ## Open/unresolved
 

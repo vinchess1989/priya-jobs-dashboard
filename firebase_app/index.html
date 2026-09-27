@@ -300,6 +300,7 @@
         .col-location { width: 150px; min-width: 120px; }
         .col-source { width: 100px; min-width: 100px; }
         .col-posted { width: 100px; min-width: 90px; }
+        .col-added { width: 100px; min-width: 90px; }
         .col-deadline { width: 100px; min-width: 90px; }
         .col-sync { width: 110px; min-width: 100px; }
         .col-matches { width: 130px; min-width: 120px; }
@@ -703,6 +704,39 @@
             border-radius: 0.9rem;
             background: var(--color-yes-bg);
             border: 1px solid rgba(16, 185, 129, 0.25);
+            transition: all 0.2s ease;
+        }
+        .today-stat.clickable {
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+        }
+        .today-stat.clickable:hover {
+            transform: translateY(-2px);
+            border-color: rgba(16, 185, 129, 0.6);
+            box-shadow: 0 8px 24px rgba(16, 185, 129, 0.18);
+        }
+        .today-stat.clickable:active {
+            transform: translateY(0);
+        }
+        .today-stat-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: #10b981;
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 999px;
+            padding: 2px 8px;
+            margin-left: 6px;
+            vertical-align: middle;
+            transition: background 0.15s ease;
+        }
+        .today-stat.clickable:hover .today-stat-pill {
+            background: rgba(16, 185, 129, 0.25);
+            border-color: rgba(16, 185, 129, 0.5);
         }
         .today-stat.applied {
             background: rgba(244, 114, 182, 0.1);
@@ -872,8 +906,9 @@
                     "title    title    title"
                     "company  company  jobid"
                     "location location location"
-                    "posted   deadline source"
-                    "matches  applied  review"
+                    "posted   added    deadline"
+                    "source   matches  applied"
+                    "review   review   review"
                     "reason   reason   reason"
                     "ureason  ureason  ureason";
                 gap: 0.45rem 0.6rem;
@@ -911,6 +946,7 @@
             }
             tbody td.col-location { grid-area: location; font-size: 0.78rem; color: var(--text-secondary); }
             tbody td.col-posted { grid-area: posted; }
+            tbody td.col-added { grid-area: added; }
             tbody td.col-deadline { grid-area: deadline; }
             tbody td.col-source { grid-area: source; }
             tbody td.col-matches { grid-area: matches; }
@@ -920,6 +956,7 @@
             tbody td.col-user-reason { grid-area: ureason; }
 
             tbody td.col-posted::before { content: "Posted"; }
+            tbody td.col-added::before { content: "Added"; }
             tbody td.col-deadline::before { content: "Deadline"; }
             tbody td.col-source::before { content: "Source"; }
             tbody td.col-matches::before { content: "Match"; }
@@ -927,6 +964,7 @@
             tbody td.col-user-review::before { content: "Review"; }
             tbody td.col-user-reason::before { content: "Your note"; }
             tbody td.col-posted::before,
+            tbody td.col-added::before,
             tbody td.col-deadline::before,
             tbody td.col-source::before,
             tbody td.col-matches::before,
@@ -1306,9 +1344,12 @@
             <span class="today-card-date" id="today-card-date"></span>
         </div>
         <div class="today-card-stats">
-            <div class="today-stat">
+            <div class="today-stat clickable" id="today-stat-fi" onclick="filterTodayFinlandJobs('all')" onkeydown="if(event.key==='Enter'||event.key===' ') filterTodayFinlandJobs('all')" title="Click to filter matching jobs in Finland added today" role="button" tabindex="0">
                 <div class="today-stat-value" id="today-fi-matches">0</div>
-                <div class="today-stat-label">new matching jobs in Finland</div>
+                <div class="today-stat-label">
+                    new matching jobs in Finland
+                    <span class="today-stat-pill"><i class="fas fa-filter"></i> View list</span>
+                </div>
                 <div class="today-stat-sub" id="today-fi-maybe"></div>
             </div>
             <div class="today-stat applied">
@@ -1416,6 +1457,61 @@
                 new Date().toLocaleDateString([], { weekday: 'long', day: 'numeric', month: 'long' });
             card.style.display = 'block';
         }
+
+        function formatAddedDate(dateStr) {
+            if (!dateStr || dateStr.toLowerCase() === 'n/a' || dateStr.toLowerCase() === 'unknown') return 'N/A';
+            try {
+                const d = new Date(dateStr);
+                if (isNaN(d.getTime())) return dateStr;
+                return localDateStr(d);
+            } catch(e) {
+                return dateStr;
+            }
+        }
+
+        window.filterTodayFinlandJobs = function(matchType) {
+            window.resetAllFilters();
+
+            const addedInput = document.getElementById('added-days-filter');
+            if (addedInput) {
+                addedInput.value = '0';
+            }
+
+            const locInput = document.getElementById('location-text-filter');
+            if (locInput) {
+                locInput.value = 'Finland';
+            }
+
+            const matchesContainer = document.getElementById('filter-col-10');
+            if (matchesContainer) {
+                const cbs = matchesContainer.querySelectorAll('input[type="checkbox"]');
+                cbs.forEach(cb => {
+                    if (matchType === 'yes') {
+                        cb.checked = (cb.value === 'yes');
+                    } else if (matchType === 'maybe') {
+                        cb.checked = (cb.value === 'maybe');
+                    } else {
+                        cb.checked = (cb.value === 'yes' || cb.value === 'maybe');
+                    }
+                });
+            }
+
+            filterTable();
+
+            const container = document.getElementById('jobs-container');
+            if (container) {
+                container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        };
+
+        window.setAddedDaysFilter = function(days, event) {
+            if (event) event.stopPropagation();
+            const input = document.getElementById('added-days-filter');
+            if (input) {
+                input.value = days;
+                filterTable();
+            }
+        };
 
         // Initial Data Fetch on load
         window.addEventListener('DOMContentLoaded', () => {
@@ -1581,6 +1677,7 @@
             const tbody = document.querySelector('table tbody');
             if (!tbody) return;
             const rows = tbody.querySelectorAll('tr');
+            const jobMap = new Map(allJobs.map(j => [j.url, j]));
             _rowCache = Array.from(rows, row => {
                 const tds = row.getElementsByTagName('td');
                 const vals = Array.from(tds, td =>
@@ -1592,7 +1689,19 @@
                     const d = new Date(v);
                     return isNaN(d.getTime()) ? null : d.getTime();
                 };
-                return { el: row, vals, postedMs: parseMs(vals[6]), deadlineMs: parseMs(vals[7]), evalModel: row.getAttribute('data-eval-model') || '', tailorModel: '' };
+                const url = row.getAttribute('data-url');
+                const jobObj = jobMap.get(url) || null;
+                return {
+                    el: row,
+                    vals,
+                    postedMs: parseMs(vals[6]),
+                    addedMs: parseMs(vals[7]),
+                    deadlineMs: parseMs(vals[8]),
+                    evalModel: row.getAttribute('data-eval-model') || '',
+                    tailorModel: '',
+                    job: jobObj,
+                    isFinland: jobObj ? isFinlandJob(jobObj) : FINLAND_LOCATION_RE.test(vals[4] || '')
+                };
             });
         }
 
@@ -1671,14 +1780,15 @@
                         <th class="col-location resizable-th"><div class="resizable-header" onclick="sortTable(4)">Location ↕<div class="active-filters-summary" id="active-filters-4"></div></div></th>
                         <th class="col-source resizable-th"><div class="resizable-header" onclick="sortTable(5)">Source ↕<div class="active-filters-summary" id="active-filters-5"></div></div></th>
                         <th class="col-posted resizable-th"><div class="resizable-header" onclick="sortTable(6)">Posted ↕<div class="active-filters-summary" id="active-filters-6"></div></div></th>
-                        <th class="col-deadline resizable-th"><div class="resizable-header" onclick="sortTable(7)">Deadline ↕<div class="active-filters-summary" id="active-filters-7"></div></div></th>
-                        <th class="col-sync resizable-th"><div class="resizable-header" onclick="sortTable(8)">Sync ↕<div class="active-filters-summary" id="active-filters-8"></div></div></th>
-                        <th class="col-matches resizable-th"><div class="resizable-header" onclick="sortTable(9)">Matches ↕<div class="active-filters-summary" id="active-filters-9"></div></div></th>
-                        <th class="col-reason resizable-th"><div class="resizable-header" onclick="sortTable(10)">AI Reason ↕<div class="active-filters-summary" id="active-filters-10"></div></div></th>
-                        <th class="col-user-reason resizable-th"><div class="resizable-header" onclick="sortTable(11)">User Reason ↕<div class="active-filters-summary" id="active-filters-11"></div></div></th>
-                        <th class="col-applied resizable-th"><div class="resizable-header" onclick="sortTable(12)">Applied ↕<div class="active-filters-summary" id="active-filters-12"></div></div></th>
-                        <th class="col-user-review resizable-th"><div class="resizable-header" onclick="sortTable(13)">User Review ↕<div class="active-filters-summary" id="active-filters-13"></div></div></th>
-                        <th class="col-visited resizable-th"><div class="resizable-header" onclick="sortTable(14)">Visited ↕<div class="active-filters-summary" id="active-filters-14"></div></div></th>
+                        <th class="col-added resizable-th"><div class="resizable-header" onclick="sortTable(7)">Added ↕<div class="active-filters-summary" id="active-filters-7"></div></div></th>
+                        <th class="col-deadline resizable-th"><div class="resizable-header" onclick="sortTable(8)">Deadline ↕<div class="active-filters-summary" id="active-filters-8"></div></div></th>
+                        <th class="col-sync resizable-th"><div class="resizable-header" onclick="sortTable(9)">Sync ↕<div class="active-filters-summary" id="active-filters-9"></div></div></th>
+                        <th class="col-matches resizable-th"><div class="resizable-header" onclick="sortTable(10)">Matches ↕<div class="active-filters-summary" id="active-filters-10"></div></div></th>
+                        <th class="col-reason resizable-th"><div class="resizable-header" onclick="sortTable(11)">AI Reason ↕<div class="active-filters-summary" id="active-filters-11"></div></div></th>
+                        <th class="col-user-reason resizable-th"><div class="resizable-header" onclick="sortTable(12)">User Reason ↕<div class="active-filters-summary" id="active-filters-12"></div></div></th>
+                        <th class="col-applied resizable-th"><div class="resizable-header" onclick="sortTable(13)">Applied ↕<div class="active-filters-summary" id="active-filters-13"></div></div></th>
+                        <th class="col-user-review resizable-th"><div class="resizable-header" onclick="sortTable(14)">User Review ↕<div class="active-filters-summary" id="active-filters-14"></div></div></th>
+                        <th class="col-visited resizable-th"><div class="resizable-header" onclick="sortTable(15)">Visited ↕<div class="active-filters-summary" id="active-filters-15"></div></div></th>
                     </tr>
                     <tr class="filter-row">
                         <th></th>
@@ -1696,6 +1806,7 @@
                         <th><div id="filter-col-12"></div></th>
                         <th><div id="filter-col-13"></div></th>
                         <th><div id="filter-col-14"></div></th>
+                        <th><div id="filter-col-15"></div></th>
                     </tr>
                 </thead>
                 <tbody id="jobs-body"></tbody>
@@ -1799,6 +1910,7 @@
                 tr.setAttribute('data-eval-model', evalModel);
 
                 const postedVal = formatDate(job.posted_date);
+                const addedVal = formatAddedDate(job.added_at);
                 const deadlineVal = formatDate(job.deadline);
                 const sourceVal = job.source || getSourceFromUrl(job.url) || 'Unknown';
                 const syncVal = job.needs_re_review ? 'Queued' : 'Up to Date';
@@ -1820,6 +1932,7 @@
                     <td class="col-location">📍 ${job.location || 'Unknown Location'}</td>
                     <td class="col-source" data-value="${sourceVal}"><span class="source-tag">${sourceVal}</span></td>
                     <td class="col-posted">${postedVal}</td>
+                    <td class="col-added" data-value="${addedVal}" title="${job.added_at ? 'Added: ' + job.added_at : ''}">${addedVal}</td>
                     <td class="col-deadline">${deadlineVal}</td>
                     <td class="col-sync" data-value="${syncVal}"><span style="font-size: 0.85em; color: ${job.needs_re_review ? 'var(--text-secondary)' : 'var(--color-yes)'};"><i class="fas ${job.needs_re_review ? 'fa-hourglass-half' : 'fa-check-circle'}"></i> ${syncVal}</span></td>
                     <td class="col-matches" data-value="${matchVal}">
@@ -1877,8 +1990,10 @@
         window.resetAllFilters = function() {
             document.querySelectorAll('.ms-dropdown input[type="checkbox"]').forEach(cb => cb.checked = false);
             const postedInput = document.getElementById('posted-days-filter');
+            const addedInput = document.getElementById('added-days-filter');
             const deadlineInput = document.getElementById('deadline-days-filter');
             if(postedInput) postedInput.value = '';
+            if(addedInput) addedInput.value = '';
             if(deadlineInput) deadlineInput.value = '';
             const locationTextInput = document.getElementById('location-text-filter');
             if (locationTextInput) locationTextInput.value = '';
@@ -1921,8 +2036,8 @@
         function buildMultiSelectFilters() {
             if (!_rowCache) _buildRowCache();
 
-            // Build the multi-select dropdowns for columns 1 to 14
-            for (let i = 1; i <= 14; i++) {
+            // Build the multi-select dropdowns for columns 1 to 15
+            for (let i = 1; i <= 15; i++) {
                 const uniqueValues = new Set();
                 _rowCache.forEach(({ vals }) => {
                     const val = vals[i];
@@ -1941,6 +2056,21 @@
                         </div>
                     `;
                 } else if (i === 7) {
+                    customDateInput = `
+                        <div style="padding: 0 0 6px 0;">
+                            <div style="display: flex; gap: 4px; margin-bottom: 5px;">
+                                <input type="number" id="added-days-filter" placeholder="Within X days (e.g. 7)..." style="flex: 1; padding: 4px 6px; font-size: 0.75rem; background: rgba(0,0,0,0.3); color: white; border: 1px solid var(--border-color); border-radius: 4px;" onkeyup="filterTable()" onchange="filterTable()" min="0">
+                            </div>
+                            <div style="display: flex; gap: 4px; flex-wrap: wrap;">
+                                <button type="button" onclick="setAddedDaysFilter(0, event)" style="background: rgba(16,185,129,0.18); border: 1px solid rgba(16,185,129,0.4); color: #6ee7b7; font-size: 0.7rem; padding: 2px 7px; border-radius: 4px; cursor: pointer; font-weight: 600;">Today</button>
+                                <button type="button" onclick="setAddedDaysFilter(3, event)" style="background: rgba(255,255,255,0.08); border: 1px solid var(--border-color); color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; cursor: pointer;">3d</button>
+                                <button type="button" onclick="setAddedDaysFilter(7, event)" style="background: rgba(255,255,255,0.08); border: 1px solid var(--border-color); color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; cursor: pointer;">7d</button>
+                                <button type="button" onclick="setAddedDaysFilter(14, event)" style="background: rgba(255,255,255,0.08); border: 1px solid var(--border-color); color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; cursor: pointer;">14d</button>
+                                <button type="button" onclick="setAddedDaysFilter(30, event)" style="background: rgba(255,255,255,0.08); border: 1px solid var(--border-color); color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; cursor: pointer;">30d</button>
+                            </div>
+                        </div>
+                    `;
+                } else if (i === 8) {
                     customDateInput = `
                         <div style="padding: 0 0 4px 0;">
                             <input type="number" id="deadline-days-filter" placeholder="Next X days..." style="width: 100%; padding: 4px; font-size: 0.75rem; background: rgba(0,0,0,0.3); color: white; border: 1px solid var(--border-color); border-radius: 4px;" onkeyup="filterTable()" onchange="filterTable()" min="0">
@@ -1964,7 +2094,7 @@
                     optionsHtml += `<label class="ms-option"><input type="checkbox" value="${val.replace(/"/g, '&quot;')}"> ${val}</label>`;
                 });
                 
-                // Location also gets a free-text "contains" box (e.g. "Remote", "Oulu"),
+                // Location also gets a free-text "contains" box (e.g. "Remote", "Oulu", "Finland"),
                 // since exact-value checkboxes can't express "any location mentioning X".
                 const textFilterHtml = i === 4
                     ? `<input type="text" id="location-text-filter" class="col-text-filter" placeholder="Type to filter…" oninput="filterTable()" autocomplete="off">`
@@ -1992,14 +2122,16 @@
                 if (savedStr) {
                     const saved = JSON.parse(savedStr);
                     const postedInput = document.getElementById('posted-days-filter');
+                    const addedInput = document.getElementById('added-days-filter');
                     const deadlineInput = document.getElementById('deadline-days-filter');
                     if (postedInput && saved.postedLimit !== null && saved.postedLimit !== undefined) postedInput.value = saved.postedLimit;
+                    if (addedInput && saved.addedLimit !== null && saved.addedLimit !== undefined) addedInput.value = saved.addedLimit;
                     if (deadlineInput && saved.deadlineLimit !== null && saved.deadlineLimit !== undefined) deadlineInput.value = saved.deadlineLimit;
                     const locationTextInput = document.getElementById('location-text-filter');
                     if (locationTextInput && saved.locationText) locationTextInput.value = saved.locationText;
                     
                     if (saved.colFilters) {
-                        for (let i = 1; i <= 14; i++) {
+                        for (let i = 1; i <= 15; i++) {
                             const container = document.getElementById(`filter-col-${i}`);
                             if (!container) continue;
                             if (saved.colFilters[i]) {
@@ -2069,6 +2201,12 @@
                 y = y.hasAttribute("data-value") ? y.getAttribute("data-value") : y.textContent.trim();
                 
                 if (n === 0) return sortAsc ? parseInt(x) - parseInt(y) : parseInt(y) - parseInt(x);
+                if (n === 6 || n === 7 || n === 8) {
+                    if (x === 'N/A' && y === 'N/A') return 0;
+                    if (x === 'N/A') return 1;
+                    if (y === 'N/A') return -1;
+                    return sortAsc ? x.localeCompare(y) : y.localeCompare(x);
+                }
                 return sortAsc ? x.localeCompare(y, undefined, {sensitivity: 'base'}) : y.localeCompare(x, undefined, {sensitivity: 'base'});
             });
             
@@ -2081,25 +2219,30 @@
             if (!_rowCache) _buildRowCache();
 
             const postedDaysInput = document.getElementById('posted-days-filter');
+            const addedDaysInput = document.getElementById('added-days-filter');
             const deadlineDaysInput = document.getElementById('deadline-days-filter');
-            const postedLimit = (postedDaysInput && postedDaysInput.value) ? parseInt(postedDaysInput.value) : null;
-            const deadlineLimit = (deadlineDaysInput && deadlineDaysInput.value) ? parseInt(deadlineDaysInput.value) : null;
+            const postedLimit = (postedDaysInput && postedDaysInput.value !== '') ? parseInt(postedDaysInput.value) : null;
+            const addedLimit = (addedDaysInput && addedDaysInput.value !== '') ? parseInt(addedDaysInput.value) : null;
+            const deadlineLimit = (deadlineDaysInput && deadlineDaysInput.value !== '') ? parseInt(deadlineDaysInput.value) : null;
             const locationTextInput = document.getElementById('location-text-filter');
             const locationText = locationTextInput ? locationTextInput.value.trim() : '';
             const locationNeedle = locationText.toLowerCase();
 
             const today = new Date();
-            today.setHours(0,0,0,0);
+            const todayDateStr = localDateStr(today);
+            const todayUtcMs = new Date(todayDateStr).getTime();
+            const DAY_MS = 86400000;
             
             const filters = {};
-            for (let i = 1; i <= 14; i++) {
+            for (let i = 1; i <= 15; i++) {
                 const container = document.getElementById(`filter-col-${i}`);
                 if (!container) continue;
                 const checked = Array.from(container.querySelectorAll('input[type="checkbox"]:checked')).map(cb => cb.value);
 
                 let summaryTexts = [...checked];
-                if (i === 6 && postedLimit !== null && !isNaN(postedLimit)) summaryTexts.unshift(`< ${postedLimit}d`);
-                if (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) summaryTexts.unshift(`< ${deadlineLimit}d`);
+                if (i === 6 && postedLimit !== null && !isNaN(postedLimit)) summaryTexts.unshift(postedLimit === 0 ? 'Today' : `< ${postedLimit}d`);
+                if (i === 7 && addedLimit !== null && !isNaN(addedLimit)) summaryTexts.unshift(addedLimit === 0 ? 'Today' : `< ${addedLimit}d`);
+                if (i === 8 && deadlineLimit !== null && !isNaN(deadlineLimit)) summaryTexts.unshift(deadlineLimit === 0 ? 'Today' : `< ${deadlineLimit}d`);
                 if (i === 4 && locationText) summaryTexts.unshift(`"${locationText}"`);
 
                 const summaryDiv = document.getElementById(`active-filters-${i}`);
@@ -2114,7 +2257,7 @@
                     }
                 }
                 
-                if (checked.length > 0 || (i === 6 && postedLimit !== null && !isNaN(postedLimit)) || (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) || (i === 4 && locationText)) {
+                if (checked.length > 0 || (i === 6 && postedLimit !== null && !isNaN(postedLimit)) || (i === 7 && addedLimit !== null && !isNaN(addedLimit)) || (i === 8 && deadlineLimit !== null && !isNaN(deadlineLimit)) || (i === 4 && locationText)) {
                     filters[i] = checked;
                 }
             }
@@ -2124,6 +2267,7 @@
                 const projectId = typeof firebaseConfig !== 'undefined' ? firebaseConfig.projectId : 'default';
                 const filtersToSave = {
                     postedLimit: (!isNaN(postedLimit) ? postedLimit : null),
+                    addedLimit: (!isNaN(addedLimit) ? addedLimit : null),
                     deadlineLimit: (!isNaN(deadlineLimit) ? deadlineLimit : null),
                     colFilters: filters,
                     locationText: locationText,
@@ -2142,36 +2286,50 @@
             let reviewedCount = 0;
             let totalReviewedCount = 0;
             filteredRows = [];
-            const todayMs = today.getTime();
-            const DAY_MS = 86400000;
 
             for (let r = 0; r < _rowCache.length; r++) {
                 const entry = _rowCache[r];
-                const { vals, postedMs, deadlineMs } = entry;
+                const { vals, postedMs, addedMs, deadlineMs, isFinland } = entry;
                 let show = true;
 
-                for (let i = 1; i <= 14; i++) {
+                for (let i = 1; i <= 15; i++) {
                     if (!filters[i]) continue;
                     const val = vals[i] || '';
                     let passesCheckbox = filters[i].length === 0 || filters[i].includes(val);
 
                     if (i === 6 && postedLimit !== null && !isNaN(postedLimit)) {
-                        const passesDate = postedMs !== null &&
-                            Math.ceil((todayMs - postedMs) / DAY_MS) >= 0 &&
-                            Math.ceil((todayMs - postedMs) / DAY_MS) <= postedLimit;
+                        let passesDate = false;
+                        if (postedMs !== null) {
+                            const diffDays = Math.round((todayUtcMs - postedMs) / DAY_MS);
+                            passesDate = diffDays >= 0 && diffDays <= postedLimit;
+                        }
                         passesCheckbox = filters[i].length === 0 ? passesDate : (passesCheckbox || passesDate);
                     }
 
-                    if (i === 7 && deadlineLimit !== null && !isNaN(deadlineLimit)) {
-                        const passesDate = deadlineMs !== null &&
-                            Math.ceil((deadlineMs - todayMs) / DAY_MS) >= 0 &&
-                            Math.ceil((deadlineMs - todayMs) / DAY_MS) <= deadlineLimit;
+                    if (i === 7 && addedLimit !== null && !isNaN(addedLimit)) {
+                        let passesDate = false;
+                        if (addedMs !== null) {
+                            const diffDays = Math.round((todayUtcMs - addedMs) / DAY_MS);
+                            passesDate = diffDays >= 0 && diffDays <= addedLimit;
+                        }
+                        passesCheckbox = filters[i].length === 0 ? passesDate : (passesCheckbox || passesDate);
+                    }
+
+                    if (i === 8 && deadlineLimit !== null && !isNaN(deadlineLimit)) {
+                        let passesDate = false;
+                        if (deadlineMs !== null) {
+                            const diffDays = Math.round((deadlineMs - todayUtcMs) / DAY_MS);
+                            passesDate = diffDays >= 0 && diffDays <= deadlineLimit;
+                        }
                         passesCheckbox = filters[i].length === 0 ? passesDate : (passesCheckbox || passesDate);
                     }
 
                     // Location text narrows further (AND) on top of any ticked checkboxes.
-                    if (i === 4 && locationNeedle && !val.toLowerCase().includes(locationNeedle)) {
-                        passesCheckbox = false;
+                    if (i === 4 && locationNeedle) {
+                        const matchesFi = (locationNeedle === 'finland' || locationNeedle === 'suomi') && isFinland;
+                        if (!val.toLowerCase().includes(locationNeedle) && !matchesFi) {
+                            passesCheckbox = false;
+                        }
                     }
 
                     if (!passesCheckbox) { show = false; break; }
@@ -2186,14 +2344,14 @@
                 // Derived per-row values are computed unconditionally (not just for visible
                 // rows) so the header stats below can show true totals unaffected by column
                 // filters, alongside the filtered subset counts for the "(N filtered)" note.
-                const mVal = vals[9];
+                const mVal = vals[10];
                 if (mVal === 'yes') totalCounts.yes++;
                 else if (mVal === 'maybe') totalCounts.maybe++;
                 else if (mVal === 'no') totalCounts.no++;
                 else if (mVal === 'pending') totalCounts.pending++;
-                if (vals[8] === 'Queued') totalCounts.rereview++;
-                if (vals[12] === 'yes') totalAppliedCount++;
-                if (vals[13] === 'done') totalReviewedCount++;
+                if (vals[9] === 'Queued') totalCounts.rereview++;
+                if (vals[13] === 'yes') totalAppliedCount++;
+                if (vals[14] === 'done') totalReviewedCount++;
 
                 if (show) {
                     filteredRows.push(entry.el);
@@ -2202,9 +2360,9 @@
                     else if (mVal === 'maybe') counts.maybe++;
                     else if (mVal === 'no') counts.no++;
                     else if (mVal === 'pending') counts.pending++;
-                    if (vals[8] === 'Queued') counts.rereview++;
-                    if (vals[12] === 'yes') appliedCount++;
-                    if (vals[13] === 'done') reviewedCount++;
+                    if (vals[9] === 'Queued') counts.rereview++;
+                    if (vals[13] === 'yes') appliedCount++;
+                    if (vals[14] === 'done') reviewedCount++;
                 }
             }
 
@@ -2882,7 +3040,7 @@
             let selectElem = null;
             for (let row of rows) {
                 if (row.getAttribute('data-url') === url) {
-                    const td = row.getElementsByTagName("td")[13];
+                    const td = row.querySelector('.col-user-review');
                     if (td) {
                         selectElem = td.querySelector('select');
                     }
