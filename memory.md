@@ -1,5 +1,21 @@
 # Project Memory — priya_jobs
 
+## `/fill-form dead<10` batch, venv missing `anthropic`, Wartsila SuccessFactors gate (2026-09-28)
+
+- Tailored and pushed resumes/cover letters for 7 jobs selected from a `dead<10` discovery
+  checklist: Teleste Quality Manager (`5ea0256a`), Nordea Application Reliability Lead (`941acc82`),
+  Nordea Lead Project Leader (`6372ef14`), If Insurance CRM & MarTech Platform Specialist
+  (`301c5827`), Tana Oy Digital Solutions Engineer (`f89f108c`), Fortum Digital Development
+  Specialist (`48d3c245`), Wartsila Maintenance Processes and Tools Expert (`82f669f2`).
+- **`scrape_application.py` needs the `anthropic` package**, which was not in the original venv
+  setup list (playwright, requests, python-dotenv, beautifulsoup4, filelock, pytest) — installed it
+  ad hoc with `pip install anthropic`. Add it to the standard install list for future fresh setups.
+- **Wartsila's careers portal is a genuine account-creation gate, not a scraping bug** — see the
+  new `careers.wartsila.com` entry in `site_patterns.json`: clicking the job page's "Apply now"
+  link always lands on `career2.successfactors.eu`'s bare sign-in/create-account page with the
+  specific job context lost; there is no pre-login job-specific application form to scrape. Same
+  category of blocker as LinkedIn needing Priya's own sign-in — flagged to her, not worked around.
+
 Durable, cross-session knowledge specific to this project. Set up 2026-09-06 as a third
 job-finder automation alongside `manju_jobs` (Finnish generalist roles) and `vineeth_jobs`
 (global VLSI/semiconductor roles) — see [../manju_jobs/memory.md](../manju_jobs/memory.md) and
