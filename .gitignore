@@ -39,3 +39,7 @@ logs/
 
 # Personal resume files — never publish to a public repo
 originial resumes/
+
+# Firebase service-account keys (live in ~/.secrets, never in the repo)
+*firebase-adminsdk*.json
+*-sa.json

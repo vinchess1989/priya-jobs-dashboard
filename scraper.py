@@ -14,6 +14,8 @@ from urllib.parse import urljoin, quote
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import requests
+
+import firestore_auth
 from dotenv import load_dotenv
 from filelock import FileLock, Timeout
 
@@ -34,14 +36,16 @@ SCRAPER_LOCK_FILE = os.path.join(BASE_DIR, "scraper.lock")
 # instead of both hitting the single-threaded (parallel=1) local LLM server at once.
 PIPELINE_LOCK_FILE = os.path.join(os.environ.get("USERPROFILE", ""), ".claude", "scraper_pipeline.lock")
 # Priority chain for the shared local LLM server: OpenClaw > manju_jobs > vineeth_jobs >
-# priya_jobs (lowest). manju_jobs claims MANJU_PRIORITY_LOCK_FILE and vineeth_jobs claims
-# VINEETH_PRIORITY_LOCK_FILE before requesting PIPELINE_LOCK_FILE (see their own scraper.py
-# files); priya_jobs only ever defers to both (see _post_llm_with_retry below) since nothing
-# is lower priority than it - it has no lock of its own to claim. Real OS-level file locks,
-# so if a higher-priority process dies while holding one the OS releases it automatically -
-# no stale-flag cleanup needed here.
+# priya_jobs > priya_global_jobs (lowest). manju_jobs claims MANJU_PRIORITY_LOCK_FILE and
+# vineeth_jobs claims VINEETH_PRIORITY_LOCK_FILE before requesting PIPELINE_LOCK_FILE (see
+# their own scraper.py files); priya_jobs defers to both (see _post_llm_with_retry below) and
+# then claims PRIYA_PRIORITY_LOCK_FILE for its own turn, so priya_global_jobs (the sibling
+# board for jobs outside Finland) can defer to it. Real OS-level file locks, so if a
+# higher-priority process dies while holding one the OS releases it automatically - no
+# stale-flag cleanup needed here.
 MANJU_PRIORITY_LOCK_FILE = os.path.join(os.environ.get("USERPROFILE", ""), ".claude", "scraper_manju_priority.lock")
 VINEETH_PRIORITY_LOCK_FILE = os.path.join(os.environ.get("USERPROFILE", ""), ".claude", "scraper_vineeth_priority.lock")
+PRIYA_PRIORITY_LOCK_FILE = os.path.join(os.environ.get("USERPROFILE", ""), ".claude", "scraper_priya_priority.lock")
 
 
 class TeeLogger:
@@ -1375,8 +1379,8 @@ def _post_llm_with_retry(url, headers, payload, timeout=120, retries=2, backoff_
     them claim a lock file. We then also back off for manju_jobs and vineeth_jobs
     specifically (both have priority over us): before competing for the pipeline
     lock, this backs off whenever either is waiting for or holding its own
-    priority lock. priya_jobs claims no priority lock of its own - nothing is
-    lower priority than it.
+    priority lock. priya_jobs then claims PRIYA_PRIORITY_LOCK_FILE for its own
+    turn, so priya_global_jobs (lowest) defers to it the same way.
 
     Only the HTTP call itself is serialized against the sibling dashboards'
     scrapers (via PIPELINE_LOCK_FILE) - the LLM is only in use for the brief span
@@ -1401,7 +1405,7 @@ def _post_llm_with_retry(url, headers, payload, timeout=120, retries=2, backoff_
                 if stop_event.is_set():
                     raise requests.exceptions.RequestException("Stopping - stop_event set while waiting for priority lock")
 
-            with FileLock(PIPELINE_LOCK_FILE):
+            with FileLock(PRIYA_PRIORITY_LOCK_FILE), FileLock(PIPELINE_LOCK_FILE):
                 response = requests.post(url, headers=headers, json=payload, timeout=timeout)
                 response.raise_for_status()
             return response
@@ -1419,11 +1423,8 @@ GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 # rate-limit quota, so rotating through them on failure meaningfully increases total
 # throughput before giving up and falling back to local - a 429 on one model doesn't mean
 # the others are limited too. Overridable via GROQ_MODELS (comma-separated). qwen/qwen3.6-27b
-# leaks its <think>...</think> reasoning directly into `content` instead of a separate field
-# like the gpt-oss models do - validated 2026-08-21 that extract_json_from_text's
-# find-first-'{'/last-'}' approach tolerates this fine, but a long enough thinking chain
-# could still eat the whole max_tokens budget before the actual JSON appears, truncating the
-# response; kept last in the list for that reason. openai/gpt-oss-safeguard-20b (moderation-
+# was removed 2026-09-28: Groq retired it and every call returned 404, wasting one request
+# per job before falling through. openai/gpt-oss-safeguard-20b (moderation-
 # tuned) validated 2026-08-21 against a real job-matching prompt - clean content/reasoning
 # separation like the other gpt-oss models, correct judgment, no unwanted refusals on normal
 # job-posting text. Deliberately still excludes: groq/compound(-mini) (agentic meta-models
@@ -1431,7 +1432,7 @@ GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 # specialized, poor fit for English/Finnish text), and meta-llama/llama-prompt-guard-2-*
 # (confirmed 2026-08-21 via direct API test to return a raw injection-likelihood probability
 # score instead of text - not a chat model at all, would fail every single call).
-GROQ_MODELS = [m.strip() for m in os.environ.get("GROQ_MODELS", "openai/gpt-oss-120b,openai/gpt-oss-20b,openai/gpt-oss-safeguard-20b,qwen/qwen3.6-27b").split(",") if m.strip()]
+GROQ_MODELS = [m.strip() for m in os.environ.get("GROQ_MODELS", "openai/gpt-oss-120b,openai/gpt-oss-20b,openai/gpt-oss-safeguard-20b").split(",") if m.strip()]
 
 # Google Gemini via its OpenAI-compatible endpoint - second cloud provider, tried after
 # Groq and before local (key: PRIYA_GEMINI_API_KEY in this repo's .env; unset = skipped).
@@ -1922,7 +1923,7 @@ def poll_firebase_feedback():
     """Polls the Firebase Firestore REST API for user feedback, updates requirements, and marks them read."""
     url = "https://firestore.googleapis.com/v1/projects/priya-jobs-dashboard/databases/(default)/documents/user_feedback"
     try:
-        response = requests.get(url, timeout=10)
+        response = firestore_auth.session().get(url, timeout=10)
         if response.status_code != 200:
             return  # Database not created, or empty, or permission denied
 
@@ -1962,7 +1963,7 @@ def poll_firebase_feedback():
                 if doc_name:
                     update_url = f"https://firestore.googleapis.com/v1/{doc_name}?updateMask.fieldPaths=status"
                     payload = {"fields": {"status": {"stringValue": "read"}}}
-                    requests.patch(update_url, json=payload, timeout=10)
+                    firestore_auth.session().patch(update_url, json=payload, timeout=10)
                 continue
 
 
@@ -1978,7 +1979,7 @@ def poll_firebase_feedback():
                 if doc_name:
                     update_url = f"https://firestore.googleapis.com/v1/{doc_name}?updateMask.fieldPaths=status"
                     payload = {"fields": {"status": {"stringValue": "read"}}}
-                    requests.patch(update_url, json=payload, timeout=10)
+                    firestore_auth.session().patch(update_url, json=payload, timeout=10)
                 continue
 
             reason = fields.get("reason", {}).get("stringValue", "")
@@ -2000,7 +2001,7 @@ def poll_firebase_feedback():
             if doc_name:
                 update_url = f"https://firestore.googleapis.com/v1/{doc_name}?updateMask.fieldPaths=status"
                 payload = {"fields": {"status": {"stringValue": "read"}}}
-                requests.patch(update_url, json=payload, timeout=10)
+                firestore_auth.session().patch(update_url, json=payload, timeout=10)
 
         if new_positive_rules or new_negative_rules:
             with open(REQ_FILE, 'a', encoding='utf-8') as f:
@@ -2074,7 +2075,7 @@ def poll_firebase_feedback():
                 proj_id = "priya-jobs-dashboard"
                 # wait, let's just use the url from the top of the function
                 wipe_url = url.replace('user_feedback', 'shared_state/job_status')
-                requests.patch(wipe_url, json={"fields": {}}, timeout=10)
+                firestore_auth.session().patch(wipe_url, json={"fields": {}}, timeout=10)
                 print("INFO: Cleared shared_state temporary queue.")
             except Exception as e:
                 print(f"Error clearing shared_state: {e}")
@@ -2165,7 +2166,7 @@ def poll_re_review_request():
     """Check Firebase for a user-triggered re-review request and run it synchronously."""
     doc_url = f"{FIRESTORE_BASE}/shared_state/re_review_request"
     try:
-        response = requests.get(doc_url, timeout=10)
+        response = firestore_auth.session().get(doc_url, timeout=10)
         if response.status_code == 404:
             return  # document not created yet — no re-review requested
         if response.status_code != 200:
@@ -2179,7 +2180,7 @@ def poll_re_review_request():
 
         print("INFO: " + "=" * 60)
         print("INFO: RE-REVIEW TRIGGERED BY USER (dashboard button)")
-        requests.patch(
+        firestore_auth.session().patch(
             f"{doc_url}?updateMask.fieldPaths=status",
             json={"fields": {"status": {"stringValue": "in_progress"}}},
             timeout=10
@@ -2222,7 +2223,7 @@ def poll_re_review_request():
             review_pending_jobs(specific_urls={j['url'] for j in batch[:15]})
 
         completed_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        requests.patch(
+        firestore_auth.session().patch(
             f"{doc_url}?updateMask.fieldPaths=status&updateMask.fieldPaths=completedAt",
             json={"fields": {
                 "status": {"stringValue": "completed"},

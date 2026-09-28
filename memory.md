@@ -1,5 +1,20 @@
 # Project Memory — priya_jobs
 
+## Firestore locked down; Python scripts use a service account (2026-09-28)
+
+`firestore.rules` used to leave `shared_state` / `user_feedback` readable and updatable by
+anyone (`if true`) so the unauthenticated Python REST calls could write. Now every collection is
+allow-listed accounts only, and scripts authenticate via **`firestore_auth.py`** (`session()` returns a
+`google.auth` `AuthorizedSession` with the project's service account; SA requests bypass rules via IAM).
+- Key file: `~/.secrets/priya-jobs-dashboard-sa.json` - OUTSIDE the repo (Firebase Console -> Project settings ->
+  Service accounts -> Generate new private key). `.gitignore` blocks `*firebase-adminsdk*.json` / `*-sa.json`.
+- **Any other PC** running scripts or skills that touch Firestore (tailor-resume, fill-form,
+  find-apply-link, mark-job-deleted) needs its own key at that path plus `pip install google-auth`
+  in the venv - otherwise `firestore_auth.session()` raises FileNotFoundError.
+- New Firestore calls must use `firestore_auth.session().get/patch(...)`, never bare `requests` - a bare
+  call now gets 403. Rules deploy: `firebase deploy --only firestore:rules` from `firebase_app/`.
+
+
 ## `/fill-form dead<10` batch, venv missing `anthropic`, Wartsila SuccessFactors gate (2026-09-28)
 
 - Tailored and pushed resumes/cover letters for 7 jobs selected from a `dead<10` discovery
@@ -37,6 +52,44 @@ plugs into.
   - Added click handler `window.filterTodayFinlandJobs('all')` on the stat card.
   - Automatically resets conflicting column filters, sets `#added-days-filter` to `0`, `#location-text-filter` to `Finland`, checks `yes` and `maybe` in the Matches filter, re-filters the table, and smoothly scrolls to `#jobs-table`.
   - Location filtering enhanced so when `locationNeedle` is `finland` or `suomi`, it also matches any job flagged `isFinlandJob` (even if the raw text is e.g. "Helsinki Metropolitan Area" or "Espoo").
+
+## Sibling board `priya_global_jobs` + new PRIYA_PRIORITY_LOCK_FILE (2026-09-27)
+
+Jobs outside Finland live on a **separate board**, not this one: `C:\Users\vinee\priya_global_jobs`
+(GitHub `vinchess1989/priya-global-jobs-dashboard`, Firebase `priya-global-jobs`,
+https://priya-global-jobs.web.app, task `PriyaGlobalJobsLocalLLMOrchestrator`). It uses the
+**local LLM only** and is the lowest priority on it, so this scraper now **claims
+`PRIYA_PRIORITY_LOCK_FILE`** (`~/.claude/scraper_priya_priority.lock`) around its local POST,
+mirroring vineeth_jobs. The chain is OpenClaw > manju > vineeth > priya > priya-global. This board's
+scope (Finland + remote) and `job_requirements.md` are unchanged. The global scraper skips any
+URL (LinkedIn: job ID) already in this repo's `jobs.json`, so this file is read by a sibling.
+Each dashboard header links to the other. The lock change takes effect when this scraper next
+restarts; it was stopped at the time, while another session ran an LLM benchmark.
+Gotcha: `git status` showing "ahead N" here is usually harmless. With `GITHUB_TOKEN` set,
+`update_git()` pushes to a token URL, not to `origin`, so `origin/main` is never updated. Check with
+`git ls-remote origin refs/heads/main`.
+
+## Trial: English-speaking countries (excl. US) site probe (2026-09-27)
+
+User wants scope widened to Tier 1 (UK, IE, CA, AU, NZ) + Tier 2 (SG, IN, ZA, MT, HK), **any
+work model** (on-site/hybrid abroad OK → `job_requirements.md` "not relocating" line must go when
+wired in). Read-only probe (scratchpad script, own target list, 2 keywords, 1 page, home PC):
+- **LinkedIn works in every country** (70–90 relevant jobs/search), except `location=Malta`,
+  which resolved to Ohio. It needs a geoId. LinkedIn started returning **429** after ~60 rapid
+  requests, so adding 10 countries × 12 keywords risks throttling.
+- **Works (real job links):** Reed (~22/page), Totaljobs (~20; CWJobs serves the same Totaljobs
+  listings, so it's a duplicate), CV-Library (~21, 403 on the 2nd query), IrishJobs (~17; Jobs.ie is
+  the same StepStone group with ~4), Job Bank CA (~25), Jora AU (~15), CareerJunction ZA (~26,
+  `-job-NNN.aspx` URLs), PNet ZA (`...-inline.html`). **`parse_generic` rejects the last two**
+  (`.html` skip / no `/job` segment), and admits lots of nav/category noise on Reed/Totaljobs/
+  IrishJobs (`/jobs/<kw>/in-<town>` location facets). Per-site patterns are needed before going live.
+- **Weak:** Guardian Jobs (ignores the keyword, returns academic/charity jobs), Trade Me (irrelevant
+  hospitality results), JobsInMalta (keyword ignored, whole small market; OK as a broad sweep).
+- **Blocked/empty:** every Indeed country (Cloudflare), Seek AU/NZ, JobStreet SG, JobsDB HK
+  (Cloudflare), Naukri + Foundit (Access Denied), Adzuna UK/CA/AU (403/429), CTgoodjobs, KeepMePosted
+  (captcha), Eluta, Careers24, MyCareersFuture (JS-rendered, 0 real links), JobsPlus MT (404).
+- Volume warning: 2 keywords already produced ~2,000 unseen links. The LLM review is the
+  bottleneck, so the backlog will grow a lot.
 
 ## Trial: running the scraper off this PC via GitHub Actions (2026-09-27)
 
@@ -246,6 +299,23 @@ projects). `priya_jobs` has its own:
   `VINEETH_PRIORITY_LOCK_FILE` it claims around its own turn, mirroring exactly how `manju_jobs`
   claims `MANJU_PRIORITY_LOCK_FILE` — previously vineeth_jobs was the lowest tier with nothing to
   signal to, so this lock didn't need to exist until now.
+
+## GitHub "secret detected: Google API Key" alerts are the Firebase web config key (2026-09-28)
+
+GitHub secret scanning flagged `firebase_app/review.html` (apiKey line) in the sibling repo
+`priya-global-jobs-dashboard` (commit aec0dbca). Checked: it's the Firebase **web config** apiKey
+(same value as in `index.html`), which is public by design — it ships to every browser that loads
+the live site, so rotating it achieves nothing. The Gemini/Groq keys are NOT in either repo's
+history or tracked files (`.env` is gitignored). Such alerts can be dismissed as false positives.
+Optional hardening: restrict that key in Google Cloud Console (HTTP referrers = the web.app /
+firebaseapp.com domains; API restrictions = Firebase/Identity Toolkit/Firestore).
+**The real exposure is the Firestore rules below**: `shared_state` and `user_feedback` allow
+`read, update: if true`, so anyone with the (public) project ID + key can read Priya's application
+status/notes and overwrite fields without signing in. Deliberate trade-off so the unauthenticated
+Python REST scripts (`scraper.py`, `job_status_store.py`, `sync_resume_links.py`,
+`upload_resume_links.py`, `scrape_application.py`) can write. Proper fix: give those scripts a
+service-account credential and require auth in the rules — same change needed in manju_jobs,
+vineeth_jobs and priya_global_jobs.
 
 ## Firestore document-creation gotcha (same root cause as documented in manju_jobs/memory.md)
 
@@ -500,17 +570,62 @@ this failure — `Where reason -like "*regex fallback*"` counts affected jobs; `
 tokens is slow (~1-2 min/job under LM Studio contention); `hermes-3-llama-3.1-8b` (non-reasoning) had 0%
 fallback and is ~10x faster if a fast local model is preferred — the LM Studio model is shared by all three
 dashboards, so switching it is the user's call. Groq `qwen/qwen3.6-27b` now returns 404 (model retired) —
-drop it from `GROQ_MODELS`.
+removed from priya's `GROQ_MODELS` default on 2026-09-28; manju/vineeth defaults still list it.
 
 Why gemma-4-26b is slow (checked 2026-09-27): its LM Studio load config
 (`~\.lmstudio\.internal\user-concrete-model-default-config\google\gemma-4-26b-a4b-qat.json`) has
 `offloadRatio: 1`, so the 15.6 GB Q4_0 file is forced onto the 12 GB RTX 3060 and spills into Windows shared
-memory (nvidia-smi 11.5/12 GB used, ~4 tok/s measured). The fix to try is LM Studio's "Force Model Expert
-Weights onto CPU" (MoE, ~4B active). Separately, the custom chat template defaults `enable_thinking` to false
-and pre-fills an empty thought channel, but the QAT build **still emits `reasoning_content`** (64 reasoning
-tokens for a one-word answer), so thinking can't be disabled; keep the 4096 budget. Candidate replacements
-(not yet downloaded or tested): Granite 4.1 8B (non-thinking, 5.3 GB), Qwen3 14B Q4_K_M (~9 GB, thinking
-toggle), gpt-oss-20b with `reasoning_effort=low` (~12 GB).
+memory (nvidia-smi 11.5/12 GB used). **Fixed 2026-09-27:** added `{"key":
+"llm.load.numCpuExpertLayersRatio", "value": 1}` to that file's `load.fields` (LM Studio's "Force Model Expert
+Weights onto CPU"; key found in the app bundle, not exposed by `lms load`). VRAM now ~5 GB and generation
+went 7.5 → 18.5 tok/s (median 104 s/job, was ~174). Original file backed up in that session's scratchpad only.
+The custom chat template defaults `enable_thinking` to false, but the QAT build **still emits
+`reasoning_content`**, and LM Studio also ignores `chat_template_kwargs.enable_thinking=false` for qwen3-14b,
+so for local reasoning models thinking can't be turned off; keep the 4096 budget.
+
+**Local model benchmark (2026-09-27, 30 jobs: 10 yes / 8 maybe / 12 no by cloud verdict, scraper's exact
+prompt, pipeline lock held):**
+
+| model | s/job | exact = gemma ref | close (yes≈maybe) = cloud | cloud yes/maybe → "no" | errors |
+|---|---|---|---|---|---|
+| gemma-4-26b (experts on CPU) | 104 | ref | 18/25 | 6 | **5/30 used all 4096 tokens reasoning, no verdict** |
+| qwen/qwen3-14b | 23 | 18/25 | 21/30 | 9 | 0 |
+| gemma-3-12b-it | 9 | 14/25 | 21/30 | 4 | 0 (2 cloud-"no" → yes) |
+| ibm/granite-4.1-8b | 6 | 17/25 | 19/30 | 5 | 0 (2 cloud-"no" → yes) |
+| openai/gpt-oss-20b (effort low) | 15 | 17/23 | 17/28 | 10 | 0 |
+| hermes-3-llama-3.1-8b | 6 | 15/25 | 14/30 | **15** | 0 |
+| qwen/qwen3.6-35b-a3b (60% experts on CPU, run isolated) | 79 | **23/25** | 20/30 | 8 | 0 |
+
+Hermes rejects 9/10 cloud-"yes" jobs, so the earlier "0% fallback, 10x faster" note above hides that it
+mostly says no. Qwen3-14B is the best fit: 23 s/job, fully on the GPU (8.4 GB), and agreement with the cloud
+verdicts as good as or better than every bigger model. Qwen3.6-35B-A3B (`numCpuExpertLayersRatio` 0.6 in its
+LM Studio config; 11 GB VRAM + ~12 GB RAM, 38.7 tok/s but ~2,280 reasoning tokens/job) almost duplicates
+gemma-4-26b's verdicts without gemma's 17% out-of-budget failures and is 25% faster. It's a drop-in gemma
+replacement, but not more accurate than Qwen3-14B against the cloud verdicts, and it's 3.4x slower.
+
+**Switched 2026-09-28:** the local model is now `qwen/qwen3-14b` (32k context, parallel 1, q8_0 KV cache,
+fully on the GPU) for all scrapers (manju, priya, priya_global; vineeth's task is disabled) and as OpenClaw's
+primary (`openclaw.json` primary `openai/qwen/qwen3-14b`, contextWindow 32768). OpenClaw needs more than
+25k context, so never load the shared model below 32k. The details live in
+`~\.claude\local_llm_models.json`. The retired Groq `qwen/qwen3.6-27b` was dropped from priya's `GROQ_MODELS` the same day.
+**Benchmark gotcha:** each scraper runs `lms ps` at the start of a review batch and keeps requesting that
+model. Swapping models mid-benchmark made a scraper JIT-reload qwen3-14b next to gpt-oss (experts in RAM),
+which used all 32 GB of RAM and hung the LM Studio server until the gpt-oss worker was killed. Don't load two
+big models at once. Reload with `--identifier google/gemma-4-26b-a4b-qat`, or LM Studio names the instance
+`...:2` and a scraper saves that suffix in `checkpoint.json`.
+
+**Who else loads models (found 2026-09-27):** OpenClaw hard-codes gemma-4-26b as its primary model in
+`~\.openclaw\openclaw.json` and calls both `/v1/chat/completions` and `/v1/responses`, so any OpenClaw
+activity JIT-loads gemma next to whatever is loaded. It ignores the pipeline lock. The scrapers fall back to
+`checkpoint.json`'s `last_llm_model` whenever `lms ps` is empty or times out, which happens when the server is
+stalled or right after a reboot. For an isolated model test, stop the `OpenClaw Gateway` task and kill its
+`openclaw\dist\index.js` node process, then restart it afterwards; holding the lock alone is not enough.
+The first qwen3.6-35b-a3b attempt stalled the server and the PC rebooted at 20:02.
+**Scraper tasks don't restart after a reboot:** `ManjuJobsLocalLLMOrchestrator` and
+`PriyaJobsLocalLLMOrchestrator` have only daily triggers (00:00 / 08:00), so after a reboot they stay stopped
+until the next trigger (last result 0xC000013A = killed by the shutdown). OpenClaw has a logon trigger.
+**RAM (32 GB) is the real ceiling:** gemma/qwen3.6 with experts on CPU take 12–14 GB of RAM. Antigravity IDE
+leaked 71 `ms-playwright-go\1.57.0\node.exe` drivers (~4.7 GB) between 23 and 27 Sep; the reboot cleared them.
 
 ## Open/unresolved
 

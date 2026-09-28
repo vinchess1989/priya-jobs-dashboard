@@ -25,6 +25,8 @@ import sys
 
 import requests
 
+import firestore_auth
+
 PROJECT_ID = "priya-jobs-dashboard"
 FIRESTORE_BASE = (
     f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}"
@@ -79,7 +81,7 @@ def _serialize_doc(data):
 
 def get_job_status() -> dict:
     """Fetch the full shared_state/job_status document, keyed by job URL."""
-    resp = requests.get(DOC_URL, timeout=30)
+    resp = firestore_auth.session().get(DOC_URL, timeout=30)
     resp.raise_for_status()
     return _deserialize_doc(resp.json())
 
@@ -88,7 +90,7 @@ def patch_job_status(data: dict) -> None:
     """Overwrite the full shared_state/job_status document. Callers should
     read-modify-write via get_job_status() first so sibling jobs' entries
     aren't clobbered."""
-    resp = requests.patch(DOC_URL, json=_serialize_doc(data), timeout=30)
+    resp = firestore_auth.session().patch(DOC_URL, json=_serialize_doc(data), timeout=30)
     resp.raise_for_status()
 
 

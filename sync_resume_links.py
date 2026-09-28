@@ -15,6 +15,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+import firestore_auth
 
 PRIVATE_SLUG   = "vinchess1989/priya-jobs-private"
 GITHUB_BASE    = f"https://github.com/{PRIVATE_SLUG}/blob/main/Resumes"
@@ -91,7 +92,7 @@ def already_uploaded(entries: list[dict]) -> set[str]:
             f"https://firestore.googleapis.com/v1/projects/{PROJECT_ID}"
             "/databases/(default)/documents/shared_state/job_status"
         )
-        resp = requests.get(url, timeout=30)
+        resp = firestore_auth.session().get(url, timeout=30)
         resp.raise_for_status()
         doc = resp.json()
 

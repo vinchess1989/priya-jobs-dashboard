@@ -19,6 +19,8 @@ import subprocess
 import sys
 import argparse
 import requests
+
+import firestore_auth
 from pathlib import Path
 
 PROJECT_ID = "priya-jobs-dashboard"
@@ -104,14 +106,14 @@ def _serialize_doc(data):
 
 def get_job_status():
     url = f"{FIRESTORE_BASE}/shared_state/job_status"
-    resp = requests.get(url, timeout=30)
+    resp = firestore_auth.session().get(url, timeout=30)
     resp.raise_for_status()
     return _deserialize_doc(resp.json())
 
 
 def patch_job_status(data):
     url = f"{FIRESTORE_BASE}/shared_state/job_status"
-    resp = requests.patch(url, json=_serialize_doc(data), timeout=30)
+    resp = firestore_auth.session().patch(url, json=_serialize_doc(data), timeout=30)
     resp.raise_for_status()
 
 

@@ -21,6 +21,8 @@ import base64
 import getpass
 import argparse
 import requests
+
+import firestore_auth
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, parse_qs
 from html import unescape as html_unescape
@@ -224,7 +226,7 @@ def detect_expired_listing(page) -> bool:
 def _is_applied_in_firestore(job_url: str) -> bool:
     """Check Firestore to see if this job URL has applied='yes'."""
     try:
-        resp = requests.get(FIRESTORE_DOC_URL, timeout=10)
+        resp = firestore_auth.session().get(FIRESTORE_DOC_URL, timeout=10)
         resp.raise_for_status()
         fields = resp.json().get("fields", {})
         if job_url in fields:
@@ -335,7 +337,7 @@ def mark_job_applied_firestore(job_id: str, applied_date: str = "") -> bool:
         return {"stringValue": str(val)}
 
     try:
-        resp = requests.get(FIRESTORE_DOC_URL, timeout=20)
+        resp = firestore_auth.session().get(FIRESTORE_DOC_URL, timeout=20)
         resp.raise_for_status()
         current = {k: deserialize(v) for k, v in resp.json().get("fields", {}).items()}
 
@@ -348,7 +350,7 @@ def mark_job_applied_firestore(job_id: str, applied_date: str = "") -> bool:
         current[job_url] = entry
 
         body = {"fields": {k: serialize(v) for k, v in current.items()}}
-        requests.patch(FIRESTORE_DOC_URL, json=body, timeout=20).raise_for_status()
+        firestore_auth.session().patch(FIRESTORE_DOC_URL, json=body, timeout=20).raise_for_status()
         return True
 
     except Exception as e:
