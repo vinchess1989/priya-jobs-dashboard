@@ -4,6 +4,31 @@
     "discovered": "2026-09-28",
     "notes": "Wartsila's own career site, itself a thin wrapper -- job posting page (e.g. /job/<slug>/<id>/) has an 'Apply now' link to /talentcommunity/apply/<id>/?locale=en_GB, but clicking it (or navigating there directly) always lands on career2.successfactors.eu/careers?company=Wartsila's bare sign-in/create-account gate ('Career Opportunities: Sign In') -- the specific job id/context is lost, there is no way to reach a job-specific application form pre-login. This is a genuine account-creation requirement (SuccessFactors ATS), not a scraping failure -- confirmed via both WebFetch and a real CDP-connected browser click-through. Do not attempt to sign in or create the account; tell the user to do it herself, then re-resolve from career2.successfactors.eu post-login."
   },
+  "careers.nordea.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-28",
+    "notes": "Same SuccessFactors wrapper pattern as careers.wartsila.com: job page 'Apply now' -> /talentcommunity/apply/<id>/?locale=en_US -> career5.successfactors.eu/careers?company=nordeabank bare 'Career Opportunities: Sign In' gate, job context lost pre-login. Genuine account requirement -- Priya must sign in/create the account herself."
+  },
+  "jobs.fortum.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-28",
+    "notes": "SuccessFactors wrapper, but unlike Nordea/Wartsila the 'Apply now' click (/talentcommunity/apply/<id>/) lands on career55.sapsf.eu/careers?company=fortumoyj with a combined REGISTER+APPLY form that keeps the job context (title 'Career Opportunities: <job> (<req>)'). Fillable without prior login, but it creates an account: Choose/Retype Password fields must be left for Priya. scrape_application.py's generic scraper fails on the direct URL (lands on search page) -- click through from the job page in the CDP browser instead. Attach widgets: click the .addAttachments plus icon, poll ~5s for a dynamically-added input[type=file], set_input_files on it; after an upload the next .addAttachments icon shifts, so target slots by id (e.g. '60:_attachIcon' CV, '62:_attachIcon' cover letter) and verify via '<id>:_attachDownloadLabelLink' text. Picklists are juic comboboxes: click '<n>:_selectButton', then li[role=option]:visible."
+  },
+  "careers.teleste.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-28",
+    "notes": "Teamtailor. LinkedIn 'Apply' resolves to careers.teleste.com/jobs/<id>-<slug>. Click 'Apply for this job' to reveal the form: #candidate_first_name/_last_name/_email/_phone, #candidate_resume_remote_url (CV file), #candidate_file_remote_url (additional files), #candidate_job_applications_attributes_0_cover_letter (textarea), custom questions as #candidate_answers_attributes_<n>_text, consent #candidate_consent_given. No login."
+  },
+  "app.recruit.finago.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-28",
+    "notes": "Finago Recruit (used by Tana Oy). /apply/<slug>/<token> is the form directly, no login: #first_name, #last_name, #email, #telephone, #description, #linkedin, file inputs #applicant_attachment1 (CV), #applicant_attachment2 (cover letter), #applicant_attachment3 (other), privacy checkbox name=agree_saving_data. scrape_application.py also picks up unrelated colour-picker widget fields on this page -- ignore those."
+  },
+  "myworkdayjobs.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-28",
+    "notes": "Workday (seen at if.wd502.myworkdayjobs.com). DO NOT run scrape_application.py on these URLs without WORKDAY_EMAIL/WORKDAY_PASSWORD in the private .env -- its workday branch calls input()/getpass and crashes non-interactively. If's tenant allows guest 'Apply Manually' (5-step wizard: My Information, My Experience, Application Questions, Voluntary Disclosures, Review) in the CDP browser with no login; guest progress lives only in the open tab. Next = button[data-automation-id=pageFooterNextButton]; dropdowns are buttons showing 'Select One' -> [role=option]:visible; one input[type=file] on step 2 accepts multiple files."
+  },
   "soite.rekrytointi.com": {
     "strategy": "webfetch_hops",
     "discovered": "2026-09-09",
