@@ -13,6 +13,7 @@ allow-listed accounts only, and scripts authenticate via **`firestore_auth.py`**
   in the venv - otherwise `firestore_auth.session()` raises FileNotFoundError.
 - New Firestore calls must use `firestore_auth.session().get/patch(...)`, never bare `requests` - a bare
   call now gets 403. Rules deploy: `firebase deploy --only firestore:rules` from `firebase_app/`.
+- Key access (2026-09-28): priyabkc99@gmail.com has roles/firebase.viewer + roles/iam.serviceAccountKeyAdmin on this project, so Priya can generate her own PC key in the console (no DB/rules/hosting rights). Owner: vineethkaimal1989@gmail.com.
 
 
 ## `/fill-form dead<10` batch, venv missing `anthropic`, Wartsila SuccessFactors gate (2026-09-28)
@@ -664,3 +665,12 @@ leaked 71 `ms-playwright-go\1.57.0\node.exe` drivers (~4.7 GB) between 23 and 27
 
 ---
 Last updated: 2026-09-26
+
+## Error-retry cap (2026-09-29)
+Jobs whose review fails (`matches_requirements: "error"`: page won't load, unparseable LLM output) are
+now retried at most 3 times, at least 6 h apart (`_needs_review` / `_record_review_outcome`,
+`ERROR_MAX_ATTEMPTS` / `ERROR_RETRY_SECONDS`; per-job `error_attempts` / `last_error_at`, cleared by any
+real verdict). Previously every loop retried them. On priya_global_jobs, 5 always-failing Totaljobs pages
+turned that into a retry+commit+push every ~9 s (258 commits/hour). The error cap is checked before
+`needs_re_review`, so a failing re-review job can't loop either. Capped jobs stay "error" on the
+dashboard. To force a retry, delete those two fields from the job.
