@@ -1283,6 +1283,14 @@
             .mobile-nav-item.active .mobile-nav-icon { filter: drop-shadow(0 0 8px rgba(129, 140, 248, 0.7)); }
             .mobile-nav-icon { font-size: 1.05rem; line-height: 1; }
             .mobile-nav-label { font-size: 0.66rem; font-weight: 700; white-space: nowrap; }
+            /* Filters tab while any filter is set: amber dot + "shown/total" label. */
+            .mobile-nav-item.has-filters .mobile-nav-label { color: #fbbf24 !important; font-variant-numeric: tabular-nums; }
+            .mobile-nav-item.has-filters .mobile-nav-icon { position: relative; }
+            .mobile-nav-item.has-filters .mobile-nav-icon::after {
+                content: ''; position: absolute; top: -3px; right: -6px;
+                width: 8px; height: 8px; border-radius: 50%;
+                background: #fbbf24; box-shadow: 0 0 0 2px rgba(10, 13, 22, 0.96);
+            }
 
             /* --- iOS focus-zoom guard + touch ergonomics. */
             input, select, textarea {
@@ -2405,6 +2413,19 @@
                 _attachChartHover(document.getElementById('stat-yes'), 'yes');
                 _attachChartHover(document.getElementById('stat-maybe'), 'maybe');
                 _attachChartHover(document.getElementById('stat-total'), 'total');
+            }
+
+            // Mobile bottom nav: the Filters tab shows a dot and "shown/total" while any
+            // filter is set (column filters, date limits, location text, LLM, countries).
+            const anyFilterSet = Object.keys(filters).length > 0 || selectedLlmModels.size > 0
+                || (typeof selectedCountries !== 'undefined' && selectedCountries.size > 0);
+            const mnavFilters = document.getElementById('mnav-filters');
+            if (mnavFilters) {
+                mnavFilters.classList.toggle('has-filters', anyFilterSet);
+                const lbl = mnavFilters.querySelector('.mobile-nav-label');
+                if (lbl) lbl.textContent = anyFilterSet ? `${visibleCount}/${activeTotal}` : 'Filters';
+                mnavFilters.setAttribute('aria-label', anyFilterSet
+                    ? `Filters: showing ${visibleCount} of ${activeTotal} jobs` : 'Filters');
             }
 
             const appliedCounter = document.getElementById('applied-counter');
