@@ -1,4 +1,9 @@
 {
+  "careers.wartsila.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-28",
+    "notes": "Wartsila's own career site, itself a thin wrapper -- job posting page (e.g. /job/<slug>/<id>/) has an 'Apply now' link to /talentcommunity/apply/<id>/?locale=en_GB, but clicking it (or navigating there directly) always lands on career2.successfactors.eu/careers?company=Wartsila's bare sign-in/create-account gate ('Career Opportunities: Sign In') -- the specific job id/context is lost, there is no way to reach a job-specific application form pre-login. This is a genuine account-creation requirement (SuccessFactors ATS), not a scraping failure -- confirmed via both WebFetch and a real CDP-connected browser click-through. Do not attempt to sign in or create the account; tell the user to do it herself, then re-resolve from career2.successfactors.eu post-login."
+  },
   "soite.rekrytointi.com": {
     "strategy": "webfetch_hops",
     "discovered": "2026-09-09",
