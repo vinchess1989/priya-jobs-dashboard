@@ -1850,32 +1850,30 @@
     "url": "https://www.facebook.com/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a Facebook page for a job board (Jobly.fi) rather than an actual job vacancy posting.",
+    "reason": "The job posting does not describe a technical role matching Priyanga's expertise in DevOps, configuration management, release management, or regulated-industry quality/compliance work. It appears to be a general employment services platform (Jobly.fi) rather than a technical position.",
     "id": "72167a89",
     "source": "jobly_fi_devops_engineer",
-    "posted_date": "1 pv",
+    "posted_date": "p\u00e4iv\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Instagram",
-    "company": "Extract from page",
+    "company": "jobly.fi",
     "location": "Extract from page",
     "url": "https://instagram.com/jobly.fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a generic Instagram social media page for a job board (Jobly.fi) and does not contain a specific job posting to evaluate.",
+    "reason": "The job posting lacks explicit information about the company name, role type, location, and application deadline, making it impossible to evaluate against the candidate's requirements.",
     "id": "6cbf22da",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Linkedin",
@@ -1884,15 +1882,14 @@
     "url": "https://linkedin.com/company/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a company profile page for a job board (Jobly.fi) rather than a specific job opening for a role matching the candidate's criteria.",
+    "reason": "The job posting does not specify a role or responsibilities that align with Priya's expertise in configuration management, release engineering, or technical communication.",
     "id": "cb4a0d29",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Configuration Specialist",
@@ -1919,15 +1916,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460366683",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is located in Finland and involves PLM (Product Lifecycle Management) which aligns with her configuration management and traceability background, but the job description text provided is incomplete and lacks specific requirements to confirm a full match.",
+    "reason": "The job requires PLM (Windchill) administration and CAD expertise, which are not central to Priya's background in CI/CD/release management and technical documentation, though there is some overlap in project coordination and technical architecture.",
     "id": "26a4181d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Application Specialist (ERP)",
@@ -1936,15 +1932,14 @@
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish, which the candidate does not possess, and the posting explicitly states it is no longer accepting applications.",
+    "reason": "The job posting requires fluent Finnish as a hard qualification, which Priya does not speak.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Implementation Consultant",
@@ -1953,15 +1948,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong fit for her technical configuration and documentation skills, but it is a hybrid role requiring 2-3 days in the office, and the specific city in Finland is not explicitly named in the posting.",
+    "reason": "The job involves IT integration and configuration consulting, which may align with the candidate's Configuration Management experience, but does not explicitly match her strong fit in regulated CI/CD/release management or technical documentation roles.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "System Engineer",
@@ -1969,16 +1963,15 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/system-engineer-at-iceye-4427036824",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with her background in CI/CD, automation, and configuration management within a high-tech, regulated environment, and it is located in Finland.",
+    "matches_requirements": "no",
+    "reason": "The role can be based in Warsaw, Poland, which is outside Finland and not a remote position, violating the location constraint.",
     "id": "84c95aff",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/iceye_system_engineer_84c95aff.txt",
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null,
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Senior Implementation Consultant",
@@ -1987,15 +1980,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-consultant-at-thomson-reuters-4460058834",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is located in Finland and matches the seniority level, but the description provided is incomplete and lacks specific details regarding the role's responsibilities to confirm a fit with her technical/configuration management background.",
+    "reason": "The role involves IT integrations/configurations and project management, which partially aligns with Priya's Configuration Management/Release Management background, but doesn't explicitly match her target categories (DevOps, Release Manager, etc.) or regulated/safety-critical domain experience.",
     "id": "c7fcb0b3",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "ERP Solutions Manager",
@@ -2003,16 +1995,15 @@
     "location": "Kauhajoki, South Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/erp-solutions-manager-at-ikh-group-4462205522",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is located in Finland and aligns with her background in technical systems and process management, but the provided job description text is incomplete and lacks specific details regarding the role's responsibilities to confirm a definitive match.",
+    "matches_requirements": "no",
+    "reason": "The job title 'ERP Solutions Manager' does not align with the candidate's target roles (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and lacks explicit mention of regulated/safety-critical domains or CI/CD/release management responsibilities.",
     "id": "c7deb945",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
@@ -2020,16 +2011,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/google-workspace-consultant-%E2%80%93-turn-technology-into-more-meaningful-ways-of-working-at-gapps-4390153797",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong fit for her documentation, communication, and project-coordination skills, but it is a consulting role focused on Google Workspace rather than her core background in release management, CI/CD, or safety-critical quality engineering.",
+    "matches_requirements": "no",
+    "reason": "The role does not align with Priya\u2019s target domains (DevOps, Configuration Management, Release Management, regulated/safety-critical industries) or her experience in technical communication/quality gatekeeping under MDR/ISO 13485. The Google Workspace Consultant role focuses on customer-facing consulting and cloud implementation rather than configuration management, release pipelines, or safety-critical compliance.",
     "id": "d5c23071",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "ERP & Master Data Specialist",
@@ -2055,15 +2045,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cpu-solutions-specialist-at-verda-4456274102",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is empty and contains no information regarding the role's responsibilities, requirements, or specific location details beyond the header, making it impossible to evaluate against the candidate's criteria.",
+    "reason": "The role does not align with Priya's target criteria in configuration management, release management, or technical writing, and instead focuses on CPU selection and vendor advisory work outside her domain expertise.",
     "id": "eec5b12d",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "M365-asiantuntija",
@@ -2072,15 +2061,14 @@
     "url": "https://fi.linkedin.com/jobs/view/m365-asiantuntija-at-cgi-4464399052",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description provided is a generic LinkedIn login/cookie consent page and does not contain the actual job details or requirements necessary to evaluate the role.",
+    "reason": "The job requires fluent Finnish as a mandatory skill, which Priya does not possess, triggering a hard rejection.",
     "id": "be3156ab",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "IT Solution Manager - FICO",
@@ -2089,15 +2077,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-solution-manager-fico-at-neste-4460250750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a specialized SAP FICO Solution Manager role requiring deep expertise in SAP Finance and Controlling modules, which does not align with the candidate's core background in DevOps, release management, configuration management, or technical documentation.",
+    "reason": "The job does not align with Priya's target domains (e.g., DevOps, Configuration Management, Release Management) or her experience in regulated/safety-critical industries; it focuses on SAP Finance solution management and project delivery rather than CI/CD, compliance gatekeeping, or technical documentation ownership.",
     "id": "456232f8",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "Microsoft 365 -konsultti",
@@ -2106,15 +2093,14 @@
     "url": "https://fi.linkedin.com/jobs/view/microsoft-365-konsultti-at-futuriot-4439007984",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Microsoft 365 consultant position, which does not align with the candidate's specialized background in release management, configuration management, or safety-critical quality engineering.",
+    "reason": "The job does not align with Priya's target domains (DevOps/Configuration Management/Release Management) and instead focuses on Microsoft 365 consulting, which lacks CI/CD, regulated-industry compliance, or technical documentation ownership components she specializes in.",
     "id": "928a3f19",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-07-31",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "Release Manager",
@@ -2140,16 +2126,15 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-managed-file-transfer-mft-edi-at-fiskars-group-4457320334",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong fit for her technical background in integration and automation, but it leans more toward solution architecture and management than her core expertise in release/configuration management or quality gatekeeping.",
+    "matches_requirements": "no",
+    "reason": "The role as Solution Manager for MFT & EDI does not align with Priya's expertise in regulated-industry release/CM/DevOps roles or her background in technical documentation/quality gatekeeping.",
     "id": "a6a18706",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T00:18:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:18:46+03:00"
   },
   {
     "title": "BIM Manager",
