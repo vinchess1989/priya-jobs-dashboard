@@ -7991,15 +7991,14 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-sysadmin-at-phz-full-stack-4449061903",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a DevOps/Sysadmin position located in Helsinki, Finland, aligning with her technical background in CI/CD, Linux, Python/Bash, and cloud environments, though it leans more towards infrastructure and system administration than her core release management specialization.",
+    "reason": "The DevOps Sysadmin role in Helsinki matches her infrastructure, Linux, Python/Bash, and CI/CD/automation background, though it is more heavily focused on sysadmin and IT support than her recent pure release management roles.",
     "id": "eab77ec4",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Google Cloud Engineer",
@@ -8008,15 +8007,14 @@
     "url": "https://fi.linkedin.com/jobs/view/google-cloud-engineer-at-solita-4453453370",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills ('Sujuva suomen ja englannin kielen taito'), which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish ('Sujuva suomen ja englannin kielen taito'), which is a mandatory hard rejection criterion since the candidate does not speak Finnish.",
     "id": "ef7eb061",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Senior Cloud Engineer",
@@ -8024,16 +8022,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-at-brawl-stars-4442354856",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role heavily emphasizes cloud infrastructure, DevOps, and CI/CD pipelines (such as GitHub Actions and Terraform) which align with her technical background, though it leans more towards cloud engineering than pure configuration management or release management.",
+    "matches_requirements": "no",
+    "reason": "This role is a Senior Cloud Engineer focused on cloud architecture, infrastructure automation, and internal developer platforms, which diverges from the candidate's core release management, configuration management, and technical communication expertise.",
     "id": "97426d4f",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Data Center Provisioning Engineer",
@@ -8042,15 +8039,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-center-provisioning-engineer-at-cerebras-4455947802",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "This role focuses on physical data center provisioning and infrastructure setup rather than release management, configuration management, DevOps pipelines, or quality gatekeeping.",
     "id": "216431e8",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Senior Cloud Engineer - Tieto  Caretech (m/f/d",
@@ -8059,15 +8055,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-tieto-caretech-m-f-d-at-tieto-4430470554",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role requires strong Azure cloud, CI/CD, and infrastructure-as-code skills that align well with Priya's background, though it focuses more on cloud infrastructure engineering than her core release/CM specialization.",
+    "reason": "The role is a strong fit for her DevOps and cloud automation skills, but it leans heavily toward cloud infrastructure engineering rather than her core background in release management and quality gatekeeping.",
     "id": "5aeca3eb",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Google Cloud Consultant \u2013 Build scalable and secure cloud environments that actually work",
@@ -8076,15 +8071,14 @@
     "url": "https://fi.linkedin.com/jobs/view/google-cloud-consultant-%E2%80%93-build-scalable-and-secure-cloud-environments-that-actually-work-at-gapps-4390165240",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a hybrid Google Cloud Consultant position based in Finland that offers good cloud and release-adjacent consulting work, but it leans heavier on client-facing cloud architecture than her primary background in configuration management and CI/CD pipelines.",
+    "reason": "The role is a strong fit for her DevOps and cloud skills, but it is a consulting position that requires significant customer interaction and broad technical breadth rather than the specific release/CM/quality gatekeeping focus she has specialized in recently.",
     "id": "72e5de20",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Principal Engineer",
@@ -8093,15 +8087,14 @@
     "url": "https://fi.linkedin.com/jobs/view/principal-engineer-at-polar-squad-4452976928",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is located in Helsinki, Finland and fits her senior experience level, but leans heavily towards hands-on platform/infrastructure engineering and client consulting rather than pure release/configuration management.",
+    "reason": "While the role is a strong fit for her DevOps/CI-CD and platform engineering background, it is primarily a hands-on coding/feature-development role which conflicts with her preference for release/CM-focused work.",
     "id": "1ad67d01",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "MLOps Engineer/Architect",
@@ -8109,16 +8102,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/mlops-engineer-architect-at-nitor-4458162116",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "This is a specialized MLOps Engineer/Architect role focused on building ML platforms and AI infrastructure, which falls outside the candidate's core release management, CI/CD, and technical communication expertise.",
+    "matches_requirements": "maybe",
+    "reason": "While the role focuses on MLOps and infrastructure rather than pure feature development, it is a technical engineering role that may lean more towards development than her preferred release/CM/quality-focused path, though her CI/CD and automation skills are a strong match.",
     "id": "5c48ef5c",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Software Engineer, Data Infrastructure & Acquisition - Tampere, Finland",
@@ -8127,15 +8119,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-data-infrastructure-acquisition-tampere-finland-at-speechify-4457849634",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
+    "reason": "This role focuses on data infrastructure, web crawlers, and data acquisition for AI training, which does not align with Priya's background in release management, configuration management, and technical communication.",
     "id": "4b0868a4",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Data Engineer",
@@ -8144,15 +8135,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-engineer-at-futurice-4389726932",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish and is focused on data engineering rather than the candidate's core expertise in release management, CI/CD, configuration management, or technical writing/quality compliance.",
+    "reason": "The job requires fluency in Finnish, which is a hard rejection criteria, and the role is primarily focused on data engineering rather than the candidate's core expertise in release management, configuration management, or quality/regulatory compliance.",
     "id": "3c25bb49",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Cloud Architect",
@@ -8161,15 +8151,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454750739",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent command of both Finnish and Swedish (or lists Finnish/Swedish as working languages that must be mastered), which conflicts with the candidate's language profile.",
+    "reason": "The job posting explicitly requires fluent Finnish as a working language, and applications are no longer being accepted.",
     "id": "5f2d00e4",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Cloud Architect / Specialist",
@@ -8178,15 +8167,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-specialist-at-bradleys-digital-oy-4389318756",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish ('Sujuvaa suomen ja englannin kielitaitoa'), which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "39813bfd",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "6 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "AI Platform Engineer (employment / freelancing)",
@@ -8195,15 +8183,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-platform-engineer-employment-freelancing-at-witted-4454509583",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This AI Platform Engineer role requires specialized expertise in building and operating AI infrastructure, LLM gateways, and MLOps tooling which does not align with the candidate's core release management, configuration management, and technical documentation background.",
+    "reason": "The job posting explicitly states that applications are no longer accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "bd28a6be",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Senior Platform Engineer, Event Streaming Platform (Kafka)",
@@ -8211,16 +8198,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-platform-engineer-event-streaming-platform-kafka-at-wolt-4436215625",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is located in Helsinki, Finland, and involves platform/reliability engineering with Python, aligning with her DevOps and infrastructure experience, though it heavily focuses on distributed event streaming (Kafka) rather than her core release management or quality compliance background.",
+    "matches_requirements": "no",
+    "reason": "The role is a pure Platform/Software Engineering position focused on building and operating distributed systems (Kafka), which violates the hard rejection against pure feature-development/software-engineering roles that lack a primary release, CM, or quality-gatekeeping focus.",
     "id": "3b6a1fbb",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Devops Sysadmin",
@@ -8229,15 +8215,14 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-sysadmin-at-phz-full-stack-4449073588",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The DevOps Sysadmin role matches her infrastructure and scripting skills, but is slightly more weighted toward system administration and IT support than her core release management and configuration management focus.",
+    "reason": "The role is a DevOps Sysadmin position that aligns with her technical skills, but it leans heavily toward general IT/system administration and infrastructure maintenance rather than the release/configuration management or quality-focused roles she specializes in.",
     "id": "9474998c",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Senior Software Engineer, Database Operations",
