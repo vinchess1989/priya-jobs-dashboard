@@ -11885,15 +11885,14 @@
     "url": "https://fi.linkedin.com/jobs/view/advisory-solutions-consultant-at-sailpoint-4433333020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description text does not contain actual job details and consists only of LinkedIn boilerplate and privacy notices, making it impossible to evaluate.",
+    "reason": "The role has a mandatory requirement for fluency in both English and Finnish, and the candidate does not speak Finnish.",
     "id": "463a983d",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Lead Application Engineer",
@@ -11902,15 +11901,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-application-engineer-at-eaton-4458895958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Although based in Vantaa, Finland, this is an application engineering role focused on power electronics and 3-phase power systems, which does not match Priya's core release management, DevOps, configuration management, or technical writing profile.",
+    "reason": "The role requires 5-8 years of experience in power electronics and 3-phase power systems, which does not align with her background in release management, configuration management, and embedded software.",
     "id": "bb5d8e93",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solution Advisor Associate- SAP Academy for Customer Success - Finland (Hybrid)",
@@ -11919,15 +11917,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-advisor-associate-sap-academy-for-customer-success-finland-hybrid-at-sap-4457491815",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales academy role designed for early-career professionals (2-3 years experience), which conflicts with the candidate's ~15 years of senior technical release and configuration management experience.",
+    "reason": "This is a sales-team solution advisor role that requires early-career experience (2-3 years) and includes travel to the United States, which conflicts with her ~15 years of senior technical experience.",
     "id": "17e04f9d",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Portfolio Sales Professional",
@@ -11936,15 +11933,14 @@
     "url": "https://fi.linkedin.com/jobs/view/portfolio-sales-professional-at-innomotics-4416827926",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role (Sales Engineer) that requires native Finnish and Russian, violating both the hard rejection rule for sales roles and the language requirements.",
+    "reason": "This is a quota-carrying sales role (Sales Engineer) that explicitly requires native Finnish and Russian language fluency, neither of which the candidate possesses.",
     "id": "0f17dcd7",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Field Application Engineer",
@@ -11953,15 +11949,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-application-engineer-at-onenav-inc-4450375606",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a strong background in RF and GNSS technologies and an electrical engineering degree, which does not match her embedded software, release management, and technical communication profile.",
+    "reason": "The role requires a Bachelor's degree in Electrical Engineering (BSEE) and 10+ years of specific experience in RF and GNSS systems, which does not align with the candidate's background in release management, configuration management, and technical communication.",
     "id": "c936f838",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Engineer, Expansion Finland",
@@ -11969,16 +11964,15 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/solutions-engineer-expansion-finland-at-partly-4428478735",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a Solutions Engineer covering the Nordics and Finland, requiring technical problem-solving and integration work, but leans heavily towards pre-sales client engagement rather than Priya's core focus on release, configuration, and quality management.",
+    "matches_requirements": "yes",
+    "reason": "This technical solutions engineering role focuses on the Nordic and UK markets, matches her experience in release-adjacent technical roles, and is located in the Helsinki Metropolitan Area, Finland.",
     "id": "34545b62",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "description_file": "job_descriptions/partly_solutions_engineer__expansion__34545b62.txt",
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Sales Engineer -Heat Pumps- (HVAC)",
@@ -11987,15 +11981,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-engineer-heat-pumps-hvac-at-panasonic-heating-cooling-solutions-europe-4459010344",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales engineering role for HVAC heat pumps, which violates the hard rejection rule against sales roles mislabeled as technical specialists.",
+    "reason": "This is a quota-carrying sales and business development role in the HVAC industry, which violates the hard rejection criteria against pure sales roles.",
     "id": "e78d6605",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Field Sales Engineer, Defence",
@@ -12011,8 +12004,7 @@
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Consultant",
@@ -12021,15 +12013,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-consultant-at-amesan-consulting-oy-4452252171",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish language skills as a mandatory requirement, which the candidate does not possess.",
+    "reason": "The role explicitly requires fluent Finnish language skills ('suomen kielen osaaminen') and the job posting states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "97102358",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Sales Representative, Cardiac Rhythm Management (CRM) \u2013 The Hospital District of Helsinki and Uusimaa (HUS)",
@@ -12038,15 +12029,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-representative-cardiac-rhythm-management-crm-%E2%80%93-the-hospital-district-of-helsinki-and-uusimaa-hus-at-abbott-4446128950",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role requiring fluent Finnish and cardiovascular clinical sales experience, which violates multiple hard rejections.",
+    "reason": "This is a quota-carrying sales and territory management role requiring fluency in Finnish, which violates the hard rejections for sales positions and language requirements.",
     "id": "799a18ec",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Field Product Specialist- North ( Berlin, Hamburg, Hannover based preferred)",
@@ -12055,15 +12045,14 @@
     "url": "https://de.linkedin.com/jobs/view/field-product-specialist-north-berlin-hamburg-hannover-based-preferred-at-cordis-4453520978",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Berlin, Germany (hybrid/field-based), violating the location constraint requiring it to be in Finland or globally remote.",
+    "reason": "This on-site field product specialist role is located in Berlin, Germany, violating the location constraint requiring Finland or global remote.",
     "id": "d3feec16",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Junior product specialist - Studi commercialisti",
@@ -12072,15 +12061,14 @@
     "url": "https://it.linkedin.com/jobs/view/junior-product-specialist-studi-commercialisti-at-inplacement-it-4443265144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Milan, Italy (hybrid) and requires presence outside Finland, which violates the candidate's location constraints.",
+    "reason": "The job is physically located in Milan, Italy, violating the requirement that out-of-Finland on-site/hybrid roles must be rejected.",
     "id": "05deeb79",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Produktspezialist (m/w/d) Installationstechnik",
@@ -12089,15 +12077,14 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-m-w-d-installationstechnik-at-lq-mechatronik-systeme-gmbh-4425780601",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Besigheim, Germany, violating the candidate's requirement to work in Finland or fully remote.",
+    "reason": "The job is physically located in Besigheim, Germany, violating the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "5b373d45",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Produktov\u00fd/aplika\u010dn\u00ed specialista / Produktov\u00e1/aplika\u010dn\u00ed specialistka pro angiografick\u00e9 syst\u00e9my",
@@ -12106,15 +12093,14 @@
     "url": "https://cz.linkedin.com/jobs/view/produktov%C3%BD-aplika%C4%8Dn%C3%AD-specialista-produktov%C3%A1-aplika%C4%8Dn%C3%AD-specialistka-pro-angiografick%C3%A9-syst%C3%A9my-at-siemens-healthineers-4459211473",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Prague, Czechia, violating the candidate's requirement to work in Finland or remotely from Finland.",
+    "reason": "The role is located in Prague, Czechia, requiring travel within the Czech Republic and residency there, which violates the candidate's requirement to be based in or fully remote from Finland.",
     "id": "d1d98e4a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Produktspezialist Lichttechnik im technischen Vertrieb (m/w/d)",
@@ -12123,15 +12109,14 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-lichttechnik-im-technischen-vertrieb-m-w-d-at-lightpower-gmbh-4459973268",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Paderborn, Germany, which violates the geographic requirement of being in Finland or fully remote.",
+    "reason": "The job is physically located in Paderborn, Germany, violating the location policy requiring roles to be either in Finland or fully remote.",
     "id": "491f5154",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "PRODUCT SPECIALIST \u2013 ANESTHESIA & CRITICAL CARE",
