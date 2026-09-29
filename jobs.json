@@ -15503,15 +15503,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-developer-at-61n-4455239666",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills and is a pure software development position, which violates the hard rejection criteria.",
+    "reason": "The role requires professional and fluent Finnish language proficiency, which the candidate does not possess.",
     "id": "6208deeb",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Forward Deployed Full Stack Engineer",
@@ -15520,15 +15519,14 @@
     "url": "https://fi.linkedin.com/jobs/view/forward-deployed-full-stack-engineer-at-nestai-4462798452",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a 'Full Stack Engineer' position, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "This is a pure feature-development and full-stack software engineering role requiring heavy hands-on coding in React, TypeScript, and Node.js/Python, which conflicts with her focus on release and configuration management over the past 8+ years.",
     "id": "fcb51efc",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Senior / Lead Platform Data Engineer",
@@ -15537,15 +15535,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-lead-platform-data-engineer-at-sievo-4444892108",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a Data Engineering position focused on building data pipelines and architecture, which falls under the 'Pure Feature-Development Software Engineering' exclusion for this candidate.",
+    "reason": "The job requires a Senior / Lead Platform Data Engineer with focus on data pipelines and cloud infrastructure, which does not align with Priya's expertise in Configuration Management, Release Management, and DevOps/CI-CD in regulated industries.",
     "id": "18695ab9",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Game Producer",
@@ -15554,15 +15551,14 @@
     "url": "https://fi.linkedin.com/jobs/view/game-producer-at-paradox-interactive-4431269028",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Game Producer position focused on game development project management, which falls outside the candidate's specialized background in release management, configuration management, and technical quality/regulatory compliance.",
+    "reason": "The role is a Game Producer focused on game production and project coordination, which does not align with the candidate's target DevOps, release, configuration, quality, or technical communication roles.",
     "id": "343b5727",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Tiiminvet\u00e4j\u00e4, Jula Lahti",
@@ -15571,15 +15567,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tiiminvet%C3%A4j%C3%A4-jula-lahti-at-jula-4461116490",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a retail team lead position ('Tiiminvet\u00e4j\u00e4') at a store, which does not align with the candidate's technical, engineering, or quality-management career path.",
+    "reason": "The job description outlines a retail team leader position with responsibilities in customer service, sales, and store operations, which does not align with Priya's target roles in technical communication, configuration management, release management, or regulated-industry quality/compliance work.",
     "id": "cc51f084",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "M\u00e4\u00e4r\u00e4aikainen taloushallinnon asiantuntija Ouluun",
@@ -15588,15 +15583,14 @@
     "url": "https://www.jobly.fi/tyopaikka/maaraaikainen-taloushallinnon-asiantuntija-ouluun-2753789",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a financial accounting specialist (taloushallinnon asiantuntija), which does not align with the candidate's technical background in software engineering, DevOps, and release management.",
+    "reason": "The job requires a Financial Management Specialist with accounting/bookkeeping responsibilities, which does not match Priyanga Ramachandran's expertise in Configuration Management, Release Management, DevOps/CI-CD, and technical documentation in regulated/safety-critical industries.",
     "id": "b1bc18be",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Sairaanhoitajia HUS Kehitysvammapsykiatrian osastolle Lahteen",
@@ -15605,15 +15599,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sairaanhoitajia-hus-kehitysvammapsykiatrian-osastolle-lahteen-2743538",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license (registered nurse) which the candidate does not possess, and the posting is no longer active.",
+    "reason": "The job requires nursing skills in a psychiatric department, which does not align with the candidate's background in technical communication, configuration management, and regulated-industry release management.",
     "id": "b5d7ac21",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Haluatko ty\u00f6skennell\u00e4 uusien autojen parissa? Auto-Uuttera hakee tekij\u00f6it\u00e4 Hankoon!",
@@ -15622,15 +15615,14 @@
     "url": "https://www.jobly.fi/tyopaikka/haluatko-tyoskennella-uusien-autojen-parissa-auto-uuttera-hakee-tekijoita-hankoon-2753797",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires mandatory proficiency in Finnish or Swedish and is a manual labor/logistics position that does not align with the candidate's senior technical and release management background.",
+    "reason": "The job description does not align with the candidate's expertise in DevOps, configuration management, technical writing, or regulated-industry quality/compliance roles; it appears to be an automotive manufacturing/inspection role unrelated to her background.",
     "id": "e5b3412d",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Asiakkuusp\u00e4\u00e4llikk\u00f6 - Arsenaali Oy",
@@ -15639,15 +15631,14 @@
     "url": "https://www.jobly.fi/tyopaikka/asiakkuuspaallikko-arsenaali-oy-2753798",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly marked as no longer valid, and the role is a sales-focused account management position which falls under the hard rejection for quota-carrying sales roles.",
+    "reason": "The job title 'Asiakkuusp\u00e4\u00e4llikk\u00f6' (Customer Manager) and description focus on sales/customer relationship responsibilities, which fall under the 'Quota-Carrying Sales Roles Mislabeled as \\\\",
     "id": "afe6641d",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Terveyskeskusl\u00e4\u00e4k\u00e4ri (2), Kiuruvesi",
@@ -15656,15 +15647,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/48775cc8-1de5-4ee3-814e-e53cf3e51987/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license (l\u00e4\u00e4ketieteen lisensiaatin tutkinto) and fluent Finnish, neither of which the candidate possesses.",
+    "reason": "The job requires fluent Finnish language skills and a medical license, both of which are hard rejections for the candidate.",
     "id": "57679681",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-29",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Purkuty\u00f6ntekij\u00e4, H\u00e4meenlinna/Kanta-H\u00e4me",
@@ -15673,15 +15663,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6834ec73-9ee9-4381-b989-0ecc57faac71/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manual labor position requiring Finnish language proficiency, which does not align with the candidate's professional background or language skills.",
+    "reason": "The job posting for a Demolition Worker does not align with the candidate's background in technical communication, release management, or configuration management, nor does it match any of the target job categories specified.",
     "id": "b9c92985",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:14:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:14:17+03:00"
   },
   {
     "title": "Kokenut j\u00e4rjestelm\u00e4kehitt\u00e4j\u00e4 (integraatiot ja alustat) - Avoin haku",
@@ -15690,15 +15679,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=9bc99ff0f6ffb6aa",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "While the role involves DevOps and platform engineering which align with her skills, it is primarily a software development role, and the job description is in Finnish, which may imply a requirement for local language proficiency despite the technical nature of the work.",
+    "reason": "The job involves system development and integrations with some DevOps/CI/CD elements, which partially aligns with the candidate's CI/CD experience but does not fully match her focus on configuration management, release management, or technical documentation ownership.",
     "id": "4b27d0a9",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Kausity\u00f6 Tarjoilija Classic Pizza Ruka Kuusamo, Restel",
@@ -15707,15 +15695,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kausityo-tarjoilija-classic-pizza-ruka-kuusamo-restel-2748736",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly marked as no longer valid and is for a hospitality role (waiter) which does not align with the candidate's professional background in technical communication and engineering.",
+    "reason": "This job posting is explicitly closed and no longer accepting applications, and it is for a restaurant waiter position.",
     "id": "1b20dd4d",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Senior Payroll Specialist (Fixed-term Contract)",
@@ -15724,15 +15711,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-payroll-specialist-fixed-term-contract-2748737",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is no longer accepting applications and the role (Payroll Specialist) does not align with the candidate's technical, engineering, and quality-focused career path.",
+    "reason": "The job title 'Senior Payroll Specialist' does not align with the candidate's expertise in technical communication, configuration management, release management, or regulated-industry quality/compliance roles.",
     "id": "6aa73fd0",
     "source": "jobly_broad",
     "posted_date": "2026-09-15",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Varastonhoitaja kukkavarastoon",
@@ -15741,15 +15727,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varastonhoitaja-kukkavarastoon-2748743",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed and the role is for a warehouse worker, which does not align with the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "Job is closed and not in the required domain.",
     "id": "a21e0d04",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Kokki, tarvittaessa t\u00f6ihin kutsuttava, ALAVUS",
