@@ -17681,15 +17681,14 @@
     "url": "https://www.jobly.fi/tyopaikka/financial-controller-2749107",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which the candidate does not possess, and it is a financial accounting position outside of her technical/engineering domain.",
+    "reason": "The role requires fluency in Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "690ab722",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Data Engineer",
@@ -17698,15 +17697,14 @@
     "url": "https://www.jobly.fi/tyopaikka/data-engineer-2754219",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (warning message: 'T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
+    "reason": "The job title 'Data Engineer' does not align with Priya's target roles (e.g., Technical Writer, Release Manager, Configuration Management) or her experience in regulated/safety-critical domains.",
     "id": "336100a4",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Senior integraatiokehitt\u00e4j\u00e4",
@@ -17715,15 +17713,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-integraatiokehittaja-2754213",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications, and the role is focused on pure software integration development rather than the candidate's core expertise in release management, CM, or quality assurance.",
+    "reason": "The job title 'Senior integraatiokehitt\u00e4j\u00e4' (Integration Developer) does not align with the candidate's focus on DevOps, release management, or configuration management, and the job description emphasizes independent integration development rather than CI/CD/release ownership. Additionally, the Finnish-language posting may imply language requirements she cannot meet.",
     "id": "388b4790",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Vuorop\u00e4\u00e4llikk\u00f6, Ravintola Kek\u00e4le, Levi Hotel Spa Resort, talvikausi 2026-2027",
@@ -17732,15 +17729,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vuoropaallikko-ravintola-kekale-levi-hotel-spa-resort-talvikausi-2026-2027-2683123",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly marked as no longer valid and is for a restaurant shift manager role, which does not align with the candidate's technical, engineering, and quality-focused background.",
+    "reason": "The job role is a hospitality shift manager position, which does not align with the candidate's technical expertise in DevOps, configuration management, release engineering, or technical writing.",
     "id": "ee055dc3",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Koneajotaitoinen rakennusty\u00f6ntekij\u00e4 Myllykoskelle",
@@ -17749,15 +17745,14 @@
     "url": "https://www.jobly.fi/tyopaikka/koneajotaitoinen-rakennustyontekija-myllykoskelle-2737496",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly marked as no longer valid and the role is for a construction worker, which does not align with the candidate's technical, engineering, and quality management background.",
+    "reason": "The job requires construction worker skills (forklift operation) which do not align with the candidate's background in technical communication, release management, and DevOps/CI-CD.",
     "id": "a1cb4daa",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Testausinsin\u00f6\u00f6ri, ohjelmistot",
@@ -17766,15 +17761,14 @@
     "url": "https://www.jobly.fi/tyopaikka/testausinsinoori-ohjelmistot-2737505",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "2e1fcc24",
     "source": "jobly_broad",
     "posted_date": "2026-09-12",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Hoiva-avustaja Rinnekodit Teereen (m\u00e4\u00e4r\u00e4aikainen)",
@@ -17783,15 +17777,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hoiva-avustaja-rinnekodit-teereen-maaraaikainen-2754185",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a specific healthcare qualification (hoiva-avustaja) and Finnish language proficiency, which does not align with the candidate's technical engineering and quality management background.",
+    "reason": "The job role (Care Assistant) does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) or her technical/regulated-industry experience.",
     "id": "ce1c0a6c",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:04:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:04:45+03:00"
   },
   {
     "title": "Metallinhioja/kiillottaja",
@@ -17800,15 +17793,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4d81dcfc-b213-4e65-9485-9ae08fc59c86/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manual labor position (metal polisher) requiring Finnish language skills, which does not align with the candidate's technical/engineering background or language profile.",
+    "reason": "The job requires Finnish language proficiency as a mandatory requirement, which the candidate does not possess.",
     "id": "95ef519e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-09",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Kiviasentaja, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -17817,15 +17809,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/778524b8-5696-4ca1-8cd1-f5b9057692ae/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a stone paver (manual labor), which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
+    "reason": "The job requires proficiency in Finnish as a work language, which the candidate does not possess, and this is a hard rejection criterion.",
     "id": "fd56b3c2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-22",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "CAD-piirt\u00e4j\u00e4 laivojen sisustusrakentamiseen, Metalliasennus Huuhka Oy (Sauvo)",
@@ -17834,15 +17825,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e75c184f-f179-47f8-bc45-db4716e0e756/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a CAD drafting position in shipbuilding, which falls under pure technical design/engineering rather than the candidate's specialized background in release management, CI/CD, and quality/regulatory compliance.",
+    "reason": "The job requires a CAD drafter for ship interior construction, which does not align with Priya's expertise in configuration management, release management, DevOps/CI-CD, technical writing, or quality gatekeeping in regulated industries.",
     "id": "85abc4f4",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Kurottajakuljettajille t\u00f6it\u00e4",
@@ -17851,15 +17841,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4b7c690a-a181-4a24-b03b-9b75ef313305/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction equipment operator, which does not match the candidate's technical/engineering profile, and it requires fluent Finnish.",
+    "reason": "The job requires fluent Finnish as a mandatory requirement, which the candidate does not possess.",
     "id": "d2d5a988",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Poraaja",
@@ -17868,15 +17857,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/62015090-d64f-4429-8df4-6620418500b3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a manual labor position (rock driller) requiring fluent Finnish, which does not match the candidate's technical/engineering background or language requirements.",
+    "reason": "The job requires fluent Finnish as a key skill, which the candidate does not possess, and the role (driller) is unrelated to her expertise in technical communication, configuration management, or DevOps.",
     "id": "3b2e21db",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Ohjaajia keikkaty\u00f6h\u00f6n Helsinkiin / Tavana Manteli",
@@ -17885,15 +17873,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d557c113-3d49-4de5-a14b-31378333e98b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a professional healthcare qualification (l\u00e4hihoitaja) and registration with Valvira, which the candidate does not possess.",
+    "reason": "The job is for a care support role (guide for shift work) in social services, which does not align with the candidate's technical/regulated-industry experience in configuration management, release engineering, or technical writing.",
     "id": "5f06dec0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Rakennusapulainen, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -17902,15 +17889,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ddefb303-1f4e-4292-824e-bbfe55be7f57/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction assistant, which is completely unrelated to the candidate's technical background, and the application period has already expired.",
+    "reason": "The job title 'Rakennusapulainen' (Construction Helper) and description indicate physical labor on construction sites with no technical, regulatory, or documentation-related responsibilities, which does not match the candidate's expertise in configuration management, release engineering, technical writing, or regulated-industry quality compliance.",
     "id": "ec8e1045",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Astiahuoltaja, Keikkaty\u00f6",
@@ -17919,15 +17905,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/37ab38ec-9288-4cd7-a77b-53eda788a8e6/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a dishwasher (astiahuoltaja) in the restaurant industry, which does not align with the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "The job requires dishwashing and cleaning duties in a restaurant, which does not align with Priya's expertise in technical communication, configuration management, release management, or regulated-industry quality compliance.",
     "id": "fec4c1db",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "added_at": "2026-09-09T14:14:20+03:00",
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "added_at": "2026-09-09T14:14:20+03:00"
   },
   {
     "title": "Tarvittaessa t\u00f6ihin kutsuttavia siivoojia, Oulu ja Raahe",
