@@ -6293,15 +6293,14 @@
     "url": "https://hu.linkedin.com/jobs/view/application-specialist-at-femtonics-4375542409",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Budapest, Hungary, and does not meet the criteria for remote work in Finland, nor does the candidate possess the required Master's or PhD in neurobiology or physics.",
+    "reason": "The role is physically located in Budapest, Hungary, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "b9395171",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "2026-03-13",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Product Specialist (Riga / Szczecin / Germany)",
@@ -6310,15 +6309,14 @@
     "url": "https://lv.linkedin.com/jobs/view/product-specialist-riga-szczecin-germany-at-the-customization-group-4456201568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is based in Riga, Latvia, which does not meet the location criteria of being in Finland or a fully remote role accessible from Finland.",
+    "reason": "The role is an on-site position in Riga, Latvia, which does not meet the requirement of being located in Finland or being a fully remote role accessible from Finland.",
     "id": "29c04008",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Product Solutions Specialist \u2013 full time",
@@ -6327,15 +6325,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-solutions-specialist-%E2%80%93-full-time-at-velux-4440974272",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Italy and is not a remote role, which violates the location requirements for candidates based in Finland.",
+    "reason": "The job is located in Italy and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "20427cc1",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Lead Fabric / Data Platform Consultant, Finland (multiple locations)",
@@ -6351,8 +6348,7 @@
     "deadline": "2026-09-30",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "EHS Senior Specialist",
@@ -6361,15 +6357,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=47afb57fbb77e6c9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and the domain (Environmental Health & Safety) does not align with her technical software/release management background.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and the job function (Environmental Health & Safety) does not align with her technical software/release management background.",
     "id": "a66dcbed",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Team Lead Operational Excellence EMEA (m/f/d)",
@@ -6378,15 +6373,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=15566307e9645a26",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Krak\u00f3w, Poland, and requires a hybrid on-site presence, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The role is a hybrid position located in Krak\u00f3w, Poland, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "eb0e30eb",
     "source": "indeed_fi_product_specialist",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Digital Quality System Lead and Digital Quality System Manager",
@@ -6394,16 +6388,15 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=794a3d066667774f",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job description URL returned an HTTP 400 error, making it impossible to verify the role requirements or confirm if it meets the candidate's criteria.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns perfectly with the candidate's expertise in quality management systems, regulatory compliance, and documentation within a regulated industry, and it is located in Finland.",
     "id": "6cd6b586",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "description_file": "job_descriptions/orion_corporation_digital_quality_system_lead_an_6cd6b586.txt",
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Key Account Manager \u2013 Power & Grid",
@@ -6412,15 +6405,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3a83dc5fe679d735",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position (Key Account Manager), which is a hard rejection based on the candidate's profile requirements.",
+    "reason": "The job description is inaccessible (Access Denied), and the title 'Key Account Manager' suggests a sales-focused role which is a hard rejection criteria.",
     "id": "504eef7f",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Localization Specialist",
@@ -6429,15 +6421,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6a74ef919d54a6fb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is incomplete and contains only navigation/verification elements, making it impossible to evaluate the role's requirements or confirm it is a match.",
+    "reason": "The job requires mandatory fluency in Finnish, which the candidate does not possess.",
     "id": "84c41b2f",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Quality Process Specialist, Fab processes",
@@ -6446,15 +6437,14 @@
     "url": "https://fi.indeed.com/viewjob?jk=123456789abcdef0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Austin, TX, USA, which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in Austin, TX, USA, which violates the strict non-negotiable exclusion for any roles located in or restricted to the United States.",
     "id": "f1767aec",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Junior Software QA Engineer",
@@ -6463,15 +6453,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8baaca068289afce",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is located in Finland and aligns with the candidate's QA/Technical background, but it is labeled as 'Junior', which may be below her 15 years of experience level.",
+    "reason": "While the role is located in Finland and aligns with her quality background, it is explicitly titled 'Junior' and focuses on feature-level testing and PLC programming, which deviates from her senior-level release/configuration management expertise.",
     "id": "3866912e",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Product Solutions Specialist - Europe, 100% remote",
@@ -6479,16 +6468,15 @@
     "location": "Berlin, Germany",
     "url": "https://fi.indeed.com/rc/clk?jk=579b08032e6cd94b",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Berlin, Germany, which violates the hard rejection policy against on-site or hybrid roles outside of Finland.",
+    "matches_requirements": "maybe",
+    "reason": "The role is fully remote and the company is based in Switzerland, but it is unclear if they accept applicants residing in Finland as the posting specifies 'Europe' without explicitly confirming or excluding Finland.",
     "id": "32b48e5c",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Satellite Operations Specialist",
@@ -6497,15 +6485,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=894c595db95649ac",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is incomplete and contains only navigation/error-handling boilerplate, making it impossible to verify if the role aligns with the candidate's professional requirements.",
+    "reason": "The provided job description text is incomplete and contains no information regarding the role's responsibilities, making it impossible to determine if it aligns with the candidate's configuration management or technical communication expertise.",
     "id": "16dc8728",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:20:16+03:00"
   },
   {
     "title": "Senior Researcher",
@@ -6514,32 +6501,30 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2cf3bb3902649822",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a 'Senior Researcher', which does not align with the candidate's expertise in Configuration Management, Release Management, DevOps, or Technical Communication.",
+    "reason": "The role is a specialized analytical chemistry research position requiring an MSc in Chemistry, which does not align with the candidate's background in software engineering, configuration management, and technical communication.",
     "id": "7cfa9858",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-30",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Privacy, Data & Cyber Regulatory Counsel",
-    "company": "Extract from page",
-    "location": "Extract from page",
+    "company": "Nokia",
+    "location": "Espoo, Finland; Amadora, Portugal",
     "url": "https://fi.indeed.com/rc/clk?jk=62bf6693cecd3a0b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description provided is incomplete and does not contain sufficient information to evaluate the role, company, or location.",
+    "reason": "The role is a legal counsel position requiring a qualified lawyer with 10 years of post-qualification legal experience, which does not align with the candidate's background in engineering, configuration management, and technical communication.",
     "id": "0982bd44",
     "source": "indeed_fi_product_specialist_p2",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Project Delivery Specialist - Helsinki",
