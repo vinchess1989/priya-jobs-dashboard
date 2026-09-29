@@ -20441,15 +20441,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cost-manager-at-roa-talent-4465077099",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role is focused on construction cost management, which does not align with the candidate's technical software/DevOps/quality background.",
+    "reason": "The job title 'Cost Manager' does not align with Priyanga Ramachandran's target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) or her experience in regulated/safety-critical industries.",
     "id": "e4de8a91",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-05",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Workday Lead Compensation Consultant",
@@ -20458,15 +20457,14 @@
     "url": "https://fi.linkedin.com/jobs/view/workday-lead-compensation-consultant-at-kainos-4465086262",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires mandatory proficiency in Finnish, which the candidate does not possess.",
+    "reason": "The job requires Workday HCM and compensation expertise, which is outside the candidate's background in configuration management, release engineering, and technical writing, as well as mandatory Finnish proficiency that she does not possess.",
     "id": "66185a3c",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Senior Lighting Artist",
@@ -20475,15 +20473,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-lighting-artist-at-housemarque-4465086362",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized creative/artistic position (Senior Lighting Artist) which falls under the hard rejection for pure feature-development/creative roles, as it does not involve release management, configuration management, or quality engineering.",
+    "reason": "The job role (Senior Lighting Artist) does not align with Priya's domain/role-type criteria, which focus on DevOps, configuration management, release management, technical writing, quality engineering, or safety-critical roles.",
     "id": "5ffed28e",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Delivery Specialist",
@@ -20491,16 +20488,15 @@
     "location": "Jyv\u00e4skyl\u00e4, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=0bd92cc20f4ef4c6",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The provided job description text is empty and contains no information regarding the role's responsibilities, requirements, or specific location details to evaluate against the candidate's profile.",
+    "matches_requirements": "maybe",
+    "reason": "The job description is unavailable (404 error), making it uncertain whether 'Delivery Specialist' aligns with the candidate's expertise in configuration management, release engineering, or regulated-industry quality/compliance roles.",
     "id": "8eb07de4",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Viittomakielen ja tulkkauksen koulutuksen lehtori Helsinkiin",
@@ -20509,15 +20505,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5bd52df4696fd8c1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a lecturer in sign language and interpretation, which does not align with the candidate's technical, engineering, and quality-management background.",
+    "reason": "The job requires a lecturer in sign language and interpretation education, which does not align with Priya's technical background in configuration management, release engineering, or technical writing.",
     "id": "9cc25e43",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Erityisluokanopettajan sijaisuus",
@@ -20526,15 +20521,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a01c027f9bb95e70",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a special education teacher (Erityisluokanopettaja), which is completely unrelated to the candidate's technical, engineering, and quality-management background.",
+    "reason": "The job title 'Erityisluokanopettajan sijaisuus' (substitute special needs teacher) does not align with Priyanga Ramachandran's technical/regulated-industry experience in DevOps, Configuration Management, or Quality Assurance.",
     "id": "0209db0f",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Sairaanhoitaja Allergiasairauksien Aikuisyksikk\u00f6",
@@ -20543,15 +20537,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=33c04e5b4b37e6a5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a clinical nurse (Sairaanhoitaja), which requires a clinical medical license and falls under the hard rejection for clinical/medical roles.",
+    "reason": "The job requires clinical nursing responsibilities (allergy unit) with potential language/medical-licensing requirements, which are outside the candidate's technical/release-management expertise and explicitly excluded under Hard Rejections.",
     "id": "42e3b571",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Timl\u00e4rare i huvudsyssla som speciall\u00e4rare, Vasa \u00f6vningsskola",
@@ -20560,15 +20553,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=14627e82c584ac09",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a special education teacher, which does not align with the candidate's technical, engineering, and quality-management background.",
+    "reason": "The job requires a special education teacher role, which does not align with Priya's technical background in configuration management, release engineering, and DevOps.",
     "id": "5b6c3c6c",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Group Controller, Solwers-konserni",
@@ -20584,8 +20576,7 @@
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Support Specialist (Bezala), Renance Oy Espoo",
@@ -20594,15 +20585,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=54a58ca4ffd89316",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is incomplete and contains only navigation/metadata elements, making it impossible to verify if the role aligns with the candidate's professional requirements.",
+    "reason": "The job title 'Support Specialist' does not align with Priya's target roles (e.g., DevOps Engineer, Configuration Manager, Technical Writer) or her experience in regulated/safety-critical domains.",
     "id": "800f3cba",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Ty\u00f6terveysl\u00e4\u00e4k\u00e4ri, Eura, Harjavalta ja Kokem\u00e4ki",
@@ -20611,15 +20601,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3fa3097d3781bb54",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a clinical medical doctor (Ty\u00f6terveysl\u00e4\u00e4k\u00e4ri), which violates the hard rejection regarding clinical/medical license requirements.",
+    "reason": "The job requires a clinical medical license (Occupational Health Physician role), which is explicitly excluded under Hard Rejections as Priya's experience is documentation/quality-regulatory adjacent, not clinical practice.",
     "id": "aeb4f2c8",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Pincho Nation Turku hakee kokkeja",
@@ -20627,16 +20616,15 @@
     "location": "Turku, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=09789ac8836ae9a0",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a chef (kokki) in the hospitality industry, which does not align with the candidate's technical, engineering, and quality-management background.",
+    "matches_requirements": "maybe",
+    "reason": "The job title suggests a test engineer role, which aligns with one of the user\u2019s approved constraints, but the description lacks explicit details on requirements, making it uncertain if Finnish language skills (which the user does not have) are mandatory.",
     "id": "83a05f14",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Automyyj\u00e4 Friisil\u00e4",
@@ -20645,15 +20633,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2df8b6bc967669ac",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position ('Automyyj\u00e4' translates to Car Salesperson), which falls under the hard rejection for sales roles mislabeled as product-related.",
+    "reason": "The job title 'Automyyj\u00e4 Friisil\u00e4' (Salesperson) appears to be a quota-carrying sales role, which is explicitly excluded under Hard Rejections due to the candidate's non-sales 'Product Specialist' background and strict avoidance of mislabeled sales roles.",
     "id": "a4e459c3",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "L\u00e4hihoitaja, Attendo Sammalkallio, Espoo",
@@ -20661,16 +20648,17 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=4f7eab7329145c7d",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for a clinical healthcare professional (L\u00e4hihoitaja/Practical Nurse), which requires a clinical license and falls under the hard rejection for clinical/medical roles.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "d66ca7a1",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
-    "deadline": "2026-09-30",
+    "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
     "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-09-30T02:37:59+03:00"
   },
   {
     "title": "Plasmaleikkaaja, Tampere",
@@ -20679,15 +20667,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=55150d414c55f668",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a plasma cutter (Plasmaleikkaaja), which is a manual labor/manufacturing position that does not align with the candidate's technical, engineering, or documentation-focused career path.",
+    "reason": "Job title does not match the required domain/role types for the candidate.",
     "id": "c04db61b",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Aputy\u00f6ntekij\u00e4 Pietarsaaren alueelle",
