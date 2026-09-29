@@ -4819,15 +4819,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-f-h-at-groupe-sii-4422432543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Le Mans, France, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in Le Mans, France, which is outside Finland and not fully remote, disqualifying it under Priya's strict location requirements.",
     "id": "0fcb6b44",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager H/F",
@@ -4836,15 +4835,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-nexton-4460608285",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bordeaux, France, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is located in Bordeaux, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "a8805ff8",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager",
@@ -4853,15 +4851,14 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-luxoft-romania-4463324922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bucharest, Romania, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job location is Bucharest, Romania, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection.",
     "id": "6374e946",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -4887,16 +4884,15 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=eb87a3128e33d0d3",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "While the role involves significant QA, documentation, and project management responsibilities that align with her background, it is primarily a construction-site-based electrical engineering role rather than a software/firmware release or configuration management position.",
+    "matches_requirements": "no",
+    "reason": "The job title 'Senior Electrical Engineer' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or technical documentation ownership, and lacks alignment with her regulated-industry experience.",
     "id": "ad9631e6",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Quality Engineer",
@@ -4904,16 +4900,15 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=ce1edd90b95e96c9",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with her quality engineering and documentation experience, but it is focused on construction/engineering site quality rather than the software/embedded systems domain she has specialized in for 15 years.",
+    "matches_requirements": "no",
+    "reason": "The Quality Engineer role at Mercury Engineering focuses on construction/engineering quality assurance and ISO 9001 compliance, which differs from the candidate\u2019s expertise in regulated software industries (MDR/ISO 13485, ASPICE/TUV) and technical documentation/release management.",
     "id": "d18c740c",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Electrical Engineer",
@@ -4922,15 +4917,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a7a961593a7e5134",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a site-based construction/electrical engineering position focused on physical site operations and hardware installation, which does not align with the candidate's software-focused release, configuration management, and technical communication background.",
+    "reason": "The job title 'Electrical Engineer' and responsibilities focus on construction project management and electrical systems, which do not align with Priya's expertise in DevOps, release management, technical writing, or regulated-industry quality/compliance roles.",
     "id": "e56e8d80",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Mechanical Engineer",
@@ -4939,15 +4933,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8192260d7070764c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Mechanical Engineer focused on construction site operations and mechanical systems, which does not align with the candidate's background in software release management, DevOps, and technical documentation.",
+    "reason": "The job title 'Mechanical Engineer' does not align with Priyanga Ramachandran's expertise in Configuration Management, Release Management, DevOps/CI-CD, or technical writing/documentation, and falls outside her target role categories.",
     "id": "467b3491",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -4956,15 +4949,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/technical-release-manager-stshe-20441694",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a perfect match for the candidate's extensive experience in release management, CI/CD, and configuration management within a high-tech, regulated environment in Finland.",
+    "reason": "The role of Technical Release Manager at ICEYE in Espoo, Finland aligns with Priya's experience in release management, configuration management, and regulated industries, meeting all target criteria including location, role type, and experience level.",
     "id": "95c0786a",
     "source": "duunitori_release_manager",
     "posted_date": "2026-07-21",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": "job_descriptions/iceye_technical_release_manager_95c0786a.txt",
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Technical Sales Specialist",
@@ -4973,15 +4965,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-specialist-at-insta-4459506896",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires excellent Finnish language skills, which the candidate does not possess, and the application period has already closed.",
+    "reason": "The job is a quota-carrying sales role labeled as 'Technical Sales Specialist', which falls under the Hard Rejection for such roles mislabeled as 'Product Specialist' or similar, despite her prior technical/quality Product Specialist experience.",
     "id": "348193b1",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Product Line Specialist",
@@ -4990,15 +4981,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-line-specialist-at-amcor-4407884333",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a sales-support and commercial-analytics role focused on pricing and market positioning, which falls under the hard rejection for quota-carrying/sales-team roles mislabeled as 'Product Specialist'.",
+    "reason": "The role is a sales-support focused 'Product Line Specialist' with no alignment to configuration management, release processes, CI/CD, or technical documentation ownership that match Priya's expertise.",
     "id": "bf32ec10",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "il y a 5 mois",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Field Clinical Specialist, EP (Southern Finland)",
@@ -5007,15 +4997,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-clinical-specialist-ep-southern-finland-at-boston-scientific-4445987866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires professional proficiency in Finnish, which the candidate does not possess, and it is a clinical field-support role rather than the technical/quality/release-management focus of her background.",
+    "reason": "The job requires professional working proficiency in Finnish (or another Nordic language) as a mandatory qualification, which the candidate does not possess.",
     "id": "4be33b07",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Product Specialist",
@@ -5042,15 +5031,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-application-engineer-electrification-at-danfoss-4436935000",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Although the location in Finland and English language requirements are met, the role requires a specialized background in electrical engineering, power electronics, and electric machines, which does not align with her core expertise in release management, configuration management, and technical writing.",
+    "reason": "The job requires a Product Application Engineer with expertise in electric machines and power electronics, which does not align with the candidate's background in configuration management, release management, or technical documentation in regulated industries.",
     "id": "9a58d1f7",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-06",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Digimyynnin ja teknisen kehityksen asiantuntija",
@@ -5058,16 +5046,15 @@
     "location": "P\u00e4ij\u00e4t-H\u00e4me, Finland",
     "url": "https://fi.linkedin.com/jobs/view/digimyynnin-ja-teknisen-kehityksen-asiantuntija-at-staffpoint-oy-4462299347",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish, which the candidate does not possess, and the role is focused on digital sales and e-commerce business development rather than the candidate's core expertise in release management, quality, or technical documentation.",
+    "matches_requirements": "maybe",
+    "reason": "The job involves digital sales and technical development, which may align with technical/product specialist experience but lacks explicit focus on regulated-industry release/CM/DevOps roles or technical writing that match Priya's background.",
     "id": "0fbb1090",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Forestry Specialist, Digital Solutions",
@@ -5076,15 +5063,14 @@
     "url": "https://fi.linkedin.com/jobs/view/forestry-specialist-digital-solutions-at-john-deere-4461611213",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which the candidate does not possess, and the core domain focus is on forestry industry expertise rather than the candidate's background in release management, DevOps, or quality engineering.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "31038c16",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Technical Specialist",
@@ -5093,15 +5079,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-specialist-at-plm-group-4456718751",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish, which the candidate does not possess, and the application period is closed.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "5e2c5ed2",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:20:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:20:46+03:00"
   },
   {
     "title": "Medical Operations - Finland",
