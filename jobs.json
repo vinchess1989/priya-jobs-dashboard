@@ -13822,16 +13822,15 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-at-fluido-4408795864",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The candidate is a certified Salesforce Administrator and App Builder with previous Salesforce experience, making her a strong fit for this senior-level Solution Architect role in Finland.",
+    "matches_requirements": "maybe",
+    "reason": "Although the role is a Solution Architect focusing heavily on Salesforce (which matches her certifications and background), it is more consultative and architect-focused than her core release management and technical communication domains.",
     "id": "6b69382d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-05-12",
     "deadline": "Open until filled",
-    "description_file": "job_descriptions/fluido_solution_architect_6b69382d.txt",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "description_file": null,
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Solution Architect",
@@ -13839,16 +13838,15 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-at-fluido-4409002246",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The candidate is a certified Salesforce Administrator and App Builder with experience on Salesforce platforms, and the role is located in Finland.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Salesforce Solution Architect which matches her Salesforce certifications and admin background, but focuses more on consulting and architectural design than her core release management or technical documentation expertise.",
     "id": "2bb3c4ad",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "il y a 4 mois",
+    "posted_date": "5 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/fluido_solution_architect_2bb3c4ad.txt",
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null,
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "SAP Security Manager",
@@ -13857,15 +13855,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-security-manager-at-ssab-4459897967",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires extensive hands-on experience and specialized security certifications (such as CISSP, CISM, or CRISC) focused purely on SAP cybersecurity architecture and governance, which falls outside the candidate's core release management and technical communication background.",
     "id": "3e21a94f",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Tender Manager",
@@ -13873,16 +13870,15 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/tender-manager-at-schneider-electric-4454776905",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves technical analysis and documentation which aligns with her skills, but it is a commercial tender management position rather than her primary focus on release, configuration, or quality management.",
+    "matches_requirements": "no",
+    "reason": "Although the role is located in Finland and requires English, it is a commercial tender/sales management position rather than a DevOps, configuration management, technical writing, or quality role matching her background.",
     "id": "e8d1bb45",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Gestionnaire configurations - F/H",
@@ -13891,15 +13887,14 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-configurations-f-h-at-reisel-4459682602",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in France, outside Finland and not remote.",
+    "reason": "The job is physically located in Toulouse, France, which violates the candidate's location criteria requiring roles to be either in Finland or fully remote.",
     "id": "d9cbf32b",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Konfiguration Manager (m/w/d)",
@@ -13908,15 +13903,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfiguration-manager-m-w-d-at-aip-services-gmbh-4457710917",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not listed as a remote position that allows working from Finland.",
+    "reason": "The job is physically located in Germany (Immenstaad am Bodensee) and is neither in Finland nor a fully remote role open to candidates living in Finland.",
     "id": "992225db",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Konfigurationsmanager - Ferngesteuerte Waffenstationen (m/w/d)",
@@ -13925,15 +13919,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-ferngesteuerte-waffenstationen-m-w-d-at-rheinmetall-4438743322",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Bremen, Germany, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is physically located in Bremen, Germany, and does not offer a remote option for candidates living in Finland, violating the location constraint.",
     "id": "3176300a",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Senior Product Manager",
@@ -13942,15 +13935,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-at-benjamin-4446534644",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a mobile/consumer app product management role requiring ad-tech and UA (user acquisition) economics background, which does not align with the candidate's core release management, DevOps, and quality/regulatory compliance profile.",
+    "reason": "The role requires extensive hands-on product management experience in mobile-first consumer apps, mobile games, or ad tech with metrics like ROAS and user acquisition, which does not align with her background in release management, configuration management, and DevOps.",
     "id": "2475087c",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "il y a 1 mois",
+    "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Technical Program Manager ID83550",
@@ -13959,15 +13951,14 @@
     "url": "https://bg.linkedin.com/jobs/view/technical-program-manager-id83550-at-agileengine-4458631786",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted ('Les candidatures ne sont plus accept\u00e9es').",
+    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "278b8128",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Technical Program Manager ID83550",
@@ -13976,15 +13967,14 @@
     "url": "https://bg.linkedin.com/jobs/view/technical-program-manager-id83550-at-agileengine-4458629818",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Bulgaria, outside Finland and not remote worldwide, disqualifying per location rules.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "41f25cd8",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Timpuri",
@@ -13993,15 +13983,14 @@
     "url": "https://fi.linkedin.com/jobs/view/timpuri-at-kevyt-remppa-4449075486",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a carpenter in the construction industry and requires Finnish language skills, which are both unrelated to the candidate's professional background.",
+    "reason": "The role is for a carpenter (timpuri) requiring fluent Finnish and manual construction skills, which completely mismatch Priya's technical communication and software release management background.",
     "id": "07e167a1",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -14010,15 +13999,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-nodeon-4447304240",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "This is an open application for various roles, but the company's focus on automation and software development aligns with the candidate's expertise.",
+    "reason": "This is an open application for Nodeon in Jyv\u00e4skyl\u00e4, Finland, which welcomes candidates in software development and automation, though it is not a targeted release management or technical communication role.",
     "id": "bdf45553",
     "source": "linkedin_fi_broad",
     "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Avoin hakemus Boliden Kokkola",
@@ -14027,15 +14015,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-boliden-kokkola-at-boliden-3948173743",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a general open application for various industrial and support roles at a zinc factory, rather than a specific job posting for a DevOps, Release, or Technical Writing specialist.",
+    "reason": "This is a general open application pool for industrial, production, maintenance, and laboratory roles at a zinc refinery, which does not match Priya's profile in release management, configuration management, or technical communication.",
     "id": "59e7b704",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Avoin hakemus Vaasan Oy",
@@ -14044,15 +14031,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-vaasan-oy-at-lantm%C3%A4nnen-unibake-4358934142",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "This is an open application for future roles, so a specific match to the candidate's technical or release management expertise cannot be confirmed at this time.",
+    "reason": "This is an open application (avoin hakemus) for Vaasan Oy in Finland, which could potentially match technical or quality roles if submitted, though it is not a specific targeted job posting.",
     "id": "ee95ffbd",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Avoin hakemus Lantm\u00e4nnen Cerealia",
@@ -14060,16 +14046,15 @@
     "location": "Kotka, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-lantm%C3%A4nnen-cerealia-at-lantm%C3%A4nnen-4137878747",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "Job posting does not specify a role matching the candidate's expertise.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application (avoin hakemus) at Lantm\u00e4nnen in Kotka, Finland, which could potentially align with quality or administrative roles, though it is not a specific technical or release management position.",
     "id": "023f3051",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "22 tuntia sitten",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:57:25+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:57:25+03:00"
   },
   {
     "title": "Interest in EY-Parthenon?",
