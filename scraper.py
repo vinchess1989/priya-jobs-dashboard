@@ -150,6 +150,10 @@ _KEYWORD_TERMS = [
     {"en": "Quality Manager"},
     {"en": "EU MDR"},
     {"en": "ISO 13485"},
+    {"en": "Functional Safety"},
+    {"en": "Safety Critical"},
+    {"en": "IEC 61508"},
+    {"en": "ISO 26262"},
 ]
 
 # ── Sites that accept a keyword injected into the URL ─────────────────────

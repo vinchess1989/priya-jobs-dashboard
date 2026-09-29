@@ -1,5 +1,20 @@
 # Project Memory — priya_jobs
 
+## Safety-critical / functional-safety search terms; manual jobs get wiped (2026-09-29)
+
+- Priya asked (after tailoring for a manually-shared ALTEN "Requirement Engineer – Safety Critical
+  Software" role, id `a17e0001`) that similar jobs be found automatically. Added `_KEYWORD_TERMS`
+  "Functional Safety", "Safety Critical", "IEC 61508", "ISO 26262" and a matching Domain/Role bullet in
+  `job_requirements.md` (yes for requirements/traceability/certification-support work under any FuSa
+  standard; "maybe" when the core job is a certified FuSa-engineer credential or FMEA/FTA/HAZOP/SIL work).
+  The scraper runs on Vineeth's PC, so the new terms apply after it pulls and restarts.
+- **Hand-added `jobs.json` entries are fragile.** The manual Nokia job `de5e0002` vanished in the
+  2026-09-23 22:39 auto-update from Vineeth's PC (a stale-copy rewrite: -24.8k lines across
+  `jobs.json`/`jobs_history.json`), and the scraper's `git pull --rebase -X theirs` resolves any
+  `jobs.json` conflict in favour of its own copy. After adding a manual job (`source: "manual_add"`),
+  re-check it survives the next scraper push; `a17e0001` uses the placeholder URL
+  `manual://alten-finland/requirement-engineer-safety-critical/a17e0001` (no public posting exists).
+
 ## Firestore locked down; Python scripts use a service account (2026-09-28)
 
 `firestore.rules` used to leave `shared_state` / `user_feedback` readable and updatable by
