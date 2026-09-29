@@ -1038,15 +1038,14 @@
     "url": "https://mt.linkedin.com/jobs/view/cloud-engineer-at-pentasia-4448858183",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role located in Malta, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "Job is located in Malta and not remote, which does not meet the Finland or remote-from-Finland requirement.",
     "id": "98f5db6b",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1055,15 +1054,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-nasdaq-4445487843",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is physically located in Vilnius, Lithuania, with a hybrid work setup requiring on-site presence, which violates the candidate's requirement to be based in or fully remote from Finland.",
     "id": "bfc74c76",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1072,15 +1070,14 @@
     "url": "https://ro.linkedin.com/jobs/view/devops-engineer-at-opswat-4430969454",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Romania and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Timi\u015foara, Romania, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "d90c78c1",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1089,15 +1086,14 @@
     "url": "https://lu.linkedin.com/jobs/view/devops-engineer-at-sogeti-4341774320",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in French, which the candidate does not possess, and it is located in Luxembourg, which falls outside the allowed locations.",
+    "reason": "The job is located in Luxembourg and requires fluency in French, which does not meet the location or language criteria for the candidate.",
     "id": "df76f5ba",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2025-12-12",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1106,15 +1102,14 @@
     "url": "https://hr.linkedin.com/jobs/view/devops-engineer-at-elixirr-digital-4304884181",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hybrid position based in Croatia, which falls under the hard rejection criteria for on-site/hybrid roles outside of Finland.",
+    "reason": "The role is a hybrid position located in Croatia, which violates the requirement that on-site or hybrid roles must be located in Finland.",
     "id": "3adeef5c",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1123,15 +1118,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-skrey-4448938235",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Portugal and is not remote, which violates the location requirements for non-Finland roles.",
+    "reason": "The job is located in Portugal and is not remote, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "5de14a1a",
     "source": "linkedin_eu_remote_devops_engineer_p2",
-    "posted_date": "1 maand geleden",
+    "posted_date": "2026-08-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1140,15 +1134,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-air-apps-4461160895",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Brazil, which falls outside of Finland and does not meet the location criteria for remote work.",
+    "reason": "The job is located in Brazil, which falls outside of Finland and is not a remote role accessible to someone living in Finland.",
     "id": "d5ef439e",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "Kokenut j\u00e4rjestelm\u00e4kehitt\u00e4j\u00e4 (integraatiot ja alustat) - Avoin haku",
@@ -1157,15 +1150,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=05954a652e7c946a",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "While the role emphasizes DevOps and platform engineering which align with the candidate's background, it is primarily a software development role which risks violating the 'Pure Feature-Development' rejection criteria.",
+    "reason": "While the role emphasizes DevOps and platform engineering which align with her skills, it is primarily a software development role which risks violating the 'Pure Feature-Development' hard rejection, though the focus on integrations and platform engineering makes it a potential fit.",
     "id": "ecd371fb",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "Software Engineer",
@@ -1174,15 +1166,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=54688743b9774c9a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent spoken and written Finnish, which the candidate does not possess, and it is a pure software engineering role focused on feature development rather than release or configuration management.",
+    "reason": "The job requires fluent Finnish, which the candidate does not possess, and it is a pure software engineering role focused on feature development rather than the candidate's specialized release/CM/quality background.",
     "id": "6b0373a7",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "AI Engineer - Analytics, Planning and AI",
@@ -1191,15 +1182,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=be7eb474e572ae57",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description provided returned an HTTP 400 error and contains no content to evaluate against the candidate's requirements.",
+    "reason": "The role is a pure feature-development software engineering position focused on AI and analytics, which falls under the hard rejection for pure software development roles.",
     "id": "b2502084",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "Senior Cloud Engineer",
@@ -1207,16 +1197,15 @@
     "location": "Finland, Spain; Fully Remote",
     "url": "https://fi.indeed.com/rc/clk?jk=f361f6e7efc1d768",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is fully remote and includes Finland, but the job description text provided is incomplete and lacks specific details regarding the technical responsibilities to confirm if it aligns with her DevOps/CM/Release background.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with the candidate's DevOps, CI/CD, and configuration management expertise, and the location (Finland/Spain/Remote) is compatible with her requirements.",
     "id": "355b918e",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "description_file": "job_descriptions/easor_senior_cloud_engineer_355b918e.txt",
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -1225,15 +1214,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3b38860e12bb7153",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is incomplete and contains only website navigation/error elements, making it impossible to verify the role's responsibilities or suitability.",
+    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's release management, configuration management, or technical communication expertise.",
     "id": "0a01ce58",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "Associate Solutions Architect , AWS Finland",
@@ -1242,15 +1230,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5879cb9fab112796",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Solutions Architect position focused on cloud architecture and sales-adjacent technical consulting, which does not align with the candidate's core experience in release management, configuration management, or technical documentation.",
+    "reason": "The role is a pre-sales/customer-facing Solutions Architect position, which falls under the 'Quota-Carrying Sales Roles' exclusion and deviates from her core expertise in release management, configuration management, and quality/regulatory compliance.",
     "id": "277ae730",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "AI Forward Deployed Engineer",
@@ -1259,15 +1246,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a5f1e6636d2fc227",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's release management, configuration management, or technical communication expertise.",
+    "reason": "The role is primarily focused on hands-on AI/ML feature development and engineering, which violates the hard rejection against pure feature-development software engineering roles.",
     "id": "73c544e8",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "Junior Software Developer-Managed Services team",
@@ -1276,15 +1262,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=08e41726d2d88ff7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a 'Junior Software Developer' position focused on feature development, which violates the hard rejection criteria regarding pure feature-development software engineering and the candidate's seniority level.",
+    "reason": "The role is a pure software development position focused on feature-level coding, which violates the hard rejection criteria regarding pure feature-development software engineering roles.",
     "id": "05ee3179",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:01:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:01:02+03:00"
   },
   {
     "title": "Junior Software Developer-Managed Services team",
