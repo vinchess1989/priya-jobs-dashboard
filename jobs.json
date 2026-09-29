@@ -10685,15 +10685,14 @@
     "url": "https://lt.linkedin.com/jobs/view/produkt%C5%B3-vadovas-%C4%97-%C5%A1vok-sprendimams-at-salda-uab-4458885091",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Lithuania, which violates the geographic requirement of being in Finland or fully remote.",
+    "reason": "The job is located in Lithuania and requires HVAC (\u0160VOK) industry experience, which does not match the candidate's background.",
     "id": "5c303235",
     "source": "linkedin_eu_product_specialist_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:44:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:44:59+03:00"
   },
   {
     "title": "EHS Senior Specialist",
@@ -10702,15 +10701,14 @@
     "url": "https://fi.indeed.com/viewjob?jk=cdef0123456789ab",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description failed to load due to a server error (HTTP 400 Bad Request) and lacks sufficient information to evaluate against the candidate's requirements.",
+    "reason": "The job description failed to load due to an HTTP error 400 Bad Request, preventing evaluation of the role.",
     "id": "f883465f",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:44:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:44:59+03:00"
   },
   {
     "title": "Design Engineer, Routing",
@@ -10719,15 +10717,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6a7aa8b6a22667f0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Design Engineer focused on routing hardware/electrical systems rather than Priya's expertise in configuration management, release engineering, DevOps, or technical communication.",
+    "reason": "This is a mechanical design engineering role focused on routing for heavy machinery rather than her core background in configuration management, release engineering, or technical communications.",
     "id": "111e259d",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Product Sales Specialist",
@@ -10736,15 +10733,14 @@
     "url": "https://www.jobly.fi/tyopaikka/product-sales-specialist-2751187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a sales-focused role ('Product Sales Specialist'), which falls under the hard rejection rule for quota-carrying or outbound sales positions mislabeled as product specialist roles.",
+    "reason": "This is a quota-carrying sales role ('Product Sales Specialist') which falls under the hard rejection criteria for sales-focused positions.",
     "id": "c14f03b6",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Product Data Specialist",
@@ -10753,15 +10749,14 @@
     "url": "https://www.jobly.fi/tyopaikka/product-data-specialista-2744875",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (not voimassa).",
+    "reason": "The job posting explicitly states that it is no longer active and accepting applications.",
     "id": "9c27d2dc",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Technical Support Specialist, Virta, Helsinki",
@@ -10770,15 +10765,14 @@
     "url": "https://www.jobly.fi/tyopaikka/technical-support-specialist-virta-helsinki-2727871",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent spoken and written Swedish, which the candidate does not speak.",
+    "reason": "The candidate does not meet the mandatory requirement for fluent/native Swedish language skills, which is explicitly required for this trilingual role.",
     "id": "4c5943fb",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Material Specialist, External Production",
@@ -10787,15 +10781,14 @@
     "url": "https://www.jobly.fi/tyopaikka/material-specialist-external-production-2746429",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa).",
+    "reason": "The job posting explicitly states that it is no longer accepting applications (t\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa).",
     "id": "03b69d7a",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Production Data Engineer",
@@ -10804,15 +10797,14 @@
     "url": "https://www.jobly.fi/tyopaikka/production-data-engineer-2748856",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
+    "reason": "The job posting explicitly states that it is no longer active and accepts no further applications.",
     "id": "6bd1184c",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Product Manager - Security",
@@ -10820,16 +10812,15 @@
     "location": "Amsterdam",
     "url": "https://www.jobly.fi/tyopaikka/product-manager-security-2684297",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves security compliance frameworks, certification tracking, and cross-functional product management which aligns with her regulatory and compliance background, though it requires product management rather than release/CM focus.",
+    "matches_requirements": "no",
+    "reason": "The role is located in Amsterdam and is a dedicated Security Product Manager position requiring 3+ years of security product/program management, which does not align with the candidate's core release management, DevOps, and technical communication background.",
     "id": "1adcda8c",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Senior Engine Programmer",
@@ -10838,15 +10829,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-engine-programmer-at-brawl-stars-4442339873",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on game engine programming in C++, which conflicts with her last 8+ years of release, configuration management, and DevOps experience.",
+    "reason": "This is a pure feature-development and engine programming role focused on C++ game engines rather than release management, configuration management, DevOps, or quality gatekeeping.",
     "id": "35c766b1",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Engineering Manager, MAAS",
@@ -10855,15 +10845,14 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-manager-maas-at-canonical-4345276036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Although the remote location in EMEA fits, the role requires heavy feature engineering leadership and hands-on Python/Go software development in a pure software stack, violating the candidate's exclusion of pure feature-development engineering roles.",
+    "reason": "Although the location and remote options are compatible with Finland, this is a hands-on Engineering Manager role focusing on software development leadership in Python and Go for distributed systems, which does not align with her background in release management, configuration management, and technical communication.",
     "id": "950f06cb",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-01-12",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Software Engineer - K0s Team",
@@ -10872,15 +10861,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-k0s-team-at-mirantis-4449482859",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure feature-development and maintenance software engineering role focused on Golang and Kubernetes components rather than Priya's core configuration management, release engineering, or quality/regulatory expertise, and the posting also explicitly states that applications are no longer being accepted.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications and requires heavy feature development in Golang/Kubernetes core projects, which does not align with her release and configuration management profile.",
     "id": "b8e84ae3",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Software Engineering Manager - Cross-platform C++ - Multipass",
@@ -10889,15 +10877,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineering-manager-cross-platform-c%2B%2B-multipass-at-canonical-4340329433",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires deep hands-on expertise in modern C++ development and cross-platform architecture, whereas the candidate's background over the past 8+ years has been focused on release management, configuration management, and DevOps rather than feature software engineering.",
+    "reason": "Although located in Finland/EMEA and remote-friendly, this role is a Software Engineering Manager focusing on modern C++ and hypervisors, which clashes with her profile as a release, CM, and DevOps specialist rather than a core feature development/engineering manager.",
     "id": "3facedf1",
     "source": "linkedin_fi_broad",
-    "posted_date": "9 kuukautta sitten",
+    "posted_date": "2025-12-03",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Computer Vision (Camera) Researcher",
@@ -10906,15 +10893,14 @@
     "url": "https://fi.linkedin.com/jobs/view/computer-vision-camera-researcher-at-microtech-global-ltd-4428809098",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development and research role focused on computer vision, AI models, and computational photography, which directly violates the hard rejection against pure feature-development software engineering.",
+    "reason": "This is a specialized computer vision and AI research role requiring deep machine learning model development, which does not align with the candidate's configuration management, release management, or technical communication background.",
     "id": "635ce7a3",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Software Engineer, New product, Threat Detection, Full-stack",
@@ -10923,15 +10909,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-new-product-threat-detection-full-stack-at-hoxhunt-4461985598",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development full-stack software engineering role requiring deep hands-on TypeScript, React, Node.js, and MongoDB, which directly violates the candidate's hard rejection for pure feature-development coding roles.",
+    "reason": "This is a pure feature-development full-stack software engineering role requiring deep TypeScript and React experience, which violates the candidate's hard rejection criteria away from feature-development coding.",
     "id": "c2dc6a86",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Data Engineer",
