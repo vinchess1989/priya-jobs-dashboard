@@ -224,10 +224,8 @@ li {{ font-size: 8.2pt; line-height: 1.28; margin-bottom: 0.5px; }}
 <div class="col-right">
 <h2>{icon_competencies}{label_competencies}</h2>
 <div class="skill-block">{competencies_html}</div>
-<h2>{icon_achievements}{label_achievements}</h2>
-<div class="skill-block">{achievements_html}</div>
-<h2>{icon_publications}{label_publications}</h2>
-<div class="skill-block">{publications_html}</div>
+{achievements_section}
+{publications_section}
 </div>
 </div>
 
@@ -399,7 +397,19 @@ def generate(data_path, photo_path, out_dir):
     wage_note = r.get("wage_subsidy_note", "")
     wage_highlight_html = f'<div class="highlight-banner">{wage_note}</div>' if wage_note else ""
     labels = {**DEFAULT_LABELS, **r.get("labels", {})}
+    achievements = r.get("achievements", [])
+    achievements_section = (
+        f'<h2>{ICON_ACHIEVEMENTS}{labels["achievements"]}</h2>\n'
+        f'<div class="skill-block">{render_achievements(achievements)}</div>'
+    ) if achievements else ""
+    publications = r.get("publications_html", "")
+    publications_section = (
+        f'<h2>{ICON_PUBLICATIONS}{labels["publications"]}</h2>\n'
+        f'<div class="skill-block">{publications}</div>'
+    ) if publications else ""
     resume_html = RESUME_HTML.format(
+        achievements_section=achievements_section,
+        publications_section=publications_section,
         name=r.get("name", "Priyanga Ramachandran"),
         name_upper=r.get("name", "Priyanga Ramachandran").upper(),
         role=r.get("role", ""),

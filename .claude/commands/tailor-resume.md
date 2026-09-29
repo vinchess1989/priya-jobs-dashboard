@@ -161,7 +161,11 @@ English-only — Priya does not speak Finnish or Swedish, and her `job_requireme
 
 **`resume.volunteering`:** Always copy the entire array verbatim from the template (currently one entry: Namaste Oulu, a cultural program she successfully conducted as part of Oulu's European Capital of Culture, Oulu2026). Never omit this array — include it in every tailored resume regardless of role or company.
 
-Note: Priya's template has no `wage_subsidy_note`, `achievements`, `publications_html`, or `labels` fields — do not invent content for these; simply omit them (or copy them if a later edit to `master_data.json` ever adds real content there).
+**`resume.achievements`:** Always copy the entire array verbatim from the template (currently one entry: she successfully supported the ASPICE audit for an Elektrobit project, achieving ASPICE Level 2). Never omit it and never add achievements that aren't in the template.
+
+**Tools she has used (for `competencies_html`'s Tools line — pick those relevant to the posting, never add others):** the template's Tools list, which includes **EB REQM2** (Elektrobit's requirements management tool — always include for requirements-engineering roles, since postings often ask for "requirement management tool" experience), Visual Studio Code, and Jenkins/GitHub Actions (under CI/CD).
+
+Note: Priya's template has no `wage_subsidy_note`, `publications_html`, or `labels` fields — do not invent content for these; simply omit them. `make_resume.py` skips the Achievements/Publications headings entirely when those fields are empty.
 
 **`cover_letter.date`:** Use today's date formatted as `"9 September 2026"`.
 
