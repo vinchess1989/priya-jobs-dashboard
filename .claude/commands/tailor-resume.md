@@ -147,7 +147,9 @@ English-only — Priya does not speak Finnish or Swedish, and her `job_requireme
 
 **`resume.role`:** `"JOB_TITLE Candidate"`, or a natural short variant of it (e.g. `"DevOps Engineer | Release & Configuration Management"` if the exact job title reads awkwardly as "X Candidate").
 
-**`resume.profile`:** 2–3 sentences, highly specific to this role and company. Directly connect Priya's most relevant background (Configuration Management, Release Management, DevOps/CI-CD in regulated safety-critical industries) to the stated requirements. Do not just summarise her CV — name the company and what they need. Then always append her working-style sentences, copied from the end of the template's `profile` (beginning "Approaches challenges with a constructive mindset…"). She asked for these to be part of the first paragraph of every resume. Keep the wording; if the page runs long, trim the role-specific sentences, not these.
+**`resume.profile`:** 2–3 sentences, highly specific to this role and company. Directly connect Priya's most relevant background (Configuration Management, Release Management, DevOps/CI-CD in regulated safety-critical industries) to the stated requirements. Do not just summarise her CV — name the company and what they need.
+
+**`resume.profile_subsections`:** Always copy verbatim from the template (currently one entry: the "Working style and interpersonal strengths:" subheading with her own first-person paragraph). It renders as a subheading inside the Profile section. She wrote this text herself and wants it on every resume exactly as written — never reword or omit it; if the page runs long, trim elsewhere.
 
 **`resume.experience`:** Keep all five entries exactly as in the template (same dates, companies, titles), including Vinjey Software Systems — do not drop the earliest entry. Reorder the five entries so the most relevant experience appears first. Within each entry, reorder and reword the bullets to front-load skills mentioned in the job description.
 

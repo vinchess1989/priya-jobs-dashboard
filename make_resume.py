@@ -153,6 +153,8 @@ h2 {{
 }}
 h2 svg {{ flex-shrink: 0; }}
 .profile-text {{ font-size: 8.6pt; line-height: 1.32; color: #2a2a2a; }}
+.profile-sub {{ margin-top: 3px; }}
+.profile-sub-h {{ font-size: 8.6pt; font-weight: 700; color: #1a4f82; margin-bottom: 1px; }}
 .job {{ margin-bottom: 3px; }}
 .job-header {{ display: flex; justify-content: space-between; align-items: baseline; }}
 .job-title {{ font-weight: 700; font-size: 9pt; }}
@@ -206,6 +208,7 @@ li {{ font-size: 8.2pt; line-height: 1.28; margin-bottom: 0.5px; }}
 {wage_highlight_html}
 <h2>{icon_profile}{label_profile}</h2>
 <div class="profile-text">{profile}</div>
+{profile_subsections_html}
 
 <h2>{icon_experience}{label_experience}</h2>
 {experience_html}
@@ -407,7 +410,13 @@ def generate(data_path, photo_path, out_dir):
         f'<h2>{ICON_PUBLICATIONS}{labels["publications"]}</h2>\n'
         f'<div class="skill-block">{publications}</div>'
     ) if publications else ""
+    profile_subsections_html = "\n".join(
+        f'<div class="profile-sub"><div class="profile-sub-h">{s["heading"]}</div>'
+        f'<div class="profile-text">{s["text"]}</div></div>'
+        for s in r.get("profile_subsections", [])
+    )
     resume_html = RESUME_HTML.format(
+        profile_subsections_html=profile_subsections_html,
         achievements_section=achievements_section,
         publications_section=publications_section,
         name=r.get("name", "Priyanga Ramachandran"),
