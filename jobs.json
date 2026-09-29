@@ -798,15 +798,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-robin-radar-systems-4367192401",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires the candidate to live in the Netherlands within commuting distance of The Hague, which violates the requirement to be based in or able to work remotely from Finland.",
+    "reason": "The job is located in The Hague, Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence in a country outside Finland with no remote flexibility.",
     "id": "463e3a96",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "Software Engineer - DevOps | PGIM Ireland",
@@ -815,15 +814,14 @@
     "url": "https://ie.linkedin.com/jobs/view/software-engineer-devops-pgim-ireland-at-pgim-ireland-4447159325",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role located in Ireland, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Ireland (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule since it requires physical presence outside Finland and is not fully remote from Finland.",
     "id": "4dc7698b",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -832,15 +830,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-ilionx-4429366859",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales-focused Key Account Manager position, which falls under the hard rejection for quota-carrying sales roles, and it is located in the Netherlands, which is outside of Finland.",
+    "reason": "The job location (Maastricht, Netherlands) is outside Finland and not fully remote, which does not meet Priya's strict location requirements of working in Finland or fully remote roles accessible from Finland.",
     "id": "b67130af",
     "source": "linkedin_eu_remote_devops_engineer",
-    "posted_date": "21 uur geleden",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -849,15 +846,14 @@
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-xm-4458070555",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greece and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Athens, Greece, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland without remote flexibility for someone based in Finland.",
     "id": "902c7efe",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "Platform DevOps Engineer - Infra",
@@ -866,15 +862,14 @@
     "url": "https://mt.linkedin.com/jobs/view/platform-devops-engineer-infra-at-betsson-group-4449490427",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role located in Malta, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Malta (outside Finland) and is not remote, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "18cb6f6f",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "Middle DevOps Engineer",
@@ -883,15 +878,14 @@
     "url": "https://cy.linkedin.com/jobs/view/middle-devops-engineer-at-emerging-travel-group-4456718046",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Cyprus and does not accept applicants living in Finland, violating the location requirements.",
+    "reason": "The job is located in Cyprus, which is outside Finland and not a fully remote role accessible from Finland, triggering a hard rejection based on location constraints.",
     "id": "c42c27cb",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -900,15 +894,14 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-xm-4458063602",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cyprus and is not remote, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Limassol, Cyprus, which is outside Finland and not fully remote (the candidate requires roles in Finland or fully remote jobs accessible from Finland).",
     "id": "48f5178d",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -917,15 +910,14 @@
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-upstream-4455868445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greece and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job location is Gerakas, Attiki, Greece, which is outside Finland and not a fully remote role accessible from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
     "id": "1985003c",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -934,15 +926,14 @@
     "url": "https://ie.linkedin.com/jobs/view/devops-engineer-at-nicoll-curtin-4460489748",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ireland and is not a remote role open to candidates in Finland, and the posting explicitly states that applications are no longer being accepted.",
+    "reason": "Job is located in Ireland, outside Finland and not remote, which violates the location requirement.",
     "id": "fb660567",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -951,15 +942,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-treehouse-nl-4391865001",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an on-site role in Rotterdam, Netherlands, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job requires on-site presence in Rotterdam, Netherlands, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither located in Finland nor fully remote.",
     "id": "329c397c",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -968,15 +958,14 @@
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-alphaomegazed-sa-4461145962",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greece and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Ir\u00e1klion, Crete, Greece, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "bc4d2250",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "Site Reliability | DevOps Engineer",
@@ -985,15 +974,14 @@
     "url": "https://gr.linkedin.com/jobs/view/site-reliability-devops-engineer-at-kaizen-gaming-4441168678",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Thessaloniki, Greece, and does not offer remote work for candidates based in Finland, violating the location requirements.",
+    "reason": "The job is located in Thessaloniki, Greece (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland and is not fully remote.",
     "id": "80171f58",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1002,15 +990,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-mstack-4253716245",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job location is Den Bosch, Netherlands, which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "f3abae89",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "1 jaar geleden",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1019,15 +1006,14 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-chillbase-4457280412",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cyprus and requires on-site work in Limassol, which falls outside the allowed locations for the candidate.",
+    "reason": "Job is located in Cyprus, outside Finland, and not remote.",
     "id": "4fffa016",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1036,15 +1022,14 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-playtech-4457250138",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cyprus and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job location is Nicosia, Cyprus, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection.",
     "id": "b59e4a1b",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-08T23:57:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:57:53+03:00"
   },
   {
     "title": "Cloud Engineer",
