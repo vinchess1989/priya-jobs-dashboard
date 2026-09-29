@@ -2112,17 +2112,10 @@ def poll_firebase_feedback():
             except Exception as e:
                 print(f"Error syncing match updates: {e}")
         
-        # Wipe shared_state since all updates are now safely in jobs.json
-        if user_review_updates or match_updates:
-            try:
-                # Get the correct project ID based on the URL we polled
-                proj_id = "priya-jobs-dashboard"
-                # wait, let's just use the url from the top of the function
-                wipe_url = url.replace('user_feedback', 'shared_state/job_status')
-                firestore_auth.session().patch(wipe_url, json={"fields": {}}, timeout=10)
-                print("INFO: Cleared shared_state temporary queue.")
-            except Exception as e:
-                print(f"Error clearing shared_state: {e}")
+        # (Removed 2026-09-30) This used to PATCH shared_state/job_status with an empty document
+        # after syncing dashboard feedback - which erased EVERY field stored there (resume links,
+        # apply_url, applied_date, form_filled, action_item, deletion_reason) for every job. The
+        # doc is a permanent per-job store, not a temporary queue; never wipe it.
 
                 
     except Exception as e:
@@ -2286,6 +2279,67 @@ def poll_re_review_request():
 # MAIN ENTRY POINT
 # ─────────────────────────────────────────────────────────────────────────────
 
+def poll_manual_deletions():
+    """Move jobs flagged with a 'deletion_reason' in shared_state/job_status (set by the
+    mark-job-deleted skill, job_status_store.py, or review.html's "missed" button) from
+    jobs.json to deleted.json, then clear the flag. Ported from manju_jobs 2026-09-30 -
+    before this, flagged jobs were only hidden on review.html and never left the board."""
+    try:
+        from job_status_store import get_job_status, patch_job_status
+        current = get_job_status()
+    except Exception as e:
+        print(f"Error polling manual deletions: {e}")
+        return
+
+    pending = {
+        url: entry.get("deletion_reason")
+        for url, entry in current.items()
+        if isinstance(entry, dict) and entry.get("deletion_reason")
+    }
+    if not pending or not os.path.exists(JOBS_FILE):
+        return
+
+    try:
+        with open(JOBS_FILE, 'r', encoding='utf-8') as f:
+            jobs = json.load(f)
+        deleted_jobs = []
+        if os.path.exists(DELETED_FILE):
+            try:
+                with open(DELETED_FILE, 'r', encoding='utf-8') as f:
+                    deleted_jobs = json.load(f)
+            except Exception:
+                pass
+        seen_deleted = {j.get('url') for j in deleted_jobs if j.get('url')}
+
+        remaining = []
+        moved = 0
+        for j in jobs:
+            if j.get('url') in pending:
+                j['deletion_reason'] = pending[j['url']]
+                if j.get('url') not in seen_deleted:
+                    deleted_jobs.append(j)
+                    seen_deleted.add(j.get('url'))
+                moved += 1
+            else:
+                remaining.append(j)
+
+        if moved:
+            with open(JOBS_FILE, 'w', encoding='utf-8') as f:
+                json.dump(remaining, f, indent=2)
+            with open(DELETED_FILE, 'w', encoding='utf-8') as f:
+                json.dump(deleted_jobs, f, indent=2)
+            print(f"INFO: Moved {moved} job(s) to deleted.json via manual deletion_reason flag in job_status.")
+
+        # Clear handled flags (also ones whose job was already gone) so they aren't re-processed.
+        for job_url in pending:
+            entry = current.get(job_url, {})
+            entry.pop("deletion_reason", None)
+            current[job_url] = entry
+        patch_job_status(current)
+    except Exception as e:
+        print(f"Error processing manual deletions: {e}")
+
+
 def main():
     global _tee_logger
     os.makedirs(LOGS_DIR, exist_ok=True)
@@ -2417,6 +2471,11 @@ def main():
             poll_re_review_request()
         except Exception as e:
             print(f"Error handling re-review request: {e}")
+
+        try:
+            poll_manual_deletions()
+        except Exception as e:
+            print(f"Error polling manual deletions: {e}")
 
         try:
             check_requirements_update()
