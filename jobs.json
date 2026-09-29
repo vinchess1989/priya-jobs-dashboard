@@ -13583,15 +13583,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-cloud-f-h-at-niji-4432384915",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Rennes, France, which violates the candidate's location criteria requiring roles in Finland or fully remote work accessible from Finland.",
+    "reason": "The job is physically located in Rennes, France, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "44bfb3e6",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-06",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Senior DevOps / CI/CD Engineer",
@@ -13600,15 +13599,14 @@
     "url": "https://se.linkedin.com/jobs/view/senior-devops-ci-cd-engineer-at-segula-technologies-4464690238",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent knowledge of Swedish, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent knowledge in Swedish, which the candidate does not possess.",
     "id": "3e00fd34",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Senior DevOps - Luxe/Retail",
@@ -13617,15 +13615,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-devops-luxe-retail-at-amaris-consulting-4447539857",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Paris, France, and requires fluent French, violating location and language criteria.",
+    "reason": "This on-site role is located in Paris, France, violating the candidate's requirement to be based in Finland or in a fully remote position, and additionally requires fluent French which she does not possess.",
     "id": "313e71e2",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -13633,16 +13630,15 @@
     "location": "Barcelona, Catalonia, Spain",
     "url": "https://es.linkedin.com/jobs/view/senior-devops-engineer-at-localstack-4462407400",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "This is a fully remote DevOps role at an international company open to remote workers from multiple countries, though it emphasizes deep AWS experience over her primary Azure/multi-cloud background.",
+    "matches_requirements": "no",
+    "reason": "The role requires deep AWS architecture and multi-account landing zone management as its primary focus, whereas the candidate's core expertise lies in release and configuration management, CI/CD pipelines, and regulatory compliance.",
     "id": "a4181ab6",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Senior Software Engineer, DevOps",
@@ -13651,15 +13647,14 @@
     "url": "https://dk.linkedin.com/jobs/view/senior-software-engineer-devops-at-s360-4455871104",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is based in Aarhus, Denmark, and is not listed as a remote position open to candidates living in Finland.",
+    "reason": "The role is located in Aarhus, Denmark (on-site/hybrid), which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "59656823",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Ing\u00e9nieur DevOps - Industrialisation et d\u00e9ploiement logiciel H/F - Toulouse",
@@ -13668,15 +13663,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-industrialisation-et-d%C3%A9ploiement-logiciel-h-f-toulouse-at-cegedim-assurances-4432412098",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in France and is not fully remote, violating the location constraints for a Finland-based candidate.",
+    "reason": "The job is located in Toulouse, France, which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "846df23a",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Senior Devops Engineer",
@@ -13685,15 +13679,14 @@
     "url": "https://pl.linkedin.com/jobs/view/senior-devops-engineer-at-akamai-technologies-4443922290",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poland and is not specified as a remote position available to candidates living in Finland.",
+    "reason": "The job is physically located in Cracow, Poland, which violates the geographic requirement of being in Finland or fully remote.",
     "id": "80130224",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "DevOps Engineer CI/CD & Infra Specialist - Remoto 100%",
@@ -13701,16 +13694,15 @@
     "location": "Madrid, Community of Madrid, Spain",
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-ci-cd-infra-specialist-remoto-100%25-at-knowmad-mood-4426633906",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is listed as 100% remote, but it is based in Spain and does not explicitly state if applicants from Finland or the EU are accepted.",
+    "matches_requirements": "no",
+    "reason": "The job is physically located in Madrid, Spain (or restricted to Spain), which violates the candidate's requirement to be based in Finland or work remotely worldwide/within an accepted region.",
     "id": "d3d049f0",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -13719,15 +13711,14 @@
     "url": "https://bg.linkedin.com/jobs/view/senior-devops-engineer-at-playtech-4461047604",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bulgaria and is not listed as a remote position available to candidates living in Finland.",
+    "reason": "The job is located in Sofia, Bulgaria, and is not a remote role open to candidates living in Finland.",
     "id": "208e3a87",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Ing\u00e9nieur DevOps/Ing\u00e9nieure DevOps",
@@ -13736,15 +13727,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-ing%C3%A9nieure-devops-at-agap2it-france-4459761999",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and does not specify a remote work option that would allow working from Finland.",
+    "reason": "The job is physically located in Pessac, France, which violates the candidate's requirement to be based in Finland or in a role that is fully remote from Finland.",
     "id": "3b8eec16",
     "source": "linkedin_eu_remote_devops_engineer",
-    "posted_date": "il y a 3 semaines",
+    "posted_date": "il y a 4 semaines",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:30:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:30:57+03:00"
   },
   {
     "title": "Solution Architect, PLM",
@@ -13752,16 +13742,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460883069",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role's focus on configuration management, release management, and translating requirements into technical blueprints aligns with her extensive experience in regulated engineering environments.",
+    "matches_requirements": "no",
+    "reason": "The role requires specific, hands-on enterprise experience with Windchill PLM platform administration and configuration, which does not align with the candidate's core background in release, configuration management, and DevOps.",
     "id": "72d7fbf5",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/hiab_solution_architect__plm_72d7fbf5.txt",
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null,
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Prosessivastaava, Talpa",
@@ -13770,15 +13759,14 @@
     "url": "https://fi.linkedin.com/jobs/view/prosessivastaava-talpa-at-helsingin-kaupunki-%E2%80%93-helsingfors-stad-%E2%80%93-city-of-helsinki-4454558006",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish language skills and financial/accounting domain expertise, which does not match the candidate's technical release management background.",
     "id": "726f0e5f",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "SAP MDG Lead Consultant",
@@ -13787,15 +13775,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-mdg-lead-consultant-at-tata-consultancy-services-4452387591",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting is closed and no longer accepting applications.",
+    "reason": "This is a specialized, deep-domain SAP MDG (Master Data Governance) Lead Consultant role requiring 10+ years of specific SAP implementation experience, which does not align with the candidate's background in release management, DevOps, and quality/configuration management.",
     "id": "ae6953ba",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Manager, Enterprise Solutions - Helsinki | BCG Platinion",
@@ -13804,15 +13791,14 @@
     "url": "https://fi.linkedin.com/jobs/view/manager-enterprise-solutions-helsinki-bcg-platinion-at-bcg-platinion-4427264793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent proficiency in a Nordic language, which the candidate does not possess.",
+    "reason": "The role requires fluency in one Nordic language alongside English, and focuses heavily on enterprise ERP/SAP management consulting rather than Priya's core release management, DevOps, or quality background.",
     "id": "287ce6d9",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "CRM & Loyalty Manager",
@@ -13821,15 +13807,14 @@
     "url": "https://fi.linkedin.com/jobs/view/crm-loyalty-manager-at-instru-optiikka-oy-4459688232",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting states that applications are no longer being accepted and requires fluent Finnish, which the candidate does not speak.",
+    "reason": "This CRM & Loyalty Manager role requires fluent Finnish (\\\\",
     "id": "bdea3923",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T06:45:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:45:53+03:00"
   },
   {
     "title": "Solution Architect",
