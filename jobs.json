@@ -5317,15 +5317,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-sales-specialist-at-atea-finland-oy-4462960029",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' titles.",
+    "reason": "The job title 'Business Sales Specialist' falls under the hard-rejection category for quota-carrying sales roles mislabeled as 'Product Specialist', which does not align with Priya's technical/quality product-specialist background.",
     "id": "bcba4bc9",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:24:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:24:06+03:00"
   },
   {
     "title": "Product Manager",
@@ -5334,15 +5333,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-at-eaton-4418337298",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a commercial/business-focused Product Manager role centered on sales strategy, pricing, and market growth, which falls under the hard rejection for quota-carrying/business-development roles mislabeled as product management.",
+    "reason": "The job title 'Product Manager' does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) and focuses on product strategy/business development rather than technical/release/CM responsibilities she has experience with.",
     "id": "674792be",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:24:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:24:06+03:00"
   },
   {
     "title": "PreSales Solution Consultant - Electronics Industry EMEA",
@@ -5351,15 +5349,14 @@
     "url": "https://fi.linkedin.com/jobs/view/presales-solution-consultant-electronics-industry-emea-at-siemens-4458995325",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales-focused role (PreSales) which falls under the hard rejection for sales roles mislabeled as specialist positions.",
+    "reason": "The role is a PreSales Solution Consultant in Sales, which does not align with the candidate's expertise in Configuration Management, Release Management, or technical documentation (her background is in regulated-industry software delivery, not sales/PreSales consulting).",
     "id": "e9ac903e",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:24:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:24:06+03:00"
   },
   {
     "title": "Presales Specialist",
@@ -5368,15 +5365,14 @@
     "url": "https://fi.linkedin.com/jobs/view/presales-specialist-at-bookers-group-4449304362",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role mislabeled as a 'Presales Specialist', which falls under the hard rejection criteria for sales positions.",
+    "reason": "The job title 'Presales Specialist' aligns with quota-carrying sales roles (not technical/quality product-specialist roles) and does not match Priya's target domains (e.g., DevOps, Configuration Management, Technical Writing, Quality Engineering).",
     "id": "66bba215",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:24:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:24:06+03:00"
   },
   {
     "title": "Infrastructure Sales Specialist Midmarket",
@@ -5385,15 +5381,14 @@
     "url": "https://fi.linkedin.com/jobs/view/infrastructure-sales-specialist-midmarket-at-lenovo-4456878636",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role requiring fluency in English and either Swedish or Finnish, which directly violates the hard rejections for sales roles and mandatory Nordic language requirements.",
+    "reason": "The role is a quota-carrying sales position requiring fluency in Finnish/Swedish (which the candidate does not possess) and contradicts her technical/quality-focused background, falling under Hard Rejection criteria for mandatory language requirements and pure sales roles.",
     "id": "96fbd760",
     "source": "linkedin_fi_product_specialist_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:24:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:24:06+03:00"
   },
   {
     "title": "Product Specialist Urologia",
@@ -5402,15 +5397,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-urologia-at-ambu-4416590701",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Italy and requires clinical/operating room experience, which falls outside the candidate's target criteria and location requirements.",
+    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote and can be done from Finland.",
     "id": "51f5df6f",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Associate Product Specialist, Monolix",
@@ -5419,15 +5413,14 @@
     "url": "https://fr.linkedin.com/jobs/view/associate-product-specialist-monolix-at-simulations-plus-inc-4454812515",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role located in France, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job requires physical presence in Antony, France (hybrid work model), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is an on-site/hybrid role outside Finland.",
     "id": "2e993c37",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product Specialist (L\u00ednea de Autoinmunidad - Sector farmac\u00e9utico)",
@@ -5436,15 +5429,14 @@
     "url": "https://es.linkedin.com/jobs/view/product-specialist-l%C3%ADnea-de-autoinmunidad-sector-farmac%C3%A9utico-at-talent-search-people-4462945543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Spain and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Badalona, Spain, which is outside Finland and not a fully remote role, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "1fc234f9",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product Specialist IVD & Veterinary",
@@ -5453,15 +5445,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-ivd-veterinary-at-firsteck-bio-srl-4451338939",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Modena, Italy, and requires native Italian proficiency, which violates the location and language requirements.",
+    "reason": "The job is located in Modena, Italy (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is outside Finland and not a fully remote role accessible from Finland.",
     "id": "8f509162",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Produktspezialist (m/w/d) I/O Compact Motion",
@@ -5470,15 +5461,14 @@
     "url": "https://de.linkedin.com/jobs/view/%E2%80%8Bproduktspezialist-m-w-d-i-o-compact-motion-at-beckhoff-automation-4453426895",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Verl, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with Finland-based candidates.",
     "id": "2f2b3b3d",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product specialist",
@@ -5487,15 +5477,14 @@
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-at-afas-software-4424654104",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in the Netherlands and requires on-site presence (minimum 3-4 days per week), which violates the location constraint of being in Finland or fully remote.",
+    "reason": "The job is located in the Netherlands (Leusden, Utrecht) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "55fc21c3",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "3 kuukautta sitten",
+    "posted_date": "2026-07-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product Specialist (f/m/x)",
@@ -5504,15 +5493,14 @@
     "url": "https://at.linkedin.com/jobs/view/product-specialist-f-m-x-at-anton-paar-consumertec-gmbh-4448531410",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Graz, Austria, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The position is located in Austria, which is outside Finland and not a remote role.",
     "id": "4a9c683a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product Specialist Verlichting - Uitzendbureau.nl",
@@ -5521,15 +5509,14 @@
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-verlichting-uitzendbureau-nl-at-jobster-4463278494",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Eindhoven, Netherlands (on-site), which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule. Additionally, the role appears to be a sales-focused Product Specialist position, which falls under the 'Quota-Carrying Sales Roles Mislabeled as \\\\",
     "id": "1adfcce6",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Produktspezialist (w/m/d)",
@@ -5538,15 +5525,14 @@
     "url": "https://at.linkedin.com/jobs/view/produktspezialist-w-m-d-at-anton-paar-consumertec-gmbh-4446646073",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Graz, Austria, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Austria (Graz, Styria) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "9cc4d12c",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product Specialist Cardiology",
@@ -5555,15 +5541,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-cardiology-at-terumo-europe-4461090570",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Italy, which violates the requirement that roles must be in Finland or fully remote and accessible to someone living in Finland.",
+    "reason": "The job requires on-site presence in Rome, Italy, which does not meet Priyanga Ramachandran's strict requirement for roles located in Finland or fully remote positions accessible from Finland.",
     "id": "76c6de19",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:28:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:28:32+03:00"
   },
   {
     "title": "Product Specialist Urologie & Vrouwengezondheid",
