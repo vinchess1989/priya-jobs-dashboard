@@ -11645,15 +11645,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454755712",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting requires mandatory fluency in both Finnish and Swedish, and explicitly states that applications are no longer being accepted.",
+    "reason": "The job posting explicitly lists Finnish as a mandatory working language ('Ty\u00f6kielemme ovat suomi ja englanti'), and the candidate does not speak Finnish.",
     "id": "d5545379",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "AI-Driven Cloud Architect",
@@ -11662,15 +11661,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-driven-cloud-architect-at-solteq-plc-4408913161",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is focused on cloud architecture and AI-driven cloud solutions rather than Priya's core expertise in release management, configuration management, or DevOps pipeline operations.",
+    "reason": "The role is for an AI-Driven Cloud Architect focusing on cloud solution design, infrastructure as code, and AI-assisted development workflows, which does not match her core background in release management, configuration management, DevOps tooling, or technical communication.",
     "id": "137bf907",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-05-12",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -11678,16 +11676,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/ai-infrastructure-cloud-engineer-100-%25-remote-m-f-d-at-ewor-4461972175",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "This role is focused on 0-to-1 feature development, architecture, and AI infrastructure building rather than release management, configuration management, DevOps tooling, or technical communication.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a 100% remote AI Infrastructure Cloud Engineer position based in Europe/Finland, aligning with her cloud and DevOps/pipeline background, but it leans toward greenfield AI infrastructure engineering rather than her core configuration/release management focus.",
     "id": "e384c39e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -11695,16 +11692,15 @@
     "location": "Vaasa, Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453052841",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches location and senior experience level in Finland, but focuses heavily on hands-on cloud/DevOps architecture rather than Priya's core release management and configuration management specialty.",
+    "matches_requirements": "no",
+    "reason": "This is a senior cloud architect/engineer role focused on cloud infrastructure, IaC, and cloud platforms (AWS/Azure) rather than Priya's core background in release management, configuration management, DevOps pipelines, and technical documentation.",
     "id": "30568df5",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Software Engineer II",
@@ -11713,15 +11709,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=aaafdf82f009dcd1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on Java, Spring Boot, and cloud applications, which falls under the hard rejection criteria for pure software development roles.",
+    "reason": "This is a pure feature-development software engineering role focused on building application services with Java and TypeScript, which violates the hard rejection against pure feature-development software engineering roles.",
     "id": "d8c9e662",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "IQI - avoin hakemus",
@@ -11729,16 +11724,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464625424",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "This is an open application for IQI in Finland matching senior IT consulting and DevOps/release roles that align well with Priya's ~15 years of experience.",
+    "matches_requirements": "maybe",
+    "reason": "Extracted via regex fallback",
     "id": "69f334e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": "job_descriptions/iqi_iqi___avoin_hakemus_69f334e3.txt",
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null,
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "IT Application Specialist",
@@ -11747,15 +11741,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-application-specialist-at-outokumpu-4458228432",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting requires strong communication skills in both Finnish and English, and the application deadline has already passed.",
+    "reason": "The job explicitly lists mandatory proficiency in both Finnish and English, and the candidate does not speak Finnish.",
     "id": "a88f4400",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -11763,16 +11756,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453070704",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is focused on senior cloud architecture and hands-on infrastructure development (IaC) rather than release management, configuration management, or technical documentation.",
+    "matches_requirements": "maybe",
+    "reason": "The role matches her senior cloud and CI/CD automation background, but focuses heavily on cloud architecture and Infrastructure as Code rather than dedicated release or configuration management.",
     "id": "b908b522",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Document Controller",
@@ -11781,15 +11773,14 @@
     "url": "https://fi.linkedin.com/jobs/view/document-controller-at-afry-4456736059",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish in addition to English, which violates the language criteria since the candidate does not speak Finnish.",
     "id": "0500522c",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "ITSM suunnittelija",
@@ -11798,15 +11789,14 @@
     "url": "https://fi.linkedin.com/jobs/view/itsm-suunnittelija-at-istekki-oy-4464382032",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This IT service management role matches her background in configuration management, technical documentation, and process definition, and is located in Finland with remote work options.",
+    "reason": "The role involves IT service management, configuration management, and process documentation, aligning well with her background despite the job posting being in Finnish.",
     "id": "dcdb601e",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": "job_descriptions/istekki_oy_itsm_suunnittelija_dcdb601e.txt",
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Cutover Lead",
@@ -11815,15 +11805,14 @@
     "url": "https://hu.linkedin.com/jobs/view/cutover-lead-at-aldi-international-it-services-hungary-4458170915",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Budapest, Hungary (outside Finland), is not remote, and the posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job is located in Budapest, Hungary on-site/hybrid and is closed for applications, violating the candidate's location constraints and hard rejections.",
     "id": "0c19dd7d",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Staff / Senior Deployment & Release Manager",
@@ -11832,15 +11821,14 @@
     "url": "https://de.linkedin.com/jobs/view/staff-senior-deployment-release-manager-at-aerovect-4459365458",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Frankfurt, Germany, and does not offer remote work from Finland.",
+    "reason": "The job is physically located in Frankfurt, Germany, and is not listed as remote, violating the rule against on-site/hybrid roles outside Finland.",
     "id": "7b36073a",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Myynti-insin\u00f6\u00f6ri",
@@ -11849,15 +11837,14 @@
     "url": "https://fi.linkedin.com/jobs/view/myynti-insin%C3%B6%C3%B6ri-at-alupro-oy-4450461392",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a sales engineering position requiring quota-carrying commercial responsibilities and Finnish language proficiency, and the posting explicitly states that applications are no longer accepted.",
+    "reason": "This is a quota-carrying sales role (Myynti-insin\u00f6\u00f6ri / Sales Engineer) focusing on marine and industrial equipment sales, which violates the hard rejection rule against sales positions.",
     "id": "329e7230",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Architect, Graduate Program",
@@ -11866,15 +11853,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-architect-graduate-program-at-nvidia-4447669568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an entry-level graduate program strictly targeted at recent master's degree graduates, whereas the candidate has ~15 years of professional experience.",
+    "reason": "This is an entry-level graduate program explicitly targeting newly graduating students completing their Master's degree in 2026, which conflicts with the candidate's ~15 years of professional experience.",
     "id": "272c941a",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Myynti-insin\u00f6\u00f6ri \u2013 sis\u00e4myynti, Uddeholm/ voestalpine High Performance Metals Finland Oy Ab",
@@ -11883,15 +11869,14 @@
     "url": "https://fi.linkedin.com/jobs/view/myynti-insin%C3%B6%C3%B6ri-%E2%80%93-sis%C3%A4myynti-uddeholm-voestalpine-high-performance-metals-finland-oy-ab-at-hr-with-you-4463317953",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting requires fluent Finnish ('sujuvaa suomen kielen taitoa'), which the candidate does not speak.",
+    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "bf6ce306",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Advisory Solutions Consultant",
