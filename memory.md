@@ -1,5 +1,17 @@
 # Project Memory — priya_jobs
 
+## Importing a LinkedIn search Priya ran herself (2026-09-30)
+
+- The logged-in `linkedin.com/jobs/search-results/` UI has no job ids in its links: cards are
+  `div[role=button]`; clicking one sets `currentJobId=` in the URL. Collect ids by clicking every card
+  per page (`start=0,25,...`, scroll the list first).
+- Public URL in the scraper's own format (`fi.linkedin.com/jobs/view/<slug>-<id>`, no query) comes from
+  the guest API `https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/<id>` (topcard link) - no login,
+  ~1 req/s was fine for 75 ids.
+- Dedupe by LinkedIn job id against `jobs.json`, `deleted.json` and `seen_urls.json`, then append as
+  `matches_requirements: "pending"` (id = md5(url)[:8], `source: linkedin_manual_search_oulu_it`); the
+  scraper's review loop rates pending jobs first. 75 added this way survived the next scraper push.
+
 ## Safety-critical / functional-safety search terms; manual jobs get wiped (2026-09-29)
 
 - Priya asked (after tailoring for a manually-shared ALTEN "Requirement Engineer – Safety Critical
