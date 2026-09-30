@@ -4,6 +4,21 @@
     "discovered": "2026-09-28",
     "notes": "Wartsila's own career site, itself a thin wrapper -- job posting page (e.g. /job/<slug>/<id>/) has an 'Apply now' link to /talentcommunity/apply/<id>/?locale=en_GB, but clicking it (or navigating there directly) always lands on career2.successfactors.eu/careers?company=Wartsila's bare sign-in/create-account gate ('Career Opportunities: Sign In') -- the specific job id/context is lost, there is no way to reach a job-specific application form pre-login. This is a genuine account-creation requirement (SuccessFactors ATS), not a scraping failure -- confirmed via both WebFetch and a real CDP-connected browser click-through. Do not attempt to sign in or create the account; tell the user to do it herself, then re-resolve from career2.successfactors.eu post-login."
   },
+  "sandvik.wd3.myworkdayjobs.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-30",
+    "notes": "Sandvik Workday. LinkedIn 'Apply' goes straight here. 'Apply Manually' step 1 of 5 is Create Account/Sign In - unlike If's tenant there is no guest apply; Priya must create the account herself. Postings ask for a salary request in the introductory letter."
+  },
+  "careers.abb": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-30",
+    "notes": "ABB Phenom careers site. The job page's first 'Apply'-matching link is a fraud-warning notice, and a cookie widget (#cassie-widget) blocks clicks - navigate directly to the 'Apply now' href (/global/en/hvhapply?jobSeqNo=...), which redirects to abb.wd3.myworkdayjobs.com/External_Career_Page/.../apply. 'Apply Manually' step 1 of 6 is Create Account/Sign In (Candidate Home) - Priya must do it herself."
+  },
+  "linkedin.com/easy-apply": {
+    "strategy": "cdp_browser",
+    "discovered": "2026-09-30",
+    "notes": "Easy Apply (seen on an SGS posting that feeds SmartRecruiters) opens an 'Apply to <Company>' multi-page form ('1/7 pages') that is NOT role=dialog/.artdeco-modal - locate it by the 'Apply to' heading and climb to the ancestor holding the inputs and the Next button. Page 1 contact info comes prefilled from the profile; page 2 lists saved resumes (radio) plus 'Upload resume'/'Upload cover letter' buttons that open a native file chooser (use page.expect_file_chooser). With 4 resumes already saved, the resume upload hung on 'Uploading' indefinitely (cover letter uploaded fine) - likely LinkedIn's saved-resume limit; leave it to Priya. Later pages replay work history/education from her past applications, whose dates differ from master_data.json - flag, don't edit. Never click 'Submit application'."
+  },
   "careers.nordea.com": {
     "strategy": "webfetch_hops",
     "discovered": "2026-09-28",
