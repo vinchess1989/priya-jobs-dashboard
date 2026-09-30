@@ -6437,15 +6437,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2cf3bb3902649822",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Senior Researcher' does not align with Priya's target role types (DevOps, Configuration Management, Release Management, Technical Writing, etc.) or her experience in regulated/safety-critical domains.",
+    "reason": "The Senior Researcher role shows no indication of DevOps, release, configuration management, quality or technical communication responsibilities that match Priya's profile.",
     "id": "7cfa9858",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Privacy, Data & Cyber Regulatory Counsel",
@@ -6454,15 +6453,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=62bf6693cecd3a0b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires on-site presence in Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is an EU country outside Finland.",
+    "reason": "The job requires on-site presence in Amadora, Portugal, which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "0982bd44",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Project Delivery Specialist - Helsinki",
@@ -6470,16 +6468,15 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=5f7e3e4b787a6593",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires native-level fluency in Finnish, which is a strict hard rejection as Priya does not speak Finnish or Swedish.",
+    "matches_requirements": "maybe",
+    "reason": "The job title 'Project Delivery Specialist' is ambiguous and not explicitly aligned with Priya's core expertise in Configuration Management, Release Management, or Technical Writing, though it may overlap with project coordination aspects she has experience with (e.g., cross-team release readiness at Topcon/Elektrobit).",
     "id": "8f76027f",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Medical Physicist (f/m/d) - Proton Therapy",
@@ -6488,15 +6485,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2c8e549a3cd972f0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Medical Physicist with clinical/proton therapy expertise, which does not align with the candidate's background in configuration management, release engineering, and technical communication (not medical physics or clinical roles).",
+    "reason": "The role is a Medical Physicist position, a clinical/medical role that does not align with Priya\u2019s release/CM/DevOps/technical writing background and likely requires a medical license.",
     "id": "22f472ae",
     "source": "indeed_fi_product_specialist_p2",
-    "posted_date": "30+ days ago",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Marketing & Communications Specialist - BYD Finland",
@@ -6505,15 +6501,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8cc45795f3ffccb1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires marketing and communications expertise focused on campaign execution and product launches, which does not align with the candidate's background in technical documentation, release management, and safety-critical compliance work.",
+    "reason": "The job title 'Marketing & Communications Specialist' does not align with Priya's target roles in technical writing, configuration management, release management, or product specialist (technical/quality) domains.",
     "id": "3767bdaa",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "In store Merchandiser",
@@ -6522,15 +6517,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4d3c3a05f424b4a4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'In store Merchandiser' does not align with any of the target role categories (DevOps, Configuration Management, Release Management, etc.) and is unrelated to the candidate's technical/regulated-industry experience.",
+    "reason": "The job title 'In store Merchandiser' does not align with Priya's expertise in technical communication, configuration management, release engineering, or regulated-industry quality compliance.",
     "id": "c2472168",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Senior Data Analyst",
@@ -6539,15 +6533,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3a6eeab864b93604",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Senior Data Analyst' does not align with Priyanga Ramachandran's target roles in DevOps, Configuration Management, Release Management, or technical documentation/quality gatekeeping.",
+    "reason": "The job title 'Senior Data Analyst' does not align with Priya's expertise in configuration management, release engineering, technical writing, or safety-critical quality gatekeeping as outlined in her profile and target job criteria.",
     "id": "48eab01e",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Junior Accounts Payable Specialist",
@@ -6556,15 +6549,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d5f6ba7e75548820",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Junior Accounts Payable Specialist' does not align with Priyanga Ramachandran's target roles in DevOps, Configuration Management, Release Management, or technical documentation/quality assurance, and the experience level is junior (she has ~15 years of experience).",
+    "reason": "The job title 'Junior Accounts Payable Specialist' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or technical/quality Product Specialist roles.",
     "id": "c21ee0bc",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Head of Marketing, Global",
@@ -6573,15 +6565,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a2b4abdf23295543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Head of Marketing, Global' does not align with Priyanga Ramachandran's target roles in DevOps, Configuration Management, Release Management, or technical documentation, and the job description text is incomplete/obscured (e.g., 'Company Reviews', 'Additional Verification Required') making further evaluation impossible.",
+    "reason": "The job title 'Head of Marketing, Global' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or technical documentation/quality assurance, and her background is not suited to a marketing leadership position.",
     "id": "328826c5",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Automation System Specialist",
@@ -6590,15 +6581,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c0e283983367353a",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job location in Finland meets Priya's requirements, but the 'Automation System Specialist' title and missing job description details prevent confirmation of alignment with her domain/role-type expertise (e.g., CI/CD, release management, regulated industries).",
+    "reason": "The job title 'Automation System Specialist' lacks explicit details on responsibilities, making it uncertain if it aligns with Priya's expertise in CI/CD, release management, or technical documentation despite the location being in Finland and a positive constraint on configuration management.",
     "id": "d73e0081",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "PC Product Specialist",
@@ -6607,15 +6597,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pc-product-specialist-2748263",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states it is no longer valid and not accepting applications, which falls under the 'Closed Applications' Hard Rejection rule.",
+    "reason": "The job title 'PC Product Specialist' at F9 Distribution Oy may involve sales or customer-facing responsibilities (as implied by the company's distribution focus), which falls under the hard rejection category for quota-carrying sales roles mislabeled as 'Product Specialist'.",
     "id": "be368782",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "AV Product Specialist",
@@ -6623,16 +6612,15 @@
     "location": "Tampere, Finland",
     "url": "https://www.jobly.fi/tyopaikka/av-product-specialist-2746975",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is located in Finland (Tampere) and matches the 'Product Specialist' category, but the description lacks clarity on whether it involves technical/quality aspects or sales-focused responsibilities, and the language requirements are ambiguous.",
+    "matches_requirements": "no",
+    "reason": "The job title 'AV Product Specialist' at F9 Distribution Oy is ambiguous and likely sales-focused rather than technical/quality product-support (which aligns with Priya\u2019s background), and the posting does not explicitly confirm English as the working language or include regulated/safety-critical domain requirements.",
     "id": "a201be4d",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Product Specialist",
@@ -6658,16 +6646,15 @@
     "location": "Ummeljoki, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/join-us-in-kouvola-at-atnorth-4434452071",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job location is in Finland (Ummeljoki, Kymenlaakso), which meets the candidate's location criteria, but the role description lacks specificity regarding domain/role type (e.g., no mention of DevOps, release management, or configuration management responsibilities). The posting emphasizes data center operations and infrastructure, which may not align with the candidate\u2019s regulated-industry CI/CD/release-management expertise.",
+    "matches_requirements": "no",
+    "reason": "The job posting does not explicitly define a role that matches Priya's target criteria (e.g., DevOps, Configuration Management, Release Management, etc.) and appears to be a general IT services/consulting position without clear alignment to her regulated/safety-critical industry experience or technical documentation/quality gatekeeping responsibilities.",
     "id": "67312d6d",
     "source": "linkedin_fi_broad",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6676,15 +6663,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-loimua-oy-3807077665",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job description does not specify a role that matches the candidate's expertise.",
+    "reason": "The job posting does not specify a clear role that matches Priya's target domains (e.g., DevOps, Configuration Management, Release Manager) and appears to be an open application for unspecified positions, which does not align with her experience or the positive constraints.",
     "id": "84ca582d",
     "source": "linkedin_fi_broad",
     "posted_date": "2 vuotta sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6693,15 +6679,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-coe-group-4089581728",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is a generic open application with no specific role or domain details that align with the candidate\u2019s expertise.",
+    "reason": "The job posting does not specify a role type that matches Priya's expertise in DevOps, Configuration Management, Release Management, or Technical Writing, and the seniority level appears to be entry-level (L\u00e4ht\u00f6taso), which does not align with her mid-to-senior experience.",
     "id": "e8c2ddf0",
     "source": "linkedin_fi_broad",
     "posted_date": "1 vuosi sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "AVOIN HAKEMUS",
