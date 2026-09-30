@@ -1,0 +1,366 @@
+Title: Senior Cloud Engineer
+Company: Brawl Stars
+Location: Helsinki, Uusimaa, Finland
+URL: https://fi.linkedin.com/jobs/view/senior-cloud-engineer-at-brawl-stars-4442354856
+Posted: 2 kuukautta sitten
+Deadline: N/A
+Reason: The role focuses on CI/CD pipeline ownership, automation, and cloud governance, which aligns with the candidate's extensive experience in DevOps, release management, and configuration management.
+
+========================================
+JOB DESCRIPTION:
+========================================
+
+LinkedIn kunnioittaa yksityisyyttäsi
+
+LinkedIn ja kolmannet osapuolet käyttävät välttämättömiä ja ei-välttämättömiä evästeitä palvelujemme tarjoamiseen, suojaamiseen, analysointiin ja parantamiseen sekä osuvien mainosten näyttämiseen sinulle (mukaan lukien ammattilais- ja työpaikkailmoitukset) LinkedInissä ja niiden ulkopuolella. Lisätietoja on evästekäytännössämme.
+
+Hyväksy ei-välttämättömien evästeiden käyttö valitsemalla Hyväksy tai estä niiden käyttö valitsemalla Hylkää. Voit päivittää valintasi milloin tahansa asetuksista.
+
+Hyväksy Hylkää
+Hyppää pääsisältöön
+LinkedIn
+Työt
+Poista teksti
+Poista teksti
+Kirjaudu sisään
+Liity nyt
+Senior Cloud Engineer
+Brawl Stars  Helsinki
+2 kuukautta sitten   Ole ensimmäisten 25 hakijan joukossa
+  
+
+Katso, kuka Brawl Stars on palkattu tähän rooliin
+
+ Hakemuksia ei enää hyväksytä
+Arvioi sopivuuttasi tekoälyn avulla
+
+Hanki tekoälypohjaisia neuvoja tähän työhön ja muita eksklusiivisia ominaisuuksia.
+
+Olenko sopiva tähän työhön?
+Räätälöi ansioluetteloni
+all positions
+
+Helsinki – onsite – FullTime
+
+Senior Cloud Engineer
+
+We're looking for an experienced Cloud Engineer to join the Cloud Team at Supercell. The Cloud Team provides the foundation, expertise, and support that lets every Supercell team build and operate securely, efficiently, and at scale across our multi-provider cloud environment. Our mission is to help every team use the cloud effectively and safely with minimal overhead, while making sure there are no unwelcome surprises.
+
+In this role you'll help us scale with the company's growth. As headcount and complexity increase, so does the demand on our cloud infrastructure. Rather than absorbing that linearly, we want to meet it with opinionated golden paths, automation, and self-service. You'll look several months ahead to spot scalability bottlenecks, technical debt, and emerging needs across the company, turning those into concrete technical direction and actions. You will design guardrails that minimise risk without being invasive, building paved roads that make the secure and efficient choice the easy choice. You’ll also ensure these paths work smoothly for both human developers and the AI tools or agents they use.
+
+You will operate with very high autonomy: keeping stakeholders and the team informed, and proactively deciding what makes the most sense for Supercell, so that teams can focus on creating great games.
+
+What You'll Be Doing
+
+
+Build golden paths. Design and maintain opinionated, production-ready golden paths (think "hosting in 15 minutes") covering infrastructure, CI/CD, DNS, monitoring, auth, and storage. You’ll back these with reusable IaC templates and patterns that other developers build on. The goal is to enable teams and individuals to provision and run what they need themselves; we provide the paved roads, templates, and guardrails rather than owning and operating their infrastructure.
+Automate high-risk operations into self-service. Turn manual operations (like account provisioning and deprovisioning, access grants and revocations, domain issuance) into deterministic, auditable pipelines triggered through self-service. Teams own their resources; we own the orchestration and guardrails, so changes run consistently and stay traceable across hundreds of accounts.
+Own governance and security guardrails. Design and implement cloud governance using vendors’ native and customer tooling for Service Control Policies, WAF, IAM, SSO/Okta access and account governance. Pair preventative controls with detective layers that surface anomalies, configuration drift, and unexpected behaviour before they become problems. Minimise risk without getting in developers' way.
+Enable safe AI-assisted development. Build guardrails for AI coding tools and "vibecoding" workflows (such as secrets handling, scoped permissions, sandboxing) and define how AI agents safely access cloud resources with agent identities and least-privilege IAM
+Write opinionated docs for humans and agents. Create and maintain golden-path guidance, runbooks, and best practices that are equally consumable by developers and LLM agents (e.g. machine-readable/structured docs, MCP-style interfaces, and developer-portal content)
+Raise Supercell’s game. Act as a force multiplier by mentoring other engineers, leading architectural reviews, and facilitating consensus during technical disagreements. Set the technical standards rather than just following them, and share learnings — including failures — openly through post-mortems.
+Support FinOps. Help teams use the cloud cost-efficiently by surfacing cost-optimisation opportunities, improving cost visibility, and supporting accountability for usage across teams and projects.
+Be a trusted partner to technical teams. Advise on cloud architecture, troubleshoot complex issues, and maintain close relationships across Supercell and with our cloud vendors. React quickly to emerging business and technical topics.
+
+
+What You Have
+
+
+Strong cloud computing and networking knowledge, with deep experience from at least one major cloud provider (e.g. AWS, Google Cloud)
+Deep technical mastery across intersecting systems. You're the person others turn to for the hardest problems, but you also know when to route teams to the right internal expertise or external partners.
+Solid grounding in cloud security and the common threat patterns in modern cloud environments
+Hands-on experience with Terraform and GitHub Actions
+Strong scripting and programming experience used to automate tasks and build custom tooling
+Experience with cloud identity and access management, including IAM policies, roles, and permission boundaries across AWS and GCP.
+Experience with application level identity, such as SSO, OIDC, and identity providers like Okta.
+Familiarity with Internal Developer Platforms, including AI-assisted development tools, and a clear-eyed view of their security implications.
+A track record of influence beyond your own work: mentoring engineers, leading architectural reviews, and setting technical standards
+High autonomy. You identify and tackle problems before they're assigned, turn vague business pain points into technical roadmaps, and independently drive complex, ambiguous projects to completion.
+Comfortable managing priorities and tight deadlines, even when dealing with incomplete data.
+A humble, kind, and respectful attitude toward others and their work
+
+
+Would Be Nice if You Also Have
+
+
+Experience from multiple hyperscalers and a feel for how they compare
+Experience securing AI agents, building MCP servers, or authoring agent-readable documentation
+Experience with workflow automation tooling (e.g. n8n, Temporal)
+Familiarity with Internal Developer Portals (e.g. Backstage)
+Hands-on experience with FinOps tooling, reporting, and cost-optimisation experience
+Experience with vendor management and direct collaboration with external partners
+Enthusiasm for games
+
+
+Where You'll Be
+
+This role is based in our Helsinki office. We value a collaborative work environment and genuine human interactions. You will work very closely with our other Helsinki-based teams.
+
+If you are not local, our relocation team would be excited to help you with your move to Helsinki. We provide comprehensive support not only for you, but also for your family!
+
+–––
+
+That's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.
+
+Once you're ready to apply, just send us your application through the form on the bottom of the page.
+
+–––
+
+About Supercell
+
+Supercell is a games company from Helsinki, Finland, with offices also in San Francisco, Seoul, Shanghai, and London. You might know us as the makers of Hay Day, Clash of Clans, Boom Beach, Clash Royale, and Brawl Stars. Our mission is to create great games that as many people as possible play for years and that are remembered forever.
+
+So, how do we make great games? By putting together the best teams and giving them the freedom and independence to succeed. And by taking risks, failing, sharing learnings, and killing lots of projects.
+
+Hey, You Might Love It Here!
+
+Independent cells and trust are at the core of our culture. But it takes more than that to make great games. We take good care of our people, providing them with the compensation, work environment, and resources they need to succeed while having fun along the way.
+
+You Are Not Your Job Title ™
+
+Here, you won’t need to focus on chasing titles or climbing ladders. Internally, our job titles don’t include prefixes like Senior, Junior, Principal, or Director. Recognition isn’t tied to your title, as it doesn't define the impact you can have around here.
+
+Benefits And Compensation
+
+Luring you in with glitter, glamour, and gems isn't what we're about. We want you to enjoy your time here fully, so we structure our compensation and benefits with that in mind. It starts with perceiving you as a human being, not a resource.
+
+Relocation? Yes!
+
+No matter where you’re moving from, our dedicated mobility team and partners will support you throughout your move. We’ll ensure the process is as smooth as possible for you and anyone joining you – whether they’re family members of the human or animal kind!
+
+Not Sure if You Should Apply?
+
+Many candidates with great skills and experience second-guess themselves. The bar is high, but if this role excites you, apply! We’re here to help you succeed. Also, we're happy to learn about any specific accommodations you may need to fully engage in our recruitment process.
+
+Wishing you all the best,
+
+The Supercell Recruitment team
+
+We're looking for an experienced Cloud Engineer to join the Cloud Team at Supercell. The Cloud Team provides the foundation, expertise, and support that lets every Supercell team build and operate securely, efficiently, and at scale across our multi-provider cloud environment. Our mission is to help every team use the cloud effectively and safely with minimal overhead, while making sure there are no unwelcome surprises.
+
+In this role you'll help us scale with the company's growth. As headcount and complexity increase, so does the demand on our cloud infrastructure. Rather than absorbing that linearly, we want to meet it with opinionated golden paths, automation, and self-service. You'll look several months ahead to spot scalability bottlenecks, technical debt, and emerging needs across the company, turning those into concrete technical direction and actions. You will design guardrails that minimise risk without being invasive, building paved roads that make the secure and efficient choice the easy choice. You’ll also ensure these paths work smoothly for both human developers and the AI tools or agents they use.
+
+You will operate with very high autonomy: keeping stakeholders and the team informed, and proactively deciding what makes the most sense for Supercell, so that teams can focus on creating great games.
+
+What You'll Be Doing
+
+
+Build golden paths. Design and maintain opinionated, production-ready golden paths (think "hosting in 15 minutes") covering infrastructure, CI/CD, DNS, monitoring, auth, and storage. You’ll back these with reusable IaC templates and patterns that other developers build on. The goal is to enable teams and individuals to provision and run what they need themselves; we provide the paved roads, templates, and guardrails rather than owning and operating their infrastructure.
+Automate high-risk operations into self-service. Turn manual operations (like account provisioning and deprovisioning, access grants and revocations, domain issuance) into deterministic, auditable pipelines triggered through self-service. Teams own their resources; we own the orchestration and guardrails, so changes run consistently and stay traceable across hundreds of accounts.
+Own governance and security guardrails. Design and implement cloud governance using vendors’ native and customer tooling for Service Control Policies, WAF, IAM, SSO/Okta access and account governance. Pair preventative controls with detective layers that surface anomalies, configuration drift, and unexpected behaviour before they become problems. Minimise risk without getting in developers' way.
+Enable safe AI-assisted development. Build guardrails for AI coding tools and "vibecoding" workflows (such as secrets handling, scoped permissions, sandboxing) and define how AI agents safely access cloud resources with agent identities and least-privilege IAM
+Write opinionated docs for humans and agents. Create and maintain golden-path guidance, runbooks, and best practices that are equally consumable by developers and LLM agents (e.g. machine-readable/structured docs, MCP-style interfaces, and developer-portal content)
+Raise Supercell’s game. Act as a force multiplier by mentoring other engineers, leading architectural reviews, and facilitating consensus during technical disagreements. Set the technical standards rather than just following them, and share learnings — including failures — openly through post-mortems.
+Support FinOps. Help teams use the cloud cost-efficiently by surfacing cost-optimisation opportunities, improving cost visibility, and supporting accountability for usage across teams and projects.
+Be a trusted partner to technical teams. Advise on cloud architecture, troubleshoot complex issues, and maintain close relationships across Supercell and with our cloud vendors. React quickly to emerging business and technical topics.
+
+
+What You Have
+
+
+Strong cloud computing and networking knowledge, with deep experience from at least one major cloud provider (e.g. AWS, Google Cloud)
+Deep technical mastery across intersecting systems. You're the person others turn to for the hardest problems, but you also know when to route teams to the right internal expertise or external partners.
+Solid grounding in cloud security and the common threat patterns in modern cloud environments
+Hands-on experience with Terraform and GitHub Actions
+Strong scripting and programming experience used to automate tasks and build custom tooling
+Experience with cloud identity and access management, including IAM policies, roles, and permission boundaries across AWS and GCP.
+Experience with application level identity, such as SSO, OIDC, and identity providers like Okta.
+Familiarity with Internal Developer Platforms, including AI-assisted development tools, and a clear-eyed view of their security implications.
+A track record of influence beyond your own work: mentoring engineers, leading architectural reviews, and setting technical standards
+High autonomy. You identify and tackle problems before they're assigned, turn vague business pain points into technical roadmaps, and independently drive complex, ambiguous projects to completion.
+Comfortable managing priorities and tight deadlines, even when dealing with incomplete data.
+A humble, kind, and respectful attitude toward others and their work
+
+
+Would Be Nice if You Also Have
+
+
+Experience from multiple hyperscalers and a feel for how they compare
+Experience securing AI agents, building MCP servers, or authoring agent-readable documentation
+Experience with workflow automation tooling (e.g. n8n, Temporal)
+Familiarity with Internal Developer Portals (e.g. Backstage)
+Hands-on experience with FinOps tooling, reporting, and cost-optimisation experience
+Experience with vendor management and direct collaboration with external partners
+Enthusiasm for games
+
+
+Where You'll Be
+
+This role is based in our Helsinki office. We value a collaborative work environment and genuine human interactions. You will work very closely with our other Helsinki-based teams.
+
+If you are not local, our relocation team would be excited to help you with your move to Helsinki. We provide comprehensive support not only for you, but also for your family!
+
+–––
+
+That's it about the role! Below, we've gathered some things we feel are important for you to know. Totally optional, but a highly recommended read.
+
+Once you're ready to apply, just send us your application through the form on the bottom of the page.
+
+–––
+
+Benefits And Compensation
+
+Luring you in with glitter, glamour, and gems isn't what we're about. We want you to enjoy your time here fully, so we structure our compensation and benefits with that in mind. It starts with perceiving you as a human being, not a resource.
+
+Relocation? Yes!
+
+No matter where you’re moving from, our dedicated mobility team and partners will support you throughout your move. We’ll ensure the process is as smooth as possible for you and anyone joining you – whether they’re family members of the human or animal kind!
+
+Not Sure if You Should Apply?
+
+Many candidates with great skills and experience second-guess themselves. The bar is high, but if this role excites you, apply! We’re here to help you succeed. Also, we're happy to learn about any specific accommodations you may need to fully engage in our recruitment process.
+
+Wishing you all the best,
+
+The Supercell Recruitment team
+
+This optional question helps us evaluate how we’re doing on diversity and inclusion. Answering or skipping this question will not affect your job application. The answers to this question are not collected nor seen on an individualized basis. Your answer will be used to assess our diversity and inclusion efforts only.
+
+Consent request
+
+You are about to consent to the retention of your data by Supercell. Supercell (we, that is) wants to process your data for the next 5 years. We ask for your consent as we want to act in compliance with data protection laws and regulations.
+
+We collect your application data to manage and plan our recruitment activities globally. In the unhappy event that you don’t get selected, we will store your details for future opportunities. However, if you don’t wish to be contacted, please let us know.
+
+The Supercell Applicant Database Privacy Policy is your friend in case you want to learn about topics such as the processing of your personal data as well as when your personal data will be deleted if you don’t give your consent to retain it.
+
+Note: The consent period lasts for 5 years
+Show more 
+Seniority level
+Keskijohto
+Työn tyyppi
+Kokopäiväinen
+Työtehtävä
+Koneenrakennus ja Tietotekniikka
+Industries
+Mobiilipelisovellukset
+  
+
+Lähetteet lisäävät mahdollisuuksiasi haastatteluun Brawl Stars 2x
+
+Katso, kenet tunnet
+Saat ilmoituksen, kun uusi työpaikka julkaistaan.
+Aseta hälytys
+Samankaltaiset työpaikat
+Senior Cloud Platform Engineer
+Senior Cloud Platform Engineer
+Cloud Protection by WithSecure
+Helsinki
+1 päivä sitten
+Senior Cloud Platform Engineer (AWS) - Landing Zone
+Senior Cloud Platform Engineer (AWS) - Landing Zone
+Nordea
+Helsinki
+4 päivää sitten
+Senior Cloud Platform Engineer (Azure) - Landing Zone
+Senior Cloud Platform Engineer (Azure) - Landing Zone
+Nordea
+Helsinki
+4 päivää sitten
+Senior Infrastructure Engineer
+Senior Infrastructure Engineer
+ICEYE
+Espoo
+1 viikko sitten
+Platform Engineer (AWS), Gaming & Entertainment
+Platform Engineer (AWS), Gaming & Entertainment
+Reaktor
+Helsinki Metropolitan Area
+1 viikko sitten
+Site Reliability Engineer
+Site Reliability Engineer
+UpCloud
+Helsinki Metropolitan Area
+1 kuukausi sitten
+Show more jobs like this 
+Muita katsottuja
+Senior Staff Engineer, SRE
+Senior Staff Engineer, SRE
+
+Aiven
+
+Helsinki
+6 päivää sitten
+Cloud Architect (Azure)
+Cloud Architect (Azure)
+
+Knowit
+
+Helsinki
+1 päivä sitten
+AI Platform Engineer
+AI Platform Engineer
+
+Alma Media
+
+Helsinki
+1 viikko sitten
+Senior Systems Engineer - Service Providers
+Senior Systems Engineer - Service Providers
+
+Nutanix
+
+Helsinki
+2 viikkoa sitten
+MLOps Engineer/Architect
+MLOps Engineer/Architect
+
+Nitor
+
+Helsinki
+1 kuukausi sitten
+Network Engineer - Cloud Operations
+Network Engineer - Cloud Operations
+
+Siemens Healthineers
+
+Helsinki
+4 kuukautta sitten
+Technical Lead, Cloud
+Technical Lead, Cloud
+
+Aiven
+
+Helsinki
+3 viikkoa sitten
+Staff Engineer, Internal Platform and APIs - Greenstep Espoo
+Staff Engineer, Internal Platform and APIs - Greenstep Espoo
+
+Greenstep
+
+Espoo
+1 viikko sitten
+(Senior) Cloud Architect / Principal Architect
+(Senior) Cloud Architect / Principal Architect
+
+Cloud2
+
+Uusimaa, Finland
+3 viikkoa sitten
+Azure Cloud Architect
+Azure Cloud Architect
+
+Evitec Solutions
+
+Espoo
+6 päivää sitten
+LinkedIn
+© 2026
+Tietoja
+Saavutettavuus
+Käyttäjäsopimus
+Tietosuojakäytäntö
+Evästekäytännöt
+Tekijänoikeuskäytännöt
+Brändikäytäntö
+Vieraiden hallinta
+Yhteisön ohjeet
+Kieli
+Kirjaudu sisään nähdäksesi, keitä tunnet jo Brawl Stars
+Kirjaudu sähköpostiosoitteella
+
+tai
+
+Oletko uusi LinkedIn-käyttäjä? Liity nyt
+
+Kun liityt tai kirjaudut sisään valitsemalla Jatka, hyväksyt LinkedInin käyttäjäsopimuksen, tietosuojakäytännön ja evästekäytännön.
