@@ -2541,15 +2541,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-bertrandt-group-4428049187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hamburg, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in another EU country.",
+    "reason": "The role is an on-site position located in Hamburg, Germany, which violates the geographic location restriction requiring jobs to be either in Finland or fully remote.",
     "id": "92738079",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:25:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:25:02+03:00"
   },
   {
     "title": "Technischer Konfigurationsmanager (m/w/d) - Defence",
@@ -2558,15 +2557,14 @@
     "url": "https://de.linkedin.com/jobs/view/technischer-konfigurationsmanager-m-w-d-defence-at-bertrandt-group-4462977446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kassel, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
+    "reason": "The job is located in Germany and explicitly requires very good German language skills (C1-level), which the candidate does not possess.",
     "id": "416b2c79",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:25:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:25:02+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2575,15 +2573,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-jobspace-4461094056",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Germany, outside Finland and not remote, which violates location constraints.",
+    "reason": "The job is located in Pl\u00f6n, Germany, violating the location constraint requiring roles to be in Finland or fully remote.",
     "id": "68285261",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:25:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:25:02+03:00"
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2592,15 +2589,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461293647",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ulm, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The job is physically located in Ulm, Germany, which violates the candidate's location policy requiring roles to be in Finland or fully remote.",
     "id": "fd9dc84c",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:25:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:25:02+03:00"
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2609,15 +2605,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461282869",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Taufkirchen, Bavaria, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires an on-site presence outside Finland without remote flexibility.",
+    "reason": "The job is physically located in Taufkirchen, Germany (hybrid/on-site), violating the candidate's location criteria of Finland or fully remote.",
     "id": "810d6750",
     "source": "linkedin_eu_configuration_manager_p2",
     "posted_date": "vor 1 woche",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:25:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:25:02+03:00"
   },
   {
     "title": "Configuration manager",
@@ -2626,15 +2621,14 @@
     "url": "https://se.linkedin.com/jobs/view/configuration-manager-at-saab-4458202752",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sweden (Link\u00f6ping), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it's an on-site position outside Finland.",
+    "reason": "The job is physically located in Gothenburg, Sweden, and requires presence there while the candidate is based in Finland and not looking to relocate outside Finland.",
     "id": "a37f7407",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Configuration Manager (m/f/d)",
@@ -2643,15 +2637,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-f-d-at-quantum-systems-4431833898",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greater Munich Metropolitan Area (Germany), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland without remote flexibility.",
+    "reason": "The job is located in Germany (Greater Munich Metropolitan Area) and requires physical presence or relocation there, which violates the candidate's requirement to remain based in Finland.",
     "id": "c5915ea0",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2660,15 +2653,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-blackned-gmbh-4442614212",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Gilching, Bavaria, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Gilching, Germany, and requires fluent German language skills, which the candidate does not possess.",
     "id": "224491aa",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d) \u2013 Defence & Technology",
@@ -2677,15 +2669,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-%E2%80%93-defence-technology-at-randstad-deutschland-4463519108",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bremen, Germany (outside Finland) and is not fully remote, which violates Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Bremen, Germany, and does not offer a remote option for applicants residing in Finland.",
     "id": "ce87e38f",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Configuration Manager  (m/w/d)",
@@ -2694,15 +2685,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-sii-germany-4461286764",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Altenstadt, Hesse, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site work outside Finland.",
+    "reason": "The job is physically located in Altenstadt, Germany, violating the location constraint requiring roles to be in Finland or fully remote.",
     "id": "ba76ca79",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2711,15 +2701,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-cimpa-plm-services-4430909934",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hamburg, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
+    "reason": "The job is located in Hamburg, Germany (hybrid/on-site outside Finland), and explicitly requires fluent German in addition to English.",
     "id": "1b678aac",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -2728,15 +2717,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-cimpa-plm-services-4456746019",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Munich, Bavaria, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland without remote flexibility.",
+    "reason": "The job is located in Munich, Germany, which violates the candidate's requirement to be based in Finland or remote worldwide/EU without relocation outside Finland.",
     "id": "22208642",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -2745,15 +2733,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-dynamit-nobel-defence-gmbh-4428767040",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Burbach, North Rhine-Westphalia) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Burbach, Germany, which violates the candidate's location criteria requiring positions to be either in Finland or fully remote.",
     "id": "f073c8eb",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Konfigurationsmanager (m/w/d)",
@@ -2762,15 +2749,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-m-w-d-at-actcon-gmbh-4449091057",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bremen, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is physically located in Bremen, Germany, requiring on-site presence or hybrid work there, and explicitly demands fluent German language skills ('Sehr gute Deutsch- und Englischkenntnisse'), which does not match the candidate's location and language requirements.",
     "id": "4374e88b",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Service & Configuration Lead",
@@ -2779,15 +2765,14 @@
     "url": "https://ie.linkedin.com/jobs/view/service-configuration-lead-at-planet-4456693103",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Galway, Ireland (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "The job is physically located in Galway, Ireland, which violates the candidate's requirement to be based in Finland or in a globally remote role.",
     "id": "0433756a",
     "source": "linkedin_eu_remote_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:28:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:28:30+03:00"
   },
   {
     "title": "Change & Configuration Management Specialist, IRIS2 Programme Office",
