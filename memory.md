@@ -12,6 +12,21 @@
   `matches_requirements: "pending"` (id = md5(url)[:8], `source: linkedin_manual_search_oulu_it`); the
   scraper's review loop rates pending jobs first. 75 added this way survived the next scraper push.
 
+## Nokia (Oracle HCM) and NestAI (Teamtailor) forms (2026-09-30)
+
+- Nokia's LinkedIn "Apply" -> `fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/.../job/<n>`.
+  Email step sends a 6-digit PIN to Priya's Gmail (she enters it). Oracle then pre-fills everything from
+  her existing Nokia profile, **including an old `Priyanga_Ramachandran_resume.pdf`** (same filename as the
+  tailored one) and old answers (salary, "heard via", work-history dates that differ from master_data).
+  Swap the resume *before* she submits - it can't be changed after. Cover letter goes under "Additional
+  Documents" (`#attachment-upload-*`). After submit the tab lands on `/my-profile`, which lists her
+  Nokia applications - use it to confirm submission.
+- NestAI (`careers.nestai.com`, Teamtailor): "How did you hear" is a dropdown of hidden radios and stays
+  open over the Locations checkboxes - close it (Escape) and set checkboxes via JS `.click()`.
+- Priya wants the cover letter attached as an additional document on forms, not only pasted.
+- Many jobs in her Oulu LinkedIn search are Finnish-language/Finnish-required or need Finnish citizenship
+  (Gofore, ICT Direct, Bittium) - check the description for this before tailoring.
+
 ## Safety-critical / functional-safety search terms; manual jobs get wiped (2026-09-29)
 
 - Priya asked (after tailoring for a manually-shared ALTEN "Requirement Engineer – Safety Critical
