@@ -5124,17 +5124,15 @@
     "location": "Kuopio, North Savo, Finland",
     "url": "https://fi.linkedin.com/jobs/view/solution-consultant-tieto-caretech-m-f-d-at-tieto-4464491895",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "LLM returned no parseable verdict (empty or truncated output); will retry.",
+    "matches_requirements": "no",
+    "reason": "The job requires fluent Finnish (written and spoken) as a mandatory qualification, which Priya does not possess, and the role is customer-facing consultancy rather than technical release/CM/DevOps or documentation-specialist work matching her background.",
     "id": "4a5ba99a",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:20:46+03:00",
-    "error_attempts": 1,
-    "last_error_at": "2026-09-30T11:49:27+03:00"
+    "added_at": "2026-09-09T01:20:46+03:00"
   },
   {
     "title": "Pre-Sales Engineer SaaS Industry (Technical Finnish Speaker)",
@@ -5975,15 +5973,14 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-standardsoftware-banking-all-genders-at-msg-for-banking-ag-4444557599",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Munich, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with Finland-based candidates.",
+    "reason": "The job is located in Munich, Germany, which is outside Finland and not a fully remote role open to Finland-based candidates, triggering a hard rejection.",
     "id": "21f63877",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "2 m\u00e5nader sedan",
+    "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:40:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:40:23+03:00"
   },
   {
     "title": "Technical Product Specialist (French-Speaking) - Digital Ads",
@@ -5992,15 +5989,14 @@
     "url": "https://pt.linkedin.com/jobs/view/technical-product-specialist-french-speaking-digital-ads-at-concentrix-4428245127",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal (on-site), which falls under the Hard Rejection rule for on-site/hybrid roles outside Finland. Additionally, the role requires fluency in French (C1) as a mandatory qualification, which the candidate does not possess.",
+    "reason": "Job located in Lisbon, Portugal (on-site), which falls under 'Outside Finland and Not Remote' hard rejection; also requires French fluency (C1) and is a customer-facing technical support role, both of which are incompatible with candidate's requirements.",
     "id": "5008cfe1",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:40:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:40:23+03:00"
   },
   {
     "title": "Product Specialist",
@@ -6009,15 +6005,14 @@
     "url": "https://pt.linkedin.com/jobs/view/product-specialist-at-continental-4404301422",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Portugal, outside Finland and not remote, disqualifies per hard rejection.",
+    "reason": "The job is located in Portugal (Lousado, Braga) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule. Priya only considers roles physically located in Finland or fully remote from Finland.",
     "id": "e211526a",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:40:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:40:23+03:00"
   },
   {
     "title": "Product Specialist - Autoimmunit\u00e0",
@@ -6026,15 +6021,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-autoimmunit%C3%A0-at-werfen-4452481352",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is outside Finland and not a fully remote role accessible from Finland.",
     "id": "40a48399",
     "source": "linkedin_eu_remote_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:40:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:40:23+03:00"
   },
   {
     "title": "Technisch Product Specialist Moleculaire Filtratie",
@@ -6043,15 +6037,14 @@
     "url": "https://nl.linkedin.com/jobs/view/technisch-product-specialist-moleculaire-filtratie-at-cf-industrial-4462788989",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands and requires on-site work, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in the Netherlands (Meerkerk, South Holland) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "85519d4b",
     "source": "linkedin_eu_remote_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:40:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:40:23+03:00"
   },
   {
     "title": "Produktov\u00fd specialista / Produktov\u00e1 specialistka pro RTG techniku",
@@ -6060,15 +6053,14 @@
     "url": "https://cz.linkedin.com/jobs/view/produktov%C3%BD-specialista-produktov%C3%A1-specialistka-pro-rtg-techniku-at-siemens-healthineers-4459210478",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Prague, Czechia (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote.",
+    "reason": "The job is located in Prague, Czechia (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and not a remote role eligible for someone based in Finland.",
     "id": "1f459d11",
     "source": "linkedin_eu_remote_product_specialist",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T01:40:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:40:23+03:00"
   },
   {
     "title": "International Product Specialist Industry (m/w/d)",
@@ -6077,15 +6069,14 @@
     "url": "https://de.linkedin.com/jobs/view/international-product-specialist-industry-m-w-d-at-geberit-deutschland-4447106920",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an on-site position in Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is located outside Finland and not fully remote.",
+    "reason": "The job is located in Germany (Langenfeld, North Rhine-Westphalia) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "d0e07bf6",
     "source": "linkedin_eu_remote_product_specialist_p2",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Product Specialist Accessories",
@@ -6094,15 +6085,14 @@
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-accessories-at-hiab-4414628483",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands (Meppel, Drenthe), which is outside Finland and not remote, triggering a hard rejection under 'Outside Finland and Not Remote' rules.",
+    "reason": "The job is located in the Netherlands (Meppel, Drenthe), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it's an on-site role outside Finland.",
     "id": "c4cf26a7",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Product Specialist",
@@ -6111,15 +6101,14 @@
     "url": "https://gr.linkedin.com/jobs/view/product-specialist-at-iason-pliroforiki-s-a-4459947395",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Athens, Greece (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule. The candidate explicitly requires roles physically located in Finland or fully remote options open to Finland-based applicants, and this position does not meet that criterion.",
+    "reason": "The job is located in Athens, Greece, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "85d523ad",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Application Specialist",
@@ -6128,15 +6117,14 @@
     "url": "https://ie.linkedin.com/jobs/view/application-specialist-at-puratos-4410172846",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ireland (Dunboyne, County Meath) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with the candidate's requirements.",
+    "reason": "The job is located in Ireland and is not remote, which does not meet Priya's requirement for roles located in Finland or fully remote positions accessible from Finland.",
     "id": "682d552f",
     "source": "linkedin_eu_remote_product_specialist_p2",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Product Specialist - HV Power",
@@ -6145,15 +6133,14 @@
     "url": "https://de.linkedin.com/jobs/view/product-specialist-hv-power-at-aggreko-4451420089",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site in Germany, which is outside Finland and not a remote role.",
+    "reason": "The job is located in Dorsten, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility for someone based in Finland.",
     "id": "4d2d29f8",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Commercial Product Specialist",
@@ -6165,12 +6152,11 @@
     "reason": "The job is located in the Netherlands (Maassluis, South Holland) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "500aace5",
     "source": "linkedin_eu_remote_product_specialist_p2",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Productspecialist",
@@ -6179,15 +6165,14 @@
     "url": "https://nl.linkedin.com/jobs/view/productspecialist-at-flikweert-vision-4445112035",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Nieuwerkerk, Zeeland, Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "The job is located in the Netherlands (Nieuwerkerk, Zeeland), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "97ab1252",
     "source": "linkedin_eu_remote_product_specialist_p2",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Integration Product Specialist",
@@ -6196,15 +6181,14 @@
     "url": "https://lv.linkedin.com/jobs/view/integration-product-specialist-at-intrum-4462808243",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Riga, Latvia, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is located in Riga, Latvia (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote flexibility for someone based in Finland.",
     "id": "cb7dca9a",
     "source": "linkedin_eu_remote_product_specialist_p2",
-    "posted_date": "h\u00e1 3 semanas",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:18:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:18:08+03:00"
   },
   {
     "title": "Productspecialist",
