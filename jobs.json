@@ -1491,16 +1491,15 @@
     "location": "Remote (Worldwide)",
     "url": "https://fi.indeed.com/viewjob?jk=789abcdef0123456",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is remote worldwide and matches senior-level experience requirements, but the 'Lead Architect' role is not explicitly aligned with Priya's focus on configuration management, release processes, or regulated-industry DevOps/CI-CD expertise (her target criteria).",
+    "matches_requirements": "no",
+    "reason": "The job description is inaccessible due to a 400 Bad Request error.",
     "id": "f6272112",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:03:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:03:56+03:00"
   },
   {
     "title": "Principal Engineer",
@@ -1508,16 +1507,15 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=79b8b9971db03a7f",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job location (Helsinki, Finland) meets Priya's requirements, and the title 'Principal Engineer' could align with her experience in regulated CI/CD/release management if the role involves technical leadership in those areas; however, the job description lacks sufficient detail to confirm alignment with her target domains (configuration management, release engineering, etc.).",
+    "matches_requirements": "no",
+    "reason": "The job description text provided is incomplete and lacks sufficient details regarding the role responsibilities and requirements to evaluate it properly.",
     "id": "274fdbaa",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:03:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:03:56+03:00"
   },
   {
     "title": "DevSecOps Engineer",
@@ -1526,15 +1524,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cdd8a82d35501ac2",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is inaccessible (HTTP 400 error) and does not explicitly state valid locations that meet the candidate's criteria (Finland-based on-site/hybrid or fully remote from Finland).",
+    "reason": "The job posting lacks sufficient details about the role requirements to verify a proper fit for configuration management, technical writing, or quality engineering.",
     "id": "a8228c5d",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:03:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:03:56+03:00"
   },
   {
     "title": "Software Integration & Release Engineer",
@@ -1542,16 +1539,15 @@
     "location": "Multiple Locations \u00b7 Hybrid",
     "url": "https://fi.indeed.com/rc/clk?jk=d6a60ac8d91779ea",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job location is listed as 'Multiple Locations \u00b7 Hybrid', but without explicit confirmation that it includes Finland or is fully remote (excluding US), it falls under the Hard Rejection for on-site/hybrid roles outside Finland.",
+    "matches_requirements": "yes",
+    "reason": "This role directly aligns with Priya's extensive background in software release management, configuration management, and integration pipelines.",
     "id": "75a77ca4",
     "source": "indeed_fi_devops_engineer_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "added_at": "2026-09-09T00:03:56+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/nestai_software_integration___release_75a77ca4.txt",
+    "added_at": "2026-09-09T00:03:56+03:00"
   },
   {
     "title": "Backend Engineer (all genders) - Remote Nordics Europe",
@@ -1560,15 +1556,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=97cbfd3588468506",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Backend Engineer' role focused on feature development, which falls under the strict hard rejection category of 'Pure Feature-Development Software Engineering' due to Priya's release/DevOps-focused career and lack of fit for coding-centric roles.",
+    "reason": "This is a pure feature-development backend engineering role which violates the candidate's hard rejection criteria against writing new application product code with no release, configuration management, or CI/CD ownership component.",
     "id": "423c14fe",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Senior Data Engineer",
@@ -1577,15 +1572,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cfb4b68e1c9e669a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Data Engineer, which does not match the candidate\u2019s expertise in release management, configuration management, technical writing, or regulated quality domains.",
+    "reason": "The role is a Senior Data Engineer position, which falls under pure data/cloud platforms and feature development without the required release, configuration management, or quality core.",
     "id": "e1bc7f40",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1612,15 +1606,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3e0b3af0bc2b598e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Customer Support Engineer, which does not align with the candidate\u2019s expertise in release management, configuration management, technical writing, or quality engineering.",
+    "reason": "The role is primarily customer-facing support rather than configuration management, release engineering, or technical writing.",
     "id": "c19ffcb8",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1629,15 +1622,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=bc2c0d0c35a4eb31",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The DevOps Engineer role at SimAnalytics Oy matches Priya's expertise in CI/CD pipeline ownership and configuration management, and is located in Helsinki, Finland where she is based.",
+    "reason": "The role is a DevOps Engineer position located in Helsinki, Finland, aligning well with her extensive background in CI/CD pipelines, release management, and automation.",
     "id": "d961b17e",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": "job_descriptions/simanalytics_oy_devops_engineer_d961b17e.txt",
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -1664,15 +1656,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ba20eab65b252257",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The job as a Senior DevOps Engineer at ICEYE in Espoo, Finland aligns with Priya's expertise in CI/CD pipelines, release management, and configuration strategies, matching her background at Elektrobit and Topcon.",
+    "reason": "This Senior DevOps Engineer role matches Priya's extensive background in CI/CD pipeline ownership, release management, and core platform configuration within Finland.",
     "id": "183c39df",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": "job_descriptions/iceye_senior_devops_engineer___core__183c39df.txt",
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Staff Platform Engineer - Core Platform Engineering",
@@ -1680,16 +1671,15 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=d41b600073aff59c",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role title 'Staff Platform Engineer' does not explicitly align with Priya's target domains (DevOps/Release Management/Configuration Management), but the location in Finland and mid-to-senior experience level are favorable. Further details on responsibilities would be needed to confirm fit.",
+    "matches_requirements": "no",
+    "reason": "The role focuses on core platform engineering and cloud infrastructure rather than configuration management, release management, or technical communication.",
     "id": "fb37fffb",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Staff Developer Advocate",
@@ -1698,15 +1688,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4c3b86712c6b1625",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Staff Developer Advocate' does not align with Priya's target roles (DevOps, Release Management, Technical Writing, etc.) or her experience in regulated/safety-critical domains.",
+    "reason": "The role is a Developer Advocate position focused on developer relations and community engagement, which does not align with Priya's background in release management, configuration management, DevOps, or technical communication.",
     "id": "31240eb6",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Senior Software Engineer (Developer Enablement)",
@@ -1715,15 +1704,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2713e5b42fe4b719",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Senior Software Engineer (Developer Enablement)' does not explicitly align with Priya's target roles in DevOps, Configuration Management, Release Management, or Technical Writing, and the job description lacks sufficient detail to confirm alignment with her skills.",
+    "reason": "This is a software engineering developer enablement role focused on developer tools and infrastructure rather than configuration management, release management, or technical communications.",
     "id": "16cb105d",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Forward Deployed Engineer - Public sector, Nonprofit and Education",
@@ -1732,15 +1720,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=43406b63ecd78ec9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Forward Deployed Engineer' does not align with the candidate's target roles (DevOps, Configuration Management, Release Management, etc.) and lacks explicit mention of configuration management or technical writing responsibilities.",
+    "reason": "This is a customer-facing forward deployed engineering role on the Salesforce platform, which conflicts with the candidate's negative constraint against customer-facing roles and her target profile focused on release/CM/quality/regulatory functions.",
     "id": "308a32f3",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Staff Engineer \u2013 Core Developer Experience (DevEx)",
@@ -1749,15 +1736,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=223c30814249e037",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Staff Engineer \u2013 Core Developer Experience (DevEx)' falls under the 'Pure Feature-Development Software Engineering' hard rejection category, as it likely focuses on coding new application features rather than release/CM/DevOps responsibilities.",
+    "reason": "This is a core developer experience software engineering role focused on internal developer tooling and developer experience rather than her expertise in release/configuration management, QA, or technical communication.",
     "id": "f6bb3fc1",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "Senior Data Arkkitehti",
@@ -1766,15 +1752,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e81816b3afcc5e98",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Senior Data Architect does not align with Priya's target criteria in DevOps, Configuration Management, Release Management, or Technical Communication Specialist roles.",
+    "reason": "This is a Senior Data Architect role, which falls under the category of specialized platform/architecture roles with no release, configuration management, or quality core that Priya explicitly avoids.",
     "id": "bc3a9dfc",
     "source": "indeed_fi_devops_engineer_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:06:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
     "title": "DevOps Lead",
