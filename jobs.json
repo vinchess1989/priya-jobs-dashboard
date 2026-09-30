@@ -3777,15 +3777,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sr-product-manager-at-copado-4443625222",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Product Manager with AI-native DevOps expertise, which does not align with Priya's background in configuration management, release management, and technical writing in regulated industries.",
+    "reason": "This is a product management role focusing on AI testing feature development rather than her core background in release, configuration management, or technical writing/quality gatekeeping.",
     "id": "e8830803",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Product Manager - Paper.io 2",
@@ -3794,15 +3793,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-paper-io-2-at-voodoo-4462768659",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Product Manager for a gaming platform, which does not align with Priya's expertise in configuration management, release engineering, technical documentation, or regulated-industry quality compliance (her target roles include DevOps, Release Management, Technical Writing, and Safety-critical requirements engineering).",
+    "reason": "This is a mobile game product management role focused on F2P monetization and live operations for Paper.io 2, which does not match Priya's background in release management, CI/CD, configuration management, and technical compliance.",
     "id": "6d1c0f63",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "SAP PMO",
@@ -3811,15 +3809,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-pmo-at-tata-consultancy-services-4449123399",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires SAP S/4HANA program management expertise and PMO leadership, which does not align with Priya's background in CI/CD/release management, configuration management, or technical documentation in regulated industries.",
+    "reason": "This is an SAP-specific PMO/program management role requiring deep S/4HANA enterprise ERP implementation experience, which falls outside her configuration management, release engineering, and quality/regulatory background.",
     "id": "fe55744d",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Feature Lead",
@@ -3828,15 +3825,14 @@
     "url": "https://fi.linkedin.com/jobs/view/feature-lead-at-supercell-4400855141",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Feature Lead at Supercell focuses on game feature development and product leadership, which does not align with Priya's expertise in release management, configuration management, DevOps, or technical documentation ownership.",
+    "reason": "This role focuses on game feature design and game product management for mobile games, which falls under pure feature development and game systems design rather than Priya's expertise in release management, CI/CD, configuration management, or technical compliance.",
     "id": "4b7472c6",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Tech Lead - Google Cloud Platform Infrastructure, Data Mesh and AI Platforms team",
@@ -3844,16 +3840,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/tech-lead-google-cloud-platform-infrastructure-data-mesh-and-ai-platforms-team-at-nordea-4460343507",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is a Tech Lead role focused on Google Cloud Infrastructure and AI Platforms, which may involve DevOps but does not explicitly align with Priya's specialized experience in configuration management, release processes, or regulated-industry quality compliance.",
+    "matches_requirements": "no",
+    "reason": "This role centers on GCP infrastructure, data mesh, and AI platform engineering, which falls under the hard rejection criteria for specialized cloud/data platforms lacking a release/CM/quality core.",
     "id": "717258ab",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "2026-09-30",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -3862,15 +3857,14 @@
     "url": "https://hu.linkedin.com/jobs/view/technical-release-manager-at-rollout-it-4463509647",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "This job is located in Budapest, Hungary with a hybrid work requirement, which fails the candidate's location criteria of being based in Finland or fully remote.",
     "id": "26549093",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Senior Release Manager",
@@ -3879,15 +3873,14 @@
     "url": "https://ie.linkedin.com/jobs/view/senior-release-manager-at-uniphar-group-4429114199",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
+    "reason": "The job is located in Dublin, Ireland, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "ebb400b9",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Release Manager (m/w/d)",
@@ -3896,15 +3889,14 @@
     "url": "https://de.linkedin.com/jobs/view/release-manager-m-w-d-at-spectrum-ag-4452268581",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kiel, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work from Finland.",
+    "reason": "The job is physically located in Kiel, Germany, and is not remote or based in Finland, violating the location constraint.",
     "id": "42f1e789",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Release Manager",
@@ -3913,15 +3905,14 @@
     "url": "https://mt.linkedin.com/jobs/view/release-manager-at-platin-gaming-ltd-4415496863",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Malta, which is outside Finland and not a remote role.",
+    "reason": "The job is physically located in Malta (hybrid work model) and therefore fails the location requirement of being in Finland or fully remote.",
     "id": "2d7f8b1f",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "DevOps & Release Lead",
@@ -3930,15 +3921,14 @@
     "url": "https://bg.linkedin.com/jobs/view/devops-release-lead-at-fadata-4433925793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is closed and located outside Finland, disqualifying it under hard rejection rules.",
+    "reason": "The job is physically located in Sofia, Bulgaria, which violates the location criteria requiring positions to be in Finland or fully remote.",
     "id": "d51c0f06",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Product Release Manager (m/w/d) \u2013 Software & CI/CD",
@@ -3947,15 +3937,14 @@
     "url": "https://be.linkedin.com/jobs/view/product-release-manager-m-w-d-%E2%80%93-software-ci-cd-at-aconext-4460475498",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kiel, Flemish Region, Belgium (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland and is not a fully remote role accessible from Finland.",
+    "reason": "The job is located in Kiel, Belgium, violating the requirement that on-site or hybrid roles must be in Finland.",
     "id": "d601bc75",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Release Manager (all genders)",
@@ -3964,15 +3953,14 @@
     "url": "https://pl.linkedin.com/jobs/view/release-manager-all-genders-at-mettler-toledo-international-inc-4461973262",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Warsaw, Poland (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Warsaw, Poland, with a hybrid work model, which violates the requirement that positions outside Finland must be fully remote and open to residents of Finland.",
     "id": "84fec480",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Release Manager",
@@ -3981,15 +3969,14 @@
     "url": "https://dk.linkedin.com/jobs/view/release-manager-at-festina-finance-4459770959",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Denmark (Hareskovby, Capital Region of Denmark), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "9aca5e89",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Release Manager",
@@ -3998,15 +3985,14 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-groupe-sii-4464451651",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Bucharest, Romania, which is outside Finland and not remote, violating the location requirement.",
+    "reason": "The job is physically located in Bucharest, Romania, whereas the candidate is based in Finland and requires a role in Finland or fully remote.",
     "id": "7b890e66",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Release Engineer",
@@ -4015,15 +4001,14 @@
     "url": "https://hu.linkedin.com/jobs/view/release-engineer-at-telio-group-4451208597",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection.",
+    "reason": "The job is located in Budapest, Hungary, which violates the geographic requirement of being in Finland or fully remote.",
     "id": "cd8aa6f4",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Software Release & Configuration Manager (m/f/d)",
