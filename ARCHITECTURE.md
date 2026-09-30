@@ -100,7 +100,7 @@ the MD5 of its URL.
 (`GEMINI_MODELS`), then the local LLM (`LOCAL_LLM_ENDPOINT` / `LOCAL_LLM_MODEL`). The prompt is built
 from `job_requirements.md`; the result is a verdict (`yes` / `maybe` / `no`), a reason, and the model
 used. The local LLM is shared with the sibling projects `manju_jobs`, `vineeth_jobs` and
-`priya_global_jobs`; OS-level file locks give priority manju > vineeth > priya > priya-global.
+`priya_global_jobs`; OS-level file locks give priority OpenClaw > manju > vineeth > priya > priya-global.
 
 **Other modes:** `--scrape-only` (fetch, no rating), `--review-only`, `--review-urls URL…`,
 `--git-only`, `--max-jobs N`.
