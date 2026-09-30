@@ -8135,15 +8135,14 @@
     "url": "https://fi.linkedin.com/jobs/view/pilviarkkitehti-at-netum-4458160846",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, and the role focuses on cloud architecture/platform development without CI/CD/release management components that align with her expertise.",
     "id": "0782812c",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Staff Engineer \u2013 Core Developer Experience (DevEx)",
@@ -8151,16 +8150,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/staff-engineer-%E2%80%93-core-developer-experience-devex-at-alphasense-4440576723",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Staff Engineer position focused on building internal developer platforms and tooling, which falls under the 'Pure Feature-Development Software Engineering' or 'Specialist Platforms' exclusion criteria rather than the candidate's core focus on release management, quality, and compliance.",
+    "matches_requirements": "yes",
+    "reason": "The senior DevOps/Developer Experience role in Helsinki aligns with Priya's release management, CI/CD, and configuration management background.",
     "id": "96fb234f",
     "source": "linkedin_fi_devops_engineer_p3",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_96fb234f.txt",
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Senior Software Engineer",
@@ -8169,15 +8167,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-at-wolt-4416579518",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily focused on feature-development and building core services for a data platform, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "The role is a 'Senior Software Engineer' focused on feature development (designing/building large-scale systems/platforms) rather than DevOps/CI-CD/release/configuration management, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
     "id": "f20931f3",
     "source": "linkedin_fi_devops_engineer_p3",
-    "posted_date": "18 tuntia sitten",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Software Engineer, Data Infrastructure & Acquisition - Helsinki, Finland",
@@ -8186,15 +8183,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-data-infrastructure-acquisition-helsinki-finland-at-speechify-4462091759",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role is a data infrastructure engineering position that lacks the required focus on release, configuration management, or quality gatekeeping.",
+    "reason": "The job is a data infrastructure engineering role focused on cloud architecture and large-scale data processing, which does not align with Priya's target criteria of DevOps/CI-CD, configuration management, release management, or regulated-industry quality/compliance work.",
     "id": "3c14694e",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Principal Engineer, Platform",
@@ -8203,15 +8199,14 @@
     "url": "https://fi.linkedin.com/jobs/view/principal-engineer-platform-at-smartly-4433877678",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure software engineering/architecture role focused on building platform systems and distributed architecture, which falls under the hard rejection for pure feature-development or platform-architecture roles lacking a core release, CM, or quality-gatekeeping component.",
+    "reason": "The role is a Principal Engineer focused on platform architecture and infrastructure, which does not align with Priya's expertise in release/CM/DevOps, technical writing, or regulated-industry quality gatekeeping.",
     "id": "055d4fe6",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Senior Software Engineer, Search",
@@ -8220,15 +8215,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-search-at-aiven-4408400079",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure software engineering role focused on feature development and internal architecture of a search platform, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "The role is a Senior Software Engineer focused on feature development for OpenSearch, which falls under 'Pure Feature-Development Software Engineering' and does not involve release/CM/DevOps aspects that Priya specializes in.",
     "id": "38b3caf2",
     "source": "linkedin_fi_devops_engineer_p3",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Koodaava pilviarkkitehti",
@@ -8237,15 +8231,14 @@
     "url": "https://fi.linkedin.com/jobs/view/koodaava-pilviarkkitehti-at-nitor-4301062412",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on software engineering/architecture position requiring active coding in Java/Kotlin/TypeScript, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "The job requires a Cloud Architect with infrastructure-as-code and cloud platform expertise, which diverges from Priya's focus on regulated-industry CI/CD/release management and technical documentation (her core skills are in configuration/release management, not cloud architecture).",
     "id": "918e17da",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "1 vuosi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "AZURE-KONSULTTI ATEALLE",
@@ -8254,15 +8247,14 @@
     "url": "https://fi.linkedin.com/jobs/view/azure-konsultti-atealle-at-nice-business-consulting-oy-nico-4434476998",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which is a hard rejection criteria, and it is primarily a hands-on Azure consulting/engineering role rather than the release/CM/quality-focused role Priya is targeting.",
+    "reason": "The job requires Azure cloud consultancy and infrastructure-as-code expertise, which does not align with Priya's core skills in release/configuration management, CI/CD ownership, or technical documentation (her key experience areas).",
     "id": "7f305d6f",
     "source": "linkedin_fi_devops_engineer_p3",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Software Engineer",
@@ -8271,15 +8263,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-at-the-flex-4429171655",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on building new products and AI-powered systems, which falls under the hard rejection for pure feature-development roles.",
+    "reason": "The role is a pure feature-development software engineering position (building production-grade systems, APIs, cloud infrastructure) with no mention of CI/CD, release management, configuration management, or quality/compliance gatekeeping responsibilities, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
     "id": "555d4d20",
     "source": "linkedin_fi_devops_engineer_p3",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -8288,15 +8279,14 @@
     "url": "https://es.linkedin.com/jobs/view/senior-devops-engineer-at-impress-4442646842",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Spain and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Barcelona, Spain (not Finland) and is not fully remote, which disqualifies it under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "88d66339",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "DevOps Engineer \u2013 Business-Critical Platforms",
@@ -8305,15 +8295,14 @@
     "url": "https://dk.linkedin.com/jobs/view/devops-engineer-%E2%80%93-business-critical-platforms-at-twoday-4434884028",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires professional fluency in Danish, which the candidate does not possess, and it is an on-site role in Copenhagen, Denmark, which falls outside the allowed locations.",
+    "reason": "The job is located in Copenhagen, Denmark (outside Finland) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "c7385e9f",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:58:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:58:51+03:00"
   },
   {
     "title": "Senior DevOps - Cloud Engineer",
@@ -8322,15 +8311,14 @@
     "url": "https://ie.linkedin.com/jobs/view/senior-devops-cloud-engineer-at-deutsche-b%C3%B6rse-group-4457485241",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cork, Ireland, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Cork, Ireland, which is outside Finland and not fully remote, disqualifying it under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "9991410d",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:00:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:00:52+03:00"
   },
   {
     "title": "Ing\u00e9nieur DevOps/Ing\u00e9nieure DevOps",
@@ -8339,15 +8327,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-ing%C3%A9nieure-devops-at-neosoft-4434608644",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Toulouse, France, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Toulouse, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "6afe72c4",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:00:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:00:52+03:00"
   },
   {
     "title": "DevOps Engineer (Middle y Senior) EN REMOTO",
@@ -8355,16 +8342,15 @@
     "location": "Barcelona, Catalonia, Spain",
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-middle-y-senior-en-remoto-at-slashmobility-4430870285",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role focuses on cloud platform infrastructure (Databricks, Data Factory, AzureML) and cost optimization, which falls under the hard rejection for platform-specialist roles lacking a core release/CM/quality component.",
+    "matches_requirements": "maybe",
+    "reason": "The job is a DevOps Engineer role matching her CI/CD and infrastructure expertise, but the location is unclear on whether it accepts Finland-based remote candidates (listed as 'Barcelona, Catalonia, Spain' with 'EN REMOTO' but no explicit global remote allowance).",
     "id": "824e8b80",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:00:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:00:52+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -8373,15 +8359,14 @@
     "url": "https://bg.linkedin.com/jobs/view/senior-devops-engineer-at-delasport-4271435268",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is located in Sofia, Bulgaria (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote option compatible with Finland-based work.",
     "id": "30ce58c5",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:00:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:00:52+03:00"
   },
   {
     "title": "DevOps Engineer",
