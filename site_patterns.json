@@ -4,6 +4,36 @@
     "discovered": "2026-09-28",
     "notes": "Wartsila's own career site, itself a thin wrapper -- job posting page (e.g. /job/<slug>/<id>/) has an 'Apply now' link to /talentcommunity/apply/<id>/?locale=en_GB, but clicking it (or navigating there directly) always lands on career2.successfactors.eu/careers?company=Wartsila's bare sign-in/create-account gate ('Career Opportunities: Sign In') -- the specific job id/context is lost, there is no way to reach a job-specific application form pre-login. This is a genuine account-creation requirement (SuccessFactors ATS), not a scraping failure -- confirmed via both WebFetch and a real CDP-connected browser click-through. Do not attempt to sign in or create the account; tell the user to do it herself, then re-resolve from career2.successfactors.eu post-login."
   },
+  "jobs.ashbyhq.com": {
+    "strategy": "cdp_browser",
+    "discovered": "2026-09-30",
+    "notes": "Ashby (ICEYE: jobs.ashbyhq.com/iceye/<uuid>/application). Single page, no login. #_systemfield_name, #_systemfield_email, #_systemfield_resume (file); custom questions by label: LinkedIn Profile, Contact Number, Desired Salary (number, 'per month in the currency of the entity'), Location typeahead ([role=option]), 'How did you hear' typeahead ('LinkedIn — Organic post/job search'). ICEYE adds two required SUPO questions (countries of citizenship; countries with permanent-residency right) - personal, leave for Priya. No cover-letter upload. thehub.io/duunitori ICEYE postings do not link out - find the same title on jobs.ashbyhq.com/iceye."
+  },
+  "teamtailor (careers.<company>.com/jobs/...)": {
+    "strategy": "cdp_browser",
+    "discovered": "2026-09-30",
+    "notes": "Teamtailor career sites (NestAI, SimAnalytics, Teleste). Click 'Apply for this job'. Standard ids: #candidate_first_name/_last_name/_email/_phone, #candidate_resume_remote_url, #candidate_file_remote_url, #candidate_job_applications_attributes_0_cover_letter. Single-choice custom questions render as a dropdown (fieldset > button[aria-haspopup=menu] -> #<aria-controls> > button[role=menuitemradio][data-value=N]) backed by hidden radios #candidate_answers_attributes_<q>_choice_<N>; click the menu item with force=True, then close the menu (it covers the checkboxes below). Location checkboxes name='candidate[location_ids][]' - use .check(force=True). Consent #candidate_consent_given is left for Priya (on some sites it's a hidden input, not a checkbox)."
+  },
+  "job-boards.greenhouse.io": {
+    "strategy": "cdp_browser",
+    "discovered": "2026-09-30",
+    "notes": "Greenhouse (Smartly). No login. #first_name, #last_name, #preferred_name, #email, #phone, #resume and #cover_letter (file). react-select comboboxes: #country (phone-country select, shows '+358' once Finland chosen), #candidate-location (type 'Oulu' -> 'Oulu, Finland'), question_<id> Yes/No selects. Some questions that look like selects are plain text inputs (Smartly's visa-sponsorship question) - check el.get_attribute('role'). Demographic questions + GDPR demographic consent + data-retention consent are required but personal - leave for Priya."
+  },
+  "jobs.smartrecruiters.com": {
+    "strategy": "cdp_browser",
+    "discovered": "2026-09-30",
+    "notes": "SmartRecruiters one-click (Tieto: careers.tieto.com Apply -> jobs.smartrecruiters.com/oneclick-ui/company/Tieto2/...). No login. Fields are <spl-input> web components sharing the id with the real inner input - target 'input#first-name-input' etc. City (input#spl-form-element_8) is a required typeahead - type then click the exact suggestion (or ArrowDown+Enter). Phone input#spl-form-element_3 with separate +358 selector. Resume input#file-input. 'Message to the Hiring Team' textarea REJECTS semicolons ('This field cannot contain following characters: ;') - replace them before pasting a cover letter. Page 2 'Preliminary questions' holds only privacy declarations + Submit."
+  },
+  "careers-sisk.icims.com": {
+    "strategy": "cdp_browser",
+    "discovered": "2026-09-30",
+    "notes": "iCIMS (John Sisk). LinkedIn 'Apply' -> careers-sisk.icims.com/jobs/<id>/<slug>/job?mode=apply, which redirects to a login page (email + GDPR consent) before the form - Priya must log in / create the account herself."
+  },
+  "jobs.danfoss.com": {
+    "strategy": "webfetch_hops",
+    "discovered": "2026-09-30",
+    "notes": "Danfoss: 'Apply now' (/talentcommunity/apply/<id>/) -> career2.successfactors.eu/careers?company=danfossas with a combined register+apply form (like Fortum): CV upload only (no cover-letter slot), fbclc_* fields, juic picklists 13 (source: no LinkedIn option - 'Job Boards') and 17 (worked before: No), tor__fexpectedSalary text, fbclc_country select. Password, Salutation and Terms left for Priya."
+  },
   "sandvik.wd3.myworkdayjobs.com": {
     "strategy": "webfetch_hops",
     "discovered": "2026-09-30",
