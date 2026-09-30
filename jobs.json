@@ -4497,15 +4497,14 @@
     "url": "https://de.linkedin.com/jobs/view/it-release-manager-remote-w-m-d-at-bechtle-4445024681",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Germany and is not a fully remote role open to Finland-based applicants, and it is also closed for applications.",
+    "reason": "The role requires fluent German proficiency for communication in the customer and project environment, which the candidate does not have.",
     "id": "fa37f8bf",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:02:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:02:13+03:00"
   },
   {
     "title": "Release Manager H/F",
@@ -4514,15 +4513,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-nexton-4461985583",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Paris, France, which is outside Finland and not a remote position, triggering a hard rejection under 'Outside Finland and Not Remote' rules.",
+    "reason": "The job is physically located in Paris, France, and is neither in Finland nor fully remote for applicants living in Finland.",
     "id": "4e44ac4c",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:02:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:02:13+03:00"
   },
   {
     "title": "Release Manager & Test Automation Lead",
@@ -4531,15 +4529,14 @@
     "url": "https://hu.linkedin.com/jobs/view/release-manager-test-automation-lead-at-arm-4428423088",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with the candidate's requirements.",
+    "reason": "The job is physically located in Budapest, Hungary, and the candidate is based in Finland without willingness to relocate outside of Finland.",
     "id": "a172b059",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:02:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:02:13+03:00"
   },
   {
     "title": "Delivery Manager",
@@ -4548,15 +4545,14 @@
     "url": "https://lv.linkedin.com/jobs/view/delivery-manager-at-arrise-4435478195",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Riga, Latvia, which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Riga, Latvia, with an on-site 5-days-from-the-office work model, which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "71f70933",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:02:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:02:13+03:00"
   },
   {
     "title": "Release Manager (H/F)",
@@ -4565,15 +4561,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-seqone-4455062068",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Paris, France (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is physically located in Paris, France, and does not offer remote work options suitable for someone based in Finland.",
     "id": "d5a23174",
     "source": "linkedin_eu_remote_release_manager",
-    "posted_date": "1 hete",
+    "posted_date": "vor 2 monaten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:02:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:02:13+03:00"
   },
   {
     "title": "Release Manager Logiciel \u2013 AI Engineering Solutions (F/H)",
@@ -4582,15 +4577,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-logiciel-%E2%80%93-ai-engineering-solutions-f-h-at-thales-4462850055",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in La Ciotat, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
+    "reason": "The job is physically located in La Ciotat, France, which violates the candidate's location criteria requiring roles to be either in Finland or fully remote.",
     "id": "6ce53c9e",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Salesforce Release Manager",
@@ -4599,15 +4593,14 @@
     "url": "https://pt.linkedin.com/jobs/view/salesforce-release-manager-at-inetum-4262605489",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job is physically located in Lisbon, Portugal, and requires the candidate to be based there, which violates the requirement that positions must be in Finland or fully remote.",
     "id": "4120c49e",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Salesforce Release Manager (French)",
@@ -4616,15 +4609,14 @@
     "url": "https://pt.linkedin.com/jobs/view/salesforce-release-manager-french-at-inetum-4262610073",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job is physically located in Lisbon, Portugal, and requires residency or eligibility to work there, failing the location and relocation criteria.",
     "id": "18871ad0",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager",
@@ -4633,15 +4625,14 @@
     "url": "https://pt.linkedin.com/jobs/view/release-manager-at-nox-health-4422604832",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection.",
+    "reason": "The job is physically located in Porto, Portugal, which does not meet the requirement of being based in Finland or fully remote worldwide/open to applicants residing in Finland.",
     "id": "5812b3ce",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-06-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager H/F",
@@ -4650,15 +4641,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-lectra-4462424998",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France (Cestas, Nouvelle-Aquitaine), which is outside Finland and not a remote role, violating the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Cestas, France, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "36c5707f",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager (m/w/d) Online Apotheke",
@@ -4667,15 +4657,14 @@
     "url": "https://de.linkedin.com/jobs/view/release-manager-m-w-d-online-apotheke-at-dirk-rossmann-gmbh-4443237975",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Burgwedel, Lower Saxony, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a non-Finland EU country.",
+    "reason": "The job is located in Germany (Burgwedel) and does not indicate remote work options available from Finland.",
     "id": "a55817a6",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release manager Salesforce",
@@ -4684,15 +4673,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-salesforce-at-vo2-group-4461757077",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is based in Greater Paris, France, which is outside Finland and not remote, violating the location requirement.",
+    "reason": "The job is physically located in the Greater Paris Metropolitan Region, France, violating the candidate's location criteria since it is neither in Finland nor fully remote for Finland.",
     "id": "81ca787a",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Platform Release Manager (Remote)",
@@ -4700,16 +4688,15 @@
     "location": "Lisbon, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/platform-release-manager-remote-at-capgemini-engineering-4443623519",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is remote but does not explicitly state whether it is open to applicants in Finland, creating uncertainty about eligibility for the candidate's preferred work model.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "e107a77b",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager (F/H)",
@@ -4718,15 +4705,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-f-h-at-cr%C3%A9dit-agricole-technologies-et-services-4431934747",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Montpellier, France, which is outside Finland and not remote, violating Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is physically located in Montpellier, France, and requires on-site presence (hybrid with 3 days on site), violating the candidate's requirement to be based in Finland or fully remote.",
     "id": "dc76ac4b",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manageur International & PLM (3DX) F/H",
@@ -4735,15 +4721,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manageur-international-plm-3dx-f-h-at-actual-talent-4458064516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Corbeil-Essonnes, France, which requires on-site presence outside Finland and does not offer remote flexibility from Finland, violating the candidate's strict location requirements.",
+    "reason": "The job posting text is unavailable due to an error, and the listed location is in France, which does not match the candidate's location criteria.",
     "id": "345943cd",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/qwen/qwen3-14b",
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Platform Release Manager (Remote)",
@@ -6444,23 +6429,6 @@
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T03:20:16+03:00",
-    "needs_re_review": true
-  },
-  {
-    "title": "Digital Quality System Lead and Digital Quality System Manager",
-    "company": "Orion Corporation",
-    "location": "Espoo, Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=794a3d066667774f",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Digital Quality System Lead/Manager in Finland, aligning with her quality gatekeeping, regulatory, and documentation expertise.",
-    "id": "6cd6b586",
-    "source": "indeed_fi_product_specialist",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/orion_corporation_digital_quality_system_lead_an_6cd6b586.txt",
     "added_at": "2026-09-09T03:20:16+03:00",
     "needs_re_review": true
   },
@@ -45211,23 +45179,6 @@
     "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
-    "title": "DevOps Engineer",
-    "company": "ICEYE - Espoo",
-    "location": "Espoo, Finland",
-    "url": "https://duunitori.fi/tyopaikat/tyo/devops-engineer-stshe-20575791",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The DevOps Engineer role at ICEYE in Espoo, Finland matches Priya's expertise in CI/CD pipelines, configuration management, and regulated-industry experience, aligning with her background at Elektrobit and Topcon.",
-    "id": "07e004c3",
-    "source": "duunitori_devops_engineer",
-    "posted_date": "2026-09-16",
-    "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/iceye___espoo_devops_engineer_07e004c3.txt",
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
-  },
-  {
     "title": "Senior DevOps Engineer - Core Platform Engineering",
     "company": "ICEYE - Espoo",
     "location": "Espoo, Finland",
@@ -56852,23 +56803,6 @@
     "deadline": "2026-10-18",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T13:41:36+03:00",
-    "needs_re_review": true
-  },
-  {
-    "title": "Senior Azure DevOps Engineer, Uusimaa",
-    "company": "Academic Work - Helsinki",
-    "location": "Espoo, Finland",
-    "url": "https://duunitori.fi/tyopaikat/tyo/senior-azure-devops-engineer-uusimaa-sasca-20582700",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The job aligns with Priya's expertise as a Senior Azure DevOps Engineer, located in Espoo, Finland, matching her preference for roles within Finland and her experience in CI/CD, infrastructure tooling, and regulated/safety-critical domains.",
-    "id": "cf77c888",
-    "source": "duunitori_devops_engineer",
-    "posted_date": "2026-09-18",
-    "deadline": "2027-03-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/academic_work___hels_senior_azure_devops_engineer___cf77c888.txt",
     "added_at": "2026-09-18T13:41:36+03:00",
     "needs_re_review": true
   },
