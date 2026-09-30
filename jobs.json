@@ -3021,15 +3021,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-all-gender-%E2%80%93-engineering-change-management-999-at-alten-4432743779",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Kassel, Germany, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is physically located in Kassel, Germany, and does not allow remote work from Finland while also requiring fluent German.",
     "id": "91940bfe",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "2026-08-28",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:31:10+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:31:10+03:00"
   },
   {
     "title": "Change & Configuration Manager - Krak\u00f3w (Ma\u0142opolskie), Polska K/M",
@@ -3038,15 +3037,14 @@
     "url": "https://pl.linkedin.com/jobs/view/change-configuration-manager-krak%C3%B3w-ma%C5%82opolskie-polska-k-m-at-astek-4450811283",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Krak\u00f3w, Poland, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote.",
+    "reason": "The job is physically located in Krak\u00f3w, Poland, and is not a fully remote role open to candidates living in Finland.",
     "id": "aaef1d71",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:31:10+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:31:10+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -3055,15 +3053,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-aip-services-gmbh-4458640866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Immenstaad am Bodensee, Baden-W\u00fcrttemberg), which is outside Finland and not a fully remote role that can be done from Finland.",
+    "reason": "The job is physically located in Germany (Immenstaad am Bodensee) and is not open as a remote role for candidates based in Finland.",
     "id": "cd7cf76f",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:31:10+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:31:10+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -3072,15 +3069,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-bertrandt-group-4451178874",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Schweinfurt, Bavaria, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with the candidate's requirements.",
+    "reason": "The job is located in Schweinfurt, Germany, and requires relocation and fluent German, which violates the candidate's location and language requirements.",
     "id": "a7dfd6e8",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:31:10+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:31:10+03:00"
   },
   {
     "title": "Configuration Management Engineer",
@@ -3089,15 +3085,14 @@
     "url": "https://nl.linkedin.com/jobs/view/configuration-management-engineer-at-optics11-4432610015",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Amsterdam, Netherlands, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "The job is physically located in Amsterdam, Netherlands, and requires candidates to currently reside in the Netherlands, whereas the candidate is based in Finland and is not open to relocating outside Finland.",
     "id": "75513aad",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:31:10+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:31:10+03:00"
   },
   {
     "title": "Configuration Specialist",
@@ -3124,15 +3119,14 @@
     "url": "https://fi.indeed.com/viewjob?jk=456789abcdef0123",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is restricted to the United States (Remote (United States)), which is a strict non-negotiable exclusion per the candidate's hard rejections.",
+    "reason": "The job is explicitly located and restricted to the United States, triggering the strict hard rejection rule for US-based or US-restricted positions.",
     "id": "69dbdc2b",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/qwen/qwen3-14b",
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Find salaries",
@@ -3141,15 +3135,14 @@
     "url": "https://www.indeed.com/career/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description provided does not contain valid job details; it appears to be an Indeed salaries page or incomplete listing with no explicit company, role, or location information.",
+    "reason": "This is a salary search page on a job board rather than a valid job posting.",
     "id": "0bcc6f47",
     "source": "indeed_fi_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Troubleshooting Cloudflare Errors",
@@ -3158,15 +3151,14 @@
     "url": "https://www.indeed.com/help/job-seekers/articles/33465379855501-cloudflare-errors-basic-troubleshooting?hl=en",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting appears to be a troubleshooting guide article rather than an actual job opportunity, and no valid location or company-specific role details are provided in the text.",
+    "reason": "This is a website help troubleshooting guide for Indeed users rather than an actual job posting.",
     "id": "468c5bc5",
     "source": "indeed_fi_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "IT Service Data and Configuration Product Owner, Tampere or Helsinki",
@@ -3175,15 +3167,14 @@
     "url": "https://www.jobly.fi/tyopaikka/it-service-data-and-configuration-product-owner-tampere-or-helsinki-2745565",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is no longer valid and has closed applications.",
+    "reason": "The job posting explicitly states that it is no longer active and not accepting applications.",
     "id": "3bb50043",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Paloilmoitinj\u00e4rjestelm\u00e4asiantuntija - p\u00e4\u00e4kaupunkiseutu",
@@ -3192,15 +3183,14 @@
     "url": "https://www.jobly.fi/tyopaikka/paloilmoitinjarjestelmaasiantuntija-paakaupunkiseutu-2748265",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish language skills and hands-on electrical installation work, whereas Priya lacks Finnish proficiency and has an advanced release-management and technical communication background.",
     "id": "d4d4dbb3",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Digitaalisen identiteetin erityisasiantuntija",
@@ -3209,15 +3199,14 @@
     "url": "https://www.jobly.fi/tyopaikka/digitaalisen-identiteetin-erityisasiantuntija-2736452",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with the candidate's target domains (DevOps, Configuration Management, Release Management, etc.) as it focuses on IAM/system architecture rather than regulated-industry CI/CD/release management or technical documentation.",
+    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "ae272bbe",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -3226,15 +3215,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2750652",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'J\u00e4rjestelm\u00e4asiantuntija' (System Specialist) and description focus on IT infrastructure maintenance rather than DevOps, Configuration Management, Release Management, or Technical Writing roles that align with the candidate's background.",
+    "reason": "The job posting explicitly states that it is no longer valid or accepting applications.",
     "id": "6b9abc6a",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Kouvola",
@@ -3243,15 +3231,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-kouvola-2738793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires system engineering in building automation (programming, implementation, maintenance) which does not match Priya's expertise in configuration/release management, DevOps/CI-CD, or technical documentation roles.",
+    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "93f41d3f",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Espoo",
@@ -3260,15 +3247,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-espoo-2738782",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, triggering a hard rejection.",
+    "reason": "The job posting explicitly requires fluent Finnish ('sujuvaa suomen kielen taitoa'), which the candidate does not possess.",
     "id": "5ae9e447",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Tampere/Pirkanmaa",
@@ -3277,15 +3263,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-tampere-pirkanmaa-2743997",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a system engineer in building automation, which does not align with the candidate's expertise in DevOps, configuration management, release management, or regulated-industry quality/compliance gatekeeping.",
+    "reason": "The role requires fluent Finnish ('sujuva suomen kielen taito') and is located in Tampere, whereas the candidate does not speak Finnish and is based in Oulu.",
     "id": "05db82a7",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Haussa myyji\u00e4 Helsinkiin, Turkuun & Ouluun",
