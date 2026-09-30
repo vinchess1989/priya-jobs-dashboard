@@ -10589,15 +10589,14 @@
     "url": "https://www.jobly.fi/tyopaikka/material-specialist-external-production-2746429",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
+    "reason": "The job title 'Material Specialist, External Production' does not align with Priya's expertise in DevOps, Configuration Management, Release Management, or Technical Writing/Documentation, and falls outside her target role categories.",
     "id": "03b69d7a",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Production Data Engineer",
@@ -10606,15 +10605,14 @@
     "url": "https://www.jobly.fi/tyopaikka/production-data-engineer-2748856",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications.",
+    "reason": "The job title 'Production Data Engineer' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or Technical Writing, and the description lacks clarity on CI/CD, release processes, or configuration management responsibilities.",
     "id": "6bd1184c",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Product Manager - Security",
@@ -10623,15 +10621,14 @@
     "url": "https://www.jobly.fi/tyopaikka/product-manager-security-2684297",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a customer-facing Product Management position focused on security marketing and communication, which conflicts with the candidate's rejection of customer-facing roles and the requirement for a core release/CM/quality focus.",
+    "reason": "The job is located in Amsterdam, Netherlands (not Finland) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "1adcda8c",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-08-27",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:47:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:47:28+03:00"
   },
   {
     "title": "Senior Engine Programmer",
@@ -10640,15 +10637,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-engine-programmer-at-brawl-stars-4442339873",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on game engine programming, which falls under the hard rejection for pure software development roles.",
+    "reason": "The job is a pure feature-development software engineering role (Senior Engine Programmer focused on C++ game engine development), which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it has no release/CM/CI-CD ownership component.",
     "id": "35c766b1",
     "source": "linkedin_fi_broad",
     "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Engineering Manager, MAAS",
@@ -10657,15 +10653,14 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-manager-maas-at-canonical-4345276036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure software engineering management role focused on feature development and distributed systems architecture, which falls under the hard rejection for pure feature-development software engineering roles.",
+    "reason": "The job requires an Engineering Manager with leadership in software development and Linux infrastructure, which does not align with Priya's focus on Configuration Management, Release Management, or DevOps/CI-CD ownership in regulated industries.",
     "id": "950f06cb",
     "source": "linkedin_fi_broad",
     "posted_date": "9 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Software Engineer - K0s Team",
@@ -10674,15 +10669,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-k0s-team-at-mirantis-4449482859",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position requiring Golang development, which falls under the hard rejection for pure feature-development roles, and the posting explicitly states that applications are no longer accepted.",
+    "reason": "The role is a pure feature-development software engineering position (Kubernetes development) without CI/CD/release/CM ownership components, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
     "id": "b8e84ae3",
     "source": "linkedin_fi_broad",
     "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Software Engineering Manager - Cross-platform C++ - Multipass",
@@ -10691,15 +10685,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineering-manager-cross-platform-c%2B%2B-multipass-at-canonical-4340329433",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Software Engineering Manager position focused on feature development and team management, which falls under the hard rejection for pure software engineering roles lacking a core release, CM, or quality focus.",
+    "reason": "The job is a Software Engineering Manager role focused on cross-platform C++ development and hypervisor technologies, which does not align with Priya's target criteria of DevOps, Configuration Management, Release Management, or technical documentation roles.",
     "id": "3facedf1",
     "source": "linkedin_fi_broad",
     "posted_date": "10 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Computer Vision (Camera) Researcher",
@@ -10708,15 +10701,14 @@
     "url": "https://fi.linkedin.com/jobs/view/computer-vision-camera-researcher-at-microtech-global-ltd-4428809098",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure research and feature-development role focused on AI models and computer vision algorithms, which falls under the hard rejection for pure feature-development software engineering.",
+    "reason": "The role is a pure feature-development software engineering position focused on AI model research (e.g., Vision Transformers, diffusion models) with no CI/CD/release management/configuration management component, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
     "id": "635ce7a3",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Software Engineer, New product, Threat Detection, Full-stack",
@@ -10725,15 +10717,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-new-product-threat-detection-full-stack-at-hoxhunt-4461985598",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on full-stack application development, which violates the hard rejection against roles primarily focused on writing new product code.",
+    "reason": "This is a pure feature-development software engineering role focused on full-stack application development, which falls under the hard rejection criteria for her profile.",
     "id": "c2dc6a86",
     "source": "linkedin_fi_broad",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Data Engineer",
@@ -10742,15 +10733,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-engineer-at-benjamin-4443582499",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure data engineering role focused on building data pipelines and infrastructure, which falls under the hard rejection for platform/data engineering roles that lack a core release, configuration management, or quality/traceability focus.",
+    "reason": "The job title 'Senior Data Engineer' does not align with Priya's target role types (DevOps, Configuration Management, Release Management, etc.) or her expertise in regulated/safety-critical domains.",
     "id": "385eb263",
     "source": "linkedin_fi_broad",
     "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Total Rewards Partner, Equity Compensation",
@@ -10759,15 +10749,14 @@
     "url": "https://fi.linkedin.com/jobs/view/total-rewards-partner-equity-compensation-at-supercell-4429447247",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized HR/Compensation position that lacks the required core of CI/CD, release management, configuration management, or technical quality/traceability engineering.",
+    "reason": "The job role 'Total Rewards Partner, Equity Compensation' falls outside Priya's target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and does not align with her experience in regulated/safety-critical industries or technical documentation/quality gatekeeping roles.",
     "id": "b52fa89e",
     "source": "linkedin_fi_broad",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Investment Director (Remote)",
@@ -10776,15 +10765,14 @@
     "url": "https://fi.linkedin.com/jobs/view/investment-director-remote-at-rgg-capital-4456506502",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a finance/investment management position, which falls outside the candidate's core expertise in technical release management, quality engineering, and documentation.",
+    "reason": "The role is an Investment Director position focused on financial markets and investment management, which does not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation in regulated/safety-critical industries.",
     "id": "24b10946",
     "source": "linkedin_fi_broad",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Data Scientist / AI Engineer",
@@ -10793,15 +10781,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-scientist-ai-engineer-at-fluxion-4449325899",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on building AI models and engines, which falls under the hard rejection for pure feature-development roles.",
+    "reason": "The job requires a Data Scientist/AI Engineer with expertise in mathematical modeling and AI systems, which does not align with Priya's background in release/configuration management, technical documentation, and quality gatekeeping in regulated industries.",
     "id": "249bffd2",
     "source": "linkedin_fi_broad",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Kehitt\u00e4j\u00e4, Dynamics 365",
@@ -10810,15 +10797,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kehitt%C3%A4j%C3%A4-dynamics-365-at-meltlake-4448732573",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is primarily a feature-development software engineering role.",
+    "reason": "The role requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "6eaf5506",
     "source": "linkedin_fi_broad",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Head of Engineering",
@@ -10827,15 +10813,14 @@
     "url": "https://fi.linkedin.com/jobs/view/head-of-engineering-at-chaos-4460498781",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job requires a Head of Engineering with focus on leading teams and building infrastructure, which does not align with Priya's expertise in Configuration Management, Release Management, DevOps/CI-CD, or regulated-industry quality/compliance work.",
     "id": "f0909f82",
     "source": "linkedin_fi_broad",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T04:51:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:51:18+03:00"
   },
   {
     "title": "Senior Software Engineer, New product, Human Risk, Full-stack",
