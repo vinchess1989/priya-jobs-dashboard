@@ -23763,15 +23763,14 @@
     "url": "https://ie.linkedin.com/jobs/view/lead-technical-program-manager-at-jpmorganchase-4442433978",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Dublin, Ireland, and does not offer a remote option for candidates residing in Finland.",
+    "reason": "Job is located in Dublin, Ireland, which is outside Finland and not a remote position, violating the location requirement.",
     "id": "9f88a6b2",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6alan insin\u00f6\u00f6ri (2henkil\u00f6\u00e4)",
@@ -23780,15 +23779,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkoalan-insinoori-2henkiloa-2754809",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (t\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa).",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "7614cc01",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Key Account Manager, Industrial Infrastructure, Nevel Oy",
@@ -23797,15 +23795,14 @@
     "url": "https://www.jobly.fi/tyopaikka/key-account-manager-industrial-infrastructure-nevel-oy-2744483",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer active and is a quota-carrying sales/account management role, which violates hard rejection criteria.",
+    "reason": "The job is a quota-carrying sales/account management role, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' titles.",
     "id": "e3b4b36e",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Rakennusalan ammattilaisia Kouvolaan",
@@ -23814,15 +23811,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekija-kouvolaan-2355111",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction worker role requiring fluent Finnish and hands-on construction experience, which does not match Priya's profile.",
+    "reason": "This is a construction worker role requiring fluent Finnish, which is completely outside the candidate's engineering, configuration management, and technical communication background.",
     "id": "fd07116b",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Tarjoilija, keikkaty\u00f6 Turku",
@@ -23831,15 +23827,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tarjoilija-keikkatyo-turku-2734724",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hospitality job for a waiter/server requiring Finnish language skills, which completely misaligns with the candidate's technical profile.",
+    "reason": "The role is for a waiter (hospitality), which does not align with the candidate's technical background in release management, configuration management, and engineering.",
     "id": "b883c47e",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Telineasentaja, Uusimaa",
@@ -23848,15 +23843,14 @@
     "url": "https://www.jobly.fi/tyopaikka/telineasentaja-uusimaa-2749762",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This scaffolding erection job requires fluent Finnish language skills and manual construction work, which completely mismatch Priya's technical and engineering background.",
+    "reason": "The role is for a manual construction worker (scaffolding installer) requiring fluent Finnish, which is a complete mismatch for the candidate's technical/engineering background and language skills.",
     "id": "c2f3d00b",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4t Varsinais-Suomi",
@@ -23865,15 +23859,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusaputyontekijat-varsinais-suomi-2749763",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction labourer role requiring a vocational qualification in construction and physical site work, which does not match the candidate's technical engineering and release management background.",
+    "reason": "The job posting is closed, and the role is for a construction laborer, which does not align with the candidate's professional background in software engineering, release management, and technical communication.",
     "id": "6119e996",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Opetushoitaja Sis\u00e4tautien, Infektio- ja keuhkosairauksien osasto",
@@ -23882,15 +23875,14 @@
     "url": "https://www.jobly.fi/tyopaikka/opetushoitaja-sisatautien-infektio-ja-keuhkosairauksien-osasto-2749768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job requires a clinical nursing/healthcare professional license, which violates the candidate's hard rejection criteria.",
+    "reason": "The job posting is closed, requires a clinical nursing qualification, and is not a match for her technical/engineering background.",
     "id": "46da23fe",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Koneenasentaja, Toijala",
@@ -23899,15 +23891,14 @@
     "url": "https://www.jobly.fi/tyopaikka/koneenasentaja-toijala-2749771",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (not voimassa).",
+    "reason": "The role is for a mechanical machine assembler (Koneenasentaja), which is a manual labor position unrelated to the candidate's expertise in software engineering, release management, and technical documentation.",
     "id": "5782ec77",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "L\u00e4hihoitaja Ihotautien toimenpideyksikk\u00f6",
@@ -23916,15 +23907,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lahihoitaja-ihotautien-toimenpideyksikko-2750474",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a clinical nurse ('L\u00e4hihoitaja') position requiring a healthcare qualification, which does not match the candidate's technical communication, configuration management, and release engineering background.",
+    "reason": "The role requires a clinical medical license (L\u00e4hihoitaja/Practical Nurse) and is closed for applications.",
     "id": "df5fd7c1",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Myyj\u00e4 keikkaty\u00f6h\u00f6n p\u00e4ivitt\u00e4istavarakaupan alalle",
@@ -23933,15 +23923,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-keikkatyohon-paivittaistavarakaupan-alalle-2694624",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and prior retail/cashier experience, which directly conflicts with the candidate's profile.",
+    "reason": "The job posting is closed, and the role is a retail sales position that does not align with the candidate's technical, release management, or quality engineering background.",
     "id": "03a36902",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "vuorop\u00e4\u00e4llikk\u00f6, John Scott's",
@@ -23950,15 +23939,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vuoropaallikko-john-scotts-2744425",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (\\\\",
+    "reason": "The job posting is no longer accepting applications and the role is for a restaurant shift manager, which does not align with the candidate's technical background.",
     "id": "0c093eb4",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Varastoty\u00f6ntekij\u00e4, Helsinki",
@@ -23967,15 +23955,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varastotyontekija-helsinki-2744427",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (Closed Application hard rejection) and is for a warehouse worker role unrelated to the candidate's professional profile.",
+    "reason": "The job posting is closed, and the role (warehouse worker) is a manual labor position that does not align with the candidate's technical, engineering, and release management background.",
     "id": "0ad5b629",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Toimistosihteeri",
@@ -23984,15 +23971,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f0f80db2-d93d-44b2-90a2-634d26500893/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a municipal office secretary (toimistosihteeri) position requiring fluent Finnish language skills and administrative/financial tasks unrelated to her technical background.",
+    "reason": "The role is an administrative secretarial position that does not align with the candidate's technical background in DevOps, release management, or quality engineering, and the salary is below the candidate's minimum threshold.",
     "id": "df03053b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-01",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:06:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:06:11+03:00"
   },
   {
     "title": "Palokatkoasentajia Haminaan, p\u00e4iv\u00e4rahat + majoitus",
@@ -24001,15 +23987,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d622fcbf-67fc-4c27-82c0-14ace93dc848/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manual construction/installation role (firestop installer) requiring Finnish language skills, which does not match the candidate's engineering and technical background.",
+    "reason": "This is a manual labor construction role (firestop installer) that does not match the candidate's technical, engineering, or release management background.",
     "id": "e93749e9",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:06:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:06:11+03:00"
   },
   {
     "title": "Keitti\u00f6mestari",
