@@ -18428,20 +18428,19 @@
   },
   {
     "title": "Ty\u00f6terveysl\u00e4\u00e4k\u00e4ri, Eura, Harjavalta ja Kokem\u00e4ki",
-    "company": "Extract from page",
+    "company": "Terveystalo",
     "location": "Eura, Harjavalta ja Kokem\u00e4ki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=3fa3097d3781bb54",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a clinical medical license (Occupational Health Physician role), which is explicitly excluded under Hard Rejections as Priya's experience is documentation/quality-regulatory adjacent, not clinical practice.",
+    "reason": "The job requires a medical license as it is for an Occupational Health Physician role, which Priya does not possess (her experience is documentation/quality/regulatory-adjacent, not clinical).",
     "id": "aeb4f2c8",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:04:27+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:04:27+03:00"
   },
   {
     "title": "Pincho Nation Turku hakee kokkeja",
@@ -18450,15 +18449,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=09789ac8836ae9a0",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title suggests a test engineer role, which aligns with one of the user\u2019s approved constraints, but the description lacks explicit details on requirements, making it uncertain if Finnish language skills (which the user does not have) are mandatory.",
+    "reason": "The job posting is inaccessible due to a 400 Bad Request error, making it impossible to verify if it matches Priya's configuration management/technical communication expertise or test engineer-related roles, though the location (Turku, Finland) aligns with her preferences.",
     "id": "83a05f14",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Automyyj\u00e4 Friisil\u00e4",
@@ -18467,15 +18465,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2df8b6bc967669ac",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Automyyj\u00e4 Friisil\u00e4' (Salesperson) appears to be a quota-carrying sales role, which is explicitly excluded under Hard Rejections due to the candidate's non-sales 'Product Specialist' background and strict avoidance of mislabeled sales roles.",
+    "reason": "The job title 'Automyyj\u00e4' (salesperson) falls under the 'Quota-Carrying Sales Roles Mislabeled as \\\\",
     "id": "a4e459c3",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "L\u00e4hihoitaja, Attendo Sammalkallio, Espoo",
@@ -18500,15 +18497,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=55150d414c55f668",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job title does not match the required domain/role types for the candidate.",
+    "reason": "The job title 'Plasmaleikkaaja' (plasma cutter) does not align with Priya's expertise in DevOps, configuration management, release engineering, technical writing, or regulated-industry quality/compliance roles.",
     "id": "c04db61b",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Aputy\u00f6ntekij\u00e4 Pietarsaaren alueelle",
@@ -18517,15 +18513,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3fc44c2b3d7d89d5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting describes a manual labor role (cleaning/maintenance assistant) with no alignment to Priya's technical/regulated-industry experience in DevOps, configuration management, release engineering, or technical documentation.",
+    "reason": "The job title and description do not provide sufficient detail to confirm alignment with Priya's expertise in configuration management, release engineering, or technical communication, and the role appears too generic to meet her target criteria.",
     "id": "6a38c094",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "2026-09-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Senior integraatiokehitt\u00e4j\u00e4",
@@ -18534,15 +18529,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=fb52d7e9b2b91446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency as a mandatory requirement, which the candidate does not possess, and the role focuses on integration development rather than configuration management/release engineering, which is outside her target domain.",
+    "reason": "The job title 'Senior integraatiokehitt\u00e4j\u00e4' (Integration Developer) does not align with Priya's target domains of DevOps, Configuration Management, Release Management, or technical documentation/quality roles.",
     "id": "5ff12fb6",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Konetekniikan ja elektroniikan tuntiopettaja",
@@ -18551,15 +18545,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cbb38480a33df53d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language skills (implied by the Finnish job title and location context), which is a hard rejection as Priya does not speak Finnish or Swedish.",
+    "reason": "The posting is for a teaching position in mechanical engineering and electronics, which does not align with the candidate\u2019s release/CM/DevOps/technical writing or quality engineering expertise.",
     "id": "5b66e4d3",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Pietarsaaren lukion koulusihteeri",
@@ -18583,16 +18576,15 @@
     "location": "Turku, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=537e85640e91943d",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job title 'Turvallisuusp\u00e4\u00e4llikk\u00f6' (Safety Manager) may involve safety-critical compliance or traceability work relevant to Priya's experience, but the minimal job description lacks explicit details on responsibilities, tools, or alignment with her configuration management/technical communication expertise.",
+    "matches_requirements": "no",
+    "reason": "The job title 'Turvallisuusp\u00e4\u00e4llikk\u00f6' (Safety Manager) lacks explicit details on whether it involves CI/CD, release management, configuration management, quality gatekeeping, or safety-critical requirements traceability under standards like ISO 26262 or MDR/ISO 13485, which are central to Priya's experience. The job description is incomplete and does not confirm alignment with her target criteria.",
     "id": "db5e99b1",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Sairaanhoitajan sijaisuus, Ik\u00e4\u00e4ntyneiden palvelut, Kotihoito, Raisio",
@@ -18601,15 +18593,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ba9974d1e8795836",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a nursing substitute role in elderly care/home care, which does not align with Priya's expertise in technical communication, release management, or configuration management.",
+    "reason": "The job is a nursing substitute role in elderly care services, which does not align with Priya's expertise in technical communication, configuration management, or release management in regulated industries.",
     "id": "d11cb984",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Palvelup\u00e4\u00e4llikk\u00f6, terveyssosiaality\u00f6, Tampere",
@@ -18618,15 +18609,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a81d853b18961871",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description indicate a social service management role (terveyssosiaality\u00f6) which does not align with Priya's target domains of DevOps, Configuration Management, Technical Writing, or regulated-industry quality/requirements engineering.",
+    "reason": "The role 'Service Manager in Health and Social Services' does not align with Priya's expertise in configuration management, release engineering, or technical communication in regulated/safety-critical domains.",
     "id": "0ee5d9ad",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Erityisluokanopettajan sijaisuus",
@@ -18635,15 +18625,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f702f4e5db301046",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a teaching substitute position in Finnish, requiring language skills and domain unrelated to the candidate's DevOps/Release/Technical Communication background.",
+    "reason": "The job title 'Erityisluokanopettajan sijaisuus' (special needs substitute teacher) does not align with Priya's technical/regulated-industry experience in DevOps, configuration management, release engineering, or product-specialist roles.",
     "id": "d699dee3",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Sairaanhoitaja, Kotiutumisen tuen tiimi (Kauhava-Evij\u00e4rvi)",
@@ -18652,15 +18641,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=370405bd80f8376b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Sairaanhoitaja' (Nurse) and description indicate a clinical healthcare role, which does not align with Priya's background in technical communication, release management, or configuration management.",
+    "reason": "The job requires a nursing license and clinical healthcare qualifications, which Priya does not possess (her Topcon Healthcare experience was documentation/quality-regulatory adjacent, not clinical).",
     "id": "af6228ad",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Hankety\u00f6ntekij\u00e4, pedagoginen kehitt\u00e4mishanke",
@@ -18669,15 +18657,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=17c5f2076b98f7cb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description do not align with Priya's target roles in DevOps, Configuration Management, or regulated-industry release/quality management, and critical details like company name and location are missing from the provided text.",
+    "reason": "The job posting lacks explicit details about the company, location, and role responsibilities, making it impossible to evaluate against the candidate's criteria.",
     "id": "249181c6",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:06:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:06:44+03:00"
   },
   {
     "title": "Yksik\u00f6n p\u00e4\u00e4llikk\u00f6, yleisten alueiden valvonta ja infraluvat",
@@ -18686,15 +18673,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=316cbfa5b7ffc0a2",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a municipal unit manager position unrelated to DevOps, configuration management, release management, or technical communication roles.",
+    "reason": "The job title and description indicate a managerial/infrastructure oversight role unrelated to DevOps, configuration management, release management, or technical documentation, which are the candidate's core expertise areas.",
     "id": "9e16fdc1",
     "source": "indeed_fi_broad_p3",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-05",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Personlig assistent till kvinna i Sibbo, 15h/m\u00e5n",
@@ -18703,15 +18689,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7457cb72899586d0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a personal assistant position, not a technical or release/CM/quality role matching the candidate\u2019s expertise.",
+    "reason": "The role is a personal assistant position, not a technical release, configuration, or documentation role that matches Priya\u2019s expertise.",
     "id": "26534a9b",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Sairaanhoitaja, Lasten- ja nuorten erityisvastaanotto",
