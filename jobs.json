@@ -19185,15 +19185,14 @@
     "url": "https://fr.linkedin.com/jobs/view/cdi-%E2%80%93-responsable-gestion-de-configuration-h-f-at-naval-group-4463054303",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cherbourg, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is located in Cherbourg, France (not Finland) and is not a remote position, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "85dd7668",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Release Manager H/F",
@@ -19202,15 +19201,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-lectra-4463022561",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Cestas, France, violating the candidate's location requirement of being in Finland or fully remote.",
+    "reason": "The job is located in Cestas, France, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection.",
     "id": "3a7e60e7",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "il y a 3\u00a0semaines",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Delivery Manager",
@@ -19219,15 +19217,14 @@
     "url": "https://pt.linkedin.com/jobs/view/delivery-manager-at-five9-4457965527",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and not fully remote.",
+    "reason": "The job is located in Porto, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site work in Portugal (not Finland) and does not offer fully remote access from Finland.",
     "id": "2a7126d8",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Implementation Consultant, E-invoicing",
@@ -19236,15 +19233,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-e-invoicing-at-thomson-reuters-4460647374",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job requires implementation consulting and e-invoicing configuration experience, which partially overlaps with Priya's release/CM background but lacks explicit alignment with her regulated-industry or safety-critical domain expertise.",
+    "reason": "The role involves application configuration and project management, which partially overlaps with Priya\u2019s Configuration Management experience, but lacks explicit focus on CI/CD pipelines, regulated-industry compliance (MDR/ISO 13485), or safety-critical requirements traceability that aligns strongly with her background.",
     "id": "7d402013",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Product Specialist for Chemicals",
@@ -19253,15 +19249,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-for-chemicals-at-avantor-4459014382",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales\u2011focused Product Specialist in Milan, Italy, which is outside Finland and does not align with the candidate\u2019s technical release/CM background.",
+    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
     "id": "7191af29",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Specialista applicazioni",
@@ -19270,15 +19265,14 @@
     "url": "https://it.linkedin.com/jobs/view/specialista-applicazioni-at-fora-s-p-a-4463866346",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Italy and requires frequent travel within Italy, which violates the location requirement of being in Finland or fully remote for a Finland-based resident.",
+    "reason": "The position is located in Italy and is not a fully remote role, which violates the location constraints for a candidate based in Finland.",
     "id": "73a79be1",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "il y a 3\u00a0semaines",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Paloimoitinj\u00e4rjestelm\u00e4asiantuntija/Projekti-insin\u00f6\u00f6ri, Teira Finland Oy, Etel\u00e4-Suomi",
@@ -19287,15 +19281,14 @@
     "url": "https://www.jobly.fi/tyopaikka/paloimoitinjarjestelmaasiantuntija-projekti-insinoori-teira-finland-oy-etela-suomi-2749583",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess, and the role focuses on electrical engineering/fire alarm systems rather than her expertise in release/CM/DevOps or technical writing.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "16b26a37",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Senior Software Developer, Bluefors, Helsinki",
@@ -19304,15 +19297,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-software-developer-bluefors-helsinki-2737948",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Senior Software Developer' role focused on hands-on development and platform architecture, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it does not involve release, configuration-management, CI/CD-ownership, or product-specialist components.",
+    "reason": "The role is a pure feature-development software engineering position (Senior Software Developer) with no CI/CD/release/CM ownership component, which falls under the 'Pure Feature-Development Software Engineering' hard rejection.",
     "id": "051ab584",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Junior Listing Engineer, Hyvink\u00e4\u00e4",
@@ -19321,15 +19313,14 @@
     "url": "https://www.jobly.fi/tyopaikka/junior-listing-engineer-hyvinkaa-2744283",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires mechanical engineering/design skills (AutoCAD, PDM, SAP, layout design) and is a junior role, which does not align with the candidate's expertise in regulated software release/CM/DevOps or her target of mid-to-senior roles.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "2a7aab48",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Junior Layout Engineer, Hyvink\u00e4\u00e4",
@@ -19338,15 +19329,14 @@
     "url": "https://www.jobly.fi/tyopaikka/junior-layout-engineer-hyvinkaa-2744285",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role requires fluent Finnish, which the candidate does not speak.",
     "id": "06bb38be",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T21:40:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:40:36+03:00"
   },
   {
     "title": "Parturi",
@@ -19355,15 +19345,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/164ca07e-64f9-435c-a658-d857f22d617b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a hairdresser role with no alignment to the candidate's technical/regulated-industry experience in DevOps, configuration management, release management, or documentation, and Finnish language proficiency is implicitly required for the position.",
+    "reason": "The job posting for a hairdresser position does not align with the candidate's technical, regulated-industry experience in configuration management, release engineering, or documentation roles.",
     "id": "a7a0ba11",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-11-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:43:24+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:43:24+03:00"
   },
   {
     "title": "Two chefs for a Nepalese restaurant in Siuntio",
@@ -19372,15 +19361,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/284ec9a7-2610-40e3-aa28-649978408011/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a chef in a restaurant, which does not align with the candidate's professional background in technical communication, release management, and software engineering.",
+    "reason": "The job requires chefs with culinary expertise in Nepalese/tandoori cuisine, which is unrelated to the candidate's background in technical communication, configuration management, release engineering, and regulated-industry quality compliance.",
     "id": "d44a9363",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:43:24+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:43:24+03:00"
   },
   {
     "title": "Tarjoilija",
@@ -19389,15 +19377,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f0cc941c-8366-437a-ab80-a48dea7bddbf/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish as a work language, which the candidate does not possess, triggering a hard rejection under 'Mandatory Finnish or Swedish' criteria.",
+    "reason": "The job posting for 'Tarjoilija' (Waiter/Waitress) does not align with Priya's expertise in technical communication, release management, or CI/CD, and requires Finnish as a work language which she does not speak.",
     "id": "8ead0469",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-12-31",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:43:24+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:43:24+03:00"
   },
   {
     "title": "Vastaanottovirkailija Aava Glass Igloosille \u2013 tule osaksi ainutlaatuista matkailukohdetta!",
@@ -19406,15 +19393,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a35451dc-99eb-4209-a879-7b437211be25/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish as a mandatory skill, which Priya does not possess, and the role is a customer-facing front desk position unrelated to her expertise in configuration management, release engineering, or technical documentation.",
+    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role is customer-facing in hospitality, not aligned with her technical/quality/release-management background.",
     "id": "68446355",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:43:24+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:43:24+03:00"
   },
   {
     "title": "Leipomop\u00e4\u00e4llikk\u00f6",
@@ -19423,15 +19409,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/059478a7-a062-4f66-8b24-570e64ab7d2c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a working language, which the candidate does not possess, triggering a hard rejection.",
+    "reason": "The job posting for 'Leipomop\u00e4\u00e4llikk\u00f6' (Bakery Manager) does not align with Priya's target roles in DevOps, Configuration Management, Technical Writing, or regulated-industry quality/requirements engineering. The role is a bakery operations management position, unrelated to her technical and regulatory expertise.",
     "id": "0c1e754f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:43:24+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:43:24+03:00"
   },
   {
     "title": "Ravintolan vuorop\u00e4\u00e4llikk\u00f6, Roka Street Bistro Rovaniemi",
