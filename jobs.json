@@ -39101,15 +39101,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/74c68d45-546f-4674-b914-6ad79579e34d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires production management and manufacturing expertise (CNC, ERP systems), which does not align with Priya's background in software release management, CI/CD, and technical documentation.",
+    "reason": "The role is for a Production Manager in manufacturing (CNC, ERP systems), which does not align with Priya's expertise in regulated-industry release/CM/DevOps or technical documentation.",
     "id": "1eed29e2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-18",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "TOIMISTO- JA HALLINTOVASTAAVA VENELIIKKEESEEN",
@@ -39118,15 +39117,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/26f87d84-dd2c-4cf8-aaf4-d56358b5a923/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish skills ('hyv\u00e4\u00e4 suomen kielen taitoa'), which Priya does not possess, and this is a mandatory qualification explicitly stated in the posting.",
+    "reason": "The role is a non-technical office and customer\u2011facing position requiring Finnish language, which does not align with Priya\u2019s release/CM/DevOps expertise and language profile.",
     "id": "64745cee",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Software Engineer",
@@ -39135,15 +39133,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-at-ptx-trimble-4466847250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Backend Developer role focused on feature development (Java Spring Boot, AI-driven workflows), which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks DevOps/CM/release ownership components.",
+    "reason": "The job is a 'Software Engineer' role focused on backend development and AI-driven workflows, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it does not involve release/CM/DevOps responsibilities.",
     "id": "761b4f39",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -39152,15 +39149,14 @@
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-at-intralot-4466847422",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Msida, Malta (not Finland or fully remote from Finland), which violates the candidate's strict relocation policy against non-Finnish on-site roles.",
+    "reason": "The job is located in Msida, Malta (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote from Finland.",
     "id": "f9b3b508",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4- ja kehitysp\u00e4\u00e4llikk\u00f6",
@@ -39169,15 +39165,14 @@
     "url": "https://fi.linkedin.com/jobs/view/j%C3%A4rjestelm%C3%A4-ja-kehitysp%C3%A4%C3%A4llikk%C3%B6-at-elega-oy-4465989195",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is located in Finland and targets a senior-level role, but the primary responsibilities focus on system architecture and development leadership rather than release/CI-CD pipelines, configuration management, or technical documentation ownership which align more closely with the candidate's background.",
+    "reason": "The job title and description focus on system development leadership with AI/automation, which does not explicitly align with Priya\u2019s core expertise in release/configuration management, CI/CD pipelines, or quality gatekeeping, though the seniority level and Finland-based location are suitable.",
     "id": "cfe1b962",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija, tietoturva",
@@ -39186,15 +39181,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-tietoturva-2759371",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language proficiency, which the candidate does not have.",
+    "reason": "Job location is Pune, India (not Finland or remote-friendly for Finland-based candidates), and role focuses on cybersecurity/system administration rather than CI/CD/release management/configuration engineering which aligns with Priya's expertise.",
     "id": "7903b0ce",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-01",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Senior Application Engineer",
@@ -39203,15 +39197,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-application-engineer-at-silicon-labs-4465986089",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires application development and embedded systems programming (C, Python), which does not align with Priya's expertise in release/configuration management, CI/CD, and regulated-industry quality compliance.",
+    "reason": "The job is a 'Senior Application Engineer' role focused on feature development (code examples, wireless application support) with no mention of configuration management, release ownership, or documentation/quality gatekeeping responsibilities, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
     "id": "b886462d",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "L\u00e4hihoitaja, Esperi Hoivakoti Tuulikannel",
@@ -39220,15 +39213,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lahihoitaja-esperi-hoivakoti-tuulikannel-2754174",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish (B1 level) as a mandatory requirement, which the candidate does not speak, and the role is a clinical/nursing position outside her technical/quality/regulatory domain.",
+    "reason": "The job requires fluent Finnish (B1 level) as a mandatory qualification, which Priya does not possess, and the role is in healthcare caregiving, unrelated to her technical/quality/regulatory background.",
     "id": "7c04717a",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Ratasuunnittelija",
@@ -39237,15 +39229,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ratasuunnittelija-2758386",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish (sujuvaa suomen kielen taitoa) as a mandatory requirement, which the candidate does not possess, and the role (track design engineering) does not align with her expertise in configuration management, release management, or technical documentation.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "a0391408",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-12",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Ruokapalveluty\u00f6ntekij\u00f6it\u00e4 p\u00e4\u00e4kaupunkiseudulle",
@@ -39254,15 +39245,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ruokapalvelutyontekijoita-paakaupunkiseudulle-2749071",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which the candidate does not speak.",
+    "reason": "The job requires food service/restaurant work (cooking, cleaning, customer service) with Finnish language and hygiene pass requirements, which do not match Priya's technical/release management background or skills.",
     "id": "74a1f0e0",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "MIG/MAG-hitsaaja ter\u00e4srakenteiden valmistukseen",
@@ -39271,15 +39261,14 @@
     "url": "https://www.jobly.fi/tyopaikka/mig-mag-hitsaaja-terasrakenteiden-valmistukseen-2754165",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a MIG/MAG welder with specific manufacturing skills, which does not align with the candidate's background in technical communication, release management, and DevOps in regulated industries.",
+    "reason": "The job requires a MIG/MAG welder for steel structure manufacturing, which is unrelated to Priya's expertise in DevOps, configuration management, release management, technical writing, or regulated-industry quality/compliance work.",
     "id": "f3c6513a",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Pakkaajia",
@@ -39288,15 +39277,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pakkaajia-2754166",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Pakkaajia' (Packers) describes a manual labor role with no alignment to Priya's technical/regulated-industry experience in configuration management, release engineering, or technical documentation.",
+    "reason": "The job title 'Pakkaajia' (Packers) is a manual labor role unrelated to the candidate's expertise in technical communication, release management, or regulated-industry quality/compliance work.",
     "id": "ec5a71d5",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Asiakaspalvelija \u2013liity Valoon tiimiin!",
@@ -39305,15 +39293,14 @@
     "url": "https://www.jobly.fi/tyopaikka/asiakaspalvelija-liity-valoon-tiimiin-2754167",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a customer service/sales role, which does not align with Priya's expertise in configuration management, release engineering, or technical documentation (Hard Rejection: Pure Feature-Development Software Engineering and Quota-Carrying Sales Roles Mislabeled as 'Product Specialist' do not apply here, but the role's primary responsibility is sales/customer service, outside her target domains).",
+    "reason": "The job is explicitly 'customer facing' and involves direct customer interaction, which aligns with a negative constraint the user has against such roles.",
     "id": "07e8216c",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Junior IT Service Manager for energy sector, Espoo",
@@ -39322,15 +39309,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/709b2e17-ebad-493e-aa98-1041914269d7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is explicitly a 'Junior IT Service Manager' role, which does not align with the candidate's mid-to-senior experience level and career focus on release/CM/DevOps roles.",
+    "reason": "The job title 'Junior IT Service Manager' does not align with Priya's target roles in configuration management, release management, or technical documentation, and the role focuses on general IT service management rather than regulated/safety-critical domains or CI/CD/release ownership.",
     "id": "a42505cc",
     "source": "tyomarkkinatori",
     "posted_date": "16.9.2026, 14.05",
     "deadline": "2027-03-15",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Manager - FeCr Plant Maintenance and Asset Management",
@@ -39339,15 +39325,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1cf92bd2-6c20-4efe-85ec-c6d8e14de3b7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish skills, which Priya does not possess, triggering a strict hard rejection.",
     "id": "c6c53d56",
     "source": "tyomarkkinatori",
     "posted_date": "16.9.2026, 14.03",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Asentaja/ moniosaaja laivateollisuuteen",
