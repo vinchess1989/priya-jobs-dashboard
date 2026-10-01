@@ -39911,15 +39911,14 @@
     "url": "https://es.linkedin.com/jobs/view/product-expert-at-moventia-4446797348",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Sant Cugat del Vall\u00e8s, Spain, and is a front-facing sales and commercial dealership role rather than a technical product or release management position.",
+    "reason": "Job location is Sant Cugat del Vall\u00e8s, Spain (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote/open to Finland-based applicants.",
     "id": "b33a11fe",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Kokki (Asialainen Ravintola)",
@@ -39928,15 +39927,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c20a47e8-4fa7-4812-b567-28d446e15acc/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a culinary chef position in an Asian restaurant, which completely misaligns with the candidate's software release, configuration management, and technical communication background.",
+    "reason": "The role is a chef position, which does not align with Priyanga\u2019s release/CM/DevOps/technical writing expertise and is below her salary threshold.",
     "id": "17852ded",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "DevOps",
@@ -39945,15 +39943,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-at-dellent-4466586916",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an on-site/hybrid role located in Porto, Portugal, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
+    "reason": "The job is located in Porto, Portugal, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection under 'Outside Finland and Not Remote' criteria.",
     "id": "76d66ca6",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "GCP Cloud Engineer, Data Mesh and AI Platforms team",
@@ -39961,16 +39958,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/gcp-cloud-engineer-data-mesh-and-ai-platforms-team-at-nordea-4460342558",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a GCP Cloud/DevOps Engineer position in Helsinki, Finland, which aligns with her CI/CD and automation background, though it leans more toward cloud infrastructure than her core release management and compliance focus.",
+    "matches_requirements": "no",
+    "reason": "The job requires GCP cloud engineering focused on data mesh and AI platforms, which centers on infrastructure/cloud development rather than release/configuration management, CI/CD ownership, or regulated-quality compliance work that aligns with Priya's background.",
     "id": "397b370c",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-21",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Lead Consultant / Architect - Document Control and Engineering Information Management (m/f/d)",
@@ -39979,15 +39975,14 @@
     "url": "https://se.linkedin.com/jobs/view/lead-consultant-architect-document-control-and-engineering-information-management-m-f-d-at-opentext-4417652042",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Sweden (on-site/hybrid), and the candidate is based in Finland and not looking to relocate outside Finland.",
+    "reason": "The job is located in Sweden (outside Finland) and does not offer remote work options compatible with the candidate's requirement to work from Finland; additionally, the role focuses on enterprise software implementation and ECM system architecture rather than regulated/safety-critical release/CM/quality domains matching her background.",
     "id": "e33949f0",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Sairaanhoitaja Hyvink\u00e4\u00e4n leikkausyksikk\u00f6",
@@ -39996,15 +39991,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ba109cb4-389b-44a4-b59e-b950158c4751/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a clinical registered nurse position requiring a healthcare license and fluent Finnish/Swedish proficiency, which does not match the candidate's technical and release management background.",
+    "reason": "The job requires Finnish and Swedish language proficiency as mandatory qualifications, which Priya does not possess, and the role is a clinical nursing position unrelated to her technical/quality/release-management expertise.",
     "id": "8e10aa15",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "K\u00e4til\u00f6 Raskaana olevien ja synnytt\u00e4neiden osasto 52 Naistenklinikka",
@@ -40013,15 +40007,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/572be3c9-61cd-4186-ab67-d09b76af56cb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a clinical midwife position requiring a healthcare license and fluent Finnish/Swedish, whereas the candidate has an IT, release management, and technical communication background.",
+    "reason": "The job requires nursing qualifications and Finnish/Swedish language skills which are not aligned with Priya's technical background in DevOps, Configuration Management, and Technical Writing.",
     "id": "62554453",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Palveluvastaava Osastonsihteeripalvelut",
@@ -40030,15 +40023,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c7f73ed1-60b6-4a13-b9be-3448032144ee/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting requires fluent Finnish (Ty\u00f6kielet: Suomi) as the working language and is focused on healthcare administration and ward secretary services rather than the candidate's technical release management or quality background.",
+    "reason": "The role does not align with Priya's target criteria in DevOps, Configuration Management, or technical documentation, and requires Finnish proficiency which she lacks.",
     "id": "3eddf584",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Ravitsemisty\u00f6ntekij\u00e4 Biomedicum",
@@ -40047,15 +40039,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1e9bf769-beab-4991-ab1a-5d20ed34f5c1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish and is for a food services role, which completely mismatches the candidate's technical release management and documentation profile.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, and the role (nutrition worker in healthcare) is unrelated to her expertise in technical communication, release management, or configuration management.",
     "id": "9d0e6181",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Ylil\u00e4\u00e4k\u00e4ri Naistentaudit ja synnytykset",
@@ -40064,15 +40055,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/8d93c40c-da23-40b9-ba61-57a604298e8c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a medical chief physician position requiring a clinical medical license, specialist qualifications in gynecology/obstetrics, and fluent Finnish and Swedish, which directly violates multiple hard rejections.",
+    "reason": "The job requires proficiency in both Finnish and Swedish as a mandatory qualification, which Priya does not possess.",
     "id": "ca429113",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Kokki Peijaksen sairaala",
@@ -40081,15 +40071,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/732189e5-1e5a-4c1c-8868-c37da715e55d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a culinary/chef role at a hospital kitchen which requires mandatory Finnish language skills and culinary training, completely unrelated to the candidate's technical communication, software engineering, and release management background.",
+    "reason": "The role requires mandatory Finnish language proficiency (and the salary is below the candidate's acceptable threshold).",
     "id": "f3cbf986",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Osastonl\u00e4\u00e4k\u00e4ri Geropsykiatrian vastaanotolle",
@@ -40098,15 +40087,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bb710d1a-b603-408d-b0d3-d597dede5007/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a medical doctor position (Osastonl\u00e4\u00e4k\u00e4ri) requiring a medical specialty in psychiatry and a clinical license, which violates the candidate's hard rejection criteria.",
+    "reason": "The job requires mandatory Finnish and Swedish language proficiency, which Priya does not possess, and it is a clinical/medical role requiring medical licensure and psychiatry specialization that does not align with her technical/release-management background.",
     "id": "c11563f3",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Osastonylil\u00e4\u00e4k\u00e4ri Naistenklinikan leikkausyksikk\u00f6",
@@ -40115,15 +40103,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/efefb890-c901-4185-96a9-84ceaf06f2ab/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a medical doctor position (Head Physician/Anesthesiologist) requiring a clinical medical license, and it also requires mandatory fluent Finnish and Swedish.",
+    "reason": "The job requires medical qualifications and Finnish language proficiency, which are not aligned with the candidate's background in technical communication, release management, and configuration management, nor does it meet her language requirements.",
     "id": "ca0d3e0a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Anestesiologian erikoisl\u00e4\u00e4k\u00e4ri Naistenklinikan leikkausyksikk\u00f6",
@@ -40132,15 +40119,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/fc685bfe-d84a-4206-bfdd-65819abb3e02/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a medical doctor position requiring a clinical license in anesthesiology and intensive care as well as fluent Finnish/Swedish, which directly violates the candidate's hard rejections.",
+    "reason": "The job requires a specialist anaesthesiologist with medical qualifications, which does not align with Priya's background in technical communication, configuration management, and release engineering.",
     "id": "e9378254",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Erikoisl\u00e4\u00e4k\u00e4ri Keuhkosairaudet",
@@ -40149,15 +40135,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e779bebf-cb40-4902-89f2-fab951c40f8f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a clinical medical position (Specialist in Pulmonary Diseases) requiring a medical license and fluent Finnish/Swedish, violating multiple hard rejections.",
+    "reason": "The job requires a medical license and clinical expertise as a Specialist Doctor in Respiratory Diseases, which does not align with Priya's non-clinical background in technical communication, product specialization, and regulated software release management.",
     "id": "43eb65d8",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Technical Release Manager",
