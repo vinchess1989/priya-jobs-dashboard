@@ -17953,15 +17953,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c04e2343-570d-40d4-81e4-4594a009c9a2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish (Suomen kielen taitoa), which is a hard rejection criterion as Priya does not speak Finnish or Swedish.",
+    "reason": "The job requires electrical assembly and mechanical installation skills, which do not align with Priya's expertise in configuration management, release engineering, or technical documentation in regulated industries.",
     "id": "cbc0b66b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:26:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:26:43+03:00"
   },
   {
     "title": "Project Engineer \u2013 Vaasa",
@@ -17970,15 +17969,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0a8bec29-683b-4e3c-ab16-75d7f22f5bba/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The job's salary range (\u20ac2,800\u2013\u20ac3,500/month) falls below the user's explicitly stated rejection threshold of \u20ac4,500, and the role as a 'Project Engineer' in energy plant upgrades does not align with her target criteria in regulated/DevOps/release management domains.",
     "id": "137fe465",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:26:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:26:43+03:00"
   },
   {
     "title": "Projekti-insin\u00f6\u00f6ri - Vaasa",
@@ -17987,15 +17985,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2a4b75f9-7c13-4008-9914-683cf332840f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Projekti-insin\u00f6\u00f6ri' (Project Engineer) and description focus on design oversight, automation projects, and technical coordination rather than configuration management, release management, or DevOps/CI-CD roles that align with the candidate's expertise.",
+    "reason": "The job title 'Projekti-insin\u00f6\u00f6ri' (Project Engineer) and description focus on technical coordination of automation projects, not release/configuration management, CI/CD, or regulated-industry quality/compliance work that aligns with Priya's background.",
     "id": "30b7e777",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:26:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:26:43+03:00"
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00e4, Kangasala",
@@ -18004,15 +18001,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b7ce0cfc-e2fc-4f48-8ba1-884d8d21fab7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires production work in a manufacturing setting with Finnish language proficiency, which does not align with Priya's expertise in DevOps, release management, or configuration management roles, nor does she speak Finnish.",
+    "reason": "The job title 'Tuotantoty\u00f6ntekij\u00e4' (Production Worker) and description focus on manufacturing tasks (urethane production, press operation, mold cleaning), which do not align with Priya's target roles in configuration management, release management, or technical documentation. The role lacks CI/CD, quality gatekeeping, or regulated-industry compliance components she requires.",
     "id": "0eb2dc44",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:26:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:26:43+03:00"
   },
   {
     "title": "Principal Standardization LeadNokiaEspooGo to job site",
@@ -18021,15 +18017,14 @@
     "url": "https://www.jobly.fi/en/job/principal-standardization-lead-2754553",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job listing includes 'Dallas, TX' as a location, which strictly triggers the Hard Rejection rule for any role located in or restricted to the United States.",
+    "reason": "The job requires an MSc degree which Priya does not hold, and the role focuses on standardization leadership in 5G/6G security rather than release/configuration management, technical writing, or quality/compliance gatekeeping which align with her background.",
     "id": "c908a373",
     "source": "work_in_finland",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:46:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:46:05+03:00"
   },
   {
     "title": "DevOps / Site Reliability Engineer",
@@ -18037,16 +18032,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/devops-site-reliability-engineer-at-61n-4465067457",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with DevOps Engineer responsibilities (CI/CD, infrastructure tooling) but lacks explicit mention of regulated/safety-critical domains (MDR/ISO 13485, ASPICE/TUV) or technical documentation ownership, which are key aspects of the candidate's background. Location is acceptable (Tampere, Finland).",
+    "matches_requirements": "no",
+    "reason": "The job requires professional fluency in Finnish, which Priya does not possess, and this is a hard rejection criterion.",
     "id": "5afbca08",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "Software Engineering Productivity Lead",
@@ -18055,15 +18049,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineering-productivity-lead-at-bittium-4463027614",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
     "id": "73655b31",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "Software Engineering Productivity Lead",
@@ -18072,15 +18065,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineering-productivity-lead-at-bittium-4463041547",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak.",
+    "reason": "The role requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
     "id": "2ce0364f",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "DEVOPS ENGINEER",
@@ -18089,15 +18081,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-cyso-cloud-4455482909",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Alkmaar, Netherlands, which is outside Finland and not a fully remote role that can be done from Finland, violating the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Alkmaar, Netherlands, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is an on-site role outside Finland.",
     "id": "24ab89f5",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "DevOps Engineer | Mid | Threat Protection",
@@ -18106,15 +18097,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-threat-protection-at-nord-security-4447003841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
+    "reason": "The job is located in Vilnius, Lithuania, which is outside Finland and not a remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
     "id": "bfb152ac",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "DevOps Engineer | Mid -Senior | Infra",
@@ -18123,15 +18113,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-senior-infra-at-nord-security-4424719631",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which is outside Finland and not fully remote, disqualifying it under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Vilnius, Lithuania, which is outside Finland and not a fully remote role accessible from Finland, triggering a hard rejection under Location & Work Model criteria.",
     "id": "71f1f0b2",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-19",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "Kokenut j\u00e4rjestelm\u00e4kehitt\u00e4j\u00e4 (integraatiot ja alustat) - Avoin haku",
@@ -18140,15 +18129,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5a35a41661a67ca3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily focused on system development and integrations (feature development), which falls under the 'Pure Feature-Development Software Engineering' hard rejection category, despite some overlap with DevOps practices.",
+    "reason": "The role is primarily focused on feature development (system development, integrations, platform engineering) without explicit ownership of CI/CD pipelines or release/configuration management responsibilities, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
     "id": "f90f9a2b",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "DevOps / MLOps Engineer",
@@ -18157,15 +18145,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/devops-mlops-engineer-scsom-20447871",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job aligns with Priya's CI/CD and infrastructure automation experience (Jenkins, GitHub Actions) under DevOps, but MLOps is a new domain for her. The role does not explicitly require prior MLOps experience, making it a potential fit.",
+    "reason": "The job aligns with Priya's DevOps experience (CI/CD pipelines, infrastructure tooling) but introduces MLOps requirements that are optional and not explicitly covered in her background.",
     "id": "de0e42fe",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-05-06",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "Configuration & Data Manager [26165]",
@@ -18174,15 +18161,14 @@
     "url": "https://nl.linkedin.com/jobs/view/configuration-data-manager-26165-at-sopra-steria-4465064399",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Noordwijk-Binnen, South Holland, Netherlands, which does not meet the candidate's strict location requirements (only Finland or fully remote roles accessible from Finland are acceptable).",
+    "reason": "The job is located in Noordwijk-Binnen, Netherlands (outside Finland) and is not a remote role accessible from Finland, which violates Priya's strict location requirements.",
     "id": "242d0790",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "2026-09-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "Product Coordinator (Manager)",
@@ -18191,15 +18177,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-coordinator-manager-at-sumitomo-shi-fw-4465055409",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is in Finland (location requirement met) and involves product coordination, which may align with Priya's technical/product specialist experience, but the role focuses more on general product management rather than her specialized background in release/configuration management or regulated-industry quality/compliance work.",
+    "reason": "The role is a Product Coordinator/Manager focusing on product lifecycle management and stakeholder coordination, which partially aligns with Priya\u2019s technical/product-specialist background but lacks explicit mention of CI/CD, configuration management, or quality/compliance gatekeeping responsibilities she specializes in.",
     "id": "cb09d743",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T20:59:19+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T20:59:19+03:00"
   },
   {
     "title": "Release Engineer",
