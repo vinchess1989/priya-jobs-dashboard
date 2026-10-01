@@ -23523,15 +23523,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-data-analyst-analytics-consultant-finland-multiple-locations-2754788",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Data Analyst and BI consulting position focused on Power BI and Microsoft Fabric, which falls outside the candidate's core background in release management, DevOps, configuration management, and technical writing.",
+    "reason": "The role requires fluent Finnish for client-facing work, which the candidate does not possess, and it lacks the required focus on release management, configuration management, or quality/traceability engineering.",
     "id": "3e7e4a26",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:20:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:20:13+03:00"
   },
   {
     "title": "Koneistajia",
@@ -23540,15 +23539,14 @@
     "url": "https://www.jobly.fi/tyopaikka/koneistajia-2754744",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a CNC Machinist (Koneistaja) requiring manual manufacturing skills, machine operation, and fluent Finnish, which does not match the candidate's background in release management, software engineering, and technical communication.",
+    "reason": "The role requires fluent Finnish and is a manual CNC machining position, which does not align with the candidate's background in release management, DevOps, and technical communication.",
     "id": "21457e1b",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:20:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:20:13+03:00"
   },
   {
     "title": "IT Developer",
@@ -23557,15 +23555,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-developer-at-greengold-group-4463026176",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and PHP/Symfony software development, which conflicts with the candidate's language limitations and release/CM-focused career background.",
+    "reason": "This is a hands-on PHP/Symfony feature-development role requiring fluent Finnish, whereas Priya is a senior release/Configuration Management specialist who does not speak Finnish.",
     "id": "5c5f0b77",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-11",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Konfiguration Manager (m/w/d)",
@@ -23574,15 +23571,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfiguration-manager-m-w-d-at-aip-services-gmbh-4464198355",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Germany (Immenstaad am Bodensee), and the candidate is based in Finland and not seeking relocation outside of Finland.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "70d64ca1",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Release Manager",
@@ -23591,15 +23587,14 @@
     "url": "https://www.linkedin.com/jobs/view/release-manager-at-templeton-partners-innovative-inclusive-hiring-solutions-4461702809",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "5d05ddd4",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Release Engineer (m/w/d)",
@@ -23608,15 +23603,14 @@
     "url": "https://de.linkedin.com/jobs/view/release-engineer-m-w-d-at-psi-software-scandinavia-4448123597",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Aschaffenburg, Germany, and is neither in Finland nor offered as remote worldwide or within a region that includes Finland, violating the candidate's location criteria.",
+    "reason": "The job is located in Germany and is not listed as remote, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "7bf40120",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-11",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Agile Release Train Engineer - Seamless Travel",
@@ -23625,15 +23619,14 @@
     "url": "https://pt.linkedin.com/jobs/view/agile-release-train-engineer-seamless-travel-at-amadeus-4463241870",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Lisbon, Portugal, whereas the candidate is based in Finland and requires a role in Finland or fully remote.",
+    "reason": "The job is located in Lisbon, Portugal, and does not meet the requirement of being in Finland or a fully remote role open to candidates in Finland.",
     "id": "fd6c1e18",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Release Train Engineer",
@@ -23642,15 +23635,14 @@
     "url": "https://de.linkedin.com/jobs/view/release-train-engineer-at-hdi-group-4416223190",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Hannover, Germany (not Finland) and explicitly requires native-level German (C2), which the candidate does not possess.",
+    "reason": "The role requires C2-level German proficiency and is located in Germany, which violates the location and language requirements.",
     "id": "7d97f32c",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Release Train Engineer",
@@ -23659,15 +23651,14 @@
     "url": "https://nl.linkedin.com/jobs/view/release-train-engineer-at-capgemini-4360770002",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Utrecht, Netherlands, and requires fluency in Dutch, which violates the hard rejections regarding location and language proficiency.",
+    "reason": "The job is located in the Netherlands and requires fluency in Dutch, which violates the location and language requirements.",
     "id": "02d1f77b",
     "source": "linkedin_eu_release_manager",
     "posted_date": "8 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Test & Release Manager ICT",
@@ -23676,15 +23667,14 @@
     "url": "https://nl.linkedin.com/jobs/view/test-release-manager-ict-at-allinq-4461705976",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Harderwijk, Netherlands, and is neither physically in Finland nor offered as a fully remote position available globally or within Finland.",
+    "reason": "The job is located in the Netherlands and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "5ac0b645",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "SAP Release Manager",
@@ -23693,15 +23683,14 @@
     "url": "https://se.linkedin.com/jobs/view/sap-release-manager-at-billerud-4454560196",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The candidate fails the hard rejection location and residency rule because the role is physically located in Sweden and explicitly requires a permanent Swedish work permit.",
+    "reason": "The role is located in Sweden and explicitly requires a permanent Swedish work permit, which the candidate does not possess.",
     "id": "26f95e8e",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-06",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Staff / Senior Deployment & Release Manager",
@@ -23710,15 +23699,14 @@
     "url": "https://pl.linkedin.com/jobs/view/staff-senior-deployment-release-manager-at-aerovect-4459385048",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Poland and is neither in Finland nor specified as fully remote worldwide.",
+    "reason": "The job is located in Poland and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "0b274f88",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Project Manager IRC302384",
@@ -23727,15 +23715,14 @@
     "url": "https://se.linkedin.com/jobs/view/project-manager-irc302384-at-globallogic-4458982196",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Gothenburg, Sweden (on-site/hybrid) and requires physical presence outside of Finland, violating the geographic constraints.",
+    "reason": "The job is located in Gothenburg, Sweden, and is not a remote role that can be performed from Finland, violating the location requirements.",
     "id": "6a3d33b6",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "DevOps Lead",
@@ -23744,15 +23731,14 @@
     "url": "https://mt.linkedin.com/jobs/view/devops-lead-at-calamatta-cuschieri-4426495005",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Birkirkara, Malta, which violates the geographic requirement of being in Finland or fully remote.",
+    "reason": "The job is located in Malta (outside Finland and not remote) and is explicitly closed to new applications.",
     "id": "c6e57539",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "4 m\u00e5nader sedan",
+    "posted_date": "4 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Software Release Engineer (m/f/d)",
@@ -23761,15 +23747,14 @@
     "url": "https://de.linkedin.com/jobs/view/software-release-engineer-m-f-d-at-arx-robotics-4417961386",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Munich, Germany, which violates the candidate's requirement for roles located in Finland or fully remote roles.",
+    "reason": "The job is located in Munich, Germany, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "d841fc31",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Lead Technical Program Manager",
