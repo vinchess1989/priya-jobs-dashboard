@@ -12253,15 +12253,14 @@
     "url": "https://fi.linkedin.com/jobs/view/production-data-engineer-at-meyer-turku-4462134032",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which is a hard rejection criteria, and the job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job requires proficiency in Finnish as a mandatory requirement, which Priya does not possess.",
     "id": "7ce97eb8",
     "source": "linkedin_fi_devops_engineer_p2",
     "posted_date": "4 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:51:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:51:35+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -12270,15 +12269,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-aip-services-gmbh-4437008155",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and open to applicants living in Finland.",
+    "reason": "The job is located in Germany (Immenstaad am Bodensee, Baden-W\u00fcrttemberg), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "f434edb9",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Senior Release & Delivery Manager",
@@ -12287,15 +12285,14 @@
     "url": "https://ro.linkedin.com/jobs/view/senior-release-delivery-manager-at-luxoft-4464311121",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bucharest, Romania, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The position is located in Bucharest, Romania, which is outside Finland and not a remote role, violating the location constraints.",
     "id": "4f21c62b",
     "source": "linkedin_eu_release_manager",
     "posted_date": "3 viikkoa sitten",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12304,15 +12301,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-cinia-4406170076",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "This is an open application for a company that operates in relevant domains, but it is not a specific role, and the posting explicitly states that the working language is Finnish.",
+    "reason": "The job is an open application without explicit role details matching Priya's specialized experience in regulated CI/CD/release management, but location (Tampere, Finland) aligns with her preferences.",
     "id": "44ace9da",
     "source": "linkedin_fi_broad",
     "posted_date": "5 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Driver in Finland, Kannus",
@@ -12321,15 +12317,14 @@
     "url": "https://fi.linkedin.com/jobs/view/driver-in-finland-kannus-at-tsmg-holding-4091657249",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a driver/data collector, which does not align with the candidate's 15-year career in technical communication, release management, and quality engineering.",
+    "reason": "The job is for a Driver/Field Data Collector role, which does not align with Priya's expertise in DevOps, Configuration Management, Release Management, or regulated-industry quality/compliance roles.",
     "id": "3104aba2",
     "source": "linkedin_fi_broad",
     "posted_date": "1 vuosi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Interest in EY?",
@@ -12356,15 +12351,14 @@
     "url": "https://fi.linkedin.com/jobs/view/driver-in-finland-kolari-at-tsmg-holding-3715832272",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a driving position that does not align with the candidate's 15-year career in technical communication, release management, and software engineering.",
+    "reason": "The job is for a driver role, which does not align with Priya's target roles in DevOps, configuration management, release management, or technical communication in regulated/safety-critical industries.",
     "id": "444518d8",
     "source": "linkedin_fi_broad",
     "posted_date": "3 vuotta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Lifting Appointed Person",
@@ -12373,15 +12367,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lifting-appointed-person-at-clear-4457467773",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction-site 'Lifting Appointed Person' requiring specific crane/lifting certifications and physical site presence, which does not align with the candidate's software/DevOps/quality engineering background.",
+    "reason": "The job requires a Lifting Appointed Person with construction/project management expertise in data centres, which does not align with Priya's background in technical communication, release/configuration management, and regulated software industries.",
     "id": "bd702b33",
     "source": "linkedin_fi_broad",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Juicer - Helsinki",
@@ -12390,15 +12383,14 @@
     "url": "https://fi.linkedin.com/jobs/view/juicer-helsinki-at-joe-the-juice-4411666724",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a food service role that does not align with the candidate's 15-year career in technical communication, release management, and software engineering.",
+    "reason": "The role is a frontline service position in the food and beverage industry, unrelated to Priya's expertise in regulated-industry configuration management, release engineering, or technical documentation.",
     "id": "ace1cd58",
     "source": "linkedin_fi_broad",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12406,16 +12398,15 @@
     "location": "Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-valuesource-partners-oy-4065945355",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "This is an open application for a procurement consultancy firm, which does not align with her core technical release/CM/quality background, but it is a local Finnish employer that accepts general applications.",
+    "matches_requirements": "no",
+    "reason": "The job posting does not specify a particular role or position that matches Priya's target domains (e.g., DevOps, Configuration Management, Release Manager, etc.) and is instead an open application without clear responsibilities or requirements.",
     "id": "3e6144f7",
     "source": "linkedin_fi_broad",
     "posted_date": "1 vuosi sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12423,16 +12414,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-ukko-fi-3664563838",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "This is an open application (avoin hakemus) rather than a specific role, so it is unclear if they have a need for her specific DevOps/Release/Quality expertise.",
+    "matches_requirements": "no",
+    "reason": "The job posting does not specify a clear role type that matches Priya's expertise in DevOps, Configuration Management, or regulated-industry release management; instead, it appears to be an open application for unspecified roles with entry-level expectations.",
     "id": "53084685",
     "source": "linkedin_fi_broad",
     "posted_date": "3 vuotta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12441,15 +12431,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-taskmill-4368760551",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "This is an open application for a consulting firm, which could potentially align with her expertise in configuration management and quality engineering, but it lacks specific role details to confirm a definitive match.",
+    "reason": "The job posting lacks sufficient detail about the role type and responsibilities, making it impossible to determine if it aligns with Priya's qualifications in configuration management, technical communication, or regulated-industry experience.",
     "id": "a533b947",
     "source": "linkedin_fi_broad",
-    "posted_date": "7 kuukautta sitten",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Kiinnostuitko Concentrixista? J\u00e4t\u00e4 avoin hakemus!",
@@ -12458,15 +12447,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kiinnostuitko-concentrixista%3F-j%C3%A4t%C3%A4-avoin-hakemus%21-at-concentrix-4423666630",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a general open application for a customer experience/outsourcing firm, which does not align with the candidate's specialized technical, quality, and release management background.",
+    "reason": "The job posting is an open application with no explicit role definition, making it impossible to verify alignment with Priya's specific skills in configuration management, release processes, or technical communication.",
     "id": "c59ffeca",
     "source": "linkedin_fi_broad",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12474,16 +12462,15 @@
     "location": "Ulvila, Satakunta, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-sospro-oy-4367270808",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "This is an open application for a social and family services company (Sospro Oy), which does not align with the candidate's technical, engineering, or quality-assurance background.",
+    "matches_requirements": "maybe",
+    "reason": "The job posting is too generic ('Avoin hakemus' / Open Application) and does not explicitly specify a role matching Priya's configuration management, technical writing, or regulated-industry release/quality expertise, though it may contain suitable positions.",
     "id": "70eaeec1",
     "source": "linkedin_fi_broad",
     "posted_date": "8 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12492,15 +12479,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-reila-palvelut-oy-4418805101",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an open application for a general security and research services company, which does not align with the candidate's specialized technical background in release management, CI/CD, and quality engineering.",
+    "reason": "The job posting is an open application with no explicit role type or seniority-level requirements that align with Priya's mid-to-senior experience in configuration management/release engineering, and the 'L\u00e4ht\u00f6taso' (entry-level) designation may conflict with her qualifications.",
     "id": "e0716b97",
     "source": "linkedin_fi_broad",
     "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -12509,15 +12495,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-lm-instruments-oy-3664560457",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "This is an open application for a medical device manufacturer, which aligns with her domain expertise, but it is not a specific role posting.",
+    "reason": "The job is located in Finland and aligns with healthcare technology, which matches Priya's background in regulated medical device documentation (Topcon Healthcare), but the role description lacks specificity on responsibilities or required qualifications that directly match her expertise in CI/CD, release management, or technical communication.",
     "id": "2576df6b",
     "source": "linkedin_fi_broad",
     "posted_date": "3 vuotta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T06:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T06:05:45+03:00"
   },
   {
     "title": "Engineering Manager, MAAS",
