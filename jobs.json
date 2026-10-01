@@ -11303,38 +11303,20 @@
     "added_at": "2026-09-09T05:00:12+03:00"
   },
   {
-    "title": "Apulaisravintolap\u00e4\u00e4llikk\u00f6 Mylly (Raisio)",
-    "company": "Friends & Brgrs",
-    "location": "Turku (Mylly), Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=6de82fe619c3254f",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is for an Assistant Restaurant Manager, which does not align with the candidate's technical, engineering, and quality-management background.",
-    "id": "e137e224",
-    "source": "indeed_fi_broad_p2",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T05:00:12+03:00",
-    "needs_re_review": true
-  },
-  {
     "title": "Marine Surveyor",
     "company": "Lloyd's Register",
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=cab9001b6fa50ee6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of a Marine Surveyor requires specialized maritime engineering or naval architecture qualifications and field experience, which does not align with the candidate's background in software release management, configuration management, and technical communication.",
+    "reason": "The job title 'Marine Surveyor' does not align with Priya's expertise in DevOps, configuration management, release management, technical writing, or safety-critical regulated industries.",
     "id": "8bfa8509",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:00:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:00:12+03:00"
   },
   {
     "title": "Luokanopettajan sijaisuudet vuosiluokille 1-6",
@@ -11343,15 +11325,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1f21249ca412670f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is a substitute teaching position, unrelated to the candidate's release/CM/DevOps expertise.",
+    "reason": "The job posting is for a substitute teacher position, which does not align with the candidate's expertise in DevOps, configuration management, release management, technical writing, or safety-critical requirements engineering.",
     "id": "9e3d68fd",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:00:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:00:12+03:00"
   },
   {
     "title": "Uustuote -myyntiedustaja OTIS",
@@ -11360,15 +11341,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f6d9cbc895085437",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales representative position ('myyntiedustaja'), which falls under the hard rejection for quota-carrying sales roles.",
+    "reason": "The role is a sales (new product sales representative) position, which is a quota\u2011carrying sales role and does not match her technical/release/CM background.",
     "id": "5eeb5cfa",
     "source": "indeed_fi_broad_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T05:00:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:00:12+03:00"
   },
   {
     "title": "Testaaja, Helsinki",
@@ -11377,15 +11357,14 @@
     "url": "https://www.jobly.fi/tyopaikka/testaaja-helsinki-2748639",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications.",
+    "reason": "The role is a Test Automation Engineer focused on Android testing, which does not align with Priya's target criteria of release/CM/DevOps, technical writing, or quality engineering roles in regulated/safety-critical domains.",
     "id": "9eca588e",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:00:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:00:12+03:00"
   },
   {
     "title": "Tarjoilija",
@@ -11394,15 +11373,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9b13f7e9-99f7-4339-b155-fa579bb31b66/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a waiter in the hospitality industry, which does not match the candidate's technical, engineering, and quality-assurance background.",
+    "reason": "The job requires a customer-facing role as a server/waiter, which is explicitly excluded under Hard Rejections (see 'customer facing' entry in Negative Constraints).",
     "id": "3a4fe37c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:09:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:09:01+03:00"
   },
   {
     "title": "Ajoneuvoasentaja",
@@ -11411,15 +11389,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bc7effba-c8a7-4fb8-a983-fe7a8d93b686/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a vehicle mechanic, which is a manual trade position that does not align with the candidate's 15-year background in software engineering, release management, and technical documentation, and it explicitly requires Finnish language proficiency.",
+    "reason": "The job requires fluency in Finnish as a primary work language, which Priya does not possess, and the role (Automotive Mechanic) does not align with her expertise in technical writing, release management, or regulated-industry quality/compliance roles.",
     "id": "0e9f056a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-08",
     "deadline": "2026-09-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:09:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:09:01+03:00"
   },
   {
     "title": "Cloud Architect",
@@ -11428,15 +11405,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454755712",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires professional proficiency in Finnish, which the candidate does not possess, and it is restricted to candidates based in Southern Finland.",
+    "reason": "The job requires fluent/native Finnish as a mandatory qualification, which Priya does not speak.",
     "id": "d5545379",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "AI-Driven Cloud Architect",
@@ -11445,15 +11421,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-driven-cloud-architect-at-solteq-plc-4408913161",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Cloud Architect position focused on AI-driven architecture and platform design, which falls under the 'Specialist Platforms/Architecture' hard rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability.",
+    "reason": "The job requires AI-driven cloud architecture and infrastructure-as-code expertise, which does not align with Priya's focus on release/CI-CD ownership, configuration management, and regulated-industry quality compliance (her core experience at Elektrobit and Topcon).",
     "id": "137bf907",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -11462,15 +11437,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-infrastructure-cloud-engineer-100-%25-remote-m-f-d-at-ewor-4461972175",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure AI infrastructure/platform engineering position focused on building 0-to-1 systems, which falls under the hard rejection for platform-centric roles lacking a core release, CM, or quality/traceability component.",
+    "reason": "The job title and description focus on AI Infrastructure Cloud Engineering, which does not align with the candidate's expertise in release management, configuration management, or regulated-industry quality standards (e.g., MDR/ISO 13485).",
     "id": "e384c39e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -11479,15 +11453,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453052841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on cloud infrastructure and architecture engineering position, which falls under the 'Pure Feature-Development Software Engineering' or 'Specialist Platforms' exclusion criteria as it lacks a core focus on release management, CM, or quality gatekeeping.",
+    "reason": "The role focuses on cloud architecture and infrastructure as code (IaC) rather than configuration management, release management, or technical documentation ownership, which are central to Priya's expertise.",
     "id": "30568df5",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Software Engineer II",
@@ -11496,15 +11469,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=aaafdf82f009dcd1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on building applications and services, which violates the hard rejection criteria regarding software engineering roles.",
+    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's required focus on release, configuration management, or quality/technical documentation.",
     "id": "d8c9e662",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "IQI - avoin hakemus",
@@ -11512,16 +11484,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464625424",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "This is an open application for a consultancy firm that covers several of Priya's core competencies (DevOps, Compliance, Quality), but it is not a specific role posting.",
+    "matches_requirements": "no",
+    "reason": "The job posting does not explicitly specify a role type that matches Priya's target criteria (e.g., DevOps, Configuration Management, Release Management, etc.) and appears to be a general ICT open position without clear alignment to her regulated/safety-critical industry experience or CI/CD/release management ownership.",
     "id": "69f334e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -11530,15 +11501,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453070704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on cloud architecture and engineering position focused on building and refactoring infrastructure code, which falls under the 'Pure Feature-Development Software Engineering' or 'Specialist Platforms' exclusion criteria.",
+    "reason": "The job title 'Kokenut pilviasiantuntija' (Cloud Specialist) likely falls under specialist platforms/architecture without explicit mention of CI/CD, configuration management, or regulated-industry compliance, which are critical to the candidate's target criteria.",
     "id": "b908b522",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Cutover Lead",
@@ -11547,15 +11517,14 @@
     "url": "https://hu.linkedin.com/jobs/view/cutover-lead-at-aldi-international-it-services-hungary-4458170915",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary, which violates the location requirement, and the posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job is physically located in Budapest, Hungary, which violates the candidate's requirement to work either in Finland or fully remote.",
     "id": "0c19dd7d",
     "source": "linkedin_eu_release_manager",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Staff / Senior Deployment & Release Manager",
