@@ -28323,15 +28323,14 @@
     "url": "https://dk.linkedin.com/jobs/view/produktspecialist-stomi-og-urologi-at-mediq-danmark-a-s-4465634882",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Denmark and requires fluent Danish/Scandinavian language skills, violating the geographic and language criteria.",
+    "reason": "The role requires a nursing degree and clinical experience in stomi and urology, which violates the hard rejection for clinical/medical license or healthcare-provider requirements.",
     "id": "5b408c5d",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2 uger siden",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T16:51:58+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T16:51:58+03:00"
   },
   {
     "title": "Hitsaaja, Lahti",
@@ -28340,15 +28339,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-lahti-2738677",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a welder and the posting is no longer valid.",
+    "reason": "This job posting is for a welder (Hitsaaja) in Lahti, which is entirely outside Priya's background in software, release management, and technical communication.",
     "id": "5ec5e1bc",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T16:51:58+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T16:51:58+03:00"
   },
   {
     "title": "Kaivinkoneen per\u00e4mies y\u00f6vuoroon",
@@ -28357,15 +28355,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kaivinkoneen-peramies-yovuoroon-2739083",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is a manual excavator operator role, which does not align with the candidate's DevOps, release management, or technical communication expertise.",
+    "reason": "The job is a construction/earthmoving role (excavator ground worker/assistant) which is completely outside the candidate's technical communication, configuration management, and release engineering background.",
     "id": "07cc8d3b",
     "source": "jobly_broad",
     "posted_date": "2026-09-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T16:51:58+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T16:51:58+03:00"
   },
   {
     "title": "Projekti-insin\u00f6\u00f6ri",
@@ -28374,15 +28371,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b96d8c5a-aa8a-4d2d-b299-d82fe1be6d3a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires Finnish language proficiency, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish and is located in Turku, which conflicts with the candidate's language profile and location.",
     "id": "8d58d9d0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-04",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:05:45+03:00"
   },
   {
     "title": "Testiavustaja (Test Assistant) auto- ja rengastestaukseen talvikaudeksi",
@@ -28391,15 +28387,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/23973961-0614-4ab7-9418-d10112f56c9c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This is a manual, blue-collar winter tire-changing and vehicle testing assistant role that does not match Priya's senior software release, DevOps, or configuration management profile.",
     "id": "b800d980",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-09-30",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:05:45+03:00"
   },
   {
     "title": "J\u00e4lleenmyyj\u00e4",
@@ -28408,15 +28403,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/fa886077-05c9-479f-b332-9e51388fb424/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an entrepreneurship-based sales and installation position for door products, which is entirely outside the candidate's technical software release and quality engineering domain.",
+    "reason": "This is a quota-carrying sales and independent contractor entrepreneurship role for door products, which directly violates the hard rejection against pure sales roles and independent business ventures.",
     "id": "32861d1e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2027-02-26",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:05:45+03:00"
   },
   {
     "title": "Ratakunnossapitoty\u00f6ntekij\u00e4 talvikaudeksi",
@@ -28425,15 +28419,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/34a14e66-93f5-4aeb-8a57-f361088275df/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language, which the candidate does not speak.",
+    "reason": "The role requires fluent Finnish and involves manual track maintenance work, which does not match the candidate's technical release management and engineering profile.",
     "id": "9098818f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-09-30",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:05:45+03:00"
   },
   {
     "title": "Kalustoinsin\u00f6\u00f6ri",
@@ -28442,15 +28435,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d93ead47-60f2-4c1d-a59e-f32e1a988336/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires excellent oral and written Finnish skills, which the candidate does not possess, and the posting is marked as archived.",
+    "reason": "This role explicitly requires fluent spoken and written Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "41b877d6",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:05:45+03:00"
   },
   {
     "title": "(Technical) Senior Patent Specialist \u2013 Cellular StandardsNokiaEspooGo to job site",
@@ -28459,15 +28451,14 @@
     "url": "https://www.jobly.fi/en/job/technical-senior-patent-specialist-cellular-standards-2755203",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a PhD in telecommunications and deep expertise in 5G/6G physical-layer design, which does not align with the candidate's background in Release Management, DevOps, and Technical Writing.",
+    "reason": "The role requires a PhD in telecommunications and focuses on patenting and cellular standards research, which does not match Priya's configuration management, release management, or technical communication background.",
     "id": "aafb6c67",
     "source": "work_in_finland",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:05:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:05:45+03:00"
   },
   {
     "title": "Industrial IT Cloud Architect",
@@ -28476,15 +28467,14 @@
     "url": "https://fi.linkedin.com/jobs/view/industrial-it-cloud-architect-at-etteplan-4404908976",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent spoken and written Finnish alongside English, which the candidate does not possess.",
     "id": "9f55dce0",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:21:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:21:06+03:00"
   },
   {
     "title": "Teknologia-asiantuntija",
@@ -28493,15 +28483,14 @@
     "url": "https://fi.linkedin.com/jobs/view/teknologia-asiantuntija-at-el%C3%A4keturvakeskus-%E2%80%93-finnish-centre-for-pensions-4463477274",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting states that applications are no longer being accepted and requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "8f7c4959",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2 uger siden",
     "deadline": "2026-10-04",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:21:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:21:06+03:00"
   },
   {
     "title": "Lead Azure Data Engineer",
@@ -28509,16 +28498,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-azure-data-engineer-at-nordcloud-an-ibm-company-4399363681",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role's heavy emphasis on CI/CD and automation aligns with her DevOps background, but the core focus is Data Engineering development rather than pure Release or Configuration Management.",
+    "matches_requirements": "no",
+    "reason": "This role centers on building and running cloud-based data platforms (Databricks, Azure Data Factory) rather than release management, configuration management, or quality engineering, violating the hard rejection criteria for specialized platform roles.",
     "id": "179af203",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:21:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:21:06+03:00"
   },
   {
     "title": "Bare Developer (100% Remote - Worldwide) - C / JavaScript",
@@ -28527,15 +28515,14 @@
     "url": "https://fi.linkedin.com/jobs/view/bare-developer-100%25-remote-worldwide-c-javascript-at-tether-io-4448195195",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is a pure feature-development developer role, not a release/CM/DevOps position.",
+    "reason": "This is a pure feature-development and systems-programming role writing C and JavaScript for a runtime, violating the hard rejection against pure feature-development engineering.",
     "id": "b2bc7097",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:21:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:21:06+03:00"
   },
   {
     "title": "Software Engineer",
@@ -28544,15 +28531,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-at-vuono-group-4462240095",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent spoken and written Finnish and English skills, but the candidate does not speak Finnish.",
     "id": "8b1418b8",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:21:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:21:06+03:00"
   },
   {
     "title": "Machine Learning Engineer",
@@ -28561,15 +28547,14 @@
     "url": "https://fi.linkedin.com/jobs/view/machine-learning-engineer-at-reaktor-4461990496",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on building and deploying ML models, which violates the hard rejection against pure feature-development roles.",
+    "reason": "This is a core Machine Learning/AI engineering role focused on building and deploying ML models and data architectures, which falls outside Priya's background in release management, CI/CD, and quality/compliance.",
     "id": "2ba953a5",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T17:21:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T17:21:06+03:00"
   },
   {
     "title": "DevOps Engineer",
