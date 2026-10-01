@@ -35315,15 +35315,14 @@
     "url": "https://fi.linkedin.com/jobs/view/backend-engineer-clickhouse-at-aiven-4443602586",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on building and scaling database services, which violates the hard rejection against pure feature-development roles.",
+    "reason": "Extracted via regex fallback",
     "id": "015d9e4f",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Director of Financial Planning and Analysis",
@@ -35332,15 +35331,14 @@
     "url": "https://fi.linkedin.com/jobs/view/director-of-financial-planning-and-analysis-at-camino-search-4462521603",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a financial leadership position (FP&A) which does not align with the candidate's technical background in DevOps, release management, or quality engineering.",
+    "reason": "The role is in Financial Planning and Analysis, which does not align with Priya's target domains of DevOps, Configuration Management, Release Management, Technical Writing, or Safety-critical requirements engineering.",
     "id": "72ae10a5",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Lifecycle Specialist, Time and Attendance - EMEA",
@@ -35349,15 +35347,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lifecycle-specialist-time-and-attendance-emea-at-remote-4405230364",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an HR/Payroll operations position focused on employee lifecycle and labor law, which does not align with the candidate's technical background in DevOps, Configuration Management, or technical product quality.",
+    "reason": "The job does not align with Priya's technical/release-management expertise or target roles (e.g., DevOps, Configuration Management, Technical Writing) as it focuses on HR/lifecycle administration rather than regulated-software delivery, CI/CD, or quality/compliance gatekeeping.",
     "id": "41376d50",
     "source": "linkedin_fi_broad",
     "posted_date": "5 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "AI Engineer (RL Environments)",
@@ -35366,15 +35363,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-engineer-rl-environments-at-hashlist-4462919906",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure AI/Machine Learning engineering position focused on model training and RL environment development, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "The job requires AI engineering expertise in reinforcement learning environments, which does not align with the candidate's background in configuration management, release management, and technical documentation.",
     "id": "4eb4a53f",
     "source": "linkedin_fi_broad",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Salo",
@@ -35383,15 +35379,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1d9e1820-ed60-409d-8767-8ddd77ff928f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's 15-year career in technical communication, configuration management, and DevOps engineering.",
+    "reason": "The role is a customer-facing personal assistant position with no alignment to Priya's expertise in DevOps, configuration management, release engineering, or technical documentation, and explicitly falls under the 'customer facing' hard rejection category.",
     "id": "275e81a2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - P\u00e4ij\u00e4t-H\u00e4me",
@@ -35400,15 +35395,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/20148fba-53ff-4054-a5ee-53c804dd8cbe/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's technical background in DevOps, release management, or quality engineering.",
+    "reason": "The job role (Personal Assistant) does not align with Priya's expertise in technical writing, configuration management, release management, or regulated-industry quality/compliance work.",
     "id": "94b71633",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Raasepori",
@@ -35417,15 +35411,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2a349718-386b-4b34-9222-70e5a0154afb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's 15-year technical career in software engineering, release management, and quality assurance.",
+    "reason": "The job description outlines a personal assistant role focused on daily care and support tasks, which does not align with Priya's expertise in technical communication, configuration management, release management, or regulated-industry quality gatekeeping.",
     "id": "cdfe4b13",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Masku",
@@ -35434,15 +35427,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2b00dc55-7998-46b3-94e1-33c41b1e8640/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "The job role (Personal Assistant) does not align with Priya's expertise in configuration management, release engineering, technical writing, or regulated-industry quality/compliance work.",
     "id": "12b3786e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Varsinais-Suomi",
@@ -35451,15 +35443,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2f320bb6-8425-435a-bda5-6ddec7ea0ee3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role in the social services sector, which does not align with the candidate's professional background in technical communication, release management, and software engineering.",
+    "reason": "The job role as a Personal Assistant does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical industries.",
     "id": "86a9caa4",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - P\u00e4ij\u00e4t-H\u00e4me",
@@ -35468,15 +35459,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/33ad602a-aad2-4f26-ac70-49b38bc8c691/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a personal assistant, which does not align with the candidate's 15-year career in technical engineering, release management, and quality assurance.",
+    "reason": "The job role as a 'Personal Assistant' for individuals with disabilities does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or technical documentation/requirements engineering.",
     "id": "4a97fa00",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Vihti",
@@ -35485,15 +35475,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3fcaf251-7982-426b-a8a9-128809f49629/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a personal assistant, which does not align with the candidate's professional background in technical communication, release management, and DevOps.",
+    "reason": "The job is a customer-facing personal assistant role, which falls under the 'customer facing' hard rejection category that Priya explicitly rejected in previous applications.",
     "id": "8adfff8e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Keski-Suomi",
@@ -35502,15 +35491,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/526ac48b-eca5-4bb7-a8ae-f7a4c3199f42/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role in the social services sector, which does not align with the candidate's 15-year background in technical engineering, DevOps, and quality management.",
+    "reason": "The job requires a 'henkil\u00f6kohtainen avustaja' (personal assistant) role, which is explicitly customer-facing and does not align with Priya's target criteria of DevOps, Configuration Management, Release Management, or technical/quality Product Specialist roles. This falls under the 'customer facing' hard rejection.",
     "id": "744404b5",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Satakunta",
@@ -35519,15 +35507,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5ae51681-d0fe-4286-a83d-cdb51184f743/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "The job is a personal care assistant role involving non-technical, customer-facing tasks unrelated to configuration management, release processes, or regulated-industry quality standards Priya specializes in.",
     "id": "c5110037",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Pohjois-Pohjanmaa",
@@ -35536,15 +35523,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/691d05d6-e7f0-44a9-9b17-334ca2e43f4c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "The role is a customer-facing personal assistant position, which falls under the 'customer facing' hard rejection constraint and does not align with Priya's technical/regulated-industry background in configuration management, release engineering, or technical communication.",
     "id": "3b56294c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Enonteki\u00f6",
@@ -35553,15 +35539,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6ee22488-b274-46cd-a3fa-23c8cf379d5c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a personal assistant role that does not align with the candidate's 15-year career in technical engineering, release management, and quality assurance.",
+    "reason": "The job role (Personal Assistant) does not align with Priya's target domains of DevOps, Configuration Management, Release Management, or technical documentation in regulated industries.",
     "id": "c0b90c15",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Aarre Avustajat - Henkil\u00f6kohtainen avustaja - Ranua",
