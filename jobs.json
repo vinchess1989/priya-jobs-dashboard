@@ -11533,15 +11533,14 @@
     "url": "https://de.linkedin.com/jobs/view/staff-senior-deployment-release-manager-at-aerovect-4459365458",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Frankfurt, Germany, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in Frankfurt, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "7b36073a",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Myynti-insin\u00f6\u00f6ri",
@@ -11550,15 +11549,14 @@
     "url": "https://fi.linkedin.com/jobs/view/myynti-insin%C3%B6%C3%B6ri-at-alupro-oy-4450461392",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a sales-focused role and explicitly states that applications are no longer being accepted.",
+    "reason": "The job requires a Sales Engineer role with customer-facing responsibilities and quota-carrying sales tasks, which falls under the strict Hard Rejection category for pure sales roles labeled as 'Product Specialist' or similar, despite Priya's technical/quality product-specialist experience.",
     "id": "329e7230",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Architect, Graduate Program",
@@ -11567,15 +11565,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-architect-graduate-program-at-nvidia-4447669568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a graduate program explicitly requiring recent graduation (MS degree) and is a customer-facing sales/pre-sales role, which conflicts with the candidate's 15 years of experience and the hard rejection for sales-focused positions.",
+    "reason": "The role is explicitly a graduate program for newly graduating students, which conflicts with the candidate's 15 years of experience and the hard rejection criteria for entry-level-only roles.",
     "id": "272c941a",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Advisory Solutions Consultant",
@@ -11584,15 +11581,14 @@
     "url": "https://fi.linkedin.com/jobs/view/advisory-solutions-consultant-at-sailpoint-4433333020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales-support position (Pre-Sales/Solutions Consultant) which is explicitly rejected, and it requires fluent Finnish which the candidate does not possess.",
+    "reason": "The role requires quota-carrying sales support and customer-facing solution consulting, which conflicts with negative constraints against customer-facing roles.",
     "id": "463a983d",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Lead Application Engineer",
@@ -11601,15 +11597,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-application-engineer-at-eaton-4458895958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a customer-facing sales support and application engineering position, which conflicts with the candidate's preference to avoid customer-facing roles and does not align with her core expertise in release management, CI/CD, and quality gatekeeping.",
+    "reason": "The job requires electrical/power electronics expertise and application engineering with sales support, which does not align with Priya's background in release/CM/DevOps, technical writing, and regulated-industry quality compliance.",
     "id": "bb5d8e93",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solution Advisor Associate- SAP Academy for Customer Success - Finland (Hybrid)",
@@ -11618,15 +11613,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-advisor-associate-sap-academy-for-customer-success-finland-hybrid-at-sap-4457491815",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales-focused position and explicitly targets early-career talent, which conflicts with the candidate's 15 years of experience and preference for technical/quality roles.",
+    "reason": "The role is a customer-facing sales/consulting position requiring deal support and client interaction, which falls under Priya's explicit hard rejection for 'customer facing' roles.",
     "id": "17e04f9d",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Portfolio Sales Professional",
@@ -11635,15 +11629,14 @@
     "url": "https://fi.linkedin.com/jobs/view/portfolio-sales-professional-at-innomotics-4416827926",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position and explicitly requires native Finnish language proficiency, both of which violate the candidate's hard rejection criteria.",
+    "reason": "Candidate does not meet the mandatory Finnish language requirement and the role is a customer\u2011facing sales position, which is outside the candidate\u2019s target domain.",
     "id": "0f17dcd7",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Field Application Engineer",
@@ -11652,15 +11645,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-application-engineer-at-onenav-inc-4450375606",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a customer-facing Field Application Engineer position involving sales support and product demonstrations, which violates the negative constraint against customer-facing roles.",
+    "reason": "The role of Field Application Engineer does not align with Priya's target criteria in configuration management, release management, or technical writing, and requires RF/GNSS expertise not mentioned in her skills.",
     "id": "c936f838",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Engineer, Expansion Finland",
@@ -11669,15 +11661,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-engineer-expansion-finland-at-partly-4428478735",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing pre-sales/solutions engineering position, which conflicts with the candidate's rejection of customer-facing roles and the requirement for release/CM/quality-focused work.",
+    "reason": "The role of Solutions Engineer at Partly does not align with Priya's core expertise in CI/CD, configuration management, release management, or regulated-industry quality/compliance gatekeeping, and instead focuses on technical pre-sales/solutions engineering with integration work.",
     "id": "34545b62",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Sales Engineer -Heat Pumps- (HVAC)",
@@ -11686,15 +11677,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-engineer-heat-pumps-hvac-at-panasonic-heating-cooling-solutions-europe-4459010344",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales and business development role, which is explicitly excluded by the candidate's hard rejection criteria for 'Product Specialist' roles.",
+    "reason": "The job is a Sales Engineer role focused on HVAC products, which does not align with the candidate's background in release/CM/DevOps or technical documentation, and falls under the hard rejection for quota-carrying sales roles.",
     "id": "e78d6605",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Field Sales Engineer, Defence",
@@ -11703,15 +11693,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-sales-engineer-defence-at-distance-technologies-4451503250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a customer-facing sales-engineering role that falls outside her core expertise in release management and quality assurance.",
+    "reason": "The job requires fluent Finnish as a primary language requirement, which Priya does not speak, and the role is a customer-facing Field Sales Engineer position rather than a DevOps, Configuration Management, or Technical Writing role aligned with her expertise.",
     "id": "d3e183bd",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Consultant",
@@ -11720,15 +11709,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-consultant-at-amesan-consulting-oy-4452252171",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The role requires Finnish language proficiency, which the candidate does not have.",
     "id": "97102358",
     "source": "linkedin_fi_product_specialist_p2",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Sales Representative, Cardiac Rhythm Management (CRM) \u2013 The Hospital District of Helsinki and Uusimaa (HUS)",
@@ -11737,15 +11725,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-representative-cardiac-rhythm-management-crm-%E2%80%93-the-hospital-district-of-helsinki-and-uusimaa-hus-at-abbott-4446128950",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position requiring Finnish language proficiency, both of which are hard rejections.",
+    "reason": "The role is a sales position requiring Finnish fluency and customer\u2011facing responsibilities, which does not align with the candidate\u2019s non\u2011sales, English\u2011only background.",
     "id": "799a18ec",
     "source": "linkedin_fi_product_specialist_p2",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "vor 2 monaten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Field Product Specialist- North ( Berlin, Hamburg, Hannover based preferred)",
@@ -11754,15 +11741,14 @@
     "url": "https://de.linkedin.com/jobs/view/field-product-specialist-north-berlin-hamburg-hannover-based-preferred-at-cordis-4453520978",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role mislabeled as a product specialist, which is explicitly excluded by the hard rejection criteria.",
+    "reason": "The job is located in Berlin, Germany (outside Finland) and requires sales/customer-facing responsibilities, which are explicitly rejected under Hard Rejections.",
     "id": "d3feec16",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Junior product specialist - Studi commercialisti",
@@ -11771,15 +11757,14 @@
     "url": "https://it.linkedin.com/jobs/view/junior-product-specialist-studi-commercialisti-at-inplacement-it-4443265144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Italy, which falls outside of Finland and is not a remote role open to candidates based in Finland.",
+    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
     "id": "05deeb79",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T05:26:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:26:53+03:00"
   },
   {
     "title": "Produktspezialist (m/w/d) Installationstechnik",
