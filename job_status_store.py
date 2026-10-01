@@ -106,14 +106,29 @@ def get_job_field(job_url: str, field: str | None = None):
     return entry.get(field)
 
 
+def _field_path(*parts: str) -> str:
+    """Firestore field path; every segment back-quoted, since job URLs contain dots/slashes."""
+    return ".".join("`" + p.replace("\\", "\\\\").replace("`", "\\`") + "`" for p in parts)
+
+
+def update_job_fields(job_url: str, updates: dict) -> None:
+    """Write only the given fields of one job's entry (Firestore updateMask), leaving every
+    other job and every other field untouched - no read-modify-write of the whole document,
+    so a concurrent dashboard/scraper write can't be lost. A value of None DELETES that field."""
+    if not updates:
+        return
+    masks = [("updateMask.fieldPaths", _field_path(job_url, f)) for f in updates]
+    entry = {f: v for f, v in updates.items() if v is not None}
+    body = {"fields": {job_url: _serialize_value(entry)}} if entry else {"fields": {}}
+    resp = firestore_auth.session().patch(DOC_URL, params=masks, json=body, timeout=30)
+    resp.raise_for_status()
+
+
 def set_job_field(job_url: str, field: str, value) -> None:
-    """Read-modify-write a single field on a single job's entry, preserving
-    every other job's entry and every other field on this one untouched."""
-    current = get_job_status()
-    entry = current.get(job_url, {})
-    entry[field] = value
-    current[job_url] = entry
-    patch_job_status(current)
+    """Write a single field on a single job's entry, leaving every other job's entry and
+    every other field on this one untouched (field-masked update since 2026-10-01; this
+    used to read-modify-write the whole document, which could lose concurrent writes)."""
+    update_job_fields(job_url, {field: value})
 
 
 def main():

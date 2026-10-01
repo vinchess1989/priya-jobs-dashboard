@@ -2285,7 +2285,7 @@ def poll_manual_deletions():
     jobs.json to deleted.json, then clear the flag. Ported from manju_jobs 2026-09-30 -
     before this, flagged jobs were only hidden on review.html and never left the board."""
     try:
-        from job_status_store import get_job_status, patch_job_status
+        from job_status_store import get_job_status, update_job_fields
         current = get_job_status()
     except Exception as e:
         print(f"Error polling manual deletions: {e}")
@@ -2331,11 +2331,10 @@ def poll_manual_deletions():
             print(f"INFO: Moved {moved} job(s) to deleted.json via manual deletion_reason flag in job_status.")
 
         # Clear handled flags (also ones whose job was already gone) so they aren't re-processed.
+        # Field-masked delete of just this flag - never rewrite the whole document (a concurrent
+        # star/applied write from the dashboard would be lost).
         for job_url in pending:
-            entry = current.get(job_url, {})
-            entry.pop("deletion_reason", None)
-            current[job_url] = entry
-        patch_job_status(current)
+            update_job_fields(job_url, {"deletion_reason": None})
     except Exception as e:
         print(f"Error processing manual deletions: {e}")
 

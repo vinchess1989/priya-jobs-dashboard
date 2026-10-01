@@ -737,3 +737,26 @@ applied / user_review / matches values survived because they had already been sy
 has `deletion_reason` (mark-job-deleted skill, job_status_store.py, review.html "missed" button) are moved from
 jobs.json to deleted.json with that reason, then the flag is cleared (other fields kept). Before this, no Priya
 scraper read the flag, so such jobs stayed on the main board. Tested on temp copies with a simulated job_status.
+## Favourites + automatic submitting (built 2026-10-01; switch OFF until tested)
+Priya's rule: starred (★) jobs are filled and left for her to review/submit; every other job may be submitted
+automatically by `/fill-form` - only if `auto_submit_gate.py check` passes ALL of: dashboard switch
+`shared_state/settings.auto_submit_enabled` true (doc absent = OFF); not starred (`job_status[url].favorite`);
+match == yes; not applied; apply host not LinkedIn / Teamtailor / Biisoni; < 10 automatic submits today on this board;
+no applied job with the same company+title on EITHER Priya board (sibling board's jobs.json, local or GitHub Pages);
+no automatic submit to the same company in 7 days; no salary question (Priya's decision: salary -> review);
+no required DOB; every required field answered (answers.json `placeholder` false); no required upload other than
+CV/cover letter. Fill script (fill-form Step 5) re-checks the LIVE page (empty required fields / CAPTCHA / password
+field) before clicking, screenshots before/after into `PRIVATE\Resumes\<id>\`, detects a confirmation page.
+`auto_submit_gate.py record`: confirmed -> applied=yes + applied_date + `form_filled.status=submitted`
+(`submitted_by=fill-form-auto`, review.html Auto-Submitted tab) + user_feedback applied_update (scraper syncs
+jobs.json); clicked-but-unconfirmed -> `verify_submission` action item, NOT applied; refused -> pending_review.
+`/fill-form auto 10` handles up to 10 jobs per run (``). Phone = resume's Finnish number.
+Dashboard: ★ per row/card, "★ Favourites (N)" filter (saved, counted in the mobile filter badge), "Auto-submit:
+ON/OFF" button (confirm dialog; allow-listed accounts only).
+Also: `job_status_store.update_job_fields()` - field-masked writes (backtick-quoted URL field paths); `set_job_field`
+and the scraper's deletion-flag clearing use it, so nothing rewrites the whole job_status doc any more.
+Tested: gate scenarios (unit), record outcomes (writes intercepted), submit block on 4 local test forms
+(confirm / empty required / CAPTCHA / no confirmation), dashboard star/filter/switch with an in-memory Firestore stub.
+**Pending rollout (needs Priya's PC + Chrome profile):** 2-3 real `/fill-form` runs with the switch OFF (fill
+only), then ONE real automatic submit with her watching, then turn the switch on and start `/loop 60m /fill-form auto 10`.
+Gotcha: job_status contains a non-job `initialized` placeholder field - code iterating it must skip non-dicts.

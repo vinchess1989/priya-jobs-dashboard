@@ -1286,7 +1286,8 @@
     }
 
     // ── Auto-Submitted Forms in Review tab ──────────────────────────────
-    // Forms that a third-party ATS submitted on its own (e.g. reactively on a file
+    // Forms submitted without Priya clicking submit: /fill-form auto-submits (form_filled.submitted_by ==
+    // "fill-form-auto", see auto_submit_gate.py) and forms a third-party ATS submitted on its own (e.g. reactively on a file
     // upload) before /fill-form's "never click submit" step ever got a chance to
     // hand the form to Priya for review — see fill-form.md Step 5.5 and manju_jobs's
     // memory.md Teamtailor auto-submit incident. Tracked via form_filled.auto_submitted.

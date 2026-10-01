@@ -1,4 +1,4 @@
-Open a single job's application form in a visible, already-logged-in browser and fill it using your own judgment — ensures a Claude-tailored resume/cover letter exist first, resolves the real form URL via find-apply-link, then pauses before submit so Priya can review and click submit herself. With no job ID given, instead runs the full discovery flow first (find near-deadline unapplied jobs → verify liveness → flag expired ones for deletion → build a reasoned checklist → let Priya pick) and then applies the single-job flow to whatever she picks.
+Open a single job's application form in a visible, already-logged-in browser and fill it using your own judgment — ensures a Claude-tailored resume/cover letter exist first, resolves the real form URL via find-apply-link, then either **submits it automatically** or **pauses before submit** so Priya can review and click submit herself. Which one is decided per job by `auto_submit_gate.py` (Step 3.5): starred (favourite) jobs, non-"yes" matches, LinkedIn, salary questions, missing answers, duplicates, the daily cap or the dashboard's auto-submit switch being off all mean **pause for review**; only a job that passes every check is submitted. With no job ID given, instead runs the full discovery flow first (find near-deadline unapplied jobs → verify liveness → flag expired ones for deletion → build a reasoned checklist → let Priya pick) and then applies the single-job flow to whatever she picks.
 
 The arguments are: **$ARGUMENTS**
 
@@ -6,7 +6,8 @@ Parse `$ARGUMENTS` by space-separated tokens:
 - Any token matching `^[0-9a-fA-F]{8}$` (case-insensitive) is treated as an explicit `JOB_ID`.
 - Any token matching `^post<(\d+)$` or `^posted<(\d+)$` (case-insensitive) extracts `POSTED_DAYS_LIMIT` (e.g. `post<3` means jobs posted in the last 3 days, i.e., `posted_date >= today - 3 days`).
 - Any token matching `^dead<(\d+)$` or `^deadline<(\d+)$` (case-insensitive) extracts `DEADLINE_DAYS_LIMIT` (e.g. `dead<3` means jobs expiring in the next 3 days, i.e., `today <= deadline <= today + 3 days`).
-- Any token matching `^auto$` (case-insensitive) sets `$AutoMode = $true` — unattended mode, meant for a recurring `/loop 60m /fill-form auto`. Picks a job itself instead of asking, and never blocks on user input anywhere in the run.
+- Any token matching `^auto$` (case-insensitive) sets `$AutoMode = $true` — unattended mode, meant for a recurring `/loop 60m /fill-form auto 10`. Picks jobs itself instead of asking, and never blocks on user input anywhere in the run.
+- In `$AutoMode`, a bare number token (`^\d+$`, e.g. the `10` in `auto 10`) sets `$MaxJobs` — how many jobs to fully handle (submitted, or filled and left for review) this run. Default `1`. The gate's daily cap (10 automatic submits per board per day) still applies on top.
 
 **If no explicit `JOB_ID` token is given**:
 - `$AutoMode = $true` → run Step -1.A (auto-pick) instead of Step -1, then fall through to Steps 0–6 for whatever it picks (if anything — some cycles legitimately pick nothing).
@@ -17,7 +18,8 @@ Examples:
 - `/fill-form post<3 dead<3` — discover unapplied jobs posted in the last 3 days AND expiring within the next 3 days
 - `/fill-form dead<5` — discover unapplied jobs expiring within the next 5 days
 - `/fill-form` — discover unapplied jobs expiring today or tomorrow (default)
-- `/fill-form auto` — unattended: auto-pick one strong-match job, fill it, stop before submit; never blocks waiting for input (meant to run every hour via `/loop 60m /fill-form auto`)
+- `/fill-form auto` — unattended: auto-pick one strong-match job, fill it, then submit it or leave it for review per the gate; never blocks waiting for input
+- `/fill-form auto 10` — same, for up to 10 jobs per run (meant to run every hour via `/loop 60m /fill-form auto 10`)
 
 ---
 
@@ -147,7 +149,7 @@ From `JOBS_JSON`, a candidate satisfies **all** of:
 
 Sort the full eligible list with **priority jobs first**, then by `deadline` ascending: any candidate with Firestore's `priority_fill_form_at` set (Priya checked "Done" on a `create_login` action item in `firebase_app/review.html`, signaling the login/account blocker is now resolved and this job should be retried before anything else) sorts to the very front, most-recently-flagged first among those. Everything else follows, sorted by `deadline` ascending: parse `yyyy-MM-dd` entries and sort those first (soonest first); `"Open until filled"`, `"N/A"`, or anything unparseable sorts after all dated entries.
 
-Process in batches of 15 in that order: run -1.A.4 on batch 1 (candidates 1–15); only if the *entire* batch produces zero filled forms, move to batch 2 (16–30), and so on until either a form gets filled or the whole list is exhausted. This bounds each cycle's scrape/tailor cost without giving up early just because the first 15 all happened to be action-item cases.
+Process in batches of 15 in that order: run -1.A.4 on batch 1 (candidates 1–15), then batch 2 (16–30) and so on, until `$MaxJobs` jobs have been **handled** this run (a job counts as handled when it reaches Step 6 — submitted automatically, or filled and left for review) or the whole list is exhausted. Action-item cases (login wall, video, email-only) don't count toward `$MaxJobs`. This bounds each cycle's scrape/tailor cost without giving up early just because the first 15 all happened to be action-item cases.
 
 ### -1.A.4 — Walk the batch
 
@@ -168,7 +170,7 @@ This is a quick plausibility read, not a full re-run of the scraper's evaluation
   This surfaces it in `firebase_app/review.html`'s Weak Matches tab (Apply/Delete) and removes it from the `"yes"` auto-fill queue, so -1.A.2 won't re-offer it next cycle regardless of what Priya eventually decides. **Never pause this loop waiting for her decision** — move straight on to the next candidate.
 - **Looks fine** → run Steps 0–3 below with `$AutoMode` threaded through (Step 3's `$AutoMode` branch passes `--non-interactive` to `scrape_application.py` and does all the outcome branching — email/login-wall/video/normal-form). Step 3's branch itself decides whether to continue to the next candidate or fall through to Steps 4–6.
 
-Keep walking candidates until one falls through to a successful Step 6 hand-off (this cycle's job — stop) or the batch/list is exhausted.
+Keep walking candidates until `$MaxJobs` of them have reached Step 6 (submitted, or filled and left for review) or the batch/list is exhausted. Starred jobs are still picked and filled here — the gate in Step 3.5 just keeps them from being submitted.
 
 ### -1.A.5 — If nothing was fillable
 
@@ -258,9 +260,15 @@ python job_status_store.py set --url "JOB_URL" --field auto_fill_attempted_at --
    python "PUBLIC\scrape_application.py" --job-url "APPLY_URL" --job-id "JOB_ID" --out-dir "PRIVATE\Resumes\JOB_ID" --private-dir "PRIVATE"
    ```
    In `$AutoMode`, always append `--non-interactive` — without it, a login wall or an unsupported ATS would block forever on an `input()` prompt with nobody there to answer it. The script always writes `PRIVATE\Resumes\JOB_ID\JOB_ID_questions.json` before exiting — even on 0 questions or an expired listing — so read that file for `expired`/`login_wall`/`question_count`/`questions` regardless of its exit code.
-   - `question_count > 0` → generate tailored answers and write `JOB_ID_answers.json` + the cheatsheet HTML. **Answer rules:** text/textarea fields get 1–4 sentences (or a full paragraph for open-ended ones), naming the company/role where it fits; select/dropdown fields pick the closest matching option; never invent facts not in Priya's profile. **Known factual fields** — read these from `PRIVATE\Resumes\Master\master_data.json`'s `resume.contact` (or hardcode if faster):
+   - `question_count > 0` → generate tailored answers and write `JOB_ID_answers.json` + the cheatsheet HTML. **`JOB_ID_answers.json` must use exactly this shape** — `auto_submit_gate.py` reads it to decide whether the form can be submitted automatically, matching each `label` to the scraped question's label:
+     ```json
+     {"apply_url": "APPLY_URL",
+      "answers": [{"label": "<exact label from JOB_ID_questions.json>", "value": "<answer>", "placeholder": false}, ...]}
+     ```
+     Set `"placeholder": true` (and leave `value` empty) for anything you can't answer from Priya's real data — never invent a value to make a form look complete. **Answer rules:** text/textarea fields get 1–4 sentences (or a full paragraph for open-ended ones), naming the company/role where it fits; select/dropdown fields pick the closest matching option; never invent facts not in Priya's profile. **Known factual fields** — read these from `PRIVATE\Resumes\Master\master_data.json`'s `resume.contact` (or hardcode if faster):
      - Date of birth: not available — if a form requires it, leave blank and flag it as a placeholder for Priya to fill in manually (do not invent a date).
-     - Phone / salary expectation: leave blank, mark as a placeholder for manual fill.
+     - Phone: her Finnish number from `resume.contact.phone` in `master_data.json`.
+     - Salary expectation: **never answer it** — leave blank with `"placeholder": true`. Any salary question sends the job to Priya's review (her decision, 2026-10-01), so she sets the figure herself.
      - Address: `Oulu, Finland`.
      - Employment status: `Not currently employed` (her last role, at Topcon Healthcare, ended July 2026).
      - Availability: `Next possible working day`.
@@ -295,6 +303,23 @@ Remove-Item $tmpFile -ErrorAction SilentlyContinue
 ```powershell
 python job_status_store.py set --url "JOB_URL" --field auto_fill_attempted_at --value (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
 ```
+
+---
+
+## Step 3.5 — Decide: submit automatically, or leave for Priya's review
+
+Ask the gate **right before writing the fill script** (so a star Priya adds to a queued job still counts):
+```powershell
+$gate = python "PUBLIC\auto_submit_gate.py" check --job-id "JOB_ID" --apply-url "APPLY_URL" `
+    --questions "PRIVATE\Resumes\JOB_ID\JOB_ID_questions.json" --answers "PRIVATE\Resumes\JOB_ID\JOB_ID_answers.json" | ConvertFrom-Json
+$SubmitMode = $gate.decision   # "auto" or "review"
+$gate.reasons                  # why not, when "review"
+```
+(Omit `--questions`/`--answers` if those files don't exist — the gate then answers `review`, since it can't verify the form.)
+
+It answers `auto` only when **every** check passes: the dashboard's auto-submit switch is on; the job is **not starred**; the match is `yes`; it isn't already applied; the apply site isn't LinkedIn or Teamtailor/Biisoni; fewer than 10 automatic submits today on this board; no earlier application to the same company + title on either Priya board and no automatic submit to the same company in the last 7 days; no salary question; no required date of birth; every required field has a real (non-placeholder) answer; no required upload other than CV/cover letter. **Any other outcome is `review`** — never second-guess a `review` into a submit.
+
+Print the decision and reasons in the run log so Priya can see why each job was or wasn't submitted.
 
 ---
 
@@ -356,22 +381,93 @@ with sync_playwright() as p:
     #     of the form if no answers.json exists) ...
     # ... attach $resumePdf and $coverPdf to whatever file-upload input(s) exist ...
 
-    print("Form filled. Disconnecting...")
+    SUBMIT_MODE = "SUBMIT_MODE_FROM_STEP_3_5"   # "auto" or "review"
+    if SUBMIT_MODE != "auto":
+        print("Form filled. Left for Priya's review. Disconnecting...")
+        browser.close()
+        raise SystemExit(0)
+
+    # ---- Automatic submit (only reached when the gate said "auto") ----
+    import json, re
+    shots_dir = r"PRIVATE\Resumes\JOB_ID"
+    result = {"submitted": False, "confirmed": False, "blocked_reason": "",
+              "confirmation_text": "", "final_url": "", "screenshots": []}
+    def shot(name):
+        path = os.path.join(shots_dir, f"JOB_ID_{name}.png")
+        page.screenshot(path=path, full_page=True)
+        result["screenshots"].append(path)
+
+    # Re-check the LIVE page before clicking - the gate only saw the scraped questions.
+    empty_required = page.evaluate("""() => [...document.querySelectorAll(
+        'input[required],select[required],textarea[required],[aria-required="true"]')]
+        .filter(el => el.offsetParent !== null && el.type !== 'hidden'
+                 && (el.type === 'checkbox' || el.type === 'radio'
+                     ? !document.querySelector(`[name="${el.name}"]:checked`) : !String(el.value || '').trim()))
+        .map(el => el.name || el.id || el.getAttribute('aria-label') || el.type)""")
+    captcha = page.locator("iframe[src*='recaptcha'], iframe[src*='hcaptcha'], iframe[src*='turnstile'], .g-recaptcha, .h-captcha").count()
+    login = page.locator("input[type='password']").count()
+    if empty_required:
+        result["blocked_reason"] = f"required fields still empty on the live form: {empty_required[:5]}"
+    elif captcha:
+        result["blocked_reason"] = "CAPTCHA on the page"
+    elif login:
+        result["blocked_reason"] = "password/login field on the page"
+
+    if not result["blocked_reason"]:
+        shot("before_submit")
+        before_url = page.url
+        # The REAL final submit control of THIS form - write the exact locator after reading the form
+        # (multi-step forms: click through "Next" steps first, re-running the checks above on each step).
+        page.locator("SUBMIT_BUTTON_LOCATOR").click()
+        result["submitted"] = True
+        page.wait_for_timeout(6000)
+        try:
+            page.wait_for_load_state("networkidle", timeout=15000)
+        except Exception:
+            pass
+        body = page.locator("body").inner_text()[:5000]
+        m = re.search(r"(thank(s| you)[^.\n]{0,120}|application (has been )?(received|submitted|sent)[^.\n]{0,80}|"
+                      r"successfully (submitted|applied)[^.\n]{0,80}|we have received your application[^.\n]{0,80}|"
+                      r"kiitos[^.\n]{0,80})", body, re.I)
+        result["confirmed"] = bool(m) or bool(re.search(r"thank|success|confirm|submitted|kiitos", page.url, re.I) and page.url != before_url)
+        result["confirmation_text"] = m.group(0) if m else ""
+        result["final_url"] = page.url
+        shot("after_submit")
+
+    with open(r"PUBLIC\scratch\submit_result_JOB_ID.json", "w", encoding="utf-8") as f:
+        json.dump(result, f)
+    print("SUBMIT RESULT:", json.dumps(result))
     browser.close()
 ```
 
 - Run the script: `python -u PUBLIC\scratch\hardcoded_fill_JOB_ID.py`
+- Replace `SUBMIT_MODE_FROM_STEP_3_5` with Step 3.5's `$SubmitMode`, and `SUBMIT_BUTTON_LOCATOR` with the exact locator of this form's final submit button (read it from the live form — `button[type=submit]` is only right when it's genuinely the final submit, not a "Next" step).
 - **Form Filling Rules**:
   - Always use the LinkedIn profile link from Priya's resume for the LinkedIn profile field (do not leave it empty).
   - If asked about employment status, always answer "not currently employed."
   - If asked if the application can be used for other applications/future opportunities, always answer "yes" / agree to it.
   - If asked how she heard about the job, look up the `source` column for this job in `jobs.json` and use that value.
   - If asked for date of birth, leave the field blank and flag it as a placeholder for Priya to fill in manually — no date of birth is available in her profile data.
-- **Never click the final submit button.** Leave the form filled and waiting for review.
+- **Submit only when `$SubmitMode == "auto"`.** In `review` mode never click the final submit button — leave the form filled and waiting for Priya. In `auto` mode click it only via the guarded block above (which itself refuses on empty required fields, CAPTCHA or a login field). Never improvise a submit outside that block.
+- Some ATSes submit by themselves on file upload (the Teamtailor incident in manju_jobs's memory.md). In `review` mode, upload files one at a time and check `page.url` after each; if it lands on a thank-you/confirmation page, record it with `auto_submit_gate.py record` using `{"submitted": true, "confirmed": true, ...}` so it's tracked under review.html's Auto-Submitted tab.
 
 ---
 
-## Step 6 — Hand off for manual review
+## Step 6 — Record the outcome
+
+### 6.A — `$SubmitMode == "auto"`: record what the submit did
+
+```powershell
+python "PUBLIC\auto_submit_gate.py" record --job-id "JOB_ID" --result "PUBLIC\scratch\submit_result_JOB_ID.json"
+```
+It writes Firestore itself, from the script's result:
+- **submitted + confirmation detected** → `applied = yes`, `applied_date` = today, `form_filled.status = submitted` (shows in review.html's Auto-Submitted tab and the dashboard's applied counts), and an `applied_update` feedback entry so the scraper syncs `applied` into `jobs.json`.
+- **submitted, no confirmation detected** → `form_filled.status = verify_submission` + a `verify_submission` action item for Priya. **Not** marked applied.
+- **not submitted** (live-page check refused: empty required field / CAPTCHA / login) → `form_filled.status = pending_review` with the reason — the form stays open in the browser for Priya, exactly like the review path below.
+
+Print `JOB_ID (JOB_TITLE @ COMPANY) — <outcome from the record command>` plus the screenshot paths. In `$AutoMode`, set `auto_fill_attempted_at` (below) and continue with the next candidate until `$MaxJobs` jobs are handled. Do **not** wait for anyone.
+
+### 6.B — `$SubmitMode == "review"`: hand off for manual review
 
 Immediately after the fill script completes successfully (both modes) — this is what powers `firebase_app/review.html`'s "Filled Forms" tab, so Priya can find and confirm-submit it later even from a different machine/session than the one that filled it:
 ```powershell
@@ -392,13 +488,14 @@ Print:
 JOB_ID (JOB_TITLE @ COMPANY) — form opened and filled at APPLY_URL.
 Resume       : $resumePdf
 Cover letter : $coverPdf
-Review the filled form in the browser window, then click submit yourself — this skill never submits automatically.
+Left for your review because: <the gate's reasons from Step 3.5>.
+Review the filled form in the browser window, then click submit yourself.
 It's now also listed under the "Filled Forms" tab in firebase_app/review.html — checking "Done" there marks it applied with today's date.
 ```
 
-Wait for the user to confirm they've reviewed and submitted (or otherwise closed the browser) before considering the task done. Do not mark the job `applied` anywhere automatically — that's a separate, explicit action the user takes (via review.html's Filled Forms tab, or the dashboard's own Applied toggle).
+Outside `$AutoMode`, wait for the user to confirm they've reviewed and submitted (or otherwise closed the browser) before considering the task done. On this review path, do not mark the job `applied` anywhere automatically — that's a separate, explicit action the user takes (via review.html's Filled Forms tab, or the dashboard's own Applied toggle).
 
-**In `$AutoMode`**, there's nobody to wait for — after printing the hand-off message above, set `auto_fill_attempted_at` and stop the whole cycle (this job satisfies the "at least one filled form" goal; do not pick another candidate):
+**In `$AutoMode`** (both 6.A and 6.B), there's nobody to wait for — set `auto_fill_attempted_at`, then continue with the next candidate until `$MaxJobs` jobs have been handled this run (leave review-path forms open in their browser tabs for Priya):
 ```powershell
 python job_status_store.py set --url "JOB_URL" --field auto_fill_attempted_at --value (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
 ```

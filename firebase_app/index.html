@@ -764,6 +764,14 @@
             .board-switch { margin-left: 0; padding: 0.45rem 0.6rem; flex-shrink: 0; }
             .board-switch .board-switch-label { display: none; }
         }
+        .fav-star { background: none; border: none; cursor: pointer; padding: 0 0.15rem; font-size: 1.15rem; line-height: 1;
+            color: rgba(255, 255, 255, 0.35); flex-shrink: 0; order: -1; }
+        .fav-star:hover { color: #fcd34d; transform: scale(1.15); }
+        .fav-star.on { color: #fbbf24; }
+        .info-toggle { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); color: #d1d5db;
+            padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; white-space: nowrap; }
+        .info-toggle.on { background: rgba(251, 191, 36, 0.18); border-color: rgba(251, 191, 36, 0.55); color: #fcd34d; }
+        .info-toggle.auto.on { background: rgba(16, 185, 129, 0.18); border-color: rgba(16, 185, 129, 0.55); color: #6ee7b7; }
         .today-stat-sub { margin-top: 0.2rem; font-size: 0.75rem; color: var(--text-secondary); min-height: 1em; }
 
         /* History-chart aggregation switch (Detail / Day / Week / Month) */
@@ -1420,6 +1428,11 @@
         let sharedJobsState = {};
         let firestoreUnsubscribe = null;
         let selectedLlmModels = new Set();
+        // Favourites (★): stored per job as shared_state/job_status[url].favorite. /fill-form never
+        // auto-submits a starred job - it fills it and waits for Priya (auto_submit_gate.py).
+        let favoritesOnly = false;
+        // Kill switch for /fill-form's automatic submits: shared_state/settings.auto_submit_enabled.
+        let autoSubmitEnabled = false;
 
         let allJobs = [];
         let sortAsc = true;
@@ -1556,6 +1569,11 @@
                     setupUploadListeners();
                     
                     if (firestoreUnsubscribe) firestoreUnsubscribe();
+                    db.collection('shared_state').doc('settings').onSnapshot(d => {
+                        autoSubmitEnabled = !!(d.exists && d.data().auto_submit_enabled === true);
+                        const b = document.getElementById('auto-submit-btn');
+                        if (b) { b.classList.toggle('on', autoSubmitEnabled); b.textContent = autoSubmitEnabled ? '⚡ Auto-submit: ON' : '⏸ Auto-submit: OFF'; }
+                    }, () => {});
                     firestoreUnsubscribe = db.collection('shared_state').doc('job_status').onSnapshot(doc => {
                         if (doc.exists) {
                             sharedJobsState = doc.data();
@@ -1754,6 +1772,8 @@
                     <button onclick="window.resetAllFilters()" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); color: #d1d5db; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: background 0.2s;">
                         <i class="fas fa-filter-slash"></i> Clear Filters
                     </button>
+                    <button type="button" id="fav-filter-btn" class="info-toggle ${favoritesOnly ? 'on' : ''}" onclick="window.toggleFavoritesOnly()" title="Show only starred jobs">★ Favourites (${allJobs.filter(j => (sharedJobsState[j.url] || {}).favorite).length})</button>
+                    <button type="button" id="auto-submit-btn" class="info-toggle auto ${autoSubmitEnabled ? 'on' : ''}" onclick="window.toggleAutoSubmit()" title="When ON, /fill-form submits non-starred 'yes' jobs that pass every safety check (max 10/day). Starred jobs always wait for your review.">${autoSubmitEnabled ? '⚡ Auto-submit: ON' : '⏸ Auto-submit: OFF'}</button>
                     ${archivedCount > 0 ? `<button onclick="window.unarchiveAllNo()" style="background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); color: #fca5a5; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: background 0.2s;"><i class="fas fa-box-open"></i> Show ${archivedCount} Archived (No)</button>` : ''}
                 </div>
                 <div class="table-info-item">
@@ -1946,6 +1966,7 @@
                     <td class="col-job-id">${jobIdVal}</td>
                     <td class="col-title" data-value="${job.title || 'Unknown Title'}">
                         <div style="display: flex; justify-content: space-between; align-items: center; gap: 15px;">
+                            <button type="button" class="fav-star ${(sharedJobsState[job.url] || {}).favorite ? 'on' : ''}" data-url="${job.url}" aria-pressed="${(sharedJobsState[job.url] || {}).favorite ? 'true' : 'false'}" title="${(sharedJobsState[job.url] || {}).favorite ? 'Favourite: fill-form fills it, then waits for you to review and submit. Click to unstar.' : 'Star as favourite: fill-form will wait for your review instead of auto-submitting'}">${(sharedJobsState[job.url] || {}).favorite ? '★' : '☆'}</button>
                             <a href="${job.url}" target="_blank" style="color: var(--text-primary); text-decoration: underline; text-decoration-color: rgba(255,255,255,0.3); text-underline-offset: 3px;">${job.title || 'Unknown Title'}</a>
                             ${job.description_file ? `<a href="https://vinchess1989.github.io/priya-jobs-dashboard/${job.description_file.startsWith('job_descriptions/') ? job.description_file : 'job_descriptions/' + job.description_file}" target="_blank" style="font-size: 0.7em; color: var(--color-yes); text-decoration: none; border: 1px solid rgba(16,185,129,0.3); padding: 2px 6px; border-radius: 4px; white-space: nowrap;" title="View extracted job description">[TXT]</a>` : ''}
                         </div>
@@ -2021,6 +2042,9 @@
             if (locationTextInput) locationTextInput.value = '';
             selectedLlmModels.clear();
             buildLlmFilter();
+            favoritesOnly = false;
+            const favBtn = document.getElementById('fav-filter-btn');
+            if (favBtn) favBtn.classList.remove('on');
             filterTable();
         };
 
@@ -2166,6 +2190,7 @@
                             }
                         }
                     }
+                    favoritesOnly = saved.favoritesOnly === true;
                     if (saved.llmModels && Array.isArray(saved.llmModels)) {
                         saved.llmModels.forEach(m => selectedLlmModels.add(m));
                         buildLlmFilter();
@@ -2293,6 +2318,7 @@
                     deadlineLimit: (!isNaN(deadlineLimit) ? deadlineLimit : null),
                     colFilters: filters,
                     locationText: locationText,
+                    favoritesOnly: favoritesOnly,
                     llmModels: Array.from(selectedLlmModels)
                 };
                 localStorage.setItem('jobBoardFilters_' + projectId, JSON.stringify(filtersToSave));
@@ -2357,6 +2383,10 @@
                     if (!passesCheckbox) { show = false; break; }
                 }
 
+                if (show && favoritesOnly && !(sharedJobsState[entry.el.getAttribute('data-url')] || {}).favorite) {
+                    show = false;
+                }
+
                 if (show && selectedLlmModels.size > 0) {
                     if (!selectedLlmModels.has(entry.evalModel) && !selectedLlmModels.has(entry.tailorModel)) {
                         show = false;
@@ -2417,7 +2447,7 @@
 
             // Mobile bottom nav: the Filters tab shows a dot and "shown/total" while any
             // filter is set (column filters, date limits, location text, LLM, countries).
-            const anyFilterSet = Object.keys(filters).length > 0 || selectedLlmModels.size > 0
+            const anyFilterSet = Object.keys(filters).length > 0 || selectedLlmModels.size > 0 || favoritesOnly
                 || (typeof selectedCountries !== 'undefined' && selectedCountries.size > 0);
             const mnavFilters = document.getElementById('mnav-filters');
             if (mnavFilters) {
@@ -2498,6 +2528,37 @@
                 if (scrollArea) scrollArea.scrollTop = 0;
             }
         };
+
+        window.toggleFavoritesOnly = function() {
+            favoritesOnly = !favoritesOnly;
+            const b = document.getElementById('fav-filter-btn');
+            if (b) b.classList.toggle('on', favoritesOnly);
+            filterTable();
+        };
+
+        window.toggleAutoSubmit = async function() {
+            if (!currentUser || !ALLOWED_EMAILS.includes(currentUser.email)) { alert('Sign in with an allowed account to change this.'); return; }
+            const next = !autoSubmitEnabled;
+            if (next && !confirm('Turn ON automatic submitting?\n\n/fill-form will submit non-starred "yes" jobs that pass every safety check (max 10 per day). Starred jobs always wait for your review.')) return;
+            try {
+                await db.collection('shared_state').doc('settings').set({ auto_submit_enabled: next, auto_submit_changed_at: new Date().toISOString(), auto_submit_changed_by: currentUser.email }, { merge: true });
+            } catch (e) { console.error(e); alert('Could not change the auto-submit switch.'); }
+        };
+
+        document.addEventListener('click', async e => {
+            const star = e.target.closest('.fav-star');
+            if (!star) return;
+            e.preventDefault(); e.stopPropagation();
+            if (!currentUser || !ALLOWED_EMAILS.includes(currentUser.email)) { alert('Sign in with an allowed account to star jobs.'); return; }
+            const url = star.getAttribute('data-url');
+            const next = !(sharedJobsState[url] || {}).favorite;
+            star.disabled = true;
+            try {
+                await db.collection('shared_state').doc('job_status').set({
+                    [url]: { favorite: next, favorited_at: next ? new Date().toISOString() : firebase.firestore.FieldValue.delete() }
+                }, { merge: true });
+            } catch (err) { console.error(err); alert('Could not save the favourite.'); star.disabled = false; }
+        });
 
         async function toggleApplied(select, url, originalValue) {
             const newState = select.value;
