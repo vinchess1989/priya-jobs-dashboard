@@ -33379,15 +33379,14 @@
     "url": "https://www.jobly.fi/tyopaikka/viemarinpesuautonkuljettaja-heti-pello-2757855",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is no longer accepting applications and is a manual labor role (sewer cleaning truck driver) that does not match the candidate's technical, engineering, or documentation expertise.",
+    "reason": "The job posting is for a sewer cleaning truck driver, which is completely unrelated to the candidate's background in software, release management, configuration management, and technical communication.",
     "id": "c471b905",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Alumiinihitsaaja, vakituinen, RAUMA",
@@ -33396,15 +33395,14 @@
     "url": "https://www.jobly.fi/tyopaikka/alumiinihitsaaja-vakituinen-rauma-2757854",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for an aluminum welder, which does not match the candidate's professional background in software engineering, release management, and technical communication.",
+    "reason": "The job posting is for an aluminum welder (Alumiinihitsaaja), which is completely unrelated to the candidate's software, configuration management, and technical communication background.",
     "id": "8d83b13c",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00e4 huopat\u00f6ihin",
@@ -33413,15 +33411,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekija-huopatoihin-2735913",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction worker (roofing/bitumen welding), which is completely outside the candidate's professional background in software engineering, DevOps, and technical communication.",
+    "reason": "This is a manual construction job requiring roofing work (bitumen torch welding), which does not match the candidate's software, configuration management, and technical communication background.",
     "id": "70e11f17",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "2026-10-08",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "AI Solution Architect (Staff)",
@@ -33430,15 +33427,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-solution-architect-staff-at-norrin-4426791403",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on AI Solution Architect position focused on building and implementing AI applications, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "This role centers on AI platform and solution architecture (MLOps/LLMOps/AI infrastructure), which falls under the hard rejection category for specialist cloud/data/AI platforms and architecture roles without a release, configuration-management, or requirements core.",
     "id": "fda76721",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Forward Deployed Engineer",
@@ -33447,15 +33443,14 @@
     "url": "https://fi.linkedin.com/jobs/view/forward-deployed-engineer-at-salesforce-4453368067",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software engineering/development position focused on building AI agents and full-stack solutions, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "This role requires customer-facing technical delivery and heavy hands-on coding (Python, JavaScript, Java, Apex) in an AI/feature-development capacity, which conflicts with her focus on release management, configuration management, and quality gatekeeping.",
     "id": "83f56ebd",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Cloud Architect",
@@ -33464,15 +33459,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454755711",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a working language and is restricted to candidates in Southern Finland, which conflicts with the candidate's language profile and current location in Oulu.",
+    "reason": "This Cloud Architect role focuses on cloud infrastructure and platform architecture rather than release management or configuration management, and requires fluent Finnish.",
     "id": "1e73c326",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 kuukautta sitten",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Cloud Architect",
@@ -33481,15 +33475,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454748750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted, and it requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish and Swedish, and it has a mandatory language requirement that does not match the candidate's profile.",
     "id": "6a37009b",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 kuukautta sitten",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Software Engineer",
@@ -33498,15 +33491,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-at-tenth-revolution-group-4463988658",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Software Architect focused on feature-level design and development, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "This is a Software Architect role requiring deep hands-on Python/AWS cloud-native platform design and architectural leadership, which does not align with Priya's release management, DevOps, and quality/compliance background.",
     "id": "826bd436",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior Software Engineer",
@@ -33515,15 +33507,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-at-wave-company-4452598135",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "427dc594",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior/Lead Software Engineer",
@@ -33532,15 +33523,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-lead-software-engineer-at-sievo-4458359659",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on backend development and AI-native coding, which falls under the hard rejection for pure feature-development roles.",
+    "reason": "This is a pure feature-development and AI software engineering role focused on backend cloud-native coding rather than release, configuration-management, or quality assurance.",
     "id": "88006d4c",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior Test Automation Engineer",
@@ -33548,16 +33538,15 @@
     "location": "Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-test-automation-engineer-at-hiq-finland-4457751225",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong technical fit for her automation and CI/CD skills, but the job description explicitly states 'Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4' (Applications are no longer accepted) and lists Finnish language proficiency as a requirement for many client projects.",
+    "matches_requirements": "no",
+    "reason": "The posting requires fluent Finnish and Swedish alongside English, which violates the candidate's language requirements.",
     "id": "061efe43",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Forward Deployed Engineer",
@@ -33566,15 +33555,14 @@
     "url": "https://fi.linkedin.com/jobs/view/forward-deployed-engineer-at-stott-and-may-4459983157",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "This job posting is explicitly closed for applications and violates the negative constraint against customer-facing roles.",
     "id": "2583f69e",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "4 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "AI Forward Deployed Engineer",
@@ -33583,15 +33571,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-forward-deployed-engineer-at-siili-solutions-4462838314",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on AI/software engineering position focused on building and shipping AI systems, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "This role is focused on building and deploying AI/ML and LLM applications as an AI Forward Deployed Engineer, which falls under pure feature-development and advanced cloud/AI platform engineering rather than Priya's core release management, configuration management, or quality/regulatory background.",
     "id": "87d7a179",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "AI Developer",
@@ -33600,15 +33587,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-developer-at-etteplan-4461567257",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on building AI applications, which violates the hard rejection against roles primarily focused on new application/product feature development.",
+    "reason": "This is a pure feature-development and AI engineering role focused on building LLM applications, which falls under the hard rejection for pure software and AI platform development rather than her release, CM, or quality background.",
     "id": "4130f037",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "AI Integrations Engineer (Open Source \u00b7  Web Search)",
@@ -33617,15 +33603,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-integrations-engineer-open-source-%C2%B7-web-search-at-searchapi-4432272705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development and open-source contribution engineering position, which falls under the hard rejection for pure software engineering roles lacking a release, configuration management, or quality-gatekeeping focus.",
+    "reason": "This is a feature-development/software-engineering role focused on building open-source AI integrations and PRs, which conflicts with Priya's recent 8+ year focus on release, configuration management, and DevOps.",
     "id": "7d3c14ef",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Artificial Intelligence Engineer",
