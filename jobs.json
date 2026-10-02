@@ -58147,15 +58147,14 @@
     "url": "https://www.jobly.fi/tyopaikka/quality-manager-data-center-2761290",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires excellent spoken and written skills in both Finnish and English, but the candidate does not speak Finnish.",
+    "reason": "The role requires fluent spoken and written skills in both Finnish and English, and is focused on data center construction site quality management rather than Priya's software configuration, release, or technical communication background.",
     "id": "6176898e",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-10",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -58164,15 +58163,14 @@
     "url": "https://www.jobly.fi/tyopaikka/quality-manager-2762316",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which the candidate does not speak.",
+    "reason": "This Quality Manager role is specific to the food industry (food science, HACCP, food safety regulations), which does not align with Priya's background in software, embedded systems, automotive/medical device quality standards, and IT configuration/release management.",
     "id": "cc8ada72",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-21",
     "deadline": "2026-10-05",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager(QA/QC)",
@@ -58181,15 +58179,14 @@
     "url": "https://www.jobly.fi/tyopaikka/quality-managerqa-qc-2757408",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish ('Sujuvaa suomen ja englannin kielen taitoa'), which the candidate does not possess.",
     "id": "50709441",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-14",
     "deadline": "2026-10-04",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Site Manager / Construction Supervisor",
@@ -58198,15 +58195,14 @@
     "url": "https://www.jobly.fi/tyopaikka/site-manager-construction-supervisor-2763067",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and is for a construction site manager in the renewable energy sector, which is outside the candidate's software-focused domain.",
+    "reason": "The role requires fluent Finnish and construction site management experience, which does not match Priya's background in software release management and configuration management.",
     "id": "ab448875",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-22",
     "deadline": "2026-10-16",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6turvallisuus- ja laatup\u00e4\u00e4llikk\u00f6",
@@ -58215,15 +58211,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/mentek-advisors-tyoturvallisuus-ja-laatupaallikko-sdsuu-20598214",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires Finnish language skills, which the candidate does not speak.",
+    "reason": "The role explicitly requires fluent Finnish (\\\\",
     "id": "298bb0f7",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-23",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -58232,15 +58227,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/teleste-security-solutions-oy-quality-manager-sdsuu-20588533",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a Quality Manager in Tampere, Finland, matching her quality engineering and regulatory experience and language requirements.",
+    "reason": "This Quality Manager role in Finland matches her quality gatekeeping, project quality, and continuous improvement expertise, although it features customer-facing elements.",
     "id": "6b95436f",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-22",
     "deadline": "2026-10-07",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": "job_descriptions/teleste_security_sol_quality_manager_6b95436f.txt",
-    "needs_re_review": true,
     "applied": "yes",
     "user_review": "done"
   },
@@ -58251,15 +58245,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-scsom-20598546",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on construction quality management (MEP and BIM) for data centers, which does not align with the candidate's expertise in software release, configuration management, and CI/CD.",
+    "reason": "This Quality Manager role is specific to MEP construction and large-scale data center building, which does not match Priya's software and release/CM background.",
     "id": "cb7dc352",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-22",
     "deadline": "2027-09-23",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -58268,15 +58261,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-stsyo-20588338",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires working fluently in Finnish, which the candidate does not speak.",
+    "reason": "This Quality Manager role is in the food industry (food safety, HACCP, elintarviketeollisuus) rather than Priya's background in software/tech release management, embedded systems, or medical device quality standards.",
     "id": "b4a7bd06",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-21",
     "deadline": "2026-10-05",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -58285,15 +58277,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-scsom-20447536",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on construction and site-based quality management, which falls outside the candidate's software-centric background in CI/CD, release management, and regulated software engineering.",
+    "reason": "This role requires a background in construction/engineering projects and ISO 9001 within the construction industry, which does not match Priya's software configuration management and regulated tech/automotive background.",
     "id": "c62390f1",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-07-23",
     "deadline": "2027-07-23",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager",
@@ -58301,16 +58292,15 @@
     "location": "Helsinki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-assurance-manager-scsom-20580420",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "While the candidate has strong quality management experience, this role is focused on construction/data center infrastructure rather than the software/embedded systems domain where her expertise lies.",
+    "matches_requirements": "no",
+    "reason": "This role is a construction-focused Quality Assurance Manager position requiring experience in data centre, pharmaceutical, or large-scale civil construction projects, which does not align with Priya's background in software release management, DevOps, and embedded/medical device quality compliance.",
     "id": "9d9e07de",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager Puljonki",
@@ -58319,15 +58309,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-puljonki-scsom-20591413",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires a background in food science/technology and food safety regulations (HACCP), which does not align with Priya's software release, quality gatekeeping, and technical communication background.",
     "id": "e33c793e",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2026-09-21",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QHSE Manager",
@@ -58336,15 +58325,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/marine-alutech-oy-ab-qhse-manager-sdsuu-20583038",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The role requires fluent Finnish as a hard qualification, which the candidate does not possess.",
     "id": "468ca75a",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-19",
     "deadline": "2026-10-04",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laadunohjausp\u00e4\u00e4llikk\u00f6",
@@ -58353,15 +58341,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laadunohjauspaallikko-sfsaz-20575734",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The role requires extensive food-production quality management experience and fluency in Finnish, which does not match Priya's technical communication and software configuration management background.",
     "id": "67d7c1ad",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-01-28",
     "deadline": "2026-10-05",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatup\u00e4\u00e4llikk\u00f6, datakeskushanke",
@@ -58370,15 +58357,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laatupaallikko-datakeskushanke-stsyo-20577869",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on construction/MEP site quality management for data centers, which does not align with the candidate's software-focused release, configuration management, and technical communication background.",
+    "reason": "The role requires fluent Finnish and Swedish as well as physical site presence in Espoo focused on MEP construction projects, which does not match Priya's profile.",
     "id": "51fcb247",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-09",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Integrated Clinician",
@@ -58387,15 +58373,14 @@
     "url": "https://fi.linkedin.com/jobs/view/integrated-clinician-at-dnv-4470168058",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a Medical Doctor with direct patient care experience, which is a hard rejection for this candidate.",
+    "reason": "The role requires a Medical Doctor degree and clinical background, which matches the hard rejection for roles requiring a clinical medical license.",
     "id": "c194b272",
     "source": "linkedin_fi_eu_mdr",
     "added_at": "2026-09-27T08:54:29+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-18",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Frequency & Regulatory Compliance Specialist",
