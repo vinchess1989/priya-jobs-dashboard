@@ -64598,15 +64598,14 @@
     "url": "https://uk.linkedin.com/jobs/view/software-release-manager-at-spectrum-it-recruitment-4464574295",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poole, England (outside Finland) and does not offer remote work options, which violates the candidate's strict requirement to only consider roles in Finland or fully remote positions accessible from Finland.",
+    "reason": "The job is located in Poole, England, which is outside Finland and not fully remote, disqualifying it under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "b7996983",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Environment and Release Manager",
@@ -64615,15 +64614,14 @@
     "url": "https://au.linkedin.com/jobs/view/environment-and-release-manager-at-asx-4459769171",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Australia, outside Finland and not remote, so it does not meet location criteria.",
+    "reason": "Location is Sydney, Australia (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires relocation outside Finland with no remote option.",
     "id": "828500de",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -64632,15 +64630,14 @@
     "url": "https://rs.linkedin.com/jobs/view/release-manager-at-synechron-4466823891",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is Belgrade, Serbia, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job location is in Serbia (Belgrade) with a hybrid work model, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
     "id": "afba95f6",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Release Manager",
@@ -64649,15 +64646,14 @@
     "url": "https://sg.linkedin.com/jobs/view/senior-release-manager-at-starhub-4448855247",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Singapore and is not a remote role accessible from Finland, which falls outside the candidate's acceptable location criteria.",
+    "reason": "Job location is Singapore, Singapore, which is outside Finland and not a fully remote role that can be done from Finland (Hard Rejection: Outside Finland and Not Remote).",
     "id": "bb7519ba",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Release Manager",
@@ -64666,15 +64662,14 @@
     "url": "https://uk.linkedin.com/jobs/view/software-release-manager-at-aspire-personnel-ltd-4466904999",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poole, England, which is outside Finland and not remote, violating the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "Job location is Poole, England, United Kingdom (outside Finland) with no remote option, which violates the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "fd4b96eb",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salesforce Release Manager",
@@ -64683,15 +64678,14 @@
     "url": "https://ca.linkedin.com/jobs/view/salesforce-release-manager-at-ia-financial-group-industrial-alliance-4462021968",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Quebec, Canada, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is located in Quebec, Canada, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options accessible from Finland.",
     "id": "a0c21e27",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -64700,15 +64694,14 @@
     "url": "https://pt.linkedin.com/jobs/view/release-manager-at-primeit-4468997612",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical presence in Lisbon, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is on-site outside Finland and not fully remote.",
+    "reason": "Job is located in Lisbon, Portugal, which is outside Finland and not a remote position.",
     "id": "ef9afc96",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-24",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager (f/m/x)",
@@ -64717,15 +64710,14 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-f-m-x-at-deutsche-bank-4470643545",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bucharest, Romania (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "Job location is Bucharest, Romania (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "ae64c674",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Change & Release Manager (B2B AU Telco)",
@@ -64734,15 +64726,14 @@
     "url": "https://ph.linkedin.com/jobs/view/change-release-manager-b2b-au-telco-at-microsourcing-4440095663",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Taguig, Philippines (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote option available.",
+    "reason": "The job is located in Taguig, Philippines (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "2a5b40f4",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Release Manager CI/CD Automation SaaS",
@@ -64751,15 +64742,14 @@
     "url": "https://uk.linkedin.com/jobs/view/software-release-manager-ci-cd-automation-saas-at-client-server-4467702893",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Reigate, England, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "The job is located in Reigate, England (outside Finland) with a hybrid work model, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "0ee21298",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Configuration / Release Manager with Security Clearance",
@@ -64768,15 +64758,14 @@
     "url": "https://www.linkedin.com/jobs/view/configuration-release-manager-with-security-clearance-at-integral-federal-inc-4472446530",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Fort Meade, MD (United States), which is strictly excluded per Hard Rejections.",
+    "reason": "Job location is Fort Meade, MD (United States), which is strictly excluded per the candidate's hard rejection rule against US-based or US-restricted roles.",
     "id": "ee822423",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -64785,15 +64774,14 @@
     "url": "https://in.linkedin.com/jobs/view/release-manager-at-thoucentric-4386890432",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, Karnataka, India (on-site), which does not meet the candidate's strict requirement for roles physically located in Finland or fully remote positions accessible from Finland.",
+    "reason": "The job is located in Bengaluru, Karnataka, India (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
     "id": "401246c3",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-04-02",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -64802,15 +64790,14 @@
     "url": "https://uk.linkedin.com/jobs/view/release-manager-at-lighthouse-games-4462587147",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Royal Leamington Spa, England, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "Job location is Royal Leamington Spa, England, United Kingdom, which is outside Finland and not a fully remote role that can be done from Finland.",
     "id": "d531cebb",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -64819,15 +64806,14 @@
     "url": "https://in.linkedin.com/jobs/view/release-manager-at-infosys-4464877940",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is Bengaluru East, Karnataka, India, which is outside Finland and not a remote role accessible from Finland, violating the candidate's strict location requirements.",
+    "reason": "Job is located in Bengaluru, India and not remote, which does not meet the Finland or remote-from-Finland requirement.",
     "id": "6fad1892",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -64836,15 +64822,14 @@
     "url": "https://www.linkedin.com/jobs/view/release-manager-at-frontline-insurance-4404586142",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lake Mary, FL, USA, which is strictly excluded per the candidate's hard rejection rule for any US-based or US-restricted roles.",
+    "reason": "Job location is in the United States (Lake Mary, FL), which is a strict hard rejection per candidate requirements.",
     "id": "5ab332d0",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-09-29T05:18:59+03:00",
     "posted_date": "2026-04-02",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Releasemanager (w/m/d) f\u00fcr KVNeo",
