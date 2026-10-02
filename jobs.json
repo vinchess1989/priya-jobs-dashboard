@@ -62214,32 +62214,30 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f286e95d-e092-4510-829e-d1c4b0524ea6/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a sales role ('Myyj\u00e4') which falls under the 'Quota-Carrying Sales Roles Mislabeled as Product Specialist' hard rejection, and mandates Finnish as the primary language (a mandatory requirement Priya does not meet).",
+    "reason": "The role is a Finnish-language retail sales position requiring customer\u2011facing duties, which the candidate does not qualify for.",
     "id": "3d02a8dd",
     "source": "tyomarkkinatori",
     "added_at": "2026-09-28T16:40:56+03:00",
     "posted_date": "28.9.2026, 16.13",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Automation SW Engineer, Rosendahl Nextrom OyAcademic WorkVantaaGo to job site",
-    "company": "Extract from page",
+    "company": "Rosendahl Nextrom Oy",
     "location": "Espoo, Finland",
     "url": "https://www.jobly.fi/en/job/automation-sw-engineer-rosendahl-nextrom-oy-2767335",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The job requires automation software engineering with Siemens technologies, which is a pure feature-development role without CI/CD/release-management components that Priya specializes in.",
     "id": "3bf860f3",
     "source": "work_in_finland",
     "added_at": "2026-09-28T17:45:13+03:00",
-    "posted_date": "N/A",
+    "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Director, Alliance Management and Program ManagementOrion OyjEspooGo to job site",
@@ -62248,15 +62246,14 @@
     "url": "https://www.jobly.fi/en/job/director-alliance-management-and-program-management-2767110",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role does not align with Priya's expertise in configuration management, release processes, or regulated industries; it focuses on strategic alliance and program management within pharmaceuticals, which is outside her target job criteria.",
+    "reason": "The role is focused on alliance and program management in a pharmaceutical context, which does not align with Priya's expertise in configuration management, release engineering, DevOps, or technical documentation within regulated/safety-critical industries.",
     "id": "60a8a3b6",
     "source": "work_in_finland",
     "added_at": "2026-09-28T17:45:13+03:00",
-    "posted_date": "09/28/2026, 11:59 am",
+    "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer in MarTech",
@@ -62265,15 +62262,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-in-martech-at-nordea-4471643709",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a senior DevOps Engineer in Finland, matching her experience, skills, and location preferences.",
+    "reason": "The job aligns with Priya\u2019s expertise in DevOps engineering (CI/CD pipelines, infrastructure automation) and is located in Helsinki, Finland, which fits her location preferences.",
     "id": "f6973229",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-20",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": "job_descriptions/nordea_senior_devops_engineer_in_mart_f6973229.txt",
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": "job_descriptions/nordea_senior_devops_engineer_in_mart_f6973229.txt"
   },
   {
     "title": "Senior Cloud Platform Engineer (AWS) - Landing Zone",
@@ -62281,16 +62277,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-platform-engineer-aws-landing-zone-at-nordea-4471891955",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job requires a Senior Cloud Platform Engineer with AWS Landing Zone expertise, which partially overlaps with the candidate's DevOps/CI-CD experience but does not strongly align with her background in regulated-industry configuration management/release ownership.",
+    "matches_requirements": "no",
+    "reason": "The job requires a Senior Cloud Platform Engineer focused on AWS Landing Zone infrastructure, which centers on cloud architecture and platform engineering rather than release management, configuration management, or technical documentation roles that align with Priya's expertise.",
     "id": "144c99fd",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-09",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Specialist - Software Engineering",
@@ -62298,16 +62293,15 @@
     "location": "Helsinki, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/specialist-software-engineering-at-ltm-4399740258",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with Priya's DevOps/CI-CD expertise (Jenkins, Git, containerization) and regulated-industry experience, is located in Finland, and matches her senior-level target.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns with DevOps Engineer criteria (CI/CD pipeline ownership) and is located in Finland, but lacks explicit mention of regulated/safety-critical standards or technical documentation responsibilities that the candidate emphasizes.",
     "id": "236a0b5a",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
     "posted_date": "5 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/ltm_specialist___software_engineer_236a0b5a.txt",
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevSecOps Engineer",
@@ -62316,15 +62310,14 @@
     "url": "https://fi.linkedin.com/jobs/view/devsecops-engineer-at-nestai-4469713138",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job aligns with DevOps Engineer criteria but emphasizes security (DevSecOps) which is not explicitly covered in the candidate's experience; however, her CI/CD and infrastructure automation skills may overlap partially.",
+    "reason": "The role aligns with DevOps/CI/CD pipeline ownership (a key part of Priya's background at Elektrobit and Topcon), but the heavy emphasis on security practices (DevSecOps) and cloud infrastructure may not fully match her core expertise in release/configuration management, quality gatekeeping, and regulated-industry compliance.",
     "id": "0fa7356a",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevSecOps Engineer",
@@ -62333,15 +62326,14 @@
     "url": "https://fi.linkedin.com/jobs/view/devsecops-engineer-at-nestai-4469396932",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job aligns with DevOps Engineer criteria (CI/CD, cloud infrastructure) and is located in Finland, but the strong emphasis on security tooling (SAST/DAST), compliance frameworks (SOC2/ISO27001), and air-gapped deployments may require specialized skills beyond Priya's primary focus on release/CM/DevOps in regulated industries.",
+    "reason": "The job is located in Finland (Jyv\u00e4skyl\u00e4) and involves CI/CD pipeline ownership and infrastructure tooling, which aligns with Priya's DevOps and configuration management experience; however, the strong emphasis on security practices (DevSecOps) and specific compliance frameworks may require additional expertise beyond her regulated-industry quality/compliance background.",
     "id": "5be1850f",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer, Internal DevEx",
@@ -62349,16 +62341,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-internal-devex-at-aiven-4470870104",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves CI/CD pipeline ownership and developer tooling, which aligns with the candidate's DevOps and automation skills, but it is primarily a generalist software engineering position focused on internal developer experience rather than release/configuration management or regulated compliance work she specializes in.",
+    "matches_requirements": "no",
+    "reason": "The job is a Senior Software Engineer role focused on internal developer experience and generalist software engineering, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it does not explicitly require release/CM/DevOps ownership despite mentioning CI/CD pipelines.",
     "id": "aa4e5bbe",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "5 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Cloud Platform Engineer",
@@ -62367,15 +62358,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-platform-engineer-at-cloud-protection-by-withsecure-4470844467",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires deep AWS/Terraform cloud platform engineering expertise not explicitly aligned with the candidate's background in release/CI-CD/configuration management, despite her DevOps experience.",
+    "reason": "The job requires a Senior Cloud Platform Engineer focused on AWS infrastructure design and management, which does not align with Priya's expertise in CI/CD pipelines, release management, regulatory compliance (MDR/ISO 13485), or technical documentation ownership.",
     "id": "284b4e99",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "8 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technology Specialist (Helsinki, Tampere, Jyv\u00e4skyl\u00e4, Turku, Pori, Oulu)",
@@ -62384,15 +62374,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technology-specialist-helsinki-tampere-jyv%C3%A4skyl%C3%A4-turku-pori-oulu-at-elisa-4470306428",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on infrastructure operations and system maintenance rather than configuration management, release processes, or technical documentation which align with the candidate's expertise.",
+    "reason": "The job requires hands-on infrastructure/system operations (Linux, virtualization, automation) rather than release/configuration management, CI/CD ownership, or regulated-industry quality/compliance work which aligns with Priya's background.",
     "id": "fdcfcd0b",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Data Center Provisioning Engineer",
@@ -62401,15 +62390,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-center-provisioning-engineer-at-cerebras-4470987696",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not match the candidate's domain/role type (Data Center Provisioning Engineer focuses on infrastructure provisioning rather than configuration management, release processes, or regulated-industry quality standards).",
+    "reason": "The job title and responsibilities focus on data center infrastructure provisioning and operations, which do not align with Priya's expertise in DevOps/CI-CD, configuration management, release management, or regulated-industry quality/compliance gatekeeping.",
     "id": "00a5b39a",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-09-28T18:57:09+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps - Remote | REF#284074",
@@ -62418,15 +62406,14 @@
     "url": "https://br.linkedin.com/jobs/view/senior-devops-remote-ref%23284074-at-bairesdev-4258064213",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is in Brazil (Duque de Caxias, Bahia, Brazil), which is outside Finland and not fully remote/open to someone living in Finland, triggering a hard rejection.",
+    "reason": "The job is located in Brazil (Duque de Caxias, Bahia, Brazil) and explicitly states 'Remote | REF#284074', but does not clarify if it is open to applicants outside Brazil. The candidate requires fully remote roles accessible from Finland, and the posting's location restrictions are unclear, making it incompatible with her relocation constraints.",
     "id": "5857f9cc",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-09-28T18:57:49+03:00",
     "posted_date": "1 vuosi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps S\u00eanior - Trabalho Remoto | REF#272070",
@@ -62435,15 +62422,14 @@
     "url": "https://br.linkedin.com/jobs/view/devops-s%C3%AAnior-trabalho-remoto-ref%23272070-at-bairesdev-4258065211",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Brazil and does not explicitly state that it is fully remote with no restrictions beyond Brazil, which may exclude Priya based on her location criteria.",
+    "reason": "The job is located in Brazil and requires remote work from there, which does not meet the candidate's requirement for roles in Finland or fully remote positions open to someone living in Finland.",
     "id": "15b81f6e",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-09-28T18:57:49+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -62452,15 +62438,14 @@
     "url": "https://br.linkedin.com/jobs/view/devops-engineer-at-grupo-adriano-cobuccio-4449948556",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Brazil (Monte Belo, Minas Gerais) and requires on-site presence, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Brazil (Monte Belo, Minas Gerais) and is not remote, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "bd7face9",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-09-28T18:57:49+03:00",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "DevOps Engineer - EMEA/US Shift",
