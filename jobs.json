@@ -67897,15 +67897,14 @@
     "url": "https://it.linkedin.com/jobs/view/technical-writer-at-adecco-4470167845",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Parabiago, Italy, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is located in Parabiago, Lombardy, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is outside Finland and does not offer remote flexibility for someone based in Finland.",
     "id": "b8b9aa83",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Technical Documentation Specialist",
@@ -67914,15 +67913,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-documentation-specialist-at-parallel-4462102035",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Los Angeles, CA, which falls under the strict exclusion of any job in or restricted to the United States, including remote roles.",
+    "reason": "The job is located in Los Angeles, CA (United States), which is an immediate hard rejection due to Priya's strict exclusion of any US-based or US-restricted roles.",
     "id": "14ffe5a4",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Technical Writer",
@@ -67931,32 +67929,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-technical-writer-at-cp-marine-llc-4334618676",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Arlington, VA, USA, which falls under the strict Hard Rejection rule against any US-based or US-restricted roles (including remote), regardless of other fit factors.",
+    "reason": "The job is located in the United States (Arlington, VA), which is an immediate hard rejection per Priya's strict exclusion of US-based roles.",
     "id": "713471fe",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "ECP/ECI Specialist (Technical Writer I, II, III)",
-    "company": "SEACORP",
-    "location": "Norfolk, VA",
-    "url": "https://www.linkedin.com/jobs/view/ecp-eci-specialist-technical-writer-i-ii-iii-at-seacorp-4411671105",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Norfolk, VA, USA, which is a strict hard rejection due to the candidate's non-negotiable exclusion of any US-based roles (including remote) as explicitly stated in the Hard Rejections.",
-    "id": "0886b074",
-    "source": "linkedin_ww_remote_documentation_specialist_p2",
-    "added_at": "2026-09-29T21:25:16+03:00",
-    "posted_date": "2026-06-01",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -67965,15 +67945,14 @@
     "url": "https://in.linkedin.com/jobs/view/technical-writer-at-persistent-systems-4466250334",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Pune, India (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "Job location is Pune, India (on-site), which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "51169d76",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -67982,15 +67961,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-apogee-4452022171",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hanscom AFB, MA (United States), which is strictly excluded per the candidate's non-negotiable rule against US-based or US-restricted roles.",
+    "reason": "The job is located in the United States (Hanscom AFB, MA), which is a strict hard rejection per the candidate's requirements.",
     "id": "9b5bbbdd",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-08-30",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Documentation Specialist",
@@ -67999,15 +67977,14 @@
     "url": "https://www.linkedin.com/jobs/view/documentation-specialist-at-abb-4438834774",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Richmond, VA, USA, which is strictly excluded per the candidate's hard rejection rule for any US-based or US-restricted roles.",
+    "reason": "The job is located in Richmond, VA, USA, which falls under the strict exclusion of any job located in or restricted to the United States.",
     "id": "5af43b64",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Technical Writer",
@@ -68016,15 +67993,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-technical-writer-at-transcore-4448064411",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is in the United States (Houston, TX), which is a strict hard rejection per the candidate's requirements.",
+    "reason": "The job is located in Houston, TX, USA, which falls under the strict Hard Rejection rule against any roles in or restricted to the United States.",
     "id": "94309d9b",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-08-30",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -68033,15 +68009,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-dunhill-professional-search-government-solutions-4456829050",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in San Antonio, TX, USA and requires U.S. citizenship, which is a strict hard rejection criterion.",
+    "reason": "The job is located in San Antonio, TX, USA, which falls under the strict Hard Rejection rule against any roles in or restricted to the United States (including remote roles requiring U.S. citizenship).",
     "id": "74c63efa",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-08-30",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -68050,15 +68025,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-caci-international-inc-4471758029",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Fort Meade, MD, USA, which is strictly excluded per the candidate's non-negotiable rule against any US-based or US-restricted roles (including remote).",
+    "reason": "The job is located in Fort Meade, MD, USA, which is strictly excluded per the hard rejection rule against any US-based or US-restricted roles.",
     "id": "174d03bb",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -68067,15 +68041,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-supermicro-4467790366",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is San Jose, CA, USA, which is strictly excluded per Hard Rejection rules.",
+    "reason": "The job is located in San Jose, CA, USA, which falls under the strict Hard Rejection rule against any US-based or US-restricted roles.",
     "id": "69fbd6c6",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Specialist- Technical Documentation",
@@ -68084,15 +68057,14 @@
     "url": "https://in.linkedin.com/jobs/view/specialist-technical-documentation-at-nordex-group-4461212114",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Chennai, India, which is outside Finland and not a remote position, violating location constraints.",
+    "reason": "The job is located in Chennai, India (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility for someone based in Finland.",
     "id": "6e71a0a9",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Documentation Specialist",
@@ -68101,15 +68073,14 @@
     "url": "https://www.linkedin.com/jobs/view/documentation-specialist-at-maker-s-pride-4469799371",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in McComb, OH (United States), which is a strict hard rejection per Priya's requirements.",
+    "reason": "The job is located in McComb, OH, USA, which falls under the strict exclusion of any US-based or US-restricted roles.",
     "id": "fe104a20",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-09-29T21:25:16+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technischer Dokumentalist (m/w/d)",
@@ -68118,15 +68089,14 @@
     "url": "https://de.linkedin.com/jobs/view/technischer-dokumentalist-m-w-d-at-weber-gmbh-4470926458",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Selb, Bavaria, Germany, which is outside Finland and not fully remote, triggering a hard rejection due to location constraints.",
+    "reason": "The job is located in Selb, Bavaria, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "96f2b7e3",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-09-29T22:31:11+03:00",
-    "posted_date": "vor 6 tagen",
+    "posted_date": "1 settimana fa",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical documentation specialist",
@@ -68135,15 +68105,14 @@
     "url": "https://it.linkedin.com/jobs/view/technical-documentation-specialist-at-manpowergroup-italia-4470859262",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Reggio Emilia, Italy, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
+    "reason": "Job located in Italy, outside Finland and not remote, which disqualifies per location rule.",
     "id": "34e82022",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-09-29T22:31:11+03:00",
-    "posted_date": "vor 1 tag",
+    "posted_date": "4 giorni fa",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "ADDETTO/A DOCUMENTAZIONE TECNICA",
