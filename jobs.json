@@ -45965,15 +45965,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-account-manager-europe-at-simply-tv-4468805667",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Technical Account Manager' focuses on client relationship management and technical support rather than Priya's specialized experience in Configuration Management, Release Management, or DevOps/CI-CD, which are explicitly listed as target role types.",
+    "reason": "The role is a commercial Technical Account Manager position focused on sales, upselling, and client relationship management, which falls under the hard rejection for quota-carrying/sales-oriented roles and is outside her technical/quality/release management domain.",
     "id": "f2647c60",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "Taxi driver",
@@ -45982,15 +45981,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/23bb39b2-47b5-42ef-8995-c04e604bc847/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a work language, which the candidate does not speak, and the role (taxi driver) does not align with her technical/release-management background.",
+    "reason": "The role is a taxi driver position, which does not align with the candidate's professional background in technical communication, release management, and engineering, and the salary is below the candidate's minimum requirement.",
     "id": "4ecc3ef8",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2027-02-28",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "Varastoty\u00f6ntekij\u00e4",
@@ -45999,15 +45997,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a83ebb5b-b2ac-4fec-a01d-f54c4b703dda/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is a warehouse worker role, not a technical release/DevOps/quality or documentation role.",
+    "reason": "The role is a manual labor/warehouse position requiring forklift operation, which does not align with the candidate's 15-year career in software engineering, DevOps, and technical documentation.",
     "id": "e88aa53e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-11",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "CNC-koneistaja Sein\u00e4joelle",
@@ -46016,15 +46013,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d63a4ce7-c1d6-49a5-8b9b-75e339e6bb32/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a CNC machinist with specific manufacturing skills, which does not align with the candidate's background in software engineering, configuration management, and technical writing.",
+    "reason": "The role is for a CNC machinist, which does not align with the candidate's background in release management, DevOps, and technical communication, and it requires fluent Finnish.",
     "id": "51948733",
     "source": "tyomarkkinatori",
-    "posted_date": "18.9.2026, 0.00",
+    "posted_date": "2026-09-18",
     "deadline": "2026-10-01",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "CNC-koneistaja Bj\u00f6rnsteelille",
@@ -46033,15 +46029,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ed9fc62f-23a5-465d-8c71-34919df7262b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The role is for a CNC machinist, which is a manual/industrial trade position unrelated to the candidate's software engineering, release management, and technical communication background, and it also requires fluent Finnish.",
     "id": "e680ae31",
     "source": "tyomarkkinatori",
-    "posted_date": "18.9.2026, 0.00",
+    "posted_date": "2026-09-18",
     "deadline": "2026-10-01",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "Varhaiskasvatuksen lastenhoitaja, Maakirjan p\u00e4iv\u00e4koti",
@@ -46050,15 +46045,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b001797f-2979-4465-9d66-f1bff90e7600/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires good Finnish language skills as a mandatory qualification, which Priya does not possess, and the role (Early Childhood Educator) does not align with her target domains (DevOps, Configuration Management, etc.).",
+    "reason": "The role is for a childcare worker in early childhood education, which does not align with the candidate's technical background in release management, DevOps, and quality engineering, and it requires fluent Finnish.",
     "id": "968b6d6b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-02",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "Cloud Architect",
@@ -46067,15 +46061,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4439681422",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent proficiency in Finnish (and English), but the candidate does not speak Finnish or Swedish, which is a strict hard rejection criterion.",
+    "reason": "The job requires fluent Finnish as a working language, which the candidate does not possess, and the role is primarily focused on cloud architecture rather than the candidate's core expertise in release management and quality/compliance.",
     "id": "f18cb8a3",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 kuukautta sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "Project Manager - Configuration & Change Management (m/w/d)",
@@ -46084,15 +46077,14 @@
     "url": "https://de.linkedin.com/jobs/view/project-manager-configuration-change-management-m-w-d-at-tkms-4462520503",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Emden, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job is located in Germany and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and open to candidates in Finland.",
     "id": "bec66fba",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:11+03:00"
   },
   {
     "title": "Cashier",
@@ -46101,15 +46093,14 @@
     "url": "https://www.linkedin.com/jobs/view/cashier-at-the-home-depot-4384671812",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Syosset, NY), which is a strict hard rejection per the candidate's requirements.",
+    "reason": "The job is located in the United States, which is a strict hard rejection, and it is also a retail cashier role that does not match the candidate's professional background.",
     "id": "bc6aa0b1",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-03-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Cashier",
@@ -46118,15 +46109,14 @@
     "url": "https://www.linkedin.com/jobs/view/cashier-at-the-home-depot-4384673907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Oceanside, California, United States), which is a strict hard rejection per the candidate's requirements.",
+    "reason": "The job is located in the United States, which is a strict hard rejection, and it is a retail cashier role that does not match the candidate's professional background.",
     "id": "18d4b28b",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-03-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Expression of Interest",
@@ -46135,15 +46125,14 @@
     "url": "https://au.linkedin.com/jobs/view/expression-of-interest-at-procreate-4345721114",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires on-site presence in Hobart, Tasmania, Australia, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither located in Finland nor fully remote with flexibility for Finland-based candidates.",
+    "reason": "The job is located in Australia and requires on-site attendance, which violates the location constraints.",
     "id": "b781090e",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-11",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Merchandising Execution Associate : Full Time - MARLBOROUGH",
@@ -46152,15 +46141,14 @@
     "url": "https://ca.linkedin.com/jobs/view/merchandising-execution-associate-full-time-marlborough-at-the-home-depot-canada-4465183314",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Calgary, Alberta, Canada, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is located in Canada, which violates the location requirements, and it is a retail merchandising role that does not align with the candidate's technical release management and quality engineering background.",
     "id": "283b5b4e",
     "source": "linkedin_fi_broad",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Crew Member",
@@ -46169,15 +46157,14 @@
     "url": "https://www.linkedin.com/jobs/view/crew-member-at-chipotle-mexican-grill-4457882128",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Poway, CA), which is a strict hard rejection per the candidate's requirements.",
+    "reason": "The job is located in the United States, which is a strict hard rejection, and it does not align with the candidate's professional background.",
     "id": "e6dca428",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Hotel Cleanliness Expert",
@@ -46186,15 +46173,14 @@
     "url": "https://in.linkedin.com/jobs/view/hotel-cleanliness-expert-at-w-hotels-4463725790",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Goa, India (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a remote role accessible from Finland.",
+    "reason": "The role is a housekeeping position in India, which does not match the candidate's technical background in software release management and quality engineering, and it is located outside of Finland.",
     "id": "99ec6793",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-11",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Crew Member",
@@ -46203,15 +46189,14 @@
     "url": "https://www.linkedin.com/jobs/view/crew-member-at-chipotle-mexican-grill-4458720703",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in the United States (Clearfield, Utah, United States), which is a strict hard rejection per the candidate's requirements.",
+    "reason": "The job is located in the United States, which is a strict hard rejection criteria.",
     "id": "6d49eb80",
     "source": "linkedin_fi_broad",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:12+03:00"
   },
   {
     "title": "Circuit Court Judges",
