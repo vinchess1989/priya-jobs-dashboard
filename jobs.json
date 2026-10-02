@@ -64118,15 +64118,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-busy-bar-at-jobgether-4470793018",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns partially with Priya\u2019s experience in cross-team coordination and documentation but does not explicitly match her target domains (DevOps/CM/release management) or the specific technical writing/requirements engineering roles she has held.",
+    "reason": "The role as Technical Project Manager involves cross-functional coordination and Agile delivery but does not explicitly focus on CI/CD pipeline ownership, release management, or configuration management which are central to the candidate's expertise.",
     "id": "390c9e54",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Implementation Project Manager",
@@ -64135,15 +64134,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-project-manager-at-posti-group-oyj-4470868681",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires excellent Finnish and English skills, but the candidate does not speak Finnish, which is a mandatory requirement under Hard Rejections.",
+    "reason": "The job title 'Implementation Project Manager' does not align with Priya's target roles (DevOps, Release Management, Configuration Management, etc.) and lacks explicit mention of regulated/safety-critical domains or CI/CD/release management responsibilities central to her profile.",
     "id": "a2506e2e",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "11 tuntia sitten",
-    "deadline": "N/A",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "2026-10-14",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "OpenStack Engineering Manager",
@@ -64151,16 +64149,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/openstack-engineering-manager-at-jobgether-4470339537",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job requires technical leadership in cloud infrastructure management, which partially aligns with the candidate's DevOps and CI/CD experience but does not explicitly match her focus on configuration management, release management, or regulated-industry quality compliance.",
+    "matches_requirements": "no",
+    "reason": "The role focuses on technical leadership and OpenStack engineering management rather than Priya's expertise in release/configuration management, CI/CD pipeline ownership, or regulated-industry quality/compliance gatekeeping.",
     "id": "b0d13714",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ICT-projektip\u00e4\u00e4llikk\u00f6",
@@ -64169,15 +64166,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-%E2%80%8Bprojektip%C3%A4%C3%A4llikk%C3%B6-at-helsingin-sosiaali-terveys-ja-pelastustoimiala-4470848036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent/native Finnish as a mandatory requirement, which Priya does not possess.",
+    "reason": "The job requires fluent Finnish (and English) as a mandatory qualification, which Priya does not speak (she only speaks English professionally). This triggers the 'Mandatory Finnish or Swedish' hard rejection rule.",
     "id": "9f27c336",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "16 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Train Architect - Tieto Caretech (m/f/d)",
@@ -64186,15 +64182,14 @@
     "url": "https://fi.linkedin.com/jobs/view/release-train-architect-tieto-caretech-m-f-d-at-tieto-4468545340",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in Finnish, which the candidate does not possess.",
+    "reason": "The job requires proficiency in Finnish, which Priya does not possess, and the role focuses on software architecture/development rather than release management/DevOps, misaligning with her expertise.",
     "id": "3e9acb79",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Product Manager, Open Ecosystem",
@@ -64203,15 +64198,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-open-ecosystem-at-easor-finland-4469083711",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Senior Product Manager, Open Ecosystem does not align with the candidate's expertise in configuration management, release processes, or technical documentation ownership; her background is in DevOps/CI-CD, regulated quality gatekeeping, and technical communication rather than product strategy or ecosystem management.",
+    "reason": "The role is a Senior Product Manager focused on ecosystem and API integration, which does not align with Priya's expertise in configuration management, release management, or technical documentation ownership.",
     "id": "57282e3a",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-15",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT and Operational Technology Manager",
@@ -64219,16 +64213,15 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/it-and-operational-technology-manager-at-solar-foods-4470172238",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job requires IT and operational technology management with cybersecurity and compliance focus, which partially overlaps with the candidate's regulated-industry experience but does not explicitly align with her core expertise in CI/CD/release management or technical documentation ownership.",
+    "matches_requirements": "no",
+    "reason": "The role of IT and Operational Technology Manager does not align with Priya's expertise in release management, configuration management, DevOps, or technical writing, and instead focuses on IT/OT leadership, cybersecurity, and ERP systems which are outside her target job criteria.",
     "id": "11745939",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "ICT-projektip\u00e4\u00e4llikk\u00f6",
@@ -64237,15 +64230,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-projektip%C3%A4%C3%A4llikk%C3%B6-at-helsingin-kaupunki-%E2%80%93-helsingfors-stad-%E2%80%93-city-of-helsinki-4472712148",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish (hyv\u00e4\u00e4 suomen kielen kirjallista ja suullista taitoa), which is a mandatory requirement not met by the candidate who does not speak Finnish or Swedish.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "0232bc6d",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "14 tuntia sitten",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Software Tech Lead",
@@ -64254,15 +64246,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-tech-lead-at-fintraffic-4469709686",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish at C1 level as a mandatory qualification, which Priya does not speak.",
+    "reason": "The role is a Software Tech Lead focused on full-stack development and team leadership, which falls under 'Pure Feature-Development Software Engineering' and lacks CI/CD/release-management ownership central to Priya's expertise.",
     "id": "81d28858",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Development Manager",
@@ -64270,16 +64261,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/development-manager-at-sandvik-4470857669",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is located in Finland (Tampere) and aligns with senior-level experience, but the 'Development Manager' title and focus on product development processes rather than explicit CI/CD/release management/configuration management responsibilities may not fully match the candidate's specialized background in regulated DevOps/CM.",
+    "matches_requirements": "no",
+    "reason": "The role is a Development Manager focused on product development processes and cross-functional initiatives, which does not align with Priya's expertise in release management, configuration management, DevOps/CI-CD, or technical writing. Her background is in regulated/safety-critical industries with CI/CD pipeline ownership, not product/process improvement leadership.",
     "id": "785c09cc",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "13 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-18",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Development Manager",
@@ -64288,15 +64278,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-development-manager-at-remedy-entertainment-plc-4469759934",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Development Manager in game production, focusing on project management and external coordination rather than DevOps, Configuration Management, Release Management, or technical documentation ownership which aligns with the candidate's background.",
+    "reason": "The role of Senior Development Manager at Remedy Entertainment Plc focuses on game production management and does not align with Priya's expertise in configuration management, release management, or regulated-industry quality/compliance work (her target criteria include DevOps, Configuration Management, Release Manager, etc.).",
     "id": "3c782136",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -64305,15 +64294,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-at-abb-4472770250",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role of Senior DevOps Engineer at ABB in Helsinki, Finland aligns with Priya's expertise in CI/CD pipeline ownership, release management, and regulated-industry experience, while meeting location and work-model requirements.",
+    "reason": "The role matches Priya's expertise in DevOps engineering with CI/CD pipeline ownership and embedded systems, located in Finland with a hybrid work model.",
     "id": "829d87c1",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "7 tuntia sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-18",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/abb_senior_devops_engineer_829d87c1.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/abb_senior_devops_engineer_829d87c1.txt"
   },
   {
     "title": "AI Project Manager",
@@ -64322,15 +64310,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-project-manager-at-outokumpu-4469317086",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'AI Project Manager' does not align with the candidate's expertise in configuration management, release management, or technical writing, and lacks explicit mention of regulated/safety-critical domains or documentation/quality gatekeeping responsibilities.",
+    "reason": "The job title 'AI Project Manager' does not align with Priya's target criteria of DevOps, Configuration Management, Release Management, or technical documentation roles, and instead focuses on AI adoption and project management which is outside her expertise.",
     "id": "55f0e8dc",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-25",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud and Data Platform Lead",
@@ -64338,16 +64325,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/cloud-and-data-platform-lead-at-helen-4471451605",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a Cloud and Data Platform Lead in Finland, which aligns with location requirements but does not explicitly mention DevOps, Configuration Management, or Release Management responsibilities that match the candidate's core expertise.",
+    "matches_requirements": "no",
+    "reason": "The role is focused on cloud/data platform leadership rather than DevOps/Configuration Management/Release Management or technical documentation, which are Priya's core target domains.",
     "id": "c07ac363",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Service Enablement Program manager EMEA",
@@ -64356,15 +64342,14 @@
     "url": "https://fi.linkedin.com/jobs/view/service-enablement-program-manager-emea-at-eaton-4470171513",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a Program Manager in EMEA, which partially aligns with the candidate\u2019s cross-functional coordination experience but does not strongly match her specialized skills in CI/CD, configuration management, or regulated-industry quality compliance.",
+    "reason": "The job is located in Finland and aligns with senior-level experience, but the role as a Service Enablement Program Manager focuses on cross-functional program management rather than configuration management, release processes, or technical documentation ownership which are central to Priya's expertise.",
     "id": "ee3ca8f3",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Lead Project Leader - Google Cloud AI Transformation",
