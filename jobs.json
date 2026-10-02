@@ -55267,15 +55267,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-edu-drive-unit-at-harbinger-4416976682",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which is a strict non-negotiable exclusion for the candidate.",
+    "reason": "The role is located in Garden Grove, CA, USA, which triggers the strict hard rejection for US-based positions.",
     "id": "e81acecc",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-12",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manufacturing Quality Engineer",
@@ -55284,15 +55283,14 @@
     "url": "https://www.linkedin.com/jobs/view/manufacturing-quality-engineer-at-american-honda-motor-company-inc-4462198626",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in the United States, which is a hard rejection for the candidate.",
+    "reason": "The role is located in Russells Point, OH, USA, which violates the strict hard rejection rule against US-based positions.",
     "id": "a0d34f31",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer III",
@@ -55301,15 +55299,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-iii-at-kirby-4397198891",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Houston, TX), which is a strict, non-negotiable exclusion for the candidate.",
+    "reason": "The job is located in Houston, Texas, violating the strict US location exclusion rule.",
     "id": "c82269bd",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-08-27",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer C Crew",
@@ -55318,15 +55315,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-c-crew-at-adient-4411515224",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which is a strict, non-negotiable exclusion for the candidate.",
+    "reason": "The job is located in Warren, MI, USA, which violates the strict hard rejection rule against US-based or US-restricted jobs.",
     "id": "1be1648a",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-05-29",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur qualit\u00e9 produits/Ing\u00e9nieure qualit\u00e9 produits",
@@ -55335,15 +55331,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produits-ing%C3%A9nieure-qualit%C3%A9-produits-at-myttra-4468201609",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not listed as a remote position, which is outside the candidate's allowed locations.",
+    "reason": "The job is physically located in Nanterre, France, which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "0df14d4d",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 produits",
@@ -55352,15 +55347,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produits-at-aperam-4446312155",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site in France, which is outside Finland and not a remote role.",
+    "reason": "The job is located in France (Amilly, Centre-Val de Loire) and requires fluent French, violating both the location and language requirements.",
     "id": "a388077d",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 1 mois",
+    "posted_date": "2026-08-03",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer / Qualit\u00e4tsingenieur Halbleiterindustrie - Talentpool (m/w/d)",
@@ -55369,15 +55363,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-engineer-qualit%C3%A4tsingenieur-halbleiterindustrie-talentpool-m-w-d-at-suss-4278038919",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Germany, which is outside Finland and not a fully remote position, violating the location requirement.",
+    "reason": "The job requires fluent German and is located in Germany, violating the location and language requirements.",
     "id": "e3cb934a",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 1 an",
+    "posted_date": "1 year ago",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -55386,15 +55379,14 @@
     "url": "https://ie.linkedin.com/jobs/view/senior-quality-engineer-at-abbott-4424910580",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ireland and is not a remote role that allows working from Finland.",
+    "reason": "The job is located in Clonmel, Ireland, which violates the candidate's requirement to work in Finland or remotely from Finland.",
     "id": "11cd7bde",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 3 mois",
+    "posted_date": "2026-07-04",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engenheiro da Qualidade",
@@ -55403,15 +55395,14 @@
     "url": "https://pt.linkedin.com/jobs/view/engenheiro-da-qualidade-at-sram-4466886538",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Portugal and is not a remote position available to candidates in Finland.",
+    "reason": "The job is physically located in Coimbra, Portugal, which violates the candidate's requirement to work only in Finland or fully remote.",
     "id": "bf8b17f3",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "ING\u00c9NIEUR QUALIT\u00c9 PRODUIT \u2013 M\u00c9CANIQUE F/H",
@@ -55420,15 +55411,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produit-%E2%80%93-m%C3%A9canique-f-h-at-alierys-4443049671",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Toulon, France, which is outside Finland and not a remote position, violating the location requirement.",
+    "reason": "The job is physically located in Toulon, France, violating the location policy which only permits jobs in Finland or remote roles accessible from Finland.",
     "id": "c46cdc92",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 2\u00a0mois",
+    "posted_date": "2026-08-03",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur(e) en Assurance Qualit\u00e9 - Pau",
@@ -55437,15 +55427,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-e-en-assurance-qualit%C3%A9-pau-at-consultys-4436449273",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in France and is not a remote role, which is outside the candidate's permitted locations.",
+    "reason": "The job is physically located in Pau, France, which violates the candidate's requirement to work in Finland or remotely from Finland.",
     "id": "bc815c6f",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 2 mois",
+    "posted_date": "2026-07-04",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur qualit\u00e9 produits/Ing\u00e9nieure qualit\u00e9 produits",
@@ -55454,15 +55443,14 @@
     "url": "https://be.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produits-ing%C3%A9nieure-qualit%C3%A9-produits-at-manpower-belgium-4466266900",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Belgium and requires fluency in French, both of which are hard rejections for the candidate.",
+    "reason": "The job is physically located in Belgium (Lontzen) and requires fluent French, violating the candidate's geographic and language constraints.",
     "id": "6519a5ad",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur(e) en Assurance Qualit\u00e9 - Toulouse",
@@ -55471,15 +55459,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-e-en-assurance-qualit%C3%A9-toulouse-at-consultys-4433191189",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Toulouse, France, and is not a remote role, which falls outside the candidate's permitted locations.",
+    "reason": "The job is physically located in Toulouse, France, which violates the location policy requiring jobs to be in Finland or fully remote.",
     "id": "3f0e5084",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 3 semaines",
+    "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer - QMS H/F",
@@ -55488,15 +55475,14 @@
     "url": "https://fr.linkedin.com/jobs/view/quality-engineer-qms-h-f-at-quantum-surgical-4467050933",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is a hybrid role based in France, which is outside of Finland.",
+    "reason": "The job is physically located in Montpellier, France, violating the candidate's requirement to work in Finland or fully remote.",
     "id": "30a6bd95",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 4 jours",
+    "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -55505,15 +55491,14 @@
     "url": "https://pl.linkedin.com/jobs/view/senior-quality-engineer-at-stryker-4455448067",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is based in Poland, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is located in Poland (Skawina) and requires fluent Polish in addition to English, violating the candidate's location and language constraints.",
     "id": "e49a264d",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-09-26T14:16:01+03:00",
-    "posted_date": "il y a 2 semaines",
+    "posted_date": "2026-09-11",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Quality Engineer (Global Tools area) / McP k\u00e9ziszersz\u00e1mgy\u00e1r /",
