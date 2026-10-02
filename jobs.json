@@ -61734,15 +61734,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=febdf037a9bfce28",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a care worker position requiring Finnish language skills, which does not align with the candidate\u2019s DevOps/Release/Documentation expertise.",
+    "reason": "The job title 'L\u00e4hihoitaja (keikkaty\u00f6)' corresponds to a healthcare/caregiving role, which does not align with Priya's expertise in technical communication, configuration management, release engineering, or regulated-industry quality compliance.",
     "id": "6ebdf38a",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
-    "posted_date": "registrerades i dag",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Sales Partner and Translator",
@@ -61751,15 +61750,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8335ab02eb5f7feb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires native or native-level Finnish for translation tasks, which is a hard rejection as Priya does not speak Finnish or Swedish.",
+    "reason": "The role is a sales position (Sales Partner and Translator), which is a quota\u2011carrying, customer\u2011facing job that does not align with Priya\u2019s technical release/CM/DevOps background.",
     "id": "9c4e93e0",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Shop Manager - Sittkoff Galleria",
@@ -61768,15 +61766,14 @@
     "url": "https://www.jobly.fi/tyopaikka/shop-manager-sittkoff-galleria-2746418",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Swedish (mandatory) and is a retail store manager position, which does not align with the candidate's technical release/DevOps background.",
+    "reason": "The job requires fluent Swedish as a mandatory qualification, which Priya does not speak, triggering a hard rejection under 'Mandatory Finnish or Swedish' rule.",
     "id": "d3e45c5d",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior AI Solutions Engineer",
@@ -61785,15 +61782,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-ai-solutions-engineer-2760006",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires on-site presence in Prague (Czech Republic), which falls under the 'Outside Finland and Not Remote' hard rejection rule, and the role is a pure feature-development software engineering position, which is another hard rejection.",
+    "reason": "The job requires working in Prague (Czech Republic), which is outside Finland and not fully remote, triggering a hard rejection under 'Outside Finland and Not Remote' rules. Additionally, the role focuses on AI solution development rather than release/CM/DevOps, matching the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
     "id": "4cea2167",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Mekaniikkasuunnittelija trukkien asiakasr\u00e4\u00e4t\u00e4l\u00f6intien pariin J\u00e4rvenp\u00e4\u00e4h\u00e4n",
@@ -61802,15 +61798,14 @@
     "url": "https://www.jobly.fi/tyopaikka/mekaniikkasuunnittelija-trukkien-asiakasraatalointien-pariin-jarvenpaahan-2759588",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires mechanical design expertise (SolidWorks/Inventor, truck customization) which does not align with the candidate's background in software configuration management, release engineering, and technical documentation.",
+    "reason": "The job requires fluent Finnish and English communication, but Priya does not speak Finnish, which is a hard rejection criterion.",
     "id": "cd56044f",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Palveluty\u00f6ntekij\u00e4, 4 kpl, siivous- ja keitti\u00f6painotus",
@@ -61819,15 +61814,14 @@
     "url": "https://www.jobly.fi/tyopaikka/palvelutyontekija-4-kpl-siivous-ja-keittiopainotus-2759081",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting describes a cleaning/kitchen support role (Palveluty\u00f6ntekij\u00e4) with no alignment to the candidate's technical/regulated-industry experience in configuration management, release engineering, or technical writing.",
+    "reason": "The job is for a service worker in cleaning and kitchen duties, which does not match Priya's expertise in technical communication, release management, configuration management, or DevOps roles.",
     "id": "0f9006a5",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Order to Cash and Business Services Specialist, Helsinki",
@@ -61836,15 +61830,14 @@
     "url": "https://www.jobly.fi/tyopaikka/order-cash-and-business-services-specialist-helsinki-2757585",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with the candidate's expertise in DevOps, Configuration Management, Release Management, or technical documentation, as it focuses on Order-to-Cash and SAP finance operations instead.",
+    "reason": "The job does not align with Priya's domain/role type (Order-to-Cash and project invoicing in SAP finance operations) or her background in regulated CI/CD/release management, technical writing, or safety-critical quality gatekeeping.",
     "id": "ae7d895a",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4 Lemmikkiel\u00e4inosastolle, Hankkija Tampere",
@@ -61853,15 +61846,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-lemmikkielainosastolle-hankkija-tampere-2762365",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency and is a quota-carrying sales role, both of which are hard rejections for the candidate.",
+    "reason": "The job requires Finnish language skills as a mandatory requirement, which the candidate does not possess, and the role is a sales position that does not align with her target domains (e.g., DevOps, Configuration Management).",
     "id": "fae296b7",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ravintolaty\u00f6ntekij\u00f6it\u00e4 Suur-Seudun Osuuskaupan Hesburgereihin Lohjalle ja Nummelaan",
@@ -61870,15 +61862,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ravintolatyontekijoita-suur-seudun-osuuskaupan-hesburgereihin-lohjalle-ja-nummelaan",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a restaurant worker role with no alignment to the candidate's expertise in technical communication, configuration management, or regulated-industry quality gatekeeping.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "6cada494",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyntiedustaja, AT Aurinkopaneelit, Uusimaa",
@@ -61887,15 +61878,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyntiedustaja-aurinkopaneelit-uusimaa-2762376",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a quota-carrying sales role (Myyntiedustaja) focused on selling solar energy systems, which does not align with the candidate's background in technical/quality product-specialist, release management, or DevOps roles.",
+    "reason": "The job is a quota-carrying sales role (Myyntiedustaja) with customer-facing responsibilities, which falls under Priya's strict Hard Rejection criteria for such positions. Additionally, the salary range (4000\u20135000 \u20ac/kk) matches a previously rejected constraint.",
     "id": "6f31f2a3",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Metallity\u00f6ntekij\u00e4",
@@ -61904,15 +61894,14 @@
     "url": "https://www.jobly.fi/tyopaikka/metallityontekija-2767197",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a metal fabrication position requiring Finnish language skills and does not align with the candidate\u2019s DevOps, release management, or technical documentation expertise.",
+    "reason": "The role is a metal fabrication position requiring Finnish language skills, which does not align with Priya's software, release, and quality engineering background.",
     "id": "da505573",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Psykologi Sein\u00e4joelle",
@@ -61921,15 +61910,14 @@
     "url": "https://www.jobly.fi/tyopaikka/psykologi-seinajoelle-2767196",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent/native Finnish or Swedish as a hard qualification, which the candidate does not possess, and the role type (psychologist) does not align with her expertise in technical communication, release management, or configuration management.",
+    "reason": "The role requires a licensed psychologist with clinical responsibilities, which does not align with the candidate's background in technical communication, configuration management, release engineering, or DevOps.",
     "id": "0d9eef2a",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-12",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tarjoilija, Lapland Hotels Catering, Rovaniemi",
@@ -61938,15 +61926,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tarjoilija-lh-catering-rovaniemi-2731494",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a catering/server position, which does not align with the candidate's expertise in DevOps, configuration management, release management, or technical communication.",
+    "reason": "The job is for a waiter/server position in hospitality, which does not align with Priya's expertise in technical documentation, release management, or regulated-industry quality standards.",
     "id": "25012d7b",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "LEVYSEPP\u00c4, Tampere",
@@ -61955,15 +61942,14 @@
     "url": "https://www.jobly.fi/tyopaikka/levyseppa-tampere-2707475",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a manual labor position (sheet metal welder) which does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
+    "reason": "The job posting is for a manual labor role (sheet metal worker/welder) unrelated to Priya's expertise in technical communication, release management, configuration management, or regulated-industry quality/compliance work.",
     "id": "438f528c",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Fysiatrian professorin osa-aikainen (30%) teht\u00e4v\u00e4",
@@ -61972,15 +61958,14 @@
     "url": "https://www.jobly.fi/tyopaikka/fysiatrian-professorin-osa-aikainen-30-tehtava-2744862",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an academic professor position focused on research and teaching in physiatry, which does not align with Priya's expertise in technical communication, release management, configuration management, or DevOps/CI-CD roles.",
+    "reason": "The job is a professor position in physiatry focused on academic research and teaching, which does not align with Priya's background in technical communication, release management, or configuration management in regulated industries.",
     "id": "1e09f8a2",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-12",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Country Manager Finland & DT Scandinavia, Ritmeester, Helsinki",
