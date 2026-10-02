@@ -63173,16 +63173,15 @@
     "location": "Remote (Europe)",
     "url": "https://fi.indeed.com/rc/clk?jk=18099f74d05ccb74",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with configuration management and DevOps aspects (CI/CD pipelines, infrastructure-as-code) but is more SRE-focused than the candidate's release/CM/regulatory expertise; location is fully remote in Europe (acceptable), and experience level matches.",
+    "matches_requirements": "no",
+    "reason": "The job title 'Engineering Manager - SRE & Platform' does not explicitly align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) due to insufficient detail in the job description.",
     "id": "f13d61d1",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -63191,15 +63190,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=563d22ad-8790-432c-a00c-22c91aaf950b-ZnJhcHJvZDE&iaUid=1k3kmuoplhc56801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k3kmuonqhmiv800%26jk%3D0432074b43e3ba97%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k3kmuohrhmiv800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoC-67M2e0l0zhz45R0LbzkdCdPP%26astse%3D7bdafc40ac72d0b4%26assa%3D6506&spn=0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description text does not contain explicit information about the company name, location, or role requirements needed to evaluate fit against the candidate's criteria.",
+    "reason": "The job posting lacks explicit details about the company name, location, and role responsibilities, making it impossible to assess alignment with Priya's requirements.",
     "id": "93dfee51",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -63208,15 +63206,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-sasbb-20606523",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a strong match for her background in DevOps, CI/CD, and embedded systems, and it is located in Helsinki, Finland, which aligns with her requirements.",
+    "reason": "The Senior DevOps Engineer role at ABB in Helsinki, Finland aligns with Priya's expertise in CI/CD pipeline ownership, embedded systems, and regulated-industry quality standards, while meeting her location preferences and experience level.",
     "id": "ec6205d9",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-18",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/abb_senior_devops_engineer_ec6205d9.txt",
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": "job_descriptions/abb_senior_devops_engineer_ec6205d9.txt"
   },
   {
     "title": "Senior DevOps Engineer in MarTech",
@@ -63225,15 +63222,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/nordea-senior-devops-engineer-in-martech-sdsuu-20598208",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job aligns with DevOps Engineer responsibilities (CI/CD pipelines, IaC, cloud infrastructure) and is located in Helsinki, Finland (hybrid model), but it does not explicitly mention regulated/safety-critical domains (MDR/ISO 13485 or ASPICE/TUV) which were an especially strong fit for the candidate\u2019s background.",
+    "reason": "The job aligns with DevOps Engineer criteria (CI/CD pipeline ownership, IaC) and is located in Finland, but requires specific GCP/Snowflake expertise not explicitly mentioned in the candidate's background, and focuses on MarTech rather than regulated/safety-critical domains.",
     "id": "f783e275",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-20",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer - Application Management",
@@ -63241,16 +63237,15 @@
     "location": "Helsinki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/nordea-senior-devops-engineer-application-management-sdsuu-20594693",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job aligns with DevOps Engineer criteria (CI/CD pipeline ownership, automation) and is located in Finland, but lacks explicit mention of regulated/safety-critical domains (MDR/ISO 13485/ASPICE) which were central to the candidate's prior experience.",
+    "matches_requirements": "yes",
+    "reason": "The job as a Senior DevOps Engineer at Nordea Bank Abp in Helsinki, Finland matches Priya's expertise in CI/CD pipelines, release management, and regulated-industry software delivery, while satisfying location requirements.",
     "id": "b679abd6",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-07",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": "job_descriptions/nordea_bank_abp_senior_devops_engineer___appli_b679abd6.txt"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -63259,15 +63254,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-stsel-20597430",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which falls outside Finland and does not offer a remote option accessible from Finland, violating the candidate's strict location requirements.",
+    "reason": "The job is located in Vilnius, Lithuania, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not physically located in Finland and does not offer a fully remote option accessible to someone living in Finland.",
     "id": "216402d9",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-16",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT-J\u00e4rjestelm\u00e4vastaava",
@@ -63276,15 +63270,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-j%C3%A4rjestelm%C3%A4vastaava-at-kumera-4468996985",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with the candidate's target role types (DevOps, Configuration Management, Release Management, etc.) and lacks mention of regulated/safety-critical domains or technical documentation/quality gatekeeping responsibilities.",
+    "reason": "The job does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical domains.",
     "id": "aa4d6d95",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Platform Manager - M365",
@@ -63292,16 +63285,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/platform-manager-m365-at-paulig-group-4470884314",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is located in Finland (Helsinki) and matches Priya's senior-level experience, but the role as a Microsoft 365 Platform Manager does not strongly align with her expertise in configuration management, release pipelines, or regulated-industry quality compliance, which are central to her background.",
+    "matches_requirements": "no",
+    "reason": "The role does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) or her approved constraints (configuration management, technical communications specialist experience). The Platform Manager - M365 role focuses on service ownership and vendor management rather than CI/CD pipelines, release coordination, or regulated compliance work she specializes in.",
     "id": "de686bbc",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "5 tuntia sitten",
-    "deadline": "N/A",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "2026-10-16",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AVEVA E3D Administrator",
@@ -63310,15 +63302,14 @@
     "url": "https://fi.linkedin.com/jobs/view/aveva-e3d-administrator-at-helsinki-shipyard-4470147679",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires AVEVA E3D administration and system-specific technical tasks, which do not align with the candidate's expertise in CI/CD, release management, or regulated-industry quality/compliance gatekeeping.",
+    "reason": "The job title 'AVEVA E3D Administrator' does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical domains.",
     "id": "60bc25a2",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT Service Manager, HR, QHSE and Analytics",
@@ -63327,15 +63318,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-service-manager-hr-qhse-and-analytics-at-valmet-4472704482",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role does not align with the candidate's expertise in DevOps/CI-CD, configuration management, or regulated-industry quality compliance, and requires essential Finnish language skills she does not possess.",
+    "reason": "The role requires strong Finnish language skills for time and attendance system-related tasks, which Priya does not possess, and the job is not aligned with her expertise in CI/CD/release management or regulated-industry quality/compliance work.",
     "id": "2ff77312",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "10 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Service Provision Manager",
@@ -63344,15 +63334,14 @@
     "url": "https://fi.linkedin.com/jobs/view/service-provision-manager-at-cgi-4472072946",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish and English, but the candidate does not speak Finnish, which is a mandatory hard rejection criterion.",
+    "reason": "The role does not align with Priya's target criteria in domain/role type (Service Provision Manager in Cybersecurity lacks CI/CD/release management/configuration management focus) and does not explicitly mention regulated/safety-critical domains or technical documentation ownership.",
     "id": "70eb0c69",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "2026-10-22",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "IT Service Manager, HR, QHSE and Analytics",
@@ -63361,15 +63350,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-service-manager-hr-qhse-and-analytics-at-valmet-4472709144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires strong Finnish language skills as essential for specific tasks, which the candidate does not possess.",
+    "reason": "The role of IT Service Manager does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) and requires Finnish language skills she does not possess.",
     "id": "0d40a2b7",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "10 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Business IT Manager",
@@ -63378,15 +63366,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-it-manager-at-ict-direct-4469749652",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The 'Business IT Manager' role focuses on IT architecture, system development, and project management rather than CI/CD, release management, configuration management, or technical writing \u2014 which are the candidate's core expertise.",
     "id": "4d3a5d70",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Technical Customer & Partner Success Manager",
@@ -63395,15 +63382,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-customer-partner-success-manager-at-vektor-io-4469726522",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with the candidate's target roles in configuration management, release management, or technical writing, and focuses instead on customer success and partner support without regulated-industry compliance components.",
+    "reason": "The role is a Technical Customer & Partner Success Manager, which focuses on customer-facing responsibilities and training rather than Priya\u2019s expertise in CI/CD, release management, or regulated-industry quality/compliance gatekeeping.",
     "id": "a5fe3a68",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-09",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cloud & FinOps Lead",
@@ -63411,16 +63397,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/cloud-finops-lead-at-sandvik-4469764435",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves Cloud & FinOps leadership with governance and cost management focus, which partially aligns with the candidate\u2019s DevOps/CI-CD/release-management expertise but lacks direct match to her regulated-industry quality/gatekeeping background. However, the positive constraint on configuration management and her CI/CD experience may create some overlap.",
+    "matches_requirements": "no",
+    "reason": "The job focuses on Cloud & FinOps leadership rather than configuration management, release processes, or regulated-industry quality/compliance work Priya specializes in (e.g., MDR/ISO 13485, ASPICE/TUV).",
     "id": "a7be7f93",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Opetusteknologiapalveluiden kehitt\u00e4misp\u00e4\u00e4llikk\u00f6",
