@@ -42167,38 +42167,20 @@
     "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
-    "title": "DevOps / Site Reliability Engineer",
-    "company": "61N Solutions Oy - Tampere",
-    "location": "Tampere, Finland",
-    "url": "https://duunitori.fi/tyopaikat/tyo/61n-solutions-oy-devops-site-reliability-engineer-sdsuu-20578035",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
-    "id": "81fd613d",
-    "source": "duunitori_devops_engineer",
-    "posted_date": "2026-09-17",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
-  },
-  {
     "title": "Ing\u00e9nieur.e Gestionnaire de Configurations F/H",
     "company": "Cailabs",
     "location": "Rennes, Brittany, France",
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-e-gestionnaire-de-configurations-f-h-at-cailabs-4464348831",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rennes, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job is located in Rennes, France (on-site), which does not meet Priya's requirement for roles physically located in Finland or fully remote jobs accessible from Finland.",
     "id": "84c57a80",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "il y a 3\u00a0semaines",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Director, Projects & Transitions",
@@ -42207,15 +42189,14 @@
     "url": "https://fi.linkedin.com/jobs/view/director-projects-transitions-at-cgi-4468302271",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Director-level project management role focused on IT infrastructure transitions, which does not align with the candidate's expertise in configuration management, release management, and regulated-industry compliance (MDR/ISO 13485/ASPICE).",
+    "reason": "The role is focused on project and transition leadership within IT infrastructure, which does not align with Priya\u2019s specialized experience in regulated-industry release/CM/DevOps roles (e.g., MDR/ISO 13485, ASPICE/TUV) or her technical writing/documentation ownership.",
     "id": "8dc5f1d9",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "il y a 1\u00a0semaine",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Defect Manager / Test & Release Management (m/w/d) \u2013 Cologne / K\u00f6ln",
@@ -42224,15 +42205,14 @@
     "url": "https://de.linkedin.com/jobs/view/defect-manager-test-release-management-m-w-d-%E2%80%93-cologne-k%C3%B6ln-at-optimus-search-4463043684",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cologne, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote.",
+    "reason": "The job is located in Cologne, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
     "id": "066f6c66",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2\u00a0semaines",
+    "posted_date": "2026-09-11",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Keitti\u00f6vastaava",
@@ -42241,15 +42221,14 @@
     "url": "https://www.jobly.fi/tyopaikka/keittiovastaava-2759916",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Keitti\u00f6vastaava' (Kitchen Manager) does not align with the candidate's expertise in technical communication, configuration management, release engineering, or regulated-industry quality compliance.",
+    "reason": "The job posting is for a kitchen management role ('Keitti\u00f6vastaava') which does not align with the candidate's expertise in technical communication, configuration management, release engineering, or regulated-industry quality compliance.",
     "id": "0a5f73f0",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Myyj\u00e4, Silm\u00e4asema Helsinki, Tripla ja Malmi",
@@ -42258,15 +42237,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-silmaasema-helsinki-tripla-ja-malmi-2754703",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales position, which does not match the candidate\u2019s technical release/CM/DevOps background.",
+    "reason": "The job is a quota-carrying sales role (Myyj\u00e4/Salesperson) with customer-facing responsibilities, which falls under the strict Hard Rejection category for sales roles mislabeled as 'Product Specialist' or similar.",
     "id": "b961da34",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Elintarvikety\u00f6ntekij\u00f6it\u00e4 3 Kaverin j\u00e4\u00e4tel\u00f6lle",
@@ -42275,15 +42253,14 @@
     "url": "https://www.jobly.fi/tyopaikka/elintarviketyontekijoita-3-kaverin-jaatelolle-2754704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for food processing workers in a non-technical/regulated industry, which does not align with the candidate's expertise in technical communication, configuration management, release engineering, or regulated software domains.",
+    "reason": "The job posting is for a food processing worker role, which does not align with the candidate's expertise in technical communication, release management, DevOps, or regulated-industry quality/compliance roles.",
     "id": "4719eb1e",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Erityisasiantuntija (talouspalvelut)",
@@ -42292,15 +42269,14 @@
     "url": "https://www.jobly.fi/tyopaikka/erityisasiantuntija-talouspalvelut-2754707",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description indicate a financial services/financial processes role (controller functions, ICT finance), which does not align with the candidate's focus on DevOps, configuration management, release management, technical writing, or regulated-industry quality/compliance work.",
+    "reason": "The job title and description indicate a financial/accounting specialist role (controller functions, financial reporting), which does not align with Priya's target domains of DevOps, configuration management, release management, technical writing, or safety-critical requirements engineering.",
     "id": "b31c7c89",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Varastoty\u00f6ntekij\u00e4, Turun Telakka",
@@ -42309,15 +42285,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varastotyontekija-turun-telakka-2759910",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a warehouse worker role, which does not align with the candidate's background in technical communication, configuration management, and release management.",
+    "reason": "The job is for a warehouse worker (Varastoty\u00f6ntekij\u00e4) in logistics, which does not align with Priya's expertise in configuration management, release engineering, or technical documentation.",
     "id": "4e6ce5c7",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Aamiaiskokki Holiday Club Tampere Kehr\u00e4\u00e4m\u00f6",
@@ -42326,15 +42301,14 @@
     "url": "https://www.jobly.fi/tyopaikka/aamiaiskokki-holiday-club-tampere-kehraamo-2759453",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language skills as a mandatory qualification, which the candidate does not possess, and the role (breakfast cook) is unrelated to her target domains (DevOps, configuration management, technical writing, etc.).",
+    "reason": "The job posting is for a breakfast cook position in the hospitality sector, which does not align with Priya's expertise in technical communication, release management, configuration management, or regulated-industry quality/compliance roles.",
     "id": "832203d9",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Kokki / ravintolaty\u00f6ntekij\u00e4 Leijona Catering, K\u00f6yli\u00f6",
@@ -42343,15 +42317,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokki-ravintolatyontekija-leijona-catering-koylio-2759908",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which the candidate does not possess, and the role is unrelated to her target domains (DevOps, Configuration Management, etc.).",
+    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, triggering a strict hard rejection.",
     "id": "e5682fbf",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Laitoshuoltaja",
@@ -42360,15 +42333,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laitoshuoltaja-2754702",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Laitoshuoltaja' (Maintenance Technician) does not align with the candidate's target roles in DevOps, Configuration Management, or technical documentation, and the job description implies Finnish language requirements which she lacks.",
+    "reason": "The job title 'Laitoshuoltaja' (Maintenance Technician) involves facility maintenance and cleaning tasks, which does not align with Priya's expertise in technical communication, configuration management, release management, or regulated-industry quality gatekeeping.",
     "id": "70d01659",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Financial Controller, Tampere",
@@ -42377,15 +42349,14 @@
     "url": "https://www.jobly.fi/tyopaikka/financial-controller-tampere-2732630",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Financial Controller' does not align with the candidate's expertise in DevOps, Configuration Management, Release Management, or technical documentation/quality roles.",
+    "reason": "The job is in finance/accounting (Financial Controller) and requires Finnish language proficiency, neither of which align with Priya's technical/regulated-industry background or language capabilities.",
     "id": "4347c2fb",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Lumity\u00f6ntekij\u00e4",
@@ -42394,15 +42365,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/36ca9fc1-0ed9-4d45-8394-eadf22dedf9c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory work language ('sujuvaa suomen kielen taitoa'), which Priya does not speak, triggering a Hard Rejection under 'Mandatory Finnish or Swedish' criteria.",
+    "reason": "The job posting for 'Lumity\u00f6ntekij\u00e4' (snow worker) does not align with Priya's technical/regulated-industry experience in DevOps, configuration management, or technical writing.",
     "id": "c428c653",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 10.13",
     "deadline": "2026-10-26",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentaja Lahti",
@@ -42411,15 +42381,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f40da12b-dbc7-430b-8111-752cf95bcd94/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish (\\\\",
+    "reason": "The job posting for an electrical installer does not align with Priya's expertise in DevOps, configuration management, release management, or technical communication roles.",
     "id": "979f9f26",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 10.12",
     "deadline": "2026-10-02",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentaja Kuopio",
