@@ -60294,15 +60294,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-windows-desktop-applications-helsinki-finland-at-speechify-4464936417",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position with no release, configuration\u2011management, or DevOps focus.",
+    "reason": "The job is a 'Senior Software Engineer' role focused on Windows/Desktop application development, falling under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks CI/CD/release-management ownership components.",
     "id": "25352dbb",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Software Developer / MPS Prewise Oy",
@@ -60311,15 +60310,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-developer-mps-prewise-oy-at-mps-enterprises-mps-yhti%C3%B6t-4464993006",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position requiring fluent Finnish, which violates the candidate's hard rejection criteria for role type and language.",
+    "reason": "The job is a 'Senior Software Developer' role focused on feature development (backend/frontend), which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks release/CM/DevOps ownership components.",
     "id": "86309547",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Myyntikoordinaattori, Mediconsult",
@@ -60328,15 +60326,14 @@
     "url": "https://fi.linkedin.com/jobs/view/myyntikoordinaattori-mediconsult-at-academic-work-4469140343",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish and Swedish, which the candidate does not possess, and it is a sales-support role rather than a technical/quality-focused position.",
+    "reason": "This sales coordination role explicitly requires fluent spoken and written Finnish and Swedish, which the candidate does not possess.",
     "id": "33529171",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Clinical Research Associate in Finland",
@@ -60345,15 +60342,14 @@
     "url": "https://fi.linkedin.com/jobs/view/clinical-research-associate-in-finland-at-parexel-4466852541",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and conversational Swedish, and it is a clinical research position requiring specific clinical/medical-related qualifications that the candidate does not possess.",
+    "reason": "The role requires fluent Finnish and conversational Swedish, which the candidate does not speak.",
     "id": "62cb057a",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Medical Writer",
@@ -60362,15 +60358,14 @@
     "url": "https://in.linkedin.com/jobs/view/senior-medical-writer-at-stryker-4454289279",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in India, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
+    "reason": "The job is located in Gurugram, India, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland and does not offer remote flexibility for someone based in Finland.",
     "id": "c3bcfa9f",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-08-29",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Document Control Coordinator (EMEA Timezone : 3pm - 12am MYT - Remote)",
@@ -60379,15 +60374,14 @@
     "url": "https://my.linkedin.com/jobs/view/document-control-coordinator-emea-timezone-3pm-12am-myt-remote-at-resmed-4426808495",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Malaysia and is not a remote role open to candidates based in Finland, violating the location requirements.",
+    "reason": "The job is restricted to a specific location in Malaysia and is not a remote role open to candidates living in Finland.",
     "id": "27b10d9a",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "RAQA Specialist",
@@ -60396,15 +60390,14 @@
     "url": "https://in.linkedin.com/jobs/view/raqa-specialist-at-intuitive-4449492814",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India, which violates the requirement that the role must be in Finland or a fully remote role accessible from Finland.",
+    "reason": "The job is located in Bengaluru, Karnataka, India (on-site), which falls under the 'Outside Finland and Not Remote' Hard Rejection rule as it requires physical presence outside Finland with no remote flexibility.",
     "id": "040f73df",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Vice President, Quality",
@@ -60413,15 +60406,14 @@
     "url": "https://www.linkedin.com/jobs/view/vice-president-quality-at-3d-systems-corporation-4469926579",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Littleton, CO), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in Littleton, CO, USA, which triggers the strict Hard Rejection rule against any US-based or US-restricted roles.",
     "id": "1491e160",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Medical Writing Specialist",
@@ -60430,15 +60422,14 @@
     "url": "https://in.linkedin.com/jobs/view/medical-writing-specialist-at-zimmer-biomet-4470313649",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India, which violates the requirement that the role must be in Finland or a fully remote role accessible from Finland.",
+    "reason": "The job is located in Bengaluru, India (on-site/hybrid), which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "0d13a002",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Associate Manager, Quality Systems",
@@ -60447,15 +60438,14 @@
     "url": "https://pl.linkedin.com/jobs/view/associate-manager-quality-systems-at-stryker-4463890455",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poland and is not a remote role, which violates the requirement that non-Finland roles must be remote and accessible from Finland.",
+    "reason": "The job is located in Skawina, Poland, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site work outside Finland.",
     "id": "a8949198",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Vice President & Chief Medical Officer (CMO) Radiometer",
@@ -60464,15 +60454,14 @@
     "url": "https://dk.linkedin.com/jobs/view/vice-president-chief-medical-officer-cmo-radiometer-at-radiometer-4452597619",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a medical degree (MD, MBBS, DO) and clinical medical leadership experience, which the candidate does not possess.",
+    "reason": "The role requires a medical degree and is a senior medical leadership position, which does not align with Priya\u2019s technical release/CMO background.",
     "id": "6d6afb0e",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Engineer",
@@ -60481,15 +60470,14 @@
     "url": "https://au.linkedin.com/jobs/view/quality-assurance-engineer-at-enovis-4447202653",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Brisbane, Australia, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
+    "reason": "The job is located in Brisbane, Australia (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "59c67756",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Head of QRA - Full Time - CH",
@@ -60498,15 +60486,14 @@
     "url": "https://ch.linkedin.com/jobs/view/head-of-qra-full-time-ch-at-ikerian-4467363706",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Switzerland and requires a regular physical presence at the Bern headquarters, which violates the location criteria for a candidate based in Finland.",
+    "reason": "The job is located in Bern, Switzerland (on-site requirement), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
     "id": "5d44f7aa",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior RA/QA Manager - Paris \ud83c\uddeb\ud83c\uddf7",
@@ -60515,15 +60502,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-ra-qa-manager-paris-%F0%9F%87%AB%F0%9F%87%B7-at-dental-monitoring-czech-4462445493",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Paris, France, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in Paris, France (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "9f61a1c9",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Sr Product Security Engineer",
@@ -60532,15 +60518,14 @@
     "url": "https://ie.linkedin.com/jobs/view/sr-product-security-engineer-at-medtronic-4457004594",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ireland and is not a remote position, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is located in Ireland (Galway, County Galway) and requires on-site presence, which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "249ace4c",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior RA/QA Manager - Paris \ud83c\uddeb\ud83c\uddf7",
