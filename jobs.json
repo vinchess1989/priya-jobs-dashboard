@@ -56707,15 +56707,14 @@
     "url": "https://fi.linkedin.com/jobs/view/manager-safety-and-development-at-upm-4467204542",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish and Swedish alongside management of physical timber-mill health, safety, and development operations, which does not match Priya's software configuration management, release, and technical communication background.",
     "id": "5a9ac0de",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-14",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Service Operation Manager Finland",
@@ -56724,15 +56723,14 @@
     "url": "https://fi.linkedin.com/jobs/view/service-operation-manager-finland-at-electrolux-group-4462867066",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluency in Finnish, which the candidate does not speak.",
+    "reason": "The role requires fluency in Finnish, which is a hard language barrier for the candidate.",
     "id": "6d1c16d6",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electronics & RF Test Team Lead",
@@ -56740,16 +56738,15 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/electronics-rf-test-team-lead-at-iceye-4423215560",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The candidate has the required electronics degree and quality/documentation experience, but her recent focus is on software release and DevOps rather than hands-on electronics/RF hardware testing.",
+    "matches_requirements": "no",
+    "reason": "The role requires hardware assembly, lab instrument testing, and an electronics engineering degree, which does not align with Priya's configuration management, release, and software-focused background.",
     "id": "c192f866",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palvelulinjajohtaja, Yhteiset sosiaali- ja terveyspalvelut, Espoo",
@@ -56758,15 +56755,14 @@
     "url": "https://fi.linkedin.com/jobs/view/palvelulinjajohtaja-yhteiset-sosiaali-ja-terveyspalvelut-espoo-at-l%C3%A4nsi-uudenmaan-hyvinvointialue-4469463067",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license (l\u00e4\u00e4ketieteen lisensiaatti), which the candidate does not possess.",
+    "reason": "This is a senior healthcare leadership role (Palvelulinjajohtaja) that strictly requires a medical degree (l\u00e4\u00e4ketieteen lisensiaatti) and extensive healthcare management experience, neither of which matches Priya's technical communication and DevOps background.",
     "id": "eaef4501",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Head of Production (Quantum Processors)",
@@ -56775,15 +56771,14 @@
     "url": "https://fi.linkedin.com/jobs/view/head-of-production-quantum-processors-at-iqm-quantum-computers-4463126167",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a high-level production management position focused on microfabrication and hardware manufacturing, which falls outside the candidate's core expertise in software release management, configuration management, and technical documentation.",
+    "reason": "This is a line management role focusing on quantum processor microfabrication and semiconductor cleanroom production, which falls under the hard rejection for line management and specialized hardware manufacturing without a software release, CI/CD, or CM core.",
     "id": "b4357110",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Environment, Health and Safety Manager",
@@ -56792,15 +56787,14 @@
     "url": "https://fi.linkedin.com/jobs/view/environment-health-and-safety-manager-at-bmi-suomi-icopal-oy-icopal-katto-oy-ormax-tiilikatot-4464799079",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish, which the candidate does not possess, and the role is focused on physical site HSE management rather than the candidate's software/technical release and quality background.",
+    "reason": "This HSE Manager role requires fluency in Finnish, which the candidate does not possess.",
     "id": "91983708",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "MEP Design Manager",
@@ -56809,15 +56803,14 @@
     "url": "https://fi.linkedin.com/jobs/view/mep-design-manager-at-tsl-4468380587",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires German language proficiency, which the candidate does not possess, and it is a construction/MEP design engineering role outside of her software/DevOps/quality domain.",
+    "reason": "The role requires German language proficiency and specialized MEP (Mechanical, Electrical, and Plumbing) construction design engineering background, which does not match Priya's software configuration management and release engineering profile.",
     "id": "55b5f54f",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "HSE Manager Finland",
@@ -56826,15 +56819,14 @@
     "url": "https://fi.linkedin.com/jobs/view/hse-manager-finland-at-bmi-group-4467032813",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish, which the candidate does not possess, and the role is focused on physical HSE management rather than the candidate's technical/software release and configuration management background.",
+    "reason": "The role requires fluency in Finnish, which the candidate does not possess, and is focused on Health, Safety, and Environment (HSE) management rather than her core technical areas of release, configuration management, or technical communication.",
     "id": "b499c3a4",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "CSA (Civils) Lead - Data Centres",
@@ -56843,15 +56835,14 @@
     "url": "https://fi.linkedin.com/jobs/view/csa-civils-lead-data-centres-at-turner-townsend-4445150258",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on civil, structural, and architectural construction management for data centers, which falls outside the candidate's software, firmware, and technical documentation/quality engineering domain.",
+    "reason": "This is a civil, structural, and architectural (CSA) construction management role for data centers, which does not match Priya's software engineering, release management, or technical documentation background.",
     "id": "547dd97e",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Service Center Manager",
@@ -56860,15 +56851,14 @@
     "url": "https://fi.linkedin.com/jobs/view/service-center-manager-at-suomen-sokeri-oy-sucros-oy-4466256870",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a production/factory management role rather than the technical/release/quality engineering roles she is qualified for.",
+    "reason": "This is a senior plant operations, manufacturing management, and personnel leadership role requiring fluent Finnish, which does not match Priya's configuration management, release, and technical communication background.",
     "id": "40e11885",
     "source": "linkedin_fi_quality_manager_p3",
     "added_at": "2026-09-26T23:49:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Gerente da Qualidade",
@@ -56877,15 +56867,14 @@
     "url": "https://br.linkedin.com/jobs/view/gerente-da-qualidade-at-unilog-express-4451984115",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Brazil and is not remote, which does not meet the candidate's location constraints.",
+    "reason": "The job is physically located in Serra, Esp\u00edrito Santo, Brazil, which violates the candidate's requirement to work only in Finland or fully remote.",
     "id": "ca605bb2",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Gestionnaire Qualit\u00e9 / Quality Manager ( Bilingue)",
@@ -56894,15 +56883,14 @@
     "url": "https://ca.linkedin.com/jobs/view/gestionnaire-qualit%C3%A9-quality-manager-bilingue-at-leesta-industries-ltd-4448535173",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Canada and is not a remote position open to candidates living in Finland.",
+    "reason": "The job is located in Canada (Pointe-Claire, Quebec), which violates the hard rejection rule against on-site/hybrid roles outside Finland.",
     "id": "ff502285",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -56911,15 +56899,14 @@
     "url": "https://au.linkedin.com/jobs/view/quality-manager-at-cpb-contractors-4458880329",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Australia and is not a remote position available to someone living in Finland.",
+    "reason": "The job is located in Perth, Western Australia, which violates the candidate's requirement to be based in Finland or work remotely from Finland.",
     "id": "7260acc5",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
-    "posted_date": "h\u00e1 5 dias",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -56928,15 +56915,14 @@
     "url": "https://ca.linkedin.com/jobs/view/quality-manager-at-atkinsr%C3%A9alis-4467036714",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Vancouver, Canada, which is outside Finland and not a remote role, violating location constraints.",
+    "reason": "The job is located in Vancouver, Canada, which violates the strict hard rejection rule against non-Finland/non-remote locations outside Europe and requires a P.Eng engineering degree.",
     "id": "7ad8e0eb",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -56945,15 +56931,14 @@
     "url": "https://pt.linkedin.com/jobs/view/quality-manager-at-steris-4462897092",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an on-site position in Portugal, which is outside of Finland and does not meet the candidate's location requirements.",
+    "reason": "The job is located in Maia, Porto, Portugal, which violates the candidate's requirement to be based in Finland or in a role that can be performed remotely from Finland.",
     "id": "f7c95208",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
-    "posted_date": "h\u00e1 1 dia",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
