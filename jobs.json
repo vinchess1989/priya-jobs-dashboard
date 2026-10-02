@@ -54787,15 +54787,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-engineer-at-john-sisk-son-ltd-4410485879",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a civil engineering position focused on construction QA and site management, not a software release, configuration management, or technical documentation role.",
+    "reason": "This is a civil engineering and construction site role for a data centre project requiring a B.Eng in Civil Engineering and construction certifications, which completely misaligns with Priya's background in software engineering, release management, and technical writing.",
     "id": "d9da74c4",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
     "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Test Automation Engineer",
@@ -54804,15 +54803,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-automation-engineer-at-pehutec-oy-4468728236",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish ('Suomen kielen sujuvaa osaamista'), which is a hard rejection criterion as the candidate does not speak Finnish.",
     "id": "b2493c32",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "1 viikko sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Programmer, Engine Reliability",
@@ -54820,16 +54818,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-programmer-engine-reliability-at-supercell-4411731200",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role focuses on building automation, CI/CD pipelines, and validation infrastructure, which aligns with her expertise in Release Management and DevOps.",
+    "matches_requirements": "no",
+    "reason": "This is a hands-on engine/runtime development and C++ programming role focusing on game engine reliability, which conflicts with her 8+ year shift away from feature/software development toward release management and DevOps.",
     "id": "7b1bd2f4",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/supercell_senior_programmer__engine_reli_7b1bd2f4.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Data Center Testing & Commissioning Expert",
@@ -54838,15 +54835,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-center-testing-commissioning-expert-at-titanicom-tech-limited-4460650439",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on physical data center infrastructure testing and commissioning (electrical/mechanical), which is outside the candidate's expertise in software release management, CI/CD, and software quality compliance.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "bf268404",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -54854,16 +54850,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/quality-manager-at-teleste-4470278324",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The Quality Manager role in Tampere, Finland aligns with her extensive quality, compliance, and release management experience and requires English.",
+    "matches_requirements": "no",
+    "reason": "Although located in Finland, the role heavily emphasizes customer-facing negotiations and stakeholder management, which conflicts with negative constraints regarding customer-facing requirements.",
     "id": "5ea0256a",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-07",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": "job_descriptions/teleste_quality_manager_5ea0256a.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI-avusteinen testiautomaatiokehitt\u00e4j\u00e4",
@@ -54872,15 +54867,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-avusteinen-testiautomaatiokehitt%C3%A4j%C3%A4-at-gofore-4467375888",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting requires professional Finnish language proficiency ('Ammatillinen suomen kielen taito on olennaista asiakasyhteisty\u00f6ss\u00e4'), which the candidate does not possess.",
     "id": "7f0b0dff",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Lead",
@@ -54889,15 +54883,14 @@
     "url": "https://fi.linkedin.com/jobs/view/qa-lead-at-vala-4469157966",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The role explicitly requires fluent Finnish ('sujuva suomen ja englannin taito'), which the candidate does not possess.",
     "id": "61751281",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Test Automation Engineer",
@@ -54905,16 +54898,15 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/senior-test-automation-engineer-at-softability-4467949940",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with her expertise in quality assurance, CI/CD, and automation within a technical environment.",
+    "matches_requirements": "maybe",
+    "reason": "The role requires Python and embedded testing experience which aligns with her background, but it centers on test automation and hardware testing rather than her core release management or technical writing specialization.",
     "id": "d48af07f",
     "source": "linkedin_fi_quality_engineer_p3",
     "added_at": "2026-09-26T09:31:33+03:00",
-    "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/softability_senior_test_automation_enginee_d48af07f.txt",
-    "needs_re_review": true
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engineer - Quality Assurance Engineering",
@@ -54923,15 +54915,14 @@
     "url": "https://my.linkedin.com/jobs/view/engineer-quality-assurance-engineering-at-wd-4433597530",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Malaysia, which is outside Finland and not a remote position, disqualifying it under the location hard rejection.",
+    "reason": "The job is located in Penang, Malaysia, which violates the candidate's location criteria (Finland or remote worldwide/Europe), and it is explicitly part of an entry-level early career program.",
     "id": "1e2d9dd7",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "6 hari yang lalu",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Principal Manufacturing Quality Assurance Engineer",
@@ -54940,15 +54931,14 @@
     "url": "https://kr.linkedin.com/jobs/view/principal-manufacturing-quality-assurance-engineer-at-rambus-4438047623",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hybrid position located in South Korea, which is outside of Finland.",
+    "reason": "The role is located in Seoul, South Korea, which violates the candidate's location criteria requiring positions to be in Finland or fully remote.",
     "id": "7995c09b",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer - E2",
@@ -54957,15 +54947,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-e2-at-lockheed-martin-4456985332",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which is a strict non-negotiable exclusion for the candidate.",
+    "reason": "The job is located in Liverpool, Ohio, United States, violating the strict hard rejection for US-based roles.",
     "id": "3addb972",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "1 bulan yang lalu",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engineer Quality",
@@ -54974,15 +54963,14 @@
     "url": "https://www.linkedin.com/jobs/view/engineer-quality-at-northrop-grumman-4460885266",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Salt Lake City, UT, USA, which is excluded by the candidate's strict US location rule.",
+    "reason": "The job is located in Salt Lake City, Utah, USA, and explicitly requires U.S. citizenship and a security clearance, violating the hard exclusion for U.S.-based or restricted roles.",
     "id": "0900671f",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-09-26",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -54991,15 +54979,14 @@
     "url": "https://sg.linkedin.com/jobs/view/senior-quality-engineer-at-quasar-medical-medical-device-manufacturer-4464171952",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Singapore and is an on-site role, which is outside the candidate's permitted locations.",
+    "reason": "The job is located in Singapore, which violates the requirement that positions must be physically in Finland or fully remote and open to someone living in Finland.",
     "id": "03be75fc",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer II",
@@ -55008,15 +54995,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-ii-at-terumo-aortic-4444108217",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in the United States, which is disallowed.",
+    "reason": "This job is located in Sunrise, Florida, United States, violating the strict hard rejection rule against US-based positions.",
     "id": "5a17a5a8",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "1 bulan yang lalu",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer- Bilingual Spanish",
@@ -55025,15 +55011,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-bilingual-spanish-at-foxconn-industrial-internet-fii-4436286416",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which is a strict non-negotiable exclusion.",
+    "reason": "The job is located in Houston, Texas, USA, which violates the strict hard rejection rule against US-based positions.",
     "id": "40cfe6bf",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "2 bulan yang lalu",
+    "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "NPI Quality Assurance Engineer",
