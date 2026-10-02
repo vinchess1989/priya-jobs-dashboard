@@ -50415,15 +50415,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ibc-epr2-responsable-configuration-et-modifications-f-h-at-edf-4414066773",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France (Belleville-sur-Sa\u00f4ne) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in France and is not a remote role, which violates the requirement that non-remote positions must be located in Finland.",
     "id": "caeb134a",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "h\u00e1 4 meses",
+    "posted_date": "il y a 4 mois",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Research and Development Project Manager",
@@ -50432,15 +50431,14 @@
     "url": "https://fi.linkedin.com/jobs/view/research-and-development-project-manager-at-beontag-4465104360",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "reason": "The job posting explicitly lists 'Finnish' as a required language, which the candidate does not speak.",
     "id": "b397bbe9",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "il y a 2 semaines",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Technical Product Manager (AI)",
@@ -50449,15 +50447,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-product-manager-ai-at-leaddesk-4469153899",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Technical Product Manager (AI)' does not align with Priya's target roles (DevOps, Configuration Management, Technical Writer, etc.) or her experience in regulated/safety-critical domains.",
+    "reason": "The role is a Product Management position focused on AI product discovery and strategy, which falls under the 'Specialist Platforms' exclusion as it lacks the required core focus on release management, configuration management, or quality/traceability engineering.",
     "id": "f814aec5",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "il y a 1 semaine",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Development & Governance Manager",
@@ -50466,15 +50463,14 @@
     "url": "https://fi.linkedin.com/jobs/view/development-governance-manager-at-ssab-4467858817",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job role (Development & Governance Manager in IT Procurement) does not align with the candidate's target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) or her experience in regulated/safety-critical industries.",
+    "reason": "The role is focused on IT Procurement, contract governance, and software asset management, which falls under the category of specialist enterprise-application/procurement roles that lack the required core focus on CI/CD, release management, or technical quality/traceability.",
     "id": "725e5444",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "il y a 1 semaine",
     "deadline": "2026-10-14",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Program Director",
@@ -50483,15 +50479,14 @@
     "url": "https://fi.linkedin.com/jobs/view/program-director-at-tata-consultancy-services-4460297241",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Program Director with strategic leadership in large-scale cloud migration and enterprise transformation, which does not align with the candidate's expertise in technical release management, CI/CD, and regulated-industry quality gatekeeping.",
+    "reason": "The role is a senior-level Program Director position focused on cloud migration and business transformation, which falls under the 'Specialist Platforms/Architecture/Management' exclusion criteria as it lacks a core focus on release, configuration management, or quality engineering.",
     "id": "c836502a",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Senior Implementation Analyst (Remote in Europe)",
@@ -50500,15 +50495,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-analyst-remote-in-europe-at-intellect-4445628409",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is fully remote in Europe (aligns with Finland-based remote work preference) but focuses on customer implementation and QMS rather than the candidate\u2019s core expertise in CI/CD/release management or regulated-industry compliance.",
+    "reason": "The role is a strong fit for her background in regulated industries and QMS, but it is a customer-facing implementation role which she has previously expressed a negative preference for.",
     "id": "cf11b871",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "il y a 2 mois",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Senior Software Engineer, Web Platform",
@@ -50517,15 +50511,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-web-platform-at-unity-4467876716",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on C++/WebAssembly runtime optimization, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion. Priya's expertise lies in release management, configuration management, and DevOps/CI-CD ownership, not core application development.",
+    "reason": "This is a pure feature-development software engineering role focused on runtime optimization and C++ feature implementation, which falls under the hard rejection for pure software engineering roles.",
     "id": "851b6c43",
     "source": "linkedin_fi_broad",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "BI Engineer, Analytics Platform (Helsinki)",
@@ -50534,15 +50527,14 @@
     "url": "https://fi.linkedin.com/jobs/view/bi-engineer-analytics-platform-helsinki-at-elisa-4467840866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires BI platform development and data governance expertise, which does not align with the candidate's focus on DevOps/CI-CD, configuration management, and technical documentation in regulated industries.",
+    "reason": "The role is a BI/Data platform engineering position focused on analytics and semantic modeling, which falls under the hard rejection for platform-specific architecture roles lacking a core release, CM, or quality engineering component.",
     "id": "74bc3bde",
     "source": "linkedin_fi_broad",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Konelumity\u00f6ntekij\u00e4",
@@ -50551,15 +50543,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4c6cf5e2-bb7c-4c9c-acfd-a31395728d68/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires operating heavy machinery and manual labor skills (e.g., tractor/snowmobile driving), which do not align with Priya's expertise in technical communication, configuration management, release engineering, and regulated-industry software compliance.",
+    "reason": "This is a manual labor role for snow removal, which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
     "id": "f8f91688",
     "source": "tyomarkkinatori",
-    "posted_date": "18.9.2026, 20.31",
+    "posted_date": "2026-09-18",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Technical After-Sales Support SpecialistEezy Henkil\u00f6st\u00f6palvelutKaarinaGo to job site",
@@ -50568,15 +50559,14 @@
     "url": "https://www.jobly.fi/en/job/technical-after-sales-support-specialist-2761531",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target role types (DevOps, Configuration Management, Release Management, etc.) and instead focuses on technical after-sales support with fieldwork and customer service responsibilities.",
+    "reason": "The role is primarily a customer-facing support and field-service position, which the candidate has explicitly rejected in previous feedback.",
     "id": "7e115d96",
     "source": "work_in_finland",
     "posted_date": "2026-09-25",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:16:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:16:40+03:00"
   },
   {
     "title": "Nordic Clinical Specialist",
@@ -50585,15 +50575,14 @@
     "url": "https://fi.linkedin.com/jobs/view/nordic-clinical-specialist-at-bd-4469196612",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires mandatory fluency in a Nordic language (Swedish/Danish/Norwegian), which Priya does not possess, and her background in technical communication/release management does not align with the clinical/laboratory focus of this position.",
+    "reason": "The role explicitly requires mandatory fluency in at least one Nordic language (Swedish, Danish, or Norwegian) in addition to English, which the candidate does not possess.",
     "id": "f2ef2ea2",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "HPR Pre-sale",
@@ -50602,15 +50591,14 @@
     "url": "https://fi.linkedin.com/jobs/view/hpr-pre-sale-at-ingram-micro-4467895228",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Pre-sale HPR role focused on technical sales support and solution design, which does not align with Priya\u2019s expertise in Configuration Management, Release Management, DevOps, or regulated-industry quality gatekeeping.",
+    "reason": "This is a pre-sales/customer-facing role focused on business development and sales support, which violates the negative constraint against customer-facing roles.",
     "id": "66f21f7c",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "Kokenut kiinteist\u00f6nhoitaja Oulun alueelle",
@@ -50619,15 +50607,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/dab7b425-6eb0-42f8-abf1-5abb036d0076/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a property manager with real estate maintenance experience, which does not align with Priya's background in technical communication, release management, and regulated-industry quality compliance.",
+    "reason": "The role is for a property maintenance technician (kiinteist\u00f6nhoitaja), which is outside the candidate's professional domain of software engineering, release management, and technical communication, and it requires fluent Finnish.",
     "id": "8d865def",
     "source": "tyomarkkinatori",
-    "posted_date": "18.9.2026, 21.23",
+    "posted_date": "2026-09-18",
     "deadline": "2026-10-05",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja",
@@ -50636,15 +50623,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ff2678e2-36a3-4ebb-b788-147c6be8968e/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a personal assistant role unrelated to her technical, release, or quality engineering background.",
     "id": "3aad5bc7",
     "source": "tyomarkkinatori",
-    "posted_date": "18.9.2026, 21.09",
+    "posted_date": "2026-09-18",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "Tarjoilija.",
@@ -50653,15 +50639,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/87f96770-e9ea-4ed5-b11d-8dbedca83724/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a restaurant server (Tarjoilija) in the hospitality sector, which does not align with the candidate's technical/regulated-industry experience in DevOps, release management, or technical documentation.",
+    "reason": "The role is for a restaurant waiter, which does not align with the candidate's technical background, and it requires Finnish language proficiency.",
     "id": "b0a86858",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "Koneajotaitoinen ulkoaluety\u00f6ntekij\u00e4 Ouluun",
