@@ -44781,15 +44781,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekijoita-2760537",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction work experience and advanced Finnish language skills, which do not align with Priya's technical/regulated-industry background or her English-only proficiency.",
+    "reason": "The role is for a construction worker, which is outside the candidate's professional domain, and it explicitly requires excellent Finnish language skills.",
     "id": "639c5cd1",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentajia reissuty\u00f6h\u00f6n",
@@ -44798,15 +44797,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkoasentaja-sairaalaymparistoon-g1-2639187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an electrician for temporary work in industrial environments, which does not align with the candidate's background in technical communication, product specialization, or regulated-industry release/configuration management.",
+    "reason": "The role is for a manual trade position (electrician) which does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
     "id": "05e1ad0e",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "2026-10-05",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Ravintolan tarjoilija, 2 paikkaa, Obel 1X Oy, Riihim\u00e4ki",
@@ -44815,15 +44813,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c93c9647-c14c-495e-b230-e58834508e3d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a restaurant server role, which does not align with the candidate's expertise in technical communication, configuration management, release management, or regulated-industry quality compliance.",
+    "reason": "The role is for a restaurant waiter, which does not align with the candidate's professional background in technical communication, release management, and engineering, and it explicitly requires Finnish language proficiency.",
     "id": "2ba321df",
     "source": "tyomarkkinatori",
-    "posted_date": "17.9.2026, 16.59",
+    "posted_date": "2026-09-17",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Saunamaailman ty\u00f6ntekij\u00e4",
@@ -44832,15 +44829,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c38b0ddf-3f45-401d-8114-a8a50cad870d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting describes a hospitality/service role (sauna attendant) that does not align with Priya's expertise in regulated-industry technical communication, configuration management, or release engineering.",
+    "reason": "The role is a non-technical service position requiring fluent Finnish, which does not align with the candidate's professional background or language skills.",
     "id": "f3717e9d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-10",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Senior Software Architect (B2B online platform)DNA OyjHelsinkiGo to job site",
@@ -44849,15 +44845,14 @@
     "url": "https://www.jobly.fi/en/job/senior-software-architect-b2b-online-platform-2760495",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Senior Software Architect' focuses on platform architecture rather than DevOps, Configuration Management, or Release Management, which are central to the candidate's expertise and target criteria.",
+    "reason": "The job posting is explicitly marked as no longer active and the role is a pure software architecture position, which falls under the hard rejection for specialist architecture roles without a release/CM/quality core.",
     "id": "fdb26eb1",
     "source": "work_in_finland",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Senior Software Architect (B2B online platform)DNA OyjHelsinkiGo to job site",
@@ -44866,15 +44861,14 @@
     "url": "https://www.jobly.fi/en/job/senior-software-architect-b2b-online-platform-2760483",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Software Architect with hands-on Java/Spring Boot and microservices architecture experience, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks release/CM/DevOps ownership components.",
+    "reason": "The role is a pure software architecture and feature-development position requiring hands-on Java/Spring Boot coding, which falls under the hard rejection for pure feature-development software engineering.",
     "id": "f99dd68e",
     "source": "work_in_finland",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Senior Cloud Engineer / Lead Cloud Developer",
@@ -44883,15 +44877,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-lead-cloud-developer-at-dyme-solutions-oy-4466284240",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Cloud Engineer / Lead Cloud Developer role focused on feature development, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion as it does not align with the candidate's release/CM/DevOps expertise.",
+    "reason": "The job requires fluent Finnish ('sujuva suomen kieli on pakollinen') and is primarily a feature-development/architecture role rather than a release, CM, or quality-focused role.",
     "id": "d67fa483",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Japanese Language Consultant-Language Solutions",
@@ -44900,15 +44893,14 @@
     "url": "https://fi.linkedin.com/jobs/view/japanese-language-consultant-language-solutions-at-iqvia-4452951151",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Japanese language consultancy skills and localization expertise, which do not align with the candidate's background in technical communication, configuration management, and regulated software release processes.",
+    "reason": "The role requires native or near-native Japanese proficiency, which the candidate does not possess.",
     "id": "baad9a7d",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Software Konfigurationsmanager (m/w/d)",
@@ -44917,15 +44909,14 @@
     "url": "https://de.linkedin.com/jobs/view/software-konfigurationsmanager-m-w-d-at-adecco-4467551305",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Penzberg, Bavaria, Germany, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is located in Penzberg, Germany, which violates the hard rejection policy against on-site/hybrid roles outside of Finland.",
     "id": "d3fccd8b",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Director, SW Development",
@@ -44934,15 +44925,14 @@
     "url": "https://fi.linkedin.com/jobs/view/director-sw-development-at-nokia-4466292101",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires Finnish or Swedish language skills, which the candidate does not have.",
+    "reason": "The role explicitly requires Finnish or Swedish language skills, which the candidate does not possess.",
     "id": "e0b067b0",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "IS Change and Release Manager for SAP CFIN",
@@ -44951,15 +44941,14 @@
     "url": "https://pl.linkedin.com/jobs/view/is-change-and-release-manager-for-sap-cfin-at-abb-4468647464",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cracow, Poland, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is located in Poland and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "b0cec102",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Test & Release Manager",
@@ -44968,32 +44957,14 @@
     "url": "https://pl.linkedin.com/jobs/view/test-release-manager-at-comarch-4464980810",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Gda\u0144sk, Poland, which is outside Finland and not fully remote, violating the candidate's strict location requirements.",
+    "reason": "The job is located in Poland and is not a fully remote role open to candidates in Finland, violating the location requirements.",
     "id": "f97cb6da",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
-  },
-  {
-    "title": "Asiakkuusasiantuntija, HA, Mouhij\u00e4rven Osuuspankki",
-    "company": "OP Pohjola",
-    "location": "Sastamala, Pirkanmaa, Finland",
-    "url": "https://fi.linkedin.com/jobs/view/asiakkuusasiantuntija-ha-mouhij%C3%A4rven-osuuspankki-at-op-pohjola-4468626856",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a customer-facing financial services position (Asiakkuusasiantuntija) focused on client relationship management and sales, which does not align with Priya's expertise in regulated-industry configuration management, release engineering, technical writing, or quality gatekeeping.",
-    "id": "048752b7",
-    "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Enterprise Solutions Engineer - Finnish Speaking",
@@ -45002,15 +44973,14 @@
     "url": "https://fi.linkedin.com/jobs/view/enterprise-solutions-engineer-finnish-speaking-at-verkada-4466081520",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess, triggering a hard rejection.",
+    "reason": "The role requires fluent Finnish as a mandatory qualification, which the candidate does not possess, and it is a sales-focused 'Solutions Engineer' role that involves customer-facing sales processes.",
     "id": "f39ca292",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Product Engagement Lead",
@@ -45019,15 +44989,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-engagement-lead-at-w%C3%A4rtsil%C3%A4-4468647862",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on commercialization and business development rather than technical/quality/product-specialist functions aligned with Priya's background in release management, configuration management, or technical documentation.",
+    "reason": "This is a commercial/business development role focused on sales and market growth, which falls under the hard rejection for quota-carrying/sales-oriented roles mislabeled as product specialist.",
     "id": "b20b9336",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-02",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Senior Solutions Engineer",
