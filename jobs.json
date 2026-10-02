@@ -42877,15 +42877,14 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-john-sisk-son-ltd-4410476898",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'BIM Manager' does not align with any of the Target Job Criteria categories (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and is unrelated to regulated/safety-critical domains or technical documentation/quality gatekeeping roles.",
+    "reason": "This is a construction-industry BIM Manager role focused on 3D/4D modeling and digital project delivery in civil engineering, which does not align with Priya's background in software engineering, CI/CD, and quality/regulatory compliance.",
     "id": "30fa08d2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Configuration Manager",
@@ -42894,15 +42893,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-at-naxcon-group-4468394253",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bremen, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is outside Finland and not a fully remote role compatible with Finland-based candidates.",
+    "reason": "The job is located in Bremen, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland and is not fully remote.",
     "id": "1eb322ec",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Senior Quantity Surveyor",
@@ -42911,15 +42909,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-quantity-surveyor-at-john-sisk-son-ltd-4410476899",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Quantity Surveyor with construction/commercial management experience, which does not align with the candidate's background in software configuration management, release engineering, and technical documentation.",
+    "reason": "The job title 'Senior Quantity Surveyor' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, Technical Writing, or regulated-industry quality/compliance domains.",
     "id": "a08ac1d3",
     "source": "linkedin_fi_broad",
-    "posted_date": "vor 4 monaten",
+    "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Tax Manager",
@@ -42928,15 +42925,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/oy-sinebrychoff-ab-tax-manager-sdsuu-20578748",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory skill, which Priya does not possess.",
+    "reason": "The role is a specialized Tax Manager position focused on financial tax compliance and reporting, which falls outside the candidate's core expertise in release management, DevOps, and technical quality assurance.",
     "id": "bb44c031",
     "source": "duunitori_broad",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "HR-assistentti, Eezy Henkil\u00f6st\u00f6palvelut",
@@ -42945,15 +42941,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hr-assistentti-eezy-henkilostopalvelut-2758691",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an HR assistant role, which does not align with the candidate's expertise in technical communication, configuration management, or release management, and the posting explicitly states it is no longer valid.",
+    "reason": "The job title 'HR-assistentti' (HR Assistant) does not align with the candidate's technical expertise in configuration management, release engineering, or technical documentation, and falls outside her target role categories.",
     "id": "93fd5ff5",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Kaivinkoneenkuljettaja",
@@ -42962,15 +42957,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kaivinkoneenkuljettaja-2760110",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an excavator operator with construction-specific certifications and experience, which is unrelated to Priya's background in technical communication, release management, and regulated-industry software compliance.",
+    "reason": "The job requires Finnish language proficiency as the primary working language, which is a hard rejection since Priya does not speak Finnish or Swedish.",
     "id": "d242d2ec",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Tekninen is\u00e4nn\u00f6itsij\u00e4",
@@ -42979,15 +42973,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tekninen-isannoitsija-2744527",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job role as a 'Technical Facilities Manager' does not align with Priya's expertise in DevOps, Configuration Management, Release Management, or technical writing, and requires Finnish proficiency she does not possess.",
+    "reason": "The job is for a Technical Facilities Manager, which does not align with Priya's expertise in DevOps, release management, or technical documentation roles. Additionally, the position requires Finnish language proficiency, which she does not possess.",
     "id": "6cb4d9b3",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Laboratoriohoitaja Diagnostiikkakeskus Virologia ja immunologia",
@@ -42996,15 +42989,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laboratoriohoitaja-diagnostiikkakeskus-virologia-ja-immunologia-2754903",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a laboratory assistant role in virology/immunology (clinical/lab work), which does not align with the candidate's background in technical communication, release management, configuration management, and DevOps/CI-CD in regulated industries.",
+    "reason": "The job requires a Laboratory Technician in Virology and Immunology, which does not align with Priya's expertise in DevOps, Configuration Management, Technical Writing, or regulated software release management.",
     "id": "ec30ddd4",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Avoin hakemus ravintola-alalle",
@@ -43013,15 +43005,14 @@
     "url": "https://www.jobly.fi/tyopaikka/avoin-hakemus-ravintola-alalle-2759552",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is in the restaurant/hospitality sector (chef/server roles) and does not match Priya's technical/regulated-industry experience in configuration management, release engineering, or technical communication.",
+    "reason": "The job posting is for a hospitality/restaurant role (cook/server) with no alignment to the candidate's expertise in technical communication, release management, or regulated-industry software delivery.",
     "id": "23a97082",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Osastonhoitaja Peijaksen leikkausyksikk\u00f6",
@@ -43030,15 +43021,14 @@
     "url": "https://www.jobly.fi/tyopaikka/osastonhoitaja-peijaksen-leikkausyksikko-2759909",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an 'Osastonhoitaja' (charge nurse) in a surgical unit, which is unrelated to Priya's expertise in configuration management, release engineering, technical writing, or regulated software compliance.",
+    "reason": "The job requires healthcare management/clinical experience (charge nurse role) which does not align with Priya's technical background in DevOps, Configuration Management, and Technical Writing.",
     "id": "94d465bb",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-08",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Aloittelevia Timpureita p\u00e4\u00e4kaupunkiseudulle",
@@ -43047,15 +43037,14 @@
     "url": "https://www.jobly.fi/tyopaikka/aloittelevia-timpureita-paakaupunkiseudulle-2759186",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction position requiring Finnish language skills and hands\u2011on building work, which does not match the candidate\u2019s release/CM/DevOps background or language proficiency.",
+    "reason": "The role is a construction worker position, which does not align with Priya\u2019s release/CM/DevOps/technical communication expertise.",
     "id": "abb70165",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Nuori autonasentaja",
@@ -43064,15 +43053,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/970552e1-9b16-4545-b830-d35b5c874b43/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires hands-on automotive repair work (e.g., car maintenance, tire changes, troubleshooting) which does not align with Priya's expertise in technical communication, configuration management, release engineering, and regulated-industry quality gatekeeping.",
+    "reason": "The job posting for 'Nuori autonasentaja' (Young Car Mechanic) involves hands-on automotive repair and maintenance tasks, which do not align with the candidate's expertise in configuration management, release engineering, technical writing, or regulated-industry quality compliance.",
     "id": "6b4936ae",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 12.24",
     "deadline": "2026-11-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Telineasentaja",
@@ -43081,15 +43069,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ab6e4af2-c0d0-4822-9a1d-1d25219b6f4c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a working language, which is a mandatory requirement and falls under the Hard Rejections criteria since Priya does not speak Finnish or Swedish.",
+    "reason": "The job requires Finnish as a mandatory work language, which is a hard rejection since Priya does not speak Finnish or Swedish.",
     "id": "bca1c888",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 12.22",
     "deadline": "2026-10-16",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Sourcing Lead, Technology & SaaSNerdsbay OyFinlandGo to job site",
@@ -43098,15 +43085,14 @@
     "url": "https://www.jobly.fi/en/job/sourcing-lead-technology-saas-2759791",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job role (Sourcing Lead, Technology & SaaS) focuses on procurement and vendor management rather than DevOps, Configuration Management, Release Management, or technical documentation roles that align with the candidate's expertise.",
+    "reason": "The job title 'Sourcing Lead, Technology & SaaS' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, Technical Writing, or Quality Assurance, which are central to her 15-year career trajectory.",
     "id": "7a580481",
     "source": "work_in_finland",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "AI Platform EngineerAlma MediaHelsinkiGo to job site",
@@ -43115,15 +43101,14 @@
     "url": "https://www.jobly.fi/en/job/ai-platform-engineer-2760012",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is located in Finland (Espoo) and involves DevOps/SRE/cloud platform work aligning with some of Priya's CI/CD/release management skills, but it focuses on AI platform engineering rather than her preferred regulated-industry configuration/release management or technical documentation roles.",
+    "reason": "The role involves AI platform engineering and cloud infrastructure, which partially overlaps with Priya\u2019s CI/CD and DevOps experience but centers on AI/LLMOps rather than her core expertise in release/configuration management or regulated-industry quality gatekeeping.",
     "id": "c8d6e3b8",
     "source": "work_in_finland",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Senior AI Solutions EngineerAlma MediaHelsinkiGo to job site",
