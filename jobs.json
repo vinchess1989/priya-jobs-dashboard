@@ -60054,15 +60054,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-director-regional-marketing-life-sciences-emea-at-thermo-fisher-scientific-4463445174",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This is a senior marketing leadership role focused on digital marketing, e-commerce, and demand generation, which does not align with the candidate's technical communication, release management, and configuration management background.",
     "id": "32cd7c07",
     "source": "linkedin_fi_iso_13485_p2",
     "added_at": "2026-09-28T08:00:21+03:00",
-    "posted_date": "N/A",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Field Service Engineer",
@@ -60071,15 +60070,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-service-engineer-at-bd-4455784480",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in both English and Finnish, and the candidate does not speak Finnish.",
+    "reason": "This is a customer-facing Field Service Engineer role requiring extensive travel and fluency in Finnish, which conflicts with Priya's background in release management and lack of Finnish language skills.",
     "id": "c85c7c47",
     "source": "linkedin_fi_iso_13485_p2",
     "added_at": "2026-09-28T08:00:21+03:00",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Production Supervisor",
@@ -60088,15 +60086,14 @@
     "url": "https://fi.linkedin.com/jobs/view/production-supervisor-at-sartorius-4469138737",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing production supervisor position focused on managing production technicians and physical production plans, which does not align with the candidate's expertise in software release management, DevOps, and technical documentation.",
+    "reason": "This is a people/line management production supervisor role rather than a technical release management, configuration management, DevOps, or quality/regulatory role.",
     "id": "be1df025",
     "source": "linkedin_fi_iso_13485_p2",
     "added_at": "2026-09-28T08:00:21+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-05",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Biostatistician, Lifecourse Medicine, Faculty of Medicine",
@@ -60105,15 +60102,14 @@
     "url": "https://fi.linkedin.com/jobs/view/biostatistician-lifecourse-medicine-faculty-of-medicine-at-university-of-oulu-4470929151",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a background in statistics or bioinformatics for data analysis, which does not align with the candidate's expertise in Release Management, DevOps, and Technical Communication.",
+    "reason": "This biostatistician role requires a Master's degree in statistics, mathematics, or bioinformatics and heavy statistical analysis/data management in clinical research, which does not match Priya's configuration management, release management, and technical communication background.",
     "id": "8baedf63",
     "source": "linkedin_fi_iso_13485_p2",
     "added_at": "2026-09-28T08:00:21+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-11-01",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Join our M\u00f6lnlycke Supervisor Talent Community!",
@@ -60122,15 +60118,14 @@
     "url": "https://fi.linkedin.com/jobs/view/join-our-m%C3%B6lnlycke-supervisor-talent-community%21-at-m%C3%B6lnlycke-health-care-4278259345",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a production supervisor in a manufacturing plant, not a technical release, configuration, or documentation position.",
+    "reason": "This posting is for a factory supervisor talent community position in Mikkeli, which does not align with the candidate's software release, configuration management, and technical communication expertise.",
     "id": "4a3ac0ef",
     "source": "linkedin_fi_iso_13485_p2",
     "added_at": "2026-09-28T08:00:21+03:00",
     "posted_date": "1 vuosi sitten",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Tarjous- ja sopimuskoordinaattori",
@@ -60139,15 +60134,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tarjous-ja-sopimuskoordinaattori-at-steripolar-finland-head-office-4469091156",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluent written and oral Finnish, which the candidate does not speak.",
+    "reason": "The job requires fluent written and spoken Finnish and offers a salary below the candidate's minimum threshold, while also focusing on commercial contract coordination rather than the candidate's core technical, release, or quality management expertise.",
     "id": "3ada75b1",
     "source": "linkedin_fi_iso_13485_p2",
     "added_at": "2026-09-28T08:00:21+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-04",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Data Architect",
@@ -60156,15 +60150,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-architect-at-mylab-oy-4469747466",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in Finnish or Swedish, which the candidate does not speak.",
+    "reason": "The job is a Data Architect role focused on data modeling, databases, and data warehousing rather than Priya's core expertise in release management, CI/CD, DevOps, or quality/regulatory compliance, and it requires proficiency in either Finnish or Swedish.",
     "id": "9065c452",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-18",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Account Manager - Healthcare",
@@ -60173,15 +60166,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-account-manager-healthcare-at-microsoft-4470426376",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales and account management position, which does not align with the candidate's technical, release management, or quality assurance background.",
+    "reason": "This is a quota-carrying sales and account management role (Account Executive / Senior Account Manager), which triggers a hard rejection under the rule against sales positions wearing product or specialist titles.",
     "id": "f870608b",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Internal Product Specialist (m/f/x)",
@@ -60190,15 +60182,14 @@
     "url": "https://fi.linkedin.com/jobs/view/internal-product-specialist-m-f-x-at-avantor-4471455841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish, which the candidate does not have (mandatory language requirement).",
+    "reason": "This is a quota-carrying commercial sales role requiring fluency in Finnish and a degree in chemistry, neither of which match the candidate's profile.",
     "id": "296b080f",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Manager, Finance and Accounting",
@@ -60207,15 +60198,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-manager-finance-and-accounting-at-blueprint-genetics-4467843834",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a finance position requiring fluent Finnish, which the candidate does not speak.",
+    "reason": "The role is for a Senior Manager in Finance and Accounting, which does not match Priya's background in release management, CI/CD, configuration management, or technical communication.",
     "id": "bb11a2a1",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-11",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ohjelmistokehitt\u00e4j\u00e4",
@@ -60224,15 +60214,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ohjelmistokehitt%C3%A4j%C3%A4-at-insolution-oy-4388564927",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is a pure feature-development software engineering role, which is a hard rejection for the candidate.",
+    "reason": "The job is a 'pure Feature-Development Software Engineering' role focused on C#/NET development and industrial systems, which falls under Priya's Hard Rejection criteria for roles without CI/CD/release-management components.",
     "id": "5d1ad5c0",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
     "posted_date": "6 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Internal Medical Translator - English to Korean",
@@ -60241,15 +60230,14 @@
     "url": "https://fi.linkedin.com/jobs/view/internal-medical-translator-english-to-korean-at-iqvia-4463257370",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a native Korean speaker and focuses on translation, which does not align with the candidate\u2019s technical communication and release management background.",
+    "reason": "The role requires a native Korean speaker, which the candidate does not possess.",
     "id": "7f571dbd",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Dotnet Developer",
@@ -60258,15 +60246,14 @@
     "url": "https://fi.linkedin.com/jobs/view/dotnet-developer-at-recann-4470906501",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires mandatory Finnish proficiency and is a pure software development position, which falls under the candidate's hard rejection criteria.",
+    "reason": "The job requires fluent Finnish proficiency (mandatory) which Priya does not possess, and it is a pure feature-development software engineering role without release/CM/DevOps ownership components she specializes in.",
     "id": "367f3741",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Software Developer or Software Architect to industrial domain projects",
@@ -60275,15 +60262,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-developer-or-software-architect-to-industrial-domain-projects-at-solita-4395681861",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure software development and architecture position focused on feature development, which is a hard rejection for this candidate's profile.",
+    "reason": "The job title 'Senior Software Developer or Software Architect' falls under pure feature-development software engineering with no mention of release/CM/CI/CD ownership, which is a hard rejection criterion.",
     "id": "9864f870",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Sr CRA/CRAII (Nordics)Norway, Finland, Denmark and Sweden  homebased",
@@ -60292,15 +60278,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sr-cra-craii-nordics-norway-finland-denmark-and-sweden-homebased-at-syneos-health-4464365677",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Clinical Research Associate (CRA) position focused on clinical trial monitoring, which is a clinical role that does not align with the candidate's technical release management and software quality background.",
+    "reason": "The job is for a Clinical Research Associate (CRA) role focused on pharmaceutical trials and site monitoring, which does not align with Priya's expertise in configuration management, DevOps, CI/CD pipelines, or technical documentation in regulated/safety-critical industries.",
     "id": "7b95f200",
     "source": "linkedin_fi_iso_13485_p3",
     "added_at": "2026-09-28T09:17:55+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer, Windows/Desktop Applications - Helsinki, Finland",
