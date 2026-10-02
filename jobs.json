@@ -55987,15 +55987,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7d4e8e72f8f1883a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an on-site position in Sweden, which is outside Finland, and the domain (Electrical Engineering) does not match the candidate's expertise in software release management and technical communication.",
+    "reason": "This is a hands-on electrical engineering role focused on MV/HV switchgear installation and site commissioning rather than release, configuration management, DevOps, or quality assurance.",
     "id": "56006ec1",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Product Engineer",
@@ -56004,15 +56003,14 @@
     "url": "https://fi.indeed.com/career/product-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting lacks sufficient details to evaluate against candidate criteria.",
+    "reason": "This is a salary information page on Indeed rather than an actual job posting, containing no job description or hiring details.",
     "id": "a567a78b",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Product Engineer, Vantaa, F19",
@@ -56021,15 +56019,14 @@
     "url": "https://fi.indeed.com/career/product-engineer/salaries/Vantaa--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The page is a salary overview, not a job posting with role details, so it cannot be evaluated against the candidate\u2019s criteria.",
+    "reason": "This is a salary information page rather than an actual job posting, so it cannot be applied to.",
     "id": "c2967276",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -56038,15 +56035,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-engineer-spsat-20583073",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires good oral and written proficiency in Finnish, which the candidate does not speak.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess.",
     "id": "da22c6dd",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-04",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer (F-35 Program)",
@@ -56055,15 +56051,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-engineer-f-35-program-spsat-20583138",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires the ability to use Finnish as a working language, which the candidate does not speak.",
+    "reason": "The job posting explicitly requires Finnish as a working language, which the candidate does not speak.",
     "id": "af5e98ae",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-04",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -56072,15 +56067,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-engineer-scsom-20509977",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires good communication skills in Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish alongside English and focuses heavily on physical manufacturing, welding, and pressure vessel quality control, which does not align with her software and regulatory documentation background.",
     "id": "879cc537",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-08-26",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Customer Quality Engineer",
@@ -56088,16 +56082,15 @@
     "location": "Vantaa, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/customer-quality-engineer-sesat-20575163",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Quality Engineer position in Finland, which aligns with her extensive experience in quality gatekeeping, compliance, and technical problem-solving in regulated environments.",
+    "matches_requirements": "no",
+    "reason": "Although located in Finland, this role is customer-facing and heavily focused on direct customer quality management, problem-solving, and supplier audits, conflicting with the candidate's negative constraint against customer-facing roles.",
     "id": "29f52c7b",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/eaton_customer_quality_engineer_29f52c7b.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -56105,16 +56098,15 @@
     "location": "Helsinki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-quality-engineer-stshe-20549790",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role is a Senior Quality Engineer position in Helsinki that aligns with her extensive experience in quality gatekeeping, CI/CD, and process improvement.",
+    "matches_requirements": "maybe",
+    "reason": "The role requires quality engineering leadership and tooling experience, but leans more toward software development and test automation with TypeScript and Playwright than her core release management and compliance background.",
     "id": "b4d27c80",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/smartly_senior_quality_engineer_b4d27c80.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Supplier Quality Engineer (Electronics)",
@@ -56122,16 +56114,15 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/supplier-quality-engineer-electronics-stshe-20575794",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with her experience in quality engineering, configuration management, and supplier quality activities in a regulated environment, and is located in Finland.",
+    "matches_requirements": "maybe",
+    "reason": "The role requires extensive hands-on electronics hardware and supplier engineering experience, but strongly values her expertise in configuration control, traceability, and quality management.",
     "id": "32a2b842",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": "job_descriptions/iceye_supplier_quality_engineer__ele_32a2b842.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Supplier Quality Engineer (Mechanical)",
@@ -56139,16 +56130,15 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/supplier-quality-engineer-mechanical-stshe-20575795",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with her quality and configuration management expertise, but requires specialized mechanical manufacturing knowledge (GD&T, CNC) which is outside her software/electronics background.",
+    "matches_requirements": "no",
+    "reason": "The role requires a dedicated background in mechanical supplier quality, CNC machining, and GD&T rather than Priya's software configuration, release management, and documentation expertise.",
     "id": "36c40087",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Assurance Manager & Quality Assurance Engineer",
@@ -56157,15 +56147,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/product-assurance-manager-quality-assurance-engineer-scsom-20576307",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluency in Finnish, which the candidate does not speak.",
+    "reason": "The job posting requires fluency in Finnish, which is a hard rejection as the candidate does not speak the language.",
     "id": "e986447c",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-13",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "2026-10-26",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA/QC Engineer",
@@ -56174,15 +56163,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/qaqc-engineer-sesne-20266203",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires experience in MEP (Mechanical, Electrical, Plumbing) construction and mechanical/electrical engineering, which does not align with the candidate's software-focused release management and DevOps background.",
+    "reason": "The role requires a mechanical or electrical engineering background focused on MEP construction projects, which does not match Priya's software and release management profile.",
     "id": "ef167e2b",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-05-12",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatuinsin\u00f6\u00f6ri",
@@ -56191,15 +56179,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laatuinsinoori-shsph-20601280",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is a strong fit for her quality engineering and audit experience, but it is located in Sein\u00e4joki and requires on-site presence, which is acceptable, though it lacks the specific software-focused CI/CD or release management component she is primarily targeting.",
+    "reason": "The role matches her quality assurance and process improvement experience, but it is located in Sein\u00e4joki while she is based in Oulu and would require relocation or a remote/hybrid arrangement not explicitly stated.",
     "id": "715ba47d",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-11",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite"
   },
   {
     "title": "Laatuinsin\u00f6\u00f6ri, Pharmia Oy",
@@ -56208,15 +56195,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laatuinsinoori-pharmia-oy-sbson-20582716",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The role requires fluent Finnish as a mandatory language qualification, which the candidate does not possess.",
     "id": "61f3cf6c",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-02",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electrical QA/QC & MEP Compliance Engineer, CHEC",
@@ -56225,15 +56211,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/electrical-qaqc-mep-compliance-engineer-chec-sbsar-20569060",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in Finnish, which the candidate does not speak.",
+    "reason": "The role requires professional working proficiency in both English and Finnish, but the candidate does not speak Finnish.",
     "id": "cd2b7481",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-26T20:47:37+03:00",
     "posted_date": "2026-09-14",
     "deadline": "2026-10-25",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
