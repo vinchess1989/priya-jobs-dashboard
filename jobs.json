@@ -53791,15 +53791,14 @@
     "url": "https://de.linkedin.com/jobs/view/requirementsmanager-m-w-d-at-rohde-schwarz-4461233465",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not listed as a remote position, and the candidate is not looking to relocate outside of Finland.",
+    "reason": "The job requires native-level German language proficiency alongside English, which the candidate does not possess.",
     "id": "9044e3fd",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-26T01:56:45+03:00",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "vor 3 wochen",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ingeniero/a de Gesti\u00f3n de Requisitos",
@@ -53808,15 +53807,14 @@
     "url": "https://es.linkedin.com/jobs/view/ingeniero-a-de-gesti%C3%B3n-de-requisitos-at-idom-consulting-engineering-architecture-4259891201",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role based in Spain, which is outside of Finland and does not meet the criteria for a fully remote position.",
+    "reason": "The role is located in Madrid, Spain (on-site/hybrid), which violates the rule that non-remote jobs must be physically located in Finland.",
     "id": "602465cd",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst / Requirements Engineer (m/w/d) Team Partner & Vertrieb",
@@ -53825,15 +53823,14 @@
     "url": "https://de.linkedin.com/jobs/view/business-analyst-requirements-engineer-m-w-d-team-partner-vertrieb-at-funk-4453215365",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Hamburg, Germany, which is outside Finland and not a remote position, violating the location requirement.",
+    "reason": "The job is located in Hamburg, Germany, requiring on-site presence or residency outside Priya's location (Finland) without being fully remote worldwide, and it requires prior industry experience in insurance.",
     "id": "b675da0c",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 1 mes",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Responsable Syst\u00e8me d\u2019Offres Ferroviaires (F/H)",
@@ -53842,15 +53839,14 @@
     "url": "https://fr.linkedin.com/jobs/view/responsable-syst%C3%A8me-d%E2%80%99offres-ferroviaires-f-h-at-aubay-4433931451",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role located in France, which is outside of Finland and does not qualify as a fully remote position open to candidates in Finland.",
+    "reason": "The job is physically located in \u00cele-de-France, France, which violates the rule against on-site or hybrid roles outside Finland.",
     "id": "17479cd4",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 3 semanas",
+    "posted_date": "vor 3 tagen",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Prozess- und Anforderungsmanager (m/w/d) - Angebots- und Antragsprozesse KFZ/Moped",
@@ -53859,15 +53855,14 @@
     "url": "https://de.linkedin.com/jobs/view/prozess-und-anforderungsmanager-m-w-d-angebots-und-antragsprozesse-kfz-moped-at-jobsintown-de-gmbh-4467885255",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not a fully remote role open to candidates living in Finland.",
+    "reason": "The job is physically located in Karlsruhe, Germany, violating the location requirement since the candidate is based in Finland and the role is not remote.",
     "id": "9ccb18b7",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Abteilungsleiter Analysis and Functional Design of Digital Systems (m/w/d)",
@@ -53876,15 +53871,14 @@
     "url": "https://de.linkedin.com/jobs/view/abteilungsleiter-analysis-and-functional-design-of-digital-systems-m-w-d-at-rheinmetall-4371927889",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Germany and is not a remote role that allows working from Finland.",
+    "reason": "The job is located in Germany (Kiel/Kassel) and is an on-site management/department head role requiring fluent German, violating relocation, work model, and language requirements.",
     "id": "4e3185ed",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 7 meses",
+    "posted_date": "vor 7 monaten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "AES - Functional Owner",
@@ -53893,15 +53887,14 @@
     "url": "https://ro.linkedin.com/jobs/view/aes-functional-owner-at-harman-international-4466268279",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site/hybrid in Bucharest, Romania, which is outside Finland and not a remote role.",
+    "reason": "The job is physically located in Bucharest, Romania (with hybrid work requirements tied to that office), which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "391b9f90",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Systemingenieur Requirements (m/w/d)",
@@ -53910,15 +53903,14 @@
     "url": "https://de.linkedin.com/jobs/view/systemingenieur-requirements-m-w-d-at-rheinmetall-4459984487",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not a remote role that allows working from Finland.",
+    "reason": "The job is physically located in Brunswick, Germany, which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "4cb807fc",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 3 semanas",
+    "posted_date": "vor 4 wochen",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst & Test Manager Digital - AXA Luxembourg - CDI",
@@ -53927,15 +53919,14 @@
     "url": "https://lu.linkedin.com/jobs/view/business-analyst-test-manager-digital-axa-luxembourg-cdi-at-axa-luxembourg-axa-wealth-europe-4469397379",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Luxembourg and is not a remote role open to candidates living in Finland.",
+    "reason": "The job is located in Luxembourg, which violates the candidate's requirement to be based in or remote to Finland.",
     "id": "ab907ddb",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 1 d\u00eda",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "BA / Team Lead",
@@ -53944,15 +53935,14 @@
     "url": "https://es.linkedin.com/jobs/view/ba-team-lead-at-capgemini-4461069657",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hybrid position based in Madrid, Spain, which is outside Finland and does not offer full remote work from Finland.",
+    "reason": "The job is physically located in Madrid, Spain, and does not fit the location requirement of being in Finland or fully remote worldwide.",
     "id": "ef474a01",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 3 d\u00edas",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Payments Product Manager / System Analyst (Card Schemes)",
@@ -53960,16 +53950,15 @@
     "location": "Warsaw, Mazowieckie, Poland",
     "url": "https://pl.linkedin.com/jobs/view/payments-product-manager-system-analyst-card-schemes-at-evotym-4442256644",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is listed as fully remote, but it is unclear if it accepts candidates living in Finland or if the remote work is restricted to Poland or the UK.",
+    "matches_requirements": "no",
+    "reason": "The role is a fintech Payments Product Manager / System Analyst specializing in card schemes (Visa/Mastercard), which falls entirely outside Priya's background in release management, configuration management, and quality gatekeeping in safety-regulated industries.",
     "id": "31f156b0",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 2 meses",
+    "posted_date": "vor 2 monaten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Payments Product Manager / System Analyst (Card Schemes)",
@@ -53977,16 +53966,15 @@
     "location": "Riga, Riga, Latvia",
     "url": "https://lv.linkedin.com/jobs/view/payments-product-manager-system-analyst-card-schemes-at-evotym-4442264281",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is listed as fully remote but is based in Riga, Latvia, and requires Russian, which the candidate does not speak.",
+    "matches_requirements": "no",
+    "reason": "The role is focused on payments product management and card schemes in the financial technology sector, which does not align with Priya's background in release management, configuration management, DevOps, and quality/regulatory compliance in safety-critical and medical/automotive domains.",
     "id": "943a8fc7",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 2 meses",
+    "posted_date": "vor 2 monaten",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "#ET20 Responsable Conception Fonctionnelle et Syst\u00e8mes - Syst\u00e8mes Radar et Surveillance (F/H)",
@@ -53995,15 +53983,14 @@
     "url": "https://fr.linkedin.com/jobs/view/%23et20-responsable-conception-fonctionnelle-et-syst%C3%A8mes-syst%C3%A8mes-radar-et-surveillance-f-h-at-airbus-helicopters-4456525901",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is based in Marseille, France, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is physically located in Marseille, France (on-site/hybrid), violating the geographic restriction that requires jobs to be in Finland or fully remote.",
     "id": "5ec2f723",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Analyst IT",
@@ -54012,15 +53999,14 @@
     "url": "https://be.linkedin.com/jobs/view/lead-analyst-it-at-touring-careers-4465061983",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Brussels, Belgium, which is outside Finland and not remote, disqualifying it per location rules.",
+    "reason": "The job is physically located in Brussels, Belgium, violating the candidate's requirement to work in Finland or fully remotely without being restricted to locations outside Finland/EU.",
     "id": "62e21dbd",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 2 semanas",
+    "posted_date": "vor 18 stunden",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "CDI - Responsable Ing\u00e9nierie Syst\u00e8me et Int\u00e9gration/V\u00e9rification/Validation/Qualification (IVVQ) - H/F",
@@ -54029,15 +54015,14 @@
     "url": "https://fr.linkedin.com/jobs/view/cdi-responsable-ing%C3%A9nierie-syst%C3%A8me-et-int%C3%A9gration-v%C3%A9rification-validation-qualification-ivvq-h-f-at-naval-group-4458890878",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in France and is not a remote role available to residents of Finland.",
+    "reason": "The job is physically located in Ollioules, France, which violates the candidate's requirement to be based in Finland or remote from Finland.",
     "id": "ad814e04",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
-    "posted_date": "hace 4 d\u00edas",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Responsable Solutions F/H",
