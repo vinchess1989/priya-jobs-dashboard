@@ -65302,15 +65302,14 @@
     "url": "https://br.linkedin.com/jobs/view/especialista-de-produtos-s%C3%A3o-paulo-sp-at-hospcom-hospitalar-4441293919",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in S\u00e3o Paulo, Brazil (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule, and the role appears to be a sales-focused 'Product Specialist' position rather than a technical/quality product-specialist role matching the candidate's background.",
+    "reason": "The job is located in S\u00e3o Paulo, Brazil (not Finland) and is not fully remote, which falls under the 'Outside Finland and Not Remote' hard rejection rule. Additionally, the role appears to be customer-facing/sales-oriented (quota-carrying), which matches another hard rejection criterion for 'Quota-Carrying Sales Roles Mislabeled as Product Specialist'.",
     "id": "b57b7023",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
     "posted_date": "h\u00e1 2 meses",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist\uff08\u30d7\u30ed\u30c0\u30af\u30c8\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\uff09",
@@ -65319,15 +65318,14 @@
     "url": "https://jp.linkedin.com/jobs/view/product-specialist%EF%BC%88%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AA%E3%82%B9%E3%83%88%EF%BC%89-at-japan-cloud-4433012824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is in Tokyo, Japan, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland without remote flexibility from Finland.",
+    "reason": "The job is located in Tokyo, Japan (not Finland), requires on-site presence, and appears to be a quota-carrying sales role mislabeled as 'Product Specialist', which falls under strict hard rejections.",
     "id": "d58e8303",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 3 meses",
+    "posted_date": "3 meses",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Applications Specialist - 2 yrs EXP",
@@ -65336,15 +65334,14 @@
     "url": "https://ph.linkedin.com/jobs/view/product-applications-specialist-2-yrs-exp-at-dempsey-resource-management-4460043755",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Makati, Philippines, which is outside Finland and not a remote role, violating the location hard rejection criteria.",
+    "reason": "Job located outside Finland and not remote.",
     "id": "3fa515a9",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 4 semanas",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Product Specialist (Software Company)",
@@ -65353,15 +65350,14 @@
     "url": "https://ph.linkedin.com/jobs/view/product-specialist-software-company-at-jupiter-systems-inc-4387711026",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Philippines (Makati, National Capital Region), which is outside Finland and not remote, disqualifying it under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in the Philippines (Makati) and is not remote, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "17c7fdbc",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
     "posted_date": "h\u00e1 6 meses",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sr. Product Specialist - \u5206\u5b50\u4e92\u4f5c",
@@ -65370,15 +65366,14 @@
     "url": "https://cn.linkedin.com/jobs/view/sr-product-specialist-%E5%88%86%E5%AD%90%E4%BA%92%E4%BD%9C-at-%E4%B8%8A%E6%B5%B7%E7%91%9E%E5%AD%9A%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4470518565",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Shanghai, China, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Shanghai, China (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
     "id": "528b8bdc",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "3 dias",
+    "posted_date": "6 dias",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist - FTIR & RAMAN",
@@ -65387,15 +65382,14 @@
     "url": "https://in.linkedin.com/jobs/view/product-specialist-ftir-raman-at-anton-paar-india-4468735003",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Mumbai, India (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Mumbai, India (on-site), which violates Priya's strict requirement to only consider roles in Finland or fully remote positions accessible from Finland.",
     "id": "ede9467a",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
     "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist MI (Amplifier)",
@@ -65404,15 +65398,14 @@
     "url": "https://cn.linkedin.com/jobs/view/product-specialist-mi-amplifier-at-%E6%B7%B1%E5%9C%B3%E4%B8%BD%E7%AC%99%E9%A9%AC%E6%AD%87%E5%B0%94%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4469670011",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Shanghai, China (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Shanghai, China, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "95bca1d9",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "5 dias",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -65421,15 +65414,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-at-bluewater-hayes-inc-4463907267",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greater Philadelphia, PA (United States), which is an immediate hard rejection due to Priya's strict exclusion of any US-based roles, including remote positions restricted to the US.",
+    "reason": "The job is located in Greater Philadelphia, PA (United States), which is a strict non-negotiable exclusion for the candidate.",
     "id": "8980e3e4",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2026-09-11",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist MI (Amplifier)",
@@ -65438,15 +65430,14 @@
     "url": "https://cn.linkedin.com/jobs/view/product-specialist-mi-amplifier-at-%E6%B7%B1%E5%9C%B3%E4%B8%BD%E7%AC%99%E9%A9%AC%E6%AD%87%E5%B0%94%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4470583352",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales-oriented Product Specialist in China, outside Finland and not remote, and does not align with the candidate\u2019s technical/regulated release or documentation focus.",
+    "reason": "Job is located in Shenzhen, China (on-site), which does not meet Priya's strict requirement for Finland-based roles or fully remote roles accessible from Finland.",
     "id": "e342d75f",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 2 dias",
+    "posted_date": "5 dias",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Product Specialist - FTIR & RAMAN",
@@ -65455,15 +65446,14 @@
     "url": "https://in.linkedin.com/jobs/view/product-specialist-ftir-raman-at-anton-paar-india-4467391339",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Mumbai, India, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Mumbai, India (not Finland or remote), and requires customer-facing/sales-oriented responsibilities which conflict with the candidate's focus on technical/quality/product-specialist roles (not quota-carrying sales).",
     "id": "170cb0d6",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
     "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -65472,15 +65462,14 @@
     "url": "https://in.linkedin.com/jobs/view/product-specialist-at-bd-4470686450",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in India and is a sales-oriented Product Specialist role, which does not meet the Finland-based or remote criteria and is a quota-carrying sales position.",
+    "reason": "The job is located in Hyderabad, India (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote flexibility for someone based in Finland.",
     "id": "a84fdc41",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 6 dias",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -65489,15 +65478,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-at-curve-dental-4467190191",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Alpharetta, GA, USA, which triggers an immediate Hard Rejection due to the strict prohibition on any roles in or restricted to the United States (including remote roles requiring US-based work).",
+    "reason": "The job is located in Alpharetta, GA, USA, which is a strict hard rejection due to Priya's non-negotiable exclusion of any US-based roles (including remote) as specified in her requirements.",
     "id": "bfce2811",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -65506,15 +65494,14 @@
     "url": "https://uk.linkedin.com/jobs/view/product-specialist-at-universal-music-group-uk-4465048401",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a physical presence in London, UK, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in London, UK (outside Finland) and is not remote, which violates Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "af818303",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -65523,15 +65510,14 @@
     "url": "https://uk.linkedin.com/jobs/view/product-specialist-at-universal-music-group-4465056347",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in London, United Kingdom, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options from Finland.",
+    "reason": "The job is located in London, United Kingdom (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is outside Finland and not a fully remote role accessible from Finland.",
     "id": "41ca55c8",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Especialista em Produtos",
@@ -65540,15 +65526,14 @@
     "url": "https://br.linkedin.com/jobs/view/especialista-em-produtos-at-v%C3%ADncula-inspired-by-doctors-commitment-4469991532",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Brazil (Rio Claro, S\u00e3o Paulo) with an on-site/hybrid work model, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "Job location is in Brazil (Rio Claro, S\u00e3o Paulo) with a hybrid work model, which fails the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "3c1471f3",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-09-29T08:43:40+03:00",
     "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Requirement Engineer - Safety Critical Software (External)",
