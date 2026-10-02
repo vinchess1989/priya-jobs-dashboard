@@ -50655,15 +50655,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0fa39490-639b-41c7-bcc3-8b0501f702a7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description indicate a manual labor role (machine operator/temporary worker), which does not align with Priya's target roles in DevOps, configuration management, release management, or technical documentation.",
+    "reason": "The role is for a property maintenance worker (kiinteist\u00f6nhoitaja) requiring Finnish language proficiency, which does not align with the candidate's technical engineering and release management background.",
     "id": "ee6fe735",
     "source": "tyomarkkinatori",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "posted_date": "2026-09-18",
+    "deadline": "2026-10-05",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "K\u00e4silumity\u00f6ntekij\u00e4 arkit\u00f6ihin",
@@ -50672,15 +50671,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/410bb999-ebad-414c-8eb4-06aa54fb5a23/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a working language, which is a strict hard rejection since the candidate does not speak Finnish or Swedish.",
+    "reason": "The role requires fluent Finnish and is a manual labor position, which does not align with the candidate's professional background or language requirements.",
     "id": "28023e03",
     "source": "tyomarkkinatori",
-    "posted_date": "18.9.2026, 20.38",
+    "posted_date": "2026-09-18",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "K\u00e4silumity\u00f6ntekij\u00e4 viikonlopput\u00f6ihin",
@@ -50689,15 +50687,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b8838966-3b25-4c0b-8346-d105adefb803/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a physical snow\u2011removal position with no relevance to the candidate\u2019s technical release/CM/DevOps background.",
+    "reason": "The role requires mandatory Finnish language proficiency and is a manual labor position unrelated to the candidate's technical, release, or quality management expertise.",
     "id": "7fdb7263",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-12",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:54:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:54:54+03:00"
   },
   {
     "title": "Sairaanhoitaja, Attendo Jalava, Joroinen",
@@ -50706,15 +50703,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4603cad3-3a48-4ad2-b031-3146b2c59c8b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a nurse with specific medical qualifications and Finnish language proficiency, which do not align with Priya's background in technical communication, release management, or configuration management.",
+    "reason": "The role requires a clinical nursing degree and license, which the candidate does not possess, and it is a clinical healthcare position rather than a technical/engineering role.",
     "id": "856e67b4",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T22:11:17+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T22:11:17+03:00"
   },
   {
     "title": "K\u00e4silumity\u00f6ntekij\u00e4 arkit\u00f6ihin",
@@ -50723,15 +50719,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kasilumityontekija-arkitoihin-2761550",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish and is a manual labor position, which does not align with the candidate's professional background in technical communication and release management.",
     "id": "e227cce3",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T22:36:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T22:36:18+03:00"
   },
   {
     "title": "Konelumity\u00f6ntekij\u00e4",
@@ -50740,15 +50735,14 @@
     "url": "https://www.jobly.fi/tyopaikka/konelumityontekija-2761551",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a konelumity\u00f6ntekij\u00e4 (snowmobile operator) role, which does not align with Priya's expertise in DevOps, configuration management, release engineering, or technical writing.",
+    "reason": "This is a manual labor role (snow removal) that does not align with the candidate's 15-year career in software engineering, release management, and technical documentation.",
     "id": "12884865",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "2026-10-12",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T22:36:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T22:36:18+03:00"
   },
   {
     "title": "Junior System Architect, Cyber Defence Services",
@@ -50757,15 +50751,14 @@
     "url": "https://fi.linkedin.com/jobs/view/junior-system-architect-cyber-defence-services-at-netnordic-finland-4467898824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Junior System Architect role focused on infrastructure and platform development, which does not align with the candidate's expertise in Configuration Management, Release Management, DevOps/CI-CD, or technical writing, nor does it match the positive constraints related to configuration management or technical communications specialist experience.",
+    "reason": "The role is a system architecture position focused on platform infrastructure and cloud development, which falls under the hard rejection for specialist platform/architecture roles lacking a primary release/CM/quality core.",
     "id": "d5cb2c42",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T22:55:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T22:55:36+03:00"
   },
   {
     "title": "Tooling Controller (F-35 Program)",
@@ -50774,15 +50767,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tooling-controller-f-35-program-at-patria-4466697052",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Tooling Controller (F-35 Program) does not align with Priya's expertise in software configuration management, release processes, or regulated compliance, which are central to her background and target job criteria.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "032e574a",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "2026-10-04",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T22:55:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T22:55:36+03:00"
   },
   {
     "title": "Uustuote -myyntiedustaja OTIS",
@@ -50791,15 +50783,14 @@
     "url": "https://fi.linkedin.com/jobs/view/uustuote-myyntiedustaja-otis-at-otis-elevator-co-4452994048",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a quota-carrying B2B sales representative role, which falls under the Hard Rejection category for 'Quota-Carrying Sales Roles Mislabeled as \\\\",
+    "reason": "This is a quota-carrying sales role, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' titles.",
     "id": "374b30e8",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-08-04",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T22:55:36+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T22:55:36+03:00"
   },
   {
     "title": "Rakennusammattilainen, Oulu (m\u00e4\u00e4r\u00e4aikainen)",
@@ -50808,15 +50799,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusammattilainen-oulu-maaraaikainen-2746519",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a construction professional with hands-on skills in building/renovation work, which is unrelated to the candidate's expertise in DevOps, configuration management, release engineering, and technical documentation in regulated software industries.",
+    "reason": "The job posting is explicitly marked as no longer valid and is for a construction professional role, which does not align with the candidate's technical/engineering background.",
     "id": "0c538217",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T23:45:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T23:45:02+03:00"
   },
   {
     "title": "Account Executive, Benelux & Nordics",
@@ -50825,15 +50815,14 @@
     "url": "https://fi.linkedin.com/jobs/view/account-executive-benelux-nordics-at-copado-4446648372",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a quota-carrying sales role (Account Executive) which is explicitly excluded under Hard Rejections as it does not align with the candidate's technical/product-specialist background and falls under the 'Quota-Carrying Sales Roles Mislabeled as Product Specialist' rejection criterion.",
+    "reason": "This is a quota-carrying sales role, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' titles.",
     "id": "b34c1ff0",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T00:13:14+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T00:13:14+03:00"
   },
   {
     "title": "Product Manager, Agent Platform",
@@ -50841,16 +50830,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-manager-agent-platform-at-siena-ai-4469233513",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is a Product Manager role focused on AI automation, which is not one of Priya's target roles (e.g., DevOps, Configuration Management, Technical Writer), but the 'Product Specialist' positive constraint may loosely align with her Topcon experience if the role involves technical/quality product ownership.",
+    "matches_requirements": "no",
+    "reason": "The role is explicitly customer-facing and requires co-selling alongside sales, which the candidate has specifically rejected as a constraint.",
     "id": "e573aaf7",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T00:13:14+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T00:13:14+03:00"
   },
   {
     "title": "Civils Lead",
@@ -50859,15 +50847,14 @@
     "url": "https://fi.linkedin.com/jobs/view/civils-lead-at-winthrop-technologies-4415735224",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Civils Lead' and description focus on construction project management, site operations, and civil engineering responsibilities, which do not align with the candidate's background in technical communication, configuration/release management, or regulated-industry quality/compliance work.",
+    "reason": "The role is a construction-site-based Civil Engineering position requiring a degree in Civil Engineering and construction industry experience, which does not align with the candidate's background in software release management, DevOps, and technical communication.",
     "id": "f669b5af",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "posted_date": "1 viikko sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T00:13:14+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T00:13:14+03:00"
   },
   {
     "title": "Lakiasiainjohtaja",
@@ -50876,15 +50863,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lakiasiainjohtaja-at-nrc-group-finland-4465814603",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a legal/juridical role (Lakiasiainjohtaja) with law degree and corporate legal experience, which does not match the candidate's technical/configuration-management/release-engineering background.",
+    "reason": "The role is for a Legal Counsel (Lakiasiainjohtaja) requiring a Master of Laws degree, which does not align with the candidate's technical engineering and quality management background.",
     "id": "d6073502",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "2 viikkoa sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "posted_date": "3 viikkoa sitten",
+    "deadline": "2026-10-04",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T00:13:14+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T00:13:14+03:00"
   },
   {
     "title": "ServiceNow-arkkitehti",
@@ -50893,15 +50879,14 @@
     "url": "https://fi.linkedin.com/jobs/view/servicenow-arkkitehti-at-cgi-4460508652",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent communication in Finnish, which Priya does not speak, triggering a hard rejection under mandatory language requirements.",
+    "reason": "The role requires fluent Finnish, which the candidate does not speak, and it is a pure architecture/development role lacking the required release, configuration management, or quality gatekeeping core.",
     "id": "b50d1de8",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T00:29:15+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T00:29:15+03:00"
   },
   {
     "title": "Electrification Engineer, Hyvink\u00e4\u00e4",
