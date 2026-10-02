@@ -55747,15 +55747,14 @@
     "url": "https://fr.linkedin.com/jobs/view/cdi-ing%C3%A9nieur-assurance-qualit%C3%A9-et-satisfaction-client-h-f-at-stmicroelectronics-france-4470437018",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is an entry-level role located in France, which is outside the candidate's allowed locations and experience level.",
+    "reason": "The role is physically located in Rousset, France, violating the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "0fa238cd",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-26T15:27:16+03:00",
-    "posted_date": "il y a 4 jours",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Engineer (m/w/d) Medical Plastic Devices",
@@ -55764,15 +55763,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-medical-plastic-devices-at-oechsler-4380910380",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Germany and is not a remote role that permits working from Finland.",
+    "reason": "The job is physically located in Ansbach, Germany, which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "451d9a59",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-26T15:27:16+03:00",
-    "posted_date": "il y a 6 mois",
+    "posted_date": "il y a 7 mois",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur qualit\u00e9 production X/ F/H",
@@ -55781,15 +55779,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-production-x-f-h-at-house-of-aby-4468918133",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in France, outside Finland, and not remote, so disqualified.",
+    "reason": "The job is physically located in Amiens, France, which violates the candidate's location criteria of being in Finland or fully remote.",
     "id": "ee6e5dab",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-26T15:27:16+03:00",
-    "posted_date": "3\u00a0jours",
+    "posted_date": "il y a 1 semaine",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 (H/F)",
@@ -55798,15 +55795,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-sttraten-4467986451",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Valenciennes, France, which is outside Finland and not a remote position.",
+    "reason": "The job is located in Valenciennes, France, which violates the relocation and location requirements as the candidate is based in Finland and the role is not remote.",
     "id": "8610c8d2",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-26T15:27:16+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "il y a 2 semaines",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Engineer",
@@ -55815,15 +55811,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5cc2900b0a160121",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not speak, triggering a hard rejection.",
+    "reason": "The role requires fluent Finnish, which the candidate does not have.",
     "id": "5c649418",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "description_file": null
   },
   {
     "title": "AI Product Engineer (senior)",
@@ -55832,15 +55827,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1fda6ad415949f95",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is pure feature development, not release/CM/DevOps.",
+    "reason": "This role is a pure feature-development and AI software engineering position requiring hands-on coding in Go, Python, and TypeScript, which violates the hard rejection for pure feature-development engineering roles.",
     "id": "0c6b47ce",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Training and Technical Support Specialist - UPS",
@@ -55848,16 +55842,15 @@
     "location": "Vantaa, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=e800c255cdf6dff7",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with her technical writing, technical support, and product specialist expertise.",
+    "matches_requirements": "no",
+    "reason": "The role focuses heavily on hardware engineering, electrical power systems, and physical training for UPS equipment, which does not align with Priya's software configuration, release management, and documentation background.",
     "id": "dc4e7aae",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/eaton_lead_training_and_technical_su_dc4e7aae.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Technical Support Specialist - UPS",
@@ -55865,16 +55858,15 @@
     "location": "Vantaa, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=66dde016968933db",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role aligns with her experience in technical documentation, quality reporting, and technical product support, supported by her electronics background.",
+    "matches_requirements": "no",
+    "reason": "The role requires specialized electrical engineering knowledge in power electronics and UPS systems rather than matching Priya's background in software release management, configuration management, and quality/regulatory compliance.",
     "id": "98386815",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/eaton_senior_technical_support_speci_98386815.txt",
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Lead",
@@ -55883,15 +55875,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=66f80e08ccb05b28",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires specialized QA/QC experience in large-scale construction and MEP installations, which is outside the candidate's domain of software, firmware, and embedded systems quality management.",
+    "reason": "This is a site-based QA/QC construction engineering role focused on data center mechanical and CSA/MEP installations, which does not match Priya's software configuration management, release management, and technical communication background.",
     "id": "e3f516d6",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Engineer, Cloud",
@@ -55900,15 +55891,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=0d794f6502b7ae69",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure software engineering role focused on building and operating production systems, which falls under the candidate's hard rejection for feature-development roles.",
+    "reason": "This is a cloud infrastructure and platform architecture role focusing on building distributed AI systems, which falls under the hard rejection category for specialist platform and architecture roles with no release, configuration-management, or quality core.",
     "id": "92ae39b2",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Agentic Engineering Platform Engineer",
@@ -55916,16 +55906,15 @@
     "location": "Remote (Europe)",
     "url": "https://fi.indeed.com/rc/clk?jk=fcf7a06b498aabcc",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role's focus on CI/CD, release risk, and developer platform tooling aligns with her background in release management and DevOps.",
+    "matches_requirements": "no",
+    "reason": "This role is focused on building and integrating autonomous AI coding agents and developer platforms, which does not align with Priya's background in release management, configuration management, and technical communication.",
     "id": "32a2b96a",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": "job_descriptions/n8n_agentic_engineering_platform_e_32a2b96a.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Design Verification Engineer",
@@ -55934,15 +55923,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=74eec7445da28ff7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text contains only company boilerplate and website navigation links, lacking any specific job description, location, or requirements to evaluate.",
+    "reason": "The job description text does not contain any specific job details or location information beyond the general company boilerplate.",
     "id": "9c8b26f4",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "MedTech Device Field Service Engineer or Technician Flexible/Part Time - Finland",
@@ -55951,15 +55939,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=97be694609e0f698",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language and is a field\u2011service technician position, which does not align with the candidate\u2019s technical release/CM/DevOps background and language skills.",
+    "reason": "The job description explicitly requires fluent Finnish spoken as a mandatory qualification, which the candidate does not possess.",
     "id": "5cb18ac5",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Engineer - Construction",
@@ -55968,15 +55955,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=0b42682692f1df1a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not speak, and it is primarily a full-stack software development position rather than a release or configuration management role.",
+    "reason": "The role requires fluent written and spoken Finnish, and the candidate does not speak Finnish.",
     "id": "a5e49ef7",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Analytical Engineer",
@@ -55985,15 +55971,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=463d2798ec0b26c3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a degree in Chemistry or Materials Science and expertise in laboratory analytical instrumentation, which is outside the candidate's software-focused technical domain.",
+    "reason": "The role is a hands-on analytical laboratory engineering position requiring a degree in chemistry or materials science and physical operation of lab equipment like ICP-OES and SEM, which does not align with Priya's background in software, release, configuration management, and technical communication.",
     "id": "5b8d111c",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-26T19:00:18+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/google/gemma-4-26b-a4b-qat",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Electrical Engineer - MV Switchgear - Relocate to Nordics-VISA sponsorship available",
