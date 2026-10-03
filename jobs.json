@@ -8679,15 +8679,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-scsom-20536855",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role aligns with Priya's expertise in CI/CD pipelines (Jenkins/GitLab), infrastructure-as-code (Ansible), and regulated healthcare environments, matching her Elektrobit/Topcon experience. Location is Helsinki, Finland, which fits her preference for Finland-based roles.",
+    "reason": "This Senior DevOps Engineer role at GE HealthCare in Helsinki matches Priya's strong background in CI/CD pipelines, Linux, Python/Bash scripting, and regulated medical device environments.",
     "id": "74a92d27",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": "job_descriptions/ge_healthcare_senior_devops_engineer_74a92d27.txt",
-    "added_at": "2026-09-09T04:10:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:10:32+03:00"
   },
   {
     "title": "Senior DevOps Engineer - Core Platform Engineering",
@@ -8714,15 +8713,14 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-sisk-group-4410476898",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'BIM Manager' does not align with Priya's target roles in configuration management, release management, technical writing, or safety-critical requirements engineering.",
+    "reason": "The role is a BIM Manager in the construction sector, which falls under construction quality and management rather than software release, configuration management, or DevOps.",
     "id": "7f3f11e7",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:10:32+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:10:32+03:00"
   },
   {
     "title": "Technical Program Manager",
@@ -8731,15 +8729,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-program-manager-at-iceye-4451503799",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role involves requirements management, configuration control, and cross-functional technical coordination aligning with Priya\u2019s experience in regulated industries, but the title 'Mission Delivery Engineer' is not explicitly listed in her target job categories (e.g., Configuration Manager, Release Manager).",
+    "reason": "The role involves requirements management, traceability, and configuration control in Espoo, Finland, though it requires specific mission/space design software and customer-facing program management experience.",
     "id": "cb165e4e",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "IT / Storage Solution Manager",
@@ -8766,15 +8763,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tiiminvet%C3%A4j%C3%A4-microsoft-365-modern-work-at-prog-it-4450328690",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a team leadership position focused on Microsoft 365 consultancy and client-facing technical work, which does not align with Priya's expertise in CI/CD, release management, or regulated-industry quality/compliance gatekeeping.",
+    "reason": "This role requires fluent Finnish ('Sujuvaa suomen ja englannin kielen taitoa') which Priya does not have, and it is primarily a people-management and M365 consulting role rather than her core release/CM/DevOps focus.",
     "id": "ef61764f",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Master Data Governance",
@@ -8783,15 +8779,14 @@
     "url": "https://fi.linkedin.com/jobs/view/master-data-governance-at-tata-consultancy-services-4446764972",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires SAP Master Data Governance expertise and data governance operating model design, which does not align with Priya's background in CI/CD/release management, configuration management, or technical documentation. Her target roles include Configuration Manager, Release Manager, or Technical Writer, not data governance/SAP MDG implementation.",
+    "reason": "The role requires SAP MDG expertise which falls under specialized enterprise applications that Priya does not possess.",
     "id": "ba1c182d",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Senior Salesforce Administrator",
@@ -8800,15 +8795,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-salesforce-administrator-at-supermetrics-4461102997",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role as a Senior Salesforce Administrator focuses on Salesforce environment optimization and administration, which does not align with Priya's core expertise in configuration management, release processes, or regulated-industry quality gatekeeping (her experience at Topcon and Elektrobit). While she has Salesforce Admin certifications, the job\u2019s primary responsibilities do not match her target roles (e.g., Configuration Manager, Release Manager, Technical Writer) or her regulated/safety-critical industry background.",
+    "reason": "The role is focused on pure Salesforce administration and RevOps rather than Priya's core expertise in release management, CI/CD, and quality/compliance gatekeeping.",
     "id": "124be796",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Vastuuasentaja (IT- ja automaatioverkot sek\u00e4 teollisuusrobotiikka)",
@@ -8817,15 +8811,14 @@
     "url": "https://fi.linkedin.com/jobs/view/vastuuasentaja-it-ja-automaatioverkot-sek%C3%A4-teollisuusrobotiikka-at-valio-4464605687",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role requires fluency in Finnish (\\\\",
     "id": "84da66f5",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "3 viikkoa sitten",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Pricing and Packaging Manager",
@@ -8834,15 +8827,14 @@
     "url": "https://fi.linkedin.com/jobs/view/pricing-and-packaging-manager-at-aiven-4455897350",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Pricing and Packaging Manager does not align with Priya's target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) or her background in regulated/safety-critical industries.",
+    "reason": "The role focuses on commercial pricing strategy and financial modeling rather than configuration management, release management, technical writing, or quality engineering.",
     "id": "0f52fe50",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Lead Consultant / Architect - Document Control and Engineering Information Management (m/f/d)",
@@ -8850,16 +8842,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-consultant-architect-document-control-and-engineering-information-management-m-f-d-at-opentext-4417652042",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job involves document control and engineering information management, which partially overlaps with Priya's technical communication and configuration management experience, but the role focuses more on enterprise software architecture and solution delivery rather than CI/CD/release management or regulated-industry quality compliance.",
+    "matches_requirements": "no",
+    "reason": "The role centers on enterprise ECM system architecture and integrations (such as OpenText Content Server with SAP and CAD systems) rather than release management, CI/CD, configuration management, or technical documentation.",
     "id": "1171e5cc",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Lead Consultant / Architect - Document Control and Engineering Information Management (m/f/d)",
@@ -8867,16 +8858,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-consultant-architect-document-control-and-engineering-information-management-m-f-d-at-opentext-4445003278",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job involves document control and engineering information management, which partially aligns with Priya's experience in technical documentation and quality gatekeeping, but the primary focus on architecture and ECM system design may not fully match her core expertise in CI/CD/release management or regulated domains.",
+    "matches_requirements": "no",
+    "reason": "This role is focused on Enterprise Content Management (ECM) architecture, enterprise software implementation, and document control systems consulting rather than Priya's core expertise in CI/CD pipelines, release management, or quality/regulatory gatekeeping.",
     "id": "1ab50621",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Asset Performance Manager \u2013 Marine",
@@ -8885,15 +8875,14 @@
     "url": "https://fi.linkedin.com/jobs/view/asset-performance-manager-%E2%80%93-marine-at-abb-4460039633",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role as an Asset Performance Manager \u2013 Marine does not align with Priya\u2019s target domains (e.g., DevOps, Configuration Management, Release Management, Technical Writing) or her experience in regulated/safety-critical industries.",
+    "reason": "The job description text provided is incomplete and does not contain the role requirements or details needed to evaluate it against Priya's profile.",
     "id": "bdcaa09d",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:13:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:13:31+03:00"
   },
   {
     "title": "Senior R&D Operations Specialist",
@@ -8902,15 +8891,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-r-d-operations-specialist-at-relex-solutions-4458774075",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on AI tool administration and vendor management rather than CI/CD pipelines, release management, or configuration strategies aligned with Priya's expertise in regulated industries.",
+    "reason": "This role focuses on administering and evolving AI developer tools for engineers rather than release management, configuration management, DevOps pipelines, or quality gatekeeping.",
     "id": "ddc88d71",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:16:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:16:41+03:00"
   },
   {
     "title": "Data Center IT management Engineer - Finland",
@@ -8919,15 +8907,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-center-it-management-engineer-finland-at-tiktok-4460045849",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires data center operations and hardware expertise, which does not align with Priya's background in configuration management, release management, and technical documentation in regulated industries.",
+    "reason": "This is a data center facilities and hardware operations role focused on physical server maintenance, rack infrastructure, and data center management, which does not align with Priya's software release, configuration management, or technical communication background.",
     "id": "d91b39a4",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:16:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:16:41+03:00"
   },
   {
     "title": "Technical Solutions Engineer I, Scaled Solutions",
@@ -8935,16 +8922,15 @@
     "location": "Hamina, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/technical-solutions-engineer-i-scaled-solutions-at-google-4458987546",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target role types (DevOps, Configuration Management, Release Management, Technical Writing, etc.) as it focuses on technical consulting, backend systems, and data center operations rather than regulated-industry release/CM/quality gatekeeping or documentation ownership.",
+    "matches_requirements": "yes",
+    "reason": "The role matches Priya's extensive background in infrastructure operations, systems administration, automation scripting, and end-to-end technical project ownership with a location option in Hamina, Finland.",
     "id": "e7baa59c",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "added_at": "2026-09-09T04:16:41+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/google_technical_solutions_engineer_i_e7baa59c.txt",
+    "added_at": "2026-09-09T04:16:41+03:00"
   },
   {
     "title": "IQI - avoin hakemus",
@@ -8953,15 +8939,14 @@
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464619455",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is located in Finland (Rovaniemi) and targets senior IT roles with DevOps and project management experience, which aligns partially with Priya\u2019s background in CI/CD and regulated industries, but does not explicitly mention configuration management, release engineering, or technical writing responsibilities that match her target criteria.",
+    "reason": "This is an open application for IT consulting at IQI with locations in Finland including Rovaniemi, offering a broad range of technology projects that could match her DevOps, release management, or configuration management profile.",
     "id": "6ea67704",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T04:16:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T04:16:41+03:00"
   },
   {
     "title": "System Specialist - Market Integration",
