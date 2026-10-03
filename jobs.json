@@ -3584,16 +3584,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/quality-engineering-lead-at-supercell-4460718307",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches her quality engineering and release readiness experience in Finland, though it requires an on-site presence in Helsinki and has a heavy focus on test automation and people management.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns perfectly with Priya's expertise in quality strategy, release readiness, and CI/CD pipeline integration, and it is located in Helsinki, Finland.",
     "id": "7afe508f",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T00:47:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/supercell_quality_engineering_lead_7afe508f.txt",
+    "added_at": "2026-09-09T00:47:43+03:00"
   },
   {
     "title": "Software Development Manager",
@@ -3602,15 +3601,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-development-manager-at-hansen-technologies-4435780243",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a people and engineering management position focusing on cloud software development teams rather than Priya's core expertise in release management, CI/CD pipeline ownership, and quality compliance.",
+    "reason": "The role is a pure Software Development Manager position focused on leading feature-development teams and building cloud platforms, which falls under the hard rejection for pure feature-development software engineering roles.",
     "id": "743b9ba4",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:47:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:47:43+03:00"
   },
   {
     "title": "Senior SW Project Manager",
@@ -3618,16 +3616,15 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-sw-project-manager-at-safegrid-%E2%80%93-a-g-w-electric-company-4457761025",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role matches Priya's extensive project/release coordination and delivery management skills, though it leans more toward general software project management than her core configuration management or QA background.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with the candidate's extensive experience in technical project coordination, release management, and process improvement within a regulated, multidisciplinary software environment.",
     "id": "0906a2f2",
     "source": "linkedin_fi_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T00:47:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/safegrid___a_g_w_ele_senior_sw_project_manager_0906a2f2.txt",
+    "added_at": "2026-09-09T00:47:43+03:00"
   },
   {
     "title": "Product Owner, Engineering AI Platform & Capabilities (Helsinki/Oulu)",
@@ -3636,15 +3633,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-owner-engineering-ai-platform-capabilities-helsinki-oulu-at-op-pohjola-4460353228",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is closed to new applications as explicitly stated in the job posting.",
+    "reason": "The role is a Product Owner position focused on AI platform strategy and development, which falls under the 'Specialist Platforms' hard rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability.",
     "id": "6123f26c",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Technical Project Manager",
@@ -3653,15 +3649,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-at-taskmill-4462310633",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting requires fluent Finnish ('Sujuva suomen ja englannin kielen taito'), which violates the candidate's language constraint.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "bda9ec4c",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Senior Project Manager",
@@ -3670,15 +3665,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-project-manager-at-relex-solutions-4460472640",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a customer-facing project management role focused on supply chain software implementations, which does not match Priya's core technical release management, configuration management, or quality/regulatory background.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "f4b1e9cd",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "ICT Manager / ICT Projektip\u00e4\u00e4llikk\u00f6",
@@ -3687,15 +3681,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-manager-ict-projektip%C3%A4%C3%A4llikk%C3%B6-at-helsinki-shipyard-4453426139",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting explicitly requires fluent Finnish as a mandatory language skill, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "6b16931e",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Senior Project Manager",
@@ -3704,15 +3697,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-project-manager-at-solita-4457742853",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and specialized project management experience with Google Workspace and ChromeOS, which does not align with her background.",
+    "reason": "The role requires fluent Finnish for documentation and communication, which the candidate does not possess.",
     "id": "b13183aa",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Senior Product Manager",
@@ -3721,15 +3713,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-at-qoco-systems-ltd-4459205623",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications.",
+    "reason": "The role is a pure Product Management position focused on roadmap, strategy, and commercial discovery, which falls under the 'Specialist Platforms/Architecture' exclusion as it lacks the required core focus on release, configuration management, or quality/traceability engineering.",
     "id": "a126d773",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Senior Product Manager - Paper.io 2",
@@ -3738,15 +3729,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-paper-io-2-at-voodoo-4462770662",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a mobile game development product management role focused on F2P game mechanics, monetization, and live ops for Paper.io 2, which does not match Priya's background in release engineering, configuration management, DevOps, and technical/regulatory documentation.",
+    "reason": "The role is a pure product management position focused on game mechanics, monetization, and feature development, which falls under the 'Pure Feature-Development' and 'Specialist Platforms' hard rejections.",
     "id": "35aa6e5a",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Sr. Product Manager",
@@ -3755,15 +3745,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sr-product-manager-at-copado-4443625222",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a product management role focusing on AI testing feature development rather than her core background in release, configuration management, or technical writing/quality gatekeeping.",
+    "reason": "This is a pure Product Management role focused on feature strategy and roadmap development, which falls under the hard rejection for pure feature-development/product-management roles that lack a core release, configuration-management, or quality-gatekeeping focus.",
     "id": "e8830803",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Product Manager - Paper.io 2",
@@ -3772,15 +3761,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-paper-io-2-at-voodoo-4462768659",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a mobile game product management role focused on F2P monetization and live operations for Paper.io 2, which does not match Priya's background in release management, CI/CD, configuration management, and technical compliance.",
+    "reason": "The role is explicitly stated to be Paris or Amsterdam-based, which violates the location requirements, and it is a pure product management role focused on game feature development rather than release, configuration management, or quality engineering.",
     "id": "6d1c0f63",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "SAP PMO",
@@ -3789,15 +3777,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-pmo-at-tata-consultancy-services-4449123399",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an SAP-specific PMO/program management role requiring deep S/4HANA enterprise ERP implementation experience, which falls outside her configuration management, release engineering, and quality/regulatory background.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "fe55744d",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Feature Lead",
@@ -3806,15 +3793,14 @@
     "url": "https://fi.linkedin.com/jobs/view/feature-lead-at-supercell-4400855141",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role focuses on game feature design and game product management for mobile games, which falls under pure feature development and game systems design rather than Priya's expertise in release management, CI/CD, configuration management, or technical compliance.",
+    "reason": "The role is a product/feature design and management position focused on game systems and monetization, which falls under the 'Pure Feature-Development' and 'Specialist Platforms' hard rejections as it lacks the required release, configuration management, or quality-gatekeeping core.",
     "id": "4b7472c6",
     "source": "linkedin_fi_release_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:49:49+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:49:49+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -3823,15 +3809,14 @@
     "url": "https://hu.linkedin.com/jobs/view/technical-release-manager-at-rollout-it-4463509647",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Budapest, Hungary with a hybrid work requirement, which fails the candidate's location criteria of being based in Finland or fully remote.",
+    "reason": "The job is an on-site/hybrid role located in Budapest, Hungary, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "26549093",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:55:33+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:55:33+03:00"
   },
   {
     "title": "Senior Release Manager",
