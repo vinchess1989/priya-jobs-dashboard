@@ -17649,15 +17649,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=316cbfa5b7ffc0a2",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description indicate a managerial/infrastructure oversight role unrelated to DevOps, configuration management, release management, or technical documentation, which are the candidate's core expertise areas.",
+    "reason": "The job requires fluent Finnish and sufficient Swedish as mandatory qualifications, which Priya does not possess, and the role is a managerial position in municipal administration rather than technical/regulated-industry roles matching her expertise.",
     "id": "9e16fdc1",
     "source": "indeed_fi_broad_p3",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-05",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Personlig assistent till kvinna i Sibbo, 15h/m\u00e5n",
@@ -17666,15 +17665,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7457cb72899586d0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a personal assistant position, not a technical release, configuration, or documentation role that matches Priya\u2019s expertise.",
+    "reason": "The job role (personal assistant) does not align with Priya's target domains (DevOps, configuration management, release management, technical writing, etc.) or her experience in regulated/safety-critical software industries.",
     "id": "26534a9b",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Sairaanhoitaja, Lasten- ja nuorten erityisvastaanotto",
@@ -17683,15 +17681,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c7f86098312991e6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a nurse role in specialized care for children and adolescents, which does not align with the candidate's background in technical communication, configuration management, release engineering, or DevOps, nor does it match any of her target job categories.",
+    "reason": "The job requires a nurse role in specialized care for children/adolescents, which does not align with Priya's background in technical communication, configuration management, release engineering, or DevOps. None of the positive constraints (configuration management, Topcon experience, test engineer roles) are relevant to this healthcare nursing position.",
     "id": "125161fe",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Yksik\u00f6n p\u00e4\u00e4llikk\u00f6, yleisten alueiden valvonta ja infraluvat",
@@ -17700,15 +17697,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=32c98e9d8c890864",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a municipal unit manager in public sector, not related to DevOps, release management, or technical documentation.",
+    "reason": "The role 'Head of Unit, Oversight of General Areas and Infrastructure Permits' does not align with Priya's expertise in DevOps, configuration management, release management, technical writing, or quality assurance, and instead appears to be an administrative/managerial position unrelated to her target domains.",
     "id": "e98501d8",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "2026-10-05",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Asiakasvastaava, T\u00f6\u00f6l\u00f6n seniorikeskus, Rubinen/Rubiini (ruotsinkielinen)",
@@ -17717,15 +17713,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=657703c9efd13685",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Swedish (ruotsinkielinen) as a hard qualification, which Priya does not speak.",
+    "reason": "The job requires a customer-facing role ('Asiakasvastaava'), which is explicitly rejected under Hard Rejections due to the candidate's exclusion of such roles.",
     "id": "39f7b074",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Product Coordinator (Manager)",
@@ -17734,15 +17729,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3f63a324ed536f33",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title 'Product Coordinator (Manager)' at Sumitomo SHI FW in Espoo, Finland may align with Priya's experience as a Technical Communication Specialist and Product Specialist if the role involves technical/quality product coordination rather than sales. However, without explicit details on responsibilities, it is uncertain whether it avoids being a quota-carrying sales role or matches her configuration management/release expertise.",
+    "reason": "The job title 'Product Coordinator (Manager)' at Sumitomo SHI FW in Espoo, Finland is location-compliant but lacks sufficient detail to confirm alignment with Priya's expertise in configuration management, release processes, or technical documentation ownership.",
     "id": "e6030177",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Kunnossapitoasentaja",
@@ -17751,15 +17745,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1c938520c353bfc2",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Kunnossapitoasentaja' (maintenance technician/service engineer) does not align with Priya's target roles in configuration management, release engineering, or technical documentation, and there is no indication of CI/CD, regulatory compliance, or safety-critical requirements work in the job description.",
+    "reason": "The job title 'Kunnossapitoasentaja' (Maintenance Installer) at KONE appears to be a field service/technical installation role, which does not align with Priya's target domains (DevOps, Configuration Management, Quality Engineering, etc.) or her experience in regulated software release/CM/technical writing roles.",
     "id": "ae6fbfc3",
     "source": "indeed_fi_broad_p3",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Senior Service Integration Specialist",
@@ -17768,15 +17761,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-service-integration-specialist-2732764",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description focus on service integration and ITSM dashboards, which do not align with Priya's expertise in CI/CD, release management, or regulated-industry quality/compliance roles.",
+    "reason": "The role does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) and lacks explicit mention of configuration management or technical writing despite positive constraints.",
     "id": "48648d9b",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:09:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:09:21+03:00"
   },
   {
     "title": "Perheneuvoja",
@@ -17785,15 +17777,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9b8037f2-71df-4058-8c51-7589d8a98eba/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Family Counselor with specific social work qualifications and language skills (Finnish/Swedish), which do not align with Priya's technical background in DevOps, Configuration Management, or Technical Writing.",
+    "reason": "The job requires fluent Finnish and Swedish as mandatory qualifications, which Priya does not speak, triggering a hard rejection.",
     "id": "2f6eb35e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:11:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:11:56+03:00"
   },
   {
     "title": "Lounas Kokki & A la Carte Kokki",
@@ -17802,15 +17793,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9f57004b-8727-4bdc-8bb5-8852fd5d06f6/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a chef position in the food service industry, which does not align with Priya's background in technical communication, release management, configuration management, or DevOps/CI-CD roles.",
+    "reason": "The job requires Finnish as a working language (Suomi), which Priya does not speak, triggering a strict Hard Rejection.",
     "id": "7d07e3b6",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-12-31",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:11:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:11:56+03:00"
   },
   {
     "title": "Tarjoilija",
@@ -17819,15 +17809,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/44da5e55-633e-4b56-b68e-c425b9da976a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish as a work language, which Priya does not possess, triggering a strict hard rejection.",
+    "reason": "The job role (server/waiter) does not align with Priya's expertise in technical communication, configuration management, release management, or DevOps/CI-CD, and falls outside her target job criteria.",
     "id": "b0f61c25",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-31",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:11:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:11:56+03:00"
   },
   {
     "title": "Kahvilaty\u00f6ntekij\u00e4/barista",
@@ -17836,15 +17825,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ffde6593-4bcd-4812-8347-87e87b1875eb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for a barista at The French Caf\u00e9 Oy does not align with Priya's expertise in technical communication, release management, DevOps/CI-CD, or regulated-industry quality compliance.",
+    "reason": "The job as a barista does not align with Priya's target roles in technical communication, configuration management, release management, or DevOps/CI-CD, and lacks any connection to regulated/safety-critical industries or documentation/quality gatekeeping responsibilities.",
     "id": "a7d81028",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-31",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:11:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:11:56+03:00"
   },
   {
     "title": "Senior Server Engineer",
@@ -17853,15 +17841,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-server-engineer-at-redly-games-4406396864",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires backend/server engineering for game development (pure feature-development software engineering), which falls under the hard rejection category as Priya\u2019s expertise lies in release/CM/DevOps, not application feature development.",
+    "reason": "The job is a pure backend/server-engineering role focused on game development feature implementation rather than configuration management, release ownership, or quality/compliance gatekeeping which are central to Priya's expertise.",
     "id": "5c43d289",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-05-12",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:25:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:25:34+03:00"
   },
   {
     "title": "Backend Engineer (all genders) - Remote Nordics Europe",
@@ -17870,15 +17857,14 @@
     "url": "https://fi.linkedin.com/jobs/view/backend-engineer-all-genders-remote-nordics-europe-at-linro-4456324183",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Backend Engineer' role focused on feature-development software engineering, which falls under the strict hard rejection category for pure feature-development roles not involving release/CM/CI-CD ownership.",
+    "reason": "The job is a Backend Engineer role focused on feature development, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as Priya's experience is in release/CM/DevOps, not backend coding.",
     "id": "55f89938",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:25:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:25:34+03:00"
   },
   {
     "title": "SENIOR DATA ENGINEER",
@@ -17887,15 +17873,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-engineer-at-recordly-4462946588",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Data Engineer with expertise in data platforms and pipelines, which does not align with Priya's background in release management, configuration management, and technical writing.",
+    "reason": "The job requires fluent written and spoken Finnish, which is a hard rejection as Priya does not speak Finnish or Swedish.",
     "id": "fc32bbcd",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T21:25:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T21:25:34+03:00"
   },
   {
     "title": "AI Engineer",
