@@ -20451,15 +20451,14 @@
     "url": "https://ro.linkedin.com/jobs/view/release-and-delivery-manager-at-ntt-data-europe-latam-4461185751",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bucharest, Romania, which falls under the hard rejection criteria for on-site/hybrid roles outside of Finland.",
+    "reason": "The job location is Bucharest, Romania, which is outside Finland and not a fully remote option accessible from Finland, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "b94181b7",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:07:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:07:43+03:00"
   },
   {
     "title": "Change Manager / Release Manager ITIL (H/F) - CDI",
@@ -20468,15 +20467,14 @@
     "url": "https://fr.linkedin.com/jobs/view/change-manager-release-manager-itil-h-f-cdi-at-scalian-4451654345",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and requires fluent French, which violates the location and language requirements.",
+    "reason": "The job is located in Neuilly-sur-Seine, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
     "id": "5b02b8e0",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:07:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:07:43+03:00"
   },
   {
     "title": "Release & Quality Manager",
@@ -20485,15 +20483,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-quality-manager-at-seedfence-4432867066",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Paris, France (not Finland) and is not a fully remote role open to someone living in Finland, which violates the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "46841664",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:07:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:07:43+03:00"
   },
   {
     "title": "Domain Consultant Idira",
@@ -20502,15 +20499,14 @@
     "url": "https://fi.linkedin.com/jobs/view/domain-consultant-idira-at-palo-alto-networks-4462582165",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pre-sales/field sales engineering role, which falls under the hard rejection for quota-carrying sales roles mislabeled as specialist positions and is not aligned with her release/CM/quality background.",
+    "reason": "The role is a pre-sales/technical consultant position requiring customer-facing responsibilities and cybersecurity-specific expertise, which falls under the 'customer facing' hard rejection criterion and does not align with Priya's background in release/configuration management, DevOps, or technical writing.",
     "id": "f0de941a",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Presales Engineer \u2013 HPE Infrastructure",
@@ -20519,15 +20515,14 @@
     "url": "https://fi.linkedin.com/jobs/view/presales-engineer-%E2%80%93-hpe-infrastructure-at-ingram-micro-4437574938",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing Presales Engineer position, which conflicts with the candidate's explicit rejection of customer-facing roles.",
+    "reason": "The job requires a Presales Engineer role focused on sales support and technical advisory, which does not align with Priya's expertise in Configuration Management, Release Management, DevOps/CI-CD, and Technical Writing.",
     "id": "2e07feef",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Technical Customer Success Manager \u2013 KotiCharge",
@@ -20536,15 +20531,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-customer-success-manager-%E2%80%93-koticharge-at-koticharge-4462287446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer accepted, requires fluent Finnish, and offers a salary significantly below the candidate's minimum threshold.",
+    "reason": "The role is a 'Technical Customer Success Manager' involving direct customer interaction and technical support, which falls under the hard rejection category for 'customer facing' roles explicitly stated in the user's constraints.",
     "id": "220d2aee",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Customer Success Specialist",
@@ -20553,15 +20547,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-success-specialist-at-zero-4445140228",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is explicitly customer-facing and support-oriented, which the candidate has rejected, and it is targeted at entry-level/recent graduates rather than her senior profile.",
+    "reason": "The job requires a customer-facing 'Customer Success Specialist' role, which falls under the hard-rejected category of 'customer facing' roles as explicitly noted in the user's constraints.",
     "id": "3e7db442",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Customer Care Specialist",
@@ -20570,15 +20563,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-care-specialist-at-ssab-4461069039",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed to new applications and requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The job title and description align with customer service/operations roles, not technical writing, release management, or configuration management (the candidate's core expertise).",
     "id": "ff1d39cc",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Pre-Sales Cloud Architect",
@@ -20587,15 +20579,14 @@
     "url": "https://fi.linkedin.com/jobs/view/pre-sales-cloud-architect-at-upcloud-4447147014",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish, which the candidate does not possess, and it is no longer accepting applications.",
+    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role type (Pre-Sales Cloud Architect) does not align with her target criteria of configuration management, release engineering, or technical documentation roles.",
     "id": "fe9dadc5",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Technical Sales Engineer & Team Lead Finland and Estonia (m/f/d)- Leviat",
@@ -20604,15 +20595,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-engineer-team-lead-finland-and-estonia-m-f-d-leviat-at-crh-4441484996",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales and business development role, which is explicitly excluded by the candidate's requirements.",
+    "reason": "The role is a quota-carrying sales position with customer-facing responsibilities and team leadership in a sales context, which falls under the hard rejection category for 'Quota-Carrying Sales Roles Mislabeled as Product Specialist'.",
     "id": "083c20a7",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Ratkaisumyyj\u00e4, Kiinteist\u00f6- ja S\u00e4hk\u00f6ratkaisut",
@@ -20621,15 +20611,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ratkaisumyyj%C3%A4-kiinteist%C3%B6-ja-s%C3%A4hk%C3%B6ratkaisut-at-f9-distribution-oy-4463031222",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' roles.",
+    "reason": "The role is explicitly a quota-carrying sales position (Ratkaisumyyj\u00e4 / Solution Salesperson) under the 'Kiinteist\u00f6- ja S\u00e4hk\u00f6ratkaisut' (Building and Electrical Solutions) division, which falls under the hard rejection category for 'Quota-Carrying Sales Roles Mislabeled as \\\\",
     "id": "30f8dba1",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "2026-09-13",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Indication Manager",
@@ -20638,15 +20627,14 @@
     "url": "https://fi.linkedin.com/jobs/view/indication-manager-at-bonalive-4459674121",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a commercial, quota-carrying, and field-based sales/market-development role, which falls under the hard rejection for sales-focused positions and is outside the candidate's technical/quality-focused career path.",
+    "reason": "The role of Indication Manager focuses on commercial/clinical strategy and stakeholder engagement, which does not align with Priya's expertise in configuration management, release engineering, CI/CD pipelines, or regulated-industry quality compliance.",
     "id": "e4980ec7",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "2026-09-13",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Territory Manager ENT",
@@ -20655,15 +20643,14 @@
     "url": "https://fi.linkedin.com/jobs/view/territory-manager-ent-at-medtronic-4459147575",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role requiring fluent Finnish, both of which are hard rejections for the candidate.",
+    "reason": "The role is a quota\u2011carrying sales position requiring Finnish language skills, which are hard exclusions for Priya.",
     "id": "89597f86",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Field Medical Advisor (Fixed Term Contract)",
@@ -20672,15 +20659,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-medical-advisor-fixed-term-contract-at-johnson-johnson-innovative-medicine-4462423320",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in Finnish, which the candidate does not possess, and it is a customer-facing medical advisory role rather than a technical/quality release or CM role.",
+    "reason": "The job requires proficiency in Finnish as a hard qualification, which Priya does not possess, and the role type (Field Medical Advisor) does not align with her target criteria of DevOps, Configuration Management, or Quality Engineering roles.",
     "id": "86af1cf8",
     "source": "linkedin_fi_product_specialist_p2",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "4 zile \u00een urm\u0103",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Technical Presales Architect",
@@ -20689,15 +20675,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-presales-architect-at-ifs-4464459811",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a customer-facing presales role, which falls under the category of specialist architecture/consulting roles that lack the required core focus on release management, CI/CD, or quality/traceability engineering.",
+    "reason": "The role of Technical Presales Architect does not align with Priya's expertise in release/CM/DevOps or technical writing, and instead requires presales/solution-architecture responsibilities she has not performed.",
     "id": "d829fd9a",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T07:23:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T07:23:01+03:00"
   },
   {
     "title": "Automyyj\u00e4, Tampere/ Lakalaiva",
