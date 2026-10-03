@@ -21,6 +21,13 @@
   Swap the resume *before* she submits - it can't be changed after. Cover letter goes under "Additional
   Documents" (`#attachment-upload-*`). After submit the tab lands on `/my-profile`, which lists her
   Nokia applications - use it to confirm submission.
+- Nokia referrals: the email "X referred you to job ..." has a short link `jobs.nokia.com/s/<code>` that
+  lands on the job page with `utm_source=external referral` - apply from there (the plain
+  `/job/<n>/apply/...` URL doesn't carry the referral). Reapplying after a withdrawal worked (40658, Oct 2026).
+  The PIN email can be read from her logged-in Gmail in the CDP Chrome. Work-history tiles show Edit only on
+  hover (`[data-profile-item-tile]` -> `button[aria-label=Edit]`); month/year are comboboxes (type + pick
+  `role=option`); the Oracle profile's dates were wrong vs master_data and were corrected to match it.
+  Marko Bovellan (her former immediate manager at Elektrobit, now at Nokia) referred her.
 - NestAI (`careers.nestai.com`, Teamtailor): "How did you hear" is a dropdown of hidden radios and stays
   open over the Locations checkboxes - close it (Escape) and set checkboxes via JS `.click()`.
 - Priya wants the cover letter attached as an additional document on forms, not only pasted.
