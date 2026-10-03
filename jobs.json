@@ -4065,15 +4065,14 @@
     "url": "https://de.linkedin.com/jobs/view/release-manager-w-m-d-at-kind-gmbh-co-kg-4427328399",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent German (minimum C1 level) and is located in Germany outside Finland, violating the candidate's language and location criteria.",
+    "reason": "The position is on-site in Germany, which is outside Finland and not a remote role.",
     "id": "2a391be7",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Software Delivery Manager \u2013 Dublin City (3 days onsite per week)",
@@ -4082,15 +4081,14 @@
     "url": "https://ie.linkedin.com/jobs/view/software-delivery-manager-%E2%80%93-dublin-city-3-days-onsite-per-week-at-it-search-4464453963",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted ('Es werden keine Bewerbungen mehr angenommen').",
+    "reason": "The job is located in Dublin, Ireland, and requires 3 days of onsite attendance per week, which violates the requirement that roles outside Finland must be fully remote.",
     "id": "c8a4ee15",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Manager",
@@ -4099,15 +4097,14 @@
     "url": "https://gr.linkedin.com/jobs/view/release-manager-at-iknowhow-sa-4443289322",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is based in Athens, Greece, which is outside Finland and not a remote position, violating the location constraints.",
+    "reason": "The job is located in Greece and is not remote, which violates the location requirements, and the posting explicitly states that no more applications are being accepted.",
     "id": "87424292",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Product Release Manager (m/w/x)",
@@ -4116,15 +4113,14 @@
     "url": "https://de.linkedin.com/jobs/view/product-release-manager-m-w-x-at-k-tronik-gmbh-4452583027",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kiel, Germany, which violates the candidate's location preference as it is outside Finland and not a remote role open worldwide or from Finland.",
+    "reason": "The job is located in Germany, which violates the requirement that roles outside Finland must be fully remote and open to candidates in Finland.",
     "id": "6cdfb399",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Manager",
@@ -4133,15 +4129,14 @@
     "url": "https://nl.linkedin.com/jobs/view/release-manager-at-pracyva-4461187039",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands (Rotterdam and The Hague), which violates the hard rejection rule against on-site or hybrid jobs outside Finland.",
+    "reason": "The job is located in the Netherlands, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "36b8d2b6",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "PMT-Release Engineering",
@@ -4150,15 +4145,14 @@
     "url": "https://nl.linkedin.com/jobs/view/pmt-release-engineering-at-super-4392869754",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is missing the actual job description content and only contains LinkedIn boilerplate text.",
+    "reason": "The job is located in Amsterdam, Netherlands, and does not specify that it is open to remote applicants living in Finland, violating the location requirements.",
     "id": "3fcbbd2e",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Manager",
@@ -4167,15 +4161,14 @@
     "url": "https://pl.linkedin.com/jobs/view/release-manager-at-omada-4463371002",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a hybrid work model based in Warsaw, Poland or Alicante, Spain, which violates the candidate's requirement to be based in or remote from Finland.",
+    "reason": "The role is a hybrid position located in Warsaw, Poland or Alicante, Spain, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "45abdfee",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Software Release Manager",
@@ -4184,15 +4177,14 @@
     "url": "https://se.linkedin.com/jobs/view/software-release-manager-at-procruitment-ab-4456477453",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in J\u00f6nk\u00f6ping, Sweden (outside Finland) on-site/hybrid, and the posting explicitly requires fluency in Swedish ('Goda kunskaper i svenska och engelska').",
+    "reason": "The job requires fluent Swedish, which the candidate does not possess, and the location is in Sweden rather than Finland.",
     "id": "85c3d12e",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Manager",
@@ -4201,15 +4193,14 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-cognizant-4434544605",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Romania and is not a fully remote role open to candidates living in Finland.",
+    "reason": "The job is located in Romania and requires a hybrid presence (minimum 4 days per month onsite), which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "389b2cc8",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release & Deployment Manager",
@@ -4218,15 +4209,14 @@
     "url": "https://pt.linkedin.com/jobs/view/release-deployment-manager-at-havi-4453146768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, and requires physical presence or residency there, which violates the candidate's requirement to be based in or remote from Finland.",
+    "reason": "The job is located in Lisbon, Portugal, and is not a remote role open to candidates living in Finland, violating the location requirements.",
     "id": "8cf95738",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Engineer",
@@ -4234,16 +4224,15 @@
     "location": "Amsterdam, North Holland, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/release-engineer-at-engflow-4427632105",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting text is unavailable ('Error: Could not process this request') and the location is in Amsterdam, Netherlands, which violates the location criteria.",
+    "matches_requirements": "yes",
+    "reason": "The role is a perfect fit for her release management and CI/CD expertise, and it is a fully remote EMEA-based position which is accessible to candidates living in Finland.",
     "id": "07c8799d",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/engflow_release_engineer_07c8799d.txt",
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Technical Program Manager ID83550",
@@ -4252,15 +4241,14 @@
     "url": "https://si.linkedin.com/jobs/view/technical-program-manager-id83550-at-agileengine-4458635778",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting text is unavailable and resulted in an error page, making it impossible to evaluate.",
+    "reason": "The job posting explicitly states that no more applications are being accepted.",
     "id": "0f418515",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Change & release manager",
@@ -4269,15 +4257,14 @@
     "url": "https://be.linkedin.com/jobs/view/change-release-manager-at-crelan-4463611260",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Belgium, violating the candidate's requirement to be located in Finland or remote worldwide/EU.",
+    "reason": "The job is located in Belgium and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "c7b28ead",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Manager (m/w/d) agile Software Integration",
@@ -4286,15 +4273,14 @@
     "url": "https://de.linkedin.com/jobs/view/release-manager-m-w-d-agile-software-integration-at-scheidt-bachmann-4456599213",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in M\u00f6nchengladbach, Germany, which violates the hard rejection rule against on-site or hybrid roles outside Finland.",
+    "reason": "The job requires fluent German, which the candidate does not possess, and it is an on-site role in Germany, which falls outside the allowed locations.",
     "id": "69583346",
     "source": "linkedin_eu_release_manager_p2",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:58:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:58:52+03:00"
   },
   {
     "title": "Release Lead",
@@ -4303,15 +4289,14 @@
     "url": "https://pl.linkedin.com/jobs/view/release-lead-at-dyson-4451649818",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cracow, Poland, and is not a fully remote role open to candidates residing in Finland.",
+    "reason": "The job is located in Poland and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "9dfb7e42",
     "source": "linkedin_eu_remote_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:02:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:02:13+03:00"
   },
   {
     "title": "Release Manager",
