@@ -15729,15 +15729,14 @@
     "url": "https://www.jobly.fi/tyopaikka/haemme-energia-automaatioasiantuntijaa-2749001",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer active and accepting applications, and it requires energy and automation expertise rather than configuration management, release management, or technical communication.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications (\\\\",
     "id": "f8906e09",
     "source": "jobly_broad",
     "posted_date": "2026-09-19",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T12:38:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:38:11+03:00"
   },
   {
     "title": "Kohdevastaava / Kouluvahtimestari keikkaty\u00f6h\u00f6n",
@@ -15746,15 +15745,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kohdevastaava-kouluvahtimestari-2711580",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills and is for a school caretaker/facility management position, which does not match the candidate's technical communication, release management, and engineering background.",
+    "reason": "The role requires fluent Finnish language skills and is for a school caretaker/facility management position, which completely mismatches the candidate's technical release management and engineering background.",
     "id": "1d1b0c47",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T12:38:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:38:11+03:00"
   },
   {
     "title": "Avoin hakemus: Kaupan alan ty\u00f6ntekij\u00f6it\u00e4 Loimaan alueelle",
@@ -15763,15 +15761,14 @@
     "url": "https://www.jobly.fi/tyopaikka/avoin-hakemus-kaupan-alan-tyontekijoita-loimaan-alueelle-2730741",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a retail/customer service staffing agency opening that requires fluent Finnish and does not match Priya's technical, release management, or configuration management background.",
+    "reason": "The job is a retail/customer-service role requiring Finnish language proficiency and direct customer interaction, both of which are explicitly excluded in the candidate's hard rejections.",
     "id": "e1d63d67",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T12:38:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:38:11+03:00"
   },
   {
     "title": "Pakkaajia ja hiojia Lapualle",
@@ -15780,15 +15777,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pakkaajia-ja-hiojia-lapualle-2748998",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
+    "reason": "The job requires manual labor roles (packers and polishers) which do not align with Priya's expertise in technical communication, configuration management, release management, or DevOps.",
     "id": "2b172d91",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T12:38:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:38:11+03:00"
   },
   {
     "title": "Huopakattoasentaja",
@@ -15797,15 +15793,14 @@
     "url": "https://www.jobly.fi/tyopaikka/huopakattoasentaja-2748999",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a closed construction role for a felt roofer which completely mismatches Priya's technical and engineering background.",
+    "reason": "The role is a construction roof\u2011membrane installer position, which falls under manufacturing/construction and does not match her DevOps/Release/Quality/Technical communication background.",
     "id": "48cfc93b",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-09T12:38:11+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:38:11+03:00"
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00e4",
@@ -15814,15 +15809,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/911f4344-5549-4cc9-bf48-37311c5b3910/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction worker role requiring Finnish language skills, which does not match the candidate's technical communication, configuration management, and release engineering background.",
+    "reason": "The job requires Finnish language skills (hyv\u00e4\u00e4 Suomenkielen taitoa) and is in construction, which does not align with Priya's expertise in technical communication, release management, or configuration management.",
     "id": "c17c0a5c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-11",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T12:46:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:46:48+03:00"
   },
   {
     "title": "Kotisiivooja pitk\u00e4aikaiseen ty\u00f6suhteeseen, Pirkanmaa",
@@ -15831,15 +15825,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0b0b87d5-2406-4095-9886-595d77653c17/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a housekeeping/cleaning role requiring fluent Finnish, which completely conflicts with the candidate's professional technical background and language profile.",
+    "reason": "The role is for a domestic cleaner (kotisiivooja) which requires fluent Finnish for customer service and does not match the candidate's technical profile.",
     "id": "7ad72e5d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-06",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T12:46:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:46:48+03:00"
   },
   {
     "title": "Koneenkuljettaja / kiinteist\u00f6nhoitaja Ouluun",
@@ -15848,15 +15841,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e7f89152-3a22-4ad7-95f7-5131795bbc6c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a property maintenance and machine operator role requiring Finnish language skills, which completely mismatches the candidate's technical communication, software configuration, and release management background.",
+    "reason": "This is a blue-collar property maintenance and machine operation role requiring fluent Finnish, which completely mismatches the candidate's software engineering and release management background.",
     "id": "e2f225e1",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-11-01",
     "description_file": null,
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-09T12:46:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:46:48+03:00"
   },
   {
     "title": "Rengasasentaja syysesonkiin, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -15865,15 +15857,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/8d6df079-f5c5-46cc-98dd-d2f58caf28e1/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a physical manual labor role for a tire installer (Rengasasentaja), which is completely unrelated to Priya's technical and engineering background.",
+    "reason": "The job posting is for a physical labor role (tire fitter) in the automotive industry, which does not align with the candidate's expertise in technical writing, release management, configuration management, or regulated software quality roles.",
     "id": "cac22079",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-11",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T12:46:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:46:48+03:00"
   },
   {
     "title": "Senior Software DeveloperAufwin Defence Systems OyFinlandGo to job site",
@@ -15882,15 +15873,14 @@
     "url": "https://www.jobly.fi/en/job/senior-software-developer-2753948",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer active, and it is for a pure feature-development software engineering role.",
+    "reason": "The posting is no longer active and the role is a pure feature-development software engineering position, which is a hard rejection for Priya.",
     "id": "20622a63",
     "source": "work_in_finland",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T12:48:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T12:48:26+03:00"
   },
   {
     "title": "Kokkeja p\u00e4\u00e4kaupunkiseudulle - liity keikkatiimiimme!",
@@ -15899,15 +15889,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokkeja-paakaupunkiseudulle-liity-keikkatiimiimme-2716268",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a culinary chef position (kokki) in the restaurant industry, which is completely unrelated to the candidate's engineering, configuration management, and technical communication background.",
+    "reason": "The job posting is for a chef role, which is completely unrelated to the candidate's technical communication, release management, and software engineering background.",
     "id": "75f7d2e9",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T13:12:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T13:12:16+03:00"
   },
   {
     "title": "Tarjoilijoita p\u00e4\u00e4kaupunkiseudulle - liity keikkatiimiimme!",
@@ -15916,15 +15905,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tarjoilijoita-paakaupunkiseudulle-liity-keikkatiimiimme-2707390",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hospitality job for waiters and waitresses, which does not match Priya's technical communication, release management, and engineering profile.",
+    "reason": "The job posting is for a hospitality/waiter role in Finland, which does not align with Priya's expertise in technical communication, configuration management, release engineering, or regulated-industry quality assurance.",
     "id": "1d50ac23",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T13:12:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T13:12:16+03:00"
   },
   {
     "title": "Avoin hakemus: Siivousalan ty\u00f6ntekij\u00f6it\u00e4 Loimaan alueelle",
@@ -15933,15 +15921,14 @@
     "url": "https://www.jobly.fi/tyopaikka/avoin-hakemus-siivousalan-tyontekijoita-loimaan-alueelle-2730742",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a cleaning services role which does not match the candidate's background in release management, configuration management, DevOps, or technical communication.",
+    "reason": "The job is for a cleaning staff position, which does not align with the candidate's expertise in technical/regulated software release management, configuration management, or documentation specialism.",
     "id": "e76bb163",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T13:12:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T13:12:16+03:00"
   },
   {
     "title": "Levysepp\u00e4hitsaaja, Pieks\u00e4m\u00e4ki",
@@ -15950,15 +15937,14 @@
     "url": "https://www.jobly.fi/tyopaikka/levyseppahitsaaja-pieksamaki-2676430",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a blue-collar manufacturing/welding role (Levysepp\u00e4hitsaaja), which completely misaligns with the candidate's software engineering, release management, and technical communication profile.",
+    "reason": "The job is for a sheet metal welder (Levysepp\u00e4hitsaaja) in a manufacturing role, which falls under the 'Manufacturing... hardware quality roles' hard rejection category as it involves physical production and lacks software-release/configuration-management components.",
     "id": "73e9450d",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T13:12:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T13:12:16+03:00"
   },
   {
     "title": "AI Platform Engineer (employment / freelancing)",
@@ -15967,15 +15953,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-platform-engineer-employment-freelancing-at-witted-4465017457",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role centers on AI platform engineering, infrastructure, and FinOps for AI, which falls under the hard rejection category for platform/cloud specialist roles lacking release, CM, or quality governance cores.",
+    "reason": "The AI Platform Engineer role focuses on large-scale AI infrastructure and operations (e.g., Kubernetes, MLflow, FinOps for AI) rather than configuration management, release processes, or regulated-industry quality/compliance work that aligns with Priya's background in MDR/ISO 13485, ASPICE/TUV, and technical documentation.",
     "id": "a14faa2e",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 uger siden",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T13:39:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T13:39:35+03:00"
   },
   {
     "title": "Configuration Manager (m/f/d).",
