@@ -6501,15 +6501,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a2b4abdf23295543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Head of Marketing, Global' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or technical documentation/quality assurance, and her background is not suited to a marketing leadership position.",
+    "reason": "The role is a marketing leadership position, which falls outside the candidate's core expertise in release management, configuration management, and technical quality/documentation.",
     "id": "328826c5",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Automation System Specialist",
@@ -6517,16 +6516,15 @@
     "location": "Oulu, Hanko, Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=c0e283983367353a",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job title 'Automation System Specialist' lacks explicit details on responsibilities, making it uncertain if it aligns with Priya's expertise in CI/CD, release management, or technical documentation despite the location being in Finland and a positive constraint on configuration management.",
+    "matches_requirements": "no",
+    "reason": "The provided job description text is incomplete and does not contain the necessary details regarding responsibilities, requirements, or role type to evaluate against the candidate's profile.",
     "id": "d73e0081",
     "source": "indeed_fi_product_specialist_p2",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "PC Product Specialist",
@@ -6535,15 +6533,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pc-product-specialist-2748263",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'PC Product Specialist' at F9 Distribution Oy may involve sales or customer-facing responsibilities (as implied by the company's distribution focus), which falls under the hard rejection category for quota-carrying sales roles mislabeled as 'Product Specialist'.",
+    "reason": "The job posting explicitly states that it is no longer valid and is no longer accepting applications.",
     "id": "be368782",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "AV Product Specialist",
@@ -6552,15 +6549,14 @@
     "url": "https://www.jobly.fi/tyopaikka/av-product-specialist-2746975",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'AV Product Specialist' at F9 Distribution Oy is ambiguous and likely sales-focused rather than technical/quality product-support (which aligns with Priya\u2019s background), and the posting does not explicitly confirm English as the working language or include regulated/safety-critical domain requirements.",
+    "reason": "The job posting explicitly states that it is no longer valid (closed application).",
     "id": "a201be4d",
     "source": "jobly_fi_product_specialist",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:22:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:22:51+03:00"
   },
   {
     "title": "Product Specialist",
@@ -6587,15 +6583,14 @@
     "url": "https://fi.linkedin.com/jobs/view/join-us-in-kouvola-at-atnorth-4434452071",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not explicitly define a role that matches Priya's target criteria (e.g., DevOps, Configuration Management, Release Management, etc.) and appears to be a general IT services/consulting position without clear alignment to her regulated/safety-critical industry experience or technical documentation/quality gatekeeping responsibilities.",
+    "reason": "This is an open application for data center infrastructure roles that are primarily on-site and do not align with the candidate's specialized release management, configuration management, or quality engineering background.",
     "id": "67312d6d",
     "source": "linkedin_fi_broad",
     "posted_date": "3 viikkoa sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6604,15 +6599,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-loimua-oy-3807077665",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not specify a clear role that matches Priya's target domains (e.g., DevOps, Configuration Management, Release Manager) and appears to be an open application for unspecified positions, which does not align with her experience or the positive constraints.",
+    "reason": "This is an open application (avoin hakemus) for a utility company, which does not specify a role matching the candidate's required technical, release, or quality management domains.",
     "id": "84ca582d",
     "source": "linkedin_fi_broad",
     "posted_date": "2 vuotta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6620,16 +6614,15 @@
     "location": "Vaasa, Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-coe-group-4089581728",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting does not specify a role type that matches Priya's expertise in DevOps, Configuration Management, Release Management, or Technical Writing, and the seniority level appears to be entry-level (L\u00e4ht\u00f6taso), which does not align with her mid-to-senior experience.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application for a consulting firm, which could potentially align with her background in quality, release, or technical communication, but it is not a specific role with defined responsibilities.",
     "id": "e8c2ddf0",
     "source": "linkedin_fi_broad",
     "posted_date": "1 vuosi sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "AVOIN HAKEMUS",
@@ -6638,15 +6631,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-lsk-3664564400",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not specify a role type or responsibilities that align with Priya's expertise in configuration management, release management, or technical writing, and instead appears to be a generic 'open application' without clear criteria.",
+    "reason": "This is an open application (avoin hakemus) for a general facility services company, which does not align with the candidate's specialized technical, release, and quality management profile.",
     "id": "e007dcf6",
     "source": "linkedin_fi_broad",
     "posted_date": "3 vuotta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6654,16 +6646,15 @@
     "location": "Kokkola, Central Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-coe-group-4089580745",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting does not specify a role that matches Priya's target criteria (e.g., DevOps, Configuration Management, Release Management, etc.) and appears to be an open application without clear responsibilities or seniority alignment.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application for a consulting company, which could potentially align with her expertise in release management or quality engineering, but it is not a specific role with defined responsibilities.",
     "id": "fbee3c3b",
     "source": "linkedin_fi_broad",
     "posted_date": "1 vuosi sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6672,15 +6663,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-bravida-finland-oy-4297427419",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not specify a role type or responsibilities that align with Priya's target criteria (e.g., DevOps, Configuration Management, Release Manager, etc.), and the 'Avoin hakemus' (open application) description lacks sufficient detail to determine fit.",
+    "reason": "The job posting is an 'Avoin hakemus' (Open Application) page for LinkedIn, not a specific job vacancy with defined responsibilities, making it impossible to assess against the required domain or role criteria.",
     "id": "3238ec02",
     "source": "linkedin_fi_broad",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6688,16 +6678,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-enersense-4461826488",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job posting is an open application with no specific role title or description provided, making it unclear if it aligns with Priya's target criteria (e.g., Configuration Management, Technical Writing, Release Management), though it meets her location requirement for Finland.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "3456df88",
     "source": "linkedin_fi_broad",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Kotlin Backend Engineer - Retail Group",
@@ -6706,15 +6695,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kotlin-backend-engineer-retail-group-at-wolt-4456899573",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position (Kotlin Backend Engineer) with no CI/CD/release/CM ownership component, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "The role is a pure feature-development software engineering position focused on building microservices, which violates the hard rejection criteria regarding her career focus.",
     "id": "bdeb47b7",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Staff Backend Engineer (Remote)",
@@ -6723,15 +6711,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-backend-engineer-remote-at-nango-4424395865",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Staff Backend Engineer' role focused on feature development, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as Priya\u2019s expertise lies in release/CM/DevOps, not application code development.",
+    "reason": "The role is primarily a hands-on 'Staff Backend Engineer' focused on greenfield product development, which violates the hard rejection against pure feature-development software engineering roles.",
     "id": "09bcbf2f",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "N/A",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "(Senior) Applied Scientist, Recommendations",
@@ -6740,15 +6727,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-applied-scientist-recommendations-at-wolt-4458995064",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires applied machine learning and recommendation system development, which does not align with Priya's expertise in DevOps, configuration management, release management, and technical writing.",
+    "reason": "The role is a pure Applied Scientist/Machine Learning position, which falls under the hard rejection for specialist platforms/AI/ML roles that lack a core focus on release, configuration management, or quality engineering.",
     "id": "852e95f9",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Staff Security Engineer",
@@ -6757,15 +6743,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-security-engineer-at-supermetrics-4437285250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Staff Security Engineer does not align with Priya's target domains (e.g., DevOps, Configuration Management, Technical Writing) or her experience in regulated/safety-critical industries.",
+    "reason": "The role is a pure security engineering position focused on security architecture, threat modeling, and DevSecOps, which falls under the 'Specialist Platforms/Architecture' hard rejection criteria as it lacks a core focus on release management, configuration management, or quality/traceability.",
     "id": "317a7ace",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 kuukausi sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Project Quantity Surveyor",
