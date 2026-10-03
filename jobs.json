@@ -11133,15 +11133,14 @@
     "url": "https://www.jobly.fi/tyopaikka/testaaja-helsinki-2748639",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Test Automation Engineer focused on Android testing, which does not align with Priya's target criteria of release/CM/DevOps, technical writing, or quality engineering roles in regulated/safety-critical domains.",
+    "reason": "The job posting explicitly states that it is no longer active and accepting applications (\\\\",
     "id": "9eca588e",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:00:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:00:12+03:00"
   },
   {
     "title": "Cloud Architect",
@@ -11150,15 +11149,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-architect-at-fellowmind-4454755712",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent/native Finnish as a mandatory qualification, which Priya does not speak.",
+    "reason": "The role requires mandatory professional fluency in Finnish, which the candidate does not possess, and the application is closed.",
     "id": "d5545379",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "AI-Driven Cloud Architect",
@@ -11167,15 +11165,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-driven-cloud-architect-at-solteq-plc-4408913161",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires AI-driven cloud architecture and infrastructure-as-code expertise, which does not align with Priya's focus on release/CI-CD ownership, configuration management, and regulated-industry quality compliance (her core experience at Elektrobit and Topcon).",
+    "reason": "This role centers on AI-driven cloud infrastructure and cloud architecture design rather than release management, configuration management, or quality engineering.",
     "id": "137bf907",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "4 kuukautta sitten",
+    "posted_date": "5 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "AI Infrastructure Cloud Engineer (100 % remote) (m/f/d)",
@@ -11184,15 +11181,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-infrastructure-cloud-engineer-100-%25-remote-m-f-d-at-ewor-4461972175",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description focus on AI Infrastructure Cloud Engineering, which does not align with the candidate's expertise in release management, configuration management, or regulated-industry quality standards (e.g., MDR/ISO 13485).",
+    "reason": "This role centers on AI infrastructure and cloud platform engineering from 0-to-1 rather than release management, configuration management, DevOps CI/CD pipeline maintenance, or technical documentation.",
     "id": "e384c39e",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "4 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -11201,15 +11197,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453052841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on cloud architecture and infrastructure as code (IaC) rather than configuration management, release management, or technical documentation ownership, which are central to Priya's expertise.",
+    "reason": "This is a cloud engineering and cloud architecture consulting role focused on infrastructure and Hands-on IaC implementation rather than Priya's core competencies in release management, configuration management, DevOps pipelines, or quality gatekeeping.",
     "id": "30568df5",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Software Engineer II",
@@ -11218,15 +11213,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=aaafdf82f009dcd1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's required focus on release, configuration management, or quality/technical documentation.",
+    "reason": "This is a pure feature-development software engineering role focused on building backend services, APIs, and cloud infrastructure using Java and Node.js, which falls under the hard rejection rule for pure feature development.",
     "id": "d8c9e662",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "IQI - avoin hakemus",
@@ -11234,16 +11228,15 @@
     "location": "Tampere, Pirkanmaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464625424",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting does not explicitly specify a role type that matches Priya's target criteria (e.g., DevOps, Configuration Management, Release Management, etc.) and appears to be a general ICT open position without clear alignment to her regulated/safety-critical industry experience or CI/CD/release management ownership.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application (avoin hakemus) at an IT consultancy in Finland that aligns well with her DevOps, release management, and technical background, though it is not a specific job requisition.",
     "id": "69f334e3",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Kokenut pilviasiantuntija",
@@ -11252,15 +11245,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kokenut-pilviasiantuntija-at-gofore-4453070704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Kokenut pilviasiantuntija' (Cloud Specialist) likely falls under specialist platforms/architecture without explicit mention of CI/CD, configuration management, or regulated-industry compliance, which are critical to the candidate's target criteria.",
+    "reason": "The role focuses heavily on cloud infrastructure, architecture, and hands-on IaC implementation rather than Priya's core expertise in release management, configuration management, or quality gatekeeping.",
     "id": "b908b522",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "N/A",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Cutover Lead",
@@ -11269,15 +11261,14 @@
     "url": "https://hu.linkedin.com/jobs/view/cutover-lead-at-aldi-international-it-services-hungary-4458170915",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Budapest, Hungary, which violates the candidate's requirement to work either in Finland or fully remote.",
+    "reason": "The job is located outside Finland (Budapest, Hungary) and is closed to new applications ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "0c19dd7d",
     "source": "linkedin_eu_release_manager",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Staff / Senior Deployment & Release Manager",
@@ -11286,15 +11277,14 @@
     "url": "https://de.linkedin.com/jobs/view/staff-senior-deployment-release-manager-at-aerovect-4459365458",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Frankfurt, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is physically located in Frankfurt, Germany, which violates the candidate's requirement to work in Finland or fully remote.",
     "id": "7b36073a",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "vor 1 monat",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:18:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:18:35+03:00"
   },
   {
     "title": "Myynti-insin\u00f6\u00f6ri",
@@ -11303,15 +11293,14 @@
     "url": "https://fi.linkedin.com/jobs/view/myynti-insin%C3%B6%C3%B6ri-at-alupro-oy-4450461392",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Sales Engineer role with customer-facing responsibilities and quota-carrying sales tasks, which falls under the strict Hard Rejection category for pure sales roles labeled as 'Product Specialist' or similar, despite Priya's technical/quality product-specialist experience.",
+    "reason": "This is a quota-carrying sales role (Myynti-insin\u00f6\u00f6ri / Sales Engineer) which violates the hard rejection criteria for pure sales positions.",
     "id": "329e7230",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "vor 1 monat",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "posted_date": "1 kuukausi sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solutions Architect, Graduate Program",
@@ -11320,15 +11309,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-architect-graduate-program-at-nvidia-4447669568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is explicitly a graduate program for newly graduating students, which conflicts with the candidate's 15 years of experience and the hard rejection criteria for entry-level-only roles.",
+    "reason": "This is a graduate rotation program explicitly requiring a recent Master's degree in Computer Science or Engineering, which conflicts with the candidate's 15 years of experience and background profile.",
     "id": "272c941a",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Advisory Solutions Consultant",
@@ -11337,15 +11325,14 @@
     "url": "https://fi.linkedin.com/jobs/view/advisory-solutions-consultant-at-sailpoint-4433333020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires quota-carrying sales support and customer-facing solution consulting, which conflicts with negative constraints against customer-facing roles.",
+    "reason": "This is a customer-facing pre-sales/solutions consulting role that explicitly requires fluency in Finnish and involves quota-carrying sales support, violating both the language requirements and negative constraints.",
     "id": "463a983d",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "vor 1 monat",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Lead Application Engineer",
@@ -11354,15 +11341,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-application-engineer-at-eaton-4458895958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires electrical/power electronics expertise and application engineering with sales support, which does not align with Priya's background in release/CM/DevOps, technical writing, and regulated-industry quality compliance.",
+    "reason": "This is a customer-facing Application Engineering role requiring power electronics expertise, which conflicts with Priya's background in release management, configuration management, and technical communication.",
     "id": "bb5d8e93",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "vor 1 monat",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Solution Advisor Associate- SAP Academy for Customer Success - Finland (Hybrid)",
@@ -11371,15 +11357,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-advisor-associate-sap-academy-for-customer-success-finland-hybrid-at-sap-4457491815",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing sales/consulting position requiring deal support and client interaction, which falls under Priya's explicit hard rejection for 'customer facing' roles.",
+    "reason": "This is a customer-facing sales/solution advisory role that explicitly conflicts with the candidate's negative constraint against customer-facing positions, and it requires early-career experience which does not match her 15 years of experience.",
     "id": "17e04f9d",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T05:23:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T05:23:22+03:00"
   },
   {
     "title": "Portfolio Sales Professional",
