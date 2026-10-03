@@ -19971,15 +19971,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-%E2%80%93-tule-rtk-laiseksi%21-at-rtk-palvelu-oy-4465375969",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job posting does not specify a role type that matches Priya's expertise in DevOps, Configuration Management, Release Management, or technical writing in regulated industries.",
     "id": "80bb9c06",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:06:51+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:06:51+03:00"
   },
   {
     "title": "Sairaanhoitaja Avoin haku operatiiviset palvelut",
@@ -19988,15 +19987,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/366882e8-5d51-4617-88cf-8b0af998ef00/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical nursing license and fluent Finnish, neither of which the candidate possesses.",
+    "reason": "The job requires clinical nursing skills and Finnish language proficiency, which the candidate does not possess, and falls under the 'Clinical/Medical License Required' hard rejection rule.",
     "id": "6c2b6679",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-11-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:24:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:24:16+03:00"
   },
   {
     "title": "Senior Engineering Manager",
@@ -20005,15 +20003,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-engineering-manager-at-%C5%8Dura-4433182610",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure people-management position focused on feature-team leadership and backend development, which falls under the hard rejection for line management with no release/CM/quality core.",
+    "reason": "The job requires a Senior Engineering Manager with team leadership responsibilities, which does not align with Priya's focus on configuration management, release management, or DevOps/CI-CD ownership as specified in her target job criteria.",
     "id": "f29e8bd6",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "4 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Lead Developer",
@@ -20022,15 +20019,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-developer-at-reaktor-3866967890",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on feature-development software engineering position, which violates the hard rejection against pure feature-development roles.",
+    "reason": "The job is a 'Lead Developer' role focused on full software development lifecycle and technical delivery, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks CI/CD/release-management ownership components.",
     "id": "85488518",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-27",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Engineering Manager, Channels & Platform",
@@ -20039,15 +20035,14 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-manager-channels-platform-at-siena-ai-4454030745",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Engineering Manager position focused on product-delivery and people management, which falls under the 'Specialist Platforms, Architecture or Line Management' hard rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability.",
+    "reason": "The role is an Engineering Manager position focused on team leadership and product delivery, not aligned with Priya's expertise in CI/CD pipelines, configuration management, release management, or regulated-industry quality gatekeeping.",
     "id": "5b0089cd",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-20",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Game Producer",
@@ -20056,15 +20051,14 @@
     "url": "https://fi.linkedin.com/jobs/view/game-producer-at-suomigamehub-4445997848",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "reason": "The role of Game Producer focuses on project management and game development coordination rather than CI/CD, release management, configuration management, or regulated-industry quality/compliance work, which are central to Priya's expertise.",
     "id": "c5378287",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Technical Project Manager",
@@ -20072,16 +20066,15 @@
     "location": "Kirkkonummi, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-at-applied-materials-4456953004",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a strong fit for her project management and technical background, but it focuses on general R&D project management rather than the specific release/configuration management or quality-gatekeeping core she has specialized in recently.",
+    "matches_requirements": "no",
+    "reason": "The job title 'Technical Project Manager' does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) and lacks explicit mention of CI/CD, configuration management, or technical documentation responsibilities central to her background.",
     "id": "508f18f1",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-27",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Technical Program Manager, Data Center Delivery",
@@ -20090,15 +20083,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-program-manager-data-center-delivery-at-google-4463584295",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on capital construction project management (civil/electrical/mechanical engineering) rather than software release, configuration management, or technical documentation.",
+    "reason": "The job requires managing capital construction projects and infrastructure delivery, which does not align with Priya's expertise in software release management, configuration management, or regulated quality compliance (her target roles include DevOps/Release Management/Technical Writing in safety-critical domains).",
     "id": "aa4388bf",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Senior Product Manager, Yousician App",
@@ -20107,15 +20099,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-yousician-app-at-yousician-4458891145",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure Product Management role focused on business strategy, growth, and monetization, which falls under the hard rejection for roles lacking a core release, configuration management, or quality/requirements component.",
+    "reason": "The job requires a Senior Product Manager role focused on product strategy and team leadership, which does not align with Priya's expertise in configuration management, release processes, or technical documentation ownership.",
     "id": "0e89c013",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "CSA Package Manager",
@@ -20124,15 +20115,14 @@
     "url": "https://fi.linkedin.com/jobs/view/csa-package-manager-at-mercury-4325513723",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction site management role focused on physical building projects, which does not align with the candidate's software release, configuration management, and technical documentation background.",
+    "reason": "The role falls under 'Manufacturing, Construction or Hardware Quality Roles' which is explicitly excluded in Hard Rejections as Priya's experience is in software/medical-device quality, not construction/project management.",
     "id": "961cab9f",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "QA Test Engineer",
@@ -20140,16 +20130,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/qa-test-engineer-at-neural-dsp-4455887140",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted.",
+    "matches_requirements": "maybe",
+    "reason": "The QA Test Engineer role at Neural DSP aligns with Priya\u2019s quality assurance experience but lacks explicit mention of configuration management, release processes, or documentation ownership central to her background. While it matches regulated-industry quality work (hardware/software testing), the focus on firmware/hardware testing without CM/DevOps components makes it a partial fit.",
     "id": "f29bc590",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Senior Quality Engineer",
@@ -20158,15 +20147,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-quality-engineer-at-smartly-4436767252",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role focuses on quality engineering and developer experience, which aligns with her background, but it requires a hybrid presence in Helsinki 3 days a week and emphasizes hands-on coding/automation over her core release management and regulatory compliance expertise.",
+    "reason": "The job aligns with Priya's Quality Engineer experience but lacks explicit mention of regulated/safety-critical standards (MDR/ISO 13485/ASPICE) she has worked under, though it may still be a fit given her general quality management expertise.",
     "id": "4e48b1f4",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "IT Platform Lead",
@@ -20175,15 +20163,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-platform-lead-at-supermetrics-4460728348",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure IT systems and architecture position focused on AI/LLM integration and security architecture, lacking the required core focus on release management, CI/CD pipeline ownership, or quality/traceability engineering.",
+    "reason": "The role focuses on AI infrastructure and architecture rather than configuration management, release processes, or quality gatekeeping, which are central to Priya's expertise.",
     "id": "bff0bf0c",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Senior Product Manager \u2013 Finland (Launch & Growth)",
@@ -20192,15 +20179,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-%E2%80%93-finland-launch-growth-at-trust-in-soda-4460989866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role is a pure Product Management position rather than the required release, configuration management, or quality-focused role.",
+    "reason": "The role is a Senior Product Manager focused on product strategy and business development, which does not align with Priya's expertise in configuration management, release processes, and technical documentation (her target roles include DevOps, Configuration Manager, Technical Writer, etc.).",
     "id": "b619d246",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "added_at": "2026-09-10T05:39:44+03:00",
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "added_at": "2026-09-10T05:39:44+03:00"
   },
   {
     "title": "Produktov\u00fd specialista",
@@ -20209,15 +20195,14 @@
     "url": "https://cz.linkedin.com/jobs/view/produktov%C3%BD-specialista-at-kub%C3%AD%C4%8Dek-vhs-s-r-o-4465390575",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Czechia (not Finland), is not remote, and the posting explicitly states that applications are no longer being accepted.",
+    "reason": "The job location is in Czechia (Velk\u00e9 Losiny, Olomouc), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "005db121",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T06:22:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T06:22:18+03:00"
   },
   {
     "title": "L\u00e4hihoitaja Sis\u00e4tautien osasto",
