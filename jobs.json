@@ -1816,15 +1816,14 @@
     "url": "https://instagram.com/jobly.fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is merely an Instagram profile/login page for jobly.fi rather than an actual job posting.",
+    "reason": "The provided text is a social media profile page for a job board (Jobly.fi) rather than an actual job posting with specific role details.",
     "id": "6cbf22da",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Linkedin",
@@ -1833,15 +1832,14 @@
     "url": "https://linkedin.com/company/joblyfi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a company page for Jobly.fi on LinkedIn rather than a specific job opening for the candidate.",
+    "reason": "The provided text is a LinkedIn company profile page for the job board 'Jobly.fi' and does not contain a specific job opening to evaluate.",
     "id": "cb4a0d29",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Configuration Specialist",
@@ -1868,15 +1866,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-architect-plm-at-hiab-4460366683",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a Solution Architect role centered on PLM platforms (Windchill) and enterprise architecture, which falls under the hard rejection criteria for specialist platforms and architecture roles lacking a core release, CM, or quality focus.",
+    "reason": "The role is a Solution Architect position focused on PLM/Windchill platform architecture and development, which falls under the hard rejection for specialist platforms/architecture roles that lack a core focus on release, CM, or quality engineering.",
     "id": "26a4181d",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Application Specialist (ERP)",
@@ -1885,15 +1882,14 @@
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This ERP-focused application specialist role requires specific IFS system experience and fluent Finnish, which do not align with Priya's configuration/release management and non-Finnish-speaking profile.",
+    "reason": "The job requires fluent Finnish, which the candidate does not possess, and it is a pure ERP application specialist role lacking the required focus on release management, CI/CD, or quality/traceability engineering.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Implementation Consultant",
@@ -1902,15 +1898,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This implementation consultant role involves heavy client-facing duties and application support, which conflicts with the candidate's preferences and does not align with her core release management and technical communication background.",
+    "reason": "The role is primarily a customer-facing implementation and consulting position, which conflicts with the candidate's explicit rejection of customer-facing roles.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "System Engineer",
@@ -1919,15 +1914,14 @@
     "url": "https://fi.linkedin.com/jobs/view/system-engineer-at-iceye-4427036824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on infrastructure, network management, and server/firewall setup rather than configuration management, CI/CD ownership, or release engineering.",
+    "reason": "The role is primarily focused on hardware/infrastructure system engineering, on-site installation, and customer-facing support, which falls outside the candidate's core expertise in software release management, CI/CD, and technical documentation.",
     "id": "84c95aff",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Senior Implementation Consultant",
@@ -1936,15 +1930,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-consultant-at-thomson-reuters-4460058834",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This implementation and consultancy role focuses on e-invoicing and enterprise financial platforms without matching Priya's core release management, configuration management, DevOps, or quality/regulatory engineering background.",
+    "reason": "The role is primarily a customer-facing implementation and pre-sales consultancy position, which falls outside the candidate's core focus on release management, configuration management, and quality/regulatory gatekeeping.",
     "id": "c7fcb0b3",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "ERP Solutions Manager",
@@ -1952,16 +1945,15 @@
     "location": "Kauhajoki, South Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/erp-solutions-manager-at-ikh-group-4462205522",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role focuses heavily on enterprise ERP (Microsoft Business Central) ownership and solution architecture rather than her core release management, configuration management, or technical documentation background.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with Priya's expertise in release management, go-live coordination, technical documentation, and cross-team process ownership, and it is based in Finland with a hybrid work model.",
     "id": "c7deb945",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/ikh_group_erp_solutions_manager_c7deb945.txt",
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "Google Workspace Consultant \u2013 Turn technology into more meaningful ways of working",
@@ -1970,15 +1962,14 @@
     "url": "https://fi.linkedin.com/jobs/view/google-workspace-consultant-%E2%80%93-turn-technology-into-more-meaningful-ways-of-working-at-gapps-4390153797",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This Google Workspace Consultant role is heavily customer-facing and focused on cloud workspace deployment and change management, whereas Priya's background is in release management, CI/CD, and quality/compliance engineering.",
+    "reason": "The role explicitly requires significant customer-facing interaction and consulting, which the candidate has specifically rejected as a negative constraint.",
     "id": "d5c23071",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "ERP & Master Data Specialist",
@@ -2004,15 +1995,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cpu-solutions-specialist-at-verda-4456274102",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications.",
+    "reason": "The job is no longer accepting applications and falls under the category of hardware/infrastructure architecture/specialist roles which lack the required focus on software release, configuration management, or quality/traceability.",
     "id": "eec5b12d",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "IT Solution Manager - FICO",
@@ -2021,15 +2011,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-solution-manager-fico-at-neste-4460250750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on enterprise SAP FICO finance solutions, which falls under the specialist platforms exclusion without a CI/CD, release, or quality/CM core.",
+    "reason": "The role is a specialized SAP FICO functional/solution management position, which falls under the hard rejection for enterprise-application specialisms lacking a core focus on release, configuration management, or quality engineering.",
     "id": "456232f8",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "Microsoft 365 -konsultti",
@@ -2038,15 +2027,14 @@
     "url": "https://fi.linkedin.com/jobs/view/microsoft-365-konsultti-at-futuriot-4439007984",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a customer-facing Microsoft 365 consultant role focusing on enterprise IT environments rather than Priya's core expertise in release management, DevOps, CI/CD pipelines, or regulatory quality assurance.",
+    "reason": "The role is a customer-facing consultant position focused on M365 administration and implementation, which lacks the release management, configuration management, or quality/traceability core required by the candidate's profile.",
     "id": "928a3f19",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-07-31",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:13:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:13:56+03:00"
   },
   {
     "title": "Release Manager",
@@ -2073,15 +2061,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-manager-managed-file-transfer-mft-edi-at-fiskars-group-4457320334",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role focuses on enterprise integration, Managed File Transfer (MFT), and EDI architecture rather than Priya's core expertise in release management, CI/CD pipelines, configuration management, or regulatory quality engineering.",
+    "reason": "The role is a specialized integration/solution management position focused on MFT and EDI platforms, which falls under the 'Specialist Platforms' hard rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability.",
     "id": "a6a18706",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:18:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:18:46+03:00"
   },
   {
     "title": "BIM Manager",
@@ -2090,15 +2077,14 @@
     "url": "https://fi.linkedin.com/jobs/view/bim-manager-at-john-sisk-son-ltd-4409265801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction-industry BIM Manager role focused on 3D/4D modeling, clash detection, and building information management in Revit/Navisworks, which does not align with Priya's software engineering, release management, and compliance background.",
+    "reason": "The role is a construction-industry BIM management position focused on physical building projects, which falls under the hard rejection for construction/manufacturing quality roles.",
     "id": "0de2628d",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:18:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:18:46+03:00"
   },
   {
     "title": "Design and Engineering Tools Deployment Lead NB Zone",
@@ -2107,15 +2093,14 @@
     "url": "https://fi.linkedin.com/jobs/view/design-and-engineering-tools-deployment-lead-nb-zone-at-schneider-electric-4390142630",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role focuses heavily on customer-facing sales enablement, software deployment, and training for external partners rather than technical release management, quality assurance, or requirements engineering.",
+    "reason": "The role is primarily a customer-facing sales support and training position, which violates the negative constraint against customer-facing roles and lacks the required focus on release, configuration management, or quality engineering.",
     "id": "ddd78a41",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:18:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:18:46+03:00"
   },
   {
     "title": "Team Leader, Document Coordinator",
