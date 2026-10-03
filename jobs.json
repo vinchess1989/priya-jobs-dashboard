@@ -6998,16 +6998,15 @@
     "location": "Lahti, P\u00e4ij\u00e4t-H\u00e4me, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-wipak-finland-at-wipak-4449974891",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The posting is an open application without a specific role, so it cannot be confirmed as matching Priya's target domains.",
+    "matches_requirements": "no",
+    "reason": "This is a general open application for a manufacturing company (packaging/containers) rather than a specific role matching her expertise in software release, configuration management, or technical communication.",
     "id": "69f70b62",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "1 kuukausi sitten",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus / Scania Suomi Oy",
@@ -7016,15 +7015,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-scania-suomi-oy-at-scania-suomi-oy-4343892576",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is an open application with vague responsibilities and does not specify a role type that matches Priya's expertise in configuration management, release engineering, or technical communication in regulated industries.",
+    "reason": "This is an open application for a general pool rather than a specific role, and the seniority level is explicitly listed as entry-level, which does not align with the candidate's 15 years of experience.",
     "id": "5ed41df2",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -7032,16 +7030,15 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-eisko-oy-4431542043",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job posting does not specify a role that matches Priya's expertise in configuration management, release processes, or technical communication, making it uncertain whether it aligns with her target criteria.",
+    "matches_requirements": "no",
+    "reason": "This is an 'open application' (Avoin hakemus) for a manufacturing company specializing in electrical switchboards, which falls under the hard rejection for manufacturing/hardware quality roles with no software-release or configuration-management component.",
     "id": "da63df8c",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -7049,16 +7046,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-kiwa-suomi-4264351912",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting is an open application with no specific role or responsibilities defined, making it impossible to assess alignment with Priya's target criteria in configuration management, release engineering, or technical communication.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application (avoin hakemus) rather than a specific job posting, which may or may not align with her specialized release/quality engineering profile.",
     "id": "7a8fee3d",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "1 vuosi sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -7067,15 +7063,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-aito-talotekniikka-3840826918",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is a general open application with no specific role type matching Priya's target criteria (e.g., DevOps, Configuration Management, Release Manager, Technical Writer) and does not align with her experience in regulated/safety-critical industries or technical documentation.",
+    "reason": "This is an open application for a construction/renovation company, which does not align with the candidate's specialized background in software release management, DevOps, and regulated-industry quality assurance.",
     "id": "82cf315d",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "2 vuotta sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -7084,15 +7079,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-jis-automation-oy-4319501703",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job is an open application with no specific role details, making it unclear if it aligns with Priya's configuration management/technical communication expertise or senior-level experience.",
+    "reason": "This is an open application (avoin hakemus) for a company in the automation sector, which could potentially align with her background in technical documentation or quality, but it is not a specific role with defined responsibilities.",
     "id": "b4182972",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "11 kuukautta sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentaja",
@@ -7101,15 +7095,14 @@
     "url": "https://fi.linkedin.com/jobs/view/s%C3%A4hk%C3%B6asentaja-at-laatus%C3%A4hk%C3%A4ri-oy-4462533462",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a field service technician (electrical installer), which does not align with Priyanga\u2019s release/DevOps/technical writing expertise.",
+    "reason": "The role is for an electrician (S\u00e4hk\u00f6asentaja), which is a manual trade position and does not align with the candidate's background in software engineering, release management, and technical communication.",
     "id": "83f502bb",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Hartsaaja",
@@ -7118,15 +7111,14 @@
     "url": "https://fi.linkedin.com/jobs/view/hartsaaja-at-abb-4460375305",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a hard rejection.",
+    "reason": "The role is a manual manufacturing/production position requiring Finnish language proficiency and is closed for applications.",
     "id": "81b916ff",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus katsastusteht\u00e4viin",
@@ -7135,15 +7127,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-katsastusteht%C3%A4viin-at-helppokatsastus-4367299901",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not align with Priya's target role types (e.g., DevOps, Configuration Management, Technical Writing) or her regulated/quality-focused background; it appears to be an entry-level inspection role in motor vehicle manufacturing without mention of CI/CD, release management, or safety-critical compliance work.",
+    "reason": "The role is for a vehicle inspection professional (katsastusteht\u00e4v\u00e4), which is outside the candidate's domain of software release, configuration management, and technical documentation.",
     "id": "10f82675",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "8 kuukautta sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus - Ravintola",
@@ -7152,15 +7143,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-ravintola-at-muji-finland-oy-4382028800",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess, triggering a hard rejection.",
+    "reason": "The job is a restaurant-sector open application requiring fluent Finnish, which is a hard rejection, and it is also closed for applications.",
     "id": "77399c48",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "6 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Avoin hakemus - Myym\u00e4l\u00e4",
@@ -7169,15 +7159,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-myym%C3%A4l%C3%A4-at-muji-finland-oy-4382035570",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a customer-facing retail sales role requiring fluent Finnish, which falls under Priya's Hard Rejection criteria for mandatory Finnish/Swedish requirements and non-technical/sales roles mislabeled as 'Product Specialist'.",
+    "reason": "The role is a retail store position requiring fluent Finnish, which does not match the candidate's professional background or language requirements, and the application is closed.",
     "id": "691cd500",
     "source": "linkedin_fi_broad_p3",
     "posted_date": "6 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:35:12+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:35:12+03:00"
   },
   {
     "title": "Stadsdirekt\u00f6r",
@@ -7186,15 +7175,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/stadsdirektor-sdsuu-20545842",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a City Director (Stadsdirekt\u00f6r) with leadership and public administration experience, which does not align with Priya\u2019s expertise in DevOps, Configuration Management, Release Management, or technical documentation in regulated industries.",
+    "reason": "The role is a high-level municipal executive position (City Manager) which does not align with the candidate's technical, release, and quality management background, and the application period has closed.",
     "id": "a4c50275",
     "source": "duunitori_broad",
     "posted_date": "2026-09-04",
     "deadline": "2026-10-02",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:38:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:38:18+03:00"
   },
   {
     "title": "Attendo-kodin johtaja, T\u00e4hdist\u00f6, Riihim\u00e4ki",
@@ -7203,15 +7191,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=785fbd71fd032754",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description is unavailable due to a 400 Bad Request error, making it impossible to assess whether the role aligns with Priya's qualifications or the positive constraints (configuration management, technical communications specialist experience).",
+    "reason": "The job is for a care home manager (kodin johtaja) in the healthcare sector, which requires clinical/management qualifications and is unrelated to the candidate's technical, release, or quality engineering background.",
     "id": "10edb84e",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:38:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:38:18+03:00"
   },
   {
     "title": "Ski Shop-ty\u00f6ntekij\u00e4, Yll\u00e4s Ski Resort, \u00c4k\u00e4slompolo",
@@ -7220,15 +7207,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tarjoilija-lapland-hotels-olos-olostunturi-2685791",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires customer-facing retail work (ski shop employee) which falls under the 'customer facing' hard rejection rule, and does not align with the candidate's technical/quality/regulatory background in release management, documentation, or safety-critical industries.",
+    "reason": "The role is for a waiter in the hospitality industry, which does not align with the candidate's technical background, and it explicitly requires Finnish language skills.",
     "id": "409c2fde",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Myyj\u00e4 \u2013 Keikkaty\u00f6 Rovaniemi Koskikatu 20 & Pohjolankatu 13",
@@ -7237,15 +7223,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-keikkatyo-rovaniemi-koskikatu-20-pohjolankatu-13-2753740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer\u2011facing retail sales position, which does not align with Priya\u2019s release/CM/DevOps/technical documentation expertise.",
+    "reason": "The job is a retail sales position, which does not align with the candidate's professional background in technical communication, release management, and engineering, and the posting is explicitly marked as no longer valid.",
     "id": "3fd0ce87",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Nosturiautonkuljettaja, vakkari, EURA",
