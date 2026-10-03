@@ -3069,15 +3069,14 @@
     "url": "https://nl.linkedin.com/jobs/view/configuration-management-engineer-at-optics11-4432610015",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Amsterdam, Netherlands, and requires candidates to currently reside in the Netherlands, whereas the candidate is based in Finland and is not open to relocating outside Finland.",
+    "reason": "The job is located in the Netherlands and explicitly requires candidates to currently reside in the Netherlands with the legal right to work there, which violates the location criteria.",
     "id": "75513aad",
     "source": "linkedin_eu_remote_configuration_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:31:10+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:31:10+03:00"
   },
   {
     "title": "Configuration Specialist",
@@ -3104,15 +3103,14 @@
     "url": "https://fi.indeed.com/viewjob?jk=456789abcdef0123",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is explicitly located and restricted to the United States, triggering the strict hard rejection rule for US-based or US-restricted positions.",
+    "reason": "The job is restricted to the United States, which is a strict hard rejection criteria.",
     "id": "69dbdc2b",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Find salaries",
@@ -3121,15 +3119,14 @@
     "url": "https://www.indeed.com/career/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary search page on a job board rather than a valid job posting.",
+    "reason": "The provided text is a generic job board navigation page and does not represent an actual job opening.",
     "id": "0bcc6f47",
     "source": "indeed_fi_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Troubleshooting Cloudflare Errors",
@@ -3138,15 +3135,14 @@
     "url": "https://www.indeed.com/help/job-seekers/articles/33465379855501-cloudflare-errors-basic-troubleshooting?hl=en",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a website help troubleshooting guide for Indeed users rather than an actual job posting.",
+    "reason": "This is a help center troubleshooting article for Indeed users, not a job vacancy.",
     "id": "468c5bc5",
     "source": "indeed_fi_configuration_manager_p2",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "IT Service Data and Configuration Product Owner, Tampere or Helsinki",
@@ -3155,15 +3151,14 @@
     "url": "https://www.jobly.fi/tyopaikka/it-service-data-and-configuration-product-owner-tampere-or-helsinki-2745565",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer active and not accepting applications.",
+    "reason": "The job posting explicitly states that it is no longer valid and is no longer accepting applications.",
     "id": "3bb50043",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Paloilmoitinj\u00e4rjestelm\u00e4asiantuntija - p\u00e4\u00e4kaupunkiseutu",
@@ -3172,15 +3167,14 @@
     "url": "https://www.jobly.fi/tyopaikka/paloilmoitinjarjestelmaasiantuntija-paakaupunkiseutu-2748265",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish language skills and hands-on electrical installation work, whereas Priya lacks Finnish proficiency and has an advanced release-management and technical communication background.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is primarily a field-based electrical installation and maintenance role rather than the candidate's core expertise in software release, configuration management, or technical documentation.",
     "id": "d4d4dbb3",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Digitaalisen identiteetin erityisasiantuntija",
@@ -3189,15 +3183,14 @@
     "url": "https://www.jobly.fi/tyopaikka/digitaalisen-identiteetin-erityisasiantuntija-2736452",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish ('sujuvaa suomen ja englannin kielen taitoa'), which the candidate does not possess.",
     "id": "ae272bbe",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -3206,15 +3199,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2750652",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer valid or accepting applications.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
     "id": "6b9abc6a",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Kouvola",
@@ -3223,15 +3215,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-kouvola-2738793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a field-based automation role outside her core expertise in software release, CM, and quality.",
     "id": "93f41d3f",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Espoo",
@@ -3240,15 +3231,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-espoo-2738782",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish ('sujuvaa suomen kielen taitoa'), which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish, which the candidate does not possess, and the role focuses on building automation/field-based technical work rather than the candidate's core expertise in software release, configuration management, and quality gatekeeping.",
     "id": "5ae9e447",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 rakennusautomaatio - Tampere/Pirkanmaa",
@@ -3257,15 +3247,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-tampere-pirkanmaa-2743997",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish ('sujuva suomen kielen taito') and is located in Tampere, whereas the candidate does not speak Finnish and is based in Oulu.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "05db82a7",
     "source": "jobly_fi_configuration_manager",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:39:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:39:06+03:00"
   },
   {
     "title": "Haussa myyji\u00e4 Helsinkiin, Turkuun & Ouluun",
@@ -3274,15 +3263,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/sector-alarm-haussa-myyjia-helsinkiin-tampereelle-turkuun-turku-sdsuu-20531731",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying outbound sales role ('myyji\u00e4'), which is explicitly excluded by the hard rejections for sales positions.",
+    "reason": "The role is a quota-carrying sales position, which is explicitly excluded by the hard rejection criteria for product-related roles.",
     "id": "c8790afe",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:45:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:45:13+03:00"
   },
   {
     "title": "WSP:ll\u00e4 avoinna useita rooleja rakennuttamisessa (Tampere, Oulu, Rovaniemi, Vaasa tai Sein\u00e4joki)",
@@ -3291,15 +3279,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/wsp-finland-wsplla-avoinna-useita-rooleja-rakennuttamisessa-tampere-oulu-tai-rovaniemi-sdsuu-20479402",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for construction management and project engineering roles in the building and real estate sector, which does not match Priya's background in software configuration, release management, and quality assurance.",
+    "reason": "The application deadline has passed (2026-09-09), and the role is focused on construction/civil engineering project management rather than software release, configuration management, or technical communication.",
     "id": "e1ead95d",
     "source": "duunitori_configuration_manager",
     "posted_date": "2026-08-12",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:45:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:45:13+03:00"
   },
   {
     "title": "jobbland.se",
@@ -3308,15 +3295,14 @@
     "url": "https://jobbland.se",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This posting is for Jobbland.se (a job board index page), not a specific job vacancy.",
+    "reason": "This is a job board platform website, not a specific job opening for the candidate's profile.",
     "id": "d447bad3",
     "source": "duunitori_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:45:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:45:13+03:00"
   },
   {
     "title": "jobbsafari.se",
@@ -3325,15 +3311,14 @@
     "url": "https://jobbsafari.se",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This posting is for JobbSafari (a job search engine homepage/portal), not an actual job vacancy.",
+    "reason": "This is a job board website (JobbSafari.se) and not a specific job vacancy for a role matching the candidate's profile.",
     "id": "2111cd7b",
     "source": "duunitori_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:45:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:45:13+03:00"
   },
   {
     "title": "jobbland.no",
