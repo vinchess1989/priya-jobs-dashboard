@@ -14751,15 +14751,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-payroll-specialist-fixed-term-contract-2748737",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly closed and no longer accepting applications, and it is for a Senior Payroll Specialist which is outside the candidate's domain.",
+    "reason": "This is a finance and HR role (Senior Payroll Specialist) which completely misaligns with Priya's technical communication, release management, and software engineering background.",
     "id": "6aa73fd0",
     "source": "jobly_broad",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Varastonhoitaja kukkavarastoon",
@@ -14768,15 +14767,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varastonhoitaja-kukkavarastoon-2748743",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications (warning message: 'T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
+    "reason": "The job posting is explicitly no longer active and is for a warehouse keeper role, which falls outside the candidate's professional domain.",
     "id": "a21e0d04",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Kokki, tarvittaessa t\u00f6ihin kutsuttava, ALAVUS",
@@ -14785,15 +14783,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokki-tarvittaessa-toihin-kutsuttava-alavus-2753836",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a closed job posting for a chef/cook position in Alavus, which is entirely unrelated to the candidate's background in release management, configuration management, and technical communication.",
+    "reason": "The job posting is for a chef position in the food service industry, which does not align with Priya's expertise in technical communication, release management, configuration management, or regulated software quality roles.",
     "id": "6229d6c9",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Kokenut maanrakennusty\u00f6ntekij\u00e4",
@@ -14802,15 +14799,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokenut-jalkamies-2709042",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction and earthmoving worker position (maanrakennusty\u00f6ntekij\u00e4), which is completely unrelated to Priya's background in software configuration, release management, and technical communication.",
+    "reason": "The posting is for a construction worker and is no longer active, which does not match the required domain or qualifications.",
     "id": "3730a870",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Kokenut s\u00e4hk\u00f6asentaja / Sihti Oulu",
@@ -14819,15 +14815,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokenut-sahkoasentaja-sihti-oulu-2709234",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is for a seasoned electrician, which does not align with Priya's release, configuration management, or technical documentation expertise.",
+    "reason": "Extracted via regex fallback",
     "id": "203efb49",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
     "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Raudoittaja Ouluun",
@@ -14836,15 +14831,14 @@
     "url": "https://www.jobly.fi/tyopaikka/raudoittaja-ouluun-2663025",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a construction worker (reinforcement placer / raudoittaja) in Oulu, which is completely unrelated to Priya's technical communication, release, configuration management, and engineering background.",
+    "reason": "This is a construction role (Raudoittaja / reinforcement worker) which falls under hard rejections for manufacturing, construction, or hardware quality roles.",
     "id": "4dac78bf",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Timpuri",
@@ -14853,15 +14847,14 @@
     "url": "https://www.jobly.fi/tyopaikka/timpuri-2709041",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction worker (carpenter) position which does not match Priya's software engineering, release management, or technical communication background.",
+    "reason": "The job description indicates a manual labor role (e.g., 'Timpuri' with tasks in construction/renovation), which does not align with the candidate's expertise in technical communication, release management, configuration management, or regulated-industry quality roles.",
     "id": "ae2a1494",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Projekti-insin\u00f6\u00f6ri, Granlund Oy, Kuopio",
@@ -14870,15 +14863,14 @@
     "url": "https://www.jobly.fi/tyopaikka/projekti-insinoori-granlund-oy-kuopio-2746842",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a construction engineering role outside of her professional domain of software release, configuration management, and quality engineering.",
+    "reason": "This is a construction and real estate project engineering role requiring fluent Finnish and construction industry background, which violates the candidate's hard rejections.",
     "id": "84e329ee",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Pre-Commissioning Engineer, Frequent travel",
@@ -14887,15 +14879,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pre-commissioning-engineer-2748735",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a field-based electrical commissioning position requiring specialized power-electronics hardware experience and frequent international travel, which does not align with the candidate's background in software release management, configuration management, and technical documentation.",
+    "reason": "This is a heavy travel-intensive electrical site commissioning and hardware testing role requiring high-voltage power-electronic field experience, which does not match Priya's software/release/configuration management background.",
     "id": "6f74baca",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Etsimme koneistajia",
@@ -14904,15 +14895,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6d64f269-dae4-47af-936b-b7ad8754ba7f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and is for a CNC machinist, which does not match the candidate's engineering and release management background.",
+    "reason": "This is a manufacturing and hardware quality role for CNC machinists, which falls under the hard rejection rule for manufacturing and physical production roles.",
     "id": "2c3ad87b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-01-01",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00e4 Rovaniemelle",
@@ -14921,15 +14911,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e0b4cca8-a6c5-492c-a8c0-755e83ceacc5/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction worker role requiring fluent Finnish, which completely falls outside Priya's software, release management, and technical communication background.",
+    "reason": "This is a construction worker role requiring physical labor and fluent Finnish, which completely contradicts the candidate's software, configuration management, and English-speaking background.",
     "id": "67910d4a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-10",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri (Design Engineer), Vantaa tai Tampere, Afry",
@@ -14938,15 +14927,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a1d25472-54ed-4473-9c40-c8364e0c230c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish ('Ty\u00f6skentelet sujuvasti suomeksi') as a mandatory qualification, which the candidate does not possess.",
+    "reason": "This is an industrial automation and DCS programming role requiring fluent Finnish and on-site factory commissioning, which does not match Priya's software configuration management and release engineering background.",
     "id": "8d3f5c07",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Telineasentajia",
@@ -14955,15 +14943,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/53e5f4c7-d279-41d0-82c1-88b04a4c1d1d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manual labor role for scaffolding installers (telineasentaja), which does not match Priya's background in technical communication, configuration management, and release engineering.",
+    "reason": "This is a construction and industrial scaffolding installation role (manufacturing/construction labor) which triggers hard rejections.",
     "id": "0a1202f0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-12",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri (Design Engineer), Vantaa tai Tampere, Afry",
@@ -14972,15 +14959,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/90c70084-ebb3-485c-b192-ad312aece9e2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish ('Ty\u00f6skentelet sujuvasti suomeksi ja englanniksi'), which conflicts with the candidate's language profile.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "f7d81cef",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Timpuri",
@@ -14989,15 +14975,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c11bf110-7c00-4d0b-a45e-39e4b8f4272c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a carpenter (Timpuri) which is completely unrelated to Priya's background in software release, configuration management, and technical communication, and it also explicitly requires fluent Finnish.",
+    "reason": "This is a construction carpenter (timpuri) role requiring fluent Finnish, which directly violates the candidate's hard rejections and domain profile.",
     "id": "47de76d9",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-10-05",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Varhaiskasvatuksen erityisopettaja",
