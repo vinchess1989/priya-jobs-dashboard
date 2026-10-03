@@ -526,15 +526,14 @@
     "url": "https://mt.linkedin.com/jobs/view/devops-engineer-zecure-gaming-at-betsson-group-4437790389",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Malta, which violates the candidate's requirement to be based in Finland or remote worldwide/within an accepted region.",
+    "reason": "The job is located in Malta and is not listed as remote, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "c7895e8f",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -543,15 +542,14 @@
     "url": "https://lv.linkedin.com/jobs/view/devops-engineer-at-arrise-4435471425",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This on-site role is located in Riga, Latvia, which violates the candidate's requirement to be based in Finland or remote from Finland.",
+    "reason": "The job is physically located in Riga, Latvia with an on-site 5-days-from-the-office requirement, which violates the candidate's requirement to work in Finland or fully remotely from Finland.",
     "id": "d2fc2145",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-07-11",
     "deadline": "Open until filled",
     "description_file": null,
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "DevOps Engineer | Mid | Infra",
@@ -560,15 +558,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-infra-at-nord-security-4424716628",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This DevOps/Infrastructure engineering role is located in Kaunas, Lithuania, and fails the location criteria since it is neither in Finland nor fully remote globally.",
+    "reason": "The job is located in Lithuania and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "cee506cb",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -577,15 +574,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-kilo%E2%84%A2-4415711499",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical presence in Vilnius, Lithuania (4 days onsite), which violates the candidate's requirement to be based in Finland or work fully remotely.",
+    "reason": "The role is physically located in Vilnius, Lithuania, and requires 4 days of on-site attendance, which violates the requirement that roles outside Finland must be fully remote and open to candidates in Finland.",
     "id": "8d73999a",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-06-10",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "DevOps Engineer (Cloud Platform)",
@@ -594,15 +590,14 @@
     "url": "https://lv.linkedin.com/jobs/view/devops-engineer-cloud-platform-at-luminor-group-4442123388",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role centers on building and maintaining cloud platform infrastructure like AWS Landing Zones and Internal Development Platforms, which triggers the negative constraint against specialized cloud/platform roles lacking a direct release, CM, or quality core.",
+    "reason": "The role is a platform-engineering/cloud-infrastructure position with no release, configuration-management, or quality-gatekeeping core, and the posting is closed to new applications.",
     "id": "6cbaa998",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-01",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -611,15 +606,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-cimsolutions-4462956369",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in the Netherlands and is not remote for candidates living in Finland, violating the location requirement.",
+    "reason": "The job is located in the Netherlands and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "cfa340d6",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "Cloud Engineer",
@@ -628,15 +622,14 @@
     "url": "https://ie.linkedin.com/jobs/view/cloud-engineer-at-ministry-brands-4448518153",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hybrid role located in Galway, Ireland, which does not meet the candidate's requirement to be based in Finland or remote from Finland.",
+    "reason": "The job is located in Ireland and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "9a90ffbe",
     "source": "linkedin_eu_devops_engineer_p2",
     "posted_date": "2026-08-25",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-08T23:44:43+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-08T23:44:43+03:00"
   },
   {
     "title": "DevOps Engineer (m/w/d)",
@@ -645,15 +638,14 @@
     "url": "https://at.linkedin.com/jobs/view/devops-engineer-m-w-d-at-knapp-4460964775",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Austria (Hart bei Graz), violating the requirement that on-site or hybrid roles must be in Finland.",
+    "reason": "The job is located in Austria (outside Finland), is not remote, and the posting explicitly states it is no longer accepting applications.",
     "id": "15267fb0",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -662,15 +654,14 @@
     "url": "https://ee.linkedin.com/jobs/view/devops-engineer-at-defsecintel-solutions-4415929692",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Tallinn, Estonia, which violates the candidate's requirement to be based in Finland or work fully remotely from Finland.",
+    "reason": "The job is located in Tallinn, Estonia, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "a39b58a1",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-05",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "Site Reliability Engineer / DevOps",
@@ -679,15 +670,14 @@
     "url": "https://lv.linkedin.com/jobs/view/site-reliability-engineer-devops-at-ubiquiti-inc-4395231617",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Latvian alongside English, and is located in Riga, Latvia, violating location and language criteria.",
+    "reason": "The job is located in Riga, Latvia, which falls outside of Finland, and it requires fluency in Latvian as a mandatory qualification.",
     "id": "9db5a671",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -696,15 +686,14 @@
     "url": "https://bg.linkedin.com/jobs/view/devops-engineer-at-tiebreak-4461396478",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which violates the candidate's requirement to work in Finland or remotely from Finland.",
+    "reason": "The job is located in Sofia, Bulgaria, which violates the requirement that roles outside Finland must be fully remote and open to candidates in Finland.",
     "id": "9af2d433",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "AWS Cloud Engineer",
@@ -713,15 +702,14 @@
     "url": "https://ie.linkedin.com/jobs/view/aws-cloud-engineer-at-viotas-4448582467",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Limerick, Ireland, which violates the location criteria requiring the role to be in Finland or fully remote within an eligible region.",
+    "reason": "The job is located in Ireland, which falls outside the allowed locations (Finland or remote worldwide/EU), and it is explicitly marked as no longer accepting applications.",
     "id": "91008996",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -729,16 +717,15 @@
     "location": "Cyprus",
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-payabl-4462281202",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a DevOps Engineer position involving CI/CD and infrastructure automation which matches Priya's skill set, but the location is Cyprus/Portugal/Poland and it is unclear if fully remote from Finland is permitted.",
+    "matches_requirements": "no",
+    "reason": "The job is restricted to Portugal, Poland, or Cyprus, and does not include Finland as an eligible location for remote work.",
     "id": "fcd07e5e",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -747,15 +734,14 @@
     "url": "https://cy.linkedin.com/jobs/view/devops-engineer-at-fxpro-4458717703",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Limassol, Cyprus, which fails the candidate's requirement of being based in Finland or fully remote.",
+    "reason": "The job is located in Cyprus, which violates the location requirement, and the posting explicitly states it is no longer accepting applications.",
     "id": "35df58b9",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "Data DevOps Engineer (m/f/x)",
@@ -764,15 +750,14 @@
     "url": "https://mt.linkedin.com/jobs/view/data-devops-engineer-m-f-x-at-tipico-4456712215",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is physically located in Malta and requires relocation there, which does not match the candidate's requirement to be based in Finland or work remotely from Finland.",
+    "reason": "The role is an on-site position in Malta, which falls outside of Finland and does not meet the location criteria for remote work in Finland.",
     "id": "67a60c0c",
     "source": "linkedin_eu_remote_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-08T23:53:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-08T23:53:28+03:00"
   },
   {
     "title": "DevOps Engineer",
