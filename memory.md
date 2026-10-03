@@ -767,3 +767,11 @@ Tested: gate scenarios (unit), record outcomes (writes intercepted), submit bloc
 **Pending rollout (needs Priya's PC + Chrome profile):** 2-3 real `/fill-form` runs with the switch OFF (fill
 only), then ONE real automatic submit with her watching, then turn the switch on and start `/loop 60m /fill-form auto 10`.
 Gotcha: job_status contains a non-job `initialized` placeholder field - code iterating it must skip non-dicts.
+## GitHub push auth (2026-10-03)
+- `update_git()` in scraper.py pushes through Git Credential Manager first (remote URL names the account:
+  `https://vinchess1989@github.com/...`; GCM supplies the stored login, `GCM_INTERACTIVE=never` so a background run
+  never opens a sign-in window). `GITHUB_TOKEN` is only a fallback, inserted after stripping any user from the URL.
+- Why: the user-level `GITHUB_TOKEN` went stale (401) and every scraper push failed silently from ~01:30 on
+  2026-10-03 (manju_jobs 18 commits, priya_global_jobs 88 behind); then pinning the account in the remote URL made the
+  old code build `https://TOKEN@vinchess1989@github.com` ("URL rejected"). The dead env var was removed.
+- Only Manju_jobs_private pushes as munchnambiar; everything else as vinchess1989 (global CLAUDE.md rule).

@@ -1857,6 +1857,7 @@ def update_git():
         env = os.environ.copy()
         env.pop("GIT_ASKPASS", None)
         env["GIT_TERMINAL_PROMPT"] = "0"
+        env["GCM_INTERACTIVE"] = "never"  # never pop a sign-in window from a background run
 
         # Check if the folder is inside a Git repository
         is_git = False
@@ -1917,15 +1918,20 @@ def update_git():
             subprocess.run(["git", "commit", "-m", commit_message],
                            check=True, timeout=60, **git_kw)
 
-            # Check for GitHub token in environment variables
-            remote = "origin"
+            # Push through Git Credential Manager first: the remote URL names the account
+            # (https://vinchess1989@github.com/...) and GCM supplies its stored login. GITHUB_TOKEN is
+            # only a fallback (e.g. a machine without stored logins); it went stale on 2026-10-03 and
+            # silently stopped every push. Strip any user from the URL before adding the token, or git
+            # rejects "https://TOKEN@user@github.com" as a malformed URL.
             github_token = os.environ.get("GITHUB_TOKEN")
+            remotes = ["origin"]
             if github_token:
                 remote_result = subprocess.run(["git", "config", "--get", "remote.origin.url"],
                                                timeout=15, **git_kw)
-                remote_url = remote_result.stdout.strip()
+                remote_url = re.sub(r"^https://[^/@]*@", "https://", remote_result.stdout.strip())
                 if remote_url.startswith("https://"):
-                    remote = remote_url.replace("https://", f"https://{github_token}@")
+                    remotes.append(remote_url.replace("https://", f"https://{github_token}@", 1))
+            remote = remotes[0]
 
             def git_error(result):
                 err = (result.stderr or result.stdout or "").strip()
@@ -1948,7 +1954,10 @@ def update_git():
                 print("WARNING: git pull --rebase failed (rebase aborted): "
                       + (git_error(pull) if pull else "timed out"))
 
-            push = subprocess.run(["git", "push", remote, branch], timeout=120, **git_kw)
+            for remote in remotes:
+                push = subprocess.run(["git", "push", remote, branch], timeout=120, **git_kw)
+                if push.returncode == 0:
+                    break
             if push.returncode == 0:
                 print("Successfully pushed updates to GitHub!")
             else:
