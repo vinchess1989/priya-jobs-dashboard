@@ -13791,15 +13791,14 @@
     "url": "https://www.jobly.fi/tyopaikka/palvelutyontekija-2748684",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed and the role is for a service worker (palveluty\u00f6ntekij\u00e4), which does not align with the candidate's technical, engineering, and release management background.",
+    "reason": "The job posting explicitly states that it is no longer active, and the role (hospital service worker/customer service) is entirely unrelated to her technical background.",
     "id": "a7615db2",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:20:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:20:39+03:00"
   },
   {
     "title": "Myyj\u00e4, Helsinki Kauppakeskus Kamppi",
@@ -13808,15 +13807,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-helsinki-kauppakeskus-kamppi-2753767",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a retail sales position, which does not align with the candidate's technical, release management, or quality engineering background, and the posting is explicitly closed.",
+    "reason": "The job posting explicitly states that it is closed and no longer accepting applications, and it is a retail sales position unaligned with her professional background.",
     "id": "a3a9727e",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:20:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:20:39+03:00"
   },
   {
     "title": "Sairaanhoitaja Urologian vastaanotto Tornisairaala",
@@ -13825,15 +13823,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sairaanhoitaja-urologian-vastaanotto-tornisairaala-2753758",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical nursing license (Sairaanhoitaja) and the job posting is no longer accepting applications.",
+    "reason": "This is a clinical nursing role (Registered Nurse in Urology) requiring a medical/healthcare license, which directly violates the candidate's hard rejections.",
     "id": "bc513467",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:20:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:20:39+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -13842,15 +13839,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-euronext-4419921613",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job posting is for a sales manager role in the pharmaceutical industry in Brazil, which does not match the candidate's profile.",
     "id": "bf2cc063",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:36:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:36:28+03:00"
   },
   {
     "title": "Parturit Pohjoismaihin",
@@ -13859,15 +13855,14 @@
     "url": "https://fi.linkedin.com/jobs/view/parturit-pohjoismaihin-at-eutalents-4428776463",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a barber, which is completely outside the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "This is a barber position ('Parturit'), which completely misaligns with Priya's background in software release management and technical communication.",
     "id": "b4969d8d",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-07-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:36:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:36:28+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -13876,15 +13871,14 @@
     "url": "https://es.linkedin.com/jobs/view/senior-devops-engineer-at-omp-4430472799",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Barcelona, Spain, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Barcelona, Spain, which violates the candidate's location requirement of being based in Finland or remote worldwide/EU without a mandatory physical relocation to another country.",
     "id": "393f355a",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Konfigurationsmanager \u2013 Missionssysteme f\u00fcr Gefechtsfahrzeuge (m/w/d)",
@@ -13893,15 +13887,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurationsmanager-%E2%80%93-missionssysteme-f%C3%BCr-gefechtsfahrzeuge-m-w-d-at-rheinmetall-4445866620",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bremen, Germany, which violates the hard rejection criteria regarding on-site/hybrid roles outside of Finland.",
+    "reason": "The job is physically located in Bremen, Germany, which violates the candidate's location criteria requiring roles to be either in Finland or fully remote.",
     "id": "0c925318",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Consultant / Responsable Gestion de Configuration Syst\u00e8me \u00c9lectrique (F/H)",
@@ -13910,15 +13903,14 @@
     "url": "https://fr.linkedin.com/jobs/view/consultant-responsable-gestion-de-configuration-syst%C3%A8me-%C3%A9lectrique-f-h-at-cts-consulting-technical-support-4463530726",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is physically located in Toulouse, France, which violates the candidate's requirement to be based in Finland or remote worldwide/within an accepted region.",
     "id": "f56b1b3e",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Gestionnaire de Configuration Ferroviaire",
@@ -13927,15 +13919,14 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-ferroviaire-at-step-up-4455327657",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Toulouse, France, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is physically located in Toulouse, France, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "b0f36e87",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-31",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Gestionnaire de Configuration Produit - H/F",
@@ -13944,15 +13935,14 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-produit-h-f-at-exail-4429883833",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is physically located in La Garde, France, violating the candidate's requirement to work only in Finland or fully remote.",
     "id": "9af72fe7",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "CDI - Responsable Gestion de Configuration H/F",
@@ -13961,15 +13951,14 @@
     "url": "https://fr.linkedin.com/jobs/view/cdi-responsable-gestion-de-configuration-h-f-at-naval-group-4459975448",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is physically located in Toulon, France, violating the candidate's requirement to be based in Finland or in a fully remote role.",
     "id": "ad63145e",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Project Configuration and Change Manager (F/H)",
@@ -13978,15 +13967,14 @@
     "url": "https://fr.linkedin.com/jobs/view/project-configuration-and-change-manager-f-h-at-alstom-4406421742",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not remote, which violates the requirement that non-Finland roles must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is physically located in La Rochelle, France, which violates the candidate's requirement to be based in Finland or in a fully remote role.",
     "id": "eadf9577",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-06-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Project Configuration & Change Manager",
@@ -13995,15 +13983,14 @@
     "url": "https://it.linkedin.com/jobs/view/project-configuration-change-manager-at-alstom-4432395875",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Italy and is not remote, which violates the location requirements, and the salary range is below the candidate's minimum threshold.",
+    "reason": "The role is physically located in Savigliano, Italy, which violates the geographic requirement to be based in Finland or fully remote.",
     "id": "e75bc4aa",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Konfigurations- und \u00c4nderungs Manager (w/m/d)",
@@ -14012,15 +13999,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfigurations-und-%C3%A4nderungs-manager-w-m-d-at-hensoldt-4432475595",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Wetzlar, Germany, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is located in Wetzlar, Germany, which violates the location policy requiring roles to be in Finland or fully remote.",
     "id": "822f51f8",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-07-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Software Konfigurationsmanager (all gender) 999",
@@ -14029,15 +14015,14 @@
     "url": "https://de.linkedin.com/jobs/view/software-konfigurationsmanager-all-gender-999-at-alten-4414847958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and requires fluent German, which violates the location and language constraints.",
+    "reason": "The job requires fluent German ('verhandlungssichere Deutsch- und Englischkenntnisse'), and the location is in Penzberg, Germany, which violates the location policy.",
     "id": "bc553893",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T07:42:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T07:42:47+03:00"
   },
   {
     "title": "Gestionnaire de Configuration H/F",
