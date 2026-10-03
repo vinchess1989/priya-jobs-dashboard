@@ -14271,15 +14271,14 @@
     "url": "https://fi.linkedin.com/jobs/view/project-manager-combat-system-at-saab-4462173609",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job explicitly requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish alongside English, as well as extensive senior-level military project management experience rather than configuration, release, or technical documentation expertise.",
     "id": "c530d836",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:27:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:27:23+03:00"
   },
   {
     "title": "Product Manager, Partners team",
@@ -14288,15 +14287,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-manager-partners-team-at-upcloud-4459761893",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a commercial Product Manager position focused on partnerships and business strategy, which falls outside the candidate's core expertise in release management, configuration management, and technical quality/documentation.",
+    "reason": "The role focuses on commercial partnership management, sales-oriented ecosystem growth, and market strategy rather than her core expertise in release, configuration management, quality assurance, or technical writing.",
     "id": "70dc6b28",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:27:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:27:23+03:00"
   },
   {
     "title": "IQI - avoin hakemus",
@@ -14304,16 +14302,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/iqi-avoin-hakemus-at-iqi-4464625422",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "This is an open application for an IT consultancy that explicitly lists DevOps, Regulaatio & Compliance, and IT-toiminnan auditointi as core areas, which align perfectly with the candidate's background.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application (avoin hakemus) at an IT consultancy covering areas like DevOps, regulatory compliance, and software delivery, making it a potential fit depending on the specific project matched.",
     "id": "34016d51",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/iqi_iqi___avoin_hakemus_34016d51.txt",
-    "added_at": "2026-09-09T08:27:23+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null,
+    "added_at": "2026-09-09T08:27:23+03:00"
   },
   {
     "title": "ERP-projektip\u00e4\u00e4llikk\u00f6",
@@ -14322,15 +14319,14 @@
     "url": "https://fi.linkedin.com/jobs/view/erp-projektip%C3%A4%C3%A4llikk%C3%B6-at-gofore-4459951423",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a general ERP project management role rather than the release, configuration, or quality-focused role she targets.",
+    "reason": "The role requires fluent Finnish language skills ('Sujuvaa suomen ja englannin kielen taitoa'), which the candidate does not possess.",
     "id": "50b3ad5e",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:27:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:27:23+03:00"
   },
   {
     "title": "CNC-koneistaja",
@@ -14339,15 +14335,14 @@
     "url": "https://www.jobly.fi/tyopaikka/cnc-koneistaja-2734226",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a CNC machinist, which is a manual manufacturing position and does not align with the candidate's 15-year career in software engineering, release management, and technical documentation.",
+    "reason": "This is a blue-collar CNC machinist manufacturing role requiring physical machine operation, which completely falls under the hard rejection for manufacturing/hardware roles and her software/DevOps/technical communication background.",
     "id": "52be1028",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Autonasentaja",
@@ -14356,15 +14351,14 @@
     "url": "https://www.jobly.fi/tyopaikka/autonasentaja-2732987",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an automotive mechanic, which does not align with the candidate's 15-year background in software engineering, release management, and technical communication.",
+    "reason": "The job posting is for an automotive mechanic (Autonasentaja), which does not match Priya's profile in software engineering, configuration management, or technical communication.",
     "id": "50418e61",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Ravintolaty\u00f6ntekij\u00e4, Leijona Catering, Sodankyl\u00e4",
@@ -14373,15 +14367,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ravintolatyontekija-leijona-catering-sodankyla-2731951",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and is a restaurant service position, which does not align with the candidate's technical, release management, and quality engineering background.",
+    "reason": "The role is a restaurant catering employee position requiring fluent Finnish, which completely mismatches the candidate's technical profile.",
     "id": "60da44cf",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4, Mikkeli",
@@ -14390,15 +14383,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusaputyontekija-mikkeli-2713047",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, is a manual labor position unrelated to the candidate's technical/engineering expertise, and the salary is significantly below the candidate's minimum threshold.",
+    "reason": "The job is a construction laborer position requiring physical work and fluent Finnish language skills, violating both the hard rejections for construction/manufacturing quality and mandatory Finnish language requirements.",
     "id": "dcdfed2d",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Laser-, plasma- ja polttoleikkaajia Lapualle",
@@ -14407,15 +14399,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laser-plasma-ja-polttoleikkaajia-lapualle-2748919",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly no longer active and is for a laser, plasma, and gas cutter role completely unrelated to the candidate's engineering background.",
+    "reason": "This job is a manufacturing/production role (laser and plasma cutter) and the posting explicitly states it is no longer active.",
     "id": "3bf0856a",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Privacy, Data & Cyber Regulatory Counsel",
@@ -14424,15 +14415,14 @@
     "url": "https://www.jobly.fi/tyopaikka/privacy-data-cyber-regulatory-counsel-2753777",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a qualified lawyer with a minimum of 10 years of post-qualification legal experience, which does not match Priya's background in software, release management, and technical communication.",
+    "reason": "The role requires a qualified lawyer with a minimum of 10 years of post-qualification legal experience, which does not match Priya's background in technical writing, release management, and software engineering.",
     "id": "4eae95ca",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Ruotsinkielinen asiakasneuvoja Espanjaan Fuengirolaan",
@@ -14441,15 +14431,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ruotsinkielinen-asiakasneuvoja-espanjaan-fuengirolaan-2753776",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Fuengirola, Spain, requires mandatory Swedish language skills, and is a customer service role, which fails multiple hard rejections and role criteria.",
+    "reason": "The job requires Swedish language proficiency, is located in Spain, and is a customer service role, none of which match the candidate's profile.",
     "id": "e759f4a0",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:38:35+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:38:35+03:00"
   },
   {
     "title": "Agentic AI Engineer",
@@ -14458,15 +14447,14 @@
     "url": "https://fi.linkedin.com/jobs/view/agentic-ai-engineer-at-supermetrics-4457289054",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure software engineering role focused on building Agentic AI services on Google Cloud, violating the hard rejection against pure feature-development and platform software engineering roles.",
+    "reason": "This is a pure software-engineering and machine-learning role focused on building AI agents and production cloud services, which conflicts with her configuration management and release engineering background.",
     "id": "d0d47992",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Senior Backend Engineer",
@@ -14475,15 +14463,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-backend-engineer-at-mvision-ai-4463599686",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development and backend engineering role focused on building cloud services in .NET and Python, which falls under the hard rejection for pure feature-development software engineering roles.",
+    "reason": "This is a pure feature-development backend software engineering role (.NET and C#) focusing on building and writing product code, which violates the hard rejection for pure feature-development roles despite her background.",
     "id": "01f520af",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Agentic Development Process Engineer (employment / freelancing)",
@@ -14492,15 +14479,14 @@
     "url": "https://fi.linkedin.com/jobs/view/agentic-development-process-engineer-employment-freelancing-at-witted-4454530336",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted, and it requires specialized expertise in LLM fundamentals, RAG, and AI agent frameworks that falls outside the candidate's core background.",
+    "reason": "The job posting explicitly states that applications are no longer accepted and requires expertise in MLOps/LLMOps and AI regulatory frameworks that do not align with her primary background.",
     "id": "df5c630e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Senior Data Platform Engineer",
@@ -14509,15 +14495,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-data-platform-engineer-at-smartly-4458740176",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a specialized data platform and data infrastructure engineering role focused on distributed data pipelines, Kafka, and CDC, which does not align with her background in release management, configuration management, and quality/regulatory compliance.",
+    "reason": "The role is a Senior Data Platform Engineer focusing on cloud/data infrastructure rather than configuration management, release management, quality gatekeeping, or technical documentation.",
     "id": "54544946",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T08:52:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T08:52:02+03:00"
   },
   {
     "title": "Senior AI-Driven Software Engineer (Agentic Development)",
