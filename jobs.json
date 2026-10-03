@@ -7239,15 +7239,14 @@
     "url": "https://www.jobly.fi/tyopaikka/nosturiautonkuljettaja-vakkari-eura-2753720",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a forklift driver, which does not align with the candidate's expertise in technical communication, release management, configuration management, and DevOps/CI-CD in regulated industries.",
+    "reason": "The role is for a crane truck driver, which is outside the candidate's professional domain, and the salary is below the minimum threshold.",
     "id": "da7abaae",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Kaivinkoneen per\u00e4mies, KOUVOLA",
@@ -7256,15 +7255,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kaivinkoneen-peramies-kouvola-2753719",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Excavator Operator' does not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation, and falls under manual labor roles unrelated to her background.",
+    "reason": "The job is a construction/manual labor role (excavator assistant) which falls outside the candidate's professional domain, and the salary is below the candidate's minimum threshold.",
     "id": "fe653020",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Putkihitsaaja vakkari, HUMPPILA",
@@ -7273,15 +7271,14 @@
     "url": "https://www.jobly.fi/tyopaikka/putkihitsaaja-vakkari-humppila-2753718",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a pipe welder position in Finland, which does not align with Priya's expertise in technical communication, release management, CI/CD, or regulated-industry quality compliance.",
+    "reason": "The role is for a manual labor/welding position, which falls under the hard rejection for manufacturing/production-line roles and does not match the candidate's software/technical communication/DevOps profile.",
     "id": "748c729b",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Myyntiautomaattien t\u00e4ytt\u00e4ji\u00e4, PKS",
@@ -7290,15 +7287,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyntiautomaattien-tayttajia-pks-2753660",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Myyntiautomaattien t\u00e4ytt\u00e4ji\u00e4' (Sales Machine Fillers) does not align with the candidate's expertise in DevOps, configuration management, release management, or technical documentation, and appears to be an operational/warehouse role rather than a software/engineering-related position.",
+    "reason": "The job is for a vending machine filler, which is a manual labor role unrelated to the candidate's technical, release management, and quality engineering background.",
     "id": "7bf1bc81",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Myyj\u00e4, Sein\u00e4joki Kasperi Kasperinviita 15",
@@ -7307,15 +7303,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-seinajoki-kasperi-kasperinviita-15-2753706",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position (Myyj\u00e4/Salesperson) which falls under Priya's strict hard rejection criteria for sales roles mislabeled as 'Product Specialist' or similar titles.",
+    "reason": "The job is a retail sales position ('Myyj\u00e4') which does not align with the candidate's technical, engineering, and release management background, and the posting is explicitly marked as no longer valid.",
     "id": "ab794d54",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Paloilmoitinasentaja, Caverion, Rovaniemi",
@@ -7324,15 +7319,14 @@
     "url": "https://www.jobly.fi/tyopaikka/paloilmoitinasentaja-caverion-rovaniemi-2715615",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires electrical installation/maintenance skills (fire alarm systems, safety lighting) unrelated to Priya's expertise in regulated-industry release management, CI/CD, and technical documentation.",
+    "reason": "The role requires fluent Finnish and is a field-based technician position, which falls outside the candidate's software-focused expertise and language requirements.",
     "id": "5310cd72",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Myyntineuvottelija, Oulu",
@@ -7341,15 +7335,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyntineuvottelija-oulu-2743470",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position (Myyntineuvottelija/Sales Negotiator) with active outbound phone sales responsibilities, which falls under the hard rejection category for sales roles mislabeled as 'Product Specialist' and also violates the negative constraint against customer-facing roles.",
+    "reason": "The role is a quota-carrying sales position, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' roles.",
     "id": "4c106ab2",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Rakennusalan t\u00f6it\u00e4 \u2013 Lappeenranta (nopea aloitus)",
@@ -7358,15 +7351,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusalan-toita-lappeenranta-nopea-aloitus-2743471",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is in the construction sector (rakennusala) and requires roles such as construction assistants or cleaners, which do not align with the candidate's expertise in technical communication, release management, configuration management, or regulated software domains.",
+    "reason": "The job is for construction labor, which falls under the hard rejection for manufacturing/construction/hardware quality roles and does not match the candidate's software/technical communication/DevOps profile.",
     "id": "d41c7f3d",
     "source": "jobly_broad",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Rakennusalan t\u00f6it\u00e4 Lahdessa, nopea aloitus",
@@ -7375,15 +7367,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusalan-toita-lahdessa-nopea-aloitus-2743472",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is for construction labor/cleaning work, which does not align with Priya's DevOps, release management, or technical communication background.",
+    "reason": "The job is for construction labor, which falls under the hard rejection for manufacturing/construction/hardware quality roles and is outside the candidate's professional domain.",
     "id": "7abb7092",
     "source": "jobly_broad",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Projektity\u00f6ntekij\u00e4, Senaatti-kiinteist\u00f6t, Turku",
@@ -7392,15 +7383,14 @@
     "url": "https://www.jobly.fi/tyopaikka/projektityontekija-senaatti-kiinteistot-turku-2753586",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description does not align with Priya's target role types (e.g., DevOps, Configuration Management, Technical Writing in regulated domains) and focuses on archival digitization rather than her expertise in CI/CD, release management, or safety-critical compliance.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "1b60fd9e",
     "source": "jobly_broad",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:45:07+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:45:07+03:00"
   },
   {
     "title": "Clinical Research AssistantAIATELLAHelsinkiGo to job site",
@@ -7409,15 +7399,14 @@
     "url": "https://thehub.fi/jobs/6aa0264d98baa4d640c5f710",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires clinical research responsibilities (e.g., GCP compliance, site coordination, regulatory submissions) that do not align with Priya's expertise in technical documentation, quality gatekeeping, or release/configuration management. Her background is in regulated software delivery (MDR/ISO 13485, ASPICE/TUV), not clinical research operations.",
+    "reason": "The role is a Clinical Research Assistant position requiring hands-on clinical study experience and patient/site interaction, which falls outside the candidate's technical release, configuration management, and quality engineering profile.",
     "id": "8358faec",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "S&OP ManagerStora Enso OyjHelsinkiGo to job site",
@@ -7426,15 +7415,14 @@
     "url": "https://www.jobly.fi/en/job/sop-manager-2752767",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'S&OP Manager' does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) and focuses on supply chain planning rather than regulated software delivery, CI/CD, or technical documentation.",
+    "reason": "The role is a supply chain/S&OP management position that requires customer-facing engagement and lacks the required focus on software release, configuration management, or quality engineering.",
     "id": "c3918fd0",
     "source": "work_in_finland",
     "posted_date": "2026-09-29",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "Power Electronics Simulation Engineer, TampereAcademic WorkTampereGo to job site",
@@ -7443,15 +7431,14 @@
     "url": "https://www.jobly.fi/en/job/power-electronics-simulation-engineer-tampere-2753357",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Power Electronics Simulation Engineer with expertise in RTDS/HIL simulations and control theory, which does not align with Priya's background in configuration management, release management, and technical documentation in regulated industries.",
+    "reason": "The role is a specialized power electronics simulation engineering position requiring an M.Sc. in Electrical/Power Engineering and hands-on lab work, which falls under the hard rejection for manufacturing/hardware quality/engineering roles and does not align with her software release/CM/DevOps background.",
     "id": "976b65f7",
     "source": "work_in_finland",
     "posted_date": "2026-09-29",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "Create your profile",
@@ -7460,15 +7447,14 @@
     "url": "https://tyomarkkinatori.fi/en/teemasivut/job-applicant-profile?mtm_campaign=wif-prof&mtm_kwd=web",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description is not a valid employment opportunity but rather a guide for creating a job applicant profile on Job Market Finland, with no actual role, company, or hiring details specified.",
+    "reason": "This is a platform for creating a job seeker profile, not an actual job vacancy to apply for.",
     "id": "86cb87d9",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "\u201cGreat place to grow professionally\u201dAnand Adhiappan emphasizes specialization for career growth",
@@ -7477,15 +7463,14 @@
     "url": "https://www.workinfinland.com/en/career-guide/anand-adhiappan/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is Coimbatore, India, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "This is a career guide article and interview feature, not an active job vacancy or application posting.",
     "id": "9715a42e",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "\u201cJust like Minnesota \u2013 actually pretty warm\u201d Michael Landolfi moved to Finland in 2022",
