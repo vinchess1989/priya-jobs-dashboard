@@ -21651,15 +21651,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kurottajankuljettaja-2754708",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a construction equipment operator (telehandler driver), which is completely unrelated to the candidate's technical, engineering, and release management background, and the posting is no longer active.",
+    "reason": "The role is a construction equipment driver, which does not align with Priya\u2019s release, configuration management, DevOps, or technical documentation expertise.",
     "id": "71308750",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-10T09:40:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:40:48+03:00"
   },
   {
     "title": "Timpuri v\u00e4lisein\u00e4- ja alakattot\u00f6ihin",
@@ -21668,15 +21667,14 @@
     "url": "https://www.jobly.fi/tyopaikka/timpuri-valiseina-ja-alakattotoihin-2709633",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction carpenter (timpuri) requiring fluent Finnish, which is outside the candidate's professional domain and language capabilities.",
+    "reason": "The job requires manual labor (demolition worker) unrelated to the candidate's expertise in configuration management, release engineering, technical writing, or quality assurance in regulated industries.",
     "id": "d05d874b",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:40:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:40:48+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja Turku, Haarla",
@@ -21685,15 +21683,14 @@
     "url": "https://www.jobly.fi/tyopaikka/henkilokohtainen-avustaja-turku-haarla-2749662",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a personal assistant role, which does not align with the candidate's technical background in release management, configuration management, or quality engineering, and the posting is explicitly marked as no longer valid.",
+    "reason": "The posting is for a personal assistant role that is no longer active, which does not align with Priya\u2019s technical release/CM/quality expertise.",
     "id": "e882500f",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-10T09:40:48+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:40:48+03:00"
   },
   {
     "title": "Siivooja",
@@ -21702,15 +21699,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/48f4a32d-3c9d-471c-8eea-8528ab3812f7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a cleaner, which does not align with the candidate's 15-year background in technical engineering, release management, and quality assurance.",
+    "reason": "The job title 'Siivooja' (Cleaner) does not align with Priya's technical/quality/product-specialist background or the target role types she is seeking.",
     "id": "b7d39f4b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:43:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:43:53+03:00"
   },
   {
     "title": "Myym\u00e4l\u00e4siivooja PIELAVEDELLE",
@@ -21719,15 +21715,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6df583c8-0d07-4c1b-96bc-de032052b8a2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a store cleaner, which does not align with the candidate's 15-year career in technical engineering, release management, and quality assurance.",
+    "reason": "The position is a Finnish-language cleaning role, unrelated to the candidate's technical release/DevOps expertise and requires Finnish language skills.",
     "id": "5a7cc9da",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-10T09:43:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:43:53+03:00"
   },
   {
     "title": "Myyj\u00e4, Pirkkala",
@@ -21736,15 +21731,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/23105ecc-ebc5-48c1-aedd-685cb1b6d798/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a retail sales position with a salary range (2300-2700 \u20ac/kk) significantly below the candidate's minimum requirement of 4500 \u20ac/kk.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a strict hard rejection.",
     "id": "5d16d0d2",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:43:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:43:53+03:00"
   },
   {
     "title": "Tarvittaessa t\u00f6ihin kutsuttava siivooja, Vaasa ja Mustasaari",
@@ -21753,15 +21747,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6d352f96-452a-4136-93f6-7841b0824f75/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a cleaner, which does not align with the candidate's 15-year background in technical communication, release management, and software engineering.",
+    "reason": "The job is for a cleaning position, which does not align with Priya's expertise in technical communication, release management, or configuration management.",
     "id": "05f052ae",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:43:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:43:53+03:00"
   },
   {
     "title": "Google Workspace Specialist",
@@ -21770,15 +21763,14 @@
     "url": "https://fi.linkedin.com/jobs/view/google-workspace-specialist-at-solita-4463433367",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and the salary range offered (up to 4500 EUR) is below the candidate's minimum threshold of 4500 EUR.",
+    "reason": "The job does not align with Priya's target roles in configuration management, release management, or regulated-industry quality/compliance work, and lacks explicit mention of CI/CD, requirements traceability, or safety-critical standards she specializes in.",
     "id": "772aa2eb",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Power Platform Specialist",
@@ -21787,15 +21779,14 @@
     "url": "https://fi.linkedin.com/jobs/view/power-platform-specialist-at-gofore-4446609814",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a feature-development/consulting position focused on Power Platform/Dynamics 365 development, which falls under the pure feature-development and specialist platform exclusions, and it requires fluent Finnish.",
+    "reason": "The role as a Power Platform Specialist focuses on low-code development and Dynamics 365 solutions, which does not align with Priya's expertise in CI/CD, release management, configuration management, or regulated-industry quality/compliance gatekeeping.",
     "id": "4b4bc44f",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Modern Work Consultant",
@@ -21804,15 +21795,14 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444339770",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing consultancy position focused on M365/Copilot adoption and change management, which falls outside the candidate's core expertise in release management, configuration management, and quality/regulatory gatekeeping.",
+    "reason": "The role focuses on Microsoft 365 Copilot implementation and AI adoption consulting, which does not align with Priya's expertise in CI/CD, release management, or regulated-industry quality/compliance gatekeeping.",
     "id": "b513eb33",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Modern Work Consultant",
@@ -21821,15 +21811,14 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444334799",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing consultancy position focused on M365/Copilot adoption and change management, which falls outside the candidate's core expertise in release management, CI/CD, and quality/regulatory compliance.",
+    "reason": "The job does not align with Priya's target role types (DevOps/Configuration Management/Release Management) or her regulated-industry quality/compliance background; instead, it focuses on Microsoft 365 Copilot adoption and consulting, which is outside her core expertise.",
     "id": "924e5e0f",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Modern Work Consultant",
@@ -21838,15 +21827,14 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444339772",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing consultancy position focused on M365 adoption and change management, which falls outside the candidate's core expertise in release management, CI/CD, and quality/regulatory compliance.",
+    "reason": "The job requires skills and responsibilities focused on Microsoft 365 Copilot adoption and consulting, which do not align with Priya's expertise in configuration management, release management, or technical writing in regulated/safety-critical domains.",
     "id": "066bf9da",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Modern Work Consultant",
@@ -21855,15 +21843,14 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444346029",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is closed for applications and primarily focuses on consulting and change management rather than the candidate's core expertise in release management, configuration management, or quality engineering.",
+    "reason": "The job does not align with Priya's target role types (DevOps, Configuration Management, Release Management, etc.) as it focuses on Microsoft 365 Copilot consulting and AI adoption rather than CI/CD pipelines, release management, or configuration management.",
     "id": "899df808",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Modern Work Consultant",
@@ -21872,15 +21859,14 @@
     "url": "https://fi.linkedin.com/jobs/view/modern-work-consultant-at-fellowmind-4444343077",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing consultancy position focused on M365 adoption and change management, which falls under the 'Specialist Platforms' exclusion and contradicts the candidate's preference to avoid customer-facing roles.",
+    "reason": "The job requires expertise in Microsoft 365 Copilot implementation and AI-driven workflow consulting, which does not align with Priya's background in CI/CD, release management, configuration management, or regulated-industry quality gatekeeping.",
     "id": "e3618912",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Release Train Engineer",
@@ -21889,15 +21875,14 @@
     "url": "https://nl.linkedin.com/jobs/view/release-train-engineer-at-belastingdienst-4461026550",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Apeldoorn, Netherlands, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "de0a5f00",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T10:04:53+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:04:53+03:00"
   },
   {
     "title": "Release Manager",
