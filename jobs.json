@@ -37821,15 +37821,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tuotantotyontekijoita-2748921",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for 'Production Workers' at Barona Production Oy does not align with Priya's expertise in technical communication, release management, configuration management, or DevOps/CI-CD roles.",
+    "reason": "This is a closed physical manufacturing/production role (Tuotantoty\u00f6ntekij\u00f6it\u00e4) which falls under the hard rejection for manufacturing/hardware quality or production-line roles.",
     "id": "871a7b75",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Kontinpurkajia keikkat\u00f6ihin P\u00e4\u00e4kaupunkiseudulle",
@@ -37838,15 +37837,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kontinpurkajia-keikkatoihin-paakaupunkiseudulle-2754026",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical labor (container unloading) and does not align with the candidate's expertise in technical documentation, release management, or regulated-industry quality compliance.",
+    "reason": "This job posting is explicitly stated as no longer active, and it is for manual container unloading work which is completely unrelated to the candidate's professional background.",
     "id": "e8ae82ef",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Koneistaja, Bluefors Oy",
@@ -37855,15 +37853,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f8a4f1ad-57a7-44ac-8162-58594f03dd02/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as the working language, which Priya does not speak, and the role (machinist/CNC operator) does not align with her target domains of DevOps, release management, or technical documentation in regulated industries.",
+    "reason": "This is a CNC machinist role for physical production components, which falls under the hard rejection rule for manufacturing and hardware quality/production roles.",
     "id": "1c4affdd",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Machinist, Bluefors OyBluefors OyHelsinkiGo to job site",
@@ -37872,15 +37869,14 @@
     "url": "https://www.jobly.fi/en/job/machinist-bluefors-oy-2759084",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Machinist' does not align with Priya's background in technical communication, release management, or regulated software domains.",
+    "reason": "This is a manufacturing/machinist role for physical production rather than a software, release, configuration, or quality engineering position.",
     "id": "b88bedae",
     "source": "work_in_finland",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Project Engineer, ABB Marine & PortsABB Oy Marine and PortsHelsinkiGo to job site",
@@ -37889,15 +37885,14 @@
     "url": "https://www.jobly.fi/en/job/project-engineer-abb-marine-ports-2759085",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Project Engineer' and description focus on engineering/design rather than configuration management, release processes, or technical documentation which align with Priya's expertise.",
+    "reason": "The job posting explicitly states that it is no longer active and closed for applications.",
     "id": "4225cad7",
     "source": "work_in_finland",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Developer Experience EngineerVerdaHelsinkiGo to job site",
@@ -37906,15 +37901,14 @@
     "url": "https://thehub.fi/jobs/6aa9dd24f0b1bfe4cfb0532e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in San Francisco, CA, USA, which is strictly excluded per the candidate's hard rejection rule for any US-based or US-restricted roles.",
+    "reason": "The role centers on building cloud and infrastructure platforms (AI cloud, Kubernetes platform engineering) without a core release, configuration management, or regulatory-compliance component fitting Priya's specific safety-critical/MDR background.",
     "id": "41f971a5",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -37940,16 +37934,15 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-core-platform-engineering-stshe-20575800",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns with Priya's DevOps experience (CI/CD, infrastructure tooling) and location in Finland, but requires specific Kubernetes/AWS/Terraform expertise not explicitly detailed in her profile.",
+    "matches_requirements": "yes",
+    "reason": "This Senior DevOps Engineer role matches her extensive background in CI/CD pipeline ownership, infrastructure automation with Terraform/Python, and core release engineering in high-reliability environments.",
     "id": "90715d63",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/iceye___espoo_senior_devops_engineer___core__90715d63.txt",
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Chief Compliance Officer",
@@ -37958,15 +37951,14 @@
     "url": "https://fi.linkedin.com/jobs/view/chief-compliance-officer-at-boston-link-4467985104",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish citizenship, which the candidate does not possess.",
+    "reason": "The role requires Finnish citizenship and fluent Finnish language skills, both of which violate the hard rejection criteria.",
     "id": "e9e43054",
     "source": "linkedin_fi_broad",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Cost Manager",
@@ -37975,15 +37967,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cost-manager-at-roa-talent-4467968859",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires cost management and quantity surveying experience in construction, which does not align with Priya's expertise in software configuration management, release engineering, and technical documentation in regulated industries.",
+    "reason": "This is a quantity surveying and cost management role within construction projects, which violates the hard rejection rule for construction/hardware quality and non-software domains.",
     "id": "003ada5d",
     "source": "linkedin_fi_broad",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Payroll Specialist",
@@ -37992,15 +37983,14 @@
     "url": "https://www.jobly.fi/tyopaikka/payroll-specialist-2759284",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in San Francisco, CA, USA, which is strictly excluded per the candidate's hard rejection rule for any US-based or US-restricted roles.",
+    "reason": "This job is a Payroll Specialist role, which is outside the candidate's core expertise in release management, configuration management, DevOps, and technical communication.",
     "id": "fdea2faa",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Keikkaty\u00f6ntekij\u00e4 kaupan alalle, Kittil\u00e4 / Sirkka",
@@ -38009,15 +37999,14 @@
     "url": "https://www.jobly.fi/tyopaikka/keikkatyontekija-kaupan-alalle-kittila-sirkka-2719274",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a retail customer\u2011service position, not a technical release, configuration, or documentation role, and it is explicitly a customer\u2011facing job which the candidate has rejected.",
+    "reason": "The job posting is explicitly closed and no longer accepting applications, and it is unrelated retail work.",
     "id": "e1bb3b8f",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Rakennusalan osaajia -Etel\u00e4-Karjala",
@@ -38026,15 +38015,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusalan-osaajia-etela-karjala-2719850",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction professionals for data center projects (mechanical installers, electrical workers), which does not align with the candidate's expertise in technical writing, release management, configuration management, or regulated-industry quality compliance.",
+    "reason": "This job posting is for construction industry roles (Rakennusalan osaajia), which violates the hard rejection rule for manufacturing, construction, or physical production quality roles.",
     "id": "6c2184fe",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Kaivinkoneenkuljettaja, maarakennuskausi -26",
@@ -38043,15 +38031,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kaivinkoneenkuljettaja-maarakennuskausi-26-2622293",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for an excavator driver in construction, which does not align with the candidate's expertise in technical communication, configuration management, release management, or regulated-industry quality/compliance roles.",
+    "reason": "This is an excavator operator role in earthmoving, which is completely unrelated to the candidate's software release, configuration management, and technical communication background.",
     "id": "ad095591",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "2026-10-06",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Maalari",
@@ -38060,15 +38047,14 @@
     "url": "https://www.jobly.fi/tyopaikka/maalareita-pirkanmaalle-2355060",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a Hard Rejection.",
+    "reason": "This is a painter role in construction which violates multiple hard rejections regarding manufacturing, construction, or physical trade roles and requires fluent Finnish.",
     "id": "ce3a06f3",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "2026-10-05",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Liity osaksi kasvavaa B2B-tiimi\u00e4mme Joensuussa",
@@ -38077,15 +38063,14 @@
     "url": "https://www.jobly.fi/tyopaikka/liity-osaksi-kasvavaa-b2b-tiimiamme-joensuussa-2754086",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a B2B sales role focused on client-facing activities, which directly conflicts with the candidate's explicit rejection of 'customer facing' roles and her lack of sales experience.",
+    "reason": "This is an outbound B2B sales role (quota-carrying sales), which triggers a hard rejection.",
     "id": "2fc9e0de",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Liity osaksi kasvavaa B2B-tiimi\u00e4mme Kymenlaaksossa",
