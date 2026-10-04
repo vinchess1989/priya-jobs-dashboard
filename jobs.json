@@ -35385,15 +35385,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sales-development-representative-2758648",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a Sales Development Representative role located in Pune, India, which falls under the 'Quota-Carrying Sales Roles Mislabeled as \\\\",
+    "reason": "This is a quota-carrying sales development representative role, which violates the hard rejection rule against sales roles.",
     "id": "df9c414c",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Laitossiivooja",
@@ -35402,15 +35401,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/37b56b4b-4c59-486a-88fb-bda2b94747d6/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a cleaning position unrelated to the candidate's DevOps, release, or technical communication expertise.",
+    "reason": "This is a cleaning/janitorial role ('Laitossiivooja') which does not match Priya's profile in technical writing, release management, or configuration management.",
     "id": "d2d4684d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-11-30",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Asiakkuusp\u00e4\u00e4llikk\u00f6",
@@ -35419,15 +35417,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5d6d6d00-0e49-44a0-9c9a-cf8c0714cf56/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a mandatory work language, which Priya does not speak, triggering a hard rejection.",
+    "reason": "This is a quota-carrying sales and customer-facing field-sales role with a salary below the candidate's minimum threshold, violating multiple negative constraints.",
     "id": "2402a4cd",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-19",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Rakennusalan ty\u00f6ntekij\u00f6it\u00e4 Tampereelle",
@@ -35436,15 +35433,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/db5e20c6-3090-43e4-b535-8123a233a779/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a work language (ty\u00f6kielet: Suomi), which Priya does not speak, and the role (construction worker) is outside her target domains of technical writing, release management, or regulated-industry quality/compliance roles.",
+    "reason": "This is a construction worker role requiring physical labor on building sites, which violates the hard rejection for manufacturing, construction, or hardware quality roles and falls completely outside her technical background.",
     "id": "02b5b09c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentaja, Uusimaa",
@@ -35453,15 +35449,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6824744e-8d40-43fc-ad5d-952ad3b816c0/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires electrical installation skills and is not aligned with Priya's expertise in DevOps, configuration management, release management, or technical writing.",
+    "reason": "This is a blue-collar electrician (s\u00e4hk\u00f6asentaja) role requiring a vocational qualification and mandatory Finnish language skills, which completely mismatches the candidate's engineering, DevOps, and technical communication background.",
     "id": "c06557e1",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Kiinteist\u00f6huoltaja",
@@ -35470,15 +35465,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0c751051-16f2-4350-8aac-a4252a65c958/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a mandatory work language, which the candidate does not speak, and the role (property maintenance technician) does not align with her expertise in technical communication, release management, or regulated-industry quality/compliance roles.",
+    "reason": "This is a physical property maintenance (Kiinteist\u00f6huoltaja) role requiring fluent Finnish and manual outdoor work, completely unrelated to Priya's software configuration management and technical communications background.",
     "id": "9ce18a58",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "CNC-koneistaja, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -35487,15 +35481,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5a930dcf-ce15-4f54-9e10-e7005db1058e/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role is a CNC machinist position in manufacturing, not aligned with her expertise in release/CM/DevOps or technical documentation.",
+    "reason": "This is a CNC machinist role in heavy industry requiring fluent Finnish and physical manufacturing work, which directly violates hard rejections for language and manufacturing/hardware roles.",
     "id": "050998a3",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "ICT support in H.0, ECHA, HelsinkiThe European Chemicals Agency (ECHA)HelsinkiGo to job site",
@@ -35504,15 +35497,14 @@
     "url": "https://www.jobly.fi/en/job/ict-support-h0-echa-helsinki-2758468",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description for 'ICT support' does not align with Priya's expertise in configuration management, release management, or technical documentation ownership, and instead appears to be general IT support rather than a role centered on CI/CD, quality gatekeeping, or regulated-industry compliance.",
+    "reason": "The job posting explicitly states that it is no longer active and closed for applications.",
     "id": "51fb5712",
     "source": "work_in_finland",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "ECU System & Software Integration Engineer (m/w/d)   Automized Enabling System",
@@ -35521,15 +35513,14 @@
     "url": "https://de.linkedin.com/jobs/view/ecu-system-software-integration-engineer-m-w-d-automized-enabling-system-at-vaillant-group-4439068580",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Remscheid, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job requires fluent German language skills and is located in Germany rather than Finland, violating the hard location and language requirements.",
     "id": "23b93443",
     "source": "linkedin_eu_release_manager",
     "posted_date": "vor 2 monaten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6suunnittelija",
@@ -35538,15 +35529,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/sweco-sahkosuunnittelija-sdsuu-20571004",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an Electrical Designer with engineering and design skills, which does not align with Priya's expertise in configuration management, release management, DevOps, and technical writing in regulated/safety-critical domains.",
+    "reason": "This electrical design engineering role requires fluent Finnish and electrical engineering qualifications, which do not align with Priya's configuration management and release-focused background.",
     "id": "40d05b6d",
     "source": "duunitori_broad",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-14",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "IT-tukihenkil\u00f6 Puolan Katowiceen",
@@ -35555,15 +35545,14 @@
     "url": "https://www.jobly.fi/tyopaikka/it-tukihenkilo-puolan-katowiceen-2730225",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Katowice, Poland, which falls under the 'Outside Finland and Not Remote' hard rejection criterion as it requires on-site work outside Finland without remote flexibility.",
+    "reason": "The role is an entry-level IT support desk position located in Poland, which does not match Priya's senior release management and technical communication background or location preferences.",
     "id": "f105431a",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Welder Mag-136",
@@ -35572,15 +35561,14 @@
     "url": "https://www.jobly.fi/tyopaikka/welder-mag-136-2754797",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Welder Mag-136' is a manual labor role unrelated to Priya's expertise in technical writing, configuration management, release engineering, and regulated-industry quality compliance.",
+    "reason": "The job posting is for a manufacturing welder role, which falls under hard rejections for physical production and trades work.",
     "id": "902d57a0",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Maalari",
@@ -35589,15 +35577,14 @@
     "url": "https://www.jobly.fi/tyopaikka/maalari-2726680",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Maalari' (painter) does not align with Priya's expertise in technical communication, release management, or DevOps/CI-CD roles.",
+    "reason": "This is a construction and manufacturing-related painting job requiring fluent Finnish and manual labor, which completely misaligns with Priya's background in software release management and engineering.",
     "id": "04afd5a7",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Turvallisuusasiantuntija (Tukes-luvat)",
@@ -35606,15 +35593,14 @@
     "url": "https://www.jobly.fi/tyopaikka/turvallisuusasiantuntija-tukes-luvat-2753580",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Pune, India (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications (\\\\",
     "id": "b1d92d31",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Asiakaspalvelija",
@@ -35623,15 +35609,14 @@
     "url": "https://www.jobly.fi/tyopaikka/asiakaspalvelija-2753490",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is no longer active and the role is a customer service position unrelated to the candidate's DevOps/Release/Quality expertise.",
+    "reason": "The job posting explicitly states that it is no longer valid, and the role is customer service (Asiakaspalvelija) rather than matching her technical profile.",
     "id": "e7487f80",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Kurottajakuljettaja",
