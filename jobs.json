@@ -35865,15 +35865,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kuorma-autonkuljettaja-keikkatoihin-2700873",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a truck driver position, which does not align with the candidate's expertise in technical communication, configuration management, release management, or DevOps/CI-CD roles.",
+    "reason": "This is a physical logistics and moving job requiring a truck driving license (C-kortti), which is completely unrelated to Priya's technical communication, release management, and software engineering background.",
     "id": "2afc963f",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Aloitteleva s\u00e4hk\u00f6asentaja",
@@ -35882,15 +35881,14 @@
     "url": "https://www.jobly.fi/tyopaikka/aloitteleva-sahkoasentaja-talonrakennus-ja-lvis-ala-2517228",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an apprentice electrician role with hands-on technical installation responsibilities, which does not align with Priya's expertise in release management, configuration management, or technical documentation.",
+    "reason": "This is an entry-level electrician (s\u00e4hk\u00f6asentaja) role requiring a electrical vocational degree, which does not match Priya's profile as a senior release/configuration management and technical communication specialist.",
     "id": "bc6cc3ed",
     "source": "jobly_broad",
     "posted_date": "2026-09-08",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Purkuty\u00f6ntekij\u00e4",
@@ -35899,15 +35897,14 @@
     "url": "https://www.jobly.fi/tyopaikka/purkutyontekija-2709401",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires manual demolition work and fluent Finnish, which Priya does not speak, and it falls outside her target domains of DevOps, configuration management, or technical documentation.",
+    "reason": "This is a physical construction and demolition role requiring fluent Finnish and prior demolition experience, which does not match Priya's profile as a technical communication and release management specialist.",
     "id": "4d878c85",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Maarakennusty\u00f6ntekij\u00e4",
@@ -35916,15 +35913,14 @@
     "url": "https://www.jobly.fi/tyopaikka/maarakennustyontekija-2696835",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "This is a physical construction and groundworks labor role requiring fluent Finnish, which is completely outside the candidate's software, release management, and technical communication background.",
     "id": "43e9f2ca",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Siivoojia monipuolisiin siivouskohteisiin Tampereelle!",
@@ -35933,15 +35929,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d1135560-3f74-4817-9ccb-9acf2a685efb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a cleaning position, which does not match Priya's expertise in technical communication, release management, DevOps, or regulated-industry quality compliance.",
+    "reason": "The role is for a cleaner (siivooja) requiring fluent Finnish and manual labor, which completely misaligns with Priya's technical communication, release management, and engineering background.",
     "id": "5ed62c17",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Hoitajan keikkaty\u00f6, Attendo Koillistuuli, Varkaus",
@@ -35950,15 +35945,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d6044b19-ab08-4f8b-a907-35a5f1760694/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires clinical healthcare qualifications and Finnish language proficiency which Priya does not possess, and it falls outside her technical/regulated-industry experience scope.",
+    "reason": "This is a nursing and elderly care role requiring a healthcare qualification and fluent Finnish, which violates multiple hard rejections.",
     "id": "2e4c9fa1",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Myyj\u00e4, Kilpisj\u00e4rvi",
@@ -35967,15 +35961,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/41b91f0a-8211-4be5-a6cc-959929bfb1ee/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires customer-facing sales responsibilities and mandatory Finnish language proficiency, both of which are explicitly excluded in the candidate's Hard Rejections.",
+    "reason": "This is a retail store clerk position at Alko involving customer service and cash register duties, which does not match Priya's profile as a technical communication, release, and configuration management specialist.",
     "id": "ea224b65",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Voimajohtosuunnittelija",
@@ -35984,15 +35977,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/31fcd599-2b16-4ce9-a9d4-bcebc90aa653/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a power line engineering position requiring Finnish language and electrical engineering expertise, which does not align with Priyanga\u2019s release/DevOps/technical writing background.",
+    "reason": "The role requires fluent Finnish language skills and focuses on power grid engineering, which does not match Priya's software release, configuration management, or technical documentation background.",
     "id": "61128ffb",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-11",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Kirvesmiehi\u00e4 ja Yleismiehi\u00e4 Rovaniemelle",
@@ -36001,15 +35993,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c5c30d72-f92e-4612-ae9e-cf30d7304200/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires carpenters and general laborers for construction work, which does not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation in regulated industries.",
+    "reason": "This is a construction and carpentry role (Kirvesmies), which triggers the hard rejection for manufacturing, construction, or physical trade roles.",
     "id": "c4e0e386",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-12-01",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Backend Developer, MVision AI, HelsinkiAcademic WorkHelsinkiGo to job site",
@@ -36018,15 +36009,14 @@
     "url": "https://www.jobly.fi/en/job/backend-developer-mvision-ai-helsinki-2758750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Backend Developer' role focused on feature development, which falls under the hard rejection category for pure software engineering roles without release/CM/DevOps components.",
+    "reason": "This is a backend developer role focused on feature-development software engineering, which falls under hard rejections.",
     "id": "7ede4344",
     "source": "work_in_finland",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "CRM Consultants with interest in Salesforce - Deloitte DigitalDeloitteHelsinkiGo to job site",
@@ -36035,15 +36025,14 @@
     "url": "https://www.jobly.fi/en/job/crm-consultants-interest-salesforce-deloitte-digital-2758659",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in English and at least one Nordic language (Finnish/Swedish/Norwegian), which the candidate does not have.",
+    "reason": "The role requires fluency in at least one of the Nordic languages (Swedish, Norwegian, or Finnish) alongside English, which violates the candidate's language constraints.",
     "id": "9153c803",
     "source": "work_in_finland",
     "posted_date": "2026-09-15",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Experienced Salesforce Program Manager at Deloitte DigitalDeloitteHelsinkiGo to job site",
@@ -36052,15 +36041,14 @@
     "url": "https://www.jobly.fi/en/job/experienced-salesforce-program-manager-deloitte-digital-2758657",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires direct client interaction and leadership in Salesforce transformations, which falls under a customer-facing program management role rather than Priya\u2019s focus on configuration management, release processes, or technical documentation in regulated industries.",
+    "reason": "This role is a client-facing Salesforce Program Manager and business transformation position requiring extensive consulting and sales/bidding experience, which does not align with Priya's core background in release management, configuration management, and technical documentation.",
     "id": "e3677df8",
     "source": "work_in_finland",
     "posted_date": "2026-09-15",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Remote Technical Operations & Deployment Engineer (GPU/AI/Cloud Infrastructure)",
@@ -36069,15 +36057,14 @@
     "url": "https://fi.linkedin.com/jobs/view/remote-technical-operations-deployment-engineer-gpu-ai-cloud-infrastructure-at-radian-arc-4466533322",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires hands-on datacenter infrastructure deployment and operations (GPU/AI/cloud), which differs from Priya's expertise in CI/CD/release management, technical documentation, and quality/compliance gatekeeping in regulated domains.",
+    "reason": "This is a specialized hardware, GPU, and datacenter infrastructure deployment role rather than a software release, configuration management, or technical writing position matching Priya's ~15 years of experience.",
     "id": "57617bef",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -36086,15 +36073,14 @@
     "url": "https://pt.linkedin.com/jobs/view/senior-devops-engineer-at-opplane-4465551854",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote/open to Finland-based candidates.",
+    "reason": "The job is physically located in Lisbon, Portugal, which does not satisfy the location requirement of being in Finland or fully remote without regional restrictions excluding Finland.",
     "id": "329b9c15",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentaja, infrarakentaminen / kunnallistekniikka (Turku)",
@@ -36103,15 +36089,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkoasentaja-infrarakentaminen-kunnallistekniikka-turku-2758855",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an electrical installer with hands-on infrastructure construction experience, which does not align with Priya's background in technical communication, configuration management, and regulated-industry release/quality management.",
+    "reason": "This is a physical construction and electrical installation role (Electrician) which falls under the hard rejection for manufacturing, construction, or hardware quality/hands-on trades.",
     "id": "9cd4901e",
     "source": "jobly_broad",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Testaus- ja toimittajalaatuinsin\u00f6\u00f6ri (SQC Methods Engineer), Helsinki",
