@@ -39983,15 +39983,14 @@
     "url": "https://fi.indeed.com/career/engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting lacks sufficient detail on company, location, role responsibilities, and required skills to evaluate fit against candidate criteria.",
+    "reason": "Job details are incomplete/unclear (company name, location, and role specifics not explicitly stated in the provided text), making it impossible to evaluate against any criteria.",
     "id": "0cda649b",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Salaries for Engineer, Helsinki, F19",
@@ -40000,15 +39999,14 @@
     "url": "https://fi.indeed.com/career/engineer/salaries/Helsinki--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting contains only salary information and no job role or responsibilities, so it does not match any target criteria.",
+    "reason": "The job posting lacks sufficient detail about the role's responsibilities, making it impossible to determine if it aligns with Priya's expertise in configuration management, technical writing, or regulated software quality. The title 'Engineer' is too generic and does not explicitly match any of her target roles (e.g., DevOps, Configuration Manager, Technical Writer).",
     "id": "d2396dd8",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Senior Software Engineer",
@@ -40016,16 +40014,17 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-at-forge-digital-4467972847",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a 'Senior Software Engineer' focused on feature development (AI solutions, system architecture, client-facing work) without CI/CD/release management ownership, and requires fluent Finnish which Priya does not speak.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "320c6724",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
-    "deadline": "Open until filled",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
     "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-04T12:14:58+03:00"
   },
   {
     "title": "Senior Software Engineer (Product)",
@@ -40034,15 +40033,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-product-at-switch-tech-talent-4466220053",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure feature-development Senior Software Engineer role focused on product development with no mention of CI/CD ownership, release management, or configuration management responsibilities, which falls under the hard rejection criteria for such roles.",
+    "reason": "The role is a pure feature-development software engineering position (Senior Software Engineer) without CI/CD/release management/configuration management ownership, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
     "id": "91844be4",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Digital Sales & Growth Consultant",
@@ -40050,16 +40048,17 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/digital-sales-growth-consultant-at-columbia-road-4464328242",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires working proficiency in Finnish (a mandatory requirement), which Priya does not possess, and the role is a sales-focused position that falls under the hard rejection category for quota-carrying sales roles.",
+    "matches_requirements": "error",
+    "reason": "Could not extract text from page (anti-bot protection or empty page).",
     "id": "d36f2e05",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "2026-11-01",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
     "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-04T12:16:20+03:00"
   },
   {
     "title": "Product Specialist, Head & Neck",
@@ -40067,16 +40066,17 @@
     "location": "Eindhoven, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-head-neck-at-medtronic-4468288000",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Eindhoven, Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a remote role accessible from Finland.",
+    "matches_requirements": "error",
+    "reason": "Could not extract text from page (anti-bot protection or empty page).",
     "id": "bc6fce5c",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
     "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-04T12:16:22+03:00"
   },
   {
     "title": "Customer & Operations Coordinator (FIN;SWE)",
@@ -40085,15 +40085,14 @@
     "url": "https://www.jobly.fi/tyopaikka/customer-operations-coordinator-fin-swe-2759826",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent/native Finnish and Swedish as hard qualifications, which Priya does not possess.",
+    "reason": "The job requires Finnish/Swedish language proficiency as a hard qualification and involves customer-facing operations coordination, which are both strict rejections for the candidate.",
     "id": "931f4212",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Nuorten rekrytointituen ty\u00f6paikka: Asiakaspalvelu- ja verkkokauppaty\u00f6ntekij\u00e4",
@@ -40102,15 +40101,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4a27ccc8-5fce-4415-83a1-a8e842e6dffb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent spoken and written Swedish as a hard qualification, which Priya does not possess.",
+    "reason": "The job requires fluency in Swedish (ruotsin kielen suullista ja kirjallista taitoa), which Priya does not speak, and the role is customer-facing/ecommerce operations rather than technical writing, release management, or configuration management.",
     "id": "73a2da2e",
     "source": "tyomarkkinatori",
     "posted_date": "16.9.2026, 23.10",
     "deadline": "2026-10-31",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Electrical Estimator",
@@ -40119,15 +40117,14 @@
     "url": "https://ie.linkedin.com/jobs/view/electrical-estimator-at-mercury-4466118735",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which is outside Finland and not a fully remote role accessible from Finland, violating Priya's strict location requirements.",
+    "reason": "The job is located in Dublin, Ireland (not Finland) and requires on-site presence, which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "f36f9d92",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Configuration Manager Manufacturing BOM",
@@ -40136,15 +40133,14 @@
     "url": "https://be.linkedin.com/jobs/view/configuration-manager-manufacturing-bom-at-expleo-group-4468326013",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Herstal, Belgium (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Belgium (Herstal, Walloon Region), which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection under 'Outside Finland and Not Remote' criteria.",
     "id": "9658201f",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:06+03:00"
   },
   {
     "title": "Asset/Configuration manager",
@@ -40153,15 +40149,14 @@
     "url": "https://sk.linkedin.com/jobs/view/asset-configuration-manager-at-cgi-4462466669",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bratislava, Slovakia, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
+    "reason": "Job is located in Bratislava, Slovakia, which is outside Finland and not a remote role, violating the location requirement.",
     "id": "2fbd72fd",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:06+03:00"
   },
   {
     "title": "Release Manager",
@@ -40170,15 +40165,14 @@
     "url": "https://pt.linkedin.com/jobs/view/release-manager-at-nox-health-4468317077",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is located in Porto, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "eed09dcd",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:06+03:00"
   },
   {
     "title": "Product Specialist, Wound Closure&Healing",
@@ -40187,15 +40181,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-wound-closure-healing-at-johnson-johnson-medtech-4468288814",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule. Additionally, the role appears to be a clinical/sales-focused Product Specialist position, which conflicts with Priya's technical/quality/product-specialist background and the 'customer facing' negative constraint.",
+    "reason": "The job requires on-site presence in Milan, Italy (outside Finland) without remote flexibility, and appears to be a quota-carrying sales role with clinical interaction requirements that conflict with Priya's non-sales, documentation/quality-focused Product Specialist background.",
     "id": "4bd04b5a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:06+03:00"
   },
   {
     "title": "Talent Pool: Associate Mako Product Specialist (m/w/d) Gro\u00dfraum Magdeburg",
@@ -40204,15 +40197,14 @@
     "url": "https://de.linkedin.com/jobs/view/talent-pool-associate-mako-product-specialist-m-w-d-gro%C3%9Fraum-magdeburg-at-stryker-4451129082",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Magdeburg, Saxony-Anhalt) which falls under the 'Outside Finland and Not Remote' hard rejection rule, as it requires on-site presence outside Finland.",
+    "reason": "The role is located in Magdeburg, Germany, which is outside Finland and not a remote position, violating the location requirement.",
     "id": "965a187c",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:06+03:00"
   },
   {
     "title": "Product Lead, Game Engine",
@@ -40221,15 +40213,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-lead-game-engine-at-supercell-4451220069",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of 'Product Lead, Game Engine' focuses on product strategy and leadership rather than configuration management, release processes, or technical documentation ownership, which are central to Priya's background and target criteria.",
+    "reason": "The role of Product Lead, Game Engine does not align with Priya's expertise in Configuration Management, Release Management, DevOps/CI-CD, or technical writing; it is focused on product leadership and game engine strategy rather than regulated-industry quality, release pipelines, or documentation ownership.",
     "id": "0e64d2d0",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:06+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:06+03:00"
   },
   {
     "title": "Customer Lead Atlassian Consultant - (Finland based)",
