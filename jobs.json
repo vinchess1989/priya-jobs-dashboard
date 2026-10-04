@@ -28372,15 +28372,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7d5d3df29710ff69",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description failed to load due to a server error (HTTP 400 Bad Request), preventing any evaluation against candidate requirements.",
+    "reason": "The job description provided returned an HTTP 400 error, making it impossible to evaluate the role requirements or company details.",
     "id": "6f14e5ab",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:00:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:00:40+03:00"
   },
   {
     "title": "Palkat - Ruokatorimyyj\u00e4, Pooli Jyv\u00e4skyl\u00e4",
@@ -28389,15 +28388,14 @@
     "url": "https://fi.indeed.com/career/ruokatorimyyj%C3%A4,-pooli-jyv%C3%A4skyl%C3%A4/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a grocery store counter sales worker ('Ruokatorimyyj\u00e4'), which completely mismatches the candidate's technical communication, configuration management, and release engineering background.",
+    "reason": "The role is for a food counter salesperson, which does not align with the candidate's 15 years of experience in technical communication, release management, and software engineering.",
     "id": "6c151a7b",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:00:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:00:40+03:00"
   },
   {
     "title": "Salaries for Ruokatorimyyj\u00e4, Pooli Jyv\u00e4skyl\u00e4, Jyv\u00e4skyl\u00e4, F09",
@@ -28406,14 +28404,13 @@
     "url": "https://fi.indeed.com/career/ruokatorimyyj%C3%A4,-pooli-jyv%C3%A4skyl%C3%A4/salaries/Jyv\u00e4skyl\u00e4--F09",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a grocery store counter clerk (Ruokatorimyyj\u00e4) position, which completely mismatches Priya's technical engineering, release management, and technical communication background.",
+    "reason": "The role is for a food market salesperson (Ruokatorimyyj\u00e4), which does not align with the candidate's professional background in technical communication, release management, and software engineering.",
     "id": "f93768b6",
     "source": "indeed_fi_broad",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kotisiivooja - Espoo",
@@ -28422,15 +28419,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/783361bb-fc85-4139-82f1-c134349a524c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a cleaning role requiring fluent Finnish language skills, which does not match Priya's technical and engineering background.",
+    "reason": "The role requires fluent Finnish and is a cleaning position, which does not align with the candidate's technical, release management, and quality engineering background.",
     "id": "f4bfb9ae",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:00:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:00:40+03:00"
   },
   {
     "title": "Kotisiivooja - Helsinki",
@@ -28439,15 +28435,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0f34040f-ca94-4e5b-873b-35432f60fcd2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not have, and is a home cleaning position unrelated to her technical, release, and quality management background.",
+    "reason": "The role requires fluent Finnish and is a manual labor position (cleaning) unrelated to the candidate's technical, release, or quality management expertise.",
     "id": "6dc8809b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:00:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:00:40+03:00"
   },
   {
     "title": "Hae nyt",
@@ -28456,15 +28451,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=eaa32f29-5ce8-49fd-bf79-d885f989f493-ZnJhcHJvZDE&iaUid=1k27do2bnhbba801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k27do2ahhbrn801%26jk%3De327a98d40f84888%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k27do25hhbrn800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoBq67M2eHTvk-T5X50LbzkdCdPP%26astse%3Db3cfbb8891e78d9f%26assa%3D326&spn=0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description text is empty and only contains a system error message (\\\\",
+    "reason": "The job description is inaccessible and contains no information regarding the role, company, or requirements to evaluate.",
     "id": "d593dba7",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Palkat - Configuration Specialist",
@@ -28473,15 +28467,14 @@
     "url": "https://fi.indeed.com/career/configuration-specialist/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information page on Indeed rather than an actual job posting, making it impossible to apply.",
+    "reason": "The provided URL is for a salary aggregation page on Indeed, not an actual job posting, and therefore contains no specific company, location, or role details to evaluate.",
     "id": "8fac7a23",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Salaries for Configuration Specialist, Espoo, F19",
@@ -28490,15 +28483,14 @@
     "url": "https://fi.indeed.com/career/configuration-specialist/salaries/Espoo--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information page on Indeed rather than an actual job posting, so it does not contain a valid employment opportunity.",
+    "reason": "The provided text is a salary search page for a job title rather than an actual job vacancy posting, and therefore contains no actionable job details.",
     "id": "5bfe5fbd",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Senior Release Manager",
@@ -28507,15 +28499,14 @@
     "url": "https://pt.linkedin.com/jobs/view/senior-release-manager-at-dellent-4464822101",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Portugal, which violates the candidate's requirement to be based in Finland or remote worldwide/within a region including Finland.",
+    "reason": "The job is located in Porto, Portugal, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "fb22c262",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Product Specialist Accessories",
@@ -28524,15 +28515,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-specialist-accessories-at-hiab-4466022510",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a commercial/business-development product management position involving sales training, pricing strategies, and customer interfacing, which does not align with Priya's core technical release, configuration management, and quality background.",
+    "reason": "The role is a commercial/business-development focused Product Specialist position involving pricing strategies and sales support, which falls under the hard rejection for quota-carrying/sales-oriented roles.",
     "id": "3de2c312",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "h\u00e1 3 semanas",
     "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Product Specialist to BYD Finland",
@@ -28541,15 +28531,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-specialist-to-byd-finland-at-byd-europe-4464585271",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This product management role in the automotive industry explicitly requires fluent Finnish language skills and automotive-specific product management experience, neither of which match the candidate's core background.",
+    "reason": "The role explicitly requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "8d990cb1",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-11",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Avoin hakemus \u2013 Tule RTK:laiseksi!",
@@ -28558,15 +28547,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-%E2%80%93-tule-rtk-laiseksi%21-at-rtk-palvelu-oy-4465899755",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an open/general application (avoin hakemus) for facility and property services at RTK-Palvelu Oy, which does not match Priya's technical configuration management, release, or engineering background.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "6e315156",
     "source": "linkedin_fi_broad",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "h\u00e1 3 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Ratkaisumyyj\u00e4 rakennusliike- / projektimyyntiin",
@@ -28575,15 +28563,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ratkaisumyyja-rakennusliike-projektimyyntiin-2755616",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying B2B sales and account management role, which directly triggers the hard rejection for sales positions.",
+    "reason": "The role is a quota-carrying sales position, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' roles.",
     "id": "d0c41419",
     "source": "jobly_broad",
     "posted_date": "2026-09-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Panostajia PK-seudun ja Uudenmaan kohteisiin",
@@ -28592,15 +28579,14 @@
     "url": "https://www.jobly.fi/tyopaikka/panostajia-pk-seudun-ja-uudenmaan-kohteisiin-2718589",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed and is for a construction/blasting role (Panostaja), which is entirely unrelated to Priya's background.",
+    "reason": "The job is a construction/blasting role (panostaja) which falls under the hard rejection for manufacturing/construction/hardware quality roles and is completely outside the candidate's software/regulatory domain.",
     "id": "15120822",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Kallioporaajia PK-seudulle ja Uudellemaalle",
@@ -28609,15 +28595,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kallioporaajia-pk-seudulle-ja-uudellemaalle-2718655",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting states that the position is no longer active and it is for a rock driller (kallioporaaja) in construction, which is completely unrelated to Priya's software, configuration management, and technical communication background.",
+    "reason": "The posting is a closed construction drilling job in Finland, not a software or release/CM/quality role.",
     "id": "26237891",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
     "description_file": null,
-    "added_at": "2026-09-11T08:18:16+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-11T08:18:16+03:00"
   },
   {
     "title": "Koulunk\u00e4ynninohjaajien sijaisuudet",
