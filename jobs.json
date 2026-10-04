@@ -37305,15 +37305,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lvi-asentaja-2759007",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a LVI-asentaja (HVAC installer) with no relevance to release management, configuration management, or technical documentation, and requires Finnish fluency, which the candidate lacks.",
+    "reason": "The role requires fluent Finnish language skills and is for a physical plumbing (LVI) trade position completely unrelated to Priya's background.",
     "id": "0ffa2c85",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Kaivoksen vesienhallinnan insin\u00f6\u00f6ri",
@@ -37322,15 +37321,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d2cf4a0d-fb0e-4be5-a930-a1efce1d22f3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish (and English) and focuses on mining engineering, which does not align with Priya's expertise in regulated software release/CM/DevOps or technical communication.",
+    "reason": "This is a mining/industrial engineering role for water management systems at a gold mine, requiring fluent Finnish and physical presence in Kittil\u00e4, which completely falls outside Priya's software release, configuration management, and technical documentation background.",
     "id": "9d3c75d0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-07",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00f6it\u00e4 ajoneuvotuotantoon, Sisu Auto (Jatkuva haku)",
@@ -37339,15 +37337,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/656b27cb-f657-45df-9312-0905d9a73b3b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires manufacturing/production work in automotive industry, which does not align with Priya's expertise in technical communication, release/configuration management, or regulated-industry quality roles.",
+    "reason": "This is a blue-collar manufacturing and vehicle assembly role for Sisu Auto in Karjaa, which falls under the hard rejection for manufacturing and physical production roles.",
     "id": "7ef46dff",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-12-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Tuotannon ty\u00f6ntekij\u00f6it\u00e4 Keitele Wood Oy:lle Alaj\u00e4rvelle",
@@ -37356,15 +37353,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0e703e4a-5828-4a55-83d3-cb2b5f369e8c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires hands-on production/manufacturing roles (machine operation, quality control) which do not align with Priya's expertise in technical communication, release management, configuration management, or DevOps.",
+    "reason": "This is a blue-collar manufacturing/production worker role at a sawmill that explicitly requires Finnish language skills, violating both the hard rejection rules and the candidate's professional profile.",
     "id": "431f6306",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Facility Security SpecialistICEYEEspooGo to job site",
@@ -37373,15 +37369,14 @@
     "url": "https://thehub.fi/jobs/6aa91d60585bdea047477a33",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Facility Security Specialist with physical security and classified asset protection responsibilities, which does not align with Priya's expertise in regulated-industry release/CM/DevOps roles or technical documentation ownership.",
+    "reason": "This is a physical facility security specialist role, which falls completely outside Priya's software engineering, release management, and technical communication background.",
     "id": "04c6b2b9",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Senior Computer Vision Engineer, Face TrackingDistance TechnologiesHelsinkiGo to job site",
@@ -37390,15 +37385,14 @@
     "url": "https://thehub.fi/jobs/6aa946bc18ab0fa070a75b1f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on computer vision algorithm development, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "This is a pure feature-development and algorithmic computer vision engineering role (C++, face tracking) requiring specialized domain expertise she does not have, as her background is in release management, CI/CD, and quality/compliance.",
     "id": "e6044186",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Senior Operations Engineer",
@@ -37443,15 +37437,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-at-wave-company-4465970447",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Senior Software Engineer' role focused on pure feature-development (full-stack, frontend/backend), which falls under the Hard Rejection for Pure Feature-Development Software Engineering roles.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "fea94c7b",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Konfiguration Manager (m/w/d)",
@@ -37460,15 +37453,14 @@
     "url": "https://de.linkedin.com/jobs/view/konfiguration-manager-m-w-d-at-aip-services-gmbh-4466820576",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Immenstaad am Bodensee) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "This job is located in Germany and requires both German and English proficiency, whereas the candidate is based in Finland and does not speak German.",
     "id": "c5bf1fda",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Senior Customer Support Engineer",
@@ -37477,15 +37469,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-customer-support-engineer-at-verda-4445726830",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Customer Support Engineer focused on technical problem resolution and escalation management, which does not align with Priya's expertise in release/CM/DevOps or regulated-industry quality gatekeeping. The job also falls under rejected 'customer facing' constraints.",
+    "reason": "This role centers on cloud infrastructure, GPU virtualization, and customer support with mandatory 5-day on-site presence in Helsinki, whereas the candidate's profile is focused on release management, configuration management, and DevOps.",
     "id": "6caf155f",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "vor 1 tag",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "\u00d6ppen Ans\u00f6kan, Esperi Almahemmet",
@@ -37494,15 +37485,14 @@
     "url": "https://www.jobly.fi/tyopaikka/oppen-ansokan-esperi-almahemmet-2743656",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires healthcare/nursing qualifications and fluency in Finnish/Swedish, which are not aligned with Priya's background in technical communication, release management, and regulated-industry quality gatekeeping. Additionally, the role involves clinical care responsibilities she has no experience with.",
+    "reason": "This is a healthcare nursing role requiring clinical qualifications and mandatory Swedish and Finnish language skills, which directly violates the candidate's hard rejections.",
     "id": "7460392d",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentajia Norjaan \u2013 DSB-hyv\u00e4ksynt\u00e4 vaaditaan",
@@ -37511,15 +37501,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkoasentajia-norjaan-dsb-hyvaksynta-vaaditaan-2743658",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for electrical installers in Norway, unrelated to DevOps, release, configuration or technical communication, and the salary is far below the candidate's expectations.",
+    "reason": "The job posting is for an electrician role in Norway, which falls under manufacturing/hardware/construction quality roles and is closed.",
     "id": "7b202dc7",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Hitsaaja, Keski-Suomi",
@@ -37528,15 +37517,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-keski-suomi-2748838",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires welding skills and vocational training, which are unrelated to the candidate's expertise in technical communication, configuration management, release engineering, and regulated-industry quality compliance.",
+    "reason": "This is a manufacturing/welding role which violates the hard rejection rule for physical production and trades roles.",
     "id": "6cf4f4f7",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Data Scientist",
@@ -37545,15 +37533,14 @@
     "url": "https://www.jobly.fi/tyopaikka/data-scientist-2748839",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Data Scientist' falls under pure feature-development software engineering and does not align with the candidate's focus on DevOps, release management, configuration management, or technical documentation roles.",
+    "reason": "The job posting explicitly states that it is no longer active and accepting applications, and it is for a Data Scientist role which falls under pure feature-development or data-platform specialist categories outside her core release management and technical communication background.",
     "id": "fcd36f7e",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Vakuutusmyyj\u00e4 Ilmariselle!",
@@ -37562,15 +37549,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vakuutusmyyja-ilmariselle-2753942",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a strict hard rejection.",
+    "reason": "This is a quota-carrying sales role (insurance sales), which falls under the hard rejection rule for pure sales positions.",
     "id": "1a422b46",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Jauhekaarihitsaaja telakalle",
@@ -37579,15 +37565,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jauhekaarihitsaaja-telakalle-2748828",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires welding skills in shipbuilding, which does not align with the candidate's background in technical communication, release management, and configuration management.",
+    "reason": "The job posting is for a manufacturing/welding role (Submerged Arc Welder) at a shipyard, which violates the hard rejection rule for physical production/manufacturing roles and does not match Priya's software and release management profile.",
     "id": "0514e8e7",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Muurari Espooseen omakotitaloty\u00f6maalle",
