@@ -37581,15 +37581,14 @@
     "url": "https://www.jobly.fi/tyopaikka/muurari-espooseen-omakotitalotyomaalle-2753932",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a bricklayer for construction work, which is unrelated to the candidate's expertise in technical communication, release management, and DevOps/CI-CD roles.",
+    "reason": "This is a construction masonry job (Muurari) in Espoo, which falls under the hard rejection for physical construction and manufacturing roles.",
     "id": "209537b7",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Kotisiivooja, keikkaty\u00f6, Tampere",
@@ -37598,15 +37597,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kotisiivooja-keikkatyo-tampere-2751488",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for a housekeeper does not align with the candidate's extensive experience in technical communication, configuration management, release engineering, or regulated-industry quality compliance.",
+    "reason": "This job posting is for a cleaning position (kotisiivooja) which is completely outside the candidate's professional domain, and the posting also explicitly states it is no longer active.",
     "id": "e1cd4abc",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Rengasmyyj\u00e4 / Asiakaspalvelija, Vianor Kalajoki",
@@ -37615,15 +37613,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0f9e25e5-9ac6-4c49-8a7a-0934252989de/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires customer-facing sales/Service roles which are explicitly rejected by the candidate due to her focus on technical/quality product-specialist work, not sales.",
+    "reason": "The role is a seasonal customer service and sales position for tyres in Kalajoki, which does not match Priya's profile in release management, quality, or configuration management, and it requires fluent Finnish.",
     "id": "4c679beb",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-16",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Aloittelevia Timpureita p\u00e4\u00e4kaupunkiseudulle",
@@ -37632,15 +37629,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7d9d4024-dabc-4b57-bfba-288ff4a9ae9d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction labor skills and Finnish language proficiency, which do not align with Priya's expertise in technical documentation, release management, and English-language working environment.",
+    "reason": "This is a construction worker role requiring fluent Finnish and physical carpentry skills, which directly conflicts with the candidate's software engineering, release management, and language profile.",
     "id": "df824b89",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Huolto- ja varaosamyyj\u00e4 Raumalle",
@@ -37649,15 +37645,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/4eaf18b1-5ce3-490e-8ddf-90d9e21f9d3b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a customer-facing sales role (service and spare parts salesperson) which falls under the hard rejection category for quota-carrying sales roles mislabeled as 'Product Specialist', despite being located in Finland.",
+    "reason": "This is a customer-facing car dealership workshop and spare parts sales role requiring Finnish language skills, which directly conflicts with Priya's background in software release management and her lack of Finnish.",
     "id": "b55e8284",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Rengasasentajia syksyn rengassesonkiin Suonenjoelle",
@@ -37666,15 +37661,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3cf3e233-355a-4934-90b9-1cb818c34237/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish (Suomi) as a work language, which Priya does not speak, triggering a hard rejection under mandatory language requirements.",
+    "reason": "The role is for a manual tire fitter (rengasasentaja) requiring physical labor and Finnish language proficiency, which completely misaligns with her professional background.",
     "id": "e750077c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-05",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Smartly Launchpad 2027 (Software Engineer)SmartlyHelsinkiGo to job site",
@@ -37683,15 +37677,14 @@
     "url": "https://thehub.fi/jobs/6aa9dfaff0b1bfe4cfb060bd",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an entry-level Software Engineer role focused on feature development, which falls under the 'Pure Feature-Development Software Engineering' Hard Rejection category that Priya explicitly avoids.",
+    "reason": "This is an entry-level software engineering program that explicitly targets recent graduates and offers a salary below the candidate's minimum threshold.",
     "id": "8b4fa5bc",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "2026-10-30",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Senior DevOps Engineer (AWS)",
@@ -37699,16 +37692,15 @@
     "location": "Zagreb, Zagreb, Croatia",
     "url": "https://hr.linkedin.com/jobs/view/senior-devops-engineer-aws-at-duetto-4467976227",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is a Senior DevOps Engineer role in Croatia (remote), which aligns with Priya's CI/CD and infrastructure experience but requires clarification on whether remote roles are open to Finland-based candidates, as the posting does not explicitly state this.",
+    "matches_requirements": "no",
+    "reason": "The candidate is based in Finland and requires remote roles restricted to Finland/EU/Worldwide, whereas this remote role is restricted to Croatia.",
     "id": "703bf7c3",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Customer Success Manager",
@@ -37717,15 +37709,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-success-manager-at-aceve-4467256613",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Customer Success Manager does not align with Priya's target job criteria in DevOps, Configuration Management, Release Management, or technical documentation specialism, and instead focuses on customer-facing implementation and onboarding responsibilities.",
+    "reason": "This is a customer-facing Customer Success Manager role, which conflicts with her negative constraints against customer-facing roles and does not match her technical/release/quality engineering background.",
     "id": "391aadbb",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -37734,15 +37725,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-aip-services-gmbh-4466833424",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Immenstaad am Bodensee, Baden-W\u00fcrttemberg) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Immenstaad am Bodensee, Germany, violating the location constraint requiring jobs to be in Finland or fully remote.",
     "id": "3271e3ac",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Engineering Release Manager (H/M)",
@@ -37751,15 +37741,14 @@
     "url": "https://es.linkedin.com/jobs/view/engineering-release-manager-h-m-at-tdconsulting-4467973251",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greater M\u00e1laga, Spain (not Finland) and requires on-site/hybrid presence, which violates the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in M\u00e1laga, Spain, violating the candidate's geographic criteria of being based in Finland or remote worldwide/EU.",
     "id": "b32cc0df",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "IS Change and Release Manager for SAP CFIN",
@@ -37768,15 +37757,14 @@
     "url": "https://pl.linkedin.com/jobs/view/is-change-and-release-manager-for-sap-cfin-at-abb-4467980297",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cracow, Poland (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote option.",
+    "reason": "The job is physically located in Cracow, Poland, violating the location requirement to be based in Finland or fully remote.",
     "id": "d1a1c4f0",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Banking Technology Consultant",
@@ -37785,15 +37773,14 @@
     "url": "https://fi.linkedin.com/jobs/view/banking-technology-consultant-at-accenture-nordics-4453258863",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Banking Technology Consultant' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or regulated-industry quality/compliance gatekeeping, and lacks explicit mention of CI/CD, release pipelines, or safety-critical standards.",
+    "reason": "The role requires fluent Finnish and a banking domain background, neither of which matches Priya's profile.",
     "id": "ff55530d",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Technical Product Specialist (Platform & Infrastructure)",
@@ -37802,15 +37789,14 @@
     "url": "https://pl.linkedin.com/jobs/view/technical-product-specialist-platform-infrastructure-at-freebalance-4446222747",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cracow, Poland, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Cracow, Poland, violating the requirement that on-site or hybrid roles must be in Finland.",
     "id": "7acc1ba8",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-08-05",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Product specialist  Gynaeco/Uro (Antwerpen, Limburg & Vlaams-Brabant)",
@@ -37819,15 +37805,14 @@
     "url": "https://be.linkedin.com/jobs/view/product-specialist-gynaeco-uro-antwerpen-limburg-vlaams-brabant-at-pauwels-consulting-4463391397",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Belgium (Brabant, Walloon Region), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland without remote flexibility.",
+    "reason": "This is a quota-carrying sales and field representative role in Belgium requiring Dutch fluency, which violates both the hard rejection for sales roles and the location/language requirements.",
     "id": "924aef6f",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "7 tuntia sitten",
+    "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00f6it\u00e4",
