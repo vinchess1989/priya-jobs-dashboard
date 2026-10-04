@@ -41875,15 +41875,14 @@
     "url": "https://fi.linkedin.com/jobs/view/azure-devops-engineer-at-hiq-finland-4467510341",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job requires proficiency in Finnish as a mandatory requirement, which Priya does not possess.",
     "id": "18bce6d6",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "AI Platform Engineer",
@@ -41892,15 +41891,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-platform-engineer-at-alma-media-4468622220",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an AI Platform Engineer with focus on cloud-based AI infrastructure and LLMOps, which does not align with the candidate's expertise in release/CM/DevOps or regulated-industry quality compliance.",
+    "reason": "The job is a pure feature-development software engineering role centered on AI platform development and LLMOps, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category. Priya's expertise lies in release/CM/DevOps, not platform/product code development.",
     "id": "d82c33c9",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "DevOps Engineer | Cloud-Native Platform",
@@ -41909,15 +41907,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-cloud-native-platform-at-decskill-4466260468",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Lisbon, Portugal, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
     "id": "665b417a",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Configuration Manager",
@@ -41926,15 +41923,14 @@
     "url": "https://it.linkedin.com/jobs/view/configuration-manager-at-txt-group-4467508650",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Turin, Piedmont, Italy, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland without being fully remote.",
+    "reason": "The job is located in Turin, Italy, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "c704cc94",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Product specialist",
@@ -41943,15 +41939,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-at-lhh-4468611170",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Varese, Lombardy, Italy (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not fully remote and outside Finland.",
+    "reason": "The job is located in Varese, Lombardy, Italy, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country other than Finland.",
     "id": "d053cd9c",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Hitsaaja (mig)",
@@ -41960,15 +41955,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-mig-2760205",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a MIG welder with industrial manufacturing experience, which does not align with Priya's background in technical communication, release management, and configuration management.",
+    "reason": "The job is a manufacturing welding role, which falls under the 'Manufacturing... quality roles' Hard Rejection due to its focus on physical production without software-release or quality components.",
     "id": "c22d3827",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Teollisuusmaalari",
@@ -41977,15 +41971,14 @@
     "url": "https://www.jobly.fi/tyopaikka/teollisuusmaalari-2724300",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Teollisuusmaalari' (Industrial Painter) does not align with any of the candidate's target roles in configuration management, release engineering, technical writing, or safety-critical requirements engineering.",
+    "reason": "The job title 'Teollisuusmaalari' (Industrial Painter) does not align with the candidate's background in technical communication, release management, or regulated-industry quality/requirements engineering.",
     "id": "6bf50191",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Keitti\u00f6p\u00e4\u00e4llikk\u00f6 / kokki",
@@ -41994,15 +41987,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokki-2716371",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a chef/head chef position, which does not align with the candidate's background in technical communication, configuration management, release management, or DevOps/CI-CD.",
+    "reason": "The role is a culinary position, not related to release management, DevOps, or technical communication.",
     "id": "5a5a8941",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Ship Fuel and Lubrication Oils System Responsible Designer",
@@ -42011,15 +42003,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ship-fuel-and-lubrication-oils-system-responsible-designer-2760289",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a systems designer role in naval architecture and ship engineering, which does not align with Priya's background in configuration management, release management, DevOps, or technical writing. Her experience and skills are not applicable to this design-focused maritime engineering position.",
+    "reason": "The job requires naval architecture/system design expertise unrelated to Priya\u2019s background in release/CM/DevOps and technical writing in regulated industries.",
     "id": "09b3f092",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Dumpperinkuljettaja Kajaaniin",
@@ -42028,15 +42019,14 @@
     "url": "https://www.jobly.fi/tyopaikka/dumpperinkuljettaja-kajaaniin-2723283",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Austin, TX, USA), which is strictly excluded per the candidate's hard rejections.",
+    "reason": "The job is located in Austin, TX, USA, which is a strict hard rejection due to Priya's non-negotiable exclusion of any US-based roles (including remote).",
     "id": "e4e617b9",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Etuputsari Jyv\u00e4skyl\u00e4\u00e4n",
@@ -42045,15 +42035,14 @@
     "url": "https://www.jobly.fi/tyopaikka/etuputsari-jyvaskylaan-2760272",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting describes a janitorial/maintenance role with no alignment to Priya's expertise in technical communication, release management, configuration management, or regulated-industry quality/compliance work.",
+    "reason": "The job requires physical labor (surface preparation, cleaning) and does not align with the candidate's expertise in technical writing, release management, or configuration management.",
     "id": "9e1fbbe4",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Varustelija",
@@ -42062,15 +42051,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varustelija-2760295",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical assembly and manufacturing skills unrelated to Priya's expertise in regulated-industry release/CM/DevOps roles, technical writing, or quality gatekeeping.",
+    "reason": "The role is a physical equipment assembly/manufacturing position with no software release, configuration\u2011management, or DevOps responsibilities.",
     "id": "d1b99b7e",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja H\u00e4meenlinna, Evo",
@@ -42079,15 +42067,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a3e15e54-6fa1-4bf6-b94c-96d664281d04/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a personal assistant/caregiver role, which does not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation.",
+    "reason": "The job requires Finnish language proficiency (listed as 'Ty\u00f6kielet: Suomi') and involves personal care assistance, which does not align with the candidate's technical/regulated-industry experience in release management, configuration management, or documentation. Additionally, it is not a match for any of her target roles (DevOps, Configuration Manager, etc.).",
     "id": "ef33fd1c",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 14.39",
     "deadline": "2026-12-02",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Kokoonpanoty\u00f6ntekij\u00f6it\u00e4 / Profile Vehicles Oy",
@@ -42096,15 +42083,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1850b750-e066-4d09-bc9e-4308dd3b527a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a working language (mandatory) and is an assembly/production role unrelated to Priya\u2019s expertise in regulated-industry configuration management, release engineering, or technical documentation.",
+    "reason": "The job is for an assembly worker in manufacturing (vehicle assembly), which falls under the 'manufacturing' hard rejection category as it does not involve software-release, configuration-management, or technical/quality product-specialist components.",
     "id": "4ade6ef5",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 14.37",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Certification Trainee, Bureau Veritas Finland / Helsinki",
@@ -42113,15 +42099,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/60c675fd-9221-4629-8789-1ce8ce833129/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target role types (DevOps, Configuration Management, Release Management, etc.) or her mid-to-senior experience level; it is an entry-level certification trainee position in administrative tasks unrelated to her technical/quality/compliance background.",
+    "reason": "The job does not align with Priya's target role types (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and instead focuses on administrative certification tasks unrelated to her expertise in regulated-industry CI/CD, release management, or technical documentation.",
     "id": "bc61f8dd",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2027-03-16",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Ajoneuvos\u00e4hk\u00f6asentaja / Profile Vehicles Oy",
