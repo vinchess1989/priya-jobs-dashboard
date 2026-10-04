@@ -40012,17 +40012,15 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-at-forge-digital-4467972847",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role is a 'Senior Software Engineer' focused on feature development and software architecture, which falls under Priya's hard rejection for pure feature-development roles. Additionally, the job requires fluency in Finnish, which she does not possess.",
     "id": "320c6724",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "error_attempts": 1,
-    "last_error_at": "2026-10-04T12:14:58+03:00"
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Senior Software Engineer (Product)",
@@ -40046,17 +40044,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/digital-sales-growth-consultant-at-columbia-road-4464328242",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "Job requires Finnish language proficiency, which the candidate does not have.",
     "id": "d36f2e05",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "2026-11-01",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "error_attempts": 1,
-    "last_error_at": "2026-10-04T12:16:20+03:00"
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Product Specialist, Head & Neck",
@@ -40064,17 +40060,15 @@
     "location": "Eindhoven, North Brabant, Netherlands",
     "url": "https://nl.linkedin.com/jobs/view/product-specialist-head-neck-at-medtronic-4468288000",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The job is located in the Netherlands (outside Finland) and not remote, which violates Priya's strict location requirements of only considering roles in Finland or fully remote positions accessible from Finland.",
     "id": "bc6fce5c",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:05+03:00",
-    "error_attempts": 1,
-    "last_error_at": "2026-10-04T12:16:22+03:00"
+    "added_at": "2026-09-18T12:16:05+03:00"
   },
   {
     "title": "Customer & Operations Coordinator (FIN;SWE)",
@@ -42115,15 +42109,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e4dae3c5-086c-4a4c-bf56-3f330d28ffb5/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description align with a technical installation/automotive electrical engineering role, not configuration management, release management, or regulated-industry quality/compliance roles which are central to the candidate's background and target criteria.",
+    "reason": "The role 'Ajoneuvos\u00e4hk\u00f6asentaja' (Vehicle Electrical Installer) does not align with Priya's target domains of DevOps, Configuration Management, Release Management, or Technical Writing, as it involves hands-on electrical installation rather than software delivery, documentation, or regulated-industry quality/compliance work.",
     "id": "4883aa66",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 14.37",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Metallity\u00f6ntekij\u00e4 / Profile Vehicles Oy",
@@ -42132,15 +42125,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e5d887c5-e888-49e7-a8b3-9f6ad11c7c9d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish as a work language, which Priya does not speak, triggering a hard rejection under mandatory language requirements.",
+    "reason": "The job requires Finnish as a working language, which Priya does not speak, triggering a hard rejection under 'Mandatory Finnish or Swedish' criteria.",
     "id": "0c2ba724",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 14.36",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00e4, levytt\u00e4j\u00e4",
@@ -42149,15 +42141,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/65dbb424-d471-4291-9f92-4234e45deccc/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction/bricklaying skills and Finnish as a work language, which do not align with Priya's background in technical communication, release management, or her English-only proficiency.",
+    "reason": "The job requires Finnish as a working language (explicitly stated in 'Ty\u00f6kielet: Suomi'), which is a hard rejection since Priya does not speak Finnish or Swedish and her previous Finland-based roles operated fully in English.",
     "id": "b0ee3f55",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-19",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Raskaan kaluston asentaja, Vantaa, V\u00e4rv\u00e4\u00e4m\u00f6 Group Oy",
@@ -42166,15 +42157,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d0cd31bc-a1eb-4f2c-af37-407f90a4004d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish as a mandatory qualification, which Priya does not possess, and the role involves heavy equipment installation/repair (mechanical/electrical work), which does not align with her software/configuration management/release engineering background.",
+    "reason": "The job requires proficiency in Finnish (Suomenkielen taitoa), which is a mandatory requirement not met by the candidate who does not speak Finnish or Swedish.",
     "id": "29174974",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 14.36",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Kuorma-autonkuljettaja",
@@ -42183,15 +42173,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a16a01e2-6d86-4608-98c4-7f22e889f857/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is a truck driver role, which does not align with Priya\u2019s release, configuration management, or technical documentation expertise.",
+    "reason": "The job requires a truck driver with specific transportation experience, which does not align with Priya's background in technical communication, release management, and DevOps/CI-CD.",
     "id": "fa137609",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-12",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Automation engineer, engine controlsW\u00e4rtsil\u00e4TurkuGo to job site",
@@ -42200,15 +42189,14 @@
     "url": "https://www.jobly.fi/en/job/automation-engineer-engine-controls-2760167",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a feature-development automation engineering role focused on engine controls without explicit CI/CD/release management/configuration-management ownership, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
+    "reason": "The role 'Automation engineer, engine controls' focuses on control system development and test case creation, which does not align with Priya's expertise in release/configuration management, CI/CD, or technical documentation (her target roles include DevOps/Release Manager/Technical Writer but not automation engineering for engine controls).",
     "id": "ba30d17b",
     "source": "work_in_finland",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Junior DevOps Engineer",
@@ -42217,15 +42205,14 @@
     "url": "https://fi.linkedin.com/jobs/view/junior-devops-engineer-at-hiq-finland-4466252774",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency at CEFR B2 level, which is a mandatory requirement and Priya does not speak Finnish or Swedish.",
+    "reason": "The job requires proficiency in Finnish at CEFR B2 level, which Priya does not possess, triggering a strict Hard Rejection under 'Mandatory Finnish or Swedish' rule.",
     "id": "0e4e4a76",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Release & Quality Lead",
@@ -42234,15 +42221,14 @@
     "url": "https://fi.linkedin.com/jobs/view/release-quality-lead-at-nestai-4467538454",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role aligns with Priya's CI/CD/release management expertise and regulated-industry quality experience, but the emphasis on AI-agent validation (a novel domain for her) introduces some uncertainty in fit.",
+    "reason": "The role aligns with Priya\u2019s release/quality management and CI/CD experience but requires AI-agent validation expertise not explicitly stated in her background, though her ASPICE/TUV and MDR/ISO 13485 traceability work may partially overlap.",
     "id": "097e1e70",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Senior Backend & Cloud Developer \u2013 AI Applications",
@@ -42251,15 +42237,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-backend-cloud-developer-%E2%80%93-ai-applications-at-unikie-4468214639",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure feature-development software engineering role (Senior Backend & Cloud Developer \u2013 AI Applications) with no mention of release/CI-CD/configuration-management ownership, which falls under Priya's 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "The job requires Finnish language skills (a hard qualification) and focuses on pure feature-development software engineering, both of which are strict rejections for the candidate.",
     "id": "89d1d963",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Junior DevOps Engineer",
@@ -42268,15 +42253,14 @@
     "url": "https://www.jobly.fi/tyopaikka/junior-devops-engineer-2760351",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is explicitly for a Junior DevOps Engineer, which conflicts with Priya's preference for mid-to-senior level roles (she has ~15 years of experience) and the salary range (3000\u20133800 EUR) falls below previously rejected thresholds (4000/4500 EUR).",
+    "reason": "The job offers a salary range below the previously rejected threshold of 4500 EUR per month, which disqualifies it based on user-defined negative constraints.",
     "id": "b091eb8e",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Takuuty\u00f6p\u00e4\u00e4llikk\u00f6 toimitilarakentamiseen Etel\u00e4-Suomeen",
@@ -42285,15 +42269,14 @@
     "url": "https://fi.linkedin.com/jobs/view/takuuty%C3%B6p%C3%A4%C3%A4llikk%C3%B6-toimitilarakentamiseen-etel%C3%A4-suomeen-at-skanska-4468391892",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not match Priya's target role types (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical domains.",
+    "reason": "The job requires a Warranty Manager in construction, which does not align with Priya's expertise in software configuration management, release engineering, or technical documentation in regulated industries.",
     "id": "8b606785",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "PLM Process & Configuration Manager (m/w/d)",
@@ -42302,15 +42285,14 @@
     "url": "https://de.linkedin.com/jobs/view/plm-process-configuration-manager-m-w-d-at-yer-deutschland-4466236176",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (R\u00f6thenbach an der Pegnitz, Bavaria), which does not meet the candidate's strict requirement for roles in Finland or fully remote positions accessible from Finland.",
+    "reason": "The job is located in Bavaria, Germany, which is outside Finland and not fully remote, triggering a hard rejection due to location constraints.",
     "id": "db274771",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "ITSM Configuration Manager (CMDB expertise)",
