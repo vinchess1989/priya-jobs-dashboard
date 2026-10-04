@@ -39263,15 +39263,14 @@
     "url": "https://pt.linkedin.com/jobs/view/senior-it-release-manager-at-hexa-consulting-4468237156",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is in Lisbon, Portugal (outside Finland) and is not fully remote, which is a hard rejection criterion as the candidate only accepts roles in Finland or fully remote positions accessible from Finland.",
+    "reason": "The job is located in S\u00e3o Paulo, Brazil, which violates the candidate's location and relocation criteria of being based in Finland or remote within Europe/worldwide.",
     "id": "5e0c190b",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Senior Trade Finance Specialist",
@@ -39280,15 +39279,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=19adf054c36ad8ba",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role as a Senior Trade Finance Specialist requires expertise in bank guarantees and financial compliance, which does not align with the candidate's background in configuration management, release engineering, and technical documentation.",
+    "reason": "This is a banking and finance customer-advisory role requiring Finnish fluency and financial domain experience, which does not match Priya's technical communication, software release, and configuration management background.",
     "id": "4311d6de",
     "source": "indeed_fi_product_specialist",
-    "posted_date": "16/09/2026, 11:05",
+    "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "R&D Manager, Cooling team",
@@ -39297,15 +39295,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=816f986bbb076270",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an R&D Manager with people leadership and technical R&D expertise, which does not align with Priya's focus on release/configuration management, CI/CD, or technical documentation in regulated/safety-critical domains.",
+    "reason": "This is a line management and leadership role for a cooling R&D team requiring extensive experience managing multidisciplinary R&D teams, which falls under the hard rejection criteria for line/people management roles with no release, CM, or quality core.",
     "id": "1af8e084",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Manager, Specialist Sales, SME Solutions Northern Europe",
@@ -39314,15 +39311,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=747fa7298187566c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Purchase, NY, USA, which falls under the strict exclusion of any roles in or restricted to the United States, including remote positions.",
+    "reason": "This is a US-located quota-carrying sales role, which violates the strict US location exclusion and sales role rejections.",
     "id": "547cb3e1",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Kubernetes and Container Platform Security Specialist",
@@ -39331,15 +39327,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ffa3c93a9dc68190",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job includes locations in London, United Kingdom, which is outside Finland and not remote, triggering a strict hard rejection rule.",
+    "reason": "This is a specialized infrastructure and platform security role focused on Kubernetes multi-tenancy and container security rather than Priya's core background in release management, CI/CD pipelines, configuration management, or technical documentation.",
     "id": "dbf102f7",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Product Owner - TietoCaretech (m/f/d)",
@@ -39347,16 +39342,15 @@
     "location": "Bengaluru, India",
     "url": "https://fi.indeed.com/rc/clk?jk=9f19a4d974878816",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Product Owner position in healthcare software requiring regulatory knowledge like MDR and ISO 13485 (matching her background), but it focuses on LIS/LIMS product backlog management rather than direct release/CM/quality-gatekeeping operations.",
     "id": "fafebe22",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Senior Cloud Solution Architect - Azure & AI",
@@ -39365,15 +39359,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4e6b8c6a2aea9fa4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Senior Cloud Solution Architect - Azure & AI' falls under excluded platform/architecture roles without explicit CI/CD/release management components, and the job description is unavailable due to a 400 error.",
+    "reason": "The job description text could not be verified and only shows a bot verification error page.",
     "id": "0520dc96",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "System Analyst - Tieto Caretech (m/f/d)",
@@ -39382,15 +39375,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=9af494aa84ffcd01",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting lacks explicit location details, making it impossible to confirm compliance with Priya's strict Finland-based or remote-from-Finland requirements. Additionally, the role title 'System Analyst' does not clearly align with her target domains (e.g., DevOps, Release Management, Configuration Management) without further clarification on responsibilities.",
+    "reason": "The provided job description text is a generic error/bot-detection page (\\\\",
     "id": "c82103ab",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Technical Communication Specialist",
@@ -39399,15 +39391,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6b61a7a50e0c6f8b",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job title matches Priya's experience as a Technical Communication Specialist, but the location is not explicitly stated in the job description, making it uncertain whether it meets her Finland-based or fully remote requirements.",
+    "reason": "The job matches the candidate's exact previous role as a Technical Communication Specialist, but the provided text is too sparse with missing company and location details to make a definitive 'yes' decision.",
     "id": "62f2610a",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Associate Consultant - Internship",
@@ -39416,15 +39407,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=13f6abf6c080b612",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This posting is an entry-level internship position, which violates the candidate's criteria given her ~15 years of experience.",
     "id": "025dc677",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Vastaanottovirkailija Aava Glass Igloosille \u2013 tule osaksi ainutlaatuista matkailukohdetta!",
@@ -39433,15 +39423,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vastaanottovirkailija-aava-glass-igloosille-tule-osaksi-ainutlaatuista-matkailukohdetta-0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a customer-facing receptionist role, which falls under the 'customer facing' hard rejection criterion, and does not align with Priya's technical/quality/product-specialist or DevOps/CM/release-management expertise.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa') and is for a receptionist/front-desk role completely unrelated to Priya's technical, release, and quality management background.",
     "id": "1f09e200",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Salin vuorop\u00e4\u00e4llikk\u00f6, Scandic Rovaniemi, Talvisesonki 2026-2027",
@@ -39450,15 +39439,14 @@
     "url": "https://www.jobly.fi/tyopaikka/salin-vuoropaallikko-scandic-rovaniemi-talvisesonki-2026-2027-2744251",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a hospitality/restaurant management role (Salin vuorop\u00e4\u00e4llikk\u00f6) unrelated to configuration management, release engineering, technical writing, or regulated-industry quality/compliance work, and does not match any of the target criteria.",
+    "reason": "This job posting explicitly states that it is no longer accepting applications and is for a restaurant shift manager role.",
     "id": "cc3f0388",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Keitti\u00f6n vuorop\u00e4\u00e4llikk\u00f6, Scandic Rovaniemi, Talvisesonki 2026-2027",
@@ -39467,15 +39455,14 @@
     "url": "https://www.jobly.fi/tyopaikka/keittion-vuoropaallikko-scandic-rovaniemi-talvisesonki-2026-2027-2744252",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description specifies a kitchen shift leader role in the hospitality industry, which does not align with Priya's background in technical communication, configuration management, release engineering, or regulated software industries.",
+    "reason": "This is a hospitality role for a kitchen shift manager in a hotel restaurant, which is completely unrelated to the candidate's technical communication, configuration management, and DevOps background.",
     "id": "d193b740",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Palvelup\u00e4\u00e4llikk\u00f6 (palo&turva), Turku",
@@ -39484,15 +39471,14 @@
     "url": "https://www.jobly.fi/tyopaikka/palvelupaallikko-paloturva-turku-2759094",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Palvelup\u00e4\u00e4llikk\u00f6 (palo&turva)' does not align with Priya's target roles in configuration management, release management, technical writing, or safety-critical requirements engineering. It appears to be an operational/service leadership role in fire/safety, which falls outside her domain expertise and career focus.",
+    "reason": "This is a physical service management role in fire and security safety systems requiring electromechanical field experience, which falls outside the candidate's software release, DevOps, and technical communication background.",
     "id": "257432fa",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Levysepp\u00e4hitsaaja, CNC-koneistaja, sorvaaja",
@@ -39501,15 +39487,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a99e5150-9fbb-4d39-a105-01285380ef34/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires manual trades (CNC machining, sheet metal work) unrelated to Priya's expertise in software configuration management, release engineering, and technical documentation.",
+    "reason": "This is a blue-collar manufacturing role for CNC machinists, turners, and plater-welders, which does not match Priya's software configuration management and technical writing background.",
     "id": "025b2936",
     "source": "tyomarkkinatori",
-    "posted_date": "16.9.2026, 18.43",
+    "posted_date": "2026-09-16",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Pizzakokki",
