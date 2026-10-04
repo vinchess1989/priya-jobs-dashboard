@@ -36585,15 +36585,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f696e8b8-a3e4-4fef-aae5-301294e84ba3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires running an ammatillisen perhekodin (educational home) as a business venture, which does not align with Priya's technical communication, release management, or configuration management expertise.",
+    "reason": "This is an entrepreneurial child welfare foster home management role requiring social work degrees and fluent Finnish, which completely mismatches Priya's technical communication, release management, and software background.",
     "id": "fbedb3e0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-16",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Infrastructure Engineer - Finland",
@@ -36602,15 +36601,14 @@
     "url": "https://fi.linkedin.com/jobs/view/infrastructure-engineer-finland-at-nexgen-cloud-4465583327",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on infrastructure operations and system administration rather than CI/CD pipelines, release management, or configuration strategies aligned with the candidate's expertise.",
+    "reason": "The role requires extensive hands-on physical data center work including building servers, racking hardware, and traveling to Quebec sites, which does not match Priya's background in software release, CI/CD, configuration management, and technical documentation.",
     "id": "fde1a5ba",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Senior Software Engineer, Add-Ons",
@@ -36619,15 +36617,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-add-ons-at-mozilla-4465583503",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires feature-development software engineering (building new application features) with no explicit CI/CD/release/CM ownership component, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "Although the location fits Finland, this role emphasizes feature-development and heavy hands-on software engineering with Python/Django rather than Priya's target domain of release management, configuration management, or quality gatekeeping.",
     "id": "3bd8ef16",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Service Owner Teamcenter Dokumente m/w/d",
@@ -36636,15 +36633,14 @@
     "url": "https://de.linkedin.com/jobs/view/service-owner-teamcenter-dokumente-m-w-d-at-phoenix-contact-4431912638",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Blomberg, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The job is physically located in Blomberg, Germany, and requires on-site or hybrid presence outside of Finland without offering a remote work option for candidates residing in Finland.",
     "id": "d0e728fa",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Application Manager Output Management (m/w/d)",
@@ -36653,15 +36649,14 @@
     "url": "https://de.linkedin.com/jobs/view/application-manager-output-management-m-w-d-at-deutsche-wertpapierservice-bank-ag-4426630131",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Eschborn, Hesse) with hybrid work options, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job requires fluent German (C1), which the candidate does not speak.",
     "id": "3a7675ac",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Process Manager Gestion des configurations pour le Grand Paris - F/H (DSI/TSI)",
@@ -36670,15 +36665,14 @@
     "url": "https://fr.linkedin.com/jobs/view/process-manager-gestion-des-configurations-pour-le-grand-paris-f-h-dsi-tsi-at-ratpgroup-4416852022",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Greater Paris, France, which is outside Finland and not a fully remote option accessible from Finland, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Noisy-le-Grand, France (Greater Paris Metropolitan Region) with a hybrid work model, violating the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "d9cdf3ac",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Ajoneuvoasentaja",
@@ -36687,15 +36681,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b3d1b2b3-d7c8-4dbe-ad6c-a3e0d80ca5d8/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a vehicle mechanic (Ajoneuvoasentaja) with automotive repair skills, which does not align with Priya's expertise in technical communication, release/configuration management, and DevOps/CI-CD in regulated industries.",
+    "reason": "This is a physical vehicle mechanic (ajoneuvoasentaja) role requiring manual trade skills and conversational Finnish, which does not match the candidate's software release, configuration management, and technical communication background.",
     "id": "bc931250",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-11-30",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -36704,15 +36697,14 @@
     "url": "https://ie.linkedin.com/jobs/view/senior-devops-engineer-at-payslip-4420409492",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job is located in Dublin, Ireland, and the posting explicitly requires applicants to have the permanent right to live and work in Ireland, whereas the candidate is based in Finland and is not open to relocating outside Finland.",
     "id": "0b157b4c",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-05-31",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Product Expert",
@@ -36721,15 +36713,14 @@
     "url": "https://es.linkedin.com/jobs/view/product-expert-at-moventia-4446797348",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Sant Cugat del Vall\u00e8s, Spain (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote/open to Finland-based applicants.",
+    "reason": "This is a customer-facing car dealership sales and advisory role, which violates both the hard rejections for customer-facing commercial roles and the location constraint since it is located in Spain.",
     "id": "b33a11fe",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Kokki (Asialainen Ravintola)",
@@ -36738,15 +36729,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c20a47e8-4fa7-4812-b567-28d446e15acc/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a chef position, which does not align with Priyanga\u2019s release/CM/DevOps/technical writing expertise and is below her salary threshold.",
+    "reason": "This is a chef position in a restaurant, which is completely unrelated to the candidate's background in software release management, configuration management, and technical communication.",
     "id": "17852ded",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "DevOps",
@@ -36755,15 +36745,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-at-dellent-4466586916",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Porto, Portugal, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection under 'Outside Finland and Not Remote' criteria.",
+    "reason": "The job is located in Porto, Portugal, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "76d66ca6",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Lead Consultant / Architect - Document Control and Engineering Information Management (m/f/d)",
@@ -36772,15 +36761,14 @@
     "url": "https://se.linkedin.com/jobs/view/lead-consultant-architect-document-control-and-engineering-information-management-m-f-d-at-opentext-4417652042",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sweden (outside Finland) and does not offer remote work options compatible with the candidate's requirement to work from Finland; additionally, the role focuses on enterprise software implementation and ECM system architecture rather than regulated/safety-critical release/CM/quality domains matching her background.",
+    "reason": "The job is located in Sweden and is an enterprise software consulting/architecture role without the required release, configuration management, or quality core matching Priya's profile.",
     "id": "e33949f0",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:01+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:01+03:00"
   },
   {
     "title": "Erikoisl\u00e4\u00e4k\u00e4ri Keuhkosairaudet",
@@ -36789,15 +36777,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/e779bebf-cb40-4902-89f2-fab951c40f8f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a medical license and clinical expertise as a Specialist Doctor in Respiratory Diseases, which does not align with Priya's non-clinical background in technical communication, product specialization, and regulated software release management.",
+    "reason": "This is a medical doctor position (Specialist in Pulmonary Diseases) requiring a clinical medical license, which does not match the candidate's technical communication, release management, and engineering background.",
     "id": "43eb65d8",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -36806,15 +36793,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/technical-release-manager-stshe-20575091",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The Technical Release Manager role at ICEYE matches Priya\u2019s expertise in end-to-end release ownership, cross-team coordination, and quality gatekeeping, with location in Finland (on-site/hybrid) aligning with her preferences.",
+    "reason": "This Technical Release Manager role in Espoo, Finland, perfectly matches Priya's extensive experience in end-to-end release execution, CI/CD pipeline usage, cross-team coordination, and quality gatekeeping.",
     "id": "39cf2697",
     "source": "duunitori_release_manager",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": "job_descriptions/iceye___espoo_technical_release_manager_39cf2697.txt",
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Maanrakennusty\u00f6ntekij\u00e4, Mikkeli",
@@ -36823,15 +36809,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/ba0c403e-5f59-4d21-8fe9-d0f4e4a0c195/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a construction worker (Maanrakennusty\u00f6ntekij\u00e4) in Finland, which does not align with the candidate's background in technical communication, release management, and regulated-industry software delivery roles.",
+    "reason": "This is a manual labor construction role (Maanrakennusty\u00f6ntekij\u00e4) requiring fluent Finnish, which completely conflicts with the candidate's technical communication, software configuration management, and English-only profile.",
     "id": "710572ef",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Erikoisl\u00e4\u00e4k\u00e4ri Keuhkosairaudet",
