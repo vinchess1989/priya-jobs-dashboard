@@ -24773,15 +24773,14 @@
     "url": "https://pt.linkedin.com/jobs/view/environment-release-lead-at-emagine-4410490495",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is based in Portugal, which is outside Finland and not a remote position.",
+    "reason": "The job is located in Portugal and is not listed as remote, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "3bf57db1",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:29:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:29:52+03:00"
   },
   {
     "title": "Release Manager - POS- Retail",
@@ -24797,8 +24796,7 @@
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:29:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:29:52+03:00"
   },
   {
     "title": "QA Release Manager (m/w/d)",
@@ -24807,15 +24805,14 @@
     "url": "https://de.linkedin.com/jobs/view/qa-release-manager-m-w-d-at-zabel-4455704492",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in the Greater Hamburg Area, Germany, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "45fbcdee",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:29:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:29:52+03:00"
   },
   {
     "title": "IT Integration Engineer",
@@ -24824,15 +24821,14 @@
     "url": "https://lu.linkedin.com/jobs/view/it-integration-engineer-at-catamania-4443783929",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Luxembourg and is not a remote role, which violates the location requirement, and the posting explicitly states it is no longer accepting applications.",
+    "reason": "The job is located in Luxembourg, which falls outside of Finland and is not a remote role, and the posting explicitly states it is no longer accepting applications.",
     "id": "6e96aca5",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-11",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:29:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:29:52+03:00"
   },
   {
     "title": "Sign Production Specialist",
@@ -24841,15 +24837,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sign-production-specialist-at-fastsigns-espa%C3%B1a-4434998405",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manual sign production and installation position that does not align with the candidate's technical, software-focused, and regulatory-compliance background, and the posting explicitly states it is no longer accepting applications.",
+    "reason": "The role is a physical manufacturing/fabrication position requiring manual labor and signage equipment, which falls under the hard rejection for manufacturing/hardware quality roles and is outside the candidate's software-focused career path.",
     "id": "10e21c26",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-07-12",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Technical Product Specialist",
@@ -24858,15 +24853,14 @@
     "url": "https://nl.linkedin.com/jobs/view/technical-product-specialist-at-slimstock-4451694527",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands, which falls outside of Finland and is not a remote role open to candidates living in Finland.",
+    "reason": "The job is located in the Netherlands and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "6c2ac0c0",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "2026-08-13",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Product Specialist Mode in Deerlijk",
@@ -24875,15 +24869,14 @@
     "url": "https://be.linkedin.com/jobs/view/product-specialist-mode-in-deerlijk-at-bel-bo-4439075633",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Belgium and requires proficiency in Dutch and French, which falls outside the candidate's location and language requirements.",
+    "reason": "The role is physically located in Belgium and requires specific fashion/garment industry technical knowledge (pattern making, textile technology) which does not align with the candidate's software/embedded systems background.",
     "id": "9b5654c0",
     "source": "linkedin_eu_remote_product_specialist_p2",
     "posted_date": "h\u00e1 2 meses",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "IV-puhdistaja Pirkanmaan alueelle",
@@ -24892,15 +24885,14 @@
     "url": "https://fi.linkedin.com/jobs/view/iv-puhdistaja-pirkanmaan-alueelle-at-cervi-4460645144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for an HVAC cleaner (IV-puhdistaja) requiring fluent Finnish and manual trade experience, which completely mismatches the candidate's engineering and technical communication background.",
+    "reason": "The role is for a physical HVAC cleaner (IV-puhdistaja) requiring Finnish language skills, which does not match the candidate's software engineering and technical documentation background.",
     "id": "52701160",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -24908,16 +24900,15 @@
     "location": "Pori, Satakunta, Finland",
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-integrata-4452700729",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "This is an open application for payroll and HR system specialists, which does not align with the candidate's technical release management, DevOps, or quality engineering background.",
+    "matches_requirements": "maybe",
+    "reason": "This is an open application (Avoin hakemus) for a company in Finland, which allows for a potential match depending on whether they have roles aligning with her configuration management or technical communication expertise.",
     "id": "5797fe5d",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-13",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Asiakashankkija",
@@ -24926,15 +24917,14 @@
     "url": "https://fi.linkedin.com/jobs/view/asiakashankkija-at-kasvuneuvos-oy-4462295553",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales-focused position ('Asiakashankkija' translates to customer acquisition/sales), which violates the hard rejection against quota-carrying sales roles.",
+    "reason": "The role is a sales/customer acquisition position ('Asiakashankkija'), which falls under the hard rejection for quota-carrying sales roles and does not align with the candidate's technical/quality/release management background.",
     "id": "8f50b9fe",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "is\u00e4nn\u00f6itsij\u00e4",
@@ -24943,15 +24933,14 @@
     "url": "https://fi.linkedin.com/jobs/view/is%C3%A4nn%C3%B6itsij%C3%A4-at-is%C3%A4nn%C3%B6inti-vuorma-oy-4457243148",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a property manager (is\u00e4nn\u00f6itsij\u00e4), which is outside the candidate's technical, release, and quality engineering domain, and it requires professional proficiency in Finnish for daily operations.",
+    "reason": "The role of 'is\u00e4nn\u00f6itsij\u00e4' (property manager) is outside the candidate's technical domain of software release, configuration management, and quality engineering, and it implicitly requires professional-level Finnish for daily communication with housing companies.",
     "id": "66dd15a1",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Huoltohenkil\u00f6",
@@ -24960,15 +24949,14 @@
     "url": "https://fi.linkedin.com/jobs/view/huoltohenkil%C3%B6-at-halo-igloos-4461323357",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a facility maintenance position (Kiinteist\u00f6nhoitaja) requiring Finnish language proficiency, which does not align with the candidate's technical release/CM/quality engineering background.",
+    "reason": "The role is a physical property maintenance position requiring Finnish language proficiency, which does not align with the candidate's technical software release and quality engineering background.",
     "id": "ed534210",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Avoin hakemus asiakaspalveluteht\u00e4viin",
@@ -24977,15 +24965,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-asiakaspalveluteht%C3%A4viin-at-veikkaus-4184179628",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for customer service positions (e.g., casino staff), which does not align with the candidate's technical, release management, and quality engineering background.",
+    "reason": "The role is for customer service/gaming floor staff, which does not align with the candidate's technical, release management, or quality engineering background.",
     "id": "048d32ff",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-06",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Car Manager",
@@ -24994,15 +24981,14 @@
     "url": "https://fi.linkedin.com/jobs/view/car-manager-at-arctic-gm-sonka-resort-the-original-aurora-hunters%C2%AE-4461801018",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manual fleet/vehicle management position, which does not align with the candidate's 15-year career in software engineering, DevOps, and technical documentation.",
+    "reason": "This role is a physical fleet management position, which falls under the hard rejection for manufacturing/hardware quality roles and is outside the candidate's software-focused career path.",
     "id": "213897d2",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-06",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Avoin haku, Talous- ja vuokrahallinto",
@@ -25011,15 +24997,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-haku-talous-ja-vuokrahallinto-at-colliers-4451672814",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an open application for financial and rental administration roles, which falls outside the candidate's technical, release management, and quality engineering domain.",
+    "reason": "The role is for financial and accounting services (Financial Assistant/Controller), which falls outside the candidate's technical, release management, and quality engineering domain.",
     "id": "10cd27c8",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T15:45:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T15:45:52+03:00"
   },
   {
     "title": "Siivoojia, Oulu",
