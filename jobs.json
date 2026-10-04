@@ -37065,15 +37065,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a3a8420a-8575-4188-9a0d-b330ca234704/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a psychiatrist (clinical/medical role) with a medical license, which is a strict hard rejection as Priya does not have clinical experience or qualifications.",
+    "reason": "This is a medical specialist role for a psychiatrist requiring clinical medical licensure, which does not match Priya's technical and quality-assurance background.",
     "id": "15cd10b3",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "L\u00e4hihoitaja (keikkaty\u00f6), Onnikoti Niitty, Jyv\u00e4skyl\u00e4",
@@ -37082,15 +37081,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/bb1c2e7b-b214-448c-a6f6-8df04efb2a15/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires B1-level Finnish language proficiency, which Priyanga Ramachandran does not possess, and the role (home care assistant) does not align with her expertise in technical communication, release management, or regulated-industry quality/compliance work.",
+    "reason": "This is a nursing role (L\u00e4hihoitaja) requiring a healthcare license, Finnish language skills, and clinical background, which does not match Priya's technical communication, software configuration management, and release engineering profile.",
     "id": "e482812a",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Integrated Solutions Manager",
@@ -37099,15 +37097,14 @@
     "url": "https://fi.linkedin.com/jobs/view/integrated-solutions-manager-at-deel-4465952351",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is client-facing and involves managing integration projects, which falls under rejected categories due to prior rejection of 'customer facing' roles, and does not align with Priya's expertise in regulated-industry release/CM/DevOps or technical documentation.",
+    "reason": "This client-facing implementation and API integration role leans heavily into customer management and SaaS deployment rather than Priya's core release management, configuration management, or quality/regulatory engineering background.",
     "id": "dc7e96e2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Hoitoapulaisia keikkaty\u00f6h\u00f6n P\u00e4ij\u00e4t-H\u00e4meen alueelle",
@@ -37116,15 +37113,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hoitoapulaisia-keikkatyohon-paijat-hameen-alueelle-2714444",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires care assistant duties (childcare/outsider activities) unrelated to technical/release/CM/DevOps roles, and does not align with Priya's regulated-industry technical documentation/quality gatekeeping background.",
+    "reason": "The role is a caregiving position for children, unrelated to the candidate\u2019s DevOps, release management, or technical communication expertise.",
     "id": "24887799",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Financial Controller (osa-aikainen)",
@@ -37133,15 +37129,14 @@
     "url": "https://www.jobly.fi/tyopaikka/financial-controller-osa-aikainen-2758933",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a Financial Controller, which does not align with the candidate's background in technical communication, configuration management, release management, or DevOps/CI-CD roles.",
+    "reason": "The role is for a Financial Controller requiring accounting expertise and fluent Finnish and English, which does not match Priya's technical communication, release management, and engineering background.",
     "id": "76629215",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "L\u00e4hihoitajia keikkat\u00f6ihin, Esperi Koti Pajunkissa",
@@ -37150,15 +37145,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lahihoitajia-keikkatoihin-esperi-koti-pajunkissa-2758941",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role type (home care aide) does not align with her expertise in technical communication, configuration management, or regulated software release/quality roles.",
+    "reason": "This is a nursing role requiring a healthcare qualification (l\u00e4hihoitaja) and fluent Finnish, which directly conflicts with the candidate's technical profile.",
     "id": "7cbaf489",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Projektinhoitaja (UPS), p\u00e4\u00e4kaupunkiseutu",
@@ -37167,15 +37161,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7fbc8988-4324-4539-accc-d7b9e3dbe69c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires project management in electrical systems and UPS installations, which does not align with the candidate's expertise in release/CM/DevOps or technical documentation roles.",
+    "reason": "The role is for an electrical project manager (Projektinhoitaja) focusing on building-services electrical systems and UPS installations, which falls under physical electrical engineering rather than software release, configuration management, or technical writing.",
     "id": "40872f6b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Ilmanvaihtoasentaja, Lahti",
@@ -37184,15 +37177,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/06e4eb04-6cdd-4106-8861-8aa5db00dd0a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish (work language: Suomi) which Priya does not speak, and the role (HVAC installer) does not match her expertise in release/CM/DevOps or technical documentation.",
+    "reason": "This is a hands-on physical installation and maintenance trade role (Ventilation Fitter) requiring Finnish language proficiency, which does not match Priya's software configuration management and technical communications background.",
     "id": "0c2a10ff",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "UPS- ja s\u00e4hk\u00f6asentaja, p\u00e4\u00e4kaupunkiseutu",
@@ -37201,15 +37193,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/720b58a1-6f91-4a11-8e78-bc638b2d7d40/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role does not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation; it requires electrical installation and UPS system experience which is outside her background.",
+    "reason": "This is a physical electrical and UPS installation/maintenance role requiring field work and electrical trade certifications, which does not match Priya's software configuration, release management, and technical communication background.",
     "id": "05f82b16",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Rengasasentajia sesonkiin",
@@ -37218,15 +37209,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rengasasentajia-sesonkiin-2753840",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires manual labor (tyre fitting) and does not align with the candidate's expertise in technical communication, release management, or regulated-industry quality/compliance roles.",
+    "reason": "The job posting explicitly states that it is no longer active and concerns manual tire-fitting work which does not match Priya's profile.",
     "id": "1e3b8e93",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja Vaasa, Kotiranta",
@@ -37235,15 +37225,14 @@
     "url": "https://www.jobly.fi/tyopaikka/henkilokohtainen-avustaja-vaasa-kotiranta-2748718",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for a Personal Assistant in Vaasa, Finland does not align with Priya's expertise in technical communication, configuration management, release management, or DevOps/CI-CD roles, and falls under the 'customer facing' hard rejection category she explicitly stated.",
+    "reason": "This is a personal assistant support role requiring no software engineering, release management, or technical skills matching the candidate's profile.",
     "id": "4f77756c",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Hitsaaja",
@@ -37252,15 +37241,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-2759013",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a welder with construction experience, which does not align with Priya's background in technical communication, release management, and DevOps/CI-CD in regulated industries.",
+    "reason": "This is a manufacturing/construction welding role (Hitsaaja) requiring physical welding qualifications and structural work, which falls under the hard rejection rule for manufacturing and physical production quality/trades roles.",
     "id": "f7791dfb",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "\ud83c\udfaf Nerf-kerho-ohjaaja keikkaty\u00f6 \u2013 Lohja",
@@ -37269,15 +37257,14 @@
     "url": "https://www.jobly.fi/tyopaikka/nerf-kerho-ohjaaja-keikkatyo-lohja-2758821",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires leading Nerf clubs for children/teens as a part-time/temporary worker, which is unrelated to Priya's expertise in technical communication, release management, configuration management, or regulated-industry quality/compliance work.",
+    "reason": "The job is closed and no longer accepting applications, and it is unrelated to Priya's professional background.",
     "id": "b1fa4e34",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Automekaanikko Mekonomen, Tampere",
@@ -37286,15 +37273,14 @@
     "url": "https://www.jobly.fi/tyopaikka/automekaanikko-mekonomen-tampere-2759008",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an automotive mechanic role, which does not align with the candidate's expertise in technical communication, release management, or configuration management.",
+    "reason": "This is a physical auto mechanic role which completely mismatches Priya's software engineering, configuration management, and technical communication background.",
     "id": "bbe138d8",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "Puristaja Neorem Magnetsille",
@@ -37303,15 +37289,14 @@
     "url": "https://www.jobly.fi/tyopaikka/puristaja-neorem-magnetsille-2759014",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title and description indicate a manufacturing/production role (e.g., 'puristaja' for Neorem Magnets), which does not align with Priya's expertise in technical documentation, release management, configuration management, or regulated software industries.",
+    "reason": "This is a manufacturing/production quality and physical labor role (Puristaja/Press operator) which triggers the hard rejection for manufacturing, construction, or hardware quality roles.",
     "id": "56f47c2d",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:02+03:00"
   },
   {
     "title": "LVI-asentaja",
