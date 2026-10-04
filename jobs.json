@@ -42733,15 +42733,14 @@
     "url": "https://thehub.fi/jobs/6aabd28b56b45735877877d6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Customer Success Specialist (customer-facing) which falls under the 'customer facing' negative constraint and does not align with Priya's background in technical communication, configuration management, or release engineering.",
+    "reason": "The role is explicitly customer-facing, which aligns with a hard-rejected category per the candidate's constraints.",
     "id": "e390b105",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Junior DevOps Engineer",
@@ -42750,15 +42749,14 @@
     "url": "https://www.jobly.fi/tyopaikka/junior-devops-engineer-2760489",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency at CEFR B2 level, which is a mandatory requirement and falls under the Hard Rejections as Priya does not speak Finnish or Swedish.",
+    "reason": "The job requires Finnish language proficiency at CEFR B2 level, which Priya does not possess, triggering a hard rejection under 'Mandatory Finnish or Swedish' criteria.",
     "id": "fac23601",
     "source": "jobly_fi_devops_engineer",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Lead Product Owner, Core Services",
@@ -42767,15 +42765,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-product-owner-core-services-at-veikkaus-4467554368",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Lead Product Owner focuses on product strategy and management rather than release/CM/DevOps or technical documentation ownership, which are the candidate's core expertise.",
+    "reason": "The job requires a Lead Product Owner with responsibilities in product management and regulatory compliance, which does not align with the candidate's core expertise in release management, configuration management, CI/CD, and quality gatekeeping under regulated standards.",
     "id": "eb93e82b",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-11",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Product Specialist - Autoimmunit\u00e0",
@@ -42784,15 +42781,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-autoimmunit%C3%A0-at-werfen-4468625949",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Lombardy, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not qualify as a remote role open to Finland-based candidates.",
+    "reason": "The job is located in Milan, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
     "id": "3af825dd",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Tuotantotekij\u00e4, Heinola",
@@ -42801,15 +42797,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tuotantotekija-heinola-2750374",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Tuotantotekij\u00e4' (Production Technician) does not align with Priya's expertise in DevOps, configuration management, release management, technical writing, or safety-critical requirements engineering.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a strict hard rejection.",
     "id": "6355ac9e",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Laatoittaja, Kuopio",
@@ -42818,15 +42813,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laatoittaja-kuopio-2750378",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Laatoittaja' (tiler) and description indicate a construction/artisan role unrelated to Priya's expertise in DevOps, configuration management, release engineering, or technical documentation.",
+    "reason": "The job requires a tiler/construction worker (Laatoittaja), which does not align with the candidate's expertise in technical communication, configuration management, release engineering, or regulated software quality roles.",
     "id": "57b17696",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Etsimme talonmiest\u00e4 Yll\u00e4kselle",
@@ -42835,15 +42829,14 @@
     "url": "https://www.jobly.fi/tyopaikka/etsimme-talonmiesta-yllakselle-2745075",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is a closed property maintenance role unrelated to her skill set.",
+    "reason": "The job requires a caretaker/maintenance role with physical building upkeep tasks, which does not align with Priya's expertise in technical documentation, release management, and regulated-industry quality compliance.",
     "id": "731e3b13",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Training Coordinator",
@@ -42852,15 +42845,14 @@
     "url": "https://www.jobly.fi/tyopaikka/training-coordinator-2760464",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily focused on training administration and customer-facing coordination, which falls outside the candidate's core expertise in technical release management, quality engineering, and CI/CD pipeline ownership.",
+    "reason": "The job does not align with Priya's target roles (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and focuses on training coordination rather than regulated-industry software delivery or technical documentation.",
     "id": "8da176aa",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Ajanvaraaja / Buukkaaja (B2C) \u2013 Takuupalkkio + provisiot",
@@ -42869,15 +42861,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ajanvaraaja-buukkaaja-b2c-takuupalkkio-provisiot-2760536",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed, and the role is a quota-carrying sales position which is explicitly rejected.",
+    "reason": "The job is a customer-facing sales/booking role ('Myyntihenkisi\u00e4 B2C-buukkaajia'), which falls under the 'customer facing' hard rejection category that Priya explicitly avoided.",
     "id": "3fa289a1",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Ravintolap\u00e4\u00e4llikk\u00f6 Rax Pizzabuffet Vaasa, Restel",
@@ -42886,15 +42877,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ravintolapaallikko-rax-pizzabuffet-vaasa-restel-2755422",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a restaurant management position unrelated to the candidate's technical expertise, and the salary is below the candidate's minimum requirement.",
+    "reason": "The job requires a restaurant manager role in the hospitality sector, which does not align with the candidate's expertise in technical communication, configuration management, or regulated software quality roles. Additionally, the salary range (\u20ac2900-3325) falls below previously rejected thresholds.",
     "id": "7c7aec98",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Kokoonpanoty\u00f6ntekij\u00e4, Savox Communications Oy, Savonlinna",
@@ -42903,15 +42893,14 @@
     "url": "https://www.jobly.fi/tyopaikka/juotostaitoinen-kokoonpanotyontekija-savox-communications-oy-savonlinna-2744181",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly marked as no longer valid and the role is for a manual assembly worker, which does not align with the candidate's senior technical/release management profile.",
+    "reason": "The job requires an assembly technician role in manufacturing (juotostaitoinen kokoonpanoty\u00f6ntekij\u00e4) which does not align with Priya's expertise in technical writing, release/configuration management, or quality gatekeeping in regulated industries.",
     "id": "d6a88360",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00f6it\u00e4",
@@ -42920,15 +42909,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekijoita-2760537",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction worker, which is outside the candidate's professional domain, and it explicitly requires excellent Finnish language skills.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which the candidate does not possess, and the role (construction worker) does not align with her expertise in technical communication, configuration management, or regulated-industry software quality.",
     "id": "639c5cd1",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6asentajia reissuty\u00f6h\u00f6n",
@@ -42937,15 +42925,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkoasentaja-sairaalaymparistoon-g1-2639187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a manual trade position (electrician) which does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
+    "reason": "The job requires an electrician for industrial electrical installation work, which falls under manufacturing/construction roles excluded by hard rejections due to lack of software-release/configuration-management focus.",
     "id": "05e1ad0e",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-05",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Ravintolan tarjoilija, 2 paikkaa, Obel 1X Oy, Riihim\u00e4ki",
@@ -42954,15 +42941,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c93c9647-c14c-495e-b230-e58834508e3d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a restaurant waiter, which does not align with the candidate's professional background in technical communication, release management, and engineering, and it explicitly requires Finnish language proficiency.",
+    "reason": "The job requires a restaurant server role in hospitality, which does not align with the candidate's technical/release-management background and explicitly falls under the 'customer facing' hard rejection rule.",
     "id": "2ba321df",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-11",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Saunamaailman ty\u00f6ntekij\u00e4",
@@ -42971,15 +42957,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c38b0ddf-3f45-401d-8114-a8a50cad870d/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a non-technical service position requiring fluent Finnish, which does not align with the candidate's professional background or language skills.",
+    "reason": "The job requires proficiency in Finnish, which Priya does not possess, and the role type (sauna worker) does not align with her target domains of DevOps, configuration management, or technical documentation.",
     "id": "f3717e9d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-10",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:09+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:09+03:00"
   },
   {
     "title": "Senior Software Architect (B2B online platform)DNA OyjHelsinkiGo to job site",
