@@ -41635,15 +41635,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-at-qoco-systems-4468394370",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Product Manager with focus on customer discovery and product strategy, which does not align with Priya's expertise in release/configuration management, CI/CD, and technical documentation.",
+    "reason": "The role of Senior Product Manager does not align with Priya's target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) or her experience in regulated/safety-critical industries.",
     "id": "83d634a9",
     "source": "linkedin_fi_broad",
-    "posted_date": "vor 1 monat",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Rust Engineer",
@@ -41652,15 +41651,14 @@
     "url": "https://fi.linkedin.com/jobs/view/rust-engineer-at-roder-ai-4468379639",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Rust Engineer with primary responsibility for feature development and systems architecture, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category. Priya's expertise is in release/CM/DevOps, not programming-language-specific backend development.",
+    "reason": "The job is a pure feature-development software engineering role (Rust Engineer) with no CI/CD/release/CM component, which falls under Priya's hard rejection criteria for roles focused solely on new application development.",
     "id": "ec1f8ba3",
     "source": "linkedin_fi_broad",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Talent Reinvention Manager and Consultant- Helsinki Talent Team",
@@ -41669,15 +41667,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/talent-reinvention-manager-and-consultant-helsinki-talent-team-sascc-20577701",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires professional proficiency in Finnish, which Priya does not speak, and it falls outside her target domains of configuration management, release management, or technical documentation.",
+    "reason": "The job requires management consulting and workforce transformation experience, which does not align with the candidate's expertise in CI/CD, release management, configuration management, and regulated-industry quality gatekeeping.",
     "id": "82f3f83f",
     "source": "duunitori_broad",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-17",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Technical Support Specialist, Virta, Helsinki",
@@ -41686,15 +41683,14 @@
     "url": "https://www.jobly.fi/tyopaikka/technical-support-specialist-virta-helsinki-2728439",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and Swedish, which the candidate does not speak.",
+    "reason": "The job requires fluent Finnish and Swedish as mandatory qualifications, which Priya does not possess.",
     "id": "b8923b0c",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Technical Support Specialist, Virta, Helsinki",
@@ -41703,15 +41699,14 @@
     "url": "https://www.jobly.fi/tyopaikka/technical-support-specialist-virta-helsinki-2728440",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is closed and the role is a customer\u2011facing technical support position, which does not align with the candidate\u2019s preferred release/CM/DevOps/technical\u2011writing or regulated\u2011quality roles.",
+    "reason": "The job title 'Technical Support Specialist' focuses on customer-facing troubleshooting and Zendesk/Jira ticketing, which does not align with Priya's expertise in release/CM/DevOps, technical writing, or quality gatekeeping under regulated standards (her last role was a Technical Communication Specialist at Topcon Healthcare, not customer support).",
     "id": "ccdf76c7",
     "source": "jobly_broad",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "C-kortillinen kuljettaja P\u00e4\u00e4kaupunkiseudulle",
@@ -41720,15 +41715,14 @@
     "url": "https://www.jobly.fi/tyopaikka/c-kortillinen-kuljettaja-paakaupunkiseudulle-2755007",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a C-license driver for delivery tasks, which does not align with the candidate's expertise in technical communication, configuration management, release management, or DevOps/CI-CD roles.",
+    "reason": "The job requires a C-license driver for delivery tasks, which does not align with Priya's expertise in technical communication, configuration management, release engineering, or quality gatekeeping in regulated industries.",
     "id": "f54e674e",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Kanttori",
@@ -41737,15 +41731,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/07bea5ec-eb73-479a-a25f-17fcc6270116/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish as a working language, which the candidate does not possess, and the role (Chaplain) does not align with her technical/regulated-industry experience in DevOps, release management, or documentation.",
+    "reason": "The job requires religious and community service responsibilities (chaplain duties) that do not align with the candidate's technical background in configuration management, release engineering, and regulated-industry quality compliance.",
     "id": "50e7d200",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 13.25",
     "deadline": "2026-10-16",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Kokeneita rengasasentajia syksyn 2026 sesonkiin Lohjalle",
@@ -41754,15 +41747,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/7cc169d2-0485-4fd8-ae91-568f4162af1b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical labor as a tire fitter, which does not align with Priya's background in technical communication, product specialist roles, or regulated-industry quality/CM/release management.",
+    "reason": "The job requires fluent Finnish (sujuvaa suomen kielen taitoa) as a mandatory qualification, which Priya does not possess, and the role type (tyre fitter) is unrelated to her expertise in technical documentation, release management, and configuration management.",
     "id": "633156fd",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 13.23",
     "deadline": "2026-10-15",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Ruokapalveluty\u00f6ntekij\u00e4",
@@ -41771,15 +41763,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/33588a98-c338-43c9-bcdc-545a3a69e0d7/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not possess, and it is a food service role unrelated to her technical/release management expertise.",
+    "reason": "The job requires Finnish language proficiency as a mandatory requirement, which Priya does not possess, and the role type (food service worker) does not align with her expertise in technical communication, release management, or configuration management.",
     "id": "f5e9627f",
     "source": "tyomarkkinatori",
-    "posted_date": "17.9.2026, 13.22",
+    "posted_date": "2026-09-17",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Chinese Cuisine Chef",
@@ -41788,15 +41779,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/1b246e37-8610-4322-a8ce-801398335ded/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for a Chinese Cuisine Chef does not align with Priya's qualifications in technical communication, release management, or configuration management, and falls outside her target domains.",
+    "reason": "The job role (Chinese Cuisine Chef) does not align with Priya's technical/regulated-industry background in configuration management, release engineering, or documentation specialism.",
     "id": "a1320047",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 13.21",
     "deadline": "2027-03-13",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Projektip\u00e4\u00e4llikk\u00f6, Lantm\u00e4nnen , Hyvink\u00e4\u00e4",
@@ -41805,15 +41795,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/b0f6bd4e-7790-4089-85c1-2402b168627e/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role focuses on project management in manufacturing rather than her expertise in configuration management, release management, or technical documentation.",
+    "reason": "The role requires fluent Finnish as a working language, which Priya does not speak, triggering a hard rejection.",
     "id": "e07373bb",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 13.20",
     "deadline": "2026-10-17",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Tuotannonty\u00f6ntekij\u00e4",
@@ -41822,15 +41811,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/35c8cf2a-1884-4b45-b78c-162728564a5a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish, which the candidate does not possess, and the role type (production worker) does not align with her expertise in regulated software industries.",
+    "reason": "The job requires Finnish language proficiency as a mandatory requirement and falls under manufacturing/production roles, which are explicitly excluded in the Hard Rejections.",
     "id": "f4450d52",
     "source": "tyomarkkinatori",
     "posted_date": "17.9.2026, 13.19",
     "deadline": "2026-10-15",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Data Management SpecialistNeste OyjEspooGo to job site",
@@ -41839,15 +41827,14 @@
     "url": "https://www.jobly.fi/en/job/data-management-specialist-2760162",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with the candidate's target roles in configuration management, release management, or DevOps/CI-CD, as it focuses on master data management and supply chain planning rather than regulated-industry quality/compliance, CI/CD pipelines, or technical documentation.",
+    "reason": "The job does not align with Priya's expertise in regulated-industry configuration management, release management, or technical documentation, as it focuses on supply chain master data management rather than CI/CD, quality gatekeeping, or safety-critical standards.",
     "id": "c4247dbe",
     "source": "work_in_finland",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-04",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Senior Scientist, AI-driven biomaterials designVTTEspooGo to job site",
@@ -41856,15 +41843,14 @@
     "url": "https://www.jobly.fi/en/job/senior-scientist-ai-driven-biomaterials-design-2760109",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires AI-driven biomaterials research and generative model development, which does not align with Priya's expertise in CI/CD, release management, technical writing, or quality gatekeeping in regulated industries.",
+    "reason": "The role is a pure AI research scientist position with no release, configuration\u2011management, or DevOps responsibilities, which is a hard rejection.",
     "id": "f5040644",
     "source": "work_in_finland",
     "posted_date": "2026-09-17",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "SW Engineer, Network ManagementNokiaEspooGo to job site",
@@ -41873,15 +41859,14 @@
     "url": "https://www.jobly.fi/en/job/sw-engineer-network-management-2760104",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure software engineering role focused on network management development, which does not align with the candidate's release/CM/DevOps expertise and explicitly excludes her target domains (e.g., no CI/CD/release ownership, configuration management, or safety-critical quality roles).",
+    "reason": "The role is a pure feature-development software engineering position (SW Engineer, Network Management) without CI/CD/release management/components, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
     "id": "8ffc8966",
     "source": "work_in_finland",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:08+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:08+03:00"
   },
   {
     "title": "Azure DevOps Engineer",
