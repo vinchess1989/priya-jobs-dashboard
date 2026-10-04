@@ -21171,15 +21171,14 @@
     "url": "https://se.linkedin.com/jobs/view/plm-application-specialist-all-genders-at-beyond-gravity-4463635051",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Gothenburg, Sweden, and does not offer remote work for candidates based in Finland, violating the location requirements.",
+    "reason": "The job is located in Gothenburg, Sweden, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
     "id": "3173656b",
     "source": "linkedin_eu_configuration_manager_p2",
-    "posted_date": "4 giorni fa",
+    "posted_date": "1 vecka sedan",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Application Configuration Specialist",
@@ -21188,15 +21187,14 @@
     "url": "https://lt.linkedin.com/jobs/view/application-configuration-specialist-at-benifex-nordics-4451528531",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, and requires the legal right to work in Lithuania, which does not meet the candidate's requirement for roles in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Vilnius, Lithuania (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
     "id": "44847152",
     "source": "linkedin_eu_configuration_manager_p2",
-    "posted_date": "1 mese fa",
+    "posted_date": "1 m\u00e5nad sedan",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Senior Protection Engineer",
@@ -21205,15 +21203,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=288d88b1e48a34f9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is empty and contains no information regarding the role, company, or location, making it impossible to evaluate against the candidate's requirements.",
+    "reason": "The job posting is unavailable due to a HTTP 400 error, making it impossible to evaluate against the candidate's requirements.",
     "id": "f57182a2",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Senior Protection Engineer",
@@ -21222,15 +21219,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=42a3b1c0ec94ce71",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized electrical engineering position focused on power systems and protection relays, which does not align with the candidate's background in software release management, configuration management, or technical documentation.",
+    "reason": "The job title 'Senior Protection Engineer' does not align with any of Priya's target roles (DevOps, Configuration Management, Release Management, etc.) or the positive constraints explicitly approved by the user (configuration management, technical communication specialist experience). The job description lacks sufficient detail to confirm alignment with safety-critical or quality-engineering domains.",
     "id": "df8d4afa",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "2026-10-16",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Engineering Manager, Unified Privacy Platform",
@@ -21239,15 +21235,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=053a938878ef5a85",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a line management position focused on a privacy platform, which falls under the hard rejection for specialist platforms/architecture/line management roles that lack a core release, CM, or quality component.",
+    "reason": "The job title 'Engineering Manager' does not explicitly align with Priya's target roles (e.g., DevOps, Configuration Management, Release Management) or her experience in regulated/quality-focused domains, and the sparse job description lacks details on responsibilities related to CI/CD, configuration management, or technical documentation.",
     "id": "9a7f4899",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Physical Security Systems Specialist",
@@ -21256,15 +21251,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8ce7956fd32926d3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Physical Security Systems Specialist, which does not align with the candidate's background in software release management, CI/CD, or technical documentation.",
+    "reason": "The job title 'Physical Security Systems Specialist' does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical domains.",
     "id": "602dfeff",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Technical Support Engineer",
@@ -21273,15 +21267,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=9627747fd5d0e16d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is empty and contains no information regarding the company, specific role responsibilities, or location details to evaluate against the candidate's requirements.",
+    "reason": "The job title 'Technical Support Engineer' does not align with Priya's target role types (e.g., DevOps, Configuration Management, Release Manager, Technical Writer) or her experience in regulated/safety-critical domains.",
     "id": "85802b32",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Senior Product Manager - Core Experience",
@@ -21290,15 +21283,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f6eddf29193e45b8",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Product Management position focused on core product experience, which does not align with the candidate's core expertise in release management, configuration management, technical documentation, or quality/regulatory compliance.",
+    "reason": "The job title 'Senior Product Manager' does not align with Priya's target role types (e.g., DevOps, Configuration Management, Release Management) or her background in regulated-industry quality/compliance gatekeeping and technical documentation.",
     "id": "87a959d2",
     "source": "indeed_fi_configuration_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:16:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:16:02+03:00"
   },
   {
     "title": "Software Governance & Quality Specialist",
@@ -21306,16 +21298,15 @@
     "location": "Vaasa, Ostrobothnia, Finland",
     "url": "https://fi.linkedin.com/jobs/view/software-governance-quality-specialist-at-hitachi-energy-4427911255",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job description explicitly states the position is based in Krakow, Poland, which violates the location requirement for non-Finland roles.",
+    "matches_requirements": "maybe",
+    "reason": "The job aligns with Priya\u2019s Quality Engineer background but lacks explicit mention of CI/CD or configuration management ownership, which she has extensive experience with.",
     "id": "5f2bce3f",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-07-24",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "Implementation Project Manager, Finland (Finnish-speaking)",
@@ -21324,15 +21315,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-project-manager-finland-finnish-speaking-at-wastehero-4462310340",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job explicitly requires native or C1 level Finnish, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish (native or C1 level), which is a strict hard rejection as Priya does not speak Finnish or Swedish.",
     "id": "b8e16873",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "Head of Engineering, Agentic AI Platform",
@@ -21341,15 +21331,14 @@
     "url": "https://fi.linkedin.com/jobs/view/head-of-engineering-agentic-ai-platform-at-relex-solutions-4459155774",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a leadership/management position focused on building an AI platform and team, which falls under the hard rejection for 'Specialist Platforms, Architecture or Line Management With No Release/CM/Quality/Requirements Core'.",
+    "reason": "The role is a leadership position focused on agentic AI platform development and team management, which does not align with Priya's expertise in release/CM/DevOps or technical documentation despite her senior-level experience.",
     "id": "e137a69e",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "Technical Project Manager / IT Infrastructure Engineer",
@@ -21358,15 +21347,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-it-infrastructure-engineer-at-nebius-4437668392",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on physical data center infrastructure operations (racking, cabling, power, cooling) and hardware, which falls outside the candidate's core expertise in software release management, CI/CD, and quality/regulatory documentation.",
+    "reason": "The job requires a Technical Project Manager / IT Infrastructure Engineer with data center operations experience, which does not align with Priya's expertise in Configuration Management, Release Management, and regulated-industry quality gatekeeping.",
     "id": "7b58a419",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "Senior Product Manager - Core Experience",
@@ -21375,15 +21363,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-core-experience-at-n8n-4461765197",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Product Management position focused on feature development and product strategy, which falls under the 'Pure Feature-Development' and 'Specialist Platforms' hard rejections, and the posting explicitly states that applications are no longer being accepted.",
+    "reason": "The role of Senior Product Manager - Core Experience does not align with Priya's background in release/configuration management, DevOps/CI-CD, and technical documentation, as it requires product strategy ownership and user experience design expertise she lacks.",
     "id": "a7b45991",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "Engineering Manager, eMSP & Driver Services",
@@ -21392,15 +21379,14 @@
     "url": "https://fi.linkedin.com/jobs/view/engineering-manager-emsp-driver-services-at-virta-ltd-4458359994",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure people-management role focused on leading software engineering teams and product delivery, which falls under the hard rejection for line management roles lacking a core release/CM/quality/requirements focus.",
+    "reason": "The job requires an Engineering Manager leading a product engineering team focused on consumer-facing software development (mobile apps, payments), which does not align with Priya's specialized background in release/CM/DevOps, quality gatekeeping, or regulated-industry requirements traceability.",
     "id": "50edf77b",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "SAP LeanIX, Signavio S/4HANA Consultant - Finland",
@@ -21409,15 +21395,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-leanix-signavio-s-4hana-consultant-finland-at-infosys-4460732631",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized SAP/Enterprise Architecture consulting position that lacks the core release management, configuration management, or quality/traceability focus required by the candidate's profile.",
+    "reason": "The role is an SAP consulting/solution-architecture position focused on S/4HANA transformations, which does not align with Priya's expertise in regulated-industry release/configuration management, CI/CD pipelines, or technical documentation ownership.",
     "id": "fb5a3e51",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-10T09:26:05+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T09:26:05+03:00"
   },
   {
     "title": "Project Delivery Specialist - Helsinki",
