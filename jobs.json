@@ -36105,15 +36105,14 @@
     "url": "https://www.jobly.fi/tyopaikka/testaus-ja-toimittajalaatuinsinoori-sqc-methods-engineer-helsinki-2748594",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a hard rejection.",
+    "reason": "This role requires manufacturing/supplier quality methods (MSA, FAI, PPAP) and mandatory fluent Finnish, which violates hard rejections.",
     "id": "a0fe57c0",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Technical Writer, Espoo",
@@ -36122,15 +36121,14 @@
     "url": "https://www.jobly.fi/tyopaikka/technical-writer-espoo-2743445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent written and spoken Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The job posting explicitly requires fluent written and spoken Finnish in addition to English, which violates Priya's language constraints.",
     "id": "3b6de326",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Asbestipurkaja",
@@ -36139,15 +36137,14 @@
     "url": "https://www.jobly.fi/tyopaikka/asbestipurkaja-2711875",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires asbestos removal skills and certifications unrelated to the candidate's expertise in technical communication, release management, and DevOps/CI-CD, with no alignment to her target roles or experience.",
+    "reason": "This is a physical construction and demolition job for an asbestos removal worker, which violates multiple hard rejections regarding manual/physical trades and manufacturing/construction quality roles.",
     "id": "650c0bf0",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Aloitteleva s\u00e4hk\u00f6asentaja",
@@ -36156,15 +36153,14 @@
     "url": "https://www.jobly.fi/tyopaikka/aloitteleva-sahkoasentaja-2355482",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an apprentice electrician with specific certifications and hands-on electrical installation skills, which do not align with Priya's background in technical communication, release management, and configuration management in regulated industries.",
+    "reason": "This is a physical construction and electrical installation role (electrician) which violates the hard rejection rule for manufacturing, construction or hardware quality roles and falls completely outside Priya's software and release management background.",
     "id": "ea8cc931",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja Riihim\u00e4elle",
@@ -36173,15 +36169,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/98a5fd5d-3a5d-4879-9bba-d0f1d8266872/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires sufficient Finnish language skills, which Priya does not possess, and it is unrelated to her expertise in configuration management, release processes, or regulated-industry quality standards.",
+    "reason": "This is a personal assistant healthcare role which completely contradicts Priya's technical and engineering background, and it also requires fluent Finnish.",
     "id": "8c70b02c",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "N\u00e4yttelij\u00e4 laulaja",
@@ -36190,15 +36185,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c758cea2-9365-4610-9b48-214b2be9ae32/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a performer/actor-singer role, which does not align with the candidate's expertise in technical communication, release management, or configuration management.",
+    "reason": "This is an entertainment and customer-facing artist/performer role (Actor/Singer on an icebreaker ship) completely unrelated to Priya's technical communication, release management, and engineering background.",
     "id": "36ebdd9f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-11-01",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:59+03:00"
   },
   {
     "title": "AI Engineer",
@@ -36207,15 +36201,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-engineer-at-norrin-4411373407",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires AI/ML development expertise and fluent Finnish, which are not aligned with Priya's background in release/configuration management, technical writing, and her lack of Finnish language skills.",
+    "reason": "The role requires fluent Finnish skills ('Fluent Finnish and English skills'), and it is an AI Engineer position focused on AI/ML platforms and LLMs, which falls under the hard rejection rule for specialist platforms and software development without a matching core release or quality focus.",
     "id": "14c47ff8",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -36224,15 +36217,14 @@
     "url": "https://fr.linkedin.com/jobs/view/devops-engineer-at-tmc-4445539360",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Toulouse, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "The job is located in Toulouse, France, violating the candidate's requirement to work in Finland or fully remotely from Finland.",
     "id": "54db4b2d",
     "source": "linkedin_eu_devops_engineer_p2",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Service Enablement Program manager EMEA",
@@ -36240,16 +36232,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/service-enablement-program-manager-emea-at-eaton-4465567008",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role as a Service Enablement Program Manager EMEA involves cross-functional program governance and strategic planning, which partially overlaps with Priya\u2019s experience in release/CM/DevOps but does not directly align with her target criteria of CI/CD ownership, technical documentation, or regulated-industry quality gatekeeping.",
+    "matches_requirements": "no",
+    "reason": "This role focuses on operational program management and service enablement in a manufacturing setting, lacking the software release, configuration management, or technical documentation core required by the candidate's background.",
     "id": "a81527d3",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Digital Pricing Lead",
@@ -36258,15 +36249,14 @@
     "url": "https://fi.linkedin.com/jobs/view/digital-pricing-lead-at-takeda-4463813144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Digital Pricing Lead focused on product strategy and business operations, not aligned with the candidate's expertise in CI/CD, release management, configuration management, or regulated-industry quality/compliance work.",
+    "reason": "The role is focused on digital pricing strategy and pharmaceutical market access management rather than software release management, CI/CD, or quality/regulatory compliance engineering.",
     "id": "8033987b",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Senior Technical Account Manager",
@@ -36275,15 +36265,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-technical-account-manager-at-aiven-4465567575",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing Technical Account Manager with sales/consulting focus, which conflicts with Priya's hard rejection of 'customer facing' roles and her background in release/CM/DevOps (not account management/sales).",
+    "reason": "This is a customer-facing technical account management and sales consulting role, which violates the candidate's rejection of customer-facing positions.",
     "id": "854d154c",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Senior Computer Vision Engineer, Face Tracking",
@@ -36292,15 +36281,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-computer-vision-engineer-face-tracking-at-distance-technologies-4467758162",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This is a pure feature-development and computer-vision engineering role focused on real-time face tracking and machine learning models, which falls under the hard rejection for pure software/feature engineering.",
     "id": "3b103a07",
     "source": "linkedin_fi_broad",
-    "posted_date": "N/A",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "HRD Manager",
@@ -36309,15 +36297,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hrd-manager-2758866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'HRD Manager' falls outside Priya's target domains (DevOps, Configuration Management, Release Management, etc.) and does not align with her experience in technical documentation, quality gatekeeping, or regulated-industry CI/CD/release management.",
+    "reason": "This HRD Manager role focuses on human resources and talent development, which does not match Priya's technical communication, configuration management, or release engineering background.",
     "id": "89df626c",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja Koivukyl\u00e4n alueelle Vantaalle",
@@ -36326,15 +36313,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/9ce956b0-dfc1-448c-9afc-a1b8a3626039/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires sufficient Finnish language skills, which Priya does not possess, and it is unrelated to her target domains (DevOps, configuration management, technical writing, etc.).",
+    "reason": "This is a personal assistant role requiring fluent Finnish, which falls completely outside Priya's technical release management and quality engineering profile.",
     "id": "0ae8e968",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja Tikkurilan alueelle Vantaalle",
@@ -36343,15 +36329,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/910832ce-13d8-448f-af64-1f6076986559/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires sufficient Finnish language skills, which Priya does not possess, and the role type (Personal Assistant for people with disabilities) does not align with her expertise in DevOps, release management, or technical documentation.",
+    "reason": "This is a personal assistant role in healthcare/social services which completely misaligns with Priya's technical, release management, and engineering background.",
     "id": "00bbecae",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-15",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:00+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:00+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja Hakunilan alueelle Vantaalle",
