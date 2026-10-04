@@ -30069,15 +30069,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-%E2%80%94-infrastructure-automation-at-luza-group-4455458422",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Leiria, Portugal, and is mostly remote within Portugal, violating the candidate's requirement to be based in Finland or able to work from Finland.",
+    "reason": "The job is located in Portugal and is not explicitly stated as open to candidates residing in Finland, violating the location requirement.",
     "id": "e1448d7b",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -30086,15 +30085,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-scsom-20567509",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This Senior DevOps Engineer role matches her extensive CI/CD, release pipeline, and configuration management background, located in Finland within a regulated healthcare environment.",
+    "reason": "The role is a strong match for her background in DevOps, CI/CD, and release management within a regulated healthcare environment, and it is located in Finland.",
     "id": "3da57af4",
     "source": "duunitori_devops_engineer",
     "posted_date": "2026-09-11",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": "job_descriptions/ge_healthcare___hels_senior_devops_engineer_3da57af4.txt",
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "System Responsible",
@@ -30102,16 +30100,15 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/system-responsible-at-meyer-turku-4466067820",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role focuses heavily on material compliance, regulatory documentation, and delivery documentation management within a regulated industry, aligning well with Priya's quality and technical documentation background, though it is located in Turku rather than Oulu.",
+    "matches_requirements": "yes",
+    "reason": "The role focuses on technical documentation, regulatory compliance, and material traceability in a safety-critical industry, which aligns perfectly with Priya's experience in quality gatekeeping and documentation management.",
     "id": "9033e279",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "h\u00e1 3 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/meyer_turku_system_responsible_9033e279.txt",
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Tietomallien ja suunnittelun kehitysp\u00e4\u00e4llikk\u00f6",
@@ -30120,15 +30117,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tietomallien-ja-suunnittelun-kehitysp%C3%A4%C3%A4llikk%C3%B6-at-fira-4467068893",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction and BIM development manager role in the building industry requiring a civil engineering or architectural degree, which does not match Priya's software configuration management and release engineering background.",
+    "reason": "The role is a construction-industry BIM/design management position, which falls under the hard rejection for manufacturing/construction quality roles and lacks the required software-release or configuration-management core.",
     "id": "16d1d40f",
     "source": "linkedin_fi_configuration_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "2026-10-11",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Ratkaisuarkkitehti (CRM ja asiakaspalvelu)",
@@ -30137,15 +30133,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ratkaisuarkkitehti-crm-ja-asiakaspalvelu-at-gofore-4399759489",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish (Sujuva suomen kielen taito), which Priya does not speak, and it centers on CRM solution architecture rather than her core release management, configuration management, or technical writing/quality gatekeeping expertise.",
+    "reason": "The job requires fluent Finnish, which the candidate does not possess, and the role is a Solution Architect position focused on CRM/business systems rather than the candidate's core expertise in release management, CI/CD, or quality/regulatory compliance.",
     "id": "e8270fd4",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "h\u00e1 3 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "SAP OTC Lead",
@@ -30154,15 +30149,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sap-otc-lead-at-tata-consultancy-services-4449116169",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a specialized enterprise ERP role focused on SAP S/4HANA Order-to-Cash (OTC) implementation and management, which falls outside the candidate's core background in release management, CI/CD, configuration management, and technical communication.",
+    "reason": "The role is a specialized SAP functional consulting position focused on business process design and implementation, which falls under the 'Specialist Platforms' hard rejection criteria.",
     "id": "04769e0a",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior Cost Manager",
@@ -30171,15 +30165,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cost-manager-at-linesight-4402139228",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a Senior Cost Manager role in the construction industry, which falls completely outside Priya's software engineering, DevOps, release management, and technical documentation background.",
+    "reason": "This is a construction-industry cost management role, which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or configuration-management component.",
     "id": "faec4651",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "K\u00e4ytt\u00f6\u00f6nottoasiantuntija",
@@ -30188,15 +30181,14 @@
     "url": "https://fi.linkedin.com/jobs/view/k%C3%A4ytt%C3%B6%C3%B6nottoasiantuntija-at-jis-automation-oy-4460069002",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires hands-on practical experience in building automation projects and HVAC/electrical field commissioning, which does not align with Priya's background in software configuration management and release engineering.",
+    "reason": "The role is a field-based building automation implementation position requiring hands-on construction/site experience, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
     "id": "7984bb63",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Ratkaisuarkkitehti (Power Platform)",
@@ -30205,15 +30197,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ratkaisuarkkitehti-power-platform-at-vivicta-4453073818",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a Solution Architect role focusing on Power Platform, enterprise integration, and AI architectures, which falls under the hard exclusion for architecture roles with no release/CM/quality core.",
+    "reason": "The role is a Solution Architect position focused on platform architecture and development, which falls under the hard rejection for specialist platforms/architecture roles that lack a core release, CM, or quality-management focus.",
     "id": "7d88a1db",
     "source": "linkedin_fi_configuration_manager_p2",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Experte (m/w/d) Konfiguration- und \u00c4nderungsmanagement",
@@ -30222,15 +30213,14 @@
     "url": "https://de.linkedin.com/jobs/view/experte-m-w-d-konfiguration-und-%C3%A4nderungsmanagement-at-diehl-group-4465164250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Nonnweiler, Germany (on-site/hybrid), which violates the candidate's requirement to work in Finland or remotely from Finland.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "b2711e1d",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Experte (m/w/d) Konfiguration- und \u00c4nderungsmanagement",
@@ -30239,15 +30229,14 @@
     "url": "https://de.linkedin.com/jobs/view/experte-m-w-d-konfiguration-und-%C3%A4nderungsmanagement-at-diehl-group-4465171065",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in R\u00f6thenbach an der Pegnitz, Germany, which violates the requirement that positions outside Finland must be fully remote.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "176a106f",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "IT Solution Manager, Sales and Trading",
@@ -30256,15 +30245,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-solution-manager-sales-and-trading-at-neste-4465715673",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job focuses on IT solution management for sales and trading systems, which falls outside Priya's core expertise in configuration management, release management, DevOps, and quality/regulatory compliance.",
+    "reason": "The role focuses on Sales and Trading IT solutions, which falls under the 'Specialist Platforms' exclusion criteria and lacks the required core focus on release, configuration management, or quality/traceability.",
     "id": "c09a7e3a",
     "source": "linkedin_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior Product Manager",
@@ -30273,15 +30261,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-at-basware-4464523081",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires 5+ years of dedicated product management experience with a focus on AI/ML products and AP processes in financial technology, which does not align with Priya's background in release management, configuration management, and technical communication.",
+    "reason": "The role is a pure Product Management position focused on AI strategy and roadmap, which falls under the 'Specialist Platforms, Architecture or Line Management' hard rejection criteria as it lacks a core focus on release, configuration management, or quality engineering.",
     "id": "bd5c2aab",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "h\u00e1 2 dias",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Senior Quality Assurance Specialist",
@@ -30290,15 +30277,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-quality-assurance-specialist-at-hidden-trail-4367098880",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This senior quality assurance and consulting role in Helsinki matches Priya's extensive quality, test automation, and CI/CD background.",
+    "reason": "The role aligns with the candidate's expertise in quality engineering, CI/CD pipelines, and process improvement within a consultancy environment in Finland.",
     "id": "e3a20d42",
     "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "8 kuukautta sitten",
+    "posted_date": "h\u00e1 8 meses",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": "job_descriptions/hidden_trail_senior_quality_assurance_speci_e3a20d42.txt",
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Lead Developer",
@@ -30307,15 +30293,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-developer-at-reaktor-3861243464",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development and hands-on coding role (Lead Developer building front-end/back-end applications) rather than a release, configuration-management, or quality/DevOps role.",
+    "reason": "The role is primarily a feature-development software engineering position requiring implementation of front-end and back-end features, which violates the hard rejection against pure feature-development roles.",
     "id": "60b15cc7",
     "source": "linkedin_fi_release_manager_p2",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Interim IT Leader / Senior IT Program Manager",
