@@ -51361,15 +51361,14 @@
     "url": "https://fr.linkedin.com/jobs/view/responsable-solutions-f-h-at-opteven-assurances-4454572424",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Villeurbanne, France (on-site/hybrid), which violates the candidate's requirement to be based in Finland or in a worldwide/universal remote role.",
+    "reason": "The job is located in Villeurbanne, France, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "37f4d466",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-26T02:57:22+03:00",
     "posted_date": "il y a 1 mois",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Recruitment Consultant",
@@ -51378,15 +51377,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d7951b331e24310c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This recruitment consultant role requires fluent Finnish skills as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish skills, which the candidate does not possess, and it is a recruitment/sales-oriented position rather than a technical, release, or quality-focused role.",
     "id": "9691c2f4",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Site Supervisor",
@@ -51395,15 +51393,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=bde653d34452bc27",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Site Supervisor requiring extensive physical site management and travel rather than software release, configuration management, or technical documentation.",
+    "reason": "The role is a physical site supervision position requiring Finnish language proficiency and extensive travel, which does not align with the candidate's software-focused release/CM/quality background.",
     "id": "e2e58ef7",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-23",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Junior Site Planning Engineer",
@@ -51412,15 +51409,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4f0ff91ac986ae38",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on mechanical site planning and CAD design (CREO/SolidWorks) rather than Priya's core expertise in release management, configuration management, DevOps, or quality/regulatory compliance.",
+    "reason": "The role is a junior-level mechanical/site planning position requiring CAD (CREO/SolidWorks) skills, which falls outside the candidate's core expertise in software release management, DevOps, and quality/regulatory compliance.",
     "id": "7912b5f4",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-18",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Junior Mechanical Design Engineer, Configuration & Layout Engineering",
@@ -51429,15 +51425,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=bd7c27cfb7953371",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a junior mechanical design and engineering position requiring PTC Creo and B.Sc./M.Sc. in Mechanical Engineering, which does not align with Priya's background in release management, CI/CD, and technical communication.",
+    "reason": "The role is a junior-level mechanical design engineering position requiring PTC Creo and mechanical CAD expertise, which does not align with the candidate's 15-year background in software release management and technical communication.",
     "id": "480818a7",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-18",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Mechanical Design Engineer",
@@ -51446,15 +51441,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8bea5617a1ce507c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware mechanical engineering role requiring mechanical design expertise, which does not match Priya's software, release management, configuration management, or technical communication background.",
+    "reason": "The job description is inaccessible (HTTP 400 error), and the title 'Staff Mechanical Design Engineer' falls under the hard rejection for hardware/mechanical engineering roles that lack a software-release or configuration-management component.",
     "id": "3ef88aad",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Datacenter Customer Operations Technician II",
@@ -51463,15 +51457,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=392694efad275d81",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hands-on datacenter hardware and operations technician role, which does not match Priya's background in release management, configuration management, DevOps, or technical communication.",
+    "reason": "The role is a physical datacenter operations/hardware technician position, which falls under the hard rejection for manufacturing/hardware quality roles and lacks the required software-release, configuration-management, or quality-engineering core.",
     "id": "2e4d359c",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Digital Analyst",
@@ -51480,15 +51473,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=29478a34c31026a5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Lead Digital Analyst focusing on digital analytics rather than configuration management, release engineering, or technical communication.",
+    "reason": "The role is a Digital Analyst position focused on data and analytics, which falls outside the candidate's core expertise in release management, configuration management, and technical documentation.",
     "id": "c4fc3dd8",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-18",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -51497,15 +51489,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=b767aa84-04a1-4dfa-9f85-32f3c27ee1a4-ZnJhcHJvZDE&iaUid=1k3dkkkfkhc1p801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k3dkkkemhcfc800%26jk%3D53ff68dc0db3307d%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k3dkkk9khcfc800%26trk.origin%3Djobsearch%26sj%3D1%26vjfrom%3Dtp-sponfirstjob%26advn%3D2663448250969982%26adid%3D463362351%26xkcb%3DSoBy6_M2ethdV_TC9Z0LbzkdCdPP%26astse%3D319259abeb8a4d95%26assa%3D6150&spn=1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is merely an Indeed login/cookie consent page and does not contain an actual job posting description or details.",
+    "reason": "The provided text is an Indeed application landing page and does not contain a valid job description, company name, or location details to evaluate.",
     "id": "aeba20f4",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Construction Manager",
@@ -51514,15 +51505,14 @@
     "url": "https://fi.indeed.com/career/construction-manager/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is a salary information page for a Construction Manager rather than an actual job opening matching Priya's technical communication, release, or configuration management background.",
+    "reason": "The provided text is a salary information page for a 'Construction Manager' role rather than a specific job vacancy, and it does not contain the necessary details to evaluate a match.",
     "id": "d8ce698e",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Construction Manager, Suomi",
@@ -51531,15 +51521,14 @@
     "url": "https://fi.indeed.com/career/construction-manager/salaries/Suomi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information page for a Construction Manager rather than an actual job vacancy.",
+    "reason": "The provided URL is a salary search page for construction managers, not a specific job posting, and the role type does not align with the candidate's software/regulatory background.",
     "id": "665835cc",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Site Manager, Finland-based projects, Nordec",
@@ -51548,15 +51537,14 @@
     "url": "https://www.jobly.fi/tyopaikka/site-manager-finland-based-projects-nordec-2760338",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction Site Manager position requiring physical site leadership and steel structure project management, which does not match Priya's background in software configuration management, release engineering, and technical communication.",
+    "reason": "This is a construction site management role focused on physical installation and project execution, which falls under the hard rejection for manufacturing/construction quality roles and is outside the candidate's software/DevOps/CM domain.",
     "id": "cff6f296",
     "source": "jobly_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:48+03:00",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Leasing Manager Anyspace Oy",
@@ -51565,15 +51553,14 @@
     "url": "https://www.jobly.fi/tyopaikka/leasing-manager-anyspace-oy-2748226",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying B2B leasing sales role, which conflicts with her technical, quality, and release-management background.",
+    "reason": "This is a sales and leasing manager position focused on B2B real estate solutions, which violates the hard rejection against quota-carrying sales roles and does not match Priya's technical, release, configuration, or quality management background.",
     "id": "f7d730ac",
     "source": "jobly_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:48+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Kategoriap\u00e4\u00e4llikk\u00f6, Kiinteist\u00f6t, Helsinki",
@@ -51582,15 +51569,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kategoriapaallikko-kiinteistot-helsinki-2761470",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a real estate and facilities management category manager role requiring fluent Finnish, which does not match Priya's technical communication, software configuration management, and release engineering background.",
+    "reason": "The role is a facilities management and real estate category leadership position, which falls outside the candidate's core expertise in software release, configuration management, and technical quality assurance.",
     "id": "cf90b2b5",
     "source": "jobly_fi_requirements_manager",
     "added_at": "2026-09-26T04:18:48+03:00",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-05",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer (F-35 Program)",
@@ -51599,15 +51585,14 @@
     "url": "https://fi.linkedin.com/jobs/view/quality-engineer-f-35-program-at-patria-4467353901",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires candidates to be able to use Finnish as a working language, which the candidate does not speak.",
+    "reason": "The job posting explicitly requires Finnish as a working language, which the candidate does not speak.",
     "id": "c8edf085",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-26T05:33:02+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "il y a 2 semaines",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
