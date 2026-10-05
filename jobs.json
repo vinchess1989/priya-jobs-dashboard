@@ -58872,15 +58872,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e51b09c42a3ae938",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires basic Finnish language skills (perusosaamista suomen kielest\u00e4) as a mandatory requirement, which Priya does not possess, and the role type (housekeeper/caregiver) does not align with her target criteria in configuration management, release engineering, or technical documentation.",
+    "reason": "This job is for a home care assistant (Kodinhuoltaja) and is completely unrelated to the candidate's background in software engineering, release management, and technical communication.",
     "id": "2ec6c9a6",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sairaanhoitaja, Lahti, Heinola ja M\u00e4nts\u00e4l\u00e4",
@@ -58889,15 +58888,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=37fe05219ca2c3cb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a nurse (Sairaanhoitaja) in healthcare, which does not align with Priya's background in technical communication, configuration management, release engineering, or regulated-industry quality/compliance work.",
+    "reason": "This job requires a clinical nursing license (Sairaanhoitaja), which is a hard rejection based on the candidate's background.",
     "id": "ea78fddf",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Myyntineuvottelijan ty\u00f6t\u00e4 el\u00e4kel\u00e4isille",
@@ -58906,15 +58904,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c89eb71559703fdb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a sales negotiator role focused on direct-to-consumer product selling, which falls under the hard rejection category for quota-carrying sales roles (even though not explicitly titled 'Product Specialist') due to its customer-facing sales focus and lack of alignment with the candidate's release/CM/DevOps background.",
+    "reason": "The job is a sales/telemarketing role ('Myyntineuvottelija'), which violates the hard rejection rule for pure sales positions.",
     "id": "a96d5d69",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kone-/Kaivinkoneenkuljettaja",
@@ -58923,15 +58920,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=fa93dc79b42e51b4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a machine/excavator driver role in construction, which does not align with Priya's expertise in technical communication, release management, CI/CD, or regulated-industry quality/compliance roles.",
+    "reason": "This is a construction machinery/excavator operator role (Kone-/Kaivinkoneenkuljettaja) which does not match Priya's software, configuration management, technical writing, or quality engineering background.",
     "id": "3314b747",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Myyntip\u00e4\u00e4llikk\u00f6 Easorille",
@@ -58940,15 +58936,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1c8993de3fdbae4d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency and is a quota-carrying sales role, both of which are strict hard rejections for the candidate.",
+    "reason": "This is a sales management role (Myyntip\u00e4\u00e4llikk\u00f6 / Sales Manager), which is a quota-carrying sales position that directly violates the hard rejection against sales roles.",
     "id": "89f4029f",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-07",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Social & Content Manager",
@@ -58957,15 +58952,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2ad91eb7ad864952",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job role (Senior Social & Content Manager) does not align with Priya's expertise in DevOps, Configuration Management, Release Management, or regulated-industry quality/compliance work, and falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
+    "reason": "This is a marketing and content management role which does not match Priya's technical communication, configuration management, release, or quality engineering background.",
     "id": "889ae812",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kes\u00e4yritt\u00e4j\u00e4koordinaattori, Business Oulu -liikelaitos",
@@ -58974,15 +58968,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ee1fb006f11b91cd",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires skills in entrepreneurship program coordination, mentoring, and event planning, which do not align with Priya's expertise in technical documentation, CI/CD pipelines, regulatory compliance, or release management.",
+    "reason": "The role is for a summer entrepreneur coordinator (Kes\u00e4yritt\u00e4j\u00e4koordinaattori), which falls outside Priya's target domain of DevOps, configuration management, technical writing, or quality engineering.",
     "id": "12a96723",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
-    "posted_date": "28.9.2026 klo 12:23",
+    "posted_date": "N/A",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Osastonhoitaja, Laakson mielialah\u00e4iri\u00f6poliklinikka",
@@ -58991,15 +58984,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=81ad2b147d1f0736",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish and Swedish language proficiency as mandatory qualifications, which Priya does not possess, and the role type (healthcare department head) does not align with her expertise in configuration management, release engineering, or technical communication.",
+    "reason": "This is a clinical nursing management role requiring a healthcare license, which does not match Priya's technical communication, configuration management, and release engineering background.",
     "id": "4ae7f93c",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
-    "posted_date": "28.9.2026 9:00",
+    "posted_date": "N/A",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lehtori: englanti ja ruotsi, Vallilan ala-asteen koulu",
@@ -59008,15 +59000,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e7fc3db47f0bdae6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Swedish as a mandatory qualification, which Priya does not possess, triggering a strict Hard Rejection.",
+    "reason": "This is a teaching position for English and Swedish at a primary school (Lehtori: englanti ja ruotsi), which is completely outside the candidate's technical communication, configuration management, and software engineering background.",
     "id": "97154033",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
-    "posted_date": "28.9.2026 10:00",
+    "posted_date": "N/A",
     "deadline": "2026-10-16",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Vastuumyyj\u00e4 tai myym\u00e4l\u00e4p\u00e4\u00e4llikk\u00f6 K-Market Rinkeli, Savonlinna",
@@ -59025,15 +59016,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=b2a5a7157e14044f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is explicitly a customer-facing sales/retail position (Vastuumyyj\u00e4/myym\u00e4l\u00e4p\u00e4\u00e4llikk\u00f6), which falls under Priya's hard rejection for 'customer facing' roles.",
+    "reason": "This is a retail store manager/sales position (K-Market store manager) which does not align with Priya's background in technical communication, release management, and software engineering.",
     "id": "cacc74a5",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Apulaisosastonhoitaja Keuhkosairauksien osasto",
@@ -59042,15 +59032,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=67816ce819d3eeb8",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish and Swedish as mandatory qualifications, which Priya does not possess, and it is a clinical healthcare role unrelated to her expertise in DevOps, configuration management, or technical writing.",
+    "reason": "This is a clinical nursing management role (Apulaisosastonhoitaja / Assistant Head Nurse) requiring a healthcare qualification, which does not match Priya's technical communication, release management, or configuration management background.",
     "id": "399c1da6",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
-    "posted_date": "28.09.2026 klo 08.00",
+    "posted_date": "N/A",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "L\u00e4hihoitaja (keikkaty\u00f6)",
@@ -59059,15 +59048,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=febdf037a9bfce28",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'L\u00e4hihoitaja (keikkaty\u00f6)' corresponds to a healthcare/caregiving role, which does not align with Priya's expertise in technical communication, configuration management, release engineering, or regulated-industry quality compliance.",
+    "reason": "This role requires a clinical healthcare license (L\u00e4hihoitaja / Practical Nurse), which violates the hard rejection rule for clinical/medical qualifications.",
     "id": "6ebdf38a",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sales Partner and Translator",
@@ -59076,15 +59064,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8335ab02eb5f7feb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales position (Sales Partner and Translator), which is a quota\u2011carrying, customer\u2011facing job that does not align with Priya\u2019s technical release/CM/DevOps background.",
+    "reason": "The role is primarily a sales and translation position rather than aligning with her core configuration management, technical writing, or engineering background.",
     "id": "9c4e93e0",
     "source": "indeed_fi_broad",
     "added_at": "2026-09-28T15:02:36+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Shop Manager - Sittkoff Galleria",
@@ -59093,15 +59080,14 @@
     "url": "https://www.jobly.fi/tyopaikka/shop-manager-sittkoff-galleria-2746418",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Swedish as a mandatory qualification, which Priya does not speak, triggering a hard rejection under 'Mandatory Finnish or Swedish' rule.",
+    "reason": "The role is a retail store manager position requiring fluent Swedish, which completely misaligns with her technical, configuration management, and release engineering background.",
     "id": "d3e45c5d",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-28",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior AI Solutions Engineer",
@@ -59110,15 +59096,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-ai-solutions-engineer-2760006",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires working in Prague (Czech Republic), which is outside Finland and not fully remote, triggering a hard rejection under 'Outside Finland and Not Remote' rules. Additionally, the role focuses on AI solution development rather than release/CM/DevOps, matching the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "This role is a pure AI feature-development and engineering position focused on building AI agents and RAG solutions, which violates the hard rejection against pure feature-development software engineering.",
     "id": "4cea2167",
     "source": "jobly_broad",
     "added_at": "2026-09-28T15:34:25+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Mekaniikkasuunnittelija trukkien asiakasr\u00e4\u00e4t\u00e4l\u00f6intien pariin J\u00e4rvenp\u00e4\u00e4h\u00e4n",
