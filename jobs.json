@@ -60312,15 +60312,14 @@
     "url": "https://pt.linkedin.com/jobs/view/senior-devops-engineer-at-emagine-4469678440",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Portugal and offers a hybrid model, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site/hybrid work outside Finland.",
+    "reason": "The job is physically located in Portugal and not open to candidates based in Finland without relocation, failing the location requirement.",
     "id": "f278d07b",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "added_at": "2026-09-28T22:13:05+03:00",
-    "posted_date": "1 vecka sedan",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps / CI ingenj\u00f6rer till f\u00f6rsvarsindustrin",
@@ -60329,15 +60328,14 @@
     "url": "https://se.linkedin.com/jobs/view/devops-ci-ingenj%C3%B6rer-till-f%C3%B6rsvarsindustrin-at-nexer-group-4463066404",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Sweden and requires Swedish citizenship and language, which disqualifies the candidate.",
+    "reason": "The posting explicitly requires Swedish citizenship and fluent Swedish language skills, neither of which the candidate possesses.",
     "id": "998724d5",
     "source": "linkedin_eu_remote_devops_engineer_p2",
     "added_at": "2026-09-28T22:13:05+03:00",
-    "posted_date": "1 dag sedan",
+    "posted_date": "3 dias",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sovereign Infrastructure Operations Engineer",
@@ -60345,16 +60343,15 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=0432074b43e3ba97",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job involves infrastructure operations and security compliance, which partially overlaps with Priya's CI/CD and configuration management skills but does not fully align with her target roles in release/CM/DevOps or regulated quality gatekeeping.",
+    "matches_requirements": "no",
+    "reason": "This is a systems administration and infrastructure operations role focusing on Kubernetes, Linux, and secure bare-metal environments, which falls outside Priya's release management, configuration management, and technical communication expertise.",
     "id": "f547d9c0",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI Head of Data Engineering (100 % remote) (m/f/d)",
@@ -60363,15 +60360,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=b9ba91d4576e6340",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'AI Head of Data Engineering' appears to focus on data engineering leadership rather than configuration management, release management, or regulated-industry quality/compliance roles that align with the candidate's background.",
+    "reason": "The role is a Head of Data Engineering and AI leadership position, which falls under the hard rejection for data platforms, architecture, or line management with no release/CM/quality/requirements core.",
     "id": "f52689b5",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Linux Administrator (Ops)",
@@ -60379,16 +60375,15 @@
     "location": "Remote (Georgia / Belarus / Armenia / Serbia / Moldova / Kyrgyzstan / Uzbekistan / Dubai / Estonia / Finland / Greece / Montenegro / Poland / Romania / Bulgaria)",
     "url": "https://fi.indeed.com/rc/clk?jk=c8715d9d9a1895ff",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is remote and includes Finland in its location options, but the role of 'Linux Administrator (Ops)' does not explicitly align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) or her experience as a Technical Communication Specialist/Quality Gatekeeper. The description lacks clarity on whether CI/CD, configuration management, or regulated-industry quality/compliance responsibilities are involved.",
+    "matches_requirements": "no",
+    "reason": "The role is a pure Linux Administrator (Ops) position focused on infrastructure and systems administration rather than configuration management, release management, or technical communication.",
     "id": "bc1708c3",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Software Engineer (Commercial Platform)",
@@ -60397,15 +60392,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=790111696f6e11b0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Staff Software Engineer (Commercial Platform)' appears to be a pure feature-development role with no explicit mention of configuration management, release processes, or technical documentation ownership, which are central to the candidate's experience and target criteria.",
+    "reason": "The role focuses on backend feature development for a commercial platform rather than configuration management, release engineering, technical communication, or quality assurance.",
     "id": "dd2b17a6",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Cloud Engineer",
@@ -60413,16 +60407,15 @@
     "location": "Pori, Turku, Finland (Hybrid)",
     "url": "https://fi.indeed.com/rc/clk?jk=e59e877f33031d61",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job title 'Cloud Engineer' is ambiguous without specific details on responsibilities; insufficient information to confirm alignment with configuration management, release/DevOps, or technical communication roles.",
+    "matches_requirements": "no",
+    "reason": "The role is a Cloud Engineer focusing on cloud infrastructure rather than her core background in release management, configuration management, CI/CD pipelines, or technical communication/quality.",
     "id": "01d4695a",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer \ufeff",
@@ -60431,15 +60424,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7eb9f5061923cfdb",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role of DevOps Engineer at Saab in Tampere, Finland aligns with Priya's expertise in CI/CD pipelines, release management, and regulated-industry experience, meeting all target criteria including location, role type, and senior-level fit.",
+    "reason": "This DevOps Engineer role in Tampere, Finland directly matches Priya's extensive background in CI/CD pipeline ownership, build/deploy automation, and release configuration management in a regulated, safety-critical industry.",
     "id": "87f111d8",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "2021-12-28",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/saab_devops_engineer___87f111d8.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/saab_devops_engineer___87f111d8.txt"
   },
   {
     "title": "Cloud Security Specialist",
@@ -60448,15 +60440,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=b4b94f930a561f82",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Cloud Security Specialist' falls under specialist platforms/architecture with no explicit mention of CI/CD, release management, configuration management, or quality/compliance responsibilities, which are core to the candidate's experience and target criteria.",
+    "reason": "This role centers on cloud security infrastructure rather than configuration management, release management, technical communication, or quality/regulatory compliance.",
     "id": "16df6466",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Software Engineer, Data Platform",
@@ -60465,15 +60456,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=fc4aa46ea157aaaf",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role 'Software Engineer, Data Platform' is primarily a feature-development software engineering position without explicit mention of CI/CD, configuration management, release ownership, or quality/compliance responsibilities, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "The role is a Data Platform software engineering position focused on building data pipelines rather than configuration management, release management, or technical communication.",
     "id": "e003add2",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engineering Manager - SRE & Platform",
@@ -60482,15 +60472,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=18099f74d05ccb74",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Engineering Manager - SRE & Platform' does not explicitly align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) due to insufficient detail in the job description.",
+    "reason": "The role is an Engineering Manager position focused on SRE and platform infrastructure with people management responsibilities, which falls under the hard rejection for line management roles with no release, CM, quality, or requirements core.",
     "id": "f13d61d1",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -60499,15 +60488,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=563d22ad-8790-432c-a00c-22c91aaf950b-ZnJhcHJvZDE&iaUid=1k3kmuoplhc56801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k3kmuonqhmiv800%26jk%3D0432074b43e3ba97%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k3kmuohrhmiv800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoC-67M2e0l0zhz45R0LbzkdCdPP%26astse%3D7bdafc40ac72d0b4%26assa%3D6506&spn=0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting lacks explicit details about the company name, location, and role responsibilities, making it impossible to assess alignment with Priya's requirements.",
+    "reason": "The provided text is merely an Indeed login/cookie consent page and does not contain any actual job description details.",
     "id": "93dfee51",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-09-28T22:13:19+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -60516,15 +60504,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-sasbb-20606523",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The Senior DevOps Engineer role at ABB in Helsinki, Finland aligns with Priya's expertise in CI/CD pipeline ownership, embedded systems, and regulated-industry quality standards, while meeting her location preferences and experience level.",
+    "reason": "This Senior DevOps Engineer role at ABB matches Priya's extensive background in CI/CD pipeline management, configuration management, and release engineering for embedded systems in Finland.",
     "id": "ec6205d9",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/abb_senior_devops_engineer_ec6205d9.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/abb_senior_devops_engineer_ec6205d9.txt"
   },
   {
     "title": "Senior DevOps Engineer in MarTech",
@@ -60532,16 +60519,15 @@
     "location": "Helsinki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/nordea-senior-devops-engineer-in-martech-sdsuu-20598208",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job aligns with DevOps Engineer criteria (CI/CD pipeline ownership, IaC) and is located in Finland, but requires specific GCP/Snowflake expertise not explicitly mentioned in the candidate's background, and focuses on MarTech rather than regulated/safety-critical domains.",
+    "matches_requirements": "no",
+    "reason": "The role centers on GCP and Snowflake big-data/cloud infrastructure platforms with no release management, configuration management, or quality component, which falls under the hard rejection rule for specialist platforms.",
     "id": "f783e275",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-20",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer - Application Management",
@@ -60549,16 +60535,15 @@
     "location": "Helsinki, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/nordea-senior-devops-engineer-application-management-sdsuu-20594693",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The job as a Senior DevOps Engineer at Nordea Bank Abp in Helsinki, Finland matches Priya's expertise in CI/CD pipelines, release management, and regulated-industry software delivery, while satisfying location requirements.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that the application deadline has passed (29.09.2026) and applications are no longer being accepted.",
     "id": "b679abd6",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-07",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/nordea_bank_abp_senior_devops_engineer___appli_b679abd6.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
