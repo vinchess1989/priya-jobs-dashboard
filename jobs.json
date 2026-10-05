@@ -55237,15 +55237,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=7f5028fe0631ead2",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role requires fluent Finnish ('Ty\u00f6skentelet sujuvasti sek\u00e4 suomeksi ett\u00e4 englanniksi') and is in the food industry, which does not match Priya's technical communication, software release, or configuration management background.",
+    "reason": "This is a quality management and people leadership role for a food manufacturing plant (food safety, HACCP, manufacturing plant quality) requiring fluent Finnish, which falls under hard rejections for manufacturing/food quality and language.",
     "id": "fbf13471",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Engineer (F-35 Program)",
@@ -55254,15 +55253,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3b926e7b3e4bcedf",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job explicitly requires Finnish as a working language, which does not align with the candidate's language profile.",
+    "reason": "The job description text is inaccessible due to a browser verification error, making it impossible to evaluate the role against the candidate's requirements.",
     "id": "b4dc33cd",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA/QC-p\u00e4\u00e4llikk\u00f6",
@@ -55271,15 +55269,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a8dc466f81562304",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish language skills both orally and in writing, which the candidate does not possess.",
+    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities, requirements, and scope to determine if it aligns with the candidate's release management, configuration management, or quality engineering expertise.",
     "id": "bc142f70",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Customer Quality Engineer",
@@ -55288,15 +55285,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=226b3fdf7f06e9a5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is customer-facing and heavily focused on direct customer quality management, problem-solving, and supplier audits, conflicting with the candidate's negative constraint against customer-facing roles.",
+    "reason": "The role is a manufacturing/customer quality position at Eaton, which falls under the hard rejection criteria for manufacturing/hardware quality roles.",
     "id": "33bb51fb",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Assurance Manager & Quality Assurance Engineer",
@@ -55304,16 +55300,15 @@
     "location": "Tampere, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=32bcb519abe7da8b",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting explicitly lists fluency in Finnish and English as a mandatory requirement, and Priya does not speak Finnish.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns perfectly with Priya's expertise in quality assurance, release management, and regulated industry compliance, and it is located in Finland.",
     "id": "c786c306",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/beyond_gravity_product_assurance_manager___qu_c786c306.txt"
   },
   {
     "title": "Palkat - Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6",
@@ -55322,15 +55317,14 @@
     "url": "https://fi.indeed.com/career/keitti%C3%B6n-vuorop%C3%A4%C3%A4llikk%C3%B6/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is a kitchen shift manager (Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6) salary page, completely unrelated to Priya's technical communication, release management, and software engineering background.",
+    "reason": "The role is for a kitchen shift manager (Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6), which is completely unrelated to the candidate's technical, engineering, and quality-management background.",
     "id": "1b3c93ea",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6, Sein\u00e4joki, F03",
@@ -55339,15 +55333,14 @@
     "url": "https://fi.indeed.com/career/keitti%C3%B6n-vuorop%C3%A4%C3%A4llikk%C3%B6/salaries/Sein\u00e4joki--F03",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a kitchen shift manager ('Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6') in hospitality, which is entirely unrelated to Priya's background in technical communication, release management, and engineering.",
+    "reason": "The role is for a kitchen shift manager (Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6), which is completely unrelated to the candidate's technical, engineering, and quality-management background.",
     "id": "fbf49a45",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "RESORT MANAGER \u2013 Eight Seasons Inari by StayLapland",
@@ -55356,15 +55349,14 @@
     "url": "https://www.jobly.fi/tyopaikka/resort-manager-eight-seasons-inari-staylapland-2759364",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications ('t\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa') and is for a hospitality Resort Manager role unrelated to Priya's technical, release, and configuration management background.",
+    "reason": "The job is closed and does not align with the candidate's technical background in software release, configuration management, and quality engineering.",
     "id": "02b2a02f",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Jr Compliance Manager, Tampere tai Espoo",
@@ -55373,15 +55365,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jr-compliance-manager-tampere-tai-espoo-2765822",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The role is for a Compliance Manager in Finland focusing on product standards and documentation which matches her quality background, but the junior-gated title and entry-level focus make her slightly overqualified.",
+    "reason": "While the role aligns with her quality and compliance background, it is explicitly titled 'Junior' and uses cognitive testing, which may be misaligned with her 15 years of experience, though it does not strictly violate the entry-level rejection rule.",
     "id": "5d534179",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Jr. Compliance Manager, Tampere or Espoo",
@@ -55389,16 +55380,15 @@
     "location": "Tampere or Espoo, Finland",
     "url": "https://www.jobly.fi/tyopaikka/jr-compliance-manager-tampere-or-espoo-2765825",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "This compliance manager role matches her quality-gatekeeping and regulatory documentation background in Finland.",
+    "matches_requirements": "maybe",
+    "reason": "The role aligns well with her quality and compliance background, but it is explicitly titled 'Junior' and mentions a recruitment process involving personality/cognitive tests, which may be geared toward entry-level candidates despite her 15 years of experience.",
     "id": "ad045f76",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-25",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": "job_descriptions/savox_jr__compliance_manager__tamper_ad045f76.txt",
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "\ud83c\udfca Uimavalvojaksi keikkat\u00f6ihin Lahden ja Hollolan alueelle?",
@@ -55407,15 +55397,14 @@
     "url": "https://www.jobly.fi/tyopaikka/uimavalvojaksi-keikkatoihin-lahden-ja-hollolan-alueelle-2731614",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications and is for a swimming pool lifeguard position, which is completely unrelated to the candidate's background.",
+    "reason": "The job posting is closed, and the role (lifeguard) is completely unrelated to the candidate's technical, release, and quality management background.",
     "id": "15b11bb5",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6turvallisuus- ja laatup\u00e4\u00e4llikk\u00f6 / Mitta Oy",
@@ -55424,15 +55413,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyoturvallisuus-ja-laatupaallikko-mitta-oy-2765074",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The role is focused on physical workplace safety, construction site quality, and manufacturing/field operations management, requiring mandatory fluency in Finnish.",
     "id": "a8dbe8e5",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Auktorisoitu tilintarkastaja ja toimistonvet\u00e4j\u00e4, Kokkola",
@@ -55441,15 +55429,14 @@
     "url": "https://www.jobly.fi/tyopaikka/auktorisoitu-tilintarkastaja-ja-toimistonvetaja-kokkola-2759765",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a certified auditor qualification (HT, KHT, or JHT) and fluent Finnish, neither of which match the candidate's technical communication and release management background.",
+    "reason": "The role requires a professional auditor certification (HT, KHT, or JHT) and fluent Finnish, neither of which the candidate possesses, and it is outside her technical/release management domain.",
     "id": "509cbbae",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Johtava tuloksellisuustarkastaja",
@@ -55458,15 +55445,14 @@
     "url": "https://www.jobly.fi/tyopaikka/johtava-tuloksellisuustarkastaja-2759091",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish language skills and expertise in Finnish municipal administration and municipal finance, which the candidate does not possess.",
+    "reason": "This role requires fluent Finnish (erinomainen suomen kielen taito) and focuses on municipal financial auditing rather than software release, configuration, or quality management.",
     "id": "e0133651",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-07",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Manager, Data Center",
@@ -55475,15 +55461,14 @@
     "url": "https://www.jobly.fi/tyopaikka/quality-manager-data-center-2761290",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent spoken and written skills in both Finnish and English, and is focused on data center construction site quality management rather than Priya's software configuration, release, or technical communication background.",
+    "reason": "This is a construction/building services quality role focused on MEP and site-level physical installation quality, which falls under the hard rejection for manufacturing/construction quality roles.",
     "id": "6176898e",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-10",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
