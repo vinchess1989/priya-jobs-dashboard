@@ -45581,15 +45581,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ravintolatyontekija-rax-pizzabuffet-tiirio-hameenlinna-restel-2760685",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed and the role is for a restaurant worker, which does not align with the candidate's professional background in technical communication, release management, and engineering.",
+    "reason": "The job requires restaurant worker skills in the hospitality sector, which does not align with the candidate's expertise in technical communication, configuration management, release engineering, or regulated-industry quality roles.",
     "id": "a0abd4cc",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Myym\u00e4l\u00e4ty\u00f6ntekij\u00f6it\u00e4 Virtuaaliel\u00e4myskeskus V-Roomiin, Kauppakeskus Myllyyn",
@@ -45598,15 +45597,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myymalatyontekijoita-virtuaalielamyskeskus-v-roomiin-kauppakeskus-myllyyn-2760737",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a retail/customer service position requiring Finnish language skills, which is a hard rejection based on the candidate's profile and requirements.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, and is located in Pune, India (not Finland or remote from Finland), disqualifying it under Hard Rejections.",
     "id": "9956a77c",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Rengassesonkity\u00f6ntekij\u00e4/rengasasentaja",
@@ -45615,15 +45613,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rengassesonkityontekija-rengasasentaja-2731530",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a manual labor/seasonal tire technician role, which does not align with the candidate's 15-year career in software engineering, release management, and technical communication.",
+    "reason": "The job requires a tire service technician role (Rengassesonkity\u00f6ntekij\u00e4/rengasasentaja), which falls under manufacturing/hardware quality with no software-release, configuration-management, or regulated-industry compliance components \u00e2\u20ac\u201d explicitly excluded by Hard Rejections.",
     "id": "5df7574e",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6kokoonpanija, Oulainen",
@@ -45632,15 +45629,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkokokoonpanija-oulainen-2755768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manual industrial assembly role (S\u00e4hk\u00f6kokoonpanija) that does not involve software engineering, release management, or technical communication, and it is a significant mismatch for the candidate's 15 years of high-level technical experience.",
+    "reason": "The job requires electrical assembly work in manufacturing, which does not align with the candidate's background in software configuration management, release engineering, and technical documentation (her expertise is in regulated software quality/traceability, CI/CD pipelines, and product-specialist documentation roles).",
     "id": "b6b38b99",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Analyst (Commercial Projects & Financial Analysis), Uusimaa",
@@ -45649,15 +45645,14 @@
     "url": "https://www.jobly.fi/tyopaikka/analyst-commercial-projects-financial-analysis-uusimaa-2754902",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is explicitly marked as no longer valid, and the role is a financial analyst position that does not align with the candidate's technical release, configuration management, or quality engineering background.",
+    "reason": "The job is a commercial finance analyst role focused on energy deals and financial modeling, which does not align with Priya's background in regulated-industry configuration management, release engineering, or technical documentation.",
     "id": "f42a21da",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Document Controller (Data Center Project), Uusimaa",
@@ -45665,16 +45660,15 @@
     "location": "Espoo, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/f9b785ee-9123-4ad6-8dc8-925da7ae6759/fi",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role focuses on document control, traceability, and information flow management in a project environment, which aligns perfectly with the candidate's expertise in configuration management and documentation.",
+    "matches_requirements": "no",
+    "reason": "The job requires document control for a data center construction project, which focuses on infrastructure documentation rather than software configuration management, release management, or technical writing in regulated industries (e.g., MDR/ISO 13485, ASPICE/TUV), where Priya has direct experience.",
     "id": "fe98dee3",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2027-03-17",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/englanniksi_document_controller__data_cent_fe98dee3.txt",
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null,
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Ohjaaja (L\u00e4hihoitaja) keikkaty\u00f6h\u00f6n, Onnikoti Rantarinne & Rantaviita, Kuopio",
@@ -45683,15 +45677,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/dfd38ae1-a6a3-455d-b583-fdefb0500146/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical healthcare qualification (L\u00e4hihoitaja) and mandatory fluency in Finnish, neither of which the candidate possesses.",
+    "reason": "The job requires Finnish language proficiency and is in social care/healthcare support, which does not align with the candidate's expertise in regulated-industry release management, configuration management, or technical communication roles.",
     "id": "11eac336",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Technical Writer (AutoCAD)",
@@ -45700,15 +45693,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/305cee5c-e2e6-4dc7-a616-533276d0e3bc/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure drafting/CAD-focused position that lacks the release management, CI/CD, or quality-gatekeeping core required by the candidate's profile.",
+    "reason": "The role requires AutoCAD and electrical engineering documentation expertise, which does not align with Priya's background in regulated-industry release/CM/DevOps and technical communication for medical devices/software, despite her general technical writing experience.",
     "id": "a36e7189",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2027-03-17",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Erikoistuva l\u00e4\u00e4k\u00e4ri, koulutusvirka, OYS lastenkirurgia",
@@ -45717,15 +45709,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/fe5c81df-96e5-4e7d-b198-bf9b733af6f0/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license and is for a medical doctor, which falls under the hard rejection for clinical/medical license requirements.",
+    "reason": "The job requires a specialist doctor with clinical/medical qualifications and practice, which Priya does not possess (her experience is in technical communication, quality gatekeeping, and release management, not clinical medicine).",
     "id": "72ac8afe",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-09",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Materiaalikoordinaattori",
@@ -45734,15 +45725,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/63a90643-711d-40a0-99db-b0fb38eadd28/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a material coordination position focused on interior design procurement and supply chain management, which lacks the required core focus on release management, CI/CD, configuration management, or quality/traceability engineering.",
+    "reason": "The job requires proficiency in Finnish (Suomi) as a working language, which Priya does not speak, and the role type (Material Coordinator) does not align with her target domains of DevOps, Configuration Management, or Quality Engineering.",
     "id": "e2aef98d",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6suunnittelun tiimip\u00e4\u00e4llikk\u00f6",
@@ -45751,15 +45741,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/581d1d34-ff08-4f03-9b33-39a6427d133f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure electrical engineering design and team management position, which falls under the hard rejection for pure feature-development/specialist roles that lack a release, configuration-management, or quality-assurance core.",
+    "reason": "The job requires an Electrical Design Team Leader with project management and engineering expertise, which does not align with Priya's background in Configuration Management, Release Management, DevOps/CI-CD, and technical writing.",
     "id": "6adf8ff4",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-18",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Senior Azure DevOps Engineer, Uusimaa",
@@ -45768,15 +45757,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/0ac2e4ad-d825-4ced-a8af-3e2d88eff227/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it focuses on cloud infrastructure/platform architecture rather than the candidate's core release management and quality/traceability expertise.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "cddb17e5",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2027-03-17",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00f6it\u00e4 Lahden datakeskusty\u00f6maalle, p\u00e4iv\u00e4rahat + majoitus",
@@ -45785,15 +45773,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/83c4a95a-8f6c-49c1-aa34-4ab28f1e9701/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction worker, which does not match the candidate's technical/engineering background, and it explicitly requires fluent Finnish.",
+    "reason": "The role requires fluent Finnish language skills (mandatory) and is a construction worker position, which does not match the candidate's background.",
     "id": "f40fbbbc",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-10-05",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:13+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:13+03:00"
   },
   {
     "title": "Internal Tools EngineerAlma MediaHelsinkiGo to job site",
@@ -45801,16 +45788,15 @@
     "location": "Tampere, Finland",
     "url": "https://www.jobly.fi/en/job/internal-tools-engineer-2760736",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is primarily focused on internal IT operations, platform administration, and feature-like development of internal tools, which falls under the 'Pure Feature-Development' or 'Specialist Platforms' exclusion criteria rather than the candidate's core release, configuration management, or quality engineering focus.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves internal tool development and automation, which may overlap with Priya\u2019s scripting/automation skills but does not explicitly align with her core expertise in CI/CD, release management, or configuration management.",
     "id": "ccc42ea3",
     "source": "work_in_finland",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:14+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:14+03:00"
   },
   {
     "title": "Postdoctoral Researcher, Medical StatisticsOulun YliopistoOuluGo to job site",
@@ -45819,15 +45805,14 @@
     "url": "https://www.jobly.fi/en/job/postdoctoral-researcher-medical-statistics-2760699",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a doctoral degree (PhD), which the candidate does not possess, and the salary range is below the candidate's minimum threshold.",
+    "reason": "The job requires a postdoctoral researcher in medical statistics, which does not align with Priya's background in release management, configuration management, or DevOps/CI-CD, and instead demands research-focused data science expertise she lacks.",
     "id": "45626420",
     "source": "work_in_finland",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-04",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:14+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:14+03:00"
   },
   {
     "title": "Junior DevOps Engineer",
