@@ -58632,15 +58632,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=17339b9c65a52768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure feature-development Software Engineer role focused on full-stack development and AI tooling, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks CI/CD/release management/configuration-management ownership components.",
+    "reason": "This is a pure feature-development Software Engineer role focused on building full-stack web applications and AI tools, violating the hard rejection against feature-development roles despite her background in regulated software.",
     "id": "7a05eba9",
     "source": "indeed_fi_iso_13485",
     "added_at": "2026-09-28T13:49:59+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Production Engineer/Technician \u2013 Robotics & Automation",
@@ -58649,15 +58648,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2d15ee31f79504ab",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hands-on production/assembly technician position focused on hardware manufacturing rather than configuration management, release engineering, or technical documentation roles that align with the candidate's background.",
+    "reason": "The role is primarily a physical hardware production and assembly position (Production Engineer/Technician) rather than software configuration, release management, or technical writing.",
     "id": "b3ea1fcf",
     "source": "indeed_fi_iso_13485",
     "added_at": "2026-09-28T13:49:59+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Java Engineer",
@@ -58666,15 +58664,14 @@
     "url": "https://fi.linkedin.com/jobs/view/java-engineer-at-finnplay-4470696775",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a pure feature-development software engineering role (Java Engineer) requiring backend development and coding, which falls under Priya's explicit hard rejection for such positions.",
+    "reason": "This is a pure feature-development software engineering role focused on Java coding, which violates the candidate's requirement to avoid pure application development roles without a release, configuration management, or quality core.",
     "id": "961bfc3d",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Mobile Engineer - Retail",
@@ -58683,15 +58680,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-mobile-engineer-retail-at-wolt-4442086574",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position (Staff Mobile Engineer) focused on iOS/Android app development, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category. Priya's expertise lies in release/CM/DevOps, not application feature development.",
+    "reason": "This is a pure feature-development and hands-on mobile engineering role focused on iOS/Android client apps rather than Priya's core focus of release management, CI/CD, and quality/compliance.",
     "id": "5ddb3b59",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Security Manager - FINLAND",
@@ -58699,16 +58695,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-security-manager-finland-at-m-files-4472498573",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves product security and compliance, which partially aligns with Priya's experience in quality gatekeeping and regulatory compliance (MDR/ISO 13485), but her background is more focused on release/CM/DevOps rather than application/product security-specific responsibilities like threat modeling or SAST/DAST tooling.",
+    "matches_requirements": "no",
+    "reason": "The role is focused on product security, cloud security, and vulnerability management rather than release management, configuration management, or quality assurance.",
     "id": "852cde95",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 4 tagen",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Backend Engineer",
@@ -58717,15 +58712,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-backend-engineer-at-wolt-4453973321",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Senior Backend Engineer' role focused on feature development (Golang/Python backend engineering) with no mention of CI/CD ownership, release management, or configuration management responsibilities, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
+    "reason": "This is a pure feature-development backend software engineering role focusing on writing application code, which directly violates the hard rejection rule against pure feature-development engineering.",
     "id": "b9675c3a",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 4 tagen",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "1 viikko sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Head of Editor & Tools",
@@ -58734,15 +58728,14 @@
     "url": "https://fi.linkedin.com/jobs/view/head-of-editor-tools-at-brawl-stars-4470150220",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role 'Head of Editor & Tools' at Brawl Stars focuses on game development tooling leadership, which does not align with Priya's expertise in regulated-industry release/CM/DevOps or technical documentation roles.",
+    "reason": "This is a senior engineering leadership and game-tooling role requiring game development workflow expertise and team leadership, which does not match Priya's configuration management and release/quality engineering background.",
     "id": "f06c87fa",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Cost Engineer (Construction) - Norway / Sweden / Finland (Hybrid)",
@@ -58751,15 +58744,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cost-engineer-construction-norway-sweden-finland-hybrid-at-laminar-projects-4470091219",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction cost engineering position, which does not align with Priya's release, configuration, documentation, or quality engineering expertise.",
+    "reason": "This is a construction cost engineering role, which violates the hard rejection rule against construction quality and physical project management positions outside her software and configuration management background.",
     "id": "bd579661",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Legal Counsel",
@@ -58768,15 +58760,14 @@
     "url": "https://fi.linkedin.com/jobs/view/legal-counsel-at-staffpoint-oy-4469309705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Legal Counsel with an LL.M. and legal expertise, which does not align with Priya's background in technical communication, release management, and DevOps/CI-CD.",
+    "reason": "This is a Legal Counsel role requiring a Master of Laws degree and fluency in Finnish, which completely mismatches the candidate's engineering, release management, and technical communication background.",
     "id": "5e134041",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-07",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Chief Financial Officer",
@@ -58785,15 +58776,14 @@
     "url": "https://fi.linkedin.com/jobs/view/chief-financial-officer-at-mediawan-finland-4468980477",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a Chief Financial Officer, which does not align with Priya's technical/quality-focused background in DevOps, Configuration Management, Release Management, or Technical Writing.",
+    "reason": "This is a Chief Financial Officer (CFO) finance and executive management role requiring fluent Finnish and extensive financial leadership experience, which does not match the candidate's technical communication, release management, and engineering background.",
     "id": "8b557f5f",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer",
@@ -58802,15 +58792,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-at-the-flex-4470938000",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a 'Senior Software Engineer' role focused on feature development and product ownership rather than CI/CD, release management, or configuration management, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
+    "reason": "This is a pure feature-development and full-stack software engineering role focused on building application products, which violates the candidate's hard rejection rule against pure feature-development coding positions.",
     "id": "2c37ca83",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Engine Programmer",
@@ -58819,15 +58808,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-engine-programmer-at-supercell-4407783921",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Engine Programmer focused on game engine development, which falls under pure feature-development software engineering and does not align with Priya's expertise in release/CM/DevOps or regulated/safety-critical domains.",
+    "reason": "This is a pure feature-development and core-engine software engineering role focused on C++ game programming, which violates the hard rejection against pure feature-development software engineering.",
     "id": "2a1741c3",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Power Platform -asiantuntija Space & Geo -tiimiin",
@@ -58836,15 +58824,14 @@
     "url": "https://fi.linkedin.com/jobs/view/power-platform-asiantuntija-space-geo-tiimiin-at-cgi-4469232836",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on Power Platform application development (model-driven apps, Dataverse, UI design) which falls under pure feature-development software engineering, a hard-rejected category for the candidate.",
+    "reason": "The role requires fluent Finnish and centers on Power Platform development rather than release management, configuration management, or quality assurance.",
     "id": "61856396",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
     "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "2026-10-18",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Engineer - Haskell",
@@ -58853,15 +58840,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-engineer-haskell-at-centralapp-4466460929",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position (Haskell/React stack) without CI/CD/release management/configuration management ownership, which falls under the 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "This is a feature-development software engineering role involving Haskell and React, which violates the hard rejection against pure feature-development engineering, and the salary range is below the candidate's minimum requirement.",
     "id": "6753d2d1",
     "source": "linkedin_fi_broad",
     "added_at": "2026-09-28T13:51:26+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Esihenkil\u00f6haku on nyt k\u00e4ynniss\u00e4 - tule mukaan rakentamaan uutta huipputiimi\u00e4 Pirkkalaan!",
@@ -58870,15 +58856,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/karkkainen-esihenkilohaku-on-nyt-kaynnissa-tule-mukaan-rakentamaan-uutta-huipputiimia-pirkkalaan-sdsuu-20605918",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting describes retail management roles (e.g., Sales Manager, Store Manager) which do not align with Priya's expertise in DevOps, Configuration Management, Release Management, or technical writing in regulated/safety-critical industries.",
+    "reason": "This is a retail management and store supervisory role (sales, shelving, and cash-desk management) completely unrelated to Priya's technical communication, configuration management, and software release background.",
     "id": "f74df385",
     "source": "duunitori_broad",
     "added_at": "2026-09-28T13:52:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kodinhuoltaja (sijaisuus) Rinnekodit Mets\u00e4kallioon",
