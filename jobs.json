@@ -61256,15 +61256,14 @@
     "url": "https://es.linkedin.com/jobs/view/a400m-engineering-change-leader-at-airbus-defence-and-space-4469754114",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Getafe, Spain, which is outside Finland and not a remote role accessible from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "The job is physically located in Getafe, Spain, violating the candidate's location criteria requiring Finland or global remote.",
     "id": "5b45ff9a",
     "source": "linkedin_eu_remote_configuration_manager",
     "added_at": "2026-09-29T02:05:50+03:00",
-    "posted_date": "N/A",
+    "posted_date": "hace 1 semana",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Aerospace Configuration manager - Italian Speaker",
@@ -61273,15 +61272,14 @@
     "url": "https://it.linkedin.com/jobs/view/aerospace-configuration-manager-italian-speaker-at-amaris-consulting-part-of-mantu-4446322924",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rome, Italy, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job requires native-level Italian proficiency and is located fully on-site in Rome, Italy, violating the candidate's language and location requirements.",
     "id": "f1d15121",
     "source": "linkedin_eu_remote_configuration_manager",
     "added_at": "2026-09-29T02:05:50+03:00",
-    "posted_date": "3 settimane fa",
+    "posted_date": "hace 2 d\u00edas",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Aerospace Configuration manager - Italian Speaker",
@@ -61290,15 +61288,14 @@
     "url": "https://it.linkedin.com/jobs/view/aerospace-configuration-manager-italian-speaker-at-amaris-consulting-part-of-mantu-4465977356",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rome, Italy, which falls under the 'Outside Finland and Not Remote' hard rejection rule, as it requires on-site presence outside Finland.",
+    "reason": "The job requires native-level Italian proficiency and is located fully on-site in Rome, Italy, whereas the candidate is based in Finland and does not speak Italian.",
     "id": "a8a0adce",
     "source": "linkedin_eu_remote_configuration_manager",
     "added_at": "2026-09-29T02:05:50+03:00",
-    "posted_date": "il y a 2\u00a0semaines",
+    "posted_date": "hace 2 semanas",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Linux System Administrator",
@@ -61307,15 +61304,14 @@
     "url": "https://www.jobly.fi/tyopaikka/linux-system-administrator-2767416",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Linux System Administrator' focuses on infrastructure/systems administration rather than DevOps/CI-CD, configuration management, release management, or technical documentation roles that align with the candidate's expertise and target criteria.",
+    "reason": "This is a core infrastructure/system administration role focused on Linux server and sensitive research data management rather than release management, CI/CD pipeline ownership, or quality/requirements engineering.",
     "id": "97e3079a",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-09-29T02:06:55+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -61324,15 +61320,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2764227",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on automation systems programming and industrial automation (Honeywell Experion), which does not align with Priya's expertise in release/CM/DevOps or technical documentation ownership. Her background is in regulated-industry quality/compliance gatekeeping, not industrial automation system engineering.",
+    "reason": "This is an industrial automation and maintenance engineering role for a power plant, which does not match Priya's background in software release, configuration management, or technical communication.",
     "id": "8f0d31cd",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-09-29T02:06:55+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-25",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT-asiantuntijaa tai J\u00e4rjestelm\u00e4asiantuntijaa",
@@ -61341,15 +61336,14 @@
     "url": "https://www.jobly.fi/tyopaikka/it-asiantuntijaa-tai-jarjestelmaasiantuntijaa-2767241",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a hard qualification, which Priya does not possess.",
+    "reason": "The job requires fluent Finnish language skills and is focused on IT systems administration and customer-facing support rather than release management, configuration management, or technical writing.",
     "id": "404208e1",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-09-29T02:06:55+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija",
@@ -61357,16 +61351,15 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-2766013",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job's salary of 4075\u20ac/kk is below the candidate's explicitly stated minimum threshold of 4500\u20ac, which was a reason for rejecting a previous job.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves release technologies, repositories, and audits in Finland, but requires checking language/citizenship constraints due to working for Valtori (Finnish government ICT center).",
     "id": "c2df5b75",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-09-29T02:06:55+03:00",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "J\u00e4rjestelm\u00e4asiantuntija \u2013 Rakennusautomaatio (PK-seutu)",
@@ -61375,15 +61368,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jarjestelmaasiantuntija-rakennusautomaatio-pk-seutu-2765749",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
+    "reason": "The role requires fluent Finnish and targets building automation engineering, which falls outside the candidate's software release, configuration management, and technical communication expertise.",
     "id": "3504a8c2",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-09-29T02:06:55+03:00",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Turvaj\u00e4rjestelm\u00e4asiantuntija, Kymenlaakson alue (2 paikkaa)",
@@ -61392,15 +61384,14 @@
     "url": "https://www.jobly.fi/tyopaikka/turvajarjestelmaasiantuntija-kymenlaakson-alue-2-paikkaa-2765395",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a hard qualification, which Priya does not speak, triggering a strict Hard Rejection.",
+    "reason": "This physical installation and maintenance role requires fluent Finnish, which conflicts with the candidate's language profile.",
     "id": "41d08a86",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-09-29T02:06:55+03:00",
     "posted_date": "2026-09-25",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Project Manager (BUSY Bar)",
@@ -61408,16 +61399,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-busy-bar-at-jobgether-4470793018",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role as Technical Project Manager involves cross-functional coordination and Agile delivery but does not explicitly focus on CI/CD pipeline ownership, release management, or configuration management which are central to the candidate's expertise.",
+    "matches_requirements": "yes",
+    "reason": "The role involves technical project management, release coordination, and agile delivery for a technology hardware product, closely aligning with Priya's background in release management and configuration control.",
     "id": "390c9e54",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 1 semana",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/jobgether_technical_project_manager__bus_390c9e54.txt"
   },
   {
     "title": "Implementation Project Manager",
@@ -61426,15 +61416,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-project-manager-at-posti-group-oyj-4470868681",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Implementation Project Manager' does not align with Priya's target roles (DevOps, Release Management, Configuration Management, etc.) and lacks explicit mention of regulated/safety-critical domains or CI/CD/release management responsibilities central to her profile.",
+    "reason": "The posting requires fluent Finnish and Swedish as mandatory qualifications, whereas the candidate does not speak either language.",
     "id": "a2506e2e",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 6 d\u00edas",
     "deadline": "2026-10-14",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "OpenStack Engineering Manager",
@@ -61443,15 +61432,14 @@
     "url": "https://fi.linkedin.com/jobs/view/openstack-engineering-manager-at-jobgether-4470339537",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on technical leadership and OpenStack engineering management rather than Priya's expertise in release/configuration management, CI/CD pipeline ownership, or regulated-industry quality/compliance gatekeeping.",
+    "reason": "This job posting explicitly states that applications are no longer being accepted, and it falls under platform/cloud infrastructure management rather than her target release/CM/quality domain.",
     "id": "b0d13714",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 1 semana",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "ICT-projektip\u00e4\u00e4llikk\u00f6",
@@ -61460,15 +61448,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-%E2%80%8Bprojektip%C3%A4%C3%A4llikk%C3%B6-at-helsingin-sosiaali-terveys-ja-pelastustoimiala-4470848036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish (and English) as a mandatory qualification, which Priya does not speak (she only speaks English professionally). This triggers the 'Mandatory Finnish or Swedish' hard rejection rule.",
+    "reason": "The role explicitly requires fluent Finnish (hyv\u00e4\u00e4 suomen kielen taitoa), which the candidate does not possess.",
     "id": "9f27c336",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 1 semana",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Release Train Architect - Tieto Caretech (m/f/d)",
@@ -61477,15 +61464,14 @@
     "url": "https://fi.linkedin.com/jobs/view/release-train-architect-tieto-caretech-m-f-d-at-tieto-4468545340",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish, which Priya does not possess, and the role focuses on software architecture/development rather than release management/DevOps, misaligning with her expertise.",
+    "reason": "The role requires proficiency in both English and Finnish languages, and Priya does not speak Finnish.",
     "id": "3e9acb79",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "hace 1 semana",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Product Manager, Open Ecosystem",
@@ -61494,15 +61480,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-open-ecosystem-at-easor-finland-4469083711",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Product Manager focused on ecosystem and API integration, which does not align with Priya's expertise in configuration management, release management, or technical documentation ownership.",
+    "reason": "This is a Senior Product Manager role centered on commercial API platforms, business development, and partner contracts rather than release management, configuration management, DevOps, or quality gatekeeping.",
     "id": "57282e3a",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "hace 1 semana",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT and Operational Technology Manager",
