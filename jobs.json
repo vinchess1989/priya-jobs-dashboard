@@ -54277,15 +54277,14 @@
     "url": "https://au.linkedin.com/jobs/view/quality-manager-at-arcadis-4443291690",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Melbourne, Australia, which violates the candidate's location requirement of being based in Finland or fully remote.",
+    "reason": "The job is located in Melbourne, Australia, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "4701307b",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QMR / Quality Manager",
@@ -54294,15 +54293,14 @@
     "url": "https://cn.linkedin.com/jobs/view/qmr-quality-manager-at-biom%C3%A9rieux-4318765222",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Shanghai, China, which fails the location requirement since the candidate is based in Finland and the role is not remote.",
+    "reason": "The job is located in Shanghai, China, which falls outside the allowed locations (Finland or remote for a Finland-based candidate), and it requires proficiency in Chinese.",
     "id": "983f5b4d",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-06-04",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager (Arabic Speaker)",
@@ -54311,15 +54309,14 @@
     "url": "https://sa.linkedin.com/jobs/view/quality-manager-arabic-speaker-at-parsons-corporation-4253103053",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Riyadh, Saudi Arabia and explicitly requires Arabic proficiency, violating location and language criteria.",
+    "reason": "The job is located in Saudi Arabia, which falls outside the allowed locations (Finland or remote roles accessible from Finland), and it requires proficiency in Arabic.",
     "id": "3fcb5533",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "1 year ago",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Gerente de Calidad",
@@ -54328,15 +54325,14 @@
     "url": "https://mx.linkedin.com/jobs/view/gerente-de-calidad-at-hubbell-incorporated-4460371807",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Apodaca, Nuevo Le\u00f3n, Mexico, which violates the candidate's requirement to be based in Finland or work remotely from Finland.",
+    "reason": "The job is located in Mexico and is not a remote role, violating the location requirements, and it is a manufacturing quality role which is explicitly excluded.",
     "id": "f24ff1a4",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager - Quality _ Homecentre",
@@ -54345,15 +54341,14 @@
     "url": "https://ae.linkedin.com/jobs/view/manager-quality-homecentre-at-landmark-group-4459508545",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dubai, United Arab Emirates, which violates the candidate's requirement to work in Finland or fully remotely from Finland.",
+    "reason": "The job is located in Dubai, UAE, which falls outside of Finland and is not a remote role, and it is also explicitly closed to new applications.",
     "id": "5cbeb738",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager",
@@ -54362,15 +54357,14 @@
     "url": "https://au.linkedin.com/jobs/view/quality-assurance-manager-at-blackmores-group-4442285540",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sydney, Australia, which violates the hard rejection rule against on-site/hybrid roles outside of Finland and remote positions not aligned with her location constraints.",
+    "reason": "The job is located in Sydney, Australia, which violates the strict exclusion of any roles outside Finland that are not fully remote.",
     "id": "46f7eea2",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager (m/f/d)",
@@ -54379,15 +54373,14 @@
     "url": "https://pt.linkedin.com/jobs/view/quality-manager-m-f-d-at-hays-4468211868",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Alenquer, Lisbon, Portugal, which violates the rule against on-site/hybrid roles outside Finland.",
+    "reason": "The role is located in Portugal and is a manufacturing/industrial quality management position, which violates the location requirements and the hard rejection for manufacturing-focused quality roles.",
     "id": "544e62c6",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager. Sector Construcci\u00f3n (Data Center)",
@@ -54396,15 +54389,14 @@
     "url": "https://es.linkedin.com/jobs/view/quality-manager-sector-construcci%C3%B3n-data-center-at-itercon-4470283351",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Madrid, Spain, which violates the candidate's location requirement of being based in Finland or fully remote.",
+    "reason": "The role is a construction-sector quality management position with no software-release or configuration-management component, and it is located in Spain, which falls outside the allowed locations.",
     "id": "e4eaa08f",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Gerente de Qualidade",
@@ -54413,15 +54405,14 @@
     "url": "https://br.linkedin.com/jobs/view/gerente-de-qualidade-at-belgo-arames-4467346115",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Brazil, violating the location constraint requiring the role to be in Finland or fully remote.",
+    "reason": "The role is a manufacturing-focused quality management position in Brazil, which violates the location requirements and the hard rejection against manufacturing/industrial quality roles.",
     "id": "e6180fe5",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-09-27T00:27:48+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Gerente da Qualidade",
@@ -54430,15 +54421,14 @@
     "url": "https://br.linkedin.com/jobs/view/gerente-da-qualidade-at-modular-data-centers-4449207292",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Santana de Parna\u00edba, S\u00e3o Paulo, Brazil, violating the geographic requirement to be based in or remote to Finland.",
+    "reason": "The role is located in Brazil and focuses on industrial/manufacturing quality management, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "84d1219e",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-09-27T01:07:41+03:00",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -54447,15 +54437,14 @@
     "url": "https://nl.linkedin.com/jobs/view/quality-manager-at-vdl-laktechniek-b-v-4442747758",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Eindhoven, Netherlands, and requires proficiency in Dutch, which violates the candidate's language and location criteria.",
+    "reason": "This is a manufacturing quality manager role in the Netherlands requiring Dutch language proficiency and physical production quality methods (8D, FMEA), violating both location and manufacturing-quality rules.",
     "id": "9cde9d32",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-09-27T01:07:41+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u8d28\u91cf\u7ecf\u7406",
@@ -54464,15 +54453,14 @@
     "url": "https://cn.linkedin.com/jobs/view/%E8%B4%A8%E9%87%8F%E7%BB%8F%E7%90%86-at-novare-vc-4428528132",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Shanghai, China, which violates the location policy requiring roles to be in Finland or fully remote and open to residents in Finland.",
+    "reason": "The role is located in Shanghai, China, which violates the location requirement, and it is a manufacturing/production quality role focused on IATF16949 and physical process control, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "c5e38c1e",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-09-27T01:07:41+03:00",
     "posted_date": "2026-07-04",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -54481,15 +54469,14 @@
     "url": "https://ph.linkedin.com/jobs/view/quality-manager-at-microsourcing-4440096733",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Para\u00f1aque, Philippines, which violates the geographic location requirement since the candidate is based in Finland and the role is onsite.",
+    "reason": "The job is located in the Philippines, which violates the requirement that the role must be in Finland or fully remote and accessible from Finland.",
     "id": "33fe4acd",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-09-27T01:07:41+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -54498,15 +54485,14 @@
     "url": "https://ie.linkedin.com/jobs/view/quality-manager-at-john-sisk-son-ltd-4450486510",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Galway, Ireland, violating the requirement that jobs must be physically in Finland or fully remote and performable from Finland.",
+    "reason": "The role is a construction/manufacturing quality management position, which falls under the hard rejection for manufacturing/construction quality roles with no software-release or configuration-management component.",
     "id": "cb9a11ec",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-09-27T01:07:41+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "DATACENTER - Quality Manager",
@@ -54515,15 +54501,14 @@
     "url": "https://es.linkedin.com/jobs/view/datacenter-quality-manager-at-set-europa-4422822473",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Zaragoza, Spain (on-site construction/infrastructure quality management), which violates the candidate's requirement to work in Finland or remotely from Finland.",
+    "reason": "The role is a construction/infrastructure quality management position located in Spain, which violates the location policy and the exclusion of manufacturing/construction quality roles.",
     "id": "37de97ac",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-09-27T01:07:41+03:00",
-    "posted_date": "hace 4 meses",
+    "posted_date": "2026-06-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager- Wind Project",
