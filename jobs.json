@@ -60552,15 +60552,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/senior-devops-engineer-stsel-20597430",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not physically located in Finland and does not offer a fully remote option accessible to someone living in Finland.",
+    "reason": "The role is physically located in Vilnius, Lithuania, and does not fit the candidate's requirement to be based in Finland or fully remote.",
     "id": "216402d9",
     "source": "duunitori_devops_engineer",
     "added_at": "2026-09-28T23:14:09+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-16",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT-J\u00e4rjestelm\u00e4vastaava",
@@ -60569,15 +60568,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-j%C3%A4rjestelm%C3%A4vastaava-at-kumera-4468996985",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical domains.",
+    "reason": "This IT system specialist role focuses on manufacturing PDM/PLM systems and enterprise IT administration rather than her core expertise in release management, CI/CD pipelines, or software configuration management.",
     "id": "aa4d6d95",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
     "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "2026-10-12",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Platform Manager - M365",
@@ -60586,15 +60584,14 @@
     "url": "https://fi.linkedin.com/jobs/view/platform-manager-m365-at-paulig-group-4470884314",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) or her approved constraints (configuration management, technical communications specialist experience). The Platform Manager - M365 role focuses on service ownership and vendor management rather than CI/CD pipelines, release coordination, or regulated compliance work she specializes in.",
+    "reason": "This M365 Platform Manager role focuses on enterprise IT infrastructure, vendor management, and software asset management rather than her core background in CI/CD release management, configuration management, or safety-critical engineering.",
     "id": "de686bbc",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-16",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "AVEVA E3D Administrator",
@@ -60603,15 +60600,14 @@
     "url": "https://fi.linkedin.com/jobs/view/aveva-e3d-administrator-at-helsinki-shipyard-4470147679",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'AVEVA E3D Administrator' does not align with Priya's target roles (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated/safety-critical domains.",
+    "reason": "The role requires specific domain expertise in AVEVA E3D administration and shipbuilding design, which does not match Priya's background in software release management, DevOps, and quality compliance.",
     "id": "60bc25a2",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "1 viikko sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT Service Manager, HR, QHSE and Analytics",
@@ -60620,15 +60616,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-service-manager-hr-qhse-and-analytics-at-valmet-4472704482",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires strong Finnish language skills for time and attendance system-related tasks, which Priya does not possess, and the job is not aligned with her expertise in CI/CD/release management or regulated-industry quality/compliance work.",
+    "reason": "The role explicitly requires strong Finnish language skills for tasks related to Finnish working time legislation, which conflicts with the candidate's lack of Finnish fluency.",
     "id": "2ff77312",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Service Provision Manager",
@@ -60637,15 +60632,14 @@
     "url": "https://fi.linkedin.com/jobs/view/service-provision-manager-at-cgi-4472072946",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role does not align with Priya's target criteria in domain/role type (Service Provision Manager in Cybersecurity lacks CI/CD/release management/configuration management focus) and does not explicitly mention regulated/safety-critical domains or technical documentation ownership.",
+    "reason": "This job requires fluent Finnish and Swedish as well as heavy customer-facing sales/presales responsibilities, which violate the candidate's language and role constraints.",
     "id": "70eb0c69",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-22",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT Service Manager, HR, QHSE and Analytics",
@@ -60654,15 +60648,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-service-manager-hr-qhse-and-analytics-at-valmet-4472709144",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of IT Service Manager does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) and requires Finnish language skills she does not possess.",
+    "reason": "The role requires strong Finnish language skills for tasks related to Finnish working time legislation, which the candidate does not possess.",
     "id": "0d40a2b7",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business IT Manager",
@@ -60671,15 +60664,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-it-manager-at-ict-direct-4469749652",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The 'Business IT Manager' role focuses on IT architecture, system development, and project management rather than CI/CD, release management, configuration management, or technical writing \u2014 which are the candidate's core expertise.",
+    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "4d3a5d70",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Customer & Partner Success Manager",
@@ -60688,15 +60680,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-customer-partner-success-manager-at-vektor-io-4469726522",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Technical Customer & Partner Success Manager, which focuses on customer-facing responsibilities and training rather than Priya\u2019s expertise in CI/CD, release management, or regulated-industry quality/compliance gatekeeping.",
+    "reason": "The role is heavily customer-facing (Customer Success & Partner Management) and requires domain expertise in BIM/GIS or infrastructure/construction workflows which does not match Priya's core release management, configuration management, and technical communication background.",
     "id": "a5fe3a68",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Cloud & FinOps Lead",
@@ -60705,15 +60696,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-finops-lead-at-sandvik-4469764435",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job focuses on Cloud & FinOps leadership rather than configuration management, release processes, or regulated-industry quality/compliance work Priya specializes in (e.g., MDR/ISO 13485, ASPICE/TUV).",
+    "reason": "This Cloud & FinOps Lead role focuses on cloud financial management and governance rather than Priya's core expertise in configuration, release management, or CI/CD pipelines.",
     "id": "a7be7f93",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-04",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Opetusteknologiapalveluiden kehitt\u00e4misp\u00e4\u00e4llikk\u00f6",
@@ -60722,15 +60712,14 @@
     "url": "https://fi.linkedin.com/jobs/view/opetusteknologiapalveluiden-kehitt%C3%A4misp%C3%A4%C3%A4llikk%C3%B6-at-university-of-helsinki-4470303874",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) but instead focuses on educational technology leadership and innovation, which lacks direct alignment with her experience in regulated-industry CI/CD, release management, or quality gatekeeping.",
+    "reason": "The role requires fluent Finnish and sufficient Swedish, and focuses on educational technology and digital pedagogy management rather than Priya's core expertise in configuration management, release engineering, or quality assurance.",
     "id": "ba8c5320",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-09-28T23:14:36+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Business Consultant - Implementation",
@@ -60739,15 +60728,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-business-consultant-implementation-at-simcorp-4473015461",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target roles in configuration management, release management, or technical documentation ownership; it focuses on business consulting rather than her specialized areas.",
+    "reason": "This role is a financial systems consulting and implementation position requiring deep expertise in asset management, banking, and financial instruments, which does not match Priya's background in release management, DevOps, and technical communication.",
     "id": "cb6f8e90",
     "source": "linkedin_fi_configuration_manager_p2",
     "added_at": "2026-09-29T00:22:28+03:00",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hallintoasiantuntija",
@@ -60756,15 +60744,14 @@
     "url": "https://fi.linkedin.com/jobs/view/hallintoasiantuntija-at-helsingin-kaupunki-%E2%80%93-helsingfors-stad-%E2%80%93-city-of-helsinki-4471612742",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and sufficient Swedish as mandatory qualifications, which Priya does not speak, triggering a hard rejection.",
+    "reason": "The role requires fluent Finnish and satisfactory Swedish, which the candidate does not possess.",
     "id": "702d13cb",
     "source": "linkedin_fi_configuration_manager_p2",
     "added_at": "2026-09-29T00:22:28+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Licensing Operations Manager",
@@ -60773,15 +60760,14 @@
     "url": "https://fi.linkedin.com/jobs/view/licensing-operations-manager-at-yousician-4470866439",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Licensing Operations Manager does not align with Priya's expertise in DevOps/CI-CD, configuration management, release management, or technical documentation, which are her core competencies and target job criteria.",
+    "reason": "This role requires financial modeling, FP&A, revenue operations, and royalty reporting analytics, which does not match Priya's technical communication, configuration management, and release engineering background.",
     "id": "723e3120",
     "source": "linkedin_fi_configuration_manager_p2",
     "added_at": "2026-09-29T00:22:28+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Cost Manager (Construction) - Norway / Sweden / Finland (Hybrid)",
@@ -60790,15 +60776,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cost-manager-construction-norway-sweden-finland-hybrid-at-laminar-projects-4470077750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Cost Manager in construction, which is outside Priya's domain of regulated software release/CM/DevOps and technical documentation, despite her 15+ years of experience.",
+    "reason": "This is a construction cost/commercial management role, whereas the candidate's background is in software release management, configuration management, DevOps, and technical writing.",
     "id": "51d91069",
     "source": "linkedin_fi_configuration_manager_p2",
     "added_at": "2026-09-29T00:22:28+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Product Manager, R&D Simulators",
