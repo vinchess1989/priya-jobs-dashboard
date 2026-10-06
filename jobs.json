@@ -70028,15 +70028,14 @@
     "url": "https://www.jobly.fi/en/job/senior-scientist-materials-processing-and-circular-solutions-2768680",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with Priya's expertise in CI/CD, release management, configuration management, or technical documentation, as it focuses on materials science research and AI-driven polymer recycling.",
+    "reason": "The role is a scientific research position focused on polymer recycling and materials processing, which falls outside the candidate's core expertise in software release management, configuration management, and technical documentation.",
     "id": "f4392f24",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Engineer, Power ElectronicsDanfossVaasaGo to job site",
@@ -70045,15 +70044,14 @@
     "url": "https://www.jobly.fi/en/job/development-engineer-power-electronics-2768628",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on power electronics design and development, which does not align with Priya's expertise in release/CM/DevOps or technical documentation, and falls under 'pure feature-development software engineering' hard rejection criteria.",
+    "reason": "This is a hardware/power-electronics development and trainee role focused on physical engineering, which violates the hard rejection against manufacturing and hardware quality/engineering roles.",
     "id": "0b702eae",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Application Specialist, SAP FinanceMetsoEspooGo to job site",
@@ -70061,16 +70059,15 @@
     "location": "Espoo, Finland",
     "url": "https://www.jobly.fi/en/job/senior-application-specialist-sap-finance-2768625",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires senior SAP FICO configuration expertise and finance application support, which does not align with Priya's background in DevOps/CI-CD, release management, or technical communication in regulated industries.",
+    "matches_requirements": "maybe",
+    "reason": "While the role is primarily SAP FICO functional configuration, it explicitly includes responsibilities for release management, DevOps, and process documentation, which align with the candidate's core strengths.",
     "id": "ae21d3de",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-25",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Chief Engineer, LayoutMetsoEspooGo to job site",
@@ -70079,15 +70076,14 @@
     "url": "https://www.jobly.fi/en/job/chief-engineer-layout-2768535",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires 3D plant design engineering expertise and leadership in minerals processing projects, which does not align with Priya's background in configuration management, release management, and technical documentation.",
+    "reason": "The role is a mechanical/plant layout engineering position focused on 3D plant design and physical infrastructure, which falls under the hard rejection for manufacturing/construction/hardware quality roles lacking a software-release or configuration-management core.",
     "id": "567b3f8d",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Data Center Security Operations ManagerMicrosoftHelsinkiGo to job site",
@@ -70096,15 +70092,14 @@
     "url": "https://apply.careers.microsoft.com/careers/job/1970393557001958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Data Center Security Operations Manager' does not align with Priya's target roles (DevOps/Release/CM/QA) or her regulated/safety-critical industry background.",
+    "reason": "The role is a physical security operations position focused on datacenter guarding and physical site security, which falls under the 'Specialist Platforms, Architecture or Line Management' rejection criteria as it lacks a software-release, CI/CD, or configuration-management core.",
     "id": "1dc43dba",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2026-09-30",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Platform Engineer (Defence & Security)",
@@ -70113,15 +70108,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-platform-engineer-defence-security-at-reaktor-4472319180",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish citizenship and fluency in both Finnish and English, which Priya does not meet (she does not speak Finnish/Swedish and is not a citizen).",
+    "reason": "The role requires Finnish citizenship and fluency in Finnish, both of which are hard rejections for the candidate.",
     "id": "1e63a70e",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-10-01T07:52:24+03:00",
-    "posted_date": "13 tuntia sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Datacenter Provisioning Engineer",
@@ -70130,15 +70124,14 @@
     "url": "https://fi.linkedin.com/jobs/view/datacenter-provisioning-engineer-at-cerebras-4470987696",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The Datacenter Provisioning Engineer role focuses on infrastructure provisioning and networking, which does not align with Priya's expertise in release management, configuration management, CI/CD, or technical documentation ownership.",
+    "reason": "The role is primarily focused on data center infrastructure provisioning and hardware/network operations, which falls under the 'Specialist Platforms/Infrastructure' exclusion criteria and lacks the required focus on software release, configuration management, or quality/traceability.",
     "id": "d92fe974",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-10-01T07:52:24+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps Specialist - Kubernetes (35700)",
@@ -70147,15 +70140,14 @@
     "url": "https://ca.linkedin.com/jobs/view/devops-specialist-kubernetes-35700-at-myticas-consulting-4472347425",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ottawa, Canada, which does not meet Priya's criteria of requiring roles physically located in Finland or fully remote jobs accessible from Finland.",
+    "reason": "The job is located in Ottawa, Canada, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "9645222a",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
-    "posted_date": "8 tuntia sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior DevOps / Platform Engineer \u2014 Cloud",
@@ -70164,15 +70156,14 @@
     "url": "https://ca.linkedin.com/jobs/view/senior-devops-platform-engineer-%E2%80%94-cloud-at-dominion-dynamics-4434351272",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site in Ottawa, Canada, which is outside Finland and not a remote role.",
+    "reason": "The job is located in Canada and is not remote, which violates the location requirements for a candidate based in Finland.",
     "id": "9907cb59",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior AWS DevOps Engineer - Remote - Colombia",
@@ -70181,15 +70172,14 @@
     "url": "https://co.linkedin.com/jobs/view/senior-aws-devops-engineer-remote-colombia-at-fullstack-4407884734",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is remote but restricted to Colombia, which excludes Finland and does not align with the candidate's requirement for fully remote roles that can be done from Finland.",
+    "reason": "The job is restricted to applicants currently authorized to work in Colombia and does not meet the location criteria for someone based in Finland.",
     "id": "2c66c100",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -70198,15 +70188,14 @@
     "url": "https://bo.linkedin.com/jobs/view/devops-engineer-at-deel-4455894531",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bolivia and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is restricted to Bolivia, which does not meet the location requirements for a candidate based in Finland.",
     "id": "37e430e0",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
     "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -70215,15 +70204,14 @@
     "url": "https://uk.linkedin.com/jobs/view/devops-engineer-at-bytes-software-services-4471510562",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Leatherhead, England, United Kingdom, which is outside Finland and not fully remote (as per the user's strict requirement to only consider roles in Finland or fully remote jobs compatible with Finland-based candidates).",
+    "reason": "The job explicitly requires candidates to be based in the UK with the unrestricted right to work there, which violates the location and residency requirements.",
     "id": "482a3380",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer",
@@ -70232,15 +70220,14 @@
     "url": "https://vn.linkedin.com/jobs/view/devops-engineer-at-as-white-global-4468496500",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ho Chi Minh City, Vietnam (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Vietnam and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "bb4f9c36",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Chuy\u00ean vi\u00ean DevOps (Domain Ch\u1ee9ng kho\u00e1n)",
@@ -70249,15 +70236,14 @@
     "url": "https://vn.linkedin.com/jobs/view/chuy%C3%AAn-vi%C3%AAn-devops-domain-ch%E1%BB%A9ng-kho%C3%A1n-at-xuan-thien-securities-xtsc-4470062677",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hanoi, Vietnam, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Hanoi, Vietnam, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "f35c60f4",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior CI/CD Engineer (DevOps)",
@@ -70266,15 +70252,14 @@
     "url": "https://vn.linkedin.com/jobs/view/senior-ci-cd-engineer-devops-at-sioux-technologies-asia-4467347876",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ho Chi Minh City, Vietnam, which is outside Finland and not a fully remote role accessible from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "The job is located in Vietnam and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "cd7d8e4e",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-01T07:53:04+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer (w/French)",
