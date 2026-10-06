@@ -67436,15 +67436,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f05319ba4a85b512",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature\u2011development engineering position, which does not align with Priya\u2019s release/CM/DevOps/quality focus.",
+    "reason": "The job description provided is inaccessible (HTTP 400 error), making it impossible to evaluate against the candidate's requirements.",
     "id": "0922dac8",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI Analytics Engineer",
@@ -67453,15 +67452,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=81648ce1bbdc7396",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of AI Analytics Engineer does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) and focuses on data modeling/AI rather than regulated-industry quality/requirements traceability or technical documentation.",
+    "reason": "The role is an AI Analytics Engineer, which falls under the hard rejection for platform/data/AI roles that lack a core focus on release, configuration management, or quality/traceability.",
     "id": "b606b2b2",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Service Sales Engineer",
@@ -67470,15 +67468,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c3c1786341788f70",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires full professional proficiency in Finnish and English, which is a hard rejection since Priya does not speak Finnish or Swedish, and the role is a quota-carrying sales position, which she explicitly rejects.",
+    "reason": "The role is a quota-carrying sales position, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' roles.",
     "id": "6f432f85",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Performance Test Engineer",
@@ -67487,15 +67484,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1e72354cecf72c76",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Performance Test Engineer focused on backend system testing, which does not align with Priya's expertise in configuration management, release management, or technical documentation (her target roles are DevOps, Configuration Manager, Release Manager, etc.).",
+    "reason": "The provided job description text is empty/incomplete and does not contain sufficient information to evaluate the role's responsibilities, requirements, or salary, making it impossible to determine if it meets the candidate's criteria.",
     "id": "6211c766",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-28",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Engineer",
@@ -67504,15 +67500,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=32467698970cd993",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a hard rejection.",
+    "reason": "The provided job description text is incomplete and contains only navigation/metadata elements, making it impossible to verify if the role meets the required criteria for configuration management, release management, or technical communication.",
     "id": "0cb7629b",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-11-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Data Center Electrical Engineer",
@@ -67521,15 +67516,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=eb058d33e26bce29",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires electrical engineering expertise and fluency in Finnish, neither of which align with Priya's background in DevOps/release management and her lack of Finnish language skills.",
+    "reason": "The role is a hardware/electrical engineering position in a data center, which falls under the hard rejection for manufacturing/hardware quality roles and does not align with her software-focused configuration management and technical communication background.",
     "id": "2a97e6fd",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Chapter Lead \u2013 Mobile Apps",
@@ -67538,15 +67532,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2e125b5ca8936b5f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on technical leadership and hands-on mobile development rather than CI/CD/release management/configuration management, which are central to Priya's expertise and target job criteria.",
+    "reason": "The role is a 'Chapter Lead' focused on mobile application development and leadership, which falls under the 'Pure Feature-Development Software Engineering' and 'Line Management' hard rejections.",
     "id": "8a552a29",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "2026-09-29",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Process Development Engineer",
@@ -67555,15 +67548,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=b8bb68b4a740fb85",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role as a Process Development Engineer focuses on process mapping and management rather than CI/CD, release management, or technical documentation ownership, which are central to Priya\u2019s experience and target job criteria.",
+    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's configuration management, release, or quality engineering background.",
     "id": "c8e02561",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Forward Deployment Engineer \u2013 Expert",
@@ -67572,15 +67564,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c136b786f4295a4e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires primary responsibility for writing new application features/product code (protocol stack development, production-quality code shipping in customer builds) with no explicit release/CM/DevOps ownership component, falling under the 'Pure Feature-Development Software Engineering' hard rejection category.",
+    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's release, configuration management, or quality-focused background.",
     "id": "dd2aa0bc",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Full-Stack Engineer",
@@ -67589,15 +67580,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4f39bf16ac283f8d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Full-Stack Engineer focused on feature development, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it requires building new application features without CI/CD/release/CM ownership components.",
+    "reason": "The role is a pure feature-development software engineering position, which violates the hard rejection criteria regarding her career focus.",
     "id": "e3875b42",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engineering Manager, Cx App Foundations",
@@ -67606,15 +67596,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=1ae2fd2ae9a45369",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires engineering management and platform ownership responsibilities that do not align with Priya's expertise in configuration management, release processes, or technical communication, despite matching location and seniority criteria.",
+    "reason": "The role is an Engineering Manager position focused on application foundations, which falls under the 'Specialist Platforms, Architecture or Line Management' hard rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability.",
     "id": "bd934092",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Support Intern",
@@ -67623,15 +67612,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=500fe7dc5f098ebd",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an internship targeting students in their final studies, which does not align with Priya's mid-to-senior experience level or her background in configuration management/release engineering. The role focuses on customer-facing technical support and QA testing rather than regulated-industry CM/DevOps responsibilities.",
+    "reason": "The role is an internship, which conflicts with the candidate's 15 years of experience and the hard rejection criteria regarding entry-level/trainee roles.",
     "id": "aef33e7b",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Chief Engineer",
@@ -67640,15 +67628,14 @@
     "url": "https://fi.indeed.com/career/chief-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting lacks explicit information about the company name, location, and specific role responsibilities, making it impossible to verify alignment with the candidate's criteria or confirm compliance with location restrictions.",
+    "reason": "This is a salary information page on Indeed rather than an actual job posting, making it ineligible for application.",
     "id": "0139a322",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regional Quality Lead, Americas",
@@ -67657,15 +67644,14 @@
     "url": "https://www.jobly.fi/tyopaikka/regional-quality-lead-americas-2749989",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Zeeland, MI, USA, which falls under the strict exclusion of any roles in or restricted to the United States, including hybrid roles requiring presence in the US.",
+    "reason": "The job is located in the United States (Zeeland, MI) and requires physical presence at a manufacturing facility, which violates the strict exclusion of US-based roles and the requirement for roles to be in Finland or remote-accessible from Finland.",
     "id": "be2bb7d9",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Assurance Specialist",
@@ -67673,16 +67659,15 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/senior-quality-assurance-specialist-2696970",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job aligns with Priya's quality assurance and CI/CD experience but emphasizes AI-driven test automation and client coaching, which may differ slightly from her regulated-industry focus.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with the candidate's expertise in CI/CD, quality strategy, and process leadership, and it is based in Finland.",
     "id": "ada224cf",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-29",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/hidden_trail_senior_quality_assurance_speci_ada224cf.txt"
   },
   {
     "title": "Software Governance & Quality Specialist",
