@@ -69788,15 +69788,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyoharjoittelu-koulutussopimus-2025-2571776",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an entry-level internship/trainee program requiring no experience, which conflicts with Priya's ~15 years of experience and her focus on mid-to-senior roles.",
+    "reason": "This is an internship/trainee program for students, which violates the hard rejection criteria regarding entry-level roles gated on little to no experience.",
     "id": "be62e66b",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kuorma-autonkuljettaja",
@@ -69805,15 +69804,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kuorma-autonkuljettaja-2755245",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, and the role (truck driver) does not align with her technical/quality/product-specialist or DevOps/release-management expertise.",
+    "reason": "The role requires fluent Finnish and is a truck driving position, which does not align with the candidate's technical background in software release and configuration management.",
     "id": "02729149",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Rakennusty\u00f6ntekij\u00e4 kerrostaloty\u00f6maalle",
@@ -69822,15 +69820,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekija-kerrostalotyomaalle-2662941",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction work experience and physical labor, which does not align with Priya's background in technical communication, release management, configuration management, and DevOps/CI-CD in regulated industries.",
+    "reason": "The role is for a construction worker, which falls under the hard rejection for manufacturing/construction/hardware quality roles and does not match the candidate's software/technical background.",
     "id": "33dc68df",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-05",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "LVI-asentajia",
@@ -69839,15 +69836,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lvi-asentajia-2355544",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an LVI (HVAC) installer with technical installation experience, which does not align with Priya's background in technical communication, release management, and configuration management in regulated industries.",
+    "reason": "The role is for a manual trade position (HVAC technician) which does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
     "id": "cf331f0c",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-19",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Maanrakennusty\u00f6ntekij\u00e4, 1kk, HETI!, RIIHIM\u00c4KI",
@@ -69856,15 +69852,14 @@
     "url": "https://www.jobly.fi/tyopaikka/maanrakennustyontekija-1kk-heti-riihimaki-2769246",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires manual labor as a construction worker (maanrakennusty\u00f6ntekij\u00e4), which does not align with Priya's expertise in configuration management, release engineering, technical writing, and regulated-industry quality compliance.",
+    "reason": "This is a manual labor/construction role that does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
     "id": "cdc895f3",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Peltisepp\u00e4, vakituinen, NURMIJ\u00c4RVI",
@@ -69873,15 +69868,14 @@
     "url": "https://www.jobly.fi/tyopaikka/peltiseppa-vakituinen-nurmijarvi-2769245",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a carpenter (peltisepp\u00e4), which is unrelated to Priya's expertise in technical communication, release management, configuration management, and DevOps/CI-CD, and falls under the negative constraint of salary below \u20ac4500.",
+    "reason": "The role is for a construction-sector sheet metal worker (peltisepp\u00e4), which falls under the hard rejection for manufacturing/construction/hardware quality roles and does not match the candidate's software/technical communication profile.",
     "id": "9e87b8f5",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kuorma-autonkuljettaja",
@@ -69890,15 +69884,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ajoneuvoasentaja-logistiikka-kuljetus-varasto-ja-autoala-2439975",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency and is for a truck driver role, which does not align with the candidate's expertise in technical communication, release management, or configuration management.",
+    "reason": "The role is for a truck driver, which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
     "id": "c74acb98",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Maanrakennusty\u00f6ntekij\u00e4",
@@ -69907,15 +69900,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/46f6a180-3a4f-4e08-ab30-0811deae6e50/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for a construction worker does not align with the candidate's expertise in technical communication, configuration management, release management, or regulated-industry quality standards.",
+    "reason": "The role is for a construction worker (maanrakennusty\u00f6ntekij\u00e4) requiring fluent Finnish, which does not match the candidate's technical/software background or language skills.",
     "id": "80683f83",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-01T05:23:05+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-21",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laitoshuoltaja Uusi lastensairaala",
@@ -69924,15 +69916,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/728c1feb-fbde-4750-bb62-acdf1cdf4161/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak.",
+    "reason": "The role is for a facility cleaner (laitoshuoltaja) and requires fluent Finnish, which does not match the candidate's technical/engineering background or language skills.",
     "id": "0144fcac",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-01T05:23:05+03:00",
-    "posted_date": "1.10.2026, 5.08",
+    "posted_date": "2026-10-01",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "R\u00f6ntgenhoitaja Diagnostiikkakeskus Radiologia",
@@ -69941,15 +69932,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/142fd44c-7da1-4cf8-8695-c5ff04108097/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a clinical medical license as a radiographer, which is a hard rejection criterion since Priya does not hold such qualifications and her experience is documentation/quality/regulatory-adjacent, not clinical.",
+    "reason": "The role requires a clinical medical license (R\u00f6ntgenhoitaja) and fluent Finnish, neither of which the candidate possesses.",
     "id": "5bfc39a2",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-01T05:23:05+03:00",
-    "posted_date": "1.10.2026, 5.08",
+    "posted_date": "2026-10-01",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Apulaisylil\u00e4\u00e4k\u00e4ri Neurologia",
@@ -69958,15 +69948,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/52008486-9cf2-4a60-a497-ec388ed93fde/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a clinical medical license and Finnish/Swedish language proficiency, both of which are hard rejections for the candidate.",
+    "reason": "The role requires a clinical medical license (neurologist) and fluent Finnish/Swedish, neither of which the candidate possesses.",
     "id": "42e98b96",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-01T05:23:05+03:00",
-    "posted_date": "1.10.2026, 5.08",
+    "posted_date": "2026-10-01",
     "deadline": "2026-10-19",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Process Quality ManagerOkmetic OyVantaaGo to job site",
@@ -69975,15 +69964,14 @@
     "url": "https://www.jobly.fi/en/job/process-quality-manager-2769146",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is in semiconductor manufacturing process quality management, which does not align with Priya's expertise in regulated-software release/CM/DevOps roles (medical device MDR/ISO 13485, automotive ASPICE/TUV) or her technical writing/configuration management background.",
+    "reason": "This is a manufacturing/industrial process quality role focused on silicon wafer production, which falls under the hard rejection for manufacturing/hardware quality roles with no software-release or configuration-management component.",
     "id": "2e012ed5",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-25",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior HIL engineerEatonVantaaGo to job site",
@@ -69992,32 +69980,30 @@
     "url": "https://www.jobly.fi/en/job/senior-hil-engineer-2768855",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior HIL Engineer with expertise in real-time simulation models and power electronics, which does not align with the candidate's background in Configuration Management, Release Management, and technical documentation in regulated industries.",
+    "reason": "This role is a hardware-focused engineering position centered on HIL (Hardware-in-the-Loop) simulation and power electronics, which falls under the hard rejection for manufacturing/hardware quality roles and lacks the required focus on software release, configuration management, or software quality.",
     "id": "7896d1d3",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Metro Planning (Scheduler) Leader - VaasaMicrosoftVaasaGo to job site",
-    "company": "Extract from page",
+    "company": "Microsoft",
     "location": "Helsinki, Finland",
     "url": "https://apply.careers.microsoft.com/careers/job/1970393556956155",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role is a construction/infrastructure project scheduling position focused on physical datacenter builds, which falls under the hard rejection for manufacturing/construction quality/process roles.",
     "id": "3beb7ce4",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2026-09-30",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "EMS Purchasing Manager to KONEKONEEspooGo to job site",
@@ -70026,15 +70012,14 @@
     "url": "https://www.jobly.fi/en/job/ems-purchasing-manager-kone-2768681",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of EMS Purchasing Manager does not align with the candidate's expertise in configuration management, release management, or safety-critical requirements engineering.",
+    "reason": "This is a procurement and supply chain management role focused on purchasing and supplier negotiations, which falls outside the candidate's core expertise in release management, CI/CD, and technical quality/documentation.",
     "id": "6243d4e0",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Scientist, Materials Processing and Circular SolutionsVTTTampereGo to job site",
