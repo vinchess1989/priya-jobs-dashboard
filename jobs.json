@@ -71436,15 +71436,14 @@
     "url": "https://www.jobly.fi/tyopaikka/liikennejarjestelmaasiantuntija-2768709",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Liikennej\u00e4rjestelm\u00e4asiantuntija' (Traffic System Specialist) focuses on urban planning/infrastructure tasks unrelated to DevOps, configuration management, release management, or regulated-industry quality/compliance work, which are central to the candidate's expertise.",
+    "reason": "The role is for a transport system specialist (civil engineering/urban planning) and does not involve software release, configuration management, or technical communication.",
     "id": "c207f330",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-10-01T12:39:18+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-16",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Backup System Administrator",
@@ -71453,15 +71452,14 @@
     "url": "https://www.jobly.fi/tyopaikka/backup-system-administrator-2767768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role requires fluent Finnish language skills, which the candidate does not have (hard rejection).",
     "id": "4c8f5b37",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-10-01T12:39:18+03:00",
     "posted_date": "2026-09-29",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Turvaj\u00e4rjestelm\u00e4asiantuntija, Etel\u00e4-Suomi (3 paikkaa)",
@@ -71470,15 +71468,14 @@
     "url": "https://www.jobly.fi/tyopaikka/turvajarjestelmaasiantuntija-etela-suomi-3-paikkaa-2765319",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires hands-on security systems installation/programming (access control, video surveillance) and fieldwork, which does not align with Priya's expertise in release/configuration management, CI/CD, technical writing, and regulated-industry quality compliance.",
+    "reason": "This is a field-based physical security systems installation and maintenance role, which falls under the hard rejection for manufacturing/hardware quality/installation roles and does not align with her software release/CM/DevOps background.",
     "id": "434280eb",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-10-01T12:39:18+03:00",
     "posted_date": "2026-09-24",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Haussa myyji\u00e4 Helsinkiin, Turkuun & Ouluun",
@@ -71487,15 +71484,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/sector-alarm-haussa-myyjia-helsinkiin-turkuun-ouluun-turku-sdsuu-20615038",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires customer-facing sales responsibilities and fluent Finnish, both of which are hard-rejected criteria for the candidate.",
+    "reason": "The role is a quota-carrying sales position requiring fluent Finnish, both of which are hard rejections for the candidate.",
     "id": "e89524b0",
     "source": "duunitori_configuration_manager",
     "added_at": "2026-10-01T13:54:15+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Buukkaaja / Et\u00e4ty\u00f6mahdollisuus",
@@ -71504,15 +71500,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/asales-buukkaaja-etatyomahdollisuus-sdsuu-20612253",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is customer-facing and involves sales activities (new customer acquisition, phone work), which falls under the hard rejection for 'customer facing' roles.",
+    "reason": "This is a quota-carrying sales/telemarketing role, which is explicitly excluded by the candidate's hard rejection criteria for sales roles mislabeled as product specialist or similar.",
     "id": "f4a49e3a",
     "source": "duunitori_configuration_manager",
     "added_at": "2026-10-01T13:54:15+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-31",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Storage Engineering Manager",
@@ -71521,15 +71516,14 @@
     "url": "https://fi.linkedin.com/jobs/view/storage-engineering-manager-at-verda-4473748307",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Storage Engineering Manager focused on infrastructure leadership and distributed storage systems, which does not align with Priya's expertise in release/CM/DevOps or regulated-industry quality/compliance work.",
+    "reason": "The role is a people-management position focused on storage infrastructure engineering, which falls under the hard rejection for specialist platforms/architecture roles lacking a primary release/CM/quality core.",
     "id": "4c48be29",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Platform Engineer",
@@ -71537,16 +71531,15 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/lead-platform-engineer-at-valmet-4474148447",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job involves platform engineering and DevOps responsibilities (CI/CD pipelines, container platforms) that partially align with Priya's CI/CD/release automation expertise, but the role focuses more on infrastructure/cloud platform development than regulated-industry release/configuration management or technical documentation.",
+    "matches_requirements": "yes",
+    "reason": "The role is a strong match for her DevOps, CI/CD, and platform engineering background, and it is located in Finland with no language or citizenship barriers.",
     "id": "27ff3aa8",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 tunti sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "2026-10-18",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/valmet_lead_platform_engineer_27ff3aa8.txt"
   },
   {
     "title": "(Senior) Product Manager (f/m/d)",
@@ -71555,15 +71548,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-f-m-d-at-zeal-network-se-4469453308",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Product Manager focused on product strategy and cross-functional teamwork, which does not align with Priya's target domains of DevOps, Configuration Management, Release Management, or Technical Writing/Documentation Specialist roles.",
+    "reason": "The role is a pure Product Management position focused on feature development and roadmap ownership, which falls under the hard rejection for pure feature-development roles and lacks the required release, configuration management, or quality-gatekeeping core.",
     "id": "8f85d67b",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Product Manager, Yousician App",
@@ -71572,15 +71564,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-yousician-app-at-yousician-4472140561",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Product Manager with strategic and team leadership responsibilities, which does not align with Priya's expertise in configuration management, release management, and technical documentation.",
+    "reason": "This is a pure product management role focused on feature development, growth, and monetization strategy, which falls under the hard rejection for pure feature-development and product-management roles that lack a core release, configuration-management, or quality-gatekeeping component.",
     "id": "8128eee1",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Product Manager, Mobile",
@@ -71589,15 +71580,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-mobile-at-mozilla-4457403163",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Product Manager focused on mobile browser development, which does not align with Priya's expertise in release/CM/DevOps or regulated-industry quality/compliance gatekeeping.",
+    "reason": "The role is a pure Product Management position focused on feature development, user growth, and retention, which falls under the hard rejection for pure feature-development/product-management roles lacking a core release, configuration-management, or quality-gatekeeping component.",
     "id": "e1a07e4f",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Manager",
@@ -71606,15 +71596,14 @@
     "url": "https://fi.linkedin.com/jobs/view/project-manager-at-epec-oy-4469725508",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as an essential qualification, which Priya does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "51106239",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development & Governance Manager",
@@ -71623,15 +71612,14 @@
     "url": "https://fi.linkedin.com/jobs/view/development-governance-manager-at-ssab-4467848914",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on IT Procurement governance and digitalization (supplier lifecycle management, contract templates, software asset management) rather than CI/CD/release management, technical documentation, or quality/compliance gatekeeping which align with Priya's background.",
+    "reason": "The role is a procurement and contract governance position focused on IT sourcing and software asset management, which falls outside the candidate's core expertise in software release management, CI/CD, and technical quality/compliance.",
     "id": "62e26453",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-14",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Motion IS Portfolio & Project Excellence Lead",
@@ -71640,15 +71628,14 @@
     "url": "https://fi.linkedin.com/jobs/view/motion-is-portfolio-project-excellence-lead-at-abb-4471536058",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires portfolio/project management leadership (PMO frameworks, strategic alignment) which does not align with Priya's expertise in CI/CD/release management, technical documentation, and regulated-industry quality gatekeeping.",
+    "reason": "The role is a high-level Portfolio/PMO management position focused on business strategy and project governance, lacking the hands-on CI/CD, release management, or technical quality/traceability core required by the candidate's profile.",
     "id": "546d9313",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kehitysp\u00e4\u00e4llikk\u00f6, CPMO",
@@ -71657,15 +71644,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kehitysp%C3%A4%C3%A4llikk%C3%B6-cpmo-at-gasgrid-4470828737",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role (Development Manager, CPMO) focuses on program/project management and strategic development processes, which does not align with Priya's expertise in CI/CD/release management, technical writing, or regulated-industry quality/compliance gatekeeping.",
+    "reason": "The role is a generalist project management/PMO position focused on strategic business development and organizational processes, lacking the required core focus on software release, configuration management, or technical quality/traceability.",
     "id": "d1d2ec65",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kehitysp\u00e4\u00e4llikk\u00f6",
@@ -71674,15 +71660,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kehitysp%C3%A4%C3%A4llikk%C3%B6-at-istekki-oy-4470861923",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires AI/solution architecture expertise not aligned with Priya's background in DevOps/Release Management/Technical Writing, and does not match any of her target job categories.",
+    "reason": "The role is a management-level position focused on AI strategy, governance, and architecture, which falls under the 'Specialist Platforms/Architecture' exclusion as it lacks the required core focus on release, configuration management, or quality/traceability.",
     "id": "8ab463ff",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "1 viikko sitten",
+    "deadline": "2026-10-11",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI Transformation Lead",
