@@ -65340,15 +65340,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=163d22aad4d2d0e1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role centers on product security management and team leadership rather than release management, configuration management, or technical documentation.",
+    "reason": "The role is a Product Security Manager position focused on security architecture, threat modeling, and cloud security, which falls under the 'Specialist Platforms/Architecture' hard rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability.",
     "id": "d71a55c0",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-11",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Fire Protection Project Manager",
@@ -65357,15 +65356,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=258a269ba56f137c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction and fire protection project management role requiring a trade background and Spanish language skills, which does not match Priya's software configuration management and technical writing background.",
+    "reason": "The role is a construction/site-based project management position requiring a trade background and Spanish language skills, which does not align with her software release, configuration management, or quality engineering expertise.",
     "id": "d1d7f151",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electrical Construction Manager",
@@ -65374,15 +65372,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e61ad0fc018a4acb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an Electrical Construction Manager role requiring heavy site operations, cost tracking, and construction management experience which does not align with the candidate's software release, configuration management, and technical communication background.",
+    "reason": "This is a physical construction site management role, which falls under the hard rejection for manufacturing/construction quality roles with no software-release or configuration-management component.",
     "id": "867fc206",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Tuotantop\u00e4\u00e4llikk\u00f6",
@@ -65391,15 +65388,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tuotantopaallikko-2762277",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "The role requires fluent Finnish and is a construction/electrical project management position, which falls outside the candidate's software-focused release and quality engineering background.",
     "id": "0a352d4c",
     "source": "jobly_fi_requirements_manager",
     "added_at": "2026-09-30T12:04:20+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2026-10-05",
+    "deadline": "2026-10-15",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Test Engineer",
@@ -65408,15 +65404,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-engineer-at-vektor-io-4470865674",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a hard qualification, which Priya does not speak, triggering a strict hard rejection.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "ac29d07c",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Software Engineer, Quality",
@@ -65424,16 +65419,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-quality-at-jobgether-4472139472",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role focuses on AI-driven testing and infrastructure, which partially overlaps with Priya's QA/regulatory experience but lacks explicit alignment with her core expertise in release/CM/DevOps or regulated-industry quality standards.",
+    "matches_requirements": "no",
+    "reason": "The job description explicitly lists US annual total target cash compensation, which strongly signals a US-based or US-restricted role, violating the strict exclusion of US-restricted positions.",
     "id": "98d7afb3",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Test Engineer",
@@ -65442,15 +65436,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-engineer-at-hyroi-solutions-an-iso-certified-company-4472124424",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Test Engineer' with a focus on protocol conformance and performance testing does not align with Priya's target roles in configuration management, release management, or technical writing, despite her scripting and automation experience.",
+    "reason": "The role is a specialized telecom protocol test engineering position requiring 5+ years of specific 3GPP/4G/5G core network experience, which falls outside the candidate's core background in release management, configuration management, and general software quality.",
     "id": "5ead5086",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Automation Engineer",
@@ -65459,15 +65452,14 @@
     "url": "https://fi.linkedin.com/jobs/view/qa-automation-engineer-at-emagine-4473732302",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a QA Automation Engineer, which does not align with Priya's target role categories (DevOps, Configuration Management, Release Management, etc.) or her experience in regulated-industry quality gatekeeping and technical documentation.",
+    "reason": "The role is a pure QA automation engineering position focused on manual and automated testing of application features, which falls under the hard rejection for pure feature-development/testing roles without a release, configuration-management, or quality-system core.",
     "id": "d5d64860",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
-    "posted_date": "1 tunti sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Engineer",
@@ -65476,15 +65468,14 @@
     "url": "https://fi.linkedin.com/jobs/view/development-engineer-at-stora-enso-4471340892",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
+    "reason": "The job requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "b0ab624a",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-11-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Test Engineer, Lappeenranta",
@@ -65493,15 +65484,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-test-engineer-lappeenranta-at-skeleton-technologies-4473531633",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires strong communication skills in both English and Finnish, but Priya does not speak Finnish, which is a mandatory requirement for this role.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted and requires Finnish language proficiency, which the candidate does not possess.",
     "id": "b723c901",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
-    "posted_date": "13 tuntia sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6maainsin\u00f6\u00f6ri",
@@ -65510,15 +65500,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ty%C3%B6maainsin%C3%B6%C3%B6ri-at-destia-oy-4470167260",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a hard qualification, which Priya does not possess.",
+    "reason": "This is a construction site engineering role focused on physical infrastructure quality, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
     "id": "70e90a13",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-09-30T12:05:07+03:00",
-    "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer II",
@@ -65527,15 +65516,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-ii-at-honeywell-aerospace-4462449138",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Clearwater, FL, USA, which is strictly excluded per the candidate's non-negotiable rule against US-based roles (including remote) due to citizenship/work authorization requirements.",
+    "reason": "The job is located in the United States and explicitly requires U.S. citizenship, which violates the hard rejection criteria.",
     "id": "63ff2a9f",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-30T12:05:46+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "08/18/2026",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -65544,15 +65532,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-at-weasler-engineering-4473726442",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in West Bend, WI, USA, which is strictly excluded per the candidate's non-negotiable rule against any US-based or US-restricted roles.",
+    "reason": "The job is located in the United States (West Bend, Wisconsin), which violates the strict exclusion policy for US-based roles.",
     "id": "657c69a6",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-30T12:05:46+03:00",
-    "posted_date": "1 tunti sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -65561,15 +65548,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-at-john-deere-4459454057",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ankeny, IA, United States, which is strictly excluded per the candidate's hard rejections.",
+    "reason": "The job is located in the United States, which is a strict hard rejection criteria.",
     "id": "1761f8a6",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-30T12:05:46+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engenheiro da Qualidade",
@@ -65578,15 +65564,14 @@
     "url": "https://br.linkedin.com/jobs/view/engenheiro-da-qualidade-at-byd-carreiras-4460114883",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is in Brazil, which is outside Finland and not a fully remote role accessible from Finland, triggering a hard rejection.",
+    "reason": "The role is a manufacturing quality engineering position focused on physical vehicle production and process quality, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "f4d8c8c9",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-30T12:05:46+03:00",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
