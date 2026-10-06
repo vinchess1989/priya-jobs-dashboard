@@ -62887,17 +62887,15 @@
     "location": "Jyv\u00e4skyl\u00e4, Central Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/business-analyst-public-sector-at-twoday-4464512540",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job title 'Business Analyst, Public sector' does not align with Priya's target roles (e.g., Release Manager, Configuration Manager, Technical Writer, etc.) and focuses on business analysis rather than regulated/safety-critical software delivery or technical documentation.",
     "id": "1583d9fb",
     "source": "linkedin_fi_requirements_engineer",
     "added_at": "2026-09-29T23:40:05+03:00",
-    "posted_date": "N/A",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "error_attempts": 1,
-    "last_error_at": "2026-10-06T00:05:04+03:00"
+    "description_file": null
   },
   {
     "title": "Mission Delivery Engineer",
@@ -64157,15 +64155,14 @@
     "url": "https://de.linkedin.com/jobs/view/business-requirements-engineer-health-m-w-d-at-axa-4449646987",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cologne, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is located in Cologne, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
     "id": "e62df400",
     "source": "linkedin_eu_remote_requirements_engineer_p2",
     "added_at": "2026-09-30T05:18:58+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Requirements Engineer Aviation (m/f/d)",
@@ -64174,15 +64171,14 @@
     "url": "https://de.linkedin.com/jobs/view/requirements-engineer-aviation-m-f-d-at-ferchau-4438587064",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Garching, Bavaria, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is located in Garching, Bavaria, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "73037b0d",
     "source": "linkedin_eu_remote_requirements_engineer_p2",
     "added_at": "2026-09-30T05:18:58+03:00",
-    "posted_date": "il y a 2\u00a0semaines",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Requirement engineer",
@@ -64191,15 +64187,14 @@
     "url": "https://hu.linkedin.com/jobs/view/requirement-engineer-at-raiffeisen-software-hungary-4471458875",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Budapest, Hungary (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote option.",
+    "reason": "The job is located in Budapest, Hungary, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "63923374",
     "source": "linkedin_eu_remote_requirements_engineer_p2",
     "added_at": "2026-09-30T05:18:58+03:00",
-    "posted_date": "il y a 5\u00a0jours",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Syst\u00e8me Pr\u00e9paration de Mission F/H",
@@ -64208,15 +64203,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-syst%C3%A8me-pr%C3%A9paration-de-mission-f-h-at-mbda-4465852797",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is in France (Le Plessis-Robinson), which is outside Finland and not a remote role accessible from Finland, triggering a hard rejection.",
+    "reason": "The job is located in France (Le Plessis-Robinson, \u00cele-de-France), which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "1c913901",
     "source": "linkedin_eu_remote_requirements_engineer_p2",
     "added_at": "2026-09-30T05:18:58+03:00",
-    "posted_date": "il y a 2\u00a0semaines",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Junior Site Planning Engineer",
@@ -64225,15 +64219,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f2820c1e832aed14",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a mechanical engineering site\u2011planning position, not aligned with the candidate\u2019s release, configuration management, or technical documentation expertise.",
+    "reason": "The role 'Junior Site Planning Engineer' falls under manufacturing/construction quality roles (Hard Rejection) and does not align with Priya's expertise in regulated software release/CM/DevOps or technical documentation.",
     "id": "a1074490",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Project Engineer, Catering Modernization Projects",
@@ -64242,15 +64235,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=51223d9be5c78c40",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires engineering design and project coordination in catering modernization, which does not align with Priya's expertise in configuration management, release management, CI/CD, technical writing, or regulated-industry quality compliance.",
+    "reason": "The job requires on-site/hybrid work in France and Italy (outside Finland), which is explicitly rejected under Hard Rejections. The role type 'Project Engineer, Catering Modernization Projects' does not align with Priya's target domains (DevOps, Configuration Management, Technical Writing, etc.).",
     "id": "9f4c1fbf",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-18",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cyber security engineer",
@@ -64259,15 +64251,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=87e8bf400e0a7ae9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Cyber security engineer' does not align with Priyanga's target role types (DevOps/Configuration Management/Release Management/Technical Writing/Requirements/QA in regulated domains) or the positive constraints (configuration management, technical communications specialist experience).",
+    "reason": "The job title 'Cyber security engineer' does not align with Priya's target roles in configuration management, release management, technical writing, or safety-critical requirements engineering.",
     "id": "29880edc",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Analyst, Financial Services",
@@ -64276,15 +64267,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=76f33efaa068b2b9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job requires fluent Finnish, which the candidate does not have.",
+    "reason": "The job title 'Solution Analyst, Financial Services' does not align with Priya's target role types (e.g., DevOps, Configuration Manager, Technical Writer, Product Specialist) or her experience in regulated/quality-focused domains.",
     "id": "c492f876",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Plan Approval Surveyor",
@@ -64293,15 +64283,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=75158f6b71650b43",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a hard rejection.",
+    "reason": "The job title 'Plan Approval Surveyor' does not align with any of Priya's target roles (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and lacks sufficient detail to confirm alignment with her regulated/quality-focused experience.",
     "id": "3284d7d7",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Mission Delivery Engineer",
@@ -64310,15 +64299,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=d05cf83e8325b46d",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires on-site work in Warsaw, Poland (hybrid model), which falls under the Hard Rejection rule for locations outside Finland that are not fully remote.",
+    "reason": "The job requires on-site/hybrid work in Warsaw, Poland, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is a hybrid role outside Finland.",
     "id": "e5a4ba27",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Staff GRC Engineer",
@@ -64344,15 +64332,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=246e722667a356f7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction project operations manager, unrelated to the candidate's software release, configuration management, DevOps, or technical writing expertise.",
+    "reason": "The job title 'Project Operations Manager' does not align with the candidate's target roles (e.g., Release Manager, Configuration Manager, Technical Writer) or explicitly mention CI/CD, release management, or configuration management responsibilities.",
     "id": "29d29ba2",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Construction Manager",
@@ -64361,15 +64348,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=973c6ef1d7ca16c5",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Construction Manager' does not align with Priya's expertise in DevOps, Configuration Management, Release Management, Technical Writing, or regulated-industry quality/compliance roles.",
+    "reason": "The job is a 'Construction Manager' role in the construction/manufacturing sector, which falls under the 'Manufacturing, Construction or Hardware Quality Roles' hard rejection category as it does not align with Priya's regulated/software-quality background.",
     "id": "7659d613",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Electronics Test Engineer",
@@ -64378,15 +64364,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=b94481bb7bbe8a3b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Electronics Test Engineer' and responsibilities focus on hardware testing and satellite qualification, which do not align with Priya's expertise in CI/CD, configuration management, release management, or technical documentation (her core skills and approved role types).",
+    "reason": "The job title 'Electronics Test Engineer' does not explicitly align with Priya's target roles (e.g., Quality Engineer, Requirements Engineer, Technical Writer) or the positive constraints (configuration management, technical communications specialist experience), and the job description lacks sufficient detail to confirm alignment with her safety-critical/regulated industry expertise.",
     "id": "465df287",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Design Engineer",
@@ -64395,15 +64380,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5d225d86e2b7be27",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an on-site position in Sweden, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is located outside Finland and not fully remote.",
+    "reason": "The job title 'Design Engineer' does not align with Priya's target roles in configuration management, release management, technical writing, or safety-critical requirements engineering.",
     "id": "35ec94e5",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Mechanical Engineer",
