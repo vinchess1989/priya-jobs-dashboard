@@ -65100,15 +65100,14 @@
     "url": "https://lu.linkedin.com/jobs/view/business-analyst-test-manager-digital-senior-axa-luxembourg-cdi-at-axa-luxembourg-axa-wealth-europe-4472109312",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Luxembourg, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in Luxembourg (on-site) which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "04b3f810",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
-    "posted_date": "cu 3 ore \u00een urm\u0103",
+    "posted_date": "il y a 6\u00a0jours",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Business Analyst / Anforderungsmanager (m/w/d)",
@@ -65117,15 +65116,14 @@
     "url": "https://de.linkedin.com/jobs/view/business-analyst-anforderungsmanager-m-w-d-at-sinc-gmbh-4448986572",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent German as a mandatory qualification, and the location is in Germany, which does not meet the criteria for Finland-based or remote-from-Finland roles.",
+    "reason": "The job is located in Wiesbaden, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
     "id": "67a55607",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
-    "posted_date": "cu 1 lun\u0103 \u00een urm\u0103",
+    "posted_date": "il y a 2 mois",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "CDI \u2013 Business Analyst \u2013 Ing\u00e9nierie Syst\u00e8me \u2013 H/F",
@@ -65134,15 +65132,14 @@
     "url": "https://fr.linkedin.com/jobs/view/cdi-%E2%80%93-business-analyst-%E2%80%93-ing%C3%A9nierie-syst%C3%A8me-%E2%80%93-h-f-at-naval-group-4466542345",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Lorient, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
     "id": "9a7f3ac8",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
-    "posted_date": "cu 2 s\u0103pt\u0103m\u00e2ni \u00een urm\u0103",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Lead Business Analyst",
@@ -65151,15 +65148,14 @@
     "url": "https://pl.linkedin.com/jobs/view/lead-business-analyst-at-billennium-4461758062",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located/hybrid in Poland, which violates the location policy since the candidate is based in Finland and the role is not globally remote.",
+    "reason": "The job is located in Poland (outside Finland) and requires on-site/hybrid work, which does not meet Priya's location criteria of only considering roles in Finland or fully remote positions accessible from Finland.",
     "id": "652bcd04",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-30T10:55:19+03:00",
-    "posted_date": "4 tygodnie temu",
+    "posted_date": "il y a 1 mois",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Principal Systems Analyst (people management experience needed)",
@@ -65168,15 +65164,14 @@
     "url": "https://ie.linkedin.com/jobs/view/principal-systems-analyst-people-management-experience-needed-at-fidelity-investments-4459698966",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Galway, Ireland (hybrid/on-site outside Finland) and requires people management and financial services domain experience, which does not match Priya's profile.",
+    "reason": "The job is located in Galway, Ireland, which falls under the 'Outside Finland and Not Remote' hard rejection rule, as Priya only considers roles in Finland or fully remote positions accessible from Finland.",
     "id": "5c1e7af0",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-30T10:55:19+03:00",
-    "posted_date": "1 tydzie\u0144 temu",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "HRIS Business Analyst",
@@ -65185,15 +65180,14 @@
     "url": "https://it.linkedin.com/jobs/view/hris-business-analyst-at-msc-cruises-4468166865",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Naples, Italy (hybrid outside Finland) and requires fluent Italian, both of which violate the candidate's criteria.",
+    "reason": "The job is located in Naples, Italy (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote from Finland.",
     "id": "f865cd98",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-30T10:55:19+03:00",
-    "posted_date": "1 tydzie\u0144 temu",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Requirements Engineer / Product Manager IT-Infrastruktur Defence (all gender) 100",
@@ -65202,15 +65196,14 @@
     "url": "https://de.linkedin.com/jobs/view/requirements-engineer-product-manager-it-infrastruktur-defence-all-gender-100-at-alten-4469725414",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Kiel, Germany, and does not qualify as remote or based in Finland, violating the hard geographical location constraints.",
+    "reason": "The job is located in Kiel, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "49d6adac",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-30T10:55:19+03:00",
-    "posted_date": "5 dni temu",
+    "posted_date": "il y a 1\u00a0semaine",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Systemarchitekt / Anforderungsmanager (m/w/d) Gesamtfahrzeug",
@@ -65219,15 +65212,14 @@
     "url": "https://de.linkedin.com/jobs/view/systemarchitekt-anforderungsmanager-m-w-d-gesamtfahrzeug-at-invenio-4375623766",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Germany (Greater Kassel Area) and is not open to remote work from Finland, violating the location requirement.",
+    "reason": "Job located in Germany and not remote, which does not meet the Finland or remote-from-Finland requirement.",
     "id": "9cacf95c",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-30T10:55:19+03:00",
-    "posted_date": "7 miesi\u0119cy temu",
+    "posted_date": "il y a 7 mois",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Bid Manager",
@@ -65236,15 +65228,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=884a848d9c345bf1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires mandatory full proficiency in Finnish, which the candidate does not possess.",
+    "reason": "The job requires full proficiency in Finnish, which Priya does not possess, triggering a hard rejection under language requirements.",
     "id": "578e03e2",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Junior Product Manager",
@@ -65253,15 +65244,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8e127e89c96b4742",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish communication skills, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish communication skills, which Priya does not possess, triggering a hard rejection.",
     "id": "2ce7f971",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Customer Service Specialist",
@@ -65270,15 +65260,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f25e16ba34e45ccb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a customer service specialist role requiring fluent Finnish, which directly violates the candidate's language requirements and role profile.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection under the 'Mandatory Finnish or Swedish' rule.",
     "id": "b6f71d54",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-19",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Construction Quality Program Manager",
@@ -65287,15 +65276,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8d613f945aa1a9e7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a physical civil/construction engineering and data center quality commissioning role requiring a background in construction management, which does not match Priya's software configuration management and release engineering profile.",
+    "reason": "The job is a 'Construction Quality Program Manager' role focused on physical infrastructure (data centers), which falls under the hard-rejected category of 'Manufacturing, Construction or Hardware Quality Roles' without software-release/configuration-management components.",
     "id": "eec7082b",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Program Manager - Finland",
@@ -65304,15 +65292,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=92fbfeb5669fb47c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish language skills and program management responsibilities, neither of which align with Priya\u2019s background in technical documentation/release management or her lack of Finnish proficiency.",
     "id": "91b53763",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Finance Manager",
@@ -65321,15 +65308,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=89e850d6c2d562af",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a Finance Manager role in accounting and financial control, which completely falls outside Priya's technical, release management, and quality-assurance background.",
+    "reason": "The job title 'Finance Manager' does not align with Priya's expertise in technical communication, configuration management, release management, or DevOps/CI-CD, and falls outside the target role categories she is qualified for.",
     "id": "cd1ceaa8",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "28/09/2026, 11:27",
     "deadline": "2026-10-12",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Business Development Manager, Parcel",
@@ -65338,15 +65324,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ea3eb05c157974f6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales and business development role in logistics, which directly violates the hard rejection against pure sales roles mislabeled as product specialists and falls outside the candidate's technical release management and quality assurance profile.",
+    "reason": "The job is a sales-focused Business Development Manager role, which falls under the Hard Rejection for quota-carrying sales roles wearing 'Product Specialist' titles (even though this title is 'Business Development Manager', the core responsibility of client acquisition and relationship-building is outside Priya's expertise in release/CM/DevOps/technical-writing domains).",
     "id": "1fcf7e32",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-09-30T10:55:33+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-11",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Product Security Manager - FINLAND",
