@@ -72636,15 +72636,14 @@
     "url": "https://br.linkedin.com/jobs/view/especialista-de-produtos-at-jobbol-4451881452",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Recife, Brazil (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a remote role accessible from Finland.",
+    "reason": "The role is physically located in Brazil and is a sales-oriented product specialist position, which violates both the location requirements and the hard rejection against quota-carrying/sales-focused roles.",
     "id": "33bc03d4",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-01T18:24:14+03:00",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -72653,15 +72652,14 @@
     "url": "https://cn.linkedin.com/jobs/view/product-specialist-at-hengrui-pharma-4455010359",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Beijing, China, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection under 'Outside Finland and Not Remote' criteria.",
+    "reason": "The job is located in Beijing, China, which falls outside the allowed locations (Finland or remote for someone living in Finland), and it is a sales-support/marketing-focused role rather than a technical release/quality/CM role.",
     "id": "d90e7018",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-01T18:24:14+03:00",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist - Gastroenterology VIC/TAS",
@@ -72670,15 +72668,14 @@
     "url": "https://au.linkedin.com/jobs/view/product-specialist-gastroenterology-vic-tas-at-device-technologies-4472463866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Melbourne, Australia (outside Finland), requires customer-facing sales responsibilities, and is a quota-carrying 'Product Specialist' role mislabeled as technical/quality support, all of which are hard rejections.",
+    "reason": "The role is a quota-carrying sales position based in Australia, which violates both the location requirements and the hard rejection for sales-focused 'Product Specialist' roles.",
     "id": "2dd2a822",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-01T18:24:14+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI Product Specialist (UK)",
@@ -72687,15 +72684,14 @@
     "url": "https://uk.linkedin.com/jobs/view/ai-product-specialist-uk-at-nexus-black-4469221919",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a 'Product Specialist' role with significant pre-sales and customer-facing responsibilities, which falls under the hard rejection for quota-carrying sales roles wearing the same title.",
+    "reason": "The role is explicitly restricted to the UK and requires significant on-site presence at customer locations in the UK, which does not align with the candidate's requirement to be based in Finland.",
     "id": "e9ba85f2",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist (Cardiac & Vascular) - Hanoi",
@@ -72704,15 +72700,14 @@
     "url": "https://vn.linkedin.com/jobs/view/product-specialist-cardiac-vascular-hanoi-at-terumo-asia-pacific-4471854977",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Hanoi, Vietnam (outside Finland and not fully remote), and the 'Product Specialist' role appears to involve sales/customer-facing responsibilities incompatible with candidate's technical/quality-focused background.",
+    "reason": "The job is located in Hanoi, Vietnam, which falls outside of Finland and is not a remote role accessible from Finland.",
     "id": "4cd49edf",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -72721,15 +72716,14 @@
     "url": "https://au.linkedin.com/jobs/view/product-specialist-at-advoc8-4466591774",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Australia, outside Finland and not remote.",
+    "reason": "The job is located in Australia, which falls outside of Finland and is not a remote role open to candidates in Finland, and the posting explicitly states it is no longer accepting applications.",
     "id": "af8eb1ea",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -72738,15 +72732,14 @@
     "url": "https://my.linkedin.com/jobs/view/product-specialist-at-dksh-4440458456",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position mislabeled as 'Product Specialist' and requires on-site presence in Malaysia, which falls under the hard rejection for non-Finnish locations not open to relocation.",
+    "reason": "The role is located in Malaysia (outside Finland) and is a quota-carrying sales position, which violates multiple hard rejection criteria.",
     "id": "e0d3172b",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -72755,15 +72748,14 @@
     "url": "https://in.linkedin.com/jobs/view/product-specialist-at-ts-imagine-4459867397",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Mumbai, India, which is outside Finland and not a remote option compatible with Priya's requirement to work from Finland; on-site/hybrid roles outside Finland are strictly rejected per Hard Rejections.",
+    "reason": "The job is located in Mumbai, India, which falls outside of Finland and is not a remote role accessible from Finland.",
     "id": "17f8a719",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Produktspezialist (m/w/d) I/O Compact Motion",
@@ -72772,15 +72764,14 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-m-w-d-i-o-compact-motion-at-beckhoff-automation-4472619132",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an on-site position in Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as Priya is not open to on-site roles outside Finland.",
+    "reason": "The role requires C2-level German proficiency and is located in Germany, which violates the location and language requirements.",
     "id": "b06075b8",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -72789,15 +72780,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-at-eclaro-4456934432",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Piscataway, NJ (United States), which is a strict hard rejection due to the candidate's non-negotiable exclusion of any US-based or US-restricted roles.",
+    "reason": "The job is located in Piscataway, NJ, USA, which violates the strict hard rejection policy against any roles located in or restricted to the United States.",
     "id": "c0e5fb16",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -72806,15 +72796,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-at-hamilton-company-4468829617",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Reno, NV, USA, which is strictly excluded per the candidate's hard rejection rule for any US-based or US-restricted roles.",
+    "reason": "This job is located in Reno, Nevada, USA, violating the strict US location exclusion rule.",
     "id": "f8164c00",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist",
@@ -72823,15 +72812,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-product-specialist-at-kurt-j-lesker-company-4474103362",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Jefferson, PA, USA, which is strictly excluded per the candidate's hard rejection rule for any US-based or US-restricted roles.",
+    "reason": "The job is located in Jefferson, Pennsylvania, USA, violating the strict US location exclusion hard rejection rule.",
     "id": "b49cc843",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Product Specialist/Product Specialist",
@@ -72840,15 +72828,14 @@
     "url": "https://sg.linkedin.com/jobs/view/senior-product-specialist-product-specialist-at-merck-healthcare-4440027581",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Singapore (not Finland) and requires sales/customer-facing responsibilities, which are explicitly rejected by the candidate.",
+    "reason": "This is a quota-carrying pharmaceutical sales and detailing role located in Singapore, which violates both the geographic location requirements and the hard rejection rule against pure sales roles mislabeled as product specialist.",
     "id": "d3ab8bbd",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Associate Product Specialist, Distal Extremities & Trauma",
@@ -72857,15 +72844,14 @@
     "url": "https://au.linkedin.com/jobs/view/associate-product-specialist-distal-extremities-trauma-at-arthrex-apac-4468037589",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Brisbane, Queensland, Australia (outside Finland with no remote option) and requires sales-focused product specialist duties conflicting with candidate's technical/quality-product-specialist background.",
+    "reason": "This is a quota-carrying sales and in-theatre clinical support role located in Australia, which violates multiple hard rejections including location and role type.",
     "id": "80c0511f",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist Associate",
@@ -72874,15 +72860,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-associate-at-luminance-4462424427",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in San Francisco, CA (United States), which is an immediate hard rejection due to the candidate's strict non-negotiable exclusion of any US-based or US-restricted roles.",
+    "reason": "The job is located in San Francisco, CA, which violates the strict hard rejection rule for positions in the United States.",
     "id": "b86ffe85",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Global Product Specialist \u2013 Minerals",
