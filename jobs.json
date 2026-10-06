@@ -78124,15 +78124,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=760a5dbe8c0ceeca",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position requires fluency in Finnish, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish (sujuvasti sek\u00e4 suomeksi ett\u00e4 englanniksi) and is located on-site in Turku, whereas the candidate is based in Oulu and does not speak Finnish.",
     "id": "c0e65f55",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "2026-10-19",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager, Weapon Systems",
@@ -78141,15 +78140,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=306df135d8ea74ba",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish ('Sujuva suomen ja englannin taito'), which directly violates the candidate's language constraints.",
     "id": "43f35901",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-16",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QC Technical Assistant",
@@ -78158,15 +78156,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=e8e9a35a95af0ec4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a working language, which Priya does not speak, triggering a strict hard-rejection rule.",
+    "reason": "The role requires fluent Finnish as a working language, which does not match the candidate's language profile.",
     "id": "7de43702",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
-    "posted_date": "02/10/2026, 09:30",
+    "posted_date": "2026-10-02",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Assistant",
@@ -78175,15 +78172,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5c577c81334057b1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as an essential requirement, which the candidate does not possess.",
+    "reason": "This QA Assistant role is too junior and entry-level for a candidate with ~15 years of senior experience.",
     "id": "16558d4a",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "CPS Quality Manager",
@@ -78192,15 +78188,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=31d4d59027e884f7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires team leadership and customer-facing quality management responsibilities that do not align with Priya's background in configuration/release management, technical writing, and regulatory compliance without direct team leadership experience.",
+    "reason": "This is a manufacturing/hardware-oriented quality management role centered on physical production (FAT, FAI, FWT, 8D, Six Sigma), which falls under the hard rejection rule for manufacturing and hardware quality.",
     "id": "347d21e2",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Construction Quality Program Manager",
@@ -78209,15 +78204,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ce378b36f7c48d26",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction quality program manager, which does not align with Priya\u2019s expertise in release, configuration management, technical writing, or regulated software quality engineering.",
+    "reason": "This is a construction and physical infrastructure quality role for data centers, which violates the hard rejection rule for manufacturing, construction, or hardware quality roles.",
     "id": "bbdd55b7",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Specialist, Turku, F20",
@@ -78226,15 +78220,14 @@
     "url": "https://fi.indeed.com/career/specialist/salaries/Turku--F20",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting lacks sufficient detail about the role's responsibilities, making it impossible to determine if it aligns with Priya's expertise in configuration management, release engineering, or technical communication.",
+    "reason": "This is a salary information page rather than an actual job posting.",
     "id": "a1503080",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "CPS Quality Manager",
@@ -78243,15 +78236,14 @@
     "url": "https://www.jobly.fi/tyopaikka/cps-quality-manager-2769739",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Master's degree in engineering, which Priyanga does not hold (she has a Bachelor of Technology and Advanced Diploma), making her ineligible despite relevant quality management experience.",
+    "reason": "This is a manufacturing and hardware quality management role centered on physical production (FAT, FAI, 8D, Six Sigma) which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "494c6ec4",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-02T22:46:06+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Osa-aikainen Production, Logistics & Quality Coordinator Movesense Oy:lle",
@@ -78260,15 +78252,14 @@
     "url": "https://www.jobly.fi/tyopaikka/osa-aikainen-production-logistics-quality-coordinator-movesense-oylle-2770582",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a strict hard rejection.",
+    "reason": "The job posting explicitly states that it is no longer valid or accepting applications.",
     "id": "fb338cba",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-02T22:46:06+03:00",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Guest Experience Supervisor Finnkinon Turun tiimiin",
@@ -78277,15 +78268,14 @@
     "url": "https://www.jobly.fi/tyopaikka/guest-experience-supervisor-finnkinon-turun-tiimiin-2771286",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent/native Finnish as a hard qualification, which Priya does not possess.",
+    "reason": "This is a hospitality/cinema guest experience supervisor role requiring fluent Finnish, which completely mismatches Priya's technical release management and engineering background.",
     "id": "a6e7deb8",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-02T22:46:06+03:00",
     "posted_date": "2026-10-02",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Pintak\u00e4sittelyn laatukoordinaattori / SATA Shipbuilding Oy",
@@ -78294,15 +78284,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pintakasittelyn-laatukoordinaattori-sata-shipbuilding-oy-2770173",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a hard rejection.",
+    "reason": "This is a manufacturing/production quality role (surface treatment/painting quality coordinator in shipbuilding) requiring fluent Finnish, which violates hard rejections for physical production quality and mandatory Finnish.",
     "id": "30d29c0b",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-02T22:46:06+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager, Weapon Systems",
@@ -78311,15 +78300,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-weapon-systems-spsat-20618265",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role requires fluent Finnish and Swedish, which the candidate does not speak, and mandatory security clearance restrictions apply.",
     "id": "03ac3f70",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-02T22:46:25+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "CPS Quality Manager",
@@ -78327,16 +78315,15 @@
     "location": "Vantaa, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/cps-quality-manager-sesat-20618130",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The CPS Quality Manager role involves customer-facing quality management and team leadership, which partially overlaps with Priya\u2019s experience in quality gatekeeping and regulatory compliance but does not fully align with her focus on release/CM/DevOps. The job is located in Finland (Vantaa), meets language requirements, and falls under the 'Quality Engineer / Quality Manager' category in Target Job Criteria.",
+    "matches_requirements": "no",
+    "reason": "This hardware/manufacturing quality manager role conflicts with the candidate's software/IT background and includes heavy customer-facing responsibilities that she explicitly rejects.",
     "id": "12e59489",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-02T22:46:25+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "SNE - Regulatory Officer",
@@ -78345,15 +78332,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sne-regulatory-officer-at-european-chemicals-agency-4472868903",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job as a Regulatory Officer at the European Chemicals Agency focuses on chemical regulation and environmental policy rather than technical documentation, release management, or regulated software compliance (MDR/ISO 13485, ASPICE/TUV), which are central to Priya's expertise.",
+    "reason": "This role requires current employment in the public sector or international civil service as a Seconded National Expert, which does not match the candidate's profile.",
     "id": "ba3c02d5",
     "source": "linkedin_fi_eu_mdr",
     "added_at": "2026-10-02T22:46:53+03:00",
-    "posted_date": "12 tuntia sitten",
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Manager, space radiation instrument projects",
@@ -78361,16 +78347,15 @@
     "location": "Turku, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/project-manager-space-radiation-instrument-projects-at-asro-aboa-space-research-oy-4474739494",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires a Project Manager role focused on technical project ownership and coordination, which does not align with Priya\u2019s expertise in Configuration Management, Release Management, or DevOps/CI-CD pipeline ownership. Her background is in regulated/safety-critical industries, not general technical project management.",
+    "matches_requirements": "maybe",
+    "reason": "The role is located in Turku, Finland, and involves multidisciplinary technical project management and embedded software/system understanding, but requires relocating from Oulu or managing a long commute and has a heavy customer-facing and project management focus.",
     "id": "904ef783",
     "source": "linkedin_fi_eu_mdr",
     "added_at": "2026-10-02T22:46:53+03:00",
-    "posted_date": "7 tuntia sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Assistant",
