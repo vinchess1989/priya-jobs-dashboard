@@ -67196,15 +67196,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-f-h-at-prime-engineering-france-4222202042",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Grenoble, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland.",
+    "reason": "This is a manufacturing/industrial quality role focused on physical production and supplier audits, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "b0fee663",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "VDA Quality Engineer",
@@ -67213,15 +67212,14 @@
     "url": "https://es.linkedin.com/jobs/view/vda-quality-engineer-at-thales-4454507824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is on-site in Barcelona, Spain, which is outside Finland and not a remote position, violating the location hard\u2011rejection rule.",
+    "reason": "The role is located in Spain and requires fluent Spanish, which violates the location and language requirements.",
     "id": "7fd294f1",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Assurance Engineer",
@@ -67230,15 +67228,14 @@
     "url": "https://se.linkedin.com/jobs/view/senior-quality-assurance-engineer-at-nobel-biocare-4465578338",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is in Sweden (Karlskoga, \u00d6rebro County), which is outside Finland and not a remote option acceptable to the candidate. Additionally, the role requires fluency in Swedish, which the candidate does not possess.",
+    "reason": "The role is physically located in Sweden (outside Finland) and explicitly requires fluency in Swedish, which violates the hard rejection criteria.",
     "id": "b2b69a32",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manufacturing Quality Engineer (m/f/d)",
@@ -67247,15 +67244,14 @@
     "url": "https://pt.linkedin.com/jobs/view/manufacturing-quality-engineer-m-f-d-at-te-connectivity-4469126982",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in \u00c9vora, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The role is a manufacturing quality engineering position based in Portugal, which violates the location requirement (must be in Finland or remote) and the hard rejection criteria for manufacturing/production-line quality roles.",
     "id": "7736b53b",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 H/F",
@@ -67264,15 +67260,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-astridsen-4465567325",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in \u00c9couflant, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is a manufacturing/industrial quality position based in France, which violates the location policy and the hard rejection for manufacturing/production-line quality roles.",
     "id": "b753d3f5",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Process Quality Engineer - Body",
@@ -67281,15 +67276,14 @@
     "url": "https://es.linkedin.com/jobs/view/process-quality-engineer-body-at-ebro-4460337833",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Barcelona, Spain (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work accessible from Finland.",
+    "reason": "This is a manufacturing/production-line quality role focused on physical body-shop processes (welding, geometry, metalwork) rather than software release, configuration management, or software quality.",
     "id": "acc1fb7b",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 H/F",
@@ -67298,15 +67292,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-ccr-commercial-refrigeration-4443406015",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Aubagne, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is a manufacturing/industrial quality engineering position focused on production-line non-conformities and 8D investigations, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "e078ff7c",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-08-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 produits H/F",
@@ -67315,15 +67308,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produits-h-f-at-avantis-4463900136",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ajaccio, Corsica, France, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country other than Finland.",
+    "reason": "The role is a manufacturing/industrial quality engineering position focused on mechanical engineering and production-line methods (APQP, PFMEA, SPC), which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "068a039c",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 Equipements F/H",
@@ -67332,15 +67324,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-equipements-f-h-at-mbda-4439019621",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bourges, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The role is a physical manufacturing/equipment quality position requiring on-site presence in France, which violates the location and hardware-quality hard rejection criteria.",
     "id": "4cafb373",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qualit\u00e4tsingenieur:in",
@@ -67349,15 +67340,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsingenieur-in-at-spheros-group-4465036299",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Neubrandenburg, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The role is a physical manufacturing quality engineering position in Germany, which violates the location policy and the hard rejection for manufacturing/production-line quality roles.",
     "id": "a063b05f",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "2026-381 - INGENIEUR ASSURANCE QUALITE H/F",
@@ -67366,15 +67356,14 @@
     "url": "https://fr.linkedin.com/jobs/view/2026-381-ingenieur-assurance-qualite-h-f-at-macopharma-4464522527",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tourcoing, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote flexibility.",
+    "reason": "The job is located in France and requires native-level French, which violates the location and language constraints.",
     "id": "7b60e89e",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qualit\u00e4tsingenieur (m/w/d)",
@@ -67383,15 +67372,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsingenieur-m-w-d-at-spheros-group-4465119671",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Neubrandenburg) and is not remote, which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The role is a manufacturing/production quality engineering position focused on physical components and production processes, which falls under the hard rejection for manufacturing quality roles.",
     "id": "aab0f0d7",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-07-06",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "PQA / SQA Engineer (Assembly)",
@@ -67400,15 +67388,14 @@
     "url": "https://es.linkedin.com/jobs/view/pqa-sqa-engineer-assembly-at-ebro-4421830921",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Barcelona, Spain (on-site), which is outside Finland and not fully remote (thus violating Priya's strict location requirements).",
+    "reason": "The role is a manufacturing/assembly quality engineering position focused on physical production and vehicle trim, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "6e6c0256",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-09-30T16:16:18+03:00",
     "posted_date": "2026-07-02",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Chief Engineer, Layout",
@@ -67417,15 +67404,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=87799382833551e1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a plant layout engineering position, which does not align with Priya's expertise in release, configuration management, DevOps, or regulated software quality.",
+    "reason": "The role is focused on mechanical plant layout design and 3D modeling, which falls under the hard rejection for manufacturing/engineering design roles lacking a software-release, configuration-management, or software-quality component.",
     "id": "781ace12",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-15",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Chief Engineer, Civil and Structural",
@@ -67434,15 +67420,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=786eb551d0f5eb7e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires civil and structural engineering expertise with tools like Tekla Structures and STAAD.Pro, which does not align with Priya's background in DevOps, configuration management, release management, or technical writing.",
+    "reason": "This role is for a Civil and Structural Engineer focused on physical plant design and construction, which falls under the hard rejection for manufacturing/construction/hardware quality roles and does not align with her software release/CM/DevOps background.",
     "id": "5498101a",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-09-30T17:40:10+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Engineer, Power Electronics",
