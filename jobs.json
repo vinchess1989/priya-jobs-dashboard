@@ -68604,15 +68604,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsmanager-gesundheitswesen-mwd-at-katharina-kasper-viasalus-4461312657",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berlin, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in another EU country.",
+    "reason": "The role is located in Berlin, Germany, which violates the location constraint, and it requires a clinical healthcare qualification (e.g., nurse) which the candidate does not possess.",
     "id": "29e0c2e7",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "4 veckor sedan",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager Qualit\u00e9 UAP H/F",
@@ -68621,15 +68620,14 @@
     "url": "https://fr.linkedin.com/jobs/view/manager-qualit%C3%A9-uap-h-f-at-verkor-4427996885",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bourbourg, France (on-site), which does not meet the candidate's requirement for roles in Finland or fully remote positions accessible from Finland.",
+    "reason": "The role is a physical manufacturing quality management position in France, which violates the hard rejection criteria regarding location (must be in Finland or remote) and the exclusion of manufacturing/production-line quality roles.",
     "id": "31cd3a6f",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "3 m\u00e5nader sedan",
+    "posted_date": "vor 3 monaten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager - Food",
@@ -68638,15 +68636,14 @@
     "url": "https://be.linkedin.com/jobs/view/quality-manager-food-at-madison-recruitment-4462015813",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ypres, Belgium (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The role is located in Belgium, requires fluent Dutch, and focuses on food industry quality management rather than software/technical release or configuration management.",
     "id": "71965615",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "1 vecka sedan",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -68655,15 +68652,14 @@
     "url": "https://se.linkedin.com/jobs/view/quality-manager-at-maven-wireless-4468768073",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Stockholm County, Sweden, which falls under the Hard Rejection rule for on-site/hybrid roles outside Finland.",
+    "reason": "The job is located in Stockholm, Sweden, which violates the requirement that roles outside Finland must be fully remote and open to candidates in Finland.",
     "id": "a40f157c",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "1 vecka sedan",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager (m/w/d) - Schwerpunkt Medizintechnik",
@@ -68672,15 +68668,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-manager-m-w-d-schwerpunkt-medizintechnik-at-oechsler-4437453085",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ansbach, Bavaria, Germany, which falls under the Hard Rejection rule of on-site/hybrid roles outside Finland (including other EU countries).",
+    "reason": "The job is located in Ansbach, Germany, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "ca8aeec2",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "2 m\u00e5nader sedan",
+    "posted_date": "vor 3 monaten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager | Voedingsindustrie",
@@ -68689,15 +68684,14 @@
     "url": "https://be.linkedin.com/jobs/view/quality-manager-voedingsindustrie-at-wolfson-recruitment-4467948905",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Belgium and not remote, which is outside Finland and disqualifies it per hard rejection rules.",
+    "reason": "The role is a physical on-site quality management position in the food industry in Belgium, which falls under the hard rejection for non-Finland on-site roles and is outside her domain of software/medical-device quality.",
     "id": "8b6c4661",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "2 veckor sedan",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager Qualit\u00e9 Produits  (H/F)",
@@ -68706,15 +68700,14 @@
     "url": "https://fr.linkedin.com/jobs/view/manager-qualit%C3%A9-produits-h-f-at-itw-construction-products-continental-europe-4461783819",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Valence, France (on-site), which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The role is a physical manufacturing/industrial quality management position in France, which violates the hard rejection criteria regarding location (outside Finland and not remote) and the exclusion of manufacturing/production-line quality roles.",
     "id": "9cc73acb",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "4 veckor sedan",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qualit\u00e4tsmanager ambulante Pflege (m/w/d) | bundesweite Betreuung unserer Pflegedienste",
@@ -68723,15 +68716,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsmanager-ambulante-pflege-m-w-d-bundesweite-betreuung-unserer-pflegedienste-at-cura-unternehmensgruppe-4461969187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berlin, Germany (on-site), which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The role requires a clinical nursing qualification and is located in Germany, which falls outside the candidate's location and professional background criteria.",
     "id": "4c63bff2",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "3 veckor sedan",
+    "posted_date": "2026-09-04",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA manager food",
@@ -68740,15 +68732,14 @@
     "url": "https://be.linkedin.com/jobs/view/qa-manager-food-at-oxford-global-resources-4468705582",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Olen, Flemish Region, Belgium, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "The role is located in Belgium and requires specific food industry quality experience (HACCP, IFS, BRC), which falls outside the candidate's software/medical device quality background and violates the location policy.",
     "id": "9106b482",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "1 vecka sedan",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager - Injectable",
@@ -68757,15 +68748,14 @@
     "url": "https://es.linkedin.com/jobs/view/quality-assurance-manager-injectable-at-chemo-4461146291",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Azuqueca de Henares, Spain, which is outside Finland and not fully remote (open to Finland), triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is located in Spain and requires a degree in Pharmacy or Chemistry, which does not align with the candidate's background or location requirements.",
     "id": "d6090c96",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "1 vecka sedan",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -68774,15 +68764,14 @@
     "url": "https://pl.linkedin.com/jobs/view/quality-manager-at-nkt-4461666485",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in \u017bory, Poland, which is outside Finland and not a remote position, violating the location requirement.",
+    "reason": "The role is a manufacturing quality management position requiring fluent/native Polish and is located in Poland, which falls under the hard rejection for non-Finland on-site roles.",
     "id": "bec08e20",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "5 dagar sedan",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -68791,15 +68780,14 @@
     "url": "https://ie.linkedin.com/jobs/view/quality-manager-at-ross-4472711867",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Ireland (Lucan, South Dublin) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is outside Finland and not a remote role accessible from Finland.",
+    "reason": "The role is a manufacturing/construction quality management position focused on physical fabrication and welding standards, which falls under the hard rejection for manufacturing/construction quality roles.",
     "id": "e1258e9e",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-09-30T23:31:25+03:00",
-    "posted_date": "2 dagar sedan",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Delivery Coordinator",
@@ -68808,15 +68796,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=669a9c4272f57b63",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The job description provided returned an HTTP 400 error, making it impossible to evaluate the role requirements or confirm if it meets the candidate's criteria.",
     "id": "8004a1aa",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-01T00:35:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Projektip\u00e4\u00e4llikk\u00f6 / Project Manager",
@@ -68825,15 +68812,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=40960f61ff85b603",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish, which Priya does not speak, and it is a Project Manager role focused on product development rather than her target areas of DevOps, Configuration Management, or regulated-industry release/quality management.",
+    "reason": "The job description provided is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's required focus on release management, configuration management, or quality/technical documentation.",
     "id": "85c33300",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-01T00:35:33+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Specialist",
@@ -68842,15 +68828,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=542bf6828ac7b4be",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description lacks explicit details on location, company, and role responsibilities, making it impossible to verify alignment with Priya's criteria for regulated quality roles, Finland-based work, or configuration-management/technical-communication experience.",
+    "reason": "The provided job description text is incomplete and contains no information regarding the company, location, or specific job requirements to evaluate against the candidate's profile.",
     "id": "683d9977",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-01T00:35:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT Service Manager, HR and QHSE",
