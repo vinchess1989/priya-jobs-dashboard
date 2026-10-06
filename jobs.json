@@ -78363,16 +78363,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/qa-assistant-at-radiometer-4472938140",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The QA Assistant role at Radiometer in Finland may involve quality assurance tasks that partially align with Priya's experience in quality gatekeeping and regulatory compliance, but it is not explicitly a configuration management, release management, or technical documentation role which are her strongest fits.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluency in Finnish, which violates the candidate's language constraint.",
     "id": "b443c988",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-10-02T23:55:22+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Functional Safety Specialist",
@@ -78381,15 +78380,14 @@
     "url": "https://fi.linkedin.com/jobs/view/functional-safety-specialist-at-unikie-4473251969",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "The job aligns with Priya\u2019s safety-critical experience (IEC 61508/ISO 21448) and regulated-industry background but requires hands-on FMEA/HARA work she hasn\u2019t directly performed, making it a close fit.",
+    "reason": "The role is located in Finland and focuses on safety management and requirements, but centers on hands-on hazard analyses (FMEA/HARA) and functional safety standards like IEC 61508, which she has not directly performed as core duties.",
     "id": "1a348845",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-10-02T23:55:22+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Manager, Primary Packaging Materials",
@@ -78398,15 +78396,14 @@
     "url": "https://fi.linkedin.com/jobs/view/development-manager-primary-packaging-materials-at-orion-pharma-4473159297",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a mandatory qualification, which Priya does not possess, and the role responsibilities (packaging materials management) do not align with her expertise in CI/CD, release management, or technical documentation.",
+    "reason": "The job posting requires fluency in Finnish as well as physical packaging materials expertise, which does not align with Priya's software and release management background.",
     "id": "09c35871",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-10-02T23:55:22+03:00",
-    "posted_date": "5 tuntia sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Specialist",
@@ -78415,15 +78412,14 @@
     "url": "https://pl.linkedin.com/jobs/view/regulatory-affairs-specialist-at-vb-spine-4472443967",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Warsaw, Poland (outside Finland) with remote options restricted to Spain/Italy/France, violating Priya's strict requirement for Finland-based roles or fully remote-from-Finland positions.",
+    "reason": "The job posting specifies that remote candidates can only work from Spain, Italy, or France, which excludes Finland.",
     "id": "08e8c73c",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sr. Regulatory Affairs Specialist",
@@ -78432,15 +78428,14 @@
     "url": "https://www.linkedin.com/jobs/view/sr-regulatory-affairs-specialist-at-vb-spine-4442187609",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Allendale, NJ, USA, which falls under the strict exclusion of any job located in or restricted to the United States, including remote roles.",
+    "reason": "This job is located in Allendale, New Jersey, United States, which violates the strict hard rejection rule against US-based or US-restricted positions.",
     "id": "4ded7510",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Specialist",
@@ -78449,15 +78444,14 @@
     "url": "https://ie.linkedin.com/jobs/view/regulatory-affairs-specialist-at-bd-4473918443",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Limerick, Ireland, which is outside Finland and not a fully remote role open to someone living in Finland, thus failing the location/work model criteria.",
+    "reason": "The role is located in Limerick, Ireland, requiring 4 days per week on-site, which violates the candidate's requirement to be based in Finland or work fully remotely from Finland.",
     "id": "8e6d5f0b",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "\u533b\u7597\u5668\u68b0\u56fd\u9645\u6ce8\u518c\u4e13\u5458",
@@ -78466,15 +78460,14 @@
     "url": "https://cn.linkedin.com/jobs/view/%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E5%9B%BD%E9%99%85%E6%B3%A8%E5%86%8C%E4%B8%93%E5%91%98-at-%E8%BF%88%E5%BE%B7%E5%8C%BB%E7%96%97%E7%A7%91%E6%8A%80-%E4%B8%8A%E6%B5%B7-%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4294733799",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Shanghai, China, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is physically located in Shanghai, China, violating the candidate's location and relocation requirements.",
     "id": "471a199d",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
     "posted_date": "1 vuosi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Regulatory Affairs Specialist",
@@ -78483,15 +78476,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-regulatory-affairs-specialist-at-meridian-bioscience-inc-4461283502",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in North Billerica, MA, USA, which falls under the strict exclusion of any roles located in or restricted to the United States, including remote positions, as specified in the hard rejections.",
+    "reason": "The job is physically located in North Billerica, Massachusetts, United States, which violates the strict hard rejection rule against US-based or US-restricted jobs.",
     "id": "28775818",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Regulatory Affairs Specialist FDA",
@@ -78500,15 +78492,14 @@
     "url": "https://it.linkedin.com/jobs/view/senior-regulatory-affairs-specialist-fda-at-sentinel-diagnostics-4474785430",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Milan, Italy (on-site/hybrid), which is outside Finland and not fully remote from Finland, triggering a hard rejection under location/work-model criteria.",
+    "reason": "The role is located in Milan, Italy with hybrid requirements and travel to the US, violating her relocation criteria and location outside Finland.",
     "id": "dd6f12f4",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "4 tuntia sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Director of Regulatory Affairs",
@@ -78517,15 +78508,14 @@
     "url": "https://www.linkedin.com/jobs/view/director-of-regulatory-affairs-at-epm-scientific-4470475414",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Saratoga, CA, USA which is strictly excluded per Hard Rejections rule.",
+    "reason": "This job is located in the United States (Saratoga, California), which violates the strict hard rejection rule against US-based positions.",
     "id": "9d2c8d66",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
     "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Specialist",
@@ -78534,15 +78524,14 @@
     "url": "https://www.linkedin.com/jobs/view/regulatory-affairs-specialist-at-coloplast-4456013905",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in the United States, which is a strict exclusion.",
+    "reason": "The job is located in Minneapolis, MN, United States, which violates the strict hard rejection rule for US-based or US-restricted positions.",
     "id": "5264b3cc",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sr. Regulatory Affairs Specialist (Hybrid - Acton, MA)",
@@ -78551,15 +78540,14 @@
     "url": "https://www.linkedin.com/jobs/view/sr-regulatory-affairs-specialist-hybrid-acton-ma-at-insulet-corporation-4325551524",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Massachusetts, United States, which is a strict hard rejection due to Priya's non-negotiable exclusion of any US-based roles (including hybrid ones).",
+    "reason": "The job is located in Massachusetts, United States, which violates the strict hard rejection rule against US-based positions.",
     "id": "17c3299d",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Regulatory Affairs Specialist",
@@ -78568,15 +78556,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-regulatory-affairs-specialist-at-ebr-systems-inc-4459749927",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Santa Clara, CA, USA, which falls under the strict exclusion of any US-based or US-restricted roles as per the candidate's hard rejections.",
+    "reason": "This job is located in Santa Clara, California, violating the strict hard rejection rule for US-based roles.",
     "id": "a97ba664",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Specialist",
@@ -78585,15 +78572,14 @@
     "url": "https://www.linkedin.com/jobs/view/regulatory-affairs-specialist-at-reva-medical-llc-4467957360",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in San Diego, CA, USA, which falls under the strict Hard Rejection rule against any US-based or US-restricted roles, including remote positions.",
+    "reason": "The job is located in San Diego, California, violating the strict hard rejection rule for US-based roles.",
     "id": "833807dd",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Specialist",
@@ -78602,15 +78588,14 @@
     "url": "https://www.linkedin.com/jobs/view/regulatory-affairs-specialist-at-medtronic-4463675970",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Mounds View, MN, USA, which is strictly excluded per Hard Rejections.",
+    "reason": "This job is located in Mounds View, Minnesota, United States, violating the strict US location exclusion rule.",
     "id": "520198ed",
     "source": "linkedin_ww_remote_eu_mdr",
     "added_at": "2026-10-02T23:55:49+03:00",
     "posted_date": "3 viikkoa sitten",
     "deadline": "2026-10-05",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Principal Regulatory Affairs Specialist",
