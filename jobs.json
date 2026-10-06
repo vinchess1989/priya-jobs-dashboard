@@ -67676,15 +67676,14 @@
     "url": "https://www.jobly.fi/tyopaikka/software-governance-quality-specialist-2638009",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Krakow, Poland (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility for someone based in Finland.",
+    "reason": "The job is located in Krakow, Poland, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "f21e7429",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Engineer",
@@ -67693,15 +67692,14 @@
     "url": "https://www.jobly.fi/tyopaikka/development-engineer-2767113",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role requires fluent Finnish, which is a hard rejection criterion, and it is a manufacturing/industrial quality role with no software-release or software-quality component.",
     "id": "5e11d0c3",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-29",
     "deadline": "2026-11-15",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electrical QA/QC & MEP Compliance Engineer, CHEC",
@@ -67710,15 +67708,14 @@
     "url": "https://www.jobly.fi/tyopaikka/electrical-qa-qc-mep-compliance-engineer-chec-2757361",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires work proficiency in Finnish, which the candidate does not possess, and this is a hard rejection criterion.",
+    "reason": "The role requires mandatory proficiency in Finnish, which the candidate does not possess, and it is a construction/site-based QA/QC role rather than a software-release or configuration-management position.",
     "id": "690d5d0c",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-28",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Civil/HVAC QA/QC Engineer for CAM Plant Project, Kotka",
@@ -67727,15 +67724,14 @@
     "url": "https://www.jobly.fi/tyopaikka/civil-hvac-qa-qc-engineer-cam-plant-project-kotka-2766882",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires civil/HVAC QA/QC engineering expertise in construction projects, which does not align with Priya's background in software configuration management, release engineering, technical writing, and regulated medical/device industry quality gatekeeping.",
+    "reason": "The role is a construction/civil engineering QA/QC position, which falls under the hard rejection for manufacturing, construction, or hardware quality roles.",
     "id": "94481737",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "S\u00e4hk\u00f6valvojia teollisuuden ja rakentamisen projekteihin",
@@ -67744,15 +67740,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkovalvojia-teollisuuden-ja-rakentamisen-projekteihin-2751962",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a hard qualification, which Priya does not speak, triggering a strict hard rejection.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it falls under the category of construction/industrial site supervision which is outside her software-focused expertise.",
     "id": "85a242fb",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatuinsin\u00f6\u00f6ri",
@@ -67761,15 +67756,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laatuinsinoori-2764134",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory work language, which the candidate does not possess.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications.",
     "id": "e3072bcb",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-05",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "IVD-asiantuntija",
@@ -67778,15 +67772,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ivd-asiantuntija-2768610",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and the educational background (microbiology/chemistry/biotech) does not align with the candidate's electronics/telecommunications engineering degree.",
     "id": "664445ac",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Testaaja (elektroniikka- ja RF-laitteet)",
@@ -67795,15 +67788,14 @@
     "url": "https://www.jobly.fi/tyopaikka/testaaja-elektroniikka-ja-rf-laitteet-2768063",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires Finnish language proficiency for daily work (implied by application process in Finnish), which is a hard rejection as Priya does not speak Finnish or Swedish.",
+    "reason": "This is a hardware/production-line quality and testing role, which falls under the hard rejection for manufacturing/hardware quality roles with no software-release or configuration-management component.",
     "id": "da40d0e4",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-29",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kallio- ja rakennusteknisten t\u00f6iden valvoja, Olkiluoto",
@@ -67812,15 +67804,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kallio-ja-rakennusteknisten-toiden-valvoja-olkiluoto-2767343",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction site supervisor requiring technical construction education and Finnish language fluency, which does not match Priyanga Ramachandran's release/CM/DevOps background.",
+    "reason": "The role requires fluent Finnish and is a construction/infrastructure site supervision role, which falls under the hard rejection for manufacturing/construction quality roles and language requirements.",
     "id": "29778a50",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-28",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6maainsin\u00f6\u00f6ri",
@@ -67829,15 +67820,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyomaainsinoori-2766346",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, and the role is in construction quality management, which does not align with her background in software configuration/release management or technical writing.",
+    "reason": "The role requires a construction-specific degree (e.g., civil engineering) and fluent Finnish, neither of which the candidate possesses, and it falls under the hard rejection for construction/physical infrastructure quality roles.",
     "id": "d3538bb5",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-26",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Testaaja",
@@ -67845,16 +67835,15 @@
     "location": "Oulu, Finland",
     "url": "https://www.jobly.fi/tyopaikka/testaaja-2766318",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves testing and quality assurance, which partially aligns with Priya's experience in technical documentation and quality gatekeeping, but does not explicitly match her focus on regulated industries or CI/CD/release management. However, the 'Test engineer starting roles' positive constraint may influence this as a potential fit.",
+    "matches_requirements": "no",
+    "reason": "This is a manufacturing/production-line quality and testing role, which falls under the hard rejection criteria for hardware/production quality roles.",
     "id": "fcb17d82",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-25",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "LVI-suunnittelija / valvoja, korjausrakentaminen, Helsinki",
@@ -67863,15 +67852,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lvi-suunnittelija-valvoja-korjausrakentaminen-helsinki-2764030",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish language proficiency and is in HVAC design/supervision, which does not align with Priya's expertise in technical communication, release management, or configuration management.",
+    "reason": "The role requires fluent Finnish, which is a hard rejection, and it is a civil engineering/HVAC design role rather than a software release, configuration management, or quality engineering position.",
     "id": "761a8fd2",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-09-30T18:42:36+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-26",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Management Systems Coordinator",
@@ -67880,15 +67868,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/beamex-management-systems-coordinator-sdsuu-20609141",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job's salary range (\u20ac2600\u20133400) falls below the user's previously rejected threshold of \u20ac4500, triggering a negative constraint.",
+    "reason": "The salary range of 2600-3400\u20ac per month is below the candidate's minimum requirement of 4500\u20ac.",
     "id": "d31a5bb4",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-30T19:45:23+03:00",
     "posted_date": "2026-09-29",
     "deadline": "2026-10-18",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatuinsin\u00f6\u00f6ri, Ferrometal Oy",
@@ -67897,15 +67884,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laatuinsinoori-ferrometal-oy-sesil-20605832",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role is a manufacturing/industrial quality engineering position focused on physical supply chains and hardware, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "9b82f9aa",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-30T19:45:23+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-12",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Supplier Quality Engineer (Electronics)",
@@ -67913,16 +67899,15 @@
     "location": "Espoo, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/supplier-quality-engineer-electronics-scsom-20371039",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves supplier quality management in electronics manufacturing, which partially overlaps with Priya's quality/compliance experience but lacks direct alignment with her expertise in CI/CD, release management, and technical documentation in regulated software environments.",
+    "matches_requirements": "no",
+    "reason": "The role is a manufacturing/hardware quality engineering position focused on physical supplier audits and electronic component inspection, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "9f484bd2",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-09-30T19:45:23+03:00",
     "posted_date": "2026-06-16",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer, Data Center Operations",
