@@ -76470,38 +76470,20 @@
     "description_file": null
   },
   {
-    "title": "Spirit Defense - Associate Quality Engineer",
-    "company": "Spirit AeroSystems",
-    "location": "Wichita, KS",
-    "url": "https://www.linkedin.com/jobs/view/spirit-defense-associate-quality-engineer-at-spirit-aerosystems-4431523976",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Wichita, KS, USA, which is strictly excluded per Priya's hard rejection rule for any US-based or US-restricted roles.",
-    "id": "27491470",
-    "source": "linkedin_ww_remote_quality_engineer_p2",
-    "added_at": "2026-10-02T14:44:26+03:00",
-    "posted_date": "2026-07-04",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
     "title": "Quality Engineer",
     "company": "Sub-Zero Group, Inc.",
     "location": "Goodyear, AZ",
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-at-sub-zero-group-inc-4418517661",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Goodyear, AZ (United States), which is strictly excluded per Hard Rejections rule.",
+    "reason": "The job is located in Goodyear, AZ, United States, violating the strict US location exclusion hard rejection rule.",
     "id": "6c24adae",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -76510,15 +76492,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-at-powertec-industrial-motors-4463389448",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Charlotte, NC, USA, which is strictly excluded per the candidate's non-negotiable rule against US-based roles (including remote).",
+    "reason": "The job is located in Charlotte, NC, USA, violating the strict US location exclusion hard rejection rule.",
     "id": "e5f93422",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engineer - QEM PRODUCT QUALITY ENGINEERING (PQE)",
@@ -76527,15 +76508,14 @@
     "url": "https://sg.linkedin.com/jobs/view/engineer-qem-product-quality-engineering-pqe-at-micron-technology-4434101737",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Singapore, which is outside Finland and not a fully remote role open to someone living in Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "This semiconductor manufacturing quality role violates the hard rejection rule against physical production and semiconductor manufacturing quality positions.",
     "id": "a015d8b9",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer III",
@@ -76544,15 +76524,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-iii-at-bd-4474114580",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hunt Valley, MD, USA, which is strictly excluded per the candidate's hard rejection rule against any US-based or US-restricted roles.",
+    "reason": "The job is located in Hunt Valley, MD, USA, violating the strict US location exclusion rule.",
     "id": "9f17f2c2",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA - Engineer",
@@ -76561,15 +76540,14 @@
     "url": "https://tw.linkedin.com/jobs/view/qa-engineer-at-shl-medical-4466269609",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is Taoyuan City, Taiwan, which is outside Finland and not fully remote (the candidate only considers roles in Finland or fully remote roles accessible from Finland).",
+    "reason": "The job is physically located in Taoyuan City, Taiwan, violating the requirement that jobs must be located in Finland or be fully remote/worldwide.",
     "id": "7bebcb06",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "PCBA Quality Engineer",
@@ -76578,15 +76556,14 @@
     "url": "https://cn.linkedin.com/jobs/view/pcba-quality-engineer-at-eaton-4433961304",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Shenzhen, China (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "This job is located in Shenzhen, China, and is a physical manufacturing/hardware quality role for PCBA, which violates both location and hard rejection rules.",
     "id": "6310253d",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Aviation IHM Product Quality Engineer",
@@ -76595,15 +76572,14 @@
     "url": "https://www.linkedin.com/jobs/view/aviation-ihm-product-quality-engineer-at-american-honda-motor-company-inc-4449900450",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Burlington, NC, USA, which is strictly excluded per Hard Rejections.",
+    "reason": "This job is located in Burlington, NC, United States, which violates the strict hard rejection rule against US-located roles.",
     "id": "5c2ae95a",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-11",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Advanced Quality Engineer",
@@ -76612,15 +76588,14 @@
     "url": "https://ma.linkedin.com/jobs/view/advanced-quality-engineer-at-te-connectivity-4469859950",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Morocco (Tangier, Tanger-Tetouan-Al Hoceima) and requires on-site presence, which does not meet the candidate's strict requirement for roles physically located in Finland or fully remote from Finland.",
+    "reason": "The role is located in Morocco and falls under the hard rejection rule for manufacturing, construction, or hardware quality roles (focusing on PPAP, FMEA, APQP, and automotive physical production quality).",
     "id": "9711a106",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur assurance qualit\u00e9 - M\u00e9canique",
@@ -76629,15 +76604,14 @@
     "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-assurance-qualit%C3%A9-m%C3%A9canique-at-mda-space-4437853769",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Quebec, Canada, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a remote role accessible from Finland.",
+    "reason": "This role is located in Canada and focuses on mechanical quality assurance, violating the location and hardware manufacturing quality hard rejections.",
     "id": "2a687e2d",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Quality Engineer - Instruments",
@@ -76646,15 +76620,14 @@
     "url": "https://www.linkedin.com/jobs/view/staff-quality-engineer-instruments-at-bd-4457377752",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sparks, MD, USA, which falls under the strict Hard Rejection rule against any US-based or US-restricted roles.",
+    "reason": "The job is located in Sparks, Maryland, USA, violating the strict hard rejection rule against positions in the United States.",
     "id": "967059f0",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer (Angleton, TX)",
@@ -76663,15 +76636,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-angleton-tx-at-3m-4458441519",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Angleton, TX (United States), which is an immediate hard rejection due to Priya's strict exclusion of any roles in or restricted to the United States.",
+    "reason": "This job is located in Angleton, Texas, violating the strict hard rejection rule against US-based positions.",
     "id": "b68d95ad",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer (Level DOE)",
@@ -76680,15 +76652,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-level-doe-at-bobcat-company-4471133347",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in the United States, which is a hard exclusion for the candidate.",
+    "reason": "This job is located in Rogers, Minnesota, USA, violating the strict hard rejection rule against US-based positions.",
     "id": "104b661d",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Mid-Level Quality Engineer",
@@ -76697,15 +76668,14 @@
     "url": "https://www.linkedin.com/jobs/view/mid-level-quality-engineer-at-boeing-4462799358",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Wichita, KS, USA, which falls under the strict Hard Rejection rule against any roles in or restricted to the United States.",
+    "reason": "The job is located in Wichita, KS, United States, violating the strict US location exclusion and requiring US person export control status.",
     "id": "9a4db67b",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer II",
@@ -76714,15 +76684,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-ii-at-honeywell-aerospace-4461507430",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is Torrance, CA, USA, which falls under the strict exclusion of any U.S.-based roles (including on-site or remote roles requiring U.S. work authorization), as explicitly stated in the Hard Rejections.",
+    "reason": "This job is located in Torrance, CA, USA and requires US person status, violating the strict US geographic and work authorization exclusion.",
     "id": "c26d1877",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-02T14:44:26+03:00",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
