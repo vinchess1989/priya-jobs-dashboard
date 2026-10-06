@@ -68844,15 +68844,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=bd021763730a0792",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires strong Finnish language skills as an essential requirement, which Priya does not possess, and the role does not align with her expertise in DevOps, Configuration Management, or regulated-industry release/quality management.",
+    "reason": "The job description explicitly requires strong Finnish language skills for tasks related to Finnish working time legislation, which the candidate does not possess.",
     "id": "efd281e9",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-01T00:35:33+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Delivery Coordinator",
@@ -68861,15 +68860,14 @@
     "url": "https://fi.indeed.com/career/delivery-coordinator/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job details are incomplete/unclear (company and location fields not explicitly stated in the text), making it impossible to evaluate against location requirements or role-type fit.",
+    "reason": "The provided URL is a salary research page on Indeed, not a specific job posting, and therefore does not contain a role to evaluate.",
     "id": "029585f8",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-01T00:35:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Delivery Coordinator, Helsinki, F19",
@@ -68878,15 +68876,14 @@
     "url": "https://fi.indeed.com/career/delivery-coordinator/salaries/Helsinki--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Delivery Coordinator' does not explicitly align with Priya's target roles (e.g., Release Manager, Configuration Manager, Technical Writer) or the positive constraints (configuration management, technical communication specialist experience). The job description lacks sufficient detail to confirm alignment with her expertise in regulated-industry release/CM/quality gatekeeping.",
+    "reason": "The provided text is a salary information page for a job title rather than an actual job vacancy posting.",
     "id": "c544c793",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-01T00:35:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Key Account Manager (1 Position) | Winter Season 2026\u20132027",
@@ -68895,15 +68892,14 @@
     "url": "https://www.jobly.fi/tyopaikka/junior-account-manager-1-position-winter-season-2026-2027-2767637",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing Key Account Manager with sales responsibilities, which falls under the hard-rejection category of 'Quota-Carrying Sales Roles Mislabeled as \\\\",
+    "reason": "The role is a quota-carrying sales/account management position, which is explicitly rejected, and the salary range falls below the candidate's minimum requirement.",
     "id": "3566be19",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-29",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Process Quality Manager",
@@ -68911,16 +68907,15 @@
     "location": "Vantaa, Finland",
     "url": "https://www.jobly.fi/tyopaikka/process-quality-manager-2769146",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job aligns with 'Quality Manager' in Priya's Target Job Criteria but focuses on industrial process quality in semiconductor manufacturing rather than her documented experience in regulated-industry documentation/quality gatekeeping (MDR/ISO 13485, ASPICE/TUV). Leadership requirements may also extend beyond her profile.",
+    "matches_requirements": "no",
+    "reason": "This is a manufacturing/industrial process quality role focused on silicon wafer production, which falls under the hard rejection criteria for manufacturing/hardware quality roles.",
     "id": "4048c266",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-25",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Document Management Specialist",
@@ -68929,15 +68924,14 @@
     "url": "https://www.jobly.fi/tyopaikka/document-management-specialist-2768413",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role as Document Management Specialist aligns with Priya's background in technical documentation, release management, and configuration management, particularly given her experience at Topcon Healthcare and Elektrobit. The job is located in Finland (Vantaa/Lappeenranta) with hybrid work, meeting her location preferences, and requires English proficiency which she has.",
+    "reason": "The role aligns perfectly with Priya's background in technical documentation, configuration management, and process development within industrial/regulated environments, and it is located in Finland.",
     "id": "798fd87b",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-30",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/etteplan_document_management_specialist_798fd87b.txt",
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/etteplan_document_management_specialist_798fd87b.txt"
   },
   {
     "title": "HSE-p\u00e4\u00e4llikk\u00f6 / HSE-valvoja",
@@ -68946,15 +68940,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hse-paallikko-hse-valvoja-2766686",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires HSE (Health, Safety, Environment) management responsibilities in construction projects, which does not align with Priya's expertise in technical communication, release/configuration management, or regulated-industry quality/compliance work.",
+    "reason": "This is a construction/industrial site safety (HSE) role, which falls under the hard rejection for manufacturing, construction, or hardware quality roles that lack a software-release or configuration-management component.",
     "id": "76ca9ebe",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatuinsin\u00f6\u00f6ri",
@@ -68963,15 +68956,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laatuinsinoori-2766688",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role is a construction quality engineering position requiring fluent Finnish, which falls under the hard rejection for manufacturing/construction quality roles and language requirements.",
     "id": "681218b3",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "HSE-p\u00e4\u00e4llikk\u00f6 / HSE-valvoja",
@@ -68980,15 +68972,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hse-paallikko-hse-valvoja-2766684",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an HSE Manager/Supervisor role focused on construction safety, which does not align with Priya's expertise in technical documentation, release management, and regulated-industry quality compliance.",
+    "reason": "This is a construction/industrial site safety (HSE) role, which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or configuration-management component.",
     "id": "7354d8bf",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatuinsin\u00f6\u00f6ri",
@@ -68997,15 +68988,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laatuinsinoori-2766691",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The role is a construction-site quality engineering position, which falls under the hard rejection for manufacturing/construction quality roles, and it also requires fluent Finnish.",
     "id": "1f44ee17",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "HSE-valvoja",
@@ -69014,15 +69004,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hse-valvoja-2766701",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of HSE-valvoja (Health, Safety, and Environment Officer) does not align with Priya's target job criteria in configuration management, release management, or technical documentation/requirements engineering.",
+    "reason": "This is a construction/industrial site safety role (HSE-valvoja), which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or configuration-management component.",
     "id": "81a8b38f",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "HSE-valvoja",
@@ -69031,15 +69020,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hse-valvoja-2766705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires HSE (Health, Safety, Environment) officer responsibilities in construction management, which does not align with Priya's background in technical communication, release/CM/DevOps, or regulated-industry quality gatekeeping roles.",
+    "reason": "This is a construction/industrial site safety role (HSE-valvoja) which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or configuration-management component.",
     "id": "eb16b8af",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-01T00:36:11+03:00",
     "posted_date": "2026-09-28",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -69047,16 +69035,15 @@
     "location": "Tampere, Finland",
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-scsom-20252242",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role of Quality Manager at Teleste in Tampere, Finland aligns with Priya's extensive experience in quality gatekeeping, regulatory compliance (MDR/ISO 13485), and cross-functional collaboration, matching her background at Topcon and Elektrobit.",
+    "matches_requirements": "no",
+    "reason": "The role is a manufacturing/industrial quality position focused on FAI/iFAI and NCR processes, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "e4064b94",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-01T01:55:58+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": "job_descriptions/teleste_quality_manager_e4064b94.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Construction Quality Program Manager",
@@ -69065,15 +69052,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/construction-quality-program-manager-scsom-20609304",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction quality program management expertise, which does not align with Priya's background in software release/CI-CD/DevOps and regulated-industry technical documentation.",
+    "reason": "This is a construction quality management role for physical data center infrastructure, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
     "id": "c51166de",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-01T01:55:58+03:00",
     "posted_date": "2026-09-29",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sustainability Manager, Compliance",
@@ -69082,15 +69068,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sustainability-manager-compliance-at-fortum-4472717804",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a hard qualification, which Priya does not possess.",
+    "reason": "The role requires fluency in Finnish, which the candidate does not possess, and the domain is focused on corporate sustainability compliance rather than technical software release, configuration management, or quality engineering.",
     "id": "3b082c3e",
     "source": "linkedin_fi_eu_mdr",
     "added_at": "2026-10-01T01:56:26+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "2026-10-24",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Firmware Engineer",
