@@ -75084,15 +75084,14 @@
     "url": "https://cz.linkedin.com/jobs/view/requirements-engineer-m-f-d-automotive-infotainment-at-bertrandt-group-4467602790",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Czechia (outside Finland) with no remote option, and requires fluent Czech (C1), which Priya does not speak.",
+    "reason": "The job requires fluent Czech (min. C1), which the candidate does not possess, and it is an on-site role in the Czech Republic, which falls outside the allowed locations.",
     "id": "2db4520e",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-02T07:14:31+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "p\u0159ed 2 t\u00fddny",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Systems Engineer (Automotive Lighting)",
@@ -75101,15 +75100,14 @@
     "url": "https://cz.linkedin.com/jobs/view/systems-engineer-automotive-lighting-at-opmobility-4462280907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Nov\u00fd Ji\u010d\u00edn, Czechia (outside Finland) and does not offer remote work options accessible from Finland, which violates the candidate's strict location requirements.",
+    "reason": "The job is physically located in Nov\u00fd Ji\u010d\u00edn, Czechia, which violates the requirement that jobs outside Finland must be fully remote and open to someone living in Finland.",
     "id": "582ece42",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-02T07:14:31+03:00",
-    "posted_date": "vor 3 wochen",
+    "posted_date": "p\u0159ed 3 t\u00fddny",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Quality Engineer",
@@ -75118,15 +75116,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=317930762f3d1bfb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on product/project quality management and compliance rather than release/configuration management, CI/CD, or technical documentation ownership which are central to the candidate's expertise.",
+    "reason": "This role is a manufacturing and hardware quality engineering position for physical electromechanical power systems, which violates the hard rejection rule against manufacturing/hardware quality roles.",
     "id": "737c7c6d",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Implementation Analyst (Remote in Europe)",
@@ -75134,16 +75131,15 @@
     "location": "Remote (Europe)",
     "url": "https://fi.indeed.com/rc/clk?jk=52e339dd31b73f5a",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves customer implementation and project management with QMS/regulatory frameworks, which partially overlaps with Priya's quality/compliance experience but does not directly match her core skills in CI/CD/release management or technical documentation ownership.",
+    "matches_requirements": "no",
+    "reason": "The role is heavily customer-facing and implementation-focused rather than focused on configuration management, release engineering, or technical writing, violating the candidate's negative constraint against customer-facing roles.",
     "id": "62169820",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "OBC & Comms AIT engineer",
@@ -75152,15 +75148,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8118113ce084b298",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role (OBC & Comms AIT engineer) is hardware-focused with hands-on electronics/SDR integration/testing, which does not align with the candidate's background in software configuration management, release/DevOps, and technical documentation in regulated industries.",
+    "reason": "This is a hardware AIT engineering role focused on physical assembly, integration, and testing of satellite hardware, which does not match Priya's software configuration management, release, and technical communication background.",
     "id": "9aa295ed",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Quality Engineer",
@@ -75169,15 +75164,14 @@
     "url": "https://fi.indeed.com/career/quality-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting lacks explicit company and location details, making it impossible to verify compliance with location requirements (must be in Finland or remote-open-to-Finland) and other criteria.",
+    "reason": "This is a salary information and career guidance page on Indeed rather than an actual job opening.",
     "id": "79475eb9",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Quality Engineer, Vantaa, F19",
@@ -75186,15 +75180,14 @@
     "url": "https://fi.indeed.com/career/quality-engineer/salaries/Vantaa--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not provide sufficient details to confirm alignment with Priya's qualifications or the required role specifics.",
+    "reason": "The provided text is an Indeed salary statistics page rather than an actual job posting.",
     "id": "cd097f45",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Suunnittelup\u00e4\u00e4llikk\u00f6",
@@ -75203,15 +75196,14 @@
     "url": "https://www.jobly.fi/tyopaikka/suunnittelupaallikko-2764784",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires good Finnish language skills, which Priya does not possess, and the role focuses on electrical infrastructure design rather than her expertise in configuration management, release management, or technical writing.",
+    "reason": "This is a high-level electrical engineering design management role for electrical substations and high-voltage systems, which does not match Priya's software configuration management, release engineering, and technical communication background.",
     "id": "47c0af13",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-09",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Liiketoimintajohtaja",
@@ -75220,15 +75212,14 @@
     "url": "https://www.jobly.fi/tyopaikka/liiketoimintajohtaja-2764689",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a Business Director role in energy sector sales/leadership, which does not match Priya's target criteria of DevOps, Configuration Management, Release Management, or technical documentation roles. It also requires Finnish language skills she does not possess.",
+    "reason": "The role is a senior business executive (Liiketoimintajohtaja) leading new substations business, which conflicts with her technical release, CM, and quality background and requires fluent Finnish.",
     "id": "0fb37311",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-07",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electrical Commissioning Specialist, Granlund Oy, Finland",
@@ -75237,32 +75228,30 @@
     "url": "https://www.jobly.fi/tyopaikka/electrical-commissioning-specialist-granlund-oy-finland-2755289",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires electrical commissioning expertise in data centers, which does not align with Priya's background in technical writing, release management, and configuration management in regulated/safety-critical industries.",
+    "reason": "This is a physical electrical commissioning role for data centers requiring heavy on-site electrical engineering expertise, which does not match Priya's software configuration, release management, and documentation background.",
     "id": "c29fff8c",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kokenut s\u00e4hk\u00f6suunnittelija,  Granlund Oy, H\u00e4meenlinna",
-    "company": "Extract from page",
+    "company": "Granlund Oy",
     "location": "Oulu, Finland",
     "url": "https://www.jobly.fi/tyopaikka/kokenut-sahkosuunnittelija-granlund-oy-hameenlinna-2764782",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This is an electrical design and engineering role (s\u00e4hk\u00f6suunnittelija) focused on building and industrial electrical systems using Autodesk CAD, which does not match Priya's software release, configuration management, DevOps, or technical communication background.",
     "id": "0c0c1607",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
-    "posted_date": "N/A",
+    "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Tampereen Vera Oy: Projektip\u00e4\u00e4llikk\u00f6",
@@ -75271,15 +75260,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tampereen-vera-oy-projektipaallikko-2769543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires project management in electrical infrastructure construction, which does not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation in regulated/safety-critical domains.",
+    "reason": "This is an electrical grid infrastructure project management role focused on physical power grid construction and electrical installations, which does not match Priya's software release management, DevOps, and quality assurance background.",
     "id": "8adff9c0",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Henkil\u00f6nostimien korjaaja",
@@ -75288,15 +75276,14 @@
     "url": "https://www.jobly.fi/tyopaikka/henkilonostimien-korjaaja-2754484",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
+    "reason": "The role requires fluent Finnish and is a mechanical repair position for lifts rather than software/release management.",
     "id": "a01b8616",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-08",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kiinteist\u00f6nhuollon esihenkil\u00f6, P\u00e4\u00e4kaupunkiseutu",
@@ -75305,15 +75292,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kiinteistonhuollon-esihenkilo-paakaupunkiseutu-2764316",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Finnish as a mandatory requirement, which Priya does not possess.",
+    "reason": "The role requires fluent Finnish and several years of experience in property maintenance management, neither of which matches the candidate's software/release management background.",
     "id": "829a06b2",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-13",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Service Project Manager",
@@ -75322,15 +75308,14 @@
     "url": "https://www.jobly.fi/tyopaikka/service-project-manager-2754094",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Service Project Manager requiring electrical engineering background, Finnish language proficiency, and field maintenance experience, which do not align with Priya's expertise in release/CM/DevOps or technical documentation.",
+    "reason": "The job requires excellent written and spoken skills in Finnish and involves significant customer-facing and field service project management rather than software release, configuration management, or technical documentation.",
     "id": "6f0d328d",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-11",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst, Public sector",
