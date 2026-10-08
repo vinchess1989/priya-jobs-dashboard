@@ -123129,5 +123129,53 @@
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null
+  },
+  {
+    "title": "Hae nyt",
+    "company": "Extract from page",
+    "location": "Extract from page",
+    "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=dbd00ffc-a107-44ae-a1b7-fd6e30149058-ZnJhcHJvZDE&iaUid=1k4esgbh7hmul801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k4esgbg5hmjh800%26jk%3Daba59cd394acdc86%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k4esgbbohmjh800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoA267M2dOxOtfT5TJ0LbzkdCdPP%26astse%3D1d603a3dc4f08278%26assa%3D842&spn=0",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The provided text is a generic Indeed application landing page and does not contain any job description, company name, location, or role details to evaluate.",
+    "id": "c57bcc20",
+    "source": "indeed_fi_devops_engineer",
+    "added_at": "2026-10-09T02:10:35+03:00",
+    "posted_date": "N/A",
+    "deadline": "N/A",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
+  },
+  {
+    "title": "Senior Director, Medical Strategy Lead - Rheumatology (m/w/d)",
+    "company": "IQVIA",
+    "location": "Espoo, Uusimaa, Finland",
+    "url": "https://fi.linkedin.com/jobs/view/senior-director-medical-strategy-lead-rheumatology-m-w-d-at-iqvia-4476210828",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role requires a terminal medical degree (MD) and board certification in Rheumatology, which the candidate does not possess.",
+    "id": "16a9a807",
+    "source": "linkedin_fi_iso_13485",
+    "added_at": "2026-10-09T02:41:13+03:00",
+    "posted_date": "2026-10-09",
+    "deadline": "N/A",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
+  },
+  {
+    "title": "Senior Embedded C++ AUTOSAR Developer and Architect",
+    "company": "Accenture Poland",
+    "location": "Szczecin, Zachodniopomorskie, Poland",
+    "url": "https://pl.linkedin.com/jobs/view/senior-embedded-c%2B%2B-autosar-developer-and-architect-at-accenture-poland-4412411060",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The role is a pure feature-development software engineering position focused on C++ AUTOSAR architecture and implementation, which violates the hard rejection against pure feature-development roles.",
+    "id": "f36d0e4f",
+    "source": "linkedin_eu_remote_iso_26262",
+    "added_at": "2026-10-09T02:53:47+03:00",
+    "posted_date": "1 tunti sitten",
+    "deadline": "N/A",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   }
 ]
