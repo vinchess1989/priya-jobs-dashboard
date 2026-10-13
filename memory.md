@@ -28,6 +28,12 @@
   hover (`[data-profile-item-tile]` -> `button[aria-label=Edit]`); month/year are comboboxes (type + pick
   `role=option`); the Oracle profile's dates were wrong vs master_data and were corrected to match it.
   Marko Bovellan (her former immediate manager at Elektrobit, now at Nokia) referred her.
+- Other ATS quirks seen Oct 2026: **Academic Work** (academicwork.fi) needs Priya's own login before the
+  `/apply` form appears, and switching the page language FI<->EN wipes all answers and uploads. **Jobylon**
+  (emp.jobylon.com, used by Etteplan/Oriola) and Teamtailor upload files immediately and then clear the
+  `<input type=file>`, so verify attachments by the filename shown on the page, not `input.files`.
+  **Lokki** (lokki.likeit.fi) asks salary in EUR/hour (~160 h/month). **The Hub** and some Jobylon forms
+  have a visible reCAPTCHA - leave those for Priya to tick and submit.
 - NestAI (`careers.nestai.com`, Teamtailor): "How did you hear" is a dropdown of hidden radios and stays
   open over the Locations checkboxes - close it (Escape) and set checkboxes via JS `.click()`.
 - Priya wants the cover letter attached as an additional document on forms, not only pasted.
