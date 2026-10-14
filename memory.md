@@ -781,3 +781,17 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
   2026-10-03 (manju_jobs 18 commits, priya_global_jobs 88 behind); then pinning the account in the remote URL made the
   old code build `https://TOKEN@vinchess1989@github.com` ("URL rejected"). The dead env var was removed.
 - Only Manju_jobs_private pushes as munchnambiar; everything else as vinchess1989 (global CLAUDE.md rule).
+## Auto-submit rollout check (2026-10-14): two gaps in what the gate sees
+- Switch had never been on; no `fill-form-auto` submit recorded. Fill runs Oct 3-13 never wrote `<id>_answers.json`
+  (Oct 3 wrote only `_questions.json`), so every gate check said "no drafted answers file" -> review. First run that
+  wrote one: iLOQ `d51726fe` (Teamtailor) -> reasons only "switch off" + "teamtailor never auto".
+- `scrape_application.py` marks fields required only from the `required` attribute. Teamtailor shows "*Required" in
+  the label instead, so First name/Last name/Email/Phone came out `required: false`; the fill script's live-page
+  check uses the same attribute. Radio groups are saved as separate "Yes"/"No" questions without their legend, so the
+  required "Do you have a work permit...?" question was invisible to the gate. Fix both before trusting `auto` on
+  non-Teamtailor ATSes with the same markup.
+## priya_global_jobs on Priya's PC: `origin` is her fork (2026-10-14)
+`C:\Users\priya\priya_global_jobs` has `origin` = `priyabkc99/priya-global-jobs-dashboard` (stale fork) and
+`upstream` = `vinchess1989/...` (the live board). A plain `git pull` says "Already up to date" while being
+hundreds of commits behind - use `git pull --ff-only upstream main`. The auto-submit gate reads this
+checkout's `jobs.json` for cross-board duplicates, so a stale copy weakens that check.

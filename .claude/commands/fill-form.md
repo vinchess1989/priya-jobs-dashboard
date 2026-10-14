@@ -383,8 +383,10 @@ with sync_playwright() as p:
 
     SUBMIT_MODE = "SUBMIT_MODE_FROM_STEP_3_5"   # "auto" or "review"
     if SUBMIT_MODE != "auto":
-        print("Form filled. Left for Priya's review. Disconnecting...")
-        browser.close()
+        # Never browser.close() here: over CDP it closes the tab this script opened,
+        # and the filled form is lost before Priya sees it. Just exit; the tab stays.
+        page.bring_to_front()
+        print("Form filled. Left for Priya's review - tab stays open.")
         raise SystemExit(0)
 
     # ---- Automatic submit (only reached when the gate said "auto") ----
@@ -437,7 +439,7 @@ with sync_playwright() as p:
     with open(r"PUBLIC\scratch\submit_result_JOB_ID.json", "w", encoding="utf-8") as f:
         json.dump(result, f)
     print("SUBMIT RESULT:", json.dumps(result))
-    browser.close()
+    # No browser.close() - keep the tab (confirmation page, or a blocked form for Priya) open.
 ```
 
 - Run the script: `python -u PUBLIC\scratch\hardcoded_fill_JOB_ID.py`
