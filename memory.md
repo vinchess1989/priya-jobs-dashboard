@@ -34,6 +34,10 @@
   `<input type=file>`, so verify attachments by the filename shown on the page, not `input.files`.
   **Lokki** (lokki.likeit.fi) asks salary in EUR/hour (~160 h/month). **The Hub** and some Jobylon forms
   have a visible reCAPTCHA - leave those for Priya to tick and submit.
+  **ICEYE (jobs.ashbyhq.com/iceye)** caps applications per candidate per period: on 2026-10-14 the Flight Software
+  Deployment Engineer form (89726f44) failed with "You have reached the application limit for this period" after
+  her many Sep-Oct ICEYE applications. Check the page after submit, not just the click; space ICEYE roles out.
+  Its forms ask desired salary + SUPO citizenship, so they always go to her review.
 - NestAI (`careers.nestai.com`, Teamtailor): "How did you hear" is a dropdown of hidden radios and stays
   open over the Locations checkboxes - close it (Escape) and set checkboxes via JS `.click()`.
 - Priya wants the cover letter attached as an additional document on forms, not only pasted.
