@@ -162,6 +162,8 @@ Otherwise, for each candidate in order, **sanity-check it first** — cheap, no 
 
 This is a quick plausibility read, not a full re-run of the scraper's evaluation — when genuinely unsure, treat it as passing and continue.
 
+A **stretch** fit (she meets part of the core requirements but not all) is **not** "looks wrong" — Priya wants those applied to as well (2026-10-14): treat it as "Looks fine", fill it, and pass `--fit stretch` in Step 3.5 so it goes to her review. "Looks wrong" is for genuine mismatches: a Hard Rejection category, a wrong location, or a `reason` that doesn't describe this job.
+
 - **Looks wrong** → don't tailor or fill anything for it. Demote it so Priya can decide on her own time instead of this unattended run either silently skipping it or blocking on her answer:
   ```powershell
   python job_status_store.py set --url "JOB_URL" --field matches_requirements --value "maybe"
@@ -311,11 +313,14 @@ python job_status_store.py set --url "JOB_URL" --field auto_fill_attempted_at --
 Ask the gate **right before writing the fill script** (so a star Priya adds to a queued job still counts):
 ```powershell
 $gate = python "PUBLIC\auto_submit_gate.py" check --job-id "JOB_ID" --apply-url "APPLY_URL" `
-    --questions "PRIVATE\Resumes\JOB_ID\JOB_ID_questions.json" --answers "PRIVATE\Resumes\JOB_ID\JOB_ID_answers.json" | ConvertFrom-Json
+    --questions "PRIVATE\Resumes\JOB_ID\JOB_ID_questions.json" --answers "PRIVATE\Resumes\JOB_ID\JOB_ID_answers.json" `
+    --fit $Fit | ConvertFrom-Json
 $SubmitMode = $gate.decision   # "auto" or "review"
 $gate.reasons                  # why not, when "review"
 ```
 (Omit `--questions`/`--answers` if those files don't exist — the gate then answers `review`, since it can't verify the form.)
+
+**`$Fit`** (Priya, 2026-10-14: "apply even if it's a weak match, wait for a strong match" for automatic submits) — your honest verdict after reading the full posting against her real profile: `strong` only when she clearly meets the core must-haves (e.g. a release/configuration/DevOps/quality-gatekeeping role where her actual experience covers what the posting centres on); `stretch` whenever one or more core requirements are things she hasn't done hands-on (e.g. building test-automation frameworks, opkg/device-tree embedded work, people leadership of a QA team). When unsure, `stretch`. Stretch jobs are still filled — they just always go to her review.
 
 It answers `auto` only when **every** check passes: the dashboard's auto-submit switch is on; the job is **not starred**; the match is `yes`; it isn't already applied; the apply site isn't LinkedIn or Teamtailor/Biisoni; fewer than 10 automatic submits today on this board; no earlier application to the same company + title on either Priya board and no automatic submit to the same company in the last 7 days; no salary question; no required date of birth; every required field has a real (non-placeholder) answer; no required upload other than CV/cover letter. **Any other outcome is `review`** — never second-guess a `review` into a submit.
 

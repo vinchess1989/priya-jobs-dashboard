@@ -124,7 +124,7 @@ def _auto_submits(status):
     return out
 
 
-def check(job_id, apply_url, questions_path=None, answers_path=None):
+def check(job_id, apply_url, questions_path=None, answers_path=None, fit=None):
     reasons = []
     job = _find_job(job_id)
     if not job:
@@ -143,6 +143,10 @@ def check(job_id, apply_url, questions_path=None, answers_path=None):
     match = entry.get("matches_requirements") or job.get("matches_requirements")
     if match != "yes":
         reasons.append(f"match is '{match}', auto-submit is for 'yes' only")
+    # 3b. Priya (2026-10-14): stretch/weak fits are filled for her to submit herself - only a job
+    #     /fill-form judged a STRONG fit may go out automatically. No verdict = not strong.
+    if fit != "strong":
+        reasons.append(f"fit judged '{fit or 'not given'}' - only strong matches are auto-submitted")
     if (entry.get("applied") or job.get("applied")) == "yes":
         reasons.append("already marked applied")
     # 4/5. Sites that must never be automated.
@@ -248,12 +252,13 @@ def main():
     c.add_argument("--apply-url", required=True)
     c.add_argument("--questions")
     c.add_argument("--answers")
+    c.add_argument("--fit", choices=["strong", "stretch"], help="/fill-form's fit verdict; anything but strong -> review")
     r = sub.add_parser("record")
     r.add_argument("--job-id", required=True)
     r.add_argument("--result", required=True)
     a = ap.parse_args()
     if a.cmd == "check":
-        print(json.dumps(check(a.job_id, a.apply_url, a.questions, a.answers)))
+        print(json.dumps(check(a.job_id, a.apply_url, a.questions, a.answers, a.fit)))
     else:
         record(a.job_id, a.result)
 

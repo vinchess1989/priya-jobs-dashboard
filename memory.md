@@ -794,6 +794,9 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
   uses the same label/legend markers. Verified on the live iLOQ form (empty -> 5 fields flagged, filled -> none).
 - Also fixed: over CDP the scraper navigated `context.pages[0]` - Priya's first tab, e.g. a form left for review - now
   it opens and closes its own tab. And fill scripts must not `browser.close()` over CDP: it closed the filled tab.
+- Priya's rule (same day): apply to weak/stretch matches too (filled for her review), but auto-submit only strong
+  matches. The gate now takes `--fit strong|stretch` (fill-form's own verdict after reading the posting); missing or
+  stretch -> review. Before this the gate would have auto-submitted any scraper "yes", e.g. Supercell QE Lead (7afe508f).
 - The gate reads JSON as `utf-8-sig`: answers files written by PowerShell `Set-Content -Encoding utf8` have a BOM and
   were silently read as "no drafted answers file".
 ## priya_global_jobs on Priya's PC: `origin` is her fork (2026-10-14)
