@@ -58,7 +58,8 @@ def _now():
 
 def _load(path):
     try:
-        return json.loads(Path(path).read_text(encoding="utf-8"))
+        # utf-8-sig: PowerShell's Set-Content -Encoding utf8 writes a BOM, which plain utf-8 json.loads rejects.
+        return json.loads(Path(path).read_text(encoding="utf-8-sig"))
     except Exception:
         return None
 

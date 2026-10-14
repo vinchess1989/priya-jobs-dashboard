@@ -558,26 +558,56 @@ def is_cookie_label(text):
 
 # ── Form extraction helpers ───────────────────────────────────────────────────
 
+# Many ATSes (e.g. Teamtailor) mark required fields only in the label text ("First name*\nRequired"),
+# not with a required attribute - so the label itself counts as a required marker.
+REQUIRED_MARK_RE = re.compile(r"\*\s*$|^\s*(required|pakollinen)\s*$", re.I | re.M)
+
+
+def _clean_label(text):
+    """Drop the '*' / 'Required' markers so labels read as the question itself."""
+    lines = [ln for ln in (text or "").splitlines() if not re.fullmatch(r"\s*(required|pakollinen)\s*", ln, re.I)]
+    return re.sub(r"\s*\*\s*$", "", "\n".join(lines).strip()).strip()
+
+
+# The question a radio/checkbox option belongs to: its <fieldset><legend>, or an ARIA group's label.
+_GROUP_JS = """el => {
+    const fs = el.closest('fieldset'), lg = fs && fs.querySelector('legend');
+    const rg = el.closest('[role=radiogroup],[role=group]');
+    let q = lg ? lg.innerText : '';
+    if (!q && rg) {
+        const ids = (rg.getAttribute('aria-labelledby') || '').split(/\\s+/).filter(Boolean);
+        q = ids.map(id => (document.getElementById(id) || {}).innerText || '').join(' ') || rg.getAttribute('aria-label') || '';
+    }
+    return {q: (q || '').trim(),
+            req: el.required || el.getAttribute('aria-required') === 'true'
+                 || !!(rg && rg.getAttribute('aria-required') === 'true')};
+}"""
+
+
 def extract_form_fields(page, scope=None):
     """Extract form fields. Pass scope=ElementHandle to restrict to a section."""
     root = scope if scope else page
     seen = set()
     questions = []
+    groups = {}   # radio/checkbox name -> its question dict
 
     def add(label, ftype, options=None, required=False, accept=""):
-        label = label.strip()
+        required = required or bool(REQUIRED_MARK_RE.search(label or ""))
+        label = _clean_label(label)
         if not label or label in seen or len(label) > 400:
-            return
+            return None
         if is_cookie_label(label):
-            return
+            return None
         seen.add(label)
-        questions.append({
+        q = {
             "label": label,
             "type": ftype,
             "options": options or [],
             "required": required,
             "accept": accept,
-        })
+        }
+        questions.append(q)
+        return q
 
     # Labels → associated fields
     for label_el in root.query_selector_all("label"):
@@ -592,8 +622,22 @@ def extract_form_fields(page, scope=None):
             field = page.query_selector(f"#{for_id}")
             if field:
                 tag = field.evaluate("el => el.tagName.toLowerCase()")
-                req = field.get_attribute("required")
-                required = req is not None
+                required = (field.get_attribute("required") is not None
+                            or field.get_attribute("aria-required") == "true")
+                ftype_attr = (field.get_attribute("type") or "").lower()
+                name = field.get_attribute("name")
+                if tag == "input" and ftype_attr in ("radio", "checkbox") and name:
+                    # One question per group (legend text), options = the individual option labels.
+                    grp = field.evaluate(_GROUP_JS)
+                    if grp["q"]:
+                        if name not in groups:
+                            groups[name] = add(grp["q"], ftype_attr, [], grp["req"]) or {"options": []}
+                        q = groups[name]
+                        if grp["req"] and "required" in q:
+                            q["required"] = True
+                        if _clean_label(text) and _clean_label(text) not in q["options"]:
+                            q["options"].append(_clean_label(text))
+                        continue
                 if tag == "select":
                     ftype = "select"
                     options = [
@@ -1935,7 +1979,9 @@ def main():
                     viewport={"width": 1280, "height": 900}
                 )
                 is_cdp = False
-            page = context.pages[0] if context.pages else context.new_page()
+            # Over CDP, always work in a tab of our own: reusing pages[0] navigated away whatever Priya
+            # had there - including a form filled and left open for her review.
+            page = context.new_page() if is_cdp else (context.pages[0] if context.pages else context.new_page())
             page.add_init_script(
                 "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
             )
@@ -1959,6 +2005,10 @@ def main():
                     # Browser.close() on a connect_over_cdp() browser only detaches the
                     # client -- it does not terminate the actual remote Chrome process
                     # (unlike a launched browser). Browser has no disconnect() method.
+                    try:
+                        page.close()   # our own scrape tab
+                    except Exception:
+                        pass
                     browser.close()
                 else:
                     context.close()

@@ -788,8 +788,14 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
 - `scrape_application.py` marks fields required only from the `required` attribute. Teamtailor shows "*Required" in
   the label instead, so First name/Last name/Email/Phone came out `required: false`; the fill script's live-page
   check uses the same attribute. Radio groups are saved as separate "Yes"/"No" questions without their legend, so the
-  required "Do you have a work permit...?" question was invisible to the gate. Fix both before trusting `auto` on
-  non-Teamtailor ATSes with the same markup.
+  required "Do you have a work permit...?" question was invisible to the gate. **Fixed same day:**
+  `extract_form_fields` treats a trailing `*` / a "Required"/"Pakollinen" line as required (and strips them from the
+  label), and groups radio/checkbox options under their `<legend>`/ARIA group label; fill-form's live pre-submit check
+  uses the same label/legend markers. Verified on the live iLOQ form (empty -> 5 fields flagged, filled -> none).
+- Also fixed: over CDP the scraper navigated `context.pages[0]` - Priya's first tab, e.g. a form left for review - now
+  it opens and closes its own tab. And fill scripts must not `browser.close()` over CDP: it closed the filled tab.
+- The gate reads JSON as `utf-8-sig`: answers files written by PowerShell `Set-Content -Encoding utf8` have a BOM and
+  were silently read as "no drafted answers file".
 ## priya_global_jobs on Priya's PC: `origin` is her fork (2026-10-14)
 `C:\Users\priya\priya_global_jobs` has `origin` = `priyabkc99/priya-global-jobs-dashboard` (stale fork) and
 `upstream` = `vinchess1989/...` (the live board). A plain `git pull` says "Already up to date" while being

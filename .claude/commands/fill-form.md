@@ -400,12 +400,20 @@ with sync_playwright() as p:
         result["screenshots"].append(path)
 
     # Re-check the LIVE page before clicking - the gate only saw the scraped questions.
-    empty_required = page.evaluate("""() => [...document.querySelectorAll(
-        'input[required],select[required],textarea[required],[aria-required="true"]')]
-        .filter(el => el.offsetParent !== null && el.type !== 'hidden'
-                 && (el.type === 'checkbox' || el.type === 'radio'
-                     ? !document.querySelector(`[name="${el.name}"]:checked`) : !String(el.value || '').trim()))
-        .map(el => el.name || el.id || el.getAttribute('aria-label') || el.type)""")
+    # "Required" = the attribute, OR a '*' / 'Required' marker in the field's label or its group's
+    # <legend> (Teamtailor and others mark it only in the text). File inputs are skipped: several
+    # ATSes clear them right after uploading, so check uploads by the filename shown on the page.
+    empty_required = page.evaluate("""() => {
+        const mark = t => /\\*\\s*$|^\\s*(required|pakollinen)\\s*$/im.test(t || '');
+        const legend = el => { const fs = el.closest('fieldset'); const lg = fs && fs.querySelector('legend'); return lg ? lg.innerText : ''; };
+        const isReq = el => el.required || el.getAttribute('aria-required') === 'true'
+            || [...(el.labels || [])].some(l => mark(l.innerText)) || mark(legend(el));
+        return [...document.querySelectorAll('input,select,textarea')]
+            .filter(el => el.type !== 'hidden' && el.type !== 'file' && el.offsetParent !== null && isReq(el))
+            .filter(el => el.type === 'checkbox' || el.type === 'radio'
+                ? !document.querySelector(`[name="${CSS.escape(el.name)}"]:checked`) : !String(el.value || '').trim())
+            .map(el => el.name || el.id || el.getAttribute('aria-label') || el.type);
+    }""")
     captcha = page.locator("iframe[src*='recaptcha'], iframe[src*='hcaptcha'], iframe[src*='turnstile'], .g-recaptcha, .h-captcha").count()
     login = page.locator("input[type='password']").count()
     if empty_required:
