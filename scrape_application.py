@@ -619,7 +619,9 @@ def extract_form_fields(page, scope=None):
         accept = ""
 
         if for_id:
-            field = page.query_selector(f"#{for_id}")
+            # [id="..."], not #id: Ashby ids are UUIDs starting with a digit, invalid as a CSS #selector.
+            id_sel = '[id="' + for_id.replace('"', '\\"') + '"]'
+            field = page.query_selector(id_sel)
             if field:
                 tag = field.evaluate("el => el.tagName.toLowerCase()")
                 required = (field.get_attribute("required") is not None
@@ -642,7 +644,7 @@ def extract_form_fields(page, scope=None):
                     ftype = "select"
                     options = [
                         o.inner_text().strip()
-                        for o in page.query_selector_all(f"#{for_id} option")
+                        for o in page.query_selector_all(f"{id_sel} option")
                         if o.inner_text().strip()
                     ]
                 elif tag == "textarea":
