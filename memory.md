@@ -803,6 +803,16 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
   stretch -> review. Before this the gate would have auto-submitted any scraper "yes", e.g. Supercell QE Lead (7afe508f).
 - The gate reads JSON as `utf-8-sig`: answers files written by PowerShell `Set-Content -Encoding utf8` have a BOM and
   were silently read as "no drafted answers file".
+## Batch fill-form shortcuts (2026-10-14, 30 "yes" jobs triaged in one run)
+- LinkedIn external apply links: open the job in the signed-in automation Chrome over CDP and click Apply only to
+  capture the popup URL (guest pages hide it). The same page shows "Not currently accepting applications" /
+  "No longer accepting" for closed jobs and "Easy Apply" (leave those to Priya - action item `linkedin_easy_apply`).
+- Full postings without JS: Ashby `api.ashbyhq.com/posting-api/job-board/<org>` (descriptionPlain, isRemote),
+  Greenhouse `boards-api.greenhouse.io/v1/boards/<org>/jobs?content=true`, Personio `<org>.jobs.personio.com/xml`.
+  Personio's form is at `/job/<id>/apply`. Ashby/Greenhouse forms label-link their inputs (get_by_label works).
+- Of 30 "yes" jobs, ~half were closed, duplicates of applied roles, or ICEYE (application limit) - triage before
+  tailoring. Copy Firestore keys from jobs.json in code, never retype a URL from truncated output (a stray
+  job_status key was written once and had to be removed with a field-masked PATCH).
 ## priya_global_jobs on Priya's PC: `origin` is her fork (2026-10-14)
 `C:\Users\priya\priya_global_jobs` has `origin` = `priyabkc99/priya-global-jobs-dashboard` (stale fork) and
 `upstream` = `vinchess1989/...` (the live board). A plain `git pull` says "Already up to date" while being
