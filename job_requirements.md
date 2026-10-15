@@ -84,3 +84,16 @@ that are close but uncertain on one dimension, and explain why in each case.
 
 ### Automatically Added Positive Constraints (from UI Approvals):
 - POSITIVE CONSTRAINT: The user explicitly approved a previous job because: 'Test engineer starting roles'. Make sure to MATCH jobs that have this characteristic.
+
+
+### Automatically Added Negative Constraints (from UI Rejections):
+- NEGATIVE CONSTRAINT: The user explicitly rejected a previous job because: 'salary is 4000 which is less'. Do NOT match jobs that have this issue.
+
+
+### Automatically Added Negative Constraints (from UI Rejections):
+- NEGATIVE CONSTRAINT: The user explicitly rejected a previous job because: 'not interested'. Do NOT match jobs that have this issue.
+- NEGATIVE CONSTRAINT: The user explicitly rejected a previous job because: 'customer facing'. Do NOT match jobs that have this issue.
+
+
+### Automatically Added Negative Constraints (from UI Rejections):
+- NEGATIVE CONSTRAINT: The user explicitly rejected a previous job because: 'salary below 4500'. Do NOT match jobs that have this issue.
