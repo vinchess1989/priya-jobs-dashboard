@@ -244,6 +244,14 @@ _last_progress = time.monotonic()
 _status_lock = threading.Lock()
 
 
+_DRIVER_DEAD_MARKERS = ("Connection closed", "Target closed", "Target page, context or browser has been closed")
+
+
+def _driver_dead(e):
+    """True if the Playwright driver/browser died: every later call would fail or hang."""
+    return any(s in str(e) for s in _DRIVER_DEAD_MARKERS)
+
+
 def _progress(phase=None, detail=None, scrape_ok=False, error=None):
     """Record forward progress: resets the watchdog and refreshes scraper_status.json."""
     global _last_progress
@@ -1889,6 +1897,11 @@ Do not include any conversational intro/outro or explanations outside the JSON o
                 print(f" -> {match.upper()}: {reason} (Posted: {posted_date}, Deadline: {deadline}, Company: {job['company']}, Location: {job['location']}, LLM: {llm_used or 'N/A'})")
 
             except Exception as e:
+                if _driver_dead(e):
+                    # Don't mark this job (or the rest) as errored for a browser crash - leave them pending.
+                    print("ERROR: Playwright driver is gone - aborting this review batch; remaining jobs stay pending.")
+                    _progress(error=f"review: {e}")
+                    break
                 print(f" -> ERROR: Failed to evaluate ({e})")
                 job['visited'] = "yes"
                 job['matches_requirements'] = "error"

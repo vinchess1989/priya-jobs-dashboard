@@ -834,3 +834,4 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
 - Note: vineethkaimal1989@gmail.com is Read-Only/not in firestore.rules isAuthorized, so the heartbeat deliberately lives in a
   Pages-served file, not Firestore.
 - TODO parity: same change is applicable to manju_jobs / vineeth_jobs / priya_global_jobs / manju_uk_jobs (same scraper shape).
+- Review loop also stops on a dead driver (`_driver_dead`) and leaves jobs pending - before, every remaining job was permanently marked `error`. Ported to priya_global_jobs and manju_uk_jobs 2026-10-15.
