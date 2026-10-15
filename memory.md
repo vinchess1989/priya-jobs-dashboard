@@ -810,6 +810,9 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
 - Full postings without JS: Ashby `api.ashbyhq.com/posting-api/job-board/<org>` (descriptionPlain, isRemote),
   Greenhouse `boards-api.greenhouse.io/v1/boards/<org>/jobs?content=true`, Personio `<org>.jobs.personio.com/xml`.
   Personio's form is at `/job/<id>/apply`. Ashby/Greenhouse forms label-link their inputs (get_by_label works).
+- Priya often submits the filled tabs herself and closes them without saying so. Before re-filling/sending a form whose
+  tab is gone, search her Gmail in the CDP Chrome (`#search/newer_than:2d (company ...)`, subject lines only) for the
+  ATS confirmation - on 2026-10-15 all five "missing" tabs had already been sent; resending would have duplicated them.
 - Of 30 "yes" jobs, ~half were closed, duplicates of applied roles, or ICEYE (application limit) - triage before
   tailoring. Copy Firestore keys from jobs.json in code, never retype a URL from truncated output (a stray
   job_status key was written once and had to be removed with a field-masked PATCH).
