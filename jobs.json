@@ -14548,15 +14548,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokenut-jalkamies-2709042",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is for a construction worker and is no longer active, which does not match the required domain or qualifications.",
+    "reason": "This is a construction and earthmoving job (maanrakennusty\u00f6ntekij\u00e4), which falls directly under the hard rejection rule for construction, manufacturing, or physical production quality roles.",
     "id": "3730a870",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Kokenut s\u00e4hk\u00f6asentaja / Sihti Oulu",
@@ -14565,15 +14564,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokenut-sahkoasentaja-sihti-oulu-2709234",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Extracted via regex fallback",
+    "reason": "This is a hands-on electrical installation role (Electrician) which violates the hard rejection rule against manufacturing, construction, or trades quality and physical work roles.",
     "id": "203efb49",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Raudoittaja Ouluun",
@@ -14582,15 +14580,14 @@
     "url": "https://www.jobly.fi/tyopaikka/raudoittaja-ouluun-2663025",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction role (Raudoittaja / reinforcement worker) which falls under hard rejections for manufacturing, construction, or hardware quality roles.",
+    "reason": "This is a construction role for a rebar installer (raudoittaja), which falls under the hard rejection for manufacturing and construction roles.",
     "id": "4dac78bf",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Timpuri",
@@ -14599,15 +14596,14 @@
     "url": "https://www.jobly.fi/tyopaikka/timpuri-2709041",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description indicates a manual labor role (e.g., 'Timpuri' with tasks in construction/renovation), which does not align with the candidate's expertise in technical communication, release management, configuration management, or regulated-industry quality roles.",
+    "reason": "This is a construction carpenter (timpuri) role which violates the hard rejection rule against construction and physical production quality or manual trade roles.",
     "id": "ae2a1494",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Projekti-insin\u00f6\u00f6ri, Granlund Oy, Kuopio",
@@ -14616,15 +14612,14 @@
     "url": "https://www.jobly.fi/tyopaikka/projekti-insinoori-granlund-oy-kuopio-2746842",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction and real estate project engineering role requiring fluent Finnish and construction industry background, which violates the candidate's hard rejections.",
+    "reason": "This is a construction and real estate project engineering role requiring fluent Finnish and a background in construction engineering, which violates multiple hard rejections and does not match her software/release management profile.",
     "id": "84e329ee",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Pre-Commissioning Engineer, Frequent travel",
@@ -14633,15 +14628,14 @@
     "url": "https://www.jobly.fi/tyopaikka/pre-commissioning-engineer-2748735",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a heavy travel-intensive electrical site commissioning and hardware testing role requiring high-voltage power-electronic field experience, which does not match Priya's software/release/configuration management background.",
+    "reason": "This role is a hardware/electrical site testing and pre-commissioning engineering position requiring frequent international travel and high-voltage power-electronic bench/field testing, which falls under the hard rejection for hands-on hardware lab testing and manufacturing/hardware quality roles.",
     "id": "6f74baca",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:41:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:41:26+03:00"
   },
   {
     "title": "Etsimme koneistajia",
@@ -14650,15 +14644,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/6d64f269-dae4-47af-936b-b7ad8754ba7f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing and hardware quality role for CNC machinists, which falls under the hard rejection rule for manufacturing and physical production roles.",
+    "reason": "This is a CNC machinist manufacturing role requiring fluent Finnish and physical production work, which falls under hard rejections.",
     "id": "2c3ad87b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-01-01",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri (Design Engineer), Vantaa tai Tampere, Afry",
@@ -14667,15 +14660,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a1d25472-54ed-4473-9c40-c8364e0c230c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an industrial automation and DCS programming role requiring fluent Finnish and on-site factory commissioning, which does not match Priya's software configuration management and release engineering background.",
+    "reason": "The job requires fluent Finnish as a hard qualification, which the candidate does not possess.",
     "id": "8d3f5c07",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri (Design Engineer), Vantaa tai Tampere, Afry",
@@ -14684,15 +14676,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/90c70084-ebb3-485c-b192-ad312aece9e2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, triggering a hard rejection.",
     "id": "f7d81cef",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2027-03-08",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:44:31+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:44:31+03:00"
   },
   {
     "title": "Privacy, Data & Cyber Regulatory CounselNokiaEspooGo to job site",
@@ -14701,15 +14692,14 @@
     "url": "https://www.jobly.fi/en/job/privacy-data-cyber-regulatory-counsel-2753777",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a qualified lawyer with a minimum of 10 years of post-qualification legal experience, which does not match the candidate's engineering, release management, and technical communication background.",
+    "reason": "The role is a legal counsel position focusing on privacy/data/cyber regulations, which does not align with the candidate's technical/regulated-software experience in configuration management, release engineering, or product-specialist roles.",
     "id": "a8a9aa53",
     "source": "work_in_finland",
     "posted_date": "2026-09-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T09:45:42+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T09:45:42+03:00"
   },
   {
     "title": "Palveluvastaavia p\u00e4\u00e4kaupunkiseudulle",
@@ -14718,15 +14708,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ruokapalveluvastaavia-paakaupunkiseudulle-2748764",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job posting is explicitly closed and no longer accepting applications, and it is for a food service role completely unrelated to the candidate's technical profile.",
+    "reason": "The job requires fluent spoken and written Finnish as a mandatory qualification, which Priya does not possess.",
     "id": "49dc088e",
     "source": "jobly_broad",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T10:04:15+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T10:04:15+03:00"
   },
   {
     "title": "MIG/MAG-hitsaajia telakalle",
@@ -14735,15 +14724,14 @@
     "url": "https://www.jobly.fi/tyopaikka/mig-mag-hitsaajia-telakalle-2748765",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is for a MIG/MAG welder at a shipyard, which completely conflicts with the candidate's software, configuration management, and technical communication background.",
+    "reason": "This is a blue-collar welding job at a shipyard, which violates the hard rejection rule against manufacturing and physical production roles.",
     "id": "1f6f47f4",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T10:04:15+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T10:04:15+03:00"
   },
   {
     "title": "Automotive Testing Analyst - Muonio, Lapland",
@@ -14752,15 +14740,14 @@
     "url": "https://www.jobly.fi/tyopaikka/automotive-testing-hw-analyst-2748761",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer active and no longer accepting applications.",
+    "reason": "The job title 'Automotive Testing Analyst' and description focus on hardware testing in automotive contexts, which does not align with Priya's expertise in software release/CM/DevOps, technical documentation, or regulated-industry quality gatekeeping (her target roles explicitly exclude hardware testing, manufacturing QA, and pure feature-development engineering).",
     "id": "7e342b1e",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T10:04:15+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T10:04:15+03:00"
   },
   {
     "title": "Keitti\u00f6toimen vastaava, vakituinen, HYVINK\u00c4\u00c4",
@@ -14769,15 +14756,14 @@
     "url": "https://www.jobly.fi/tyopaikka/keittiotoimen-vastaava-vakituinen-hyvinkaa-2753855",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a kitchen manager position in the food service industry, which is completely unrelated to the candidate's background in software, release management, configuration management, and technical communication.",
+    "reason": "This is a catering/kitchen manager role in the food service industry, which is completely unrelated to Priya's background in release management, technical communication, and software engineering.",
     "id": "4a9e465a",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T10:04:15+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T10:04:15+03:00"
   },
   {
     "title": "Kaivinkoneenkuljettaja",
@@ -14786,15 +14772,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kaivinkoneenkuljettaja-2748753",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction-related excavator operator role, which falls under the hard rejection rule for manual or physical labor and manufacturing/construction/hardware quality roles.",
+    "reason": "This is an excavator operator role in construction/manual labor, which triggers multiple hard rejections including manufacturing/construction quality and lack of software/engineering component.",
     "id": "2e774467",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T10:04:15+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T10:04:15+03:00"
   },
   {
     "title": "DNA:lle myym\u00e4l\u00e4myyj\u00e4ksi, Lohja",
