@@ -97,3 +97,7 @@ that are close but uncertain on one dimension, and explain why in each case.
 
 ### Automatically Added Negative Constraints (from UI Rejections):
 - NEGATIVE CONSTRAINT: The user explicitly rejected a previous job because: 'salary below 4500'. Do NOT match jobs that have this issue.
+
+
+### Automatically Added Positive Constraints (from UI Approvals):
+- POSITIVE CONSTRAINT: The user explicitly approved a previous job because: 'likes to work for google.customer facing is fine.'. Make sure to MATCH jobs that have this characteristic.
