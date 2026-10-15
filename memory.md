@@ -801,6 +801,10 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
 - Priya's rule (same day): apply to weak/stretch matches too (filled for her review), but auto-submit only strong
   matches. The gate now takes `--fit strong|stretch` (fill-form's own verdict after reading the posting); missing or
   stretch -> review. Before this the gate would have auto-submitted any scraper "yes", e.g. Supercell QE Lead (7afe508f).
+- 2026-10-15: switch turned ON (`shared_state/settings.auto_submit_enabled` = true), and Priya added "for strong
+  matches, ask me before submitting": a job passing every check now gets decision `confirm`, not `auto`, until its
+  `job_status[url].submit_approved` is true (set only from her per-job OK). Unattended runs write a `confirm_submit`
+  action item and never submit. Tested with stubbed status: no approval -> confirm, approval -> auto.
 - The gate reads JSON as `utf-8-sig`: answers files written by PowerShell `Set-Content -Encoding utf8` have a BOM and
   were silently read as "no drafted answers file".
 ## Batch fill-form shortcuts (2026-10-14, 30 "yes" jobs triaged in one run)

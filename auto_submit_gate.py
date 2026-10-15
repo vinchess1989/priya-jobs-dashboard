@@ -6,7 +6,8 @@ pass. Anything that fails a check falls back to the review path, so the safe def
 "don't submit".
 
     python auto_submit_gate.py check  --job-id ID --apply-url URL [--questions Q.json] [--answers A.json]
-        -> prints one JSON line: {"decision": "auto"|"review", "reasons": [...], ...}
+        -> prints one JSON line: {"decision": "auto"|"confirm"|"review", "reasons": [...], ...}
+           "confirm" = every check passed but Priya hasn't OK'd this job yet (job_status[url].submit_approved)
     python auto_submit_gate.py record --job-id ID --result RESULT.json
         -> writes the outcome to Firestore (applied / form_filled / action_item)
 
@@ -205,7 +206,16 @@ def check(job_id, apply_url, questions_path=None, answers_path=None, fit=None):
         if a.get("placeholder") and SALARY_RE.search(a.get("label", "")):
             reasons.append("salary answer left as placeholder")
 
-    return {"decision": "review" if reasons else "auto", "reasons": reasons, "job_url": url,
+    # 9. Priya (2026-10-15): even a job that passes everything is only sent after she OKs that specific job.
+    #    "confirm" = fill it, leave it open and ask her; "auto" only once job_status[url].submit_approved is true.
+    if reasons:
+        decision = "review"
+    elif entry.get("submit_approved") is True:
+        decision = "auto"
+    else:
+        decision = "confirm"
+        reasons.append("all checks passed - waiting for Priya's OK before submitting")
+    return {"decision": decision, "reasons": reasons, "job_url": url,
             "auto_submits_today": today_count, "daily_cap": DAILY_CAP}
 
 

@@ -315,7 +315,7 @@ Ask the gate **right before writing the fill script** (so a star Priya adds to a
 $gate = python "PUBLIC\auto_submit_gate.py" check --job-id "JOB_ID" --apply-url "APPLY_URL" `
     --questions "PRIVATE\Resumes\JOB_ID\JOB_ID_questions.json" --answers "PRIVATE\Resumes\JOB_ID\JOB_ID_answers.json" `
     --fit $Fit | ConvertFrom-Json
-$SubmitMode = $gate.decision   # "auto" or "review"
+$SubmitMode = $gate.decision   # "auto", "confirm" or "review"
 $gate.reasons                  # why not, when "review"
 ```
 (Omit `--questions`/`--answers` if those files don't exist — the gate then answers `review`, since it can't verify the form.)
@@ -323,6 +323,11 @@ $gate.reasons                  # why not, when "review"
 **`$Fit`** (Priya, 2026-10-14: "apply even if it's a weak match, wait for a strong match" for automatic submits) — your honest verdict after reading the full posting against her real profile: `strong` only when she clearly meets the core must-haves (e.g. a release/configuration/DevOps/quality-gatekeeping role where her actual experience covers what the posting centres on); `stretch` whenever one or more core requirements are things she hasn't done hands-on (e.g. building test-automation frameworks, opkg/device-tree embedded work, people leadership of a QA team). When unsure, `stretch`. Stretch jobs are still filled — they just always go to her review.
 
 It answers `auto` only when **every** check passes: the dashboard's auto-submit switch is on; the job is **not starred**; the match is `yes`; it isn't already applied; the apply site isn't LinkedIn or Teamtailor/Biisoni; fewer than 10 automatic submits today on this board; no earlier application to the same company + title on either Priya board and no automatic submit to the same company in the last 7 days; no salary question; no required date of birth; every required field has a real (non-placeholder) answer; no required upload other than CV/cover letter. **Any other outcome is `review`** — never second-guess a `review` into a submit.
+
+**`confirm`** (Priya, 2026-10-15: "for strong matches, ask me before submitting"): every check passed, but she hasn't OK'd *this* job yet. Fill the form exactly as in review mode (the fill script treats anything but `auto` as review) and then:
+- **Interactive session:** after filling, ask her directly — job, company, the answers given, and "Send it now?". Only on a clear yes for that job: `python job_status_store.py set --url "JOB_URL" --field submit_approved --json --value-file <file containing true>`, re-run the gate (it now answers `auto`), re-run the fill script with `SUBMIT_MODE = "auto"` against the same open tab, then Step 6.A. A "no" or no answer leaves it as review.
+- **`$AutoMode` (unattended):** never submit. Write a `confirm_submit` action item (`detail`: `"All auto-submit checks passed - say yes to send: JOB_TITLE @ COMPANY (APPLY_URL)"`), record `form_filled.status = pending_review`, leave the tab open, continue with the next candidate.
+`submit_approved` is per job and is only ever set from her explicit OK — never set it on your own judgement.
 
 Print the decision and reasons in the run log so Priya can see why each job was or wasn't submitted.
 
@@ -482,7 +487,7 @@ It writes Firestore itself, from the script's result:
 
 Print `JOB_ID (JOB_TITLE @ COMPANY) — <outcome from the record command>` plus the screenshot paths. In `$AutoMode`, set `auto_fill_attempted_at` (below) and continue with the next candidate until `$MaxJobs` jobs are handled. Do **not** wait for anyone.
 
-### 6.B — `$SubmitMode == "review"`: hand off for manual review
+### 6.B — `$SubmitMode == "review"` or `"confirm"`: hand off for manual review (for `confirm`, also ask / write the `confirm_submit` action item per Step 3.5)
 
 Immediately after the fill script completes successfully (both modes) — this is what powers `firebase_app/review.html`'s "Filled Forms" tab, so Priya can find and confirm-submit it later even from a different machine/session than the one that filled it:
 ```powershell
