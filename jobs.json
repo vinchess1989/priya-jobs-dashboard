@@ -1866,15 +1866,14 @@
     "url": "https://fi.linkedin.com/jobs/view/application-specialist-erp-at-insta-4458208446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish, which the candidate does not possess, and it is a pure ERP application specialist role lacking the required focus on release management, CI/CD, or quality/traceability engineering.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and the application deadline has already passed.",
     "id": "c80a30ad",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "Implementation Consultant",
@@ -1882,16 +1881,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-thomson-reuters-4458670845",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is primarily a customer-facing implementation and consulting position, which conflicts with the candidate's explicit rejection of customer-facing roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role involves configuration and integration work which aligns with her background, but it is heavily customer-facing and involves pre-sales activities, which she has previously indicated as a negative preference.",
     "id": "2d4e2bf2",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T00:09:29+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T00:09:29+03:00"
   },
   {
     "title": "System Engineer",
