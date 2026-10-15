@@ -811,6 +811,8 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
 - LinkedIn external apply links: open the job in the signed-in automation Chrome over CDP and click Apply only to
   capture the popup URL (guest pages hide it). The same page shows "Not currently accepting applications" /
   "No longer accepting" for closed jobs and "Easy Apply" (leave those to Priya - action item `linkedin_easy_apply`).
+  Some Apply buttons are `<a href="https://www.linkedin.com/safety/go/?url=<encoded external URL>">` - decode the `url`
+  query param instead of clicking (clicking them often doesn't open a popup).
 - Full postings without JS: Ashby `api.ashbyhq.com/posting-api/job-board/<org>` (descriptionPlain, isRemote),
   Greenhouse `boards-api.greenhouse.io/v1/boards/<org>/jobs?content=true`, Personio `<org>.jobs.personio.com/xml`.
   Personio's form is at `/job/<id>/apply`. Ashby/Greenhouse forms label-link their inputs (get_by_label works).
