@@ -7274,15 +7274,14 @@
     "url": "https://thehub.fi/jobs/6aa0264d98baa4d640c5f710",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Clinical Research Assistant position requiring hands-on clinical study experience and patient/site interaction, which falls outside the candidate's technical release, configuration management, and quality engineering profile.",
+    "reason": "The role is a Clinical Research Assistant requiring hands-on clinical study experience and medical/biomedical background, which falls outside the candidate's technical/release/quality engineering domain and violates the clinical license/qualification preference.",
     "id": "8358faec",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "Power Electronics Simulation Engineer, TampereAcademic WorkTampereGo to job site",
@@ -7291,15 +7290,14 @@
     "url": "https://www.jobly.fi/en/job/power-electronics-simulation-engineer-tampere-2753357",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized power electronics simulation engineering position requiring an M.Sc. in Electrical/Power Engineering and hands-on lab work, which falls under the hard rejection for manufacturing/hardware quality/engineering roles and does not align with her software release/CM/DevOps background.",
+    "reason": "The role is a hardware-focused laboratory and power electronics simulation position, which falls under the hard rejection for manufacturing/hardware quality/lab testing roles and lacks the required software release/CM/DevOps component.",
     "id": "976b65f7",
     "source": "work_in_finland",
     "posted_date": "2026-09-29",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "Create your profile",
@@ -7308,15 +7306,14 @@
     "url": "https://tyomarkkinatori.fi/en/teemasivut/job-applicant-profile?mtm_campaign=wif-prof&mtm_kwd=web",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a platform for creating a job seeker profile, not an actual job vacancy to apply for.",
+    "reason": "This is a job-seeker profile creation page on Job Market Finland rather than an actual job vacancy description.",
     "id": "86cb87d9",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "\u201cGreat place to grow professionally\u201dAnand Adhiappan emphasizes specialization for career growth",
@@ -7325,15 +7322,14 @@
     "url": "https://www.workinfinland.com/en/career-guide/anand-adhiappan/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a career guide article and interview feature, not an active job vacancy or application posting.",
+    "reason": "This is a career guide article and interview feature, not an active job vacancy or employment opportunity.",
     "id": "9715a42e",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "\u201cJust like Minnesota \u2013 actually pretty warm\u201d Michael Landolfi moved to Finland in 2022",
@@ -7342,32 +7338,30 @@
     "url": "https://www.workinfinland.com/en/career-guide/michael-landolfi/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a career guide article featuring an employee interview, not an active job vacancy or hiring posting.",
+    "reason": "This is a career guide article featuring an employee interview, not an active job vacancy or recruitment posting.",
     "id": "99d85f2b",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "Career guide",
     "company": "Events",
-    "location": "Extract from page",
+    "location": "Helsinki, Finland",
     "url": "https://www.workinfinland.com/en/career-guide/",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a general career guide website and not a specific job vacancy posting.",
+    "reason": "This is a career guidance and information portal, not a specific job vacancy for employment.",
     "id": "2af2a2c7",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:49:40+03:00"
   },
   {
     "title": "Senior DevOps Engineer - Core Platform Engineering",
@@ -7376,15 +7370,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-devops-engineer-core-platform-engineering-at-iceye-4404995558",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure platform/infrastructure engineering position focused on Kubernetes, cloud networking, and infrastructure-as-code, which falls under the 'Specialist Platforms' hard rejection criteria.",
+    "reason": "The role is a pure Platform/Infrastructure Engineering position focused on Kubernetes and cloud architecture, which falls under the 'Specialist Platforms' hard rejection criteria.",
     "id": "a6a14fd1",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Cloud Engineer",
@@ -7392,16 +7385,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/cloud-engineer-at-zimmer-biomet-4457963479",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is explicitly labeled as an entry-level ('L\u00e4ht\u00f6taso') role, which conflicts with the candidate's 15 years of experience and the hard rejection criteria for entry-level-only positions.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Cloud Engineer position that includes CI/CD and release-related responsibilities, but it is explicitly labeled as 'L\u00e4ht\u00f6taso' (Entry-level), which conflicts with the candidate's 15 years of experience.",
     "id": "17b09ffb",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Cloud Engineer (Kubernetes Service)",
@@ -7410,15 +7402,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-engineer-kubernetes-service-at-kumorion-4448831201",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure platform/infrastructure engineering position focused on building Kubernetes services and operators, which falls under the 'Specialist Platforms' hard rejection criteria.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role focuses on building cloud infrastructure/Kubernetes platforms rather than the release/CM/quality core required.",
     "id": "7b12e96e",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Staff Cloud Platform Engineer - Cloud Developer Experience",
@@ -7427,15 +7418,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-cloud-platform-engineer-cloud-developer-experience-at-alphasense-4439300705",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role focuses on CI/CD pipeline ownership, release management, and developer experience, which aligns perfectly with the candidate's extensive background in DevOps and release engineering.",
+    "reason": "The role is a strong match for her DevOps and CI/CD pipeline ownership experience, is located in Helsinki, and aligns with her background in platform engineering and release management.",
     "id": "7d70a4bf",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": "job_descriptions/alphasense_staff_cloud_platform_engineer__7d70a4bf.txt",
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Senior Infrastructure Engineer",
@@ -7444,15 +7434,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-infrastructure-engineer-at-searchapi-4434478899",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure infrastructure/platform engineering position focused on building and operating cloud systems, which falls under the hard rejection for platform/infrastructure roles lacking a core release, CM, or quality component.",
+    "reason": "The role is a pure infrastructure/platform engineering position focused on building and operating systems, which falls under the 'Pure Feature-Development/Platform Engineering' rejection criteria as it lacks the required release, configuration-management, or quality-gatekeeping core.",
     "id": "2e007195",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "3 kuukautta sitten",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Senior Cloud Engineer",
@@ -7461,15 +7450,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-engineer-at-supercell-4428242305",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role involves significant CI/CD pipeline ownership, automation, and governance, which aligns with the candidate's core DevOps and release management expertise.",
+    "reason": "The role involves CI/CD pipeline ownership, automation, and governance, which aligns with her expertise in DevOps and release management, and it is located in Finland.",
     "id": "25dcdff8",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": "job_descriptions/supercell_senior_cloud_engineer_25dcdff8.txt",
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Platform Engineer - LLM Inference Infrastructure",
@@ -7478,15 +7466,14 @@
     "url": "https://fi.linkedin.com/jobs/view/platform-engineer-llm-inference-infrastructure-at-verda-4463273099",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on building backend services in Go, which falls under the hard rejection for pure feature-development roles.",
+    "reason": "The role is a pure backend software engineering position focused on building AI cloud services and LLM inference infrastructure, which violates the hard rejection against pure feature-development software engineering roles.",
     "id": "94865744",
     "source": "linkedin_fi_devops_engineer",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:52:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:52:38+03:00"
   },
   {
     "title": "Cloud Engineer (AWS/Azure)",
@@ -7495,15 +7482,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cloud-engineer-aws-azure-at-solita-4453450375",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish ('Sujuva suomen ja englannin kielen taito'), which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish ('Sujuva suomen ja englannin kielen taito'), which is a hard rejection criterion as the candidate does not speak Finnish.",
     "id": "f813c5f1",
     "source": "linkedin_fi_devops_engineer_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "4 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Devops Sysadmin",
@@ -7512,15 +7498,14 @@
     "url": "https://fi.linkedin.com/jobs/view/devops-sysadmin-at-phz-full-stack-4449061903",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily focused on IT support and system administration rather than the release management, configuration management, or quality/traceability core required by the candidate's profile.",
+    "reason": "The role is primarily a Sysadmin/IT support position involving physical hardware maintenance and general infrastructure management, which falls outside the candidate's specialized focus on release management, CI/CD pipeline ownership, and quality/regulatory compliance.",
     "id": "eab77ec4",
     "source": "linkedin_fi_devops_engineer_p2",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2 kuukautta sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:55:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:55:45+03:00"
   },
   {
     "title": "Google Cloud Engineer",
