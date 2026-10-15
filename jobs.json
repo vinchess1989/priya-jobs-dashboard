@@ -1714,22 +1714,6 @@
     "added_at": "2026-09-09T00:06:39+03:00"
   },
   {
-    "title": "Staff Engineer \u2013 Core Developer Experience (DevEx)",
-    "company": "AlphaSense",
-    "location": "Helsinki, Uusimaa, Finland",
-    "url": "https://fi.indeed.com/rc/clk?jk=223c30814249e037",
-    "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role focuses on Developer Experience (DevEx), which involves CI/CD pipeline ownership and tooling for software delivery, aligning with the candidate's extensive background in DevOps and release management.",
-    "id": "f6bb3fc1",
-    "source": "indeed_fi_devops_engineer_p3",
-    "posted_date": "N/A",
-    "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/alphasense_staff_engineer___core_develope_f6bb3fc1.txt",
-    "added_at": "2026-09-09T00:06:39+03:00"
-  },
-  {
     "title": "Senior Data Arkkitehti",
     "company": "Vivicta",
     "location": "Espoo, Finland",
@@ -6570,15 +6554,14 @@
     "url": "https://fi.linkedin.com/jobs/view/avoin-hakemus-at-bravida-finland-oy-4297427419",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is an 'Avoin hakemus' (Open Application) page for LinkedIn, not a specific job vacancy with defined responsibilities, making it impossible to assess against the required domain or role criteria.",
+    "reason": "This is an open application for a construction industry company, which falls under the hard rejection for construction-related roles and lacks the required focus on software release, configuration management, or quality engineering.",
     "id": "3238ec02",
     "source": "linkedin_fi_broad",
-    "posted_date": "N/A",
-    "deadline": "N/A",
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Avoin hakemus",
@@ -6590,12 +6573,11 @@
     "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "3456df88",
     "source": "linkedin_fi_broad",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:25:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:25:40+03:00"
   },
   {
     "title": "Kotlin Backend Engineer - Retail Group",
@@ -6604,15 +6586,14 @@
     "url": "https://fi.linkedin.com/jobs/view/kotlin-backend-engineer-retail-group-at-wolt-4456899573",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on building microservices, which violates the hard rejection criteria regarding her career focus.",
+    "reason": "The role is a pure feature-development software engineering position focused on building microservices, which violates the hard rejection against pure feature-development roles.",
     "id": "bdeb47b7",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Staff Backend Engineer (Remote)",
@@ -6621,15 +6602,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-backend-engineer-remote-at-nango-4424395865",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a hands-on 'Staff Backend Engineer' focused on greenfield product development, which violates the hard rejection against pure feature-development software engineering roles.",
+    "reason": "The job posting is for a 'Staff Backend Engineer' role, which falls under the hard rejection for pure feature-development software engineering with no release, configuration-management, or CI/CD-ownership component.",
     "id": "09bcbf2f",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "(Senior) Applied Scientist, Recommendations",
@@ -6638,15 +6618,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-applied-scientist-recommendations-at-wolt-4458995064",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Applied Scientist/Machine Learning position, which falls under the hard rejection for specialist platforms/AI/ML roles that lack a core focus on release, configuration management, or quality engineering.",
+    "reason": "The role is a pure machine learning/applied science position focused on recommendation systems, which falls under the hard rejection for feature-development/platform-specialist roles that lack a release, configuration-management, or quality-core component.",
     "id": "852e95f9",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Staff Security Engineer",
@@ -6655,15 +6634,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-security-engineer-at-supermetrics-4437285250",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure security engineering position focused on security architecture, threat modeling, and DevSecOps, which falls under the 'Specialist Platforms/Architecture' hard rejection criteria as it lacks a core focus on release management, configuration management, or quality/traceability.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted.",
     "id": "317a7ace",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Project Quantity Surveyor",
@@ -6672,15 +6650,14 @@
     "url": "https://fi.linkedin.com/jobs/view/project-quantity-surveyor-at-flynn-4462794218",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction-industry quantity surveying position, which falls under the hard rejection for manufacturing/construction quality roles and does not align with the candidate's software/IT release and configuration management background.",
+    "reason": "The role is a construction-industry Quantity Surveyor position, which falls under the hard rejection for manufacturing/construction quality roles and does not align with the candidate's software/embedded release and configuration management background.",
     "id": "2965af24",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Trust Safety Research Scientist",
@@ -6689,15 +6666,14 @@
     "url": "https://fi.linkedin.com/jobs/view/trust-safety-research-scientist-at-microtech-global-ltd-4448163625",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized AI research position requiring a PhD and deep expertise in LLM/VLM architecture, which falls outside the candidate's core background in release management, configuration management, and technical documentation.",
+    "reason": "The role is a specialized AI/ML research position requiring a PhD and deep learning research expertise, which does not align with the candidate's background in release management, configuration management, and technical documentation.",
     "id": "d50cb62d",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Browser / Kernel Engineer",
@@ -6706,15 +6682,14 @@
     "url": "https://fi.linkedin.com/jobs/view/browser-kernel-engineer-at-searchapi-4434455232",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a pure software engineering position focused on browser-engine development and C++ patching, which falls under the hard rejection for pure feature-development software engineering.",
+    "reason": "The role is a pure feature-development software engineering position focused on C++ browser engine patching, which falls under the hard rejection for pure software engineering roles.",
     "id": "1b589094",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Senior Researcher, Explainable AI",
@@ -6723,15 +6698,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-researcher-explainable-ai-at-huawei-4461903275",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure AI research role requiring a Ph.D. and deep machine learning expertise, which falls under the hard rejection for specialist platforms/architecture roles that lack a release, configuration management, or quality core.",
+    "reason": "The role is a pure AI research position requiring a Ph.D. and deep machine learning development, which falls under the 'Pure Feature-Development Software Engineering' and 'Specialist Platforms' hard rejections.",
     "id": "bd5fd146",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Senior Backend Engineer (Node.js)",
@@ -6740,15 +6714,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-backend-engineer-node-js-at-scrambly-4448044445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on building backend systems, which violates the hard rejection criteria against roles primarily focused on writing new application features.",
+    "reason": "This is a pure feature-development software engineering role focused on building backend systems and APIs, which violates the hard rejection against pure feature-development roles.",
     "id": "ed279908",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Generative AI Pipeline Engineer (Tech Lead)",
@@ -6757,15 +6730,14 @@
     "url": "https://fi.linkedin.com/jobs/view/generative-ai-pipeline-engineer-tech-lead-at-capslock-4446831140",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role is a pure AI/ML engineering position that falls outside the candidate's core focus on release, configuration management, and quality assurance.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role is a pure AI/ML engineering position which falls under the hard rejection for feature-development software engineering.",
     "id": "4eb07dbc",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Java Engineer",
@@ -6774,15 +6746,14 @@
     "url": "https://fi.linkedin.com/jobs/view/java-engineer-at-finnplay-4463309629",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position, which is a hard rejection, and the application period is closed.",
+    "reason": "The role is a pure feature-development software engineering position (Java Engineer) and the job posting explicitly states that applications are no longer being accepted.",
     "id": "1352bcda",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "4 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Software Development Engineer II (Full-stack Engineer)",
@@ -6791,15 +6762,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-development-engineer-ii-full-stack-engineer-at-mapbox-4212916344",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure full-stack software engineering position focused on feature development, which violates the hard rejection criteria for software engineering roles.",
+    "reason": "The role is a pure full-stack software engineering position focused on feature development and building services, which violates the hard rejection against pure feature-development roles.",
     "id": "b2bbda8a",
     "source": "linkedin_fi_broad_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Senior Researcher, Agentic Safety & Alignment",
@@ -6808,15 +6778,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-researcher-agentic-safety-alignment-at-huawei-4403947794",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized AI research position requiring a Ph.D. and a strong academic publication record, which does not align with the candidate's background in release management, configuration management, and technical communication.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted, and the role requires a Ph.D. in a research-focused AI field which does not align with the candidate's background in release management and technical communication.",
     "id": "30e9a14e",
     "source": "linkedin_fi_broad_p2",
     "posted_date": "5 kuukautta sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T03:28:38+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T03:28:38+03:00"
   },
   {
     "title": "Senior Quantity Surveyor",
