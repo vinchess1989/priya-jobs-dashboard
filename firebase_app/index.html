@@ -1614,17 +1614,20 @@
         function fetchJobsData() {
             Promise.all([
                 fetch('https://vinchess1989.github.io/priya-jobs-dashboard/jobs.json?nocache=' + new Date().getTime()),
-                fetch('https://vinchess1989.github.io/priya-jobs-dashboard/deleted.json?nocache=' + new Date().getTime()).catch(() => null)
+                fetch('https://vinchess1989.github.io/priya-jobs-dashboard/deleted.json?nocache=' + new Date().getTime()).catch(() => null),
+                fetch('https://vinchess1989.github.io/priya-jobs-dashboard/scraper_status.json?nocache=' + new Date().getTime()).catch(() => null)
             ])
                 .then(responses => {
                     const lastMod = responses[0].headers.get('Last-Modified');
                     return Promise.all([
                         responses[0].json(),
-                        responses[1] && responses[1].ok ? responses[1].json() : Promise.resolve([])
-                    ]).then(([data, deletedData]) => ({ data, deletedData, lastMod }));
+                        responses[1] && responses[1].ok ? responses[1].json() : Promise.resolve([]),
+                        responses[2] && responses[2].ok ? responses[2].json().catch(() => null) : Promise.resolve(null)
+                    ]).then(([data, deletedData, scraperStatus]) => ({ data, deletedData, scraperStatus, lastMod }));
                 })
-                .then(({ data, deletedData, lastMod }) => {
+                .then(({ data, deletedData, scraperStatus, lastMod }) => {
                     window.deletedJobsData = deletedData || [];
+                    window.scraperStatus = scraperStatus;
                     onDataLoaded(data, lastMod, 'Server Connection Active');
                 })
                 .catch(err => {
@@ -1682,28 +1685,69 @@
             reader.readAsText(file);
         }
 
+        function formatAge(ms) {
+            const m = Math.max(0, Math.round(ms / 60000));
+            if (m < 1) return 'just now';
+            if (m < 60) return m + ' min ago';
+            const h = Math.floor(m / 60);
+            if (h < 48) return h + 'h ' + (m % 60) + 'm ago';
+            return Math.floor(h / 24) + ' days ago';
+        }
+
+        // Green = scraper heartbeat fresh; amber = quiet for a while; red = hung/dead (or no heartbeat file).
+        function renderScraperHealth() {
+            const base = window.connectionBaseMsg || 'Server Connection Active';
+            const st = window.scraperStatus;
+            let level = 'ok', text = base, tip = '';
+            if (!st || !st.heartbeat_at) {
+                level = 'warn';
+                text = base + ' · scraper status unknown';
+                tip = 'scraper_status.json is missing - the scraper has not published a heartbeat yet.';
+            } else {
+                const age = Date.now() - new Date(st.heartbeat_at).getTime();
+                const lastOk = st.last_scrape_ok_at ? formatAge(Date.now() - new Date(st.last_scrape_ok_at).getTime()) : 'never';
+                const where = (st.phase || '?') + (st.detail ? ' - ' + st.detail : '');
+                const err = st.last_error ? '\nLast error (' + st.last_error.at + '): ' + st.last_error.message : '';
+                tip = 'Scraper heartbeat ' + formatAge(age) + '\nPhase: ' + where + '\nLast successful scrape: ' + lastOk + err;
+                if (age > 2 * 3600000 || st.phase === 'hung') {
+                    level = 'bad';
+                    text = '⛔ Scraper not responding · last activity ' + formatAge(age);
+                } else if (age > 45 * 60000) {
+                    level = 'warn';
+                    text = '⚠️ Scraper quiet · last activity ' + formatAge(age);
+                } else {
+                    text = '✅ Scraper running · ' + formatAge(age);
+                }
+            }
+            fileStatusDot.classList.toggle('connected', level === 'ok');
+            const colors = { ok: '', warn: '#f59e0b', bad: '#ef4444' };
+            fileStatusDot.style.background = colors[level];
+            fileStatusDot.style.boxShadow = level === 'ok' ? '' : '0 0 8px ' + colors[level];
+            fileStatusText.textContent = text;
+            fileStatusText.style.color = level === 'bad' ? '#fca5a5' : '';
+            fileStatusText.title = tip;
+            const wrap = fileStatusText.parentElement;
+            if (wrap) wrap.title = tip || base;
+        }
+        setInterval(() => { if (window.connectionBaseMsg) renderScraperHealth(); }, 60000);
+        // Re-read the heartbeat every 5 min so an open tab notices a scraper dying without a reload.
+        setInterval(() => {
+            if (!window.connectionBaseMsg) return;
+            fetch('https://vinchess1989.github.io/priya-jobs-dashboard/scraper_status.json?nocache=' + Date.now())
+                .then(r => r.ok ? r.json() : null)
+                .then(s => { if (s) { window.scraperStatus = s; renderScraperHealth(); } })
+                .catch(() => {});
+        }, 300000);
+
         function onDataLoaded(jobs, lastMod, statusMsg) {
             allJobs = jobs;
             
-            // Set Connection indicators
-            if (lastMod) {
-                const lastModDate = new Date(lastMod);
-                const hoursSinceUpdate = (new Date() - lastModDate) / (1000 * 60 * 60);
-                if (hoursSinceUpdate > 24) {
-                    fileStatusDot.classList.remove('connected');
-                    fileStatusDot.style.background = '#f59e0b';
-                    fileStatusDot.style.boxShadow = '0 0 8px #f59e0b';
-                    fileStatusText.innerHTML = `${statusMsg} <span style="color: #fca5a5; font-size: 0.8rem; margin-left: 5px;" title="Data is older than 24h. Scraper might be down.">⚠️ Stale Data</span>`;
-                } else {
-                    fileStatusDot.classList.add('connected');
-                    fileStatusDot.style.background = '';
-                    fileStatusDot.style.boxShadow = '';
-                    fileStatusText.textContent = statusMsg;
-                }
-            } else {
-                fileStatusDot.classList.add('connected');
-                fileStatusText.textContent = statusMsg;
-            }
+            // "Server Connection" only proves GitHub Pages served jobs.json. Whether the scraper is
+            // alive comes from scraper_status.json's heartbeat (and the Last-Modified header is the
+            // Pages deploy time, which unrelated commits refresh - so it can't be trusted for that).
+            window.connectionBaseMsg = statusMsg;
+            window.jobsFileLastMod = lastMod;
+            renderScraperHealth();
 
             if (allJobs.length === 0) {
                 jobsContainer.innerHTML = '<div class="empty-state">No jobs found in jobs.json. Please run the scraper first!</div>';
@@ -1763,7 +1807,10 @@
             const infoBar = document.createElement('div');
             infoBar.className = 'table-info-bar';
             
-            const dateText = lastMod ? new Date(lastMod).toLocaleString() : new Date().toLocaleString();
+            // Prefer the scraper's own last-successful-scrape time over the Pages deploy time (Last-Modified).
+            const scrapedAt = window.scraperStatus && window.scraperStatus.last_scrape_ok_at;
+            const dateText = scrapedAt ? new Date(scrapedAt).toLocaleString()
+                : (lastMod ? new Date(lastMod).toLocaleString() : new Date().toLocaleString());
             infoBar.innerHTML = `
                 <div class="table-info-item" style="align-items: flex-start; margin-right: auto; flex-direction: row; gap: 15px;">
                     <span class="table-info-value" style="font-size: 0.825rem; font-weight: 500; color: var(--text-secondary); margin-top: 5px;">

@@ -232,6 +232,58 @@ _DEFAULT_SCROLL_COUNT = 8
 # Main loop: max time between scrape passes while a review backlog is pending.
 SCRAPE_INTERVAL_SECONDS = 3600
 
+# Heartbeat: scraper_status.json is committed with jobs.json (update_git) and read by the
+# dashboard, so a hung or dead scraper shows up as a stale heartbeat instead of a green
+# "Server Connection Active" (which only proves GitHub Pages is serving jobs.json).
+STATUS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scraper_status.json")
+# No progress for this long = hung (a dead Playwright driver froze the loop 2026-10-13 for 2 days).
+WATCHDOG_TIMEOUT_SECONDS = 45 * 60
+_status = {"pid": os.getpid(), "started_at": None, "heartbeat_at": None, "phase": "starting",
+           "detail": "", "last_scrape_ok_at": None, "last_error": None}
+_last_progress = time.monotonic()
+_status_lock = threading.Lock()
+
+
+def _progress(phase=None, detail=None, scrape_ok=False, error=None):
+    """Record forward progress: resets the watchdog and refreshes scraper_status.json."""
+    global _last_progress
+    now = datetime.now().astimezone().isoformat(timespec='seconds')
+    with _status_lock:
+        _last_progress = time.monotonic()
+        if _status["started_at"] is None:
+            _status["started_at"] = now
+        _status["heartbeat_at"] = now
+        if phase is not None:
+            _status["phase"] = phase
+        if detail is not None:
+            _status["detail"] = detail
+        if scrape_ok:
+            _status["last_scrape_ok_at"] = now
+        if error is not None:
+            _status["last_error"] = {"at": now, "message": str(error)[:300]}
+        try:
+            tmp = STATUS_FILE + ".tmp"
+            with open(tmp, 'w', encoding='utf-8') as f:
+                json.dump(_status, f, indent=2)
+            os.replace(tmp, STATUS_FILE)
+        except Exception:
+            pass
+
+
+def _start_watchdog():
+    """Exit the process if nothing has made progress for WATCHDOG_TIMEOUT_SECONDS, so the
+    orchestrator restarts a fresh scraper instead of sitting on a hung one for days."""
+    def run():
+        while True:
+            time.sleep(60)
+            idle = time.monotonic() - _last_progress
+            if idle > WATCHDOG_TIMEOUT_SECONDS:
+                print(f"WATCHDOG: no progress for {int(idle // 60)} min "
+                      f"(phase={_status['phase']}, {_status['detail']}) - exiting so the orchestrator restarts the scraper.")
+                _progress(phase="hung", error=f"Watchdog: no progress for {int(idle // 60)} min")
+                os._exit(3)
+    threading.Thread(target=run, daemon=True).start()
+
 
 def _page_url(base_url: str, platform: str, page_idx: int) -> str:
     if page_idx == 0:
@@ -774,6 +826,7 @@ def scrape_all_jobs(max_jobs=200):
         while current_idx < len(targets) and len(all_extracted_jobs) < limit:
             target = targets[current_idx]
             print(f"\nNavigating to {target['url']} (Site: {target['id']}) ...")
+            _progress("scraping", f"{target['id']} ({current_idx + 1}/{len(targets)})")
             try:
                 page.goto(target['url'], timeout=60000)
                 scroll_count = target.get('scroll_count', _DEFAULT_SCROLL_COUNT)
@@ -811,6 +864,12 @@ def scrape_all_jobs(max_jobs=200):
                 print(f"Added {added} new unseen jobs from this source.")
             except Exception as e:
                 print(f"Failed to scrape {target['id']}: {e}")
+                _progress(error=f"{target['id']}: {e}")
+                if any(s in str(e) for s in ("Connection closed", "Target closed", "Target page, context or browser has been closed")):
+                    # The Playwright driver/browser is dead: every later call would hang or fail.
+                    # Stop this pass (checkpoint keeps its place) and let the next pass relaunch.
+                    print("ERROR: Playwright driver is gone - aborting this scrape pass.")
+                    break
                 # Reset page to a clean state so the next goto() isn't interrupted
                 # by an unresolved navigation left behind by this failure.
                 try:
@@ -820,7 +879,10 @@ def scrape_all_jobs(max_jobs=200):
 
             current_idx += 1
 
-        browser.close()
+        try:
+            browser.close()
+        except Exception:
+            pass
 
     print(f"\nTotal new jobs fetched in this run: {len(all_extracted_jobs)}")
     print(f"Stopped at target index: {current_idx} out of {len(targets)}")
@@ -1662,6 +1724,7 @@ def review_pending_jobs(specific_urls=None):
             if stop_event.is_set():
                 break
             print(f"Reviewing: {job['title']} at {job['url']}")
+            _progress("reviewing", f"{job['title']}"[:120])
             try:
                 page.goto(job['url'], timeout=60000)
 
@@ -1906,7 +1969,7 @@ def update_git():
 
         # Add updated files
         subprocess.run(["git", "add", "jobs.json", "seen_urls.json", "checkpoint.json",
-                        "job_descriptions", "jobs_history.json", "deleted.json"],
+                        "job_descriptions", "jobs_history.json", "deleted.json", "scraper_status.json"],
                        check=True, timeout=120, **git_kw)
         # Only commit if something was actually staged (git diff --cached avoids false positives
         # from unstaged working-tree changes like .firebase cache or other untracked files)
@@ -2462,6 +2525,8 @@ def main():
     self_heal_dates()
 
     print("INFO: Scraper script starting execution loop...")
+    _progress("starting", "execution loop")
+    _start_watchdog()
     # Start the background thread to listen for user input
     input_thread = threading.Thread(target=listen_for_input, daemon=True)
     input_thread.start()
@@ -2470,6 +2535,7 @@ def main():
     last_scrape_at = 0.0
 
     while not stop_event.is_set():
+        _progress("idle", "polling")
         try:
             poll_firebase_feedback()
         except Exception as e:
@@ -2546,6 +2612,7 @@ def main():
             if _tee_logger:
                 _tee_logger.start_capture()
             new_jobs = scrape_all_jobs(max_jobs=quota)
+            _progress("scraped", f"{len(new_jobs)} new jobs", scrape_ok=True)
             if _tee_logger:
                 _tee_logger.stop_capture()
                 if _checkpoint_reached_end():

@@ -818,3 +818,19 @@ Gotcha: job_status contains a non-job `initialized` placeholder field - code ite
 `upstream` = `vinchess1989/...` (the live board). A plain `git pull` says "Already up to date" while being
 hundreds of commits behind - use `git pull --ff-only upstream main`. The auto-submit gate reads this
 checkout's `jobs.json` for cross-board duplicates, so a stale copy weakens that check.
+
+## Scraper heartbeat + watchdog (2026-10-15)
+- Incident: on 2026-10-13 11:39 a Playwright error (Mouse.wheel: Connection closed while reading from the driver) left the
+  scraper hung (no log, no commits) for 2 days while the dashboard still said "Server Connection Active". The daily 08:00
+  task returned 0x800710E0 because the hung instance was still "Running". "Server Connection Active" only meant GitHub Pages
+  served jobs.json, and "Last Updated" was the Pages Last-Modified (deploy time, bumped by unrelated commits).
+- Fix: scraper.py _progress() writes scraper_status.json (heartbeat_at, phase, detail, last_scrape_ok_at, last_error);
+  committed by update_git(). A watchdog thread os._exit(3)s after 45 min without progress. The scrape loop breaks on a dead
+  driver ("Connection closed"/"Target closed"). orchestrator.py restarts the scraper up to 10x with backoff on abnormal exit.
+- Dashboard (irebase_app/index.html, 
+enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scraper
+  not responding" (>2h or phase=hung); hover shows phase/last scrape/last error. "Last Updated" uses last_scrape_ok_at.
+  Re-reads the heartbeat every 5 min. Falls back to amber "scraper status unknown" if the file is missing.
+- Note: vineethkaimal1989@gmail.com is Read-Only/not in firestore.rules isAuthorized, so the heartbeat deliberately lives in a
+  Pages-served file, not Firestore.
+- TODO parity: same change is applicable to manju_jobs / vineeth_jobs / priya_global_jobs / manju_uk_jobs (same scraper shape).

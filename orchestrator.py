@@ -2,6 +2,7 @@ import os
 import subprocess
 import json
 import sys
+import time
 
 class TeeLogger:
     def __init__(self, log_path):
@@ -72,7 +73,17 @@ def main():
     # _call_llm_with_fallback + git commit/push all in one) -- unlike vineeth_jobs's
     # orchestrator, there are no separate curate_jobs.py/evaluate_with_local_llm.py
     # steps here; those don't exist in this project and would just fail if called.
-    if not run_script("scraper.py"): return
+    # The scraper loops forever, so any exit is abnormal: a crash, or its own watchdog killing a
+    # hung run (exit 3). Restart it (a hang on 2026-10-13 went unnoticed for 2 days because the
+    # orchestrator only ran once a day), backing off so a crash loop doesn't spin.
+    for attempt in range(1, 11):
+        if run_script("scraper.py"):
+            break
+        print(f"Scraper exited abnormally (attempt {attempt}/10) - restarting in {min(60 * attempt, 600)}s...")
+        time.sleep(min(60 * attempt, 600))
+    else:
+        print("ERROR: scraper kept failing - giving up until the next scheduled run.")
+        return
 
     print("\nOrchestrator finished successfully!")
 
