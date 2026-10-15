@@ -4593,16 +4593,15 @@
     "location": "Lisboa, Lisbon, Portugal",
     "url": "https://pt.linkedin.com/jobs/view/platform-release-manager-remote-at-capgemini-engineering-4446334454",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, and is not a remote role open to candidates living in Finland, violating the location requirements.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a strong match for her release management experience, but it is listed as 'Remote' with a specific location in Lisbon, Portugal, and it is unclear if the role is open to candidates residing in Finland.",
     "id": "28ac396f",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager",
@@ -4618,8 +4617,7 @@
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager F/H",
@@ -4635,8 +4633,7 @@
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager H/F",
@@ -4645,15 +4642,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-h-f-at-nexton-4460608285",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bordeaux, France, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "a8805ff8",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Release Manager",
@@ -4662,15 +4658,14 @@
     "url": "https://ro.linkedin.com/jobs/view/release-manager-at-luxoft-romania-4463324922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bucharest, Romania, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is physically located in Bucharest, Romania, and the posting explicitly states it is no longer accepting applications.",
     "id": "6374e946",
     "source": "linkedin_eu_remote_release_manager_p2",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:08:59+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:08:59+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -4697,15 +4692,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=eb87a3128e33d0d3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction-site-based electrical engineering role focused on physical infrastructure and building projects, which falls under the hard rejection for manufacturing/construction quality roles.",
+    "reason": "The role is a construction-site electrical engineering position focused on physical installation, sub-contractor management, and site operations, which falls under the hard rejection for manufacturing/construction quality roles.",
     "id": "ad9631e6",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Quality Engineer",
@@ -4714,15 +4708,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ce1edd90b95e96c9",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction/manufacturing quality engineering position focused on physical site inspections and ITPs, which falls under the hard rejection for manufacturing/construction quality roles with no software-release or configuration-management component.",
+    "reason": "The role is a construction/manufacturing quality engineering position focused on site inspections and physical installation, which falls under the hard rejection for manufacturing/construction quality roles.",
     "id": "d18c740c",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Electrical Engineer",
@@ -4731,15 +4724,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a7a961593a7e5134",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction-site electrical engineering role focused on physical site operations, hardware installation, and construction management, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
+    "reason": "The role is a construction/site-based electrical engineering position focused on physical site operations and hardware installation, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
     "id": "e56e8d80",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Mechanical Engineer",
@@ -4748,15 +4740,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8192260d7070764c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a mechanical construction engineering role focused on physical site operations and mechanical systems, which falls under the hard rejection for manufacturing/construction quality roles.",
+    "reason": "This is a mechanical construction engineering role focused on physical site operations and mechanical systems, which falls under the hard rejection for manufacturing/construction quality roles with no software-release or configuration-management component.",
     "id": "467b3491",
     "source": "indeed_fi_release_manager",
     "posted_date": "N/A",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Technical Release Manager",
@@ -4765,15 +4756,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/technical-release-manager-stshe-20441694",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that the application period has ended.",
+    "reason": "The job posting explicitly states that the application period for this position has ended.",
     "id": "95c0786a",
     "source": "duunitori_release_manager",
     "posted_date": "2026-07-21",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Technical Sales Specialist",
@@ -4782,15 +4772,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-specialist-at-insta-4459506896",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a technical sales role focused on defense industry operations rather than the candidate's core background in software release, configuration management, or quality assurance.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a technical sales role that does not align with her core background in release management, configuration management, or quality engineering.",
     "id": "348193b1",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Product Line Specialist",
@@ -4799,15 +4788,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-line-specialist-at-amcor-4407884333",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a commercial/sales-support product management position focused on market analysis and pricing, lacking the required release, configuration management, or technical quality/traceability core.",
+    "reason": "This role is a commercial/sales-support product management position focused on market analysis and pricing, which falls under the 'Specialist Platforms, Architecture or Line Management' rejection criteria as it lacks a release, configuration-management, or quality-engineering core.",
     "id": "bf32ec10",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "5 kuukautta sitten",
+    "posted_date": "h\u00e1 5 meses",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Field Clinical Specialist, EP (Southern Finland)",
@@ -4816,15 +4804,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-clinical-specialist-ep-southern-finland-at-boston-scientific-4445987866",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires professional proficiency in Finnish and is a clinical field-based position, which falls outside the candidate's technical/quality/release management domain and language requirements.",
+    "reason": "The role requires professional proficiency in Finnish, which the candidate does not possess, and it is a clinical-focused role requiring medical/clinical experience.",
     "id": "4be33b07",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Product Specialist",
@@ -4851,15 +4838,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-application-engineer-electrification-at-danfoss-4436935000",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a technical application engineering position focused on electric machines and power electronics, which falls under the 'Specialist Platforms, Architecture or Line Management' rejection criteria as it lacks a core focus on software release, configuration management, or quality/traceability.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications, and the role focuses on hardware-centric application engineering rather than software release, configuration management, or quality assurance.",
     "id": "9a58d1f7",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-06",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Digimyynnin ja teknisen kehityksen asiantuntija",
@@ -4868,15 +4854,14 @@
     "url": "https://fi.linkedin.com/jobs/view/digimyynnin-ja-teknisen-kehityksen-asiantuntija-at-staffpoint-oy-4462299347",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role requires fluent Finnish language skills and focuses on digital sales and e-commerce business development rather than Priya's core technical communication, release management, or configuration management background.",
+    "reason": "The job requires fluent Finnish, which the candidate does not possess, and the role is primarily focused on digital sales and e-commerce business development rather than the candidate's core expertise in release management, CI/CD, or quality/regulatory compliance.",
     "id": "0fbb1090",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T01:13:41+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T01:13:41+03:00"
   },
   {
     "title": "Forestry Specialist, Digital Solutions",
