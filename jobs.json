@@ -15555,17 +15555,15 @@
     "location": "Hyvink\u00e4\u00e4, Finland",
     "url": "https://www.jobly.fi/tyopaikka/palvelutiskimyyja-2700374",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The job is a sales role (Service Sales Representative) which falls under the hard-rejection category for quota-carrying sales positions, even though it is not explicitly labeled as 'Product Specialist'.",
     "id": "88b15521",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T13:39:35+03:00",
-    "error_attempts": 1,
-    "last_error_at": "2026-10-16T01:03:29+03:00"
+    "added_at": "2026-09-09T13:39:35+03:00"
   },
   {
     "title": "Kattopinnoittaja / -maalari",
@@ -15637,17 +15635,15 @@
     "location": "Helsinki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/head-growth-marketing-2706927",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "The role 'Head of Growth Marketing' does not align with Priya's target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) and focuses on marketing rather than technical/software delivery or quality compliance.",
     "id": "4bd95077",
     "source": "jobly_broad",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T13:39:35+03:00",
-    "error_attempts": 1,
-    "last_error_at": "2026-10-16T01:12:49+03:00"
+    "added_at": "2026-09-09T13:39:35+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6alan ammattilaiset datakeskusty\u00f6maalle Kouvola",
@@ -15964,15 +15960,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lvi-taitoinen-kiinteistonhoitaja-2749180",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Finnish HVAC maintenance position unrelated to the candidate\u2019s release/CM/technical writing expertise and is already closed.",
+    "reason": "The job title and description indicate a technical maintenance/operations role (HVAC/building maintenance), which does not align with Priya's target domains of configuration management, release engineering, DevOps, or regulated-industry quality roles.",
     "id": "1ee8351d",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:43:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:43:52+03:00"
   },
   {
     "title": "Kokoonpanija",
@@ -15981,15 +15976,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokoonpanija-2734394",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Kokoonpanija' (Assembler) and description imply a manufacturing/production role unrelated to configuration management, release engineering, or technical documentation, which are core to the candidate's expertise.",
+    "reason": "The job description is incomplete and only displays a bot-verification page from Jobly.fi with no actual role details, making it impossible to assess fit against the candidate's requirements.",
     "id": "a5dc22b0",
     "source": "jobly_broad",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:43:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:43:52+03:00"
   },
   {
     "title": "Myyj\u00e4, Silm\u00e4asema Jyv\u00e4skyl\u00e4",
@@ -15998,15 +15992,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-silmaasema-jyvaskyla-2749162",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a sales/retail position (Myyj\u00e4/Salesperson) at an optician store, which falls under the 'customer facing' hard rejection and does not align with the candidate's technical/release-management background.",
+    "reason": "The job is a sales role ('Myyj\u00e4') which falls under the hard rejection category for quota-carrying sales positions mislabeled as 'Product Specialist', and does not align with the candidate's technical/quality-focused Product Specialist experience or other target roles in configuration management, release engineering, or technical documentation.",
     "id": "6ef67e0f",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:43:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:43:52+03:00"
   },
   {
     "title": "Varastoty\u00f6ntekij\u00f6it\u00e4 Vantaalle",
@@ -16015,15 +16008,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varastotyontekijoita-vantaalle-2749167",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting for a warehouse worker in Vantaa, Finland does not align with Priya's target roles in configuration management, release management, technical writing, or regulated software quality assurance.",
+    "reason": "The job posting for a warehouse worker does not align with Priya's expertise in technical communication, configuration management, or regulated software quality roles.",
     "id": "44edc1cc",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:43:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:43:52+03:00"
   },
   {
     "title": "Kokkeja",
@@ -16031,16 +16023,15 @@
     "location": "Kemi, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/5cc8c072-1d09-432a-8069-4bb1e6904175/fi",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires a chef ('kokki') in a restaurant, which does not align with Priya's expertise in technical communication, release management, or configuration management.",
+    "matches_requirements": "maybe",
+    "reason": "The job title 'Kokkeja' (Test Engineer) may align with the candidate's quality/technical product-specialist experience and safety-critical background, but the extremely minimal job description lacks details on whether it involves software-release, configuration-management, or regulated-industry quality work (which would be a strong fit).",
     "id": "20032c3f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-11-02",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:47:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:47:03+03:00"
   },
   {
     "title": "Hammasl\u00e4\u00e4k\u00e4ri Vaasaan PlusTerveys AAA Hammasl\u00e4\u00e4k\u00e4reille",
@@ -16049,15 +16040,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3d020285-089a-4140-81f1-20d47c98f53f/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluency in Swedish as a mandatory qualification, which Priya does not possess, and it is a clinical/medical role requiring a dentist license, which she lacks.",
+    "reason": "The job requires fluency in Swedish and is a clinical dental role requiring a medical license, both of which are hard rejections for the candidate.",
     "id": "d0475a2f",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-11-30",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:47:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:47:03+03:00"
   },
   {
     "title": "Ravintolan vuorovastaavaa sek\u00e4 tarjoilijoita",
@@ -16066,15 +16056,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/56975d90-cdf8-4561-83ed-1e2f247b012c/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is in the hospitality sector (restaurant shift leader/waiter) and does not align with Priya's expertise in configuration management, release engineering, or technical documentation.",
+    "reason": "The job role (restaurant shift manager/server) does not align with Priya's target criteria of DevOps, configuration management, release management, technical writing, or safety-critical requirements engineering roles.",
     "id": "8f7a6ba4",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "2026-11-02",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:47:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:47:03+03:00"
   },
   {
     "title": "Konsulentti, Kartanon Leip\u00e4 Oy Inkil\u00e4inen, Lahti",
@@ -16083,15 +16072,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/eb917b93-acdb-461a-b59b-ecf6bf6b8926/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires customer-facing sales experience and fluent Finnish, both of which are explicitly excluded in the candidate's hard rejections.",
+    "reason": "The role is a sales consultant position requiring Finnish language skills and sales experience, which falls under the hard rejection for quota-carrying sales roles and mandatory Finnish language requirements not met by the candidate.",
     "id": "5903de69",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T14:47:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T14:47:03+03:00"
   },
   {
     "title": "Agentic Development Process Engineer (employment / freelancing)",
@@ -16099,16 +16087,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/agentic-development-process-engineer-employment-freelancing-at-witted-4465019398",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish (ideally) and focuses on agentic development processes, AI regulations (EU AI Act, DORA), and MLOps/LLMOps which are outside Priya\u2019s core experience in regulated-industry CI/CD/release management (MDR/ISO 13485, ASPICE/TUV).",
+    "matches_requirements": "maybe",
+    "reason": "The role involves CI/CD pipeline ownership and process engineering (aligning with Configuration Management/DevOps), but the 'Agentic Development Process Engineer' title isn't explicitly listed in Priya's target job categories. Finnish language preference may also pose a challenge despite being 'ideal', not mandatory.",
     "id": "44aa1045",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:00:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:00:57+03:00"
   },
   {
     "title": "IT infrastructure engineer (RMA & Diag)",
@@ -16117,15 +16104,14 @@
     "url": "https://fi.linkedin.com/jobs/view/it-infrastructure-engineer-rma-diag-at-nebius-4437655744",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires hardware troubleshooting and data center operations expertise, which does not align with Priya's background in software release management, configuration management, CI/CD, and technical documentation.",
+    "reason": "The job requires hardware troubleshooting and RMA processes, which do not align with Priya's expertise in software configuration management, release management, or technical writing in regulated environments.",
     "id": "1008f48a",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-10",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:00:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:00:57+03:00"
   },
   {
     "title": "Data Engineer",
@@ -16134,15 +16120,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-engineer-at-etteplan-4461055415",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Data Engineer with focus on data pipelines and cloud platforms, which does not align with Priya's expertise in release management, configuration management, and technical documentation.",
+    "reason": "The job title 'Data Engineer' does not align with Priya's target roles in DevOps, Configuration Management, Release Management, or technical documentation/quality gatekeeping, and lacks explicit mention of regulated/safety-critical domains or CI/CD/release management responsibilities.",
     "id": "06cd0fc9",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:00:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:00:57+03:00"
   },
   {
     "title": "Software Engineer, Security",
@@ -16151,15 +16136,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-security-at-hoxhunt-4460977911",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Software Engineer, Security position focused on hands-on feature development and cloud security tooling, which falls under 'Pure Feature-Development Software Engineering' and does not align with Priya's expertise in release/CM/DevOps or technical writing/quality roles.",
+    "reason": "The role is a Software Engineer focused on building security infrastructure and tools rather than release/CM processes, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category.",
     "id": "d6275f4b",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-09-02",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:00:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:00:57+03:00"
   },
   {
     "title": "AI Engineer",
@@ -16168,15 +16152,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-engineer-at-3stepit-4455272445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an AI Engineer focused on developing new application features and AI algorithms, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks CI/CD/release-management ownership or configuration-management responsibilities.",
+    "reason": "The job requires AI solution development and machine learning model creation, which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as it lacks release/CM/DevOps ownership components.",
     "id": "ceb8e7d7",
     "source": "linkedin_fi_devops_engineer",
     "posted_date": "2026-08-19",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T15:00:57+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T15:00:57+03:00"
   },
   {
     "title": "Cloud Data Engineer (Mid-level or Senior)",
