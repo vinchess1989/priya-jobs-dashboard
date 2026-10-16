@@ -18696,15 +18696,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-admicom-4464343092",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, and the role focuses on customer-facing implementation rather than her expertise in release/CM/DevOps or technical documentation.",
+    "reason": "The job requires fluent Finnish, which the candidate does not possess, and the application deadline has already passed.",
     "id": "2b551d68",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:13:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:13:39+03:00"
   },
   {
     "title": "Technical Product Specialist (German-Speaking) - Digital Ads",
@@ -18713,15 +18712,14 @@
     "url": "https://pt.linkedin.com/jobs/view/technical-product-specialist-german-speaking-digital-ads-at-concentrix-4413086564",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a country outside Finland without remote flexibility for someone based in Finland.",
+    "reason": "The job is physically located in Lisbon, Portugal, and requires fluent German and an on-site presence, violating the candidate's location and language requirements.",
     "id": "39c14083",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:13:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:13:39+03:00"
   },
   {
     "title": "Product Specialist - Catania",
@@ -18730,15 +18728,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-catania-at-buona-spa-societ%C3%A0-benefit-4462182258",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Catania, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Italy (Catania/Genoa), which violates the location requirements since Priya is based in Finland and the role is not open to remote work from Finland.",
     "id": "e9c0a8c1",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:13:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:13:39+03:00"
   },
   {
     "title": "Senior Cost Manager",
@@ -18747,15 +18744,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cost-manager-at-linesight-4402132750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role falls under 'Manufacturing, Construction or Hardware Quality Roles' which are explicitly excluded in the Hard Rejections due to lack of software-release, configuration-management, or software-quality components.",
+    "reason": "This is a construction cost management role which triggers the hard rejection for construction and physical production quality and project roles.",
     "id": "17c26e82",
     "source": "linkedin_fi_configuration_manager_p2",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Customer Project Manager",
@@ -18764,15 +18760,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-project-manager-at-schneider-electric-4424423953",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Customer Project Manager does not align with Priya's target job criteria in DevOps, Configuration Management, or technical documentation/quality gatekeeping, and involves customer-facing responsibilities that she has explicitly rejected.",
+    "reason": "The role is a general project management position lacking the required focus on CI/CD, release management, configuration management, or technical quality/traceability core.",
     "id": "654db747",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Tietomallikoordinaattori | Oulu, Rovaniemi tai muu WSP:n toimipaikka",
@@ -18781,15 +18776,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tietomallikoordinaattori-oulu-rovaniemi-tai-muu-wsp-n-toimipaikka-at-wsp-in-finland-4456348393",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills, which the candidate does not have.",
+    "reason": "The role requires fluent Finnish language skills and focuses on civil engineering/infrastructure BIM coordination, which falls outside the candidate's software/embedded release and quality management domain.",
     "id": "05ed7d10",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Manager, Maritime Technical",
@@ -18798,15 +18792,14 @@
     "url": "https://fi.linkedin.com/jobs/view/manager-maritime-technical-at-royal-caribbean-group-4443929229",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires maritime technical management and shipbuilding oversight, which does not align with Priya's expertise in CI/CD, release management, and regulated-industry quality compliance.",
+    "reason": "The role requires a naval architecture or marine engineering background and experience in vessel construction, which does not match Priya's software and release management profile.",
     "id": "60145053",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Data Governance Project Manager",
@@ -18815,15 +18808,14 @@
     "url": "https://fi.linkedin.com/jobs/view/data-governance-project-manager-at-isoskills-4464329887",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role as a Data Governance Project Manager does not align with Priya's core expertise in CI/CD, release management, configuration management, or technical documentation ownership, which are central to her background at Topcon and Elektrobit.",
+    "reason": "The role focuses on data governance project management for HR data rather than software release management, DevOps, configuration management, or quality engineering.",
     "id": "298e54c0",
     "source": "linkedin_fi_configuration_manager_p3",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "IT Service Configuration Manager (m/w/d)",
@@ -18832,15 +18824,14 @@
     "url": "https://de.linkedin.com/jobs/view/it-service-configuration-manager-m-w-d-at-robotron-datenbank-software-gmbh-4432275853",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dresden, Saxony, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The role requires fluent German (B2 level) and is an on-site/hybrid position in Germany, which violates the language and location requirements.",
     "id": "4d772905",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "h\u00e1 3 meses",
+    "posted_date": "3 kuukautta sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "BIM Manager",
@@ -18849,15 +18840,14 @@
     "url": "https://es.linkedin.com/jobs/view/bim-manager-at-aecom-4423192310",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Madrid, Spain (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "The role is located in Madrid, Spain, and requires specialized BIM and ProjectWise infrastructure management experience that does not align with Priya's background in software release management and configuration management.",
     "id": "69edf81a",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Zendesk Manager / Developer of Solutions for Migrations into Zendesk (m/f/d)",
@@ -18866,15 +18856,14 @@
     "url": "https://pt.linkedin.com/jobs/view/zendesk-manager-developer-of-solutions-for-migrations-into-zendesk-m-f-d-at-flix-4462184990",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Lisbon, Portugal, and requires an office-first hybrid presence, which violates the requirement to be based in Finland or fully remote.",
     "id": "2deb4050",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Configuration Manager",
@@ -18883,15 +18872,14 @@
     "url": "https://dk.linkedin.com/jobs/view/configuration-manager-at-itm8-danmark-4462516818",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Denmark, which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is located in Denmark and requires fluent communication in Danish as well as travel to Danish locations, violating the candidate's location and language constraints.",
     "id": "4a5e3e29",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "IT Configuration Manager",
@@ -18900,15 +18888,14 @@
     "url": "https://lu.linkedin.com/jobs/view/it-configuration-manager-at-clavem-group-4453592580",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Luxembourg and requires on-site presence, which does not meet Priya's strict requirement to work only in Finland or fully remote from Finland.",
+    "reason": "The position is on-site in Luxembourg, which is outside Finland and not a remote role.",
     "id": "98771323",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Configuration Manager",
@@ -18917,15 +18904,14 @@
     "url": "https://dk.linkedin.com/jobs/view/configuration-manager-at-itm8-danmark-4434561203",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job located in Denmark, outside Finland and not remote, disqualifies per location rule.",
+    "reason": "The job requires fluent communication in Danish alongside English, and the location is in Denmark, which violates the requirement for roles to be based in Finland or fully remote without regional restrictions excluding Finland.",
     "id": "15eefb53",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "IT Service Configuration Manager / CMDB Manager / ITSM Configuration Manager (m/w/d)",
@@ -18934,15 +18920,14 @@
     "url": "https://de.linkedin.com/jobs/view/it-service-configuration-manager-cmdb-manager-itsm-configuration-manager-m-w-d-at-robotron-datenbank-software-gmbh-4439479760",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job location is Dresden, Saxony, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The role is physically located in Dresden, Germany, and explicitly requires very good German language skills (at least B2 level), which violates the candidate's location and language requirements.",
     "id": "5e8d7c27",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-08-11",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T03:25:18+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T03:25:18+03:00"
   },
   {
     "title": "Pilote Gestion configuration H/F",
