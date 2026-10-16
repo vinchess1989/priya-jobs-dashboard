@@ -17732,15 +17732,14 @@
     "url": "https://www.jobly.fi/tyopaikka/projekti-insinoori-vaasa-2749568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a project engineer in electrical/automation engineering, which does not align with Priya's expertise in configuration management, release management, or technical writing in regulated/safety-critical domains.",
+    "reason": "The job description text does not contain actual job details and only displays a bot verification security page.",
     "id": "a00fb5ed",
     "source": "jobly_broad",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:10:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:10:20+03:00"
   },
   {
     "title": "Project Engineer \u2013 Vaasa",
@@ -17749,15 +17748,14 @@
     "url": "https://www.jobly.fi/tyopaikka/project-engineer-vaasa-2749569",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with Priya's expertise in configuration management, release engineering, or regulated-industry quality gatekeeping; it focuses on electrical/automation project coordination rather than software-release or compliance-related responsibilities.",
+    "reason": "The job description text does not contain actual job details and only displays a bot-verification security page.",
     "id": "fc9be4af",
     "source": "jobly_broad",
     "posted_date": "2026-09-15",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:10:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:10:20+03:00"
   },
   {
     "title": "Senior IT Project Manager - Data & AI Migrations, Espoo",
@@ -17766,15 +17764,14 @@
     "url": "https://www.jobly.fi/tyopaikka/senior-it-project-manager-data-ai-migrations-espoo-2749570",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior IT Project Manager with focus on data & AI migrations, which does not align with Priya's expertise in release/CM/DevOps or regulated-industry quality standards (she has no project management experience and the role lacks CI/CD/release-management components).",
+    "reason": "The role centers on Data & AI Migrations project management, which falls under specialist cloud/data platforms with no configuration management, release, or quality/requirements core matching the candidate's background.",
     "id": "5c1b105e",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:10:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:10:20+03:00"
   },
   {
     "title": "Lupakoordinaattori \u2013 Sein\u00e4joki",
@@ -17782,16 +17779,15 @@
     "location": "Sein\u00e4joki, Finland",
     "url": "https://www.jobly.fi/tyopaikka/lupakoordinaattori-seinajoki-2737924",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is in construction permit coordination (outside regulated software/release management scope) and has a salary below the candidate's minimum threshold.",
+    "matches_requirements": "maybe",
+    "reason": "The job location (Sein\u00e4joki, Finland) meets the candidate's requirements, but the minimal job description lacks sufficient detail to confirm alignment with her expertise in configuration management, release processes, or regulated-industry quality roles.",
     "id": "9ca89ff9",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T22:10:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:10:20+03:00"
   },
   {
     "title": "Extra-tarjoilija Ravintola Cavernaan (Helsinki)",
@@ -17800,15 +17796,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/374ba31d-a6a8-4c07-bbc2-cd02d713a6bb/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a customer-facing hospitality role (waiter/server) with no alignment to Priya's expertise in technical documentation, release/CM/DevOps, or regulated-industry quality roles.",
+    "reason": "The job posting is for a waiter/server position (Extra-tarjoilija) at a restaurant, which is completely unrelated to Priya's technical communication, release, and configuration management background.",
     "id": "34c9cb4e",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:10:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:10:20+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17817,15 +17812,14 @@
     "url": "https://es.linkedin.com/jobs/view/devops-engineer-at-prodevelop-4445874787",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Valencia, Spain, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Valencia, Spain, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "bfa4ce51",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "hace 2 meses",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer | Mid -Senior | Infra",
@@ -17834,15 +17828,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-mid-senior-infra-at-nord-security-4424716628",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kaunas, Lithuania (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not physically located in Finland and is not a fully remote role accessible from Finland.",
+    "reason": "The job is located in Kaunas, Lithuania, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "d5fbeaa4",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-07-02",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17851,15 +17844,14 @@
     "url": "https://bg.linkedin.com/jobs/view/devops-engineer-at-ampeco-4453857960",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sofia, Bulgaria, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection.",
+    "reason": "The job is physically located in Sofia, Bulgaria, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "2ecc087f",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "hace 1 mes",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer      .",
@@ -17868,15 +17860,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-nedap-4456363598",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands (Groenlo, Gelderland) with a hybrid work model requiring on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is a hybrid role located in Groenlo, Netherlands, which violates the candidate's requirement to work in Finland or fully remote.",
     "id": "b914c21d",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-08-26",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17885,15 +17876,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-dev-talents-4435970408",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work from Finland.",
+    "reason": "The job is located in the Netherlands (on-site) and does not offer remote work options accessible to someone based in Finland, which violates Priya's strict location requirements.",
     "id": "dbac53a9",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17902,15 +17892,14 @@
     "url": "https://gr.linkedin.com/jobs/view/devops-engineer-at-viva-com-4416658877",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Marousi, Attiki, Greece (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The job is physically located in Marousi, Greece, and does not permit remote work from Finland.",
     "id": "0a51c99d",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "hace 1 semana",
+    "posted_date": "hace 22 horas",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17919,15 +17908,14 @@
     "url": "https://nl.linkedin.com/jobs/view/devops-engineer-at-solvinity-4447561639",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands (Amersfoort, Utrecht), which does not meet Priya\u2019s requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is physically located in the Netherlands and is not open to someone based in Finland, violating the location requirements.",
     "id": "2965133a",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "hace 2 meses",
+    "posted_date": "hace 4 d\u00edas",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "Ing\u00e9nieur DevOps (AWS)",
@@ -17936,15 +17924,14 @@
     "url": "https://lu.linkedin.com/jobs/view/ing%C3%A9nieur-devops-aws-at-halian-managed-services-recruitment-agency-contract-staffing-4459213705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Luxembourg and is not remote, which violates the candidate's location constraints.",
+    "reason": "The job is physically located in Luxembourg and outside Finland, violating the location policy, and it also requires fluency in French.",
     "id": "79f00333",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "hace 1 mes",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17953,15 +17940,14 @@
     "url": "https://be.linkedin.com/jobs/view/devops-engineer-at-axxes-it-consultancy-4452468871",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Flemish Region, Belgium, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Belgium (Flemish Region), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in another EU country.",
     "id": "be9427f6",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "hace 1 mes",
+    "posted_date": "hace 2 meses",
     "deadline": "Open until filled",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -17970,15 +17956,14 @@
     "url": "https://sk.linkedin.com/jobs/view/devops-engineer-at-avenga-4462220227",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bratislava, Slovakia (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job posting explicitly states 'Ya no se aceptan solicitudes' (No longer accepting applications) and requires Czech or Slovak language proficiency.",
     "id": "2feeedcc",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-09T22:39:26+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-09T22:39:26+03:00"
   },
   {
     "title": "DevOps Engineer",
