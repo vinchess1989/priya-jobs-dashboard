@@ -35,6 +35,11 @@ SCRAPER_LOCK_FILE = os.path.join(BASE_DIR, "scraper.lock")
 # two dashboards' always-on scraper daemons take turns doing their scrape+review+push cycle
 # instead of both hitting the single-threaded (parallel=1) local LLM server at once.
 PIPELINE_LOCK_FILE = os.path.join(os.environ.get("USERPROFILE", ""), ".claude", "scraper_pipeline.lock")
+# Whole-cycle turn lock shared by every dashboard's scraper daemon: only the holder polls,
+# browses, reviews and pushes, so at most one headless Chromium + review cycle runs at a time
+# (three running side by side on 2026-10-16 exhausted the PC's 32 GB RAM). Released before
+# each idle wait so the next scraper takes its turn.
+SCRAPER_TURN_LOCK_FILE = os.path.join(os.environ.get("USERPROFILE", ""), ".claude", "scraper_turn.lock")
 # Priority chain for the shared local LLM server: OpenClaw > manju_jobs > vineeth_jobs >
 # priya_jobs > priya_global_jobs (lowest). manju_jobs claims MANJU_PRIORITY_LOCK_FILE and
 # vineeth_jobs claims VINEETH_PRIORITY_LOCK_FILE before requesting PIPELINE_LOCK_FILE (see
@@ -2424,6 +2429,19 @@ def poll_manual_deletions():
         print(f"Error processing manual deletions: {e}")
 
 
+def _acquire_scraper_turn():
+    """Block until this scraper holds SCRAPER_TURN_LOCK_FILE; None if a stop was requested.
+    Heartbeats while waiting so the watchdog doesn't mistake a long wait for a hang."""
+    turn = FileLock(SCRAPER_TURN_LOCK_FILE)
+    while not stop_event.is_set():
+        try:
+            turn.acquire(timeout=30)
+            return turn
+        except Timeout:
+            _progress("waiting", "another dashboard's scraper has the turn")
+    return None
+
+
 def main():
     global _tee_logger
     os.makedirs(LOGS_DIR, exist_ok=True)
@@ -2548,6 +2566,9 @@ def main():
     last_scrape_at = 0.0
 
     while not stop_event.is_set():
+        turn = _acquire_scraper_turn()
+        if turn is None:
+            break
         _progress("idle", "polling")
         try:
             poll_firebase_feedback()
@@ -2604,6 +2625,7 @@ def main():
                 print(f"An error occurred during Git update: {e}")
 
             print_job_summary()
+            turn.release()
             print("Waiting 5 seconds before moving to scrape new jobs. Press [Enter] or Ctrl+C to stop...")
 
             slept = 0
@@ -2657,6 +2679,7 @@ def main():
             print(f"An error occurred during Git update: {e}")
 
         print_job_summary()
+        turn.release()
 
         # Determine wait time
         wait_time = 5
