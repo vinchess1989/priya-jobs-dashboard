@@ -856,3 +856,17 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
 - Restart order used 2026-10-16: priya_jobs -> priya_global_jobs -> manju_uk_jobs. To stop a scraper safely, kill its
   orchestrator first (else it restarts the scraper), then the scraper tree while its log is in `Reviewing:`/`[LLM]` (no file writes).
 - Not applied to manju_jobs / vineeth_jobs (their tasks are disabled); add the same lock if they are re-enabled.
+
+## Dashboard: relative "posted" dates + filtered header stats (fixed 2026-10-16, both boards)
+
+- ~25% of `posted_date` values are LinkedIn's relative text in the page language ("2 viikkoa sitten",
+  "vor 3 Tagen", "il y a 1 mois", "5h ago", Arabic/Thai/Chinese...) or a day+month with no year
+  ("15 september" - Chrome's `new Date()` reads that as **2001**). The Posted column/"within X days" filter
+  silently dropped them. `index.html` `parseRelativeDate()` now converts them, anchored on `added_at`
+  (only for Posted - a relative *deadline* points forward). JS gotcha: without the `u` flag `\b` treats
+  accented letters as non-word, so `h\b` matched "há 2 dias" and `\bnap` matched "hónapja" - the hour/day
+  patterns are written to avoid that. Test harness (stubbed Firebase + real data) was in the session scratchpad.
+- Header Yes/Maybe/No/Applied stats used to show the BOARD TOTAL as the big number while filtered, which
+  Priya read as "the matches filter shows a different number". Now: filtered count first, "(of N)" total after.
+- Deploy needs `firebase deploy --only hosting` from `firebase_app/` by Vineeth (Priya's account has no
+  hosting rights; no Firebase CLI on her PC).

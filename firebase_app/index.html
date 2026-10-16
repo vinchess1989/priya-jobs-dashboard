@@ -1906,10 +1906,49 @@
             const tbody = table.querySelector('tbody');
             const isAuthorized = currentUser && ALLOWED_EMAILS.includes(currentUser.email);
             
+            // Scrapers often store LinkedIn's relative "posted" text in the page language
+            // ("2 viikkoa sitten", "vor 3 Tagen", "il y a 1 mois", "5h ago") or a day+month with no
+            // year ("15 september"). Convert both to a date, counted back from when the job was
+            // scraped (added_at), so the Posted column sorts and the "within X days" filter works.
+            const REL_UNITS = [
+                // Order matters: week before day. No bare "h"/"mo" + \b: JS \b treats accented letters as
+                // non-word, so "há 2 dias" / "2 hónapja" would read as hours.
+                ['minute', 60e3, /min(?!ggu)|perc|dakika|phút|分钟|นาที|λεπτ|دقيق/],
+                ['hour', 3600e3, /^\d+\s*h(\s|$)|\bhrs?\b|hour|tunti|stunde|heure|hora|uur|timme|timmar|\btimer?\b|\bore\b|\bora\b|\boră|godzin|óra|oras|\bjam\b|saat|giờ|小时|時間|ชั่วโมง|ώρ|ساع/],
+                ['week', 7 * 864e5, /week|weken|viikko|woche|semaine|semana|vecka|veckor|\buke|\buge|settiman|tydzie|tygodn|\bhét|hete|săptămân|minggu|hafta|tuần|周|週|สัปดาห์|εβδομάδ|أسبوع|linggo/],
+                ['day', 864e5, /day|päivä|\btag|jour|día|\bdia|\bdag|giorn|\bdni|dzień|(^|\s)nap|\bzi\b|\bzile|hari|gün|ngày|天|日|วัน|ημέρ|يوم|أيام|araw/],
+                ['month', 30 * 864e5, /^\d+\s*mo(\s|$)|month|kuukau|monat|mois|\bmes|mês|maand|månad|måned|mese|mesi|miesi|hónap|lună|\bluni|bulan|\bay\b|tháng|个月|ヶ月|か月|เดือน|μήν|شهر|buwan/],
+                ['year', 365 * 864e5, /year|vuo[st]|jahr|\ban\b|\bani\b|\bans\b|año|\bano|jaar|år|anno|anni|\brok|\blat|\bév|tahun|yıl|năm|年|ปี|χρόν|سنة|taon/]
+            ];
+            const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+            function parseRelativeDate(text, anchorStr) {
+                const s = String(text).toLowerCase().replace(/\u00a0/g, ' ').replace(/[\u200e\u200f]/g, '')
+                    .replace(/[\u0660-\u0669]/g, c => String(c.charCodeAt(0) - 0x0660)).trim();   // Arabic-Indic digits
+                const anchor = anchorStr && !isNaN(new Date(anchorStr).getTime()) ? new Date(anchorStr) : new Date();
+                // "15 september" / "3 oct" (no year): use the scrape year, a year earlier if that lands in the future
+                const dm = s.match(/^(\d{1,2})\s+([a-z]{3})[a-z]*$/);
+                if (dm && MONTHS.includes(dm[2])) {
+                    const d = new Date(Date.UTC(anchor.getUTCFullYear(), MONTHS.indexOf(dm[2]), +dm[1]));
+                    if (d.getTime() > anchor.getTime() + 864e5) d.setUTCFullYear(d.getUTCFullYear() - 1);
+                    return d.toISOString().split('T')[0];
+                }
+                if (/just now|juuri nyt|gerade eben|à l'instant|ahora mismo|agora mesmo/.test(s)) return anchor.toISOString().split('T')[0];
+                // A 4-digit year or a d.m / d/m / d-m shape is an absolute date - leave it to new Date().
+                if (/\d{4}|\d[./-]\d/.test(s)) return null;
+                const n = (s.match(/\d+/) || ['1'])[0];
+                for (const [, ms, re] of REL_UNITS) {
+                    if (re.test(s)) return new Date(anchor.getTime() - (+n) * ms).toISOString().split('T')[0];
+                }
+                return null;
+            }
+
             // Helper function to standardize date format
-            function formatDate(dateStr) {
+            function formatDate(dateStr, anchorStr) {
                 if (!dateStr || dateStr.toLowerCase() === 'n/a' || dateStr.toLowerCase() === 'unknown' || dateStr.toLowerCase() === 'not specified') return 'N/A';
                 try {
+                    // Only the Posted column passes an anchor - a relative deadline ("2 weeks") points forward.
+                    const rel = anchorStr !== undefined ? parseRelativeDate(dateStr, anchorStr) : null;
+                    if (rel) return rel;
                     const d = new Date(dateStr);
                     if (isNaN(d.getTime())) {
                         // Try to parse DD.MM.YYYY (common in Europe)
@@ -1998,7 +2037,7 @@
                 const evalModel = job.eval_model || '';
                 tr.setAttribute('data-eval-model', evalModel);
 
-                const postedVal = formatDate(job.posted_date);
+                const postedVal = formatDate(job.posted_date, job.added_at || '');
                 const addedVal = formatAddedDate(job.added_at);
                 const deadlineVal = formatDate(job.deadline);
                 const sourceVal = job.source || getSourceFromUrl(job.url) || 'Unknown';
@@ -2467,25 +2506,24 @@
 
             const counter = document.getElementById('listings-counter');
             const activeTotal = _rowCache ? _rowCache.length : allJobs.length;
-            // Every stat below except Total always shows the TRUE total count, unaffected
-            // by column filters - only Total itself reflects the filtered subset as its
-            // primary number. When a filter is active, the others get a "(N filtered)" note
-            // (mirroring Total's "(filtered from X)" note) instead of changing their main value.
+            // While a filter is active every stat shows the FILTERED count as its main number, so it
+            // matches the rows on screen, with the board total as a faint "(of N)" note - same idea as
+            // Total's "(filtered from X)". (Showing the total as the big number confused Priya, 2026-10-16.)
             const filterActive = visibleCount !== activeTotal;
-            const filterNote = (n) => filterActive
-                ? ` <span style="opacity:0.55; font-weight:400;">(${n} filtered)</span>`
-                : '';
+            const statVal = (filtered, total) => filterActive
+                ? `${filtered} <span style="opacity:0.55; font-weight:400;">(of ${total})</span>`
+                : `${total}`;
             if (counter) {
                 let text = `<strong id="stat-total" style="cursor:help;border-bottom:1px dashed rgba(255,255,255,0.4);">${visibleCount}</strong>`;
                 if (filterActive) {
                     text += ` (filtered from ${activeTotal})`;
                 }
                 text += ` <span style="margin: 0 10px; opacity: 0.3;">|</span> `;
-                text += `<span id="stat-yes" style="color: var(--color-yes); font-weight: 600; cursor:help; border-bottom:1px dashed rgba(16,185,129,0.5);">Yes: ${totalCounts.yes}${filterNote(counts.yes)}</span> &nbsp;&nbsp; `;
-                text += `<span id="stat-maybe" style="color: var(--color-maybe); font-weight: 600; cursor:help; border-bottom:1px dashed rgba(245,158,11,0.5);">Maybe: ${totalCounts.maybe}${filterNote(counts.maybe)}</span> &nbsp;&nbsp; `;
-                text += `<span style="color: var(--color-no); font-weight: 600;">No: ${totalCounts.no}${filterNote(counts.no)}</span> &nbsp;&nbsp; `;
-                text += `<span style="color: var(--color-pending); font-weight: 600;">Pending: ${totalCounts.pending}${filterNote(counts.pending)}</span> &nbsp;&nbsp; `;
-                text += `<span style="color: #a78bfa; font-weight: 600;">Re-review: ${totalCounts.rereview}${filterNote(counts.rereview)}</span>`;
+                text += `<span id="stat-yes" style="color: var(--color-yes); font-weight: 600; cursor:help; border-bottom:1px dashed rgba(16,185,129,0.5);">Yes: ${statVal(counts.yes, totalCounts.yes)}</span> &nbsp;&nbsp; `;
+                text += `<span id="stat-maybe" style="color: var(--color-maybe); font-weight: 600; cursor:help; border-bottom:1px dashed rgba(245,158,11,0.5);">Maybe: ${statVal(counts.maybe, totalCounts.maybe)}</span> &nbsp;&nbsp; `;
+                text += `<span style="color: var(--color-no); font-weight: 600;">No: ${statVal(counts.no, totalCounts.no)}</span> &nbsp;&nbsp; `;
+                text += `<span style="color: var(--color-pending); font-weight: 600;">Pending: ${statVal(counts.pending, totalCounts.pending)}</span> &nbsp;&nbsp; `;
+                text += `<span style="color: #a78bfa; font-weight: 600;">Re-review: ${statVal(counts.rereview, totalCounts.rereview)}</span>`;
                 counter.innerHTML = text;
                 _attachChartHover(document.getElementById('stat-yes'), 'yes');
                 _attachChartHover(document.getElementById('stat-maybe'), 'maybe');
@@ -2507,12 +2545,12 @@
 
             const appliedCounter = document.getElementById('applied-counter');
             if (appliedCounter) {
-                appliedCounter.innerHTML = `${totalAppliedCount}${filterNote(appliedCount)}`;
+                appliedCounter.innerHTML = `${statVal(appliedCount, totalAppliedCount)}`;
                 _attachChartHover(appliedCounter, 'applied');
             }
 
             const reviewedCounter = document.getElementById('reviewed-counter');
-            if (reviewedCounter) reviewedCounter.innerHTML = `${totalReviewedCount}${filterNote(reviewedCount)}`;
+            if (reviewedCounter) reviewedCounter.innerHTML = `${statVal(reviewedCount, totalReviewedCount)}`;
             
             renderPage(1);
         }
