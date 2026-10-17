@@ -1,9 +1,12 @@
 {
   "pid": 64456,
   "started_at": "2026-10-16T05:08:24+03:00",
-  "heartbeat_at": "2026-10-17T04:38:19+03:00",
+  "heartbeat_at": "2026-10-17T17:03:53+03:00",
   "phase": "reviewing",
-  "detail": "SNOW CONSTRUCTION & OUTDOOR WINTER CAMP MAINTENANCE SPECIALIST",
-  "last_scrape_ok_at": "2026-10-17T04:36:21+03:00",
-  "last_error": null
+  "detail": "Sr. Quality Engineer, ProductionEatonVantaaGo to job site",
+  "last_scrape_ok_at": "2026-10-17T17:03:23+03:00",
+  "last_error": {
+    "at": "2026-10-17T17:03:09+03:00",
+    "message": "meetfrank: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://meetfrank.com/jobs/\", waiting until \"load\"\n"
+  }
 }
