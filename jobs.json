@@ -22022,15 +22022,14 @@
     "url": "https://at.linkedin.com/jobs/view/it-inhouse-consultant-test-and-release-management-m-w-d-at-blum-group-4439826931",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Austria, outside Finland and not remote, which violates the location requirement.",
+    "reason": "The job is located in Austria and is not a remote role, which violates the location requirement for non-Finland positions.",
     "id": "d404d0ab",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:46:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:46:46+03:00"
   },
   {
     "title": "DevOps Specialist",
@@ -22039,15 +22038,14 @@
     "url": "https://dk.linkedin.com/jobs/view/devops-specialist-at-dalux-4346787624",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Copenhagen, Denmark, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is located in Copenhagen, Denmark, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "46b63a18",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:46:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:46:46+03:00"
   },
   {
     "title": "Senior Project Manager",
@@ -22056,15 +22054,14 @@
     "url": "https://cy.linkedin.com/jobs/view/senior-project-manager-at-zexter-4455494131",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Limassol, Cyprus (on-site), which does not meet the candidate's requirement for roles physically located in Finland or fully remote from Finland.",
+    "reason": "The job is located in Cyprus, which falls outside of Finland and is not a remote role, and the posting explicitly states that no more applications are being accepted.",
     "id": "789e3698",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:46:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:46:46+03:00"
   },
   {
     "title": "AI Quality Specialist",
@@ -22073,15 +22070,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-quality-specialist-at-vala-4454556011",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role focuses on AI testing rather than her expertise in regulated-industry quality/CM/release management.",
+    "reason": "The job posting explicitly requires fluent Finnish as a mandatory qualification, which the candidate does not possess.",
     "id": "c8f6f244",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-08-20",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:46:46+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:46:46+03:00"
   },
   {
     "title": "Internal Product Specialist Verspaning",
@@ -22090,15 +22086,14 @@
     "url": "https://nl.linkedin.com/jobs/view/internal-product-specialist-verspaning-at-hoffmann-group-4459168432",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Borne, Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The role is located in the Netherlands and requires Dutch language proficiency, which violates the location and language constraints.",
     "id": "8c73aa4d",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "1 \u03bc\u03ae\u03bd\u03b1 \u03c0\u03c1\u03b9\u03bd",
+    "posted_date": "vor 1 monat",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Hardware Service Product Specialist",
@@ -22107,15 +22102,14 @@
     "url": "https://nl.linkedin.com/jobs/view/hardware-service-product-specialist-at-canon-production-printing-4404311627",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Venlo, Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The job requires the candidate to be living in the Netherlands, Belgium, or Germany, which excludes her current residence in Finland.",
     "id": "e0f72977",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Productspecialist in licht en geluid",
@@ -22124,15 +22118,14 @@
     "url": "https://nl.linkedin.com/jobs/view/productspecialist-in-licht-en-geluid-at-tronios-bv-4052952295",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical presence in Almelo, Netherlands (outside Finland) and is not remote, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in the Netherlands and is not a remote role, violating the location requirement, and it is a commercial/sales-focused product specialist role rather than a technical/quality one.",
     "id": "72a40aca",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "1 jaar geleden",
+    "posted_date": "vor 1 jahr",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Internal Product Specialist Verspaning",
@@ -22141,15 +22134,14 @@
     "url": "https://nl.linkedin.com/jobs/view/internal-product-specialist-verspaning-at-hoffmann-group-nederland-belgi%C3%AB-4457961440",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Borne, Netherlands (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility for someone based in Finland.",
+    "reason": "The role is located in the Netherlands and is not a remote position, which violates the location requirements, and it also requires proficiency in Dutch.",
     "id": "e592833f",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-27",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "NPI Documentation Specialist",
@@ -22158,15 +22150,14 @@
     "url": "https://ie.linkedin.com/jobs/view/npi-documentation-specialist-at-sterling-engineering-ltd-ireland-europe-4461075751",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in County Clare, Ireland, which is outside Finland and not fully remote from Finland, triggering a hard rejection under location rules.",
+    "reason": "The job is located in Ireland and is not a remote role, which violates the location requirement, and the posting explicitly states that no more applications are being accepted.",
     "id": "af22454a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Productspecialist",
@@ -22175,15 +22166,14 @@
     "url": "https://it.linkedin.com/jobs/view/productspecialist-at-flikweert-vision-4457636485",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Imola, Italy, which is outside Finland and not fully remote, violating the candidate's strict location requirements.",
+    "reason": "The job is located in Italy and is not remote, which violates the location requirements, and it is explicitly closed for applications.",
     "id": "acbdb13d",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-27",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Specjalista ds. Produktu",
@@ -22192,15 +22182,14 @@
     "url": "https://pl.linkedin.com/jobs/view/specjalista-ds-produktu-at-elis-textile-service-sp-z-o-o-wynajem-i-serwis-odzie%C5%BCy-roboczej-mat-i-urz%C4%85dze%C5%84-higienicznych-4459849655",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Poland and is not a remote position, which violates the location requirement for this candidate.",
+    "reason": "The role is located in Poland and is not a remote position, which violates the location requirements for candidates based in Finland.",
     "id": "08c44293",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "3D Fit Specialist",
@@ -22209,15 +22198,14 @@
     "url": "https://ie.linkedin.com/jobs/view/3d-fit-specialist-at-primark-4464479551",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is a fashion/apparel industry '3D Fit Specialist' focused on garment grading and physical fit standards, which falls outside the candidate's software engineering, DevOps, and technical documentation domain.",
     "id": "4dba69aa",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-09",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Specjalista ds. Produktu",
@@ -22226,15 +22214,14 @@
     "url": "https://pl.linkedin.com/jobs/view/specjalista-ds-produktu-at-elis-textile-service-sp-z-o-o-wynajem-i-serwis-odzie%C5%BCy-roboczej-mat-i-urz%C4%85dze%C5%84-higienicznych-4459840660",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Gda\u0144sk, Poland (outside Finland) and requires on-site work, which is a hard rejection due to Priya's strict location requirements (only Finland or fully remote roles accessible from Finland).",
+    "reason": "The job is located in Poland and is not a remote role, which violates the location requirements for candidates based in Finland.",
     "id": "cec01f92",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Technisch Product Specialist",
@@ -22243,15 +22230,14 @@
     "url": "https://nl.linkedin.com/jobs/view/technisch-product-specialist-at-kenter-4432774375",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the Netherlands (Duiven, Gelderland), which is outside Finland and not remote, violating Priya's strict relocation constraints.",
+    "reason": "The job is located in the Netherlands and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and open to candidates living in Finland.",
     "id": "100c9631",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-05",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Product Specialist \u2013 BioPharma (w/m/d)",
@@ -22260,15 +22246,14 @@
     "url": "https://de.linkedin.com/jobs/view/product-specialist-%E2%80%93-biopharma-w-m-d-at-gea-group-4463375111",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is B\u00fcchen, Schleswig-Holstein, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "01f7c2f0",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-05",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Product Specialist",
