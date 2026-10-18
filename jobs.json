@@ -42009,15 +42009,14 @@
     "url": "https://fi.indeed.com/career/full-stack-developer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a salary search page for a Full Stack Developer role, not an actual job posting, and the role type (Full Stack Developer) violates the hard rejection against pure feature-development software engineering.",
+    "reason": "This is a salary information page for a Full Stack Developer role rather than an actual job posting.",
     "id": "49785592",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T02:24:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T02:24:39+03:00"
   },
   {
     "title": "Salaries for Full Stack Developer, Helsinki, F19",
@@ -42026,15 +42025,14 @@
     "url": "https://fi.indeed.com/career/full-stack-developer/salaries/Helsinki--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a salary information page for a 'Full Stack Developer' role, not an actual job vacancy, and the role type contradicts the candidate's requirement to avoid pure feature-development software engineering.",
+    "reason": "This is a salary information page for a Full Stack Developer role, which violates the hard rejection rule for pure feature-development software engineering.",
     "id": "034ee127",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T02:24:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T02:24:39+03:00"
   },
   {
     "title": "Senior Math Libraries Engineer - LLM Integration and Developer Experience",
@@ -42043,15 +42041,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-math-libraries-engineer-llm-integration-and-developer-experience-at-nvidia-4468022841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role centers on AI and LLM integration for math library software stacks (CUDA-X), which falls under the hard rejection rule for AI/ML platform and advanced technical specialisms outside her core release, configuration management, or quality focus.",
+    "reason": "This role is focused on LLM integration, AI agentic workflows, and math library development, lacking the core release management, configuration management, or quality assurance components required by the candidate's profile.",
     "id": "d50f8078",
     "source": "linkedin_fi_broad",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T03:56:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T03:56:54+03:00"
   },
   {
     "title": "Panchovilla sello Kokki",
@@ -42060,15 +42057,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/02d7c930-3bed-4d02-b705-df1f0693f6d2/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a cook in the restaurant industry, which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
+    "reason": "The role is for a restaurant chef (Kokki), which completely falls outside Priya's software, configuration management, and technical communication background.",
     "id": "03d57d62",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-19",
     "deadline": "2026-11-10",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T03:56:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T03:56:54+03:00"
   },
   {
     "title": "Senior Sales Engineer, Embedded \u2014 EMEA",
@@ -42077,15 +42073,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-sales-engineer-embedded-%E2%80%94-emea-at-tuxera-4461897214",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a quota-carrying sales engineering role, which is explicitly excluded by the candidate's hard rejection criteria, and the posting states that applications are no longer being accepted.",
+    "reason": "This is a customer-facing pre-sales/sales engineering role that explicitly violates the negative constraint against customer-facing positions.",
     "id": "723f3d34",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T04:37:37+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T04:37:37+03:00"
   },
   {
     "title": "IS Change and Release Manager for SAP CFIN",
@@ -42094,15 +42089,14 @@
     "url": "https://pl.linkedin.com/jobs/view/is-change-and-release-manager-for-sap-cfin-at-abb-4469282824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poland and is no longer accepting applications.",
+    "reason": "This role is physically located in Cracow, Poland, and does not meet the candidate's location criteria of Finland or fully remote work.",
     "id": "e2037053",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 tygodnie temu",
+    "posted_date": "4 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T05:18:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T05:18:23+03:00"
   },
   {
     "title": "Lead Technical Program Manager",
@@ -42111,15 +42105,14 @@
     "url": "https://ie.linkedin.com/jobs/view/lead-technical-program-manager-at-jpmorganchase-4442443445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job posting explicitly states that applications are no longer being accepted ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4').",
     "id": "7823f6b6",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "1 tydzie\u0144 temu",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T05:58:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T05:58:56+03:00"
   },
   {
     "title": "Teamleader Test, Validation & Release Management",
@@ -42128,15 +42121,14 @@
     "url": "https://be.linkedin.com/jobs/view/teamleader-test-validation-release-management-at-senhive-4467549757",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires EU nationality as a condition for obtaining mandatory security clearance, which the candidate does not possess.",
+    "reason": "The role requires physical presence in Hasselt, Belgium, and mandates hands-on hardware lab/environmental testing experience as well as electronics hardware manufacturing exposure, which violates candidate relocation and hard rejection constraints.",
     "id": "add50d67",
     "source": "linkedin_eu_remote_release_manager_p2",
-    "posted_date": "2 tygodnie temu",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T05:58:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T05:58:56+03:00"
   },
   {
     "title": "Regional Quality Manager, Europe \u2013 Transformers Business Unit",
@@ -42145,15 +42137,14 @@
     "url": "https://www.jobly.fi/tyopaikka/regional-quality-manager-europe-transformers-business-unit-2761560",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/hardware quality management role in heavy equipment operations, which violates the hard rejection rule against manufacturing/hardware quality roles.",
+    "reason": "The job posting explicitly states it is no longer active, and it falls under the manufacturing/heavy equipment quality hard rejection category.",
     "id": "caef53be",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T06:49:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T06:49:45+03:00"
   },
   {
     "title": "BMS Project Manager \u2013 Espoo (6\u201312 kk)",
@@ -42162,15 +42153,14 @@
     "url": "https://www.jobly.fi/tyopaikka/bms-project-manager-espoo-6-12-kk-2664517",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish as a mandatory language requirement and focuses on building/construction project management rather than software release, configuration management, or technical communication.",
+    "reason": "This job is closed and no longer accepting applications as stated in the warning message.",
     "id": "145e55ea",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T06:49:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T06:49:45+03:00"
   },
   {
     "title": "BMS Engineer \u2013 Espoo (6\u201312 kk)",
@@ -42179,15 +42169,14 @@
     "url": "https://www.jobly.fi/tyopaikka/bms-engineer-espoo-6-12-kk-2665214",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish, which is a hard rejection criteria, and the role is focused on building automation/HVAC systems rather than software release, configuration management, or quality engineering.",
+    "reason": "The job posting explicitly states that the position is no longer active and no longer accepting applications.",
     "id": "5a6e4b21",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T06:49:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T06:49:45+03:00"
   },
   {
     "title": "Keitti\u00f6ty\u00f6ntekij\u00e4n keikkateht\u00e4viin ymp\u00e4ri Suomen",
@@ -42196,15 +42185,14 @@
     "url": "https://www.jobly.fi/tyopaikka/keittiotyontekijan-keikkatehtaviin-ympari-suomen-2756717",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for a kitchen worker, which is completely unrelated to the candidate's professional background in software engineering, configuration management, and technical communication.",
+    "reason": "The job is a closed listing for a kitchen worker role in the hospitality sector, which does not match Priya's profile in software, release, and technical communication.",
     "id": "5e2e50ac",
     "source": "jobly_broad",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T06:49:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T06:49:45+03:00"
   },
   {
     "title": "Vuorop\u00e4\u00e4llikk\u00f6 Rax Pizzabuffet Vaasa, Restel",
@@ -42213,15 +42201,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vuoropaallikko-rax-pizzabuffet-vaasa-restel-2751569",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a restaurant shift manager role, which does not align with the candidate's professional background in technical communication, release management, and software engineering.",
+    "reason": "This is a closed restaurant shift manager position (Vuorop\u00e4\u00e4llikk\u00f6) in the hospitality industry, which is completely unrelated to Priya's background in software engineering, configuration management, and technical communication.",
     "id": "278b0767",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T06:49:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T06:49:45+03:00"
   },
   {
     "title": "Ty\u00f6maap\u00e4\u00e4llikk\u00f6, Pirkanmaan rakentamisurakat",
@@ -42230,15 +42217,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyomaapaallikko-pirkanmaan-rakentamisurakat-2761559",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction site management position (Ty\u00f6maap\u00e4\u00e4llikk\u00f6) in infrastructure/civil engineering, which falls under the hard rejection for manufacturing/construction quality roles and does not align with her software release/CM/DevOps background.",
+    "reason": "The role is for a Construction Site Manager (Ty\u00f6maap\u00e4\u00e4llikk\u00f6) in infrastructure and earthworks, which violates the hard rejection rule against physical construction, manufacturing, and building quality roles.",
     "id": "a6ae202f",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "2026-10-18",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T06:49:45+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T06:49:45+03:00"
   },
   {
     "title": "Lead Software Architect \u2013 AI-Native Development",
@@ -42247,15 +42233,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a09c509dbb3a5b4e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure software architecture and feature-development role focused on building proprietary applications, which falls under the hard rejection for pure feature-development software engineering.",
+    "reason": "The role is a Lead Software Architect focused on building applications and AI-native feature development rather than Priya's core expertise in release management, configuration management, CI/CD pipeline ownership, or quality/regulatory compliance.",
     "id": "c32db522",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T07:11:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T07:11:23+03:00"
   },
   {
     "title": "SW Engineer, Network Management",
