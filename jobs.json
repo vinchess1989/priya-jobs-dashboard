@@ -29718,15 +29718,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-gestionnaire-de-configuration-qualit%C3%A9-d%C3%A9fense-f-h-at-vacoa-4465106115",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote position open to candidates living in Finland, violating the location requirements.",
+    "reason": "This on-site role is located in Cr\u00e9teil, France, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "40edbbd0",
     "source": "linkedin_eu_configuration_manager_p2",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "il y a 1 mois",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Associate Development Director",
@@ -29735,15 +29734,14 @@
     "url": "https://fi.linkedin.com/jobs/view/associate-development-director-at-housemarque-4467202816",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a project/development management leadership position focused on game production and studio operations, which falls under the 'Specialist Platforms, Architecture or Line Management' exclusion as it lacks a core CI/CD, release, or quality-engineering component.",
+    "reason": "This role requires significant experience leading production and development management for large-scale AAA/console game development, which does not align with Priya's background in release management, configuration management, and DevOps in safety-critical and regulated industries.",
     "id": "9dea8fa7",
     "source": "linkedin_fi_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "il y a 1 semaine",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "SAP Commerce Cloud Release Manager",
@@ -29752,15 +29750,14 @@
     "url": "https://ie.linkedin.com/jobs/view/sap-commerce-cloud-release-manager-at-henry-schein-4458319359",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "This role is located in Dublin, Ireland and requires specific expertise in the SAP Commerce Cloud platform, which falls outside the candidate's core release management and technical background.",
     "id": "a86ae9bb",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Software Engineer, Analytics",
@@ -29769,15 +29766,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineer-analytics-at-aiven-4426852466",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure feature-development software engineering role focused on building analytics offerings and PostgreSQL services, which falls under the hard rejection for pure feature-development roles.",
+    "reason": "This is a pure feature-development software engineering role focused on analytics and PostgreSQL services, which conflicts with Priya's recent release management, CI/CD, and quality background.",
     "id": "2a76a669",
     "source": "linkedin_fi_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Commissioning Engineer (smelting)",
@@ -29786,15 +29782,14 @@
     "url": "https://www.jobly.fi/tyopaikka/commissioning-engineer-smelting-2757872",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a manufacturing/industrial commissioning role for smelting plants, which falls under the hard rejection for manufacturing/hardware quality roles and does not involve software release, configuration management, or software quality.",
+    "reason": "The job posting explicitly states that it is no longer active and closed for applications, and it falls under heavy industrial/manufacturing commissioning rather than software or quality engineering.",
     "id": "4c4426b7",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Commissioning Engineer (smelting)",
@@ -29803,15 +29798,14 @@
     "url": "https://www.jobly.fi/tyopaikka/commissioning-engineer-smelting-2757870",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/industrial commissioning engineering position, which falls under the hard rejection for hardware/manufacturing quality roles and lacks the required software-release, configuration-management, or software-quality component.",
+    "reason": "The job posting explicitly states that it is no longer valid, and the role is a smelting commissioning engineering position unrelated to software, release, or quality management.",
     "id": "cebc4f12",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:55+03:00"
   },
   {
     "title": "Technical Project Manager & Release Manager",
@@ -29820,15 +29814,14 @@
     "url": "https://pl.linkedin.com/jobs/view/technical-project-manager-release-manager-at-ey-4459950831",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poland and is not a fully remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is physically located in Katowice, Poland with a 2-days-in-office requirement, which violates the candidate's requirement to be based in Finland or do fully remote work.",
     "id": "d00cdd47",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "IMA GIE - Change Manager H/F",
@@ -29837,15 +29830,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ima-gie-change-manager-h-f-at-groupe-ima-4450539059",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Niort, France, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is physically located in France (Niort, Nouvelle-Aquitaine) and is not in Finland nor remote.",
     "id": "c2290ca7",
     "source": "linkedin_eu_release_manager",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Delivery Manager \u2013 IT Programme / Project",
@@ -29854,15 +29846,14 @@
     "url": "https://pl.linkedin.com/jobs/view/delivery-manager-%E2%80%93-it-programme-project-at-helprise-4462815029",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poland and is not explicitly stated as remote for candidates living in Finland, violating the location requirement.",
+    "reason": "The job is physically located in Cracow, Poland, and does not meet the candidate's geographic criteria of being in Finland or open to remote work from Finland.",
     "id": "74c5f6d8",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "il y a 1 mois",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Salesforce Release Manager & Platform Administrator",
@@ -29871,15 +29862,14 @@
     "url": "https://pt.linkedin.com/jobs/view/salesforce-release-manager-platform-administrator-at-richemont-4462943908",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, and is not a remote role open to candidates in Finland, and it also mandates fluent Portuguese which the candidate does not possess.",
+    "reason": "The job is physically located in Lisbon, Portugal, violating the candidate's location criteria requiring positions to be in Finland or fully remote.",
     "id": "fa1adfa1",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Service Delivery Manager - Seguros",
@@ -29888,15 +29878,14 @@
     "url": "https://es.linkedin.com/jobs/view/service-delivery-manager-seguros-at-hiberus-4462769435",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Madrid, Spain, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is located in Spain and does not meet the geographic criteria for a candidate based in Finland.",
     "id": "cdd75749",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Delivery- und Release-Manager (m/w/d)",
@@ -29905,15 +29894,14 @@
     "url": "https://de.linkedin.com/jobs/view/delivery-und-release-manager-m-w-d-at-jenoptik-4463943930",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and requires fluent German, which violates the location and language requirements.",
+    "reason": "The job is physically located in Monheim, Germany, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "046e8069",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "BUSINESS ANALYST / RELEASE MANAGER",
@@ -29922,15 +29910,14 @@
     "url": "https://fr.linkedin.com/jobs/view/business-analyst-release-manager-at-acensi-4455419391",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is physically located in Courbevoie, France, which violates the candidate's location requirement of being based in Finland or remote worldwide/EU.",
     "id": "9f7609b5",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Delivery Manager IT - H/F",
@@ -29939,15 +29926,14 @@
     "url": "https://fr.linkedin.com/jobs/view/delivery-manager-it-h-f-at-orisha-4462198780",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Guipavas, France, violating the rule that on-site or hybrid roles must be in Finland.",
     "id": "1678a53f",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Product Delivery Manager",
@@ -29956,15 +29942,14 @@
     "url": "https://ie.linkedin.com/jobs/view/product-delivery-manager-at-jpmorganchase-4442436713",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job posting explicitly states that applications are no longer accepted ('Les candidatures ne sont plus accept\u00e9es').",
     "id": "72c81210",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "il y a 4 semaines",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:15:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:15:56+03:00"
   },
   {
     "title": "Engineering Delivery Manager - H/F",
