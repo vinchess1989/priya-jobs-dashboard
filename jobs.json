@@ -41508,15 +41508,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2d069a47-0dc4-49dd-bc80-d0377579f2bd/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires process engineering expertise in metallurgy/hydrometallurgy, which does not align with Priya's background in regulated software release/CM/DevOps or technical documentation roles.",
+    "reason": "The role is a process engineering position in metallurgy/hydrometallurgy, which falls under the hard rejection for manufacturing/industrial process quality roles and lacks the required software-release or configuration-management component.",
     "id": "e19c22c9",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2027-03-17",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T19:26:55+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T19:26:55+03:00"
   },
   {
     "title": "Staff Engineer, Internal Platform and APIs - Greenstep Espoo",
@@ -41543,15 +41542,14 @@
     "url": "https://lt.linkedin.com/jobs/view/devops-engineer-at-nasdaq-4469188599",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is located in Vilnius, Lithuania, violating the requirement that out-of-Finland locations must be fully remote, and the salary range (3500-4000 EUR) falls below the candidate's minimum requirement of 4500 EUR.",
     "id": "5522044a",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T20:17:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T20:17:23+03:00"
   },
   {
     "title": "CPQ Business Solution Owner",
@@ -41560,15 +41558,14 @@
     "url": "https://fi.linkedin.com/jobs/view/cpq-business-solution-owner-at-hiab-4469182631",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting is closed and no longer accepting applications.",
+    "reason": "This job posting explicitly states that it is no longer accepting applications, making it closed.",
     "id": "d43aa268",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T20:17:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T20:17:23+03:00"
   },
   {
     "title": "Ty\u00f6ntekij\u00e4 tuotannon logistiikkaan",
@@ -41577,15 +41574,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyontekija-tuotannon-logistiikkaan-2756684",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a production logistics worker with material handling and packaging responsibilities, which does not align with the candidate's expertise in technical writing, release management, configuration management, or quality assurance in regulated/safety-critical domains.",
+    "reason": "The job posting explicitly states that it is no longer active and is for a manufacturing logistics/production worker role which falls outside her professional scope.",
     "id": "e79a6ceb",
     "source": "jobly_broad",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T20:17:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T20:17:23+03:00"
   },
   {
     "title": "Ratkaisumyyji\u00e4 taloyhti\u00f6iden kiinteist\u00f6energiapalveluihin, Ouman, Oulu",
@@ -41594,15 +41590,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ratkaisumyyjia-taloyhtioiden-kiinteistoenergiapalveluihin-ouman-oulu-2761536",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position requiring fluent Finnish, both of which are hard rejections.",
+    "reason": "This is a quota-carrying sales role requiring fluent Finnish, violating multiple hard rejections and domain criteria.",
     "id": "e7a27b9a",
     "source": "jobly_broad",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T20:17:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T20:17:23+03:00"
   },
   {
     "title": "Liikennep\u00e4\u00e4llikk\u00f6",
@@ -41611,15 +41606,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/06596349-306b-4623-9c55-5deeebc60af3/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Traffic Manager with railway operations experience, which does not align with Priya's background in software release/DevOps, configuration management, and technical documentation for regulated products.",
+    "reason": "The role requires fluent Finnish (Ty\u00f6kielet: Suomi) and railway operations experience (veturinkuljettaja / rautatieala), which does not match the candidate's software release and quality profile.",
     "id": "301b01b0",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-18",
     "deadline": "2026-11-28",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T20:17:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T20:17:23+03:00"
   },
   {
     "title": "Devops Engineer",
@@ -41628,15 +41622,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-fyld-4467507446",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which is outside Finland and not a fully remote role that can be done from Finland, triggering a hard rejection under location constraints.",
+    "reason": "The job is physically located in Lisbon, Portugal, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "a646aa06",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -41645,15 +41638,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-neotalent-conclusion-4469134907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Lisbon, Portugal, which is outside Finland and not a remote position, disqualifying it under the location criteria.",
+    "reason": "The job requires fluency in Portuguese and is physically located in Portugal, violating the candidate's location and language requirements.",
     "id": "a3936e22",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Senior DevOps Engineer  - F/H",
@@ -41661,16 +41653,17 @@
     "location": "V\u00e9lizy-Villacoublay, \u00cele-de-France, France",
     "url": "https://fr.linkedin.com/jobs/view/senior-devops-engineer-f-h-at-thales-4462833917",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in France and requires on-site presence, which does not meet Priya's criteria of being based in Finland or fully remote roles accessible from Finland.",
+    "matches_requirements": "error",
+    "reason": "Failed to get or parse LLM response: HTTPConnectionPool(host='127.0.0.1', port=1234): Read timed out. (read timeout=900)",
     "id": "b5a017cf",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "1 semana",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
     "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-18T22:06:17+03:00"
   },
   {
     "title": "DevOps Engineer",
@@ -41679,15 +41672,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-luza-group-4452382959",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland without remote flexibility.",
+    "reason": "The position is based in Lisbon, Portugal, which is outside Finland and not a fully remote role.",
     "id": "6cfb7f4d",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "2026-08-19",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "groq/openai/gpt-oss-120b",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "IBC - EPR2 - Responsable configuration et modifications F/H",
@@ -41696,15 +41688,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ibc-epr2-responsable-configuration-et-modifications-f-h-at-edf-4414066773",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France (Belleville-sur-Sa\u00f4ne), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is physically located in France (Belleville-sur-Sa\u00f4ne), which violates the candidate's requirement to be located in or working remotely from Finland.",
     "id": "caeb134a",
     "source": "linkedin_eu_configuration_manager",
-    "posted_date": "h\u00e1 4 meses",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Research and Development Project Manager",
@@ -41713,15 +41704,14 @@
     "url": "https://fi.linkedin.com/jobs/view/research-and-development-project-manager-at-beontag-4465104360",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent communication in Finnish, which is a hard rejection criterion as the candidate does not speak Finnish or Swedish.",
+    "reason": "The job posting explicitly states it is no longer accepting applications and requires fluent Finnish language skills.",
     "id": "b397bbe9",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Program Director",
@@ -41730,15 +41720,14 @@
     "url": "https://fi.linkedin.com/jobs/view/program-director-at-tata-consultancy-services-4460297241",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires proficiency in Finnish as a mandatory language requirement, which Priya does not possess, and the role type (Program Director) does not align with her expertise in configuration management, release processes, or technical documentation.",
+    "reason": "The role is a senior executive Program Director position focused on large-scale cloud migration and IT portfolio delivery management, which falls outside Priya's release, CM, quality, and technical documentation core.",
     "id": "c836502a",
     "source": "linkedin_fi_release_manager",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "Senior Implementation Analyst (Remote in Europe)",
@@ -41746,16 +41735,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-implementation-analyst-remote-in-europe-at-intellect-4445628409",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves implementation and project management in a regulated industry (QMS) which partially aligns with Priya's background in quality gatekeeping and technical documentation, but lacks explicit focus on CI/CD/release management or configuration management ownership she specializes in.",
+    "matches_requirements": "no",
+    "reason": "Although the role touches on Quality Management Systems, it is primarily a customer-facing implementation and consulting position which conflicts with the negative constraint against customer-facing roles.",
     "id": "cf11b871",
     "source": "linkedin_fi_product_specialist",
-    "posted_date": "h\u00e1 2 meses",
+    "posted_date": "2026-08-19",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
     "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true,
     "applied": "yes"
   },
   {
@@ -41765,15 +41753,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-engineer-web-platform-at-unity-4467876716",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development Software Engineer position focused on Web runtime optimization and low-level C++/JavaScript work, which does not align with Priya's expertise in DevOps, Configuration Management, Release Management, or technical documentation (her target criteria explicitly exclude pure feature-development roles).",
+    "reason": "This is a pure feature-development and low-level engineering role focused on C++ game engine runtime optimization and WebAssembly, which violates the hard rejection rule against pure feature-development software engineering.",
     "id": "851b6c43",
     "source": "linkedin_fi_broad",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T21:13:20+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T21:13:20+03:00"
   },
   {
     "title": "BI Engineer, Analytics Platform (Helsinki)",
