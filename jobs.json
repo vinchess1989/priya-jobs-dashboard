@@ -22502,15 +22502,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkosuunnittelija-liikkuvat-tyokoneet-etteplan-oyj-tampere-2744585",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an electrical designer role focused on mobile machines and industrial equipment, which does not align with Priya's expertise in configuration management, release management, or technical documentation in regulated/safety-critical domains.",
+    "reason": "The role is a hardware/electrical engineering position focused on circuit design and physical systems, which falls under the hard rejection for manufacturing/hardware quality roles and lacks the required software-release/CM core.",
     "id": "9aa02185",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Project Controller \u2013 Datakeskushanke, Bravida, Kouvola, Helsinki tai Tampere",
@@ -22519,15 +22518,14 @@
     "url": "https://www.jobly.fi/tyopaikka/project-controller-datakeskushanke-bravida-kouvola-helsinki-tai-tampere-2744586",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires project controller responsibilities focused on financial tracking and ERP systems, which do not align with Priya's expertise in DevOps, configuration management, release management, or technical documentation.",
+    "reason": "The job posting is explicitly marked as no longer valid, and the role is a financial project controller position which falls outside the candidate's core expertise in software release, configuration management, and quality engineering.",
     "id": "c93ab9eb",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Kokenut rakennusty\u00f6ntekij\u00e4",
@@ -22536,15 +22534,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokenut-rakennustyontekija-2749883",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an experienced construction worker, which does not align with Priya's background in technical communication, configuration management, and DevOps/CI-CD roles.",
+    "reason": "The job is for a construction worker, which falls under the hard rejection for manufacturing/construction roles and is outside the candidate's professional domain.",
     "id": "9f22eeb8",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "DevOps Engineer Backend",
@@ -22553,15 +22550,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-backend-at-air-apps-4463430886",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which is outside Finland and not a fully remote role accessible from Finland, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Lisbon, Portugal, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "a5b5566a",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:28:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:28:34+03:00"
   },
   {
     "title": "Ing\u00e9nieur DevOps  H/F",
@@ -22570,15 +22566,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-h-f-at-neosoft-4464197513",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Toulouse, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Toulouse, France, which violates the candidate's location criteria requiring roles to be either in Finland or fully remote.",
     "id": "eb2b35a1",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "2026-10-15",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:28:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:28:34+03:00"
   },
   {
     "title": "VIIMEISTELIJ\u00c4 / LOGISTIIKKATY\u00d6NTEKIJ\u00c4",
@@ -22587,15 +22582,14 @@
     "url": "https://www.jobly.fi/tyopaikka/viimeistelija-logistiikkatyontekija-2754980",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job posting is no longer active.",
+    "reason": "This is a manufacturing/logistics finishing and logistics worker position, which falls under the hard rejection for manufacturing, construction, or hardware quality/production roles.",
     "id": "92827680",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:28:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:28:34+03:00"
   },
   {
     "title": "KARUSELLISORVAAJA / KONEISTAJA (2 paikkaa)",
@@ -22604,15 +22598,14 @@
     "url": "https://www.jobly.fi/tyopaikka/karusellisorvaaja-koneistaja-2-paikkaa-2754963",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a machinist/operator role in manufacturing, which does not align with the candidate's expertise in technical communication, release management, configuration management, or quality assurance in regulated/safety-critical software domains.",
+    "reason": "This is a manufacturing/machining role (carousel lathe operator) which falls under the hard rejection criteria for manufacturing, construction, or hardware quality roles.",
     "id": "7537f98d",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:28:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:28:34+03:00"
   },
   {
     "title": "KONEISTAJA AARPORALLE JA PITK\u00c4JYRSINKONEELLE",
@@ -22621,15 +22614,14 @@
     "url": "https://www.jobly.fi/tyopaikka/koneistaja-aarporalle-ja-pitkajyrsinkoneelle-2754938",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a manufacturing machinist role in a non-regulated, hardware-focused industry, which does not align with the candidate's expertise in software release/CM/DevOps or technical documentation in regulated domains (Hard Rejection #7).",
+    "reason": "This is a machinist/manufacturing production role (Koneistaja), which triggers the hard rejection for manufacturing, construction, or hardware quality roles.",
     "id": "11862f6e",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:28:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:28:34+03:00"
   },
   {
     "title": "Technical Project Manager, Tampere",
@@ -22638,15 +22630,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/496a7366-2a39-420d-847a-5aa9da7f3f52/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires technical project management responsibilities (cross-functional team coordination, project planning, risk management) rather than release/configuration management, CI/CD pipeline ownership, or quality/compliance gatekeeping roles that align with Priya's background.",
+    "reason": "The role requires hardware engineering, power electronics, and energy/grid sector experience, which falls under manufacturing and hardware quality exclusions.",
     "id": "ab663b01",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:28:34+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:28:34+03:00"
   },
   {
     "title": "Litigation Program TraineeNokiaEspooGo to job site",
@@ -22655,15 +22646,14 @@
     "url": "https://www.jobly.fi/en/job/litigation-program-trainee-2754906",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a legal education and focuses on litigation program management, which does not align with the candidate's background in technical communication, release management, and quality assurance in regulated industries.",
+    "reason": "This is a legal/litigation program trainee role requiring law studies, which does not match Priya's technical release management, configuration management, or engineering background.",
     "id": "b8e2e6a4",
     "source": "work_in_finland",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:30:22+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:30:22+03:00"
   },
   {
     "title": "Medical Scientific Liaison (MSL) - Diabetes Care - Finland",
@@ -22672,15 +22662,14 @@
     "url": "https://fi.linkedin.com/jobs/view/medical-scientific-liaison-msl-diabetes-care-finland-at-abbott-4449657630",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish communication skills, which Priya does not possess, and it falls outside her target domains of configuration management, release engineering, or technical documentation.",
+    "reason": "The role requires fluent Finnish and a clinical/medical background (Medicine, Pharmacy, etc.), neither of which the candidate possesses.",
     "id": "3a8ad857",
     "source": "linkedin_fi_product_specialist_p2",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-10-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:55:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:55:30+03:00"
   },
   {
     "title": "Senior Application Engineer",
@@ -22689,15 +22678,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-application-engineer-at-u-blox-4460344066",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on application engineering with GNSS technology and customer support, not aligned with Priya's expertise in release/CM/DevOps or technical communication/documentation ownership.",
+    "reason": "The job posting explicitly states 'No longer accepting applications' and is a heavily customer-facing application engineering role.",
     "id": "811564e4",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-03",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:55:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:55:30+03:00"
   },
   {
     "title": "Field Data Collection Specialist\\Surveyor",
@@ -22706,15 +22694,14 @@
     "url": "https://fi.linkedin.com/jobs/view/field-data-collection-specialist-surveyor-at-tsmg-holding-4345719168",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires field data collection and surveying tasks, which do not align with Priya's expertise in release management, configuration management, technical writing, or quality assurance in regulated industries.",
+    "reason": "This is a physical field data collection and surveying role requiring extensive walking and outdoor travel, which completely mismatches her senior configuration management, release, and software/technical documentation background.",
     "id": "ab410cd1",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-01-13",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:55:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:55:30+03:00"
   },
   {
     "title": "Risk and Safety Assessment Specialist",
@@ -22723,15 +22710,14 @@
     "url": "https://fi.linkedin.com/jobs/view/risk-and-safety-assessment-specialist-at-meyer-turku-4464315595",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role focuses on risk and safety assessment engineering (performance-based design analysis, fire safety simulations) which does not align with Priya's expertise in configuration management, release management, or technical writing despite being in a regulated/safety-critical domain.",
+    "reason": "The job posting explicitly states it is no longer accepting applications.",
     "id": "92a5eb73",
     "source": "linkedin_fi_product_specialist_p2",
     "posted_date": "2026-09-08",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:55:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:55:30+03:00"
   },
   {
     "title": "Furniture & Furnishing Development Specialist (FF&E)",
@@ -22740,15 +22726,14 @@
     "url": "https://cy.linkedin.com/jobs/view/furniture-furnishing-development-specialist-ff-e-at-moving-doors-4465044275",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Limassol, Cyprus (outside Finland) and is not fully remote, which violates Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The role is located in Cyprus and is not a remote position, violating the location requirements, and it is also no longer accepting applications.",
     "id": "ed2fb4a9",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T12:55:30+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T12:55:30+03:00"
   },
   {
     "title": "Product Specialist",
