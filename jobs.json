@@ -42249,15 +42249,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3d3f8f30b33317a3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description is inaccessible (HTTP 400 error), making it impossible to evaluate the role against the candidate's requirements.",
+    "reason": "The job description failed to load due to a server error (HTTP 400 Bad Request), preventing any evaluation against the candidate's criteria.",
     "id": "c165b29c",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T07:11:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T07:11:23+03:00"
   },
   {
     "title": "Senior SW Engineer, Network Management",
@@ -42266,15 +42265,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ede7c2c9785c70d1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is incomplete and contains only website navigation elements, making it impossible to verify if the role meets the required criteria for release management, configuration management, or quality engineering.",
+    "reason": "The role focuses on pure feature-development and software engineering for network management rather than configuration management, release management, or quality gatekeeping.",
     "id": "b5cb2ed5",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T07:11:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T07:11:23+03:00"
   },
   {
     "title": "SW Engineer, Defense",
@@ -42283,15 +42281,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2aa617776511be07",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is incomplete and lacks the necessary details regarding responsibilities to determine if it aligns with the candidate's release, configuration management, or quality-focused background.",
+    "reason": "The role is in the defense sector and focuses on software engineering for defense applications, which does not align with Priya's background in release management, configuration management, DevOps, or technical communication.",
     "id": "6a377b6d",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T07:11:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T07:11:23+03:00"
   },
   {
     "title": "Palkat - Software Engineer",
@@ -42300,32 +42297,30 @@
     "url": "https://fi.indeed.com/career/software-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a generic job board landing page for salary searches rather than a specific job posting, and therefore lacks the necessary details to qualify as a role.",
+    "reason": "This is a salary information and career guidance page on Indeed rather than an active job posting.",
     "id": "abe4aeb9",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T07:11:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T07:11:23+03:00"
   },
   {
     "title": "Salaries for Software Engineer, Helsinki, F19",
     "company": "Extract from page",
-    "location": "Extract from page",
+    "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/career/software-engineer/salaries/Helsinki--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a salary information page from a job board, not an actual job vacancy posting.",
+    "reason": "This posting is a salary information page on Indeed rather than an actual job opening.",
     "id": "0da6d175",
     "source": "indeed_fi_devops_engineer",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T07:11:23+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T07:11:23+03:00"
   },
   {
     "title": "Yhdistelm\u00e4ajoneuvonkuljettaja",
@@ -42334,15 +42329,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/d92994d5-dd37-4944-805a-156459556d3b/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a truck driver, which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
+    "reason": "This is a combination vehicle driver (truck driver) position, which completely falls outside Priya's software, release management, and technical communication background.",
     "id": "7b3dd666",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-19",
     "deadline": "2026-10-17",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T09:11:56+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T09:11:56+03:00"
   },
   {
     "title": "Muuttoty\u00f6ntekij\u00f6it\u00e4 Etel\u00e4-Karjalaan",
@@ -42351,15 +42345,14 @@
     "url": "https://www.jobly.fi/tyopaikka/muuttotyontekijoita-etela-karjalaan-2733897",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a manual labor/moving role, which does not align with the candidate's professional background in software engineering, release management, and technical communication.",
+    "reason": "This is a physical moving/laborer job (\\\\",
     "id": "0b543b1e",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T09:26:52+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T09:26:52+03:00"
   },
   {
     "title": "Varhaiskasvatuksen lastenhoitaja",
@@ -42368,15 +42361,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/aa5a712c-0941-4f5d-ab90-6f2e4f3e3607/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires professional qualifications in early childhood education and fluent Finnish, which does not align with the candidate's technical background or language skills.",
+    "reason": "This is an early childhood education childcare role requiring fluent Finnish and a specific childcare qualification, which does not match Priya's technical communication, configuration management, and release engineering background.",
     "id": "35b509cf",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-19",
     "deadline": "2026-11-30",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T10:23:02+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T10:23:02+03:00"
   },
   {
     "title": "Elektroniikkainsin\u00f6\u00f6ri, ABB Oy, Vaasa",
@@ -42385,15 +42377,14 @@
     "url": "https://www.jobly.fi/tyopaikka/elektroniikkainsinoori-abb-oy-vaasa-2645572",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a hardware-focused production engineering role rather than a software release/CM/quality role.",
+    "reason": "The role requires hands-on hardware electronic design, CAD tools (Altium/PADS), and bench testing, violating the hard rejection for physical manufacturing/hardware lab testing roles and lacking her required focus on software release, configuration management, or quality engineering.",
     "id": "a844de8d",
     "source": "jobly_broad",
     "posted_date": "2026-09-19",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T12:22:28+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T12:22:28+03:00"
   },
   {
     "title": "Rakennuslogistiikkaty\u00f6ntekij\u00f6it\u00e4 Lahden alueelle",
@@ -42402,15 +42393,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennuslogistiikkatyontekijoita-lahden-alueelle-2699063",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction logistics worker requiring fluent Finnish, which is a hard rejection based on language requirements and the candidate's professional profile.",
+    "reason": "This is a construction logistics role which violates the hard rejection rule against physical construction, manufacturing, and manual labor roles.",
     "id": "59ab4373",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T13:10:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T13:10:54+03:00"
   },
   {
     "title": "OPS Specialist, Tuusula/Helsinki",
@@ -42419,15 +42409,14 @@
     "url": "https://www.jobly.fi/tyopaikka/ops-specialist-tuusula-helsinki-2734734",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting explicitly states that it is no longer active and accepts no further applications.",
     "id": "2bd14301",
     "source": "jobly_broad",
     "posted_date": "2026-09-26",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T13:10:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T13:10:54+03:00"
   },
   {
     "title": "Product specialist \u2013 advanced surgery procedures",
@@ -42436,15 +42425,14 @@
     "url": "https://es.linkedin.com/jobs/view/product-specialist-%E2%80%93-advanced-surgery-procedures-at-applied-medical-4466251527",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales/business development position requiring frequent travel in Spain, which violates the candidate's rejection criteria for sales roles and location requirements.",
+    "reason": "This is a quota-carrying sales and business development role requiring frequent travel across Spain, which violates the hard rejection against sales roles mislabeled as product specialists and the location requirements.",
     "id": "3d92bd91",
     "source": "linkedin_eu_product_specialist",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "hace 1 semana",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T13:25:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T13:25:54+03:00"
   },
   {
     "title": "Tienhoitoautonkuljettaja Varkauden seudulle!",
@@ -42453,15 +42441,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/3ec0be97-43e0-43c8-8f3c-4c7e2f8cb35a/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a truck driver, which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
+    "reason": "This is a physical road maintenance and truck driving job (Tienhoitoautonkuljettaja) requiring heavy vehicle operation and Finnish language skills, which completely misaligns with Priya's software and technical communication background.",
     "id": "c19ad886",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-19",
     "deadline": "2026-11-01",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T13:44:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T13:44:39+03:00"
   },
   {
     "title": "Tienhoitoautonkuljettaja Kuopion seudulle!",
@@ -42470,15 +42457,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/2b585109-71a8-49a9-b4ba-d314984d7356/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a truck driver, which does not align with the candidate's professional background in software engineering, release management, and technical documentation.",
+    "reason": "This job is for a road maintenance truck driver in Kuopio, which is completely unrelated to Priya's background in software engineering, release management, and quality/technical communication.",
     "id": "5f762365",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-19",
     "deadline": "2026-11-01",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T13:44:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T13:44:39+03:00"
   },
   {
     "title": "Henkil\u00f6kohtainen avustaja",
@@ -42487,15 +42473,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/44c440ee-4245-4a61-b0bb-058c3ce7cbfe/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a personal assistant, which does not align with the candidate's 15-year career in technical communication, release management, and software engineering.",
+    "reason": "This is a personal assistant job which is entirely outside Priya's professional domain of IT, release management, and engineering.",
     "id": "b65d8899",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-19",
     "deadline": "2026-10-20",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-19T13:44:39+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-19T13:44:39+03:00"
   },
   {
     "title": "Osa-aikainen siivooja 2,5h/vko H\u00e4meenlinna",
