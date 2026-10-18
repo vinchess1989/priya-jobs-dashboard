@@ -45149,32 +45149,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-e2-at-lockheed-martin-4456985332",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which is a strict hard rejection criteria.",
+    "reason": "The job is located in the United States (Liverpool, OH), triggering the strict hard rejection rule against US-based positions.",
     "id": "3addb972",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Engineer Quality",
-    "company": "Northrop Grumman",
-    "location": "Salt Lake City, UT",
-    "url": "https://www.linkedin.com/jobs/view/engineer-quality-at-northrop-grumman-4460885266",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in the United States and explicitly requires U.S. citizenship, which violates the hard rejection criteria.",
-    "id": "0900671f",
-    "source": "linkedin_ww_remote_quality_engineer",
-    "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "2026-09-26",
-    "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -45183,15 +45165,14 @@
     "url": "https://sg.linkedin.com/jobs/view/senior-quality-engineer-at-quasar-medical-medical-device-manufacturer-4464171952",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Singapore, which violates the location requirement, and it is explicitly closed for applications.",
+    "reason": "The job is located in Singapore and violates both the location constraints and manufacturing quality rejections.",
     "id": "03be75fc",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer II",
@@ -45200,15 +45181,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-ii-at-terumo-aortic-4444108217",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which is a strict hard rejection criteria.",
+    "reason": "The role is located in Sunrise, FL, United States, which violates the strict non-negotiable hard rejection rule for US-based or US-restricted jobs.",
     "id": "5a17a5a8",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer- Bilingual Spanish",
@@ -45217,15 +45197,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-bilingual-spanish-at-foxconn-industrial-internet-fii-4436286416",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Houston, TX, USA, which violates the strict exclusion of any roles located in or restricted to the United States.",
+    "reason": "The job is located in Houston, TX, United States, violating the strict US exclusion hard rejection rule.",
     "id": "40cfe6bf",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "3 kuukautta sitten",
+    "posted_date": "2026-07-20",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "NPI Quality Assurance Engineer",
@@ -45234,15 +45213,14 @@
     "url": "https://my.linkedin.com/jobs/view/npi-quality-assurance-engineer-at-renesas-electronics-4467051115",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/hardware quality engineering position based in Malaysia, which violates the location requirements and the hard rejection for manufacturing-focused quality roles.",
+    "reason": "The job is physically located in Malaysia, violating the candidate's location criteria requiring roles in Finland or remote worldwide/EU.",
     "id": "d6da9900",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Principal Quality Assurance Engineer",
@@ -45251,15 +45229,14 @@
     "url": "https://tw.linkedin.com/jobs/view/principal-quality-assurance-engineer-at-rambus-4437656793",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing quality engineering position in Taiwan/South Korea, which violates the location requirements and the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This is a hardware/semiconductor manufacturing quality role in Taiwan, violating the hard rejections against manufacturing/hardware quality roles outside Finland.",
     "id": "b35c3c31",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer (G-Project)",
@@ -45268,15 +45245,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-g-project-at-foxconn-industrial-internet-fii-4389538225",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Houston, TX), which is a strict hard rejection, and it is also marked as no longer accepting applications.",
+    "reason": "The role is located in the United States (Houston, TX), triggering the strict hard rejection for US-based positions.",
     "id": "f22032a8",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "6 bulan yang lalu",
+    "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -45285,15 +45261,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-at-toyota-industries-group-tacg-tica-ties-4469758494",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Pendergrass, Georgia), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in Pendergrass, Georgia, US, which violates the strict hard rejection rule against US-based locations.",
     "id": "dc1768f1",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Mechanical Manufacturing Quality Engineer I",
@@ -45302,15 +45277,14 @@
     "url": "https://www.linkedin.com/jobs/view/mechanical-manufacturing-quality-engineer-i-at-johnson-health-tech-north-america-4365074331",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Sturtevant, Wisconsin), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "This job is located in the United States (Sturtevant, WI) and involves physical manufacturing quality engineering, both of which violate the hard rejection criteria.",
     "id": "38268e3d",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-09-26T12:00:16+03:00",
-    "posted_date": "8 bulan yang lalu",
+    "posted_date": "2026-01-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer II",
@@ -45319,15 +45293,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-ii-at-honeywell-aerospace-4470216330",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States and explicitly requires US work authorization, which violates the strict non-negotiable exclusion criteria.",
+    "reason": "The job is located in San Diego, CA, USA, violating the strict hard rejection rule against US-based positions.",
     "id": "983528ac",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Adhesive Quality Engineer",
@@ -45336,15 +45309,14 @@
     "url": "https://kr.linkedin.com/jobs/view/adhesive-quality-engineer-at-henkel-4468614083",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/chemical quality engineering position located in South Korea, which violates the location requirements and the hard rejection for manufacturing-focused quality roles.",
+    "reason": "The job is physically located in South Korea, violating the location constraint which requires jobs to be in Finland or fully remote.",
     "id": "ce9679b6",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-19",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product PQA Engineer",
@@ -45353,15 +45325,14 @@
     "url": "https://tw.linkedin.com/jobs/view/product-pqa-engineer-at-micron-technology-4436590606",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/fab-based quality engineering position in Taiwan, which violates the location requirements and the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "The job is physically located in Taiwan and violates the location criteria, and it also falls under the hard rejection for semiconductor manufacturing quality roles.",
     "id": "74631552",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-12",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer I",
@@ -45370,15 +45341,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-engineer-i-at-pursuit-aerospace-4469029332",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States and explicitly requires US work authorization, which violates the strict non-negotiable exclusion criteria.",
+    "reason": "The job is located in Stuart, FL, USA and requires US work authorization/ITAR compliance, violating the strict US location exclusion hard rejection.",
     "id": "927edfb4",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Advanced Quality Engineer (\uc2e0\ucc28 \ud488\uc9c8 \ubcf4\uc99d)",
@@ -45387,15 +45357,14 @@
     "url": "https://kr.linkedin.com/jobs/view/advanced-quality-engineer-%EC%8B%A0%EC%B0%A8-%ED%92%88%EC%A7%88-%EB%B3%B4%EC%A6%9D-at-42dot-4459654492",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in South Korea and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "The job is located in Seongnam, Gyeonggi, South Korea, violating the requirement that jobs must be in Finland or fully remote.",
     "id": "900dc751",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-09-26T13:10:22+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer I",
