@@ -21542,15 +21542,14 @@
     "url": "https://mt.linkedin.com/jobs/view/devops-lead-at-calamatta-cuschieri-4426495005",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Birkirkara, Malta (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not physically located in Finland and is not a remote role accessible from Finland.",
+    "reason": "The job is physically located in Malta and is not remote, violating the requirement that jobs outside the US must be in Finland or fully remote.",
     "id": "c6e57539",
     "source": "linkedin_eu_release_manager",
-    "posted_date": "vor 4 monaten",
+    "posted_date": "2026-06-20",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Software Release Engineer (m/f/d)",
@@ -21559,15 +21558,14 @@
     "url": "https://de.linkedin.com/jobs/view/software-release-engineer-m-f-d-at-arx-robotics-4417961386",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Munich, Germany, which is outside Finland and not a remote position, violating the location requirement.",
+    "reason": "The job is located in Munich, Germany, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "d841fc31",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "Lead Technical Program Manager",
@@ -21576,15 +21574,14 @@
     "url": "https://ie.linkedin.com/jobs/view/lead-technical-program-manager-at-jpmorganchase-4442433978",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which is outside Finland and not a fully remote role, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Dublin, Ireland, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "9f88a6b2",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:41:21+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:41:21+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6alan insin\u00f6\u00f6ri (2henkil\u00f6\u00e4)",
@@ -21593,15 +21590,14 @@
     "url": "https://www.jobly.fi/tyopaikka/sahkoalan-insinoori-2henkiloa-2754809",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an electrical engineer for factory and production system development, which does not align with the candidate's expertise in configuration management, release engineering, and technical documentation in regulated industries.",
+    "reason": "The job posting is explicitly marked as no longer valid, and the role is for an electrical engineer in a manufacturing/factory environment, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "7614cc01",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Key Account Manager, Industrial Infrastructure, Nevel Oy",
@@ -21610,15 +21606,14 @@
     "url": "https://www.jobly.fi/tyopaikka/key-account-manager-industrial-infrastructure-nevel-oy-2744483",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Key Account Manager focused on customer relationship management and sales, which falls under the hard rejection category for quota-carrying sales roles (even though it's not explicitly labeled 'Product Specialist'), and does not align with Priya's expertise in release/CM/DevOps or technical documentation.",
+    "reason": "The job is a quota-carrying sales/account management role, which is explicitly excluded by the hard rejection criteria for 'Product Specialist' titles.",
     "id": "e3b4b36e",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Rakennusalan ammattilaisia Kouvolaan",
@@ -21627,15 +21622,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennustyontekija-kouvolaan-2355111",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires construction work experience and skills not aligned with Priya's background in technical communication, release management, and DevOps in regulated industries.",
+    "reason": "The role is for a construction worker, which does not align with the candidate's technical/software background, and it requires fluent Finnish.",
     "id": "fd07116b",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Tarjoilija, keikkaty\u00f6 Turku",
@@ -21644,15 +21638,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tarjoilija-keikkatyo-turku-2734724",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess, and the role (waiter/waitress) is unrelated to her expertise in technical communication, release management, or DevOps/CI-CD.",
+    "reason": "The job is for a waiter (hospitality/service industry), which does not align with the candidate's technical, engineering, and release management background, and the posting is explicitly closed.",
     "id": "b883c47e",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Telineasentaja, Uusimaa",
@@ -21661,15 +21654,14 @@
     "url": "https://www.jobly.fi/tyopaikka/telineasentaja-uusimaa-2749762",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction scaffold installer, which does not align with Priya\u2019s software release, configuration management, or technical documentation expertise.",
+    "reason": "The job is for a construction scaffolding installer (telineasentaja), which is a manual labor role unrelated to the candidate's software, release, and quality engineering background.",
     "id": "c2f3d00b",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4t Varsinais-Suomi",
@@ -21678,15 +21670,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusaputyontekijat-varsinais-suomi-2749763",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a construction assistant role (rakennusaputy\u00f6ntekij\u00e4) in Finland, which does not align with the candidate's technical communication, configuration management, release engineering, or quality gatekeeping expertise.",
+    "reason": "The job is closed, offers a salary significantly below the candidate's threshold, and is for manual construction labor, which does not match her technical/engineering background.",
     "id": "6119e996",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Opetushoitaja Sis\u00e4tautien, Infektio- ja keuhkosairauksien osasto",
@@ -21695,15 +21686,14 @@
     "url": "https://www.jobly.fi/tyopaikka/opetushoitaja-sisatautien-infektio-ja-keuhkosairauksien-osasto-2749768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an education nurse in a hospital department, which is unrelated to the candidate's expertise in technical communication, release management, and configuration management.",
+    "reason": "The role requires a clinical nursing qualification (opetushoitaja/teaching nurse) and is no longer accepting applications.",
     "id": "46da23fe",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Koneenasentaja, Toijala",
@@ -21712,15 +21702,14 @@
     "url": "https://www.jobly.fi/tyopaikka/koneenasentaja-toijala-2749771",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires mechanical assembly and industrial machinery skills, which do not align with Priya's expertise in software configuration management, release engineering, and technical documentation (Hard Rejection: Manufacturing roles without software-release/CM components).",
+    "reason": "This is a manual labor/mechanical assembly role (Koneenasentaja) which falls under the hard rejection for manufacturing/hardware quality roles and does not match the candidate's software/release engineering background.",
     "id": "5782ec77",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "L\u00e4hihoitaja Ihotautien toimenpideyksikk\u00f6",
@@ -21729,15 +21718,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lahihoitaja-ihotautien-toimenpideyksikko-2750474",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a nursing position, not related to release management, DevOps, or technical documentation.",
+    "reason": "The role requires a clinical healthcare qualification (L\u00e4hihoitaja/Practical Nurse) and the job posting is explicitly closed.",
     "id": "df5fd7c1",
     "source": "jobly_broad",
     "posted_date": "2026-09-18",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Myyj\u00e4 keikkaty\u00f6h\u00f6n p\u00e4ivitt\u00e4istavarakaupan alalle",
@@ -21746,15 +21734,14 @@
     "url": "https://www.jobly.fi/tyopaikka/myyja-keikkatyohon-paivittaistavarakaupan-alalle-2694624",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting is a closed sales position in a retail setting, which does not match the required technical release/CM/quality roles.",
+    "reason": "The job is closed, and it is a retail sales role that does not align with the candidate's technical, release, or quality management background.",
     "id": "03a36902",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "vuorop\u00e4\u00e4llikk\u00f6, John Scott's",
@@ -21763,15 +21750,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vuoropaallikko-john-scotts-2744425",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'vuorop\u00e4\u00e4llikk\u00f6' (Shift Leader) at John Scott's in Turku, Finland does not align with Priya's target roles in DevOps, configuration management, release management, technical writing, or regulated-industry quality/requirements engineering.",
+    "reason": "The job posting is explicitly marked as no longer valid and the role is for a restaurant shift manager, which does not align with the candidate's technical, engineering, and quality management background.",
     "id": "0c093eb4",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Varastoty\u00f6ntekij\u00e4, Helsinki",
@@ -21780,15 +21766,14 @@
     "url": "https://www.jobly.fi/tyopaikka/varastotyontekija-helsinki-2744427",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a warehouse worker with operational tasks (inventory management, truck work), which does not align with the candidate's expertise in technical communication, configuration management, release engineering, and regulated-industry quality/compliance roles.",
+    "reason": "The job posting is explicitly stated as no longer valid and is for a warehouse worker role, which does not align with the candidate's professional background in technical communication, release management, and software engineering.",
     "id": "0ad5b629",
     "source": "jobly_broad",
     "posted_date": "2026-09-14",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T10:53:54+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T10:53:54+03:00"
   },
   {
     "title": "Palokatkoasentajia Haminaan, p\u00e4iv\u00e4rahat + majoitus",
