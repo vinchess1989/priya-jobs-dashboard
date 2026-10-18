@@ -34575,15 +34575,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kotisiivooja-keikkatyo-tampere-2751488",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job posting is for a cleaning position (kotisiivooja) which is completely outside the candidate's professional domain, and the posting also explicitly states it is no longer active.",
+    "reason": "The role is for a house cleaner (kotisiivooja), which does not align with the candidate's technical, engineering, and release management background.",
     "id": "e1cd4abc",
     "source": "jobly_broad",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Smartly Launchpad 2027 (Software Engineer)SmartlyHelsinkiGo to job site",
@@ -34592,15 +34591,14 @@
     "url": "https://thehub.fi/jobs/6aa9dfaff0b1bfe4cfb060bd",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an entry-level software engineering program that explicitly targets recent graduates and offers a salary below the candidate's minimum threshold.",
+    "reason": "The role is an entry-level graduate program explicitly excluding candidates with several years of industry experience, and the salary is below the candidate's minimum threshold.",
     "id": "8b4fa5bc",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "2026-10-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Senior DevOps Engineer (AWS)",
@@ -34609,15 +34607,14 @@
     "url": "https://hr.linkedin.com/jobs/view/senior-devops-engineer-aws-at-duetto-4467976227",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The candidate is based in Finland and requires remote roles restricted to Finland/EU/Worldwide, whereas this remote role is restricted to Croatia.",
+    "reason": "The job is located in Croatia and is not explicitly open to candidates residing in Finland, violating the location policy for non-remote roles outside of Finland.",
     "id": "703bf7c3",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Customer Success Manager",
@@ -34626,15 +34623,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-success-manager-at-aceve-4467256613",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a customer-facing Customer Success Manager role, which conflicts with her negative constraints against customer-facing roles and does not match her technical/release/quality engineering background.",
+    "reason": "This is a customer-facing, relationship-management role focused on SaaS implementation and account success, which contradicts the candidate's explicit rejection of customer-facing positions.",
     "id": "391aadbb",
     "source": "linkedin_fi_configuration_manager",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Configuration Manager (m/w/d)",
@@ -34643,15 +34639,14 @@
     "url": "https://de.linkedin.com/jobs/view/configuration-manager-m-w-d-at-aip-services-gmbh-4466833424",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Immenstaad am Bodensee, Germany, violating the location constraint requiring jobs to be in Finland or fully remote.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location policy.",
     "id": "3271e3ac",
     "source": "linkedin_eu_configuration_manager",
     "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Engineering Release Manager (H/M)",
@@ -34660,15 +34655,14 @@
     "url": "https://es.linkedin.com/jobs/view/engineering-release-manager-h-m-at-tdconsulting-4467973251",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in M\u00e1laga, Spain, violating the candidate's geographic criteria of being based in Finland or remote worldwide/EU.",
+    "reason": "The job is located in Spain and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "b32cc0df",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "IS Change and Release Manager for SAP CFIN",
@@ -34677,15 +34671,14 @@
     "url": "https://pl.linkedin.com/jobs/view/is-change-and-release-manager-for-sap-cfin-at-abb-4467980297",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Cracow, Poland, violating the location requirement to be based in Finland or fully remote.",
+    "reason": "The job is located in Poland and is not remote, which violates the location requirements, and the posting explicitly states it is no longer accepting applications.",
     "id": "d1a1c4f0",
     "source": "linkedin_eu_release_manager",
     "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Banking Technology Consultant",
@@ -34694,15 +34687,14 @@
     "url": "https://fi.linkedin.com/jobs/view/banking-technology-consultant-at-accenture-nordics-4453258863",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and a banking domain background, neither of which matches Priya's profile.",
+    "reason": "The job posting explicitly requires excellent verbal and written communication skills in Finnish, which the candidate does not possess, and the posting states it is no longer accepting applications.",
     "id": "ff55530d",
     "source": "linkedin_fi_product_specialist",
     "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Technical Product Specialist (Platform & Infrastructure)",
@@ -34711,15 +34703,14 @@
     "url": "https://pl.linkedin.com/jobs/view/technical-product-specialist-platform-infrastructure-at-freebalance-4446222747",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Cracow, Poland, violating the requirement that on-site or hybrid roles must be in Finland.",
+    "reason": "The job is located in Poland and is not remote, which violates the location requirements, and the posting is no longer accepting applications.",
     "id": "7acc1ba8",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-05",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Product specialist  Gynaeco/Uro (Antwerpen, Limburg & Vlaams-Brabant)",
@@ -34728,15 +34719,14 @@
     "url": "https://be.linkedin.com/jobs/view/product-specialist-gynaeco-uro-antwerpen-limburg-vlaams-brabant-at-pauwels-consulting-4463391397",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales and field representative role in Belgium requiring Dutch fluency, which violates both the hard rejection for sales roles and the location/language requirements.",
+    "reason": "This is a quota-carrying sales role requiring Dutch language proficiency, both of which are hard rejections.",
     "id": "924aef6f",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00f6it\u00e4",
@@ -34745,15 +34735,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tuotantotyontekijoita-2748921",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a closed physical manufacturing/production role (Tuotantoty\u00f6ntekij\u00f6it\u00e4) which falls under the hard rejection for manufacturing/hardware quality or production-line roles.",
+    "reason": "The role requires fluent Finnish and is a manual production/assembly position, which falls under the hard rejection for manufacturing/production quality roles and language requirements.",
     "id": "871a7b75",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Kontinpurkajia keikkat\u00f6ihin P\u00e4\u00e4kaupunkiseudulle",
@@ -34762,15 +34751,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kontinpurkajia-keikkatoihin-paakaupunkiseudulle-2754026",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job posting is explicitly stated as no longer active, and it is for manual container unloading work which is completely unrelated to the candidate's professional background.",
+    "reason": "The job is for manual labor (container unloading) and is no longer accepting applications.",
     "id": "e8ae82ef",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Machinist, Bluefors OyBluefors OyHelsinkiGo to job site",
@@ -34779,15 +34767,14 @@
     "url": "https://www.jobly.fi/en/job/machinist-bluefors-oy-2759084",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/machinist role for physical production rather than a software, release, configuration, or quality engineering position.",
+    "reason": "The role is a machinist position focused on physical production and hardware operation, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "b88bedae",
     "source": "work_in_finland",
     "posted_date": "2026-09-16",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Project Engineer, ABB Marine & PortsABB Oy Marine and PortsHelsinkiGo to job site",
@@ -34796,15 +34783,14 @@
     "url": "https://www.jobly.fi/en/job/project-engineer-abb-marine-ports-2759085",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer active and closed for applications.",
+    "reason": "The job posting explicitly states that the ad is no longer active and is no longer accepting applications.",
     "id": "4225cad7",
     "source": "work_in_finland",
     "posted_date": "2026-09-28",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "Developer Experience EngineerVerdaHelsinkiGo to job site",
@@ -34813,15 +34799,14 @@
     "url": "https://thehub.fi/jobs/6aa9dd24f0b1bfe4cfb0532e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role centers on building cloud and infrastructure platforms (AI cloud, Kubernetes platform engineering) without a core release, configuration management, or regulatory-compliance component fitting Priya's specific safety-critical/MDR background.",
+    "reason": "The job is located in San Francisco, CA, USA, which violates the strict hard rejection policy regarding US-based roles.",
     "id": "41f971a5",
     "source": "work_in_finland",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:03+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:03+03:00"
   },
   {
     "title": "DevOps Engineer",
