@@ -22262,15 +22262,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-at-identis-4461663992",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Galliate, Italy, which is outside Finland and not fully remote, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is located in Italy and is not remote, which violates the location requirements, and it is a junior-level R&D role focused on image processing rather than release/CM/quality engineering.",
     "id": "d6c3996a",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-04",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Product Specialist EU",
@@ -22279,15 +22278,14 @@
     "url": "https://de.linkedin.com/jobs/view/product-specialist-eu-at-mpb-4436856011",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Berlin, Germany (outside Finland and not remote), which is a strict hard rejection per Priya's criteria. Additionally, the role involves customer-facing product listing/photography tasks rather than technical/release-management responsibilities she specializes in.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "1511fae5",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-07-12",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "SAP Formulation Specialist",
@@ -22296,15 +22294,14 @@
     "url": "https://gr.linkedin.com/jobs/view/sap-formulation-specialist-at-sika-4437651587",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Athens, Greece (on-site), which does not meet Priya's strict requirement for roles physically located in Finland or fully remote jobs accessible from Finland.",
+    "reason": "The job is located in Greece and is not a remote role, which violates the requirement that non-Finland roles must be remote and accessible from Finland.",
     "id": "746bfadc",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-08-11",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Product Specialist - Aortic",
@@ -22313,15 +22310,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-aortic-at-hays-4459943086",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Campania, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is located in Italy and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "a6dde1ac",
     "source": "linkedin_eu_product_specialist",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:49:40+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:49:40+03:00"
   },
   {
     "title": "Principal Engineer",
@@ -22330,15 +22326,14 @@
     "url": "https://www.jobly.fi/tyopaikka/principal-engineer-2733022",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Principal Engineer focused on platform/cloud engineering with significant coding responsibilities, which falls under 'Pure Feature-Development Software Engineering' and does not align with Priya's focus on release/CM/DevOps or technical documentation.",
+    "reason": "The role is a platform/cloud engineering consultancy position focused on building cloud/AI infrastructure and architecture, which falls under the hard rejection for platform/architecture roles lacking a core release/CM/quality/requirements focus.",
     "id": "581540a0",
     "source": "jobly_broad",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Workplace Experience Coordinator, Espoo",
@@ -22347,15 +22342,14 @@
     "url": "https://www.jobly.fi/tyopaikka/workplace-experience-coordinator-espoo-2749892",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish language skills and focuses on workplace facilities, which does not align with the candidate\u2019s release/CM/DevOps/technical writing expertise.",
+    "reason": "The role requires fluent Finnish, which is a hard rejection, and it does not align with the candidate's technical release/configuration management/quality engineering background.",
     "id": "3878908b",
     "source": "jobly_broad",
     "posted_date": "2026-09-12",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Tuotantoty\u00f6ntekij\u00e4, Teollisuus, Nivala-Haapaj\u00e4rvi",
@@ -22364,15 +22358,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tuotantotyontekija-teollisuus-nivala-haapajarvi-2749895",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting describes a general production worker role in manufacturing, which does not align with Priya's target domains of DevOps, configuration management, release management, technical writing, or regulated-industry quality roles.",
+    "reason": "This is a manual production/factory labor role, which falls under the hard rejection for manufacturing/production-line process quality and is entirely outside the candidate's professional domain of software release, configuration management, and technical communication.",
     "id": "81225819",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Your first job in Finland while studying \u2013 no experience needed!",
@@ -22381,15 +22374,14 @@
     "url": "https://www.jobly.fi/tyopaikka/your-first-job-finland-while-studying-no-experience-needed-2754921",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is no longer valid and has been closed.",
+    "reason": "The job posting is explicitly closed and is for an entry-level fundraising role that does not match the candidate's professional experience or domain requirements.",
     "id": "85954765",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-safeguard-20b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Your first job in Finland while studying \u2013 no experience needed!",
@@ -22398,15 +22390,14 @@
     "url": "https://www.jobly.fi/tyopaikka/your-first-job-finland-while-studying-no-experience-needed-2754920",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job explicitly targets entry-level candidates with 'no experience needed' and is a quota-carrying sales role (fundraiser), which falls under the candidate's hard rejections for entry-level-only roles and sales positions mislabeled as 'Product Specialist'.",
+    "reason": "The job posting is explicitly marked as no longer valid and is a door-to-door fundraising role, which does not align with the candidate's professional experience in technical communication, release management, and engineering.",
     "id": "54d2009a",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Your first job in Finland while studying \u2013 no experience needed!",
@@ -22415,15 +22406,14 @@
     "url": "https://www.jobly.fi/tyopaikka/your-first-job-finland-while-studying-no-experience-needed-2754919",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a customer-facing fundraiser role, which is explicitly rejected by the candidate due to prior rejections of similar positions.",
+    "reason": "The job posting is explicitly marked as no longer valid and is a door-to-door fundraising role, which does not align with the candidate's professional experience in technical communication, release management, and quality engineering.",
     "id": "9c68dcc5",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Your first job in Finland while studying \u2013 no experience needed!",
@@ -22432,15 +22422,14 @@
     "url": "https://www.jobly.fi/tyopaikka/your-first-job-finland-while-studying-no-experience-needed-2754918",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a quota-carrying sales/fundraising role (door-to-door donor acquisition) with no experience requirement, which falls under the 'Quota-Carrying Sales Roles Mislabeled as \\\\",
+    "reason": "The job posting is closed, explicitly targets students with no experience, and is a door-to-door fundraising role which does not align with the candidate's professional background.",
     "id": "2e2e1ad2",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Joustava osa-aikaty\u00f6 opintojen oheen \u2013 aiempaa kokemusta ei tarvita!",
@@ -22449,15 +22438,14 @@
     "url": "https://www.jobly.fi/tyopaikka/joustava-osa-aikatyo-opintojen-oheen-aiempaa-kokemusta-ei-tarvita-2754917",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a sales/outreach position requiring no prior experience, which conflicts with the candidate\u2019s mid-to-senior-level expertise in regulated DevOps/CM/release management and falls under the 'customer facing' hard rejection category.",
+    "reason": "The job is closed, explicitly targets students with no experience, and is a door-to-door fundraising role, which does not align with the candidate's professional background.",
     "id": "5930fa50",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Joustava osa-aikaty\u00f6 opintojen oheen \u2013 aiempaa kokemusta ei tarvita!",
@@ -22466,15 +22454,14 @@
     "url": "https://www.jobly.fi/tyopaikka/joustava-osa-aikatyo-opintojen-oheen-aiempaa-kokemusta-ei-tarvita-2754915",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires no previous experience and is explicitly targeted at students or entry-level candidates, which conflicts with the candidate's ~15 years of experience and mid-to-senior role preferences.",
+    "reason": "The job is closed, explicitly targets students with no experience, and is a door-to-door fundraising role which does not match the candidate's professional background.",
     "id": "7c94932b",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Joustava osa-aikaty\u00f6 opintojen oheen \u2013 aiempaa kokemusta ei tarvita!",
@@ -22483,15 +22470,14 @@
     "url": "https://www.jobly.fi/tyopaikka/joustava-osa-aikatyo-opintojen-oheen-aiempaa-kokemusta-ei-tarvita-2754914",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a sales/outreach role (fundraiser) with no alignment to Priya's expertise in technical writing, release management, or regulated-industry quality/compliance work.",
+    "reason": "The job posting is explicitly marked as no longer valid, is an entry-level student role, and does not match the candidate's professional experience in release management and technical communication.",
     "id": "8e418504",
     "source": "jobly_broad",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "Joustava osa-aikaty\u00f6 opintojen oheen \u2013 aiempaa kokemusta ei tarvita!",
@@ -22500,15 +22486,14 @@
     "url": "https://www.jobly.fi/tyopaikka/joustava-osa-aikatyo-opintojen-oheen-aiempaa-kokemusta-ei-tarvita-2754907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a customer-facing fundraising role (varainhankkija) requiring no prior experience, which falls under the 'Quota-Carrying Sales Roles Mislabeled as Product Specialist' hard rejection due to its sales/outbound nature and mismatch with the candidate's release/CM/DevOps/QA expertise.",
+    "reason": "The job posting is explicitly marked as no longer valid, and it is a door-to-door fundraising role which does not align with the candidate's professional experience in technical communication and release management.",
     "id": "d42cc802",
     "source": "jobly_broad",
     "posted_date": "2026-09-10",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-10T11:55:47+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-10T11:55:47+03:00"
   },
   {
     "title": "S\u00e4hk\u00f6suunnittelija (Liikkuvat ty\u00f6koneet), Etteplan Oyj, Tampere",
