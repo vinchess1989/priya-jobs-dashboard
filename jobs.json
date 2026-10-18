@@ -35778,15 +35778,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=747fa7298187566c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a US-located quota-carrying sales role, which violates the strict US location exclusion and sales role rejections.",
+    "reason": "The job is located in the United States and is a quota-carrying sales role, both of which are hard rejections.",
     "id": "547cb3e1",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Kubernetes and Container Platform Security Specialist",
@@ -35795,15 +35794,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ffa3c93a9dc68190",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a specialized infrastructure and platform security role focused on Kubernetes multi-tenancy and container security rather than Priya's core background in release management, CI/CD pipelines, configuration management, or technical documentation.",
+    "reason": "The role is a specialized security engineering position focused on Kubernetes infrastructure and platform security, which falls under the 'Specialist Platforms' hard rejection criteria as it lacks the required core focus on release management, configuration management, or general software quality/traceability.",
     "id": "dbf102f7",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Product Owner - TietoCaretech (m/f/d)",
@@ -35811,16 +35809,15 @@
     "location": "Bengaluru, India",
     "url": "https://fi.indeed.com/rc/clk?jk=9f19a4d974878816",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is a Product Owner position in healthcare software requiring regulatory knowledge like MDR and ISO 13485 (matching her background), but it focuses on LIS/LIMS product backlog management rather than direct release/CM/quality-gatekeeping operations.",
+    "matches_requirements": "no",
+    "reason": "The job location is in Bengaluru, India, which violates the requirement that the role must be in Finland or a remote role accessible from Finland.",
     "id": "fafebe22",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Senior Cloud Solution Architect - Azure & AI",
@@ -35829,15 +35826,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4e6b8c6a2aea9fa4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description text could not be verified and only shows a bot verification error page.",
+    "reason": "The role is a Cloud Solution Architect position, which falls under the hard rejection criteria for platform/architecture roles that lack a core focus on release, configuration management, or quality/requirements engineering.",
     "id": "0520dc96",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "System Analyst - Tieto Caretech (m/f/d)",
@@ -35846,15 +35842,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=9af494aa84ffcd01",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided job description text is a generic error/bot-detection page (\\\\",
+    "reason": "The provided job description text is empty and contains no information regarding the role's responsibilities, location, or requirements, making it impossible to evaluate against the candidate's criteria.",
     "id": "c82103ab",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Associate Consultant - Internship",
@@ -35863,15 +35858,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=13f6abf6c080b612",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This posting is an entry-level internship position, which violates the candidate's criteria given her ~15 years of experience.",
+    "reason": "The job posting is an internship, which violates the hard rejection criteria regarding entry-level/trainee programs for a candidate with 15 years of experience.",
     "id": "025dc677",
     "source": "indeed_fi_product_specialist",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Vastaanottovirkailija Aava Glass Igloosille \u2013 tule osaksi ainutlaatuista matkailukohdetta!",
@@ -35880,15 +35874,14 @@
     "url": "https://www.jobly.fi/tyopaikka/vastaanottovirkailija-aava-glass-igloosille-tule-osaksi-ainutlaatuista-matkailukohdetta-0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly states that it is no longer accepting applications ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa') and is for a receptionist/front-desk role completely unrelated to Priya's technical, release, and quality management background.",
+    "reason": "The role is a hospitality/receptionist position, which does not align with the candidate's technical background in release management, DevOps, or quality engineering.",
     "id": "1f09e200",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Salin vuorop\u00e4\u00e4llikk\u00f6, Scandic Rovaniemi, Talvisesonki 2026-2027",
@@ -35897,15 +35890,14 @@
     "url": "https://www.jobly.fi/tyopaikka/salin-vuoropaallikko-scandic-rovaniemi-talvisesonki-2026-2027-2744251",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job posting explicitly states that it is no longer accepting applications and is for a restaurant shift manager role.",
+    "reason": "The job posting is closed, and the role is a hospitality management position unrelated to the candidate's technical, release, or quality engineering background.",
     "id": "cc3f0388",
     "source": "jobly_broad",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Keitti\u00f6n vuorop\u00e4\u00e4llikk\u00f6, Scandic Rovaniemi, Talvisesonki 2026-2027",
@@ -35914,15 +35906,14 @@
     "url": "https://www.jobly.fi/tyopaikka/keittion-vuoropaallikko-scandic-rovaniemi-talvisesonki-2026-2027-2744252",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hospitality role for a kitchen shift manager in a hotel restaurant, which is completely unrelated to the candidate's technical communication, configuration management, and DevOps background.",
+    "reason": "The job posting is closed, and the role is in the hospitality/culinary sector, which does not align with the candidate's technical, release, and quality management background.",
     "id": "d193b740",
     "source": "jobly_broad",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Levysepp\u00e4hitsaaja, CNC-koneistaja, sorvaaja",
@@ -35931,15 +35922,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/a99e5150-9fbb-4d39-a105-01285380ef34/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a blue-collar manufacturing role for CNC machinists, turners, and plater-welders, which does not match Priya's software configuration management and technical writing background.",
+    "reason": "This is a manual labor role for metalworkers (welders/machinists) which does not match the candidate's software, DevOps, or quality engineering background.",
     "id": "025b2936",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Linja-auton kuljettaja",
@@ -35948,15 +35938,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/c14c8f03-ff1d-449b-b888-7d7c3f2521b5/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a bus driver role requiring a D-class driving license and fluent Finnish, which completely mismatches Priya's software engineering, release management, and technical communication background.",
+    "reason": "The role is for a bus driver, which does not align with the candidate's technical background in software engineering, release management, and quality assurance.",
     "id": "9b0e5c8b",
     "source": "tyomarkkinatori",
     "posted_date": "2026-09-16",
     "deadline": "2026-11-15",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "DevOps Engineer - GitOps & Kubernetes",
@@ -35965,15 +35954,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-gitops-kubernetes-at-grit-solutions-4466872699",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Lisbon, Portugal, which violates the candidate's location requirement of being based in Finland or fully remote without restricted regional constraints outside of Finland/EU.",
+    "reason": "The job is located in Lisbon, Portugal, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "4f8c6817",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "h\u00e1 6 dias",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -35982,15 +35970,14 @@
     "url": "https://ie.linkedin.com/jobs/view/senior-devops-engineer-at-amach-4464188392",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Dublin, Ireland, and does not qualify as remote work based in Finland or the EU region matching candidate criteria.",
+    "reason": "The job is located in Ireland, which violates the requirement that roles outside Finland must be fully remote and accessible from Finland, and the posting explicitly states it is no longer accepting applications.",
     "id": "e38f449f",
     "source": "linkedin_eu_devops_engineer",
-    "posted_date": "h\u00e1 1 m\u00eas",
+    "posted_date": "h\u00e1 2 meses",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Senior Devops & Platform Engineer",
@@ -35999,15 +35986,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-devops-platform-engineer-at-stellar-4455882355",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Although the role covers DevOps and CI/CD, the location is based in France and the remote policy is not globally open or verified for someone based in Finland without restrictions.",
+    "reason": "The job is located in France and is not a remote role open to candidates outside of France, violating the location constraint for non-Finland roles.",
     "id": "7b0eae57",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "Senior DevOps Engineer",
@@ -36016,15 +36002,14 @@
     "url": "https://bg.linkedin.com/jobs/view/senior-devops-engineer-at-cloud-office-4431064768",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is an on-site/hybrid role located in Sofia, Bulgaria, which violates the candidate's location criteria of Finland or remote work worldwide/within the EU/Europe.",
+    "reason": "The job is a hybrid role located in Sofia, Bulgaria, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "3a2a227a",
     "source": "linkedin_eu_devops_engineer",
     "posted_date": "h\u00e1 3 meses",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "added_at": "2026-09-18T12:16:04+03:00",
-    "needs_re_review": true
+    "added_at": "2026-09-18T12:16:04+03:00"
   },
   {
     "title": "DevOps Senior H/F",
