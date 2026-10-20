@@ -63766,15 +63766,14 @@
     "url": "https://es.linkedin.com/jobs/view/release-management-lead-at-caser-4471998800",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Spain and is not a remote role open to candidates in Finland, violating the location requirements.",
+    "reason": "Extracted via regex fallback",
     "id": "4de7e4cb",
     "source": "linkedin_eu_remote_release_manager_p2",
     "added_at": "2026-10-01T17:21:35+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -63783,15 +63782,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=c714b8a6-880d-43c1-a892-99ac46a66d3f-ZnJhcHJvZDE&iaUid=1k3rtf5naha90800&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k3rtf5m6hcel800%26jk%3Da4146a917838a45c%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k3rtf5ghhcel800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoBl67M2e7yzb8zCW50SbzkdCdPP%26astse%3Dd0181e958fc343c2%26assa%3D6500&spn=0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a generic Indeed login/application landing page and does not contain any actual job description, company name, or location details to evaluate.",
+    "reason": "The job description text is unavailable due to a configuration error, making it impossible to evaluate the role against the candidate's requirements.",
     "id": "1e272724",
     "source": "indeed_fi_release_manager",
     "added_at": "2026-10-01T17:21:49+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Clinical Sales Specialist - Helsinki",
@@ -63800,15 +63798,14 @@
     "url": "https://fi.linkedin.com/jobs/view/clinical-sales-specialist-helsinki-at-zimmer-biomet-4471945734",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales role involving customer-facing clinical support, which violates the hard rejection against sales-focused 'Product Specialist' titles and the user's explicit rejection of customer-facing roles.",
+    "reason": "This is a quota-carrying sales role requiring clinical expertise and OR presence, which violates the hard rejection against sales-focused positions and the candidate's preference to avoid customer-facing sales roles.",
     "id": "992c3106",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Clinical Application Specialist (K\u00e4ytt\u00f6kouluttaja)",
@@ -63817,15 +63814,14 @@
     "url": "https://fi.linkedin.com/jobs/view/clinical-application-specialist-k%C3%A4ytt%C3%B6kouluttaja-at-planmeca-4471944536",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license (r\u00f6ntgenhoitaja/radiographer) and fluent Finnish, neither of which the candidate possesses.",
+    "reason": "The role requires a specific clinical qualification (r\u00f6ntgenhoitaja/radiographer) and fluent Finnish, neither of which the candidate possesses.",
     "id": "cbbf0748",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-20",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Sales Specialist",
@@ -63834,15 +63830,14 @@
     "url": "https://fi.linkedin.com/jobs/view/technical-sales-specialist-at-abb-4473745661",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales-support role that requires customer-facing technical sales activities, which violates the candidate's negative constraint against customer-facing roles.",
+    "reason": "The role is a customer-facing technical sales position, which conflicts with the candidate's rejection of customer-facing roles and her focus on release/configuration management and quality engineering.",
     "id": "20123985",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-21",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Business Consultant (full-time)",
@@ -63851,15 +63846,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-consultant-full-time-at-priceff-4472900776",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires excellent Finnish language skills and is primarily a business/sales-consulting position rather than the release, configuration management, or quality-engineering roles that match the candidate's expertise.",
+    "reason": "The job requires excellent Finnish language skills and is a business consulting role that does not align with her core expertise in release management, CI/CD, or quality/regulatory compliance.",
     "id": "975c9a0e",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-10-02",
     "deadline": "2026-10-22",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Tekninen ratkaisuasiantuntija, suunnittelijayhteisty\u00f6",
@@ -63868,15 +63862,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tekninen-ratkaisuasiantuntija-suunnittelijayhteisty%C3%B6-at-aco-nordic-4472925386",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a technical sales/consulting role rather than a release, configuration management, or quality-focused position.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a customer-facing sales-support role that falls outside her core expertise in software release, configuration management, and quality engineering.",
     "id": "880e495b",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-10-02",
     "deadline": "2026-10-22",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Solution Consultant",
@@ -63885,15 +63878,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-consultant-at-cloud-protection-by-withsecure-4471795862",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is primarily a customer-facing pre-sales/solution consulting position, which the candidate has explicitly rejected in her negative constraints.",
+    "reason": "The role is a customer-facing pre-sales/solution consulting position, which falls under the explicit negative constraint for customer-facing roles.",
     "id": "5ec70b92",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-10-05",
     "deadline": "2026-10-31",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "System Specialist",
@@ -63902,15 +63894,14 @@
     "url": "https://fi.linkedin.com/jobs/view/system-specialist-at-digia-plc-4473756370",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is primarily focused on unemployment benefit processing domain expertise rather than the candidate's core release management and CI/CD background.",
+    "reason": "The role requires fluent Finnish language skills, which is a hard rejection criterion for the candidate.",
     "id": "ad7946d5",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-21",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Solution Consultant",
@@ -63919,15 +63910,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-solution-consultant-at-anaplan-4474151273",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying presales/solution consulting role, which is explicitly rejected as it falls under the 'customer facing' and 'sales' categories Priya has previously excluded.",
+    "reason": "This is a quota-carrying sales/presales role, which violates the hard rejection against sales-focused positions and lacks the required focus on release management, configuration management, or quality engineering.",
     "id": "39dd1e2d",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 2 semanas",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Application Specialist, SAP Finance",
@@ -63935,16 +63925,15 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-application-specialist-sap-finance-at-metso-4472171089",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "While the role focuses on SAP Finance configuration rather than Priya's core release/CM/quality background, it explicitly includes responsibilities for DevOps, release management, and ITIL processes which align with her skill set.",
+    "matches_requirements": "no",
+    "reason": "The role is a specialized SAP Finance functional configuration position, which falls under the 'Specialist Platforms' hard rejection criteria as it lacks the required core focus on release, configuration management, or quality/traceability engineering.",
     "id": "97c4dff4",
     "source": "linkedin_fi_product_specialist",
     "added_at": "2026-10-01T17:23:18+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 2 semanas",
     "deadline": "2026-10-25",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Mission Solutions Architect",
@@ -63953,15 +63942,14 @@
     "url": "https://fi.linkedin.com/jobs/view/mission-solutions-architect-at-nestai-4472534292",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing, pre-sales/business development position, which the candidate has explicitly rejected in previous feedback.",
+    "reason": "The role is a customer-facing, business-development-focused solutions architect position, which falls under the rejected category of specialist platforms/architecture roles that lack a core release, configuration management, or quality/traceability focus.",
     "id": "8693e43b",
     "source": "linkedin_fi_product_specialist_p2",
     "added_at": "2026-10-01T18:23:47+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 2 semanas",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Implementation Consultant",
@@ -63970,15 +63958,14 @@
     "url": "https://fi.linkedin.com/jobs/view/implementation-consultant-at-visilean-ltd-4472926681",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a client-facing construction consulting role rather than a technical release, CM, or quality-focused position.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it is a construction-focused implementation consulting role rather than a technical release, CM, or quality engineering position.",
     "id": "f7c2437f",
     "source": "linkedin_fi_product_specialist_p2",
     "added_at": "2026-10-01T18:23:47+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 2 semanas",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Chuy\u00ean Vi\u00ean S\u1ea3n Ph\u1ea9m (Product Specialist)",
@@ -63987,15 +63974,14 @@
     "url": "https://vn.linkedin.com/jobs/view/chuy%C3%AAn-vi%C3%AAn-s%E1%BA%A3n-ph%E1%BA%A9m-product-specialist-at-c%C3%B4ng-ty-tnhh-d%C6%B0%E1%BB%A3c-ph%E1%BA%A9m-v%C3%A0-ttbyt-ho%C3%A0ng-%C4%91%E1%BB%A9c-4472396063",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Vietnam and requires a degree in Pharmacy/Medicine, which does not align with the candidate's location or professional background.",
+    "reason": "The role is located in Vietnam, requires a pharmacy/medical degree, and is a sales-focused product specialist position, all of which violate the candidate's location and role-type requirements.",
     "id": "c9776f5f",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-01T18:24:14+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 2 semanas",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -64004,15 +63990,14 @@
     "url": "https://th.linkedin.com/jobs/view/product-specialist-at-biodesign-co-ltd-4471798869",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Thailand, requires Thai nationality, and is a customer-facing sales-oriented role, all of which violate the candidate's requirements.",
+    "reason": "The job is located in Thailand, requires Thai citizenship, and is a customer-facing sales-oriented role, all of which violate the candidate's hard rejection criteria.",
     "id": "cbdff771",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-01T18:24:14+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "hace 2 semanas",
     "deadline": "2026-10-30",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Principal Product Specialist (Browser Security/Web Security)",
