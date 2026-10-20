@@ -113924,15 +113924,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-manager-m-f-d-at-docuware-4470990201",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Germany and not remote, which violates the location requirement.",
+    "reason": "The job is physically located in Germering, Bavaria, Germany, and is not fully remote or open to candidates residing in Finland.",
     "id": "f6309f33",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-09T08:59:14+03:00",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "vor 5 tagen",
     "deadline": "Open until filled",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager (m/w/d)",
@@ -113941,15 +113940,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-assurance-manager-m-w-d-at-dsj-global-4469186704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a physical manufacturing and shopfloor quality management role located in Germany, requiring fluent German and physical presence, violating both location rules and hard rejections for hardware/manufacturing quality.",
+    "reason": "The role is a manufacturing-focused quality management position requiring physical shopfloor presence in Germany, which violates the location and hardware-quality hard rejection criteria.",
     "id": "fb4e2482",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-09T08:59:14+03:00",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Quality Manager",
@@ -113958,15 +113956,14 @@
     "url": "https://de.linkedin.com/jobs/view/project-quality-manager-at-prysmian-4136451384",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in D\u00fcsseldorf, Germany (violating the location constraint), requires physical manufacturing/EPCI quality management experience, and mandates fluent German.",
+    "reason": "The role is located in Germany and requires proficiency in German, which violates the location and language requirements.",
     "id": "2ca08b96",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-09T08:59:14+03:00",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Director of Qualitative Data Collection and Analysis",
@@ -114055,15 +114052,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-power-electronics-engineer-m-f-x-at-skeleton-technologies-4469158195",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware power electronics engineering role focused on Solid State Transformers, which conflicts with her background in software release management, configuration management, and technical writing.",
+    "reason": "The role is a pure hardware/power electronics engineering position requiring hands-on design and lab-based qualification, and the application is closed.",
     "id": "e221094b",
     "source": "linkedin_fi_eu_mdr",
     "added_at": "2026-10-09T09:00:53+03:00",
     "posted_date": "vor 1 monat",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Doctoral and postdoctoral positions in hybrid magnonics-photonics",
@@ -114248,15 +114244,14 @@
     "url": "https://cn.linkedin.com/jobs/view/global-director-quality-assurance-regulatory-affairs-%E5%9B%BD%E9%99%85%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E5%85%AC%E5%8F%B8-at-messring-gmbh-4474424589",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Beijing, China, violating the geographic requirement to be in Finland or fully remote.",
+    "reason": "The job is physically located in Beijing, China, and violates the rule against being outside Finland for on-site roles.",
     "id": "3794571b",
     "source": "linkedin_ww_remote_eu_mdr_p2",
     "added_at": "2026-10-09T09:03:02+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Principal Clinical Research Analyst - Class III Medical Devices (EU MDR Clinical Affairs Expert)",
@@ -114841,15 +114836,14 @@
     "url": "https://ae.linkedin.com/jobs/view/food-quality-manager-at-milk-wellbeing-4476153497",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/food quality management position located in Dubai, which violates the location policy and the exclusion of manufacturing/physical production quality roles.",
+    "reason": "The job is located in Dubai, United Arab Emirates, which is outside Finland and not fully remote (as per the user's strict requirement to only consider roles in Finland or fully remote jobs compatible with Finland-based work).",
     "id": "18662677",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T10:03:46+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -114858,15 +114852,14 @@
     "url": "https://se.linkedin.com/jobs/view/quality-manager-at-xvivo-4474826517",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lund, Sweden, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is physically located in Lund, Sweden, and does not qualify as remote within Finland or worldwide.",
     "id": "020bae4b",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T10:04:12+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qualit\u00e4tsmanager*in (m/w/x)",
@@ -114875,15 +114868,14 @@
     "url": "https://at.linkedin.com/jobs/view/qualit%C3%A4tsmanager-in-m-w-x-at-jobmax-gmbh-4470812839",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Linz, Austria, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is physically located in Linz, Austria, violating the location requirement, and is also explicitly closed for applications.",
     "id": "6310fd2d",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T10:04:12+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "vor 3 wochen",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Officer",
@@ -115180,15 +115172,14 @@
     "url": "https://be.linkedin.com/jobs/view/regulatory-and-quality-manager-at-pointcar%C3%A9-4477137436",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Belgium and is not a remote role open to candidates in Finland, violating the location-based hard rejection criteria.",
+    "reason": "The job is physically located in Ghent, Belgium, and is not a fully remote role open to someone living in Finland.",
     "id": "d51cf69e",
     "source": "linkedin_eu_remote_eu_mdr",
     "added_at": "2026-10-09T10:09:05+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Specialist",
@@ -115613,15 +115604,14 @@
     "url": "https://www.linkedin.com/jobs/view/vice-president-quality-assurance-regulatory-affairs-at-weber-company-4474702939",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States, which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in Massachusetts, United States, which violates the strict hard rejection rule for US-based roles.",
     "id": "e024965e",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-10-09T10:14:53+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality System Engineer",
@@ -115662,15 +115652,14 @@
     "url": "https://www.linkedin.com/jobs/view/sr-quality-assurance-engineer-iso-13485-at-glidewell-dental-4454927251",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Irvine, CA), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in Irvine, California, United States, violating the strict US location exclusion rule.",
     "id": "42f26c27",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-10-09T10:14:53+03:00",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "vor 2 monaten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Director of Quality Assurance",
@@ -115679,15 +115668,14 @@
     "url": "https://uk.linkedin.com/jobs/view/director-of-quality-assurance-at-comind-4470934025",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in London, UK, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is physically located in London, England, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "e315df9b",
     "source": "linkedin_ww_remote_iso_13485_p2",
     "added_at": "2026-10-09T10:16:46+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Documentation Specialist (Medical Devices & ISO 13485)",
@@ -115712,15 +115700,14 @@
     "url": "https://uk.linkedin.com/jobs/view/quality-assurance-manager-at-capu-search-4472498814",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Oxfordshire, United Kingdom, which violates the requirement that roles must be in Finland or fully remote/work-from-anywhere.",
+    "reason": "The role is located in Oxfordshire, United Kingdom, which violates the requirement that jobs must be either in Finland or fully remote.",
     "id": "33aefb25",
     "source": "linkedin_ww_remote_iso_13485_p2",
     "added_at": "2026-10-09T10:16:46+03:00",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager - Quality & Regulatory Affairs",
@@ -115825,15 +115812,14 @@
     "url": "https://in.linkedin.com/jobs/view/quality-assurance-implementing-iso-13485-at-international-industrial-springs-iis-4420962637",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in India, which violates the location requirements, and the salary range is significantly below the candidate's minimum threshold.",
+    "reason": "The job is located in India, which violates the location requirements, and the salary is significantly below the candidate's minimum threshold.",
     "id": "57b36ca1",
     "source": "linkedin_ww_remote_iso_13485_p2",
     "added_at": "2026-10-09T10:16:46+03:00",
     "posted_date": "2026-06-11",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "New Product Development (NPD)",
@@ -115858,15 +115844,14 @@
     "url": "https://my.linkedin.com/jobs/view/quality-assurance-analyst-2-at-dexcom-4473214091",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Malaysia, which violates the requirement that roles must be based in Finland or be fully remote and accessible from Finland.",
+    "reason": "The job is located in Penang, Malaysia, which violates the location requirement of being in Finland or fully remote.",
     "id": "26112a96",
     "source": "linkedin_ww_remote_iso_13485_p2",
     "added_at": "2026-10-09T10:16:46+03:00",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Systems Manager",
