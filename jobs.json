@@ -57110,15 +57110,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=5d225d86e2b7be27",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Design Engineer' does not align with Priya's target roles in configuration management, release management, technical writing, or safety-critical requirements engineering.",
+    "reason": "The job description is inaccessible due to an HTTP 400 Bad Request error.",
     "id": "35ec94e5",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Mechanical Engineer",
@@ -57127,15 +57126,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4ca6e0461be80aa1",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is a Senior Mechanical Engineer role in construction, which falls under the 'Manufacturing, Construction or Hardware Quality Roles' hard rejection category as it does not align with Priya's expertise in software-release, configuration-management, or technical-documentation roles.",
+    "reason": "This is a physical mechanical engineering role in manufacturing/construction, which triggers the hard rejection for manufacturing, construction, or hardware quality roles.",
     "id": "88e313e5",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "OFCI/ CFCI Manager",
@@ -57144,15 +57142,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=55f5e28b31b0184f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on construction project management and commissioning, which does not align with Priya's expertise in software release/CM/DevOps or regulated-industry quality roles.",
+    "reason": "This role is for a construction/engineering project management position at Mercury Engineering (OFCI/CFCI Manager), which falls under the hard rejection for manufacturing, construction, or physical engineering quality/management roles.",
     "id": "9b2c3f56",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Junior Site Engineer",
@@ -57161,15 +57158,14 @@
     "url": "https://fi.indeed.com/career/junior-site-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Hard rejection: The role is a 'Junior Site Engineer' in manufacturing/construction (implied by 'Site Engineer'), which falls under Priya's explicit exclusion for hardware quality/physical production roles with no software-release or configuration-management component. Additionally, it is an entry-level position requiring little/no experience, conflicting with her 15 years of senior-level expertise.",
+    "reason": "This posting is a salary information page for a construction/site engineering role rather than a valid job opening fitting the candidate's profile.",
     "id": "56d68d5d",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Junior Site Engineer, Helsinki, F19",
@@ -57178,15 +57174,14 @@
     "url": "https://fi.indeed.com/career/junior-site-engineer/salaries/Helsinki--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Junior Site Engineer' does not align with Priya's expertise in configuration management, release engineering, or technical communication, and it is explicitly a junior-level role she has rejected in past applications.",
+    "reason": "This posting is a salary information page for a Junior Site Engineer in construction rather than a formal job opening matching Priya's configuration management, software release, or technical communication expertise.",
     "id": "0cb366e2",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-09-30T06:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6njohtajia ja ty\u00f6maainsin\u00f6\u00f6rej\u00e4 teollisuuden putkistoprojekteihin, reissuty\u00f6, Caverion Suomi Oy",
@@ -57195,15 +57190,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyonjohtajia-ja-tyomaainsinooreja-teollisuuden-putkistoprojekteihin-reissutyo-caverion",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires project management and site engineering for industrial piping installations, which does not align with Priya's expertise in configuration management, release management, DevOps/CI-CD, and technical documentation in regulated/safety-critical domains.",
+    "reason": "The role is for an industrial piping construction site manager/site engineer requiring fluent Finnish, which violates the hard rejections for manufacturing/construction roles and mandatory Finnish language.",
     "id": "87dbe978",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-09-30T07:21:29+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "ICT-ratkaisuarkkitehti (tech lead), toimipaikka sovittavissa",
@@ -57212,15 +57206,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-ratkaisuarkkitehti-tech-lead-toimipaikka-sovittavissa-at-mets%C3%A4hallitus-4471719648",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not possess.",
+    "reason": "This role centers on solution architecture and tech lead responsibilities without a configuration management, release management, or quality/requirements core matching the candidate's profile.",
     "id": "b856fa0d",
     "source": "linkedin_fi_requirements_manager_p2",
     "added_at": "2026-09-30T07:22:29+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Anforderungsmanager / Requirements Engineer Automotive (m/w/d)",
@@ -57229,15 +57222,14 @@
     "url": "https://de.linkedin.com/jobs/view/anforderungsmanager-requirements-engineer-automotive-m-w-d-at-edag-group-4471386617",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cologne, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote option.",
+    "reason": "The job is located in Germany (outside Finland) and explicitly requires C1-level German language skills, which violates the candidate's requirements.",
     "id": "307408e6",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Responsable V&amp;V et \u00e9tudes Syst\u00e8me F/H",
@@ -57246,15 +57238,14 @@
     "url": "https://fr.linkedin.com/jobs/view/responsable-v-amp-v-et-%C3%A9tudes-syst%C3%A8me-f-h-at-l-usine-nouvelle-4470519453",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France (Le Plessis-Robinson, \u00cele-de-France) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Le Plessis-Robinson, France, which violates the candidate's geographic restriction of being based in or remote to Finland.",
     "id": "a3563f07",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Requirements Manager",
@@ -57263,15 +57254,14 @@
     "url": "https://www.linkedin.com/jobs/view/requirements-manager-at-booz-allen-hamilton-4459884936",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Alexandria, VA, USA, which strictly disqualifies it under Priya's non-negotiable rule against any US-based or US-restricted roles.",
+    "reason": "The job is located in Alexandria, Virginia, violating the strict hard rejection rule against US-based positions.",
     "id": "62763070",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-10-13",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Software Systems & Requirements Engineering Manager (Medical Device) IRC304542",
@@ -57280,15 +57270,14 @@
     "url": "https://ua.linkedin.com/jobs/view/software-systems-requirements-engineering-manager-medical-device-irc304542-at-globallogic-4466867526",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Ukraine, outside Finland and not remote.",
+    "reason": "The job is physically located in Lviv, Ukraine, which violates the geographic requirement that jobs must be in Finland or fully remote within an eligible region.",
     "id": "258810dc",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Requirement Manager",
@@ -57297,32 +57286,14 @@
     "url": "https://kr.linkedin.com/jobs/view/requirement-manager-at-harman-international-4471742879",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Seoul, South Korea (on-site), which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The role is located in Seoul, South Korea, violating the requirement that jobs must be in Finland or fully remote.",
     "id": "b52063bb",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "6\uc77c \uc804",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
-  },
-  {
-    "title": "Lead Systems Engineer",
-    "company": "Honeywell Aerospace",
-    "location": "Phoenix, AZ",
-    "url": "https://www.linkedin.com/jobs/view/lead-systems-engineer-at-honeywell-aerospace-4458272300",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Phoenix, AZ, USA, which is strictly excluded per the candidate's hard rejection rules for any US-based or US-restricted roles.",
-    "id": "877ac289",
-    "source": "linkedin_ww_remote_requirements_manager",
-    "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "2\uc8fc \uc804",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager, Business Analyst \u2013 D365 F&O / CRM",
@@ -57331,15 +57302,14 @@
     "url": "https://ca.linkedin.com/jobs/view/manager-business-analyst-%E2%80%93-d365-f-o-crm-at-ellisdon-4440861837",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Mississauga, Ontario, Canada, which is outside Finland and not a remote role accessible from Finland, violating the strict location requirements.",
+    "reason": "The job is located in Mississauga, Ontario, Canada, which violates the strict location requirement of being in Finland or fully remote without a country restriction excluding Finland.",
     "id": "92a3db79",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-09-30T07:22:56+03:00",
-    "posted_date": "2\uac1c\uc6d4 \uc804",
+    "posted_date": "2026-07-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "BA Scrum - Manager",
@@ -57348,15 +57318,14 @@
     "url": "https://in.linkedin.com/jobs/view/ba-scrum-manager-at-iris-software-inc-4455968933",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Noida, India, which is outside Finland and not a remote role.",
+    "reason": "The job is located in Noida, India, which violates the candidate's location criteria of being based in or remote from Finland.",
     "id": "6eb11716",
     "source": "linkedin_ww_remote_requirements_manager_p2",
     "added_at": "2026-09-30T08:29:27+03:00",
     "posted_date": "2026-08-31",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Requirements Manager",
