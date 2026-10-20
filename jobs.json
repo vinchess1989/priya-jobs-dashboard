@@ -65652,16 +65652,15 @@
     "location": "Espoo, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=a18318f35a7a2a4e",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role centers on Salesforce administration, analytics, and stakeholder-facing support/business partnering, which triggers the negative constraint against customer-facing roles.",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with her Salesforce certification and experience in release/change management, documentation, and system administration within a Finland-based company.",
     "id": "e5d17813",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/citycon_systems_specialist_e5d17813.txt"
   },
   {
     "title": "Senior Payroll & Hr Specialist",
@@ -65670,15 +65669,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8c4333e7897cb39b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a Senior Payroll & HR Specialist, which falls entirely outside Priya's background in software engineering, release/configuration management, DevOps, and technical communication.",
+    "reason": "The role is a Payroll & HR Specialist position, which does not align with the candidate's technical background in release management, configuration management, or technical communication.",
     "id": "fa8ee917",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Integration Specialist",
@@ -65687,15 +65685,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3e9ec45312eb14a6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hands-on integration engineering and consulting position (MuleSoft/Azure/API integration), which does not align with Priya's core expertise in release management, CI/CD, configuration management, or technical writing/quality gatekeeping.",
+    "reason": "The role is primarily a hands-on integration engineering and customer-facing consulting position, which falls under the 'Pure Feature-Development' and 'Customer-facing' negative constraints, and it explicitly requires Finnish fluency for some projects.",
     "id": "59640b88",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Site Selection Specialist",
@@ -65704,15 +65701,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a33c248312cb97f4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a real estate and site development role for data centers requiring Finnish language fluency, which does not match Priya's software engineering, release management, and quality background.",
+    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it falls under the category of physical infrastructure/site development rather than the candidate's software release, configuration management, or quality engineering core.",
     "id": "ab358362",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Clinical Sales Specialist - Helsinki",
@@ -65721,15 +65717,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=dcc687aac9655f11",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales and clinical support role (Clinical Sales Specialist) rather than a configuration management, release, or technical writing position, and it violates the negative constraint against customer-facing roles.",
+    "reason": "This is a quota-carrying sales role mislabeled as a product specialist, which is explicitly excluded by the hard rejection criteria.",
     "id": "f2500c83",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -65738,15 +65733,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=fddc2571-a349-4dbb-9709-3d680994c5df-ZnJhcHJvZDE&iaUid=1k3t19kbnhbl4801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k3t19kahhc7t800%26jk%3Db3e2ba9bc03b54dc%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k3t19k4chc7t800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoB_67M2e9KpXKgYY70LbzkdCdPP%26astse%3Dc0af3d28f018f18e%26assa%3D3611&spn=0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is an Indeed login and cookie consent page rather than a valid job posting.",
+    "reason": "The job description text is unavailable due to a processing error, making it impossible to evaluate the role against the candidate's requirements.",
     "id": "f64dc0a1",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Operations Associate",
@@ -65755,15 +65749,14 @@
     "url": "https://fi.indeed.com/career/operations-associate/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a generic job board landing page for salary research rather than a specific job posting, and it lacks the necessary details to evaluate against the candidate's requirements.",
+    "reason": "The provided text is a salary search page on Indeed, not a valid job posting, and therefore lacks the necessary role, company, and location details to evaluate.",
     "id": "58fc7508",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salaries for Operations Associate, Helsinki, F19",
@@ -65772,15 +65765,14 @@
     "url": "https://fi.indeed.com/career/operations-associate/salaries/Helsinki--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information page rather than an actual job opening posting.",
+    "reason": "The provided text is a salary search page for an 'Operations Associate' role rather than an actual job posting, and it lacks the necessary details to confirm a match.",
     "id": "e03de346",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-10-02T03:47:56+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Solution Analyst",
@@ -65789,15 +65781,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solution-analyst-at-hiq-finland-4472693516",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "278b433c",
     "source": "linkedin_fi_requirements_engineer",
     "added_at": "2026-10-02T03:49:20+03:00",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst, AI & Automation",
@@ -65806,15 +65797,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-analyst-ai-automation-at-digia-plc-4473758416",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job explicitly requires fluent Finnish language skills as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The job description explicitly requires fluent Finnish ('sujuvaa suomen ja englannin kielen taitoa'), which the candidate does not possess.",
     "id": "952b7092",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-10-02T04:55:41+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "17 tuntia sitten",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst, AI & Automation",
@@ -65823,15 +65813,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-analyst-ai-automation-at-digia-plc-4473758417",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish language skills, which violates the candidate's language requirements.",
+    "reason": "The job requires fluent Finnish ('sujuvaa suomen ja englannin kielen taitoa'), which is a hard rejection criterion as the candidate does not speak Finnish.",
     "id": "12bd2a8f",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-10-02T04:55:41+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "17 tuntia sitten",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Solutions Analyst (Loan Core)",
@@ -65840,15 +65829,14 @@
     "url": "https://fi.linkedin.com/jobs/view/solutions-analyst-loan-core-at-tribedo-oy-4472914592",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish as a mandatory language qualification, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent Finnish as a mandatory language skill, which the candidate does not possess.",
     "id": "28bb5ad8",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-10-02T04:55:41+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "2026-10-21",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Suunnittelija (h\u00e4lytysajoneuvojen ICT-toimintaymp\u00e4rist\u00f6), L\u00e4nsi-Uudenmaan pelastuslaitos",
@@ -65857,15 +65845,14 @@
     "url": "https://fi.linkedin.com/jobs/view/suunnittelija-h%C3%A4lytysajoneuvojen-ict-toimintaymp%C3%A4rist%C3%B6-l%C3%A4nsi-uudenmaan-pelastuslaitos-at-l%C3%A4nsi-uudenmaan-hyvinvointialue-4473975945",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent spoken and written Finnish as a mandatory qualification, which the candidate does not possess.",
+    "reason": "The job posting explicitly requires fluent oral and written Finnish language skills, which the candidate does not possess.",
     "id": "0c311073",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-10-02T04:55:41+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "System/Requirements Engineer (4-6 Years)",
@@ -65874,15 +65861,14 @@
     "url": "https://in.linkedin.com/jobs/view/system-requirements-engineer-4-6-years-at-veoneer-4474326273",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Bengaluru, India, which violates the candidate's requirement to work in Finland or remotely from Finland.",
+    "reason": "The job is located in Bengaluru, India, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "d0a54422",
     "source": "linkedin_ww_remote_requirements_engineer",
     "added_at": "2026-10-02T04:56:08+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "REQUIREMENTS ENGINEER",
@@ -65891,15 +65877,14 @@
     "url": "https://uz.linkedin.com/jobs/view/requirements-engineer-at-attolabs-4450699911",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Tashkent, Uzbekistan, which violates the candidate's location criteria of being based in Finland or fully remote.",
+    "reason": "The job is located in Uzbekistan and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "daa82605",
     "source": "linkedin_ww_remote_requirements_engineer",
     "added_at": "2026-10-02T04:56:08+03:00",
-    "posted_date": "1 kuukausi sitten",
+    "posted_date": "2 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Requirements and Design Engineer",
@@ -121099,7 +121084,8 @@
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "needs_re_review": true
+    "needs_re_review": true,
+    "applied": "yes"
   },
   {
     "title": "Hae nyt",
