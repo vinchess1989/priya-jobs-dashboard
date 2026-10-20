@@ -47529,15 +47529,14 @@
     "url": "https://fi.indeed.com/career/keitti%C3%B6n-vuorop%C3%A4%C3%A4llikk%C3%B6/salaries/Sein\u00e4joki--F03",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a kitchen shift manager (Keitti\u00f6n Vuorop\u00e4\u00e4llikk\u00f6), which is completely unrelated to the candidate's technical, engineering, and quality-management background.",
+    "reason": "The posting is for a kitchen shift manager role in Finnish, unrelated to DevOps/Release/Configuration management and likely requires Finnish language.",
     "id": "fbf49a45",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-09-27T05:21:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "RESORT MANAGER \u2013 Eight Seasons Inari by StayLapland",
@@ -47546,15 +47545,14 @@
     "url": "https://www.jobly.fi/tyopaikka/resort-manager-eight-seasons-inari-staylapland-2759364",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is closed and does not align with the candidate's technical background in software release, configuration management, and quality engineering.",
+    "reason": "Job posting is no longer active.",
     "id": "02b2a02f",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Jr Compliance Manager, Tampere tai Espoo",
@@ -47563,15 +47561,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jr-compliance-manager-tampere-tai-espoo-2765822",
     "visited": "yes",
     "matches_requirements": "maybe",
-    "reason": "While the role aligns with her quality and compliance background, it is explicitly titled 'Junior' and uses cognitive testing, which may be misaligned with her 15 years of experience, though it does not strictly violate the entry-level rejection rule.",
+    "reason": "The role is a strong fit for her quality and compliance background, but it is explicitly titled 'Junior' and involves cognitive/personality testing, which may be misaligned with her 15 years of experience.",
     "id": "5d534179",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Jr. Compliance Manager, Tampere or Espoo",
@@ -47579,16 +47576,15 @@
     "location": "Tampere or Espoo, Finland",
     "url": "https://www.jobly.fi/tyopaikka/jr-compliance-manager-tampere-or-espoo-2765825",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role aligns well with her quality and compliance background, but it is explicitly titled 'Junior' and mentions a recruitment process involving personality/cognitive tests, which may be geared toward entry-level candidates despite her 15 years of experience.",
+    "matches_requirements": "no",
+    "reason": "The job posting explicitly states that it is no longer valid ('T\u00e4m\u00e4 ty\u00f6paikkailmoitus ei ole en\u00e4\u00e4 voimassa').",
     "id": "ad045f76",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-25",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\ud83c\udfca Uimavalvojaksi keikkat\u00f6ihin Lahden ja Hollolan alueelle?",
@@ -47597,15 +47593,14 @@
     "url": "https://www.jobly.fi/tyopaikka/uimavalvojaksi-keikkatoihin-lahden-ja-hollolan-alueelle-2731614",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed, and the role (lifeguard) is completely unrelated to the candidate's technical, release, and quality management background.",
+    "reason": "The position is a lifeguard role unrelated to her technical expertise and is customer\u2011facing, which she explicitly rejects.",
     "id": "15b11bb5",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6turvallisuus- ja laatup\u00e4\u00e4llikk\u00f6 / Mitta Oy",
@@ -47614,15 +47609,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyoturvallisuus-ja-laatupaallikko-mitta-oy-2765074",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on physical workplace safety, construction site quality, and manufacturing/field operations management, requiring mandatory fluency in Finnish.",
+    "reason": "Job posting is no longer active.",
     "id": "a8dbe8e5",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-09-27T07:07:45+03:00",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6turvallisuus- ja laatup\u00e4\u00e4llikk\u00f6",
@@ -47631,15 +47625,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/mentek-advisors-tyoturvallisuus-ja-laatupaallikko-sdsuu-20598214",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and it focuses on physical site/construction safety management rather than software release or configuration management.",
+    "reason": "The role requires fluent Finnish language skills, which is a hard rejection criterion as the candidate does not speak Finnish.",
     "id": "298bb0f7",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-24",
     "deadline": "2026-10-23",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -47666,15 +47659,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-scsom-20598546",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction/infrastructure quality management position focused on MEP and physical site work, which falls under the hard rejection for manufacturing/construction quality roles.",
+    "reason": "The role is a construction/MEP quality management position focused on physical site-based data center projects, which falls under the hard rejection for manufacturing/construction quality roles.",
     "id": "cb7dc352",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-22",
     "deadline": "2027-09-23",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -47683,15 +47675,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-scsom-20447536",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction/site quality management position, which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or configuration-management component.",
+    "reason": "This is a construction/site-based quality management role, which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or software-quality component.",
     "id": "c62390f1",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-07-23",
     "deadline": "2027-07-23",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager",
@@ -47700,15 +47691,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-assurance-manager-scsom-20580420",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction/infrastructure quality management position, which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or software-quality component.",
+    "reason": "This role is a construction-industry quality management position focused on physical infrastructure and mechanical/electrical systems, which falls under the hard rejection for manufacturing/construction quality roles.",
     "id": "9d9e07de",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Manager Puljonki",
@@ -47717,15 +47707,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-puljonki-scsom-20591413",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/food-industry quality management position focused on physical production and food safety, which falls under the hard rejection for manufacturing/process quality roles.",
+    "reason": "The job posting explicitly states that the application period has ended.",
     "id": "e33c793e",
     "source": "duunitori_quality_manager",
     "added_at": "2026-09-27T08:54:01+03:00",
     "posted_date": "2026-09-21",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Frequency & Regulatory Compliance Specialist",
@@ -47734,15 +47723,14 @@
     "url": "https://fi.linkedin.com/jobs/view/frequency-regulatory-compliance-specialist-at-sine-engineering-4470682960",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is specialized in radio frequency (RF) management, spectrum regulation, and UAV hardware compliance, which does not align with Priya's background in software configuration management, release engineering, and technical communication.",
+    "reason": "The role is a specialized RF/Spectrum regulatory position requiring specific radio frequency management experience, which falls outside the candidate's core background in software release, configuration management, and quality/traceability.",
     "id": "336db00d",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-09-27T10:04:03+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Clinical Research Assistant",
@@ -47750,16 +47738,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/clinical-research-assistant-at-aiatella-4464678174",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role is located in Helsinki and touches on ISO 13485 and medical software regulatory elements matching her background, but it focuses heavily on clinical research coordination rather than configuration management or software quality engineering.",
+    "matches_requirements": "no",
+    "reason": "The job description link is broken and does not provide sufficient information to evaluate the role against the candidate's requirements.",
     "id": "bfea7e5a",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-09-27T10:04:03+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Pharmacovigilance Specialist",
@@ -47768,15 +47755,14 @@
     "url": "https://fi.linkedin.com/jobs/view/pharmacovigilance-specialist-at-tepsivo-4466265294",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a clinical/life sciences education (e.g., pharmacy) and the application period is closed.",
+    "reason": "The role requires a Life Sciences/pharmacy education and clinical pharmacovigilance experience, which the candidate does not possess, and the application is explicitly closed.",
     "id": "6f5e1e35",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-09-27T10:04:03+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Software Developer \u2013 Embedded & Application",
@@ -47785,15 +47771,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-software-developer-%E2%80%93-embedded-application-at-profound-medical-inc-4469909973",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a pure feature-development embedded software engineering position (C/C++ development for medical devices) with no release management, CI/CD ownership, or quality/CM components.",
+    "reason": "The role is a pure feature-development software engineering position focused on designing and programming embedded and application software, which violates the hard rejection against pure feature-development roles.",
     "id": "f331ea48",
     "source": "linkedin_fi_eu_mdr_p2",
     "added_at": "2026-09-27T10:04:03+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Embedded C/C++ / Functional Safety Engineer",
