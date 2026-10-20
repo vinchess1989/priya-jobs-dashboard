@@ -63046,15 +63046,14 @@
     "url": "https://fr.linkedin.com/jobs/view/gestionnaire-de-configuration-java-maven-git-h-f-at-agap2it-france-4469736515",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bordeaux, France, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The role is located in France, outside Finland and not remote, which disqualifies it under the hard rejection rules.",
     "id": "24313b76",
     "source": "linkedin_eu_remote_configuration_manager",
     "added_at": "2026-10-01T12:38:11+03:00",
     "posted_date": "2026-09-29",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Project Manager - Configuration & Change Management (m/w/d)",
@@ -63063,15 +63062,14 @@
     "url": "https://de.linkedin.com/jobs/view/project-manager-configuration-change-management-m-w-d-at-tkms-4472181834",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Germany and is not a remote position, which violates the location requirement for non-Finland roles.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location policy.",
     "id": "478fa536",
     "source": "linkedin_eu_remote_configuration_manager",
     "added_at": "2026-10-01T12:38:11+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Turvaj\u00e4rjestelm\u00e4asiantuntija, Etel\u00e4-Suomi (3 paikkaa)",
@@ -63080,15 +63078,14 @@
     "url": "https://www.jobly.fi/tyopaikka/turvajarjestelmaasiantuntija-etela-suomi-3-paikkaa-2765319",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a field-based physical security systems installation and maintenance role, which falls under the hard rejection for manufacturing/hardware quality/installation roles and does not align with her software release/CM/DevOps background.",
+    "reason": "The job posting is explicitly marked as no longer active and the role involves physical installation and maintenance of security systems, which falls under the hardware/field-service category excluded by the candidate's requirements.",
     "id": "434280eb",
     "source": "jobly_fi_configuration_manager",
     "added_at": "2026-10-01T12:39:18+03:00",
     "posted_date": "2026-09-24",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Haussa myyji\u00e4 Helsinkiin, Turkuun & Ouluun",
@@ -63097,15 +63094,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/sector-alarm-haussa-myyjia-helsinkiin-turkuun-ouluun-turku-sdsuu-20615038",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position requiring fluent Finnish, both of which are hard rejections for the candidate.",
+    "reason": "The role is a quota-carrying sales position, which is explicitly excluded by the hard rejection criteria, and it requires fluent Finnish.",
     "id": "e89524b0",
     "source": "duunitori_configuration_manager",
     "added_at": "2026-10-01T13:54:15+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-31",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Buukkaaja / Et\u00e4ty\u00f6mahdollisuus",
@@ -63114,15 +63110,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/asales-buukkaaja-etatyomahdollisuus-sdsuu-20612253",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales/telemarketing role, which is explicitly excluded by the candidate's hard rejection criteria for sales roles mislabeled as product specialist or similar.",
+    "reason": "The role is a quota-carrying sales/tele-booking position, which is explicitly excluded by the candidate's hard rejection criteria for sales roles mislabeled as product specialists.",
     "id": "f4a49e3a",
     "source": "duunitori_configuration_manager",
     "added_at": "2026-10-01T13:54:15+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-31",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Storage Engineering Manager",
@@ -63131,15 +63126,14 @@
     "url": "https://fi.linkedin.com/jobs/view/storage-engineering-manager-at-verda-4473748307",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a people-management position focused on storage infrastructure engineering, which falls under the hard rejection for specialist platforms/architecture roles lacking a primary release/CM/quality core.",
+    "reason": "The role is a pure Engineering Management position focused on storage infrastructure and team leadership, which falls under the 'Specialist Platforms, Architecture or Line Management' hard rejection criteria.",
     "id": "4c48be29",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "(Senior) Product Manager (f/m/d)",
@@ -63148,15 +63142,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-f-m-d-at-zeal-network-se-4469453308",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Product Management position focused on feature development and roadmap ownership, which falls under the hard rejection for pure feature-development roles and lacks the required release, configuration management, or quality-gatekeeping core.",
+    "reason": "The role is a pure Product Management position focused on digital consumer product development, which falls under the 'Pure Feature-Development' and 'Specialist Platforms' rejection criteria as it lacks the required release, configuration-management, or quality-gatekeeping core.",
     "id": "8f85d67b",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Product Manager, Yousician App",
@@ -63165,15 +63158,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-yousician-app-at-yousician-4472140561",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure product management role focused on feature development, growth, and monetization strategy, which falls under the hard rejection for pure feature-development and product-management roles that lack a core release, configuration-management, or quality-gatekeeping component.",
+    "reason": "The role is a pure Product Management position focused on product strategy, growth, and monetization, which falls outside the candidate's core expertise in release management, configuration management, and quality/compliance engineering.",
     "id": "8128eee1",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Product Manager, Mobile",
@@ -63182,15 +63174,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-product-manager-mobile-at-mozilla-4457403163",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Product Management position focused on feature development, user growth, and retention, which falls under the hard rejection for pure feature-development/product-management roles lacking a core release, configuration-management, or quality-gatekeeping component.",
+    "reason": "The role is a pure product management position focused on feature development, user growth, and app store metrics, which falls under the 'Pure Feature-Development' and 'Specialist Platforms' hard rejections.",
     "id": "e1a07e4f",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
     "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Motion IS Portfolio & Project Excellence Lead",
@@ -63199,15 +63190,14 @@
     "url": "https://fi.linkedin.com/jobs/view/motion-is-portfolio-project-excellence-lead-at-abb-4471536058",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a high-level Portfolio/PMO management position focused on business strategy and project governance, lacking the hands-on CI/CD, release management, or technical quality/traceability core required by the candidate's profile.",
+    "reason": "The role is a high-level IT/IS Portfolio and PMO management position focused on business strategy and project governance, which falls under the 'Specialist Platforms, Architecture or Line Management' exclusion criteria.",
     "id": "546d9313",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI Transformation Lead",
@@ -63220,11 +63210,10 @@
     "id": "3ced276b",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-10-01T13:54:42+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "SQA Change and Release Manager",
@@ -63233,15 +63222,14 @@
     "url": "https://ae.linkedin.com/jobs/view/sqa-change-and-release-manager-at-dautom-4473740337",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires candidates to be based in the UAE, whereas the candidate is located in Finland and not looking to relocate there.",
+    "reason": "The job is located in the United Arab Emirates and explicitly requires UAE-based candidates, which violates the location requirements, and the posting states that applications are no longer being accepted.",
     "id": "f90a35f2",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-10-01T13:55:22+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -63250,15 +63238,14 @@
     "url": "https://pt.linkedin.com/jobs/view/release-manager-at-rumos-4472920025",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which falls outside of Finland and is not a remote role open to candidates living in Finland.",
+    "reason": "The job is located in Brazil, which violates the requirement that roles outside Finland must be remote and accessible to someone living in Finland.",
     "id": "ca790a3a",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-10-01T13:55:22+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -63267,15 +63254,14 @@
     "url": "https://in.linkedin.com/jobs/view/release-manager-at-tlc-worldwide-4474165003",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India, which violates the requirement that roles must be based in or remote-accessible from Finland.",
+    "reason": "The job is located in Bengaluru, India, which violates the requirement that the role must be in Finland or a remote role accessible from Finland.",
     "id": "437f5a09",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-10-01T14:54:13+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
@@ -63284,15 +63270,14 @@
     "url": "https://www.linkedin.com/jobs/view/release-manager-at-tista-science-and-technology-corporation-4472358264",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States and requires federal program experience, which violates the strict exclusion of US-based roles.",
+    "reason": "The job is located in the United States and is restricted to US-based federal contract work, which violates the strict exclusion of US-based roles.",
     "id": "64f59fe6",
     "source": "linkedin_ww_remote_release_manager_p2",
     "added_at": "2026-10-01T14:54:13+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Release Manager",
