@@ -7,6 +7,7 @@ import unicodedata
 import subprocess
 import threading
 import hashlib
+import difflib
 import argparse
 import glob
 from datetime import datetime, timedelta
@@ -27,6 +28,8 @@ JOBS_FILE = os.path.join(BASE_DIR, "jobs.json")
 SEEN_URLS_FILE = os.path.join(BASE_DIR, "seen_urls.json")
 CHECKPOINT_FILE = os.path.join(BASE_DIR, "checkpoint.json")
 REQ_FILE = os.path.join(BASE_DIR, "job_requirements.md")
+# Copy of job_requirements.md as of the last check, diffed to see what an edit changed.
+REQ_SNAPSHOT_FILE = os.path.join(BASE_DIR, "requirements_snapshot.md")
 DELETED_FILE = os.path.join(BASE_DIR, "deleted.json")
 HISTORY_FILE = os.path.join(BASE_DIR, "jobs_history.json")
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
@@ -1014,11 +1017,64 @@ def get_active_llm_model(endpoint):
     return _load_last_llm_model() or os.environ.get("LOCAL_LLM_MODEL")
 
 
+_CHANGE_STOPWORDS = {
+    'about', 'above', 'after', 'again', 'against', 'being', 'below', 'between', 'candidate',
+    'candidates', 'clearly', 'could', 'every', 'experience', 'explicitly', 'including', 'match',
+    'matches', 'other', 'posting', 'postings', 'reject', 'rejection', 'requirement',
+    'requirements', 'should', 'their', 'there', 'these', 'those', 'through', 'under', 'unless',
+    'where', 'which', 'while', 'within', 'without', 'would', 'years',
+}
+
+
+def _changed_requirement_lines(old_text, new_text):
+    """Lines added ('+ ...') or removed ('- ...') between two versions of job_requirements.md."""
+    return [line.strip() for line in difflib.ndiff(old_text.splitlines(), new_text.splitlines())
+            if line[:2] in ('+ ', '- ') and line[2:].strip()]
+
+
+def _requirement_change_keywords(changed_lines, sample_titles):
+    """Lowercase keywords for the jobs a requirements edit could affect. Asks the LLM, which
+    knows synonyms and the languages the titles use; falls back to the changed lines' words."""
+    llm_endpoint = os.environ.get("LOCAL_LLM_ENDPOINT")
+    llm_model = get_active_llm_model(llm_endpoint)
+    prompt = (
+        "The requirements file a job-matching reviewer uses was edited. Lines added (+) or "
+        "removed (-):\n" + "\n".join(changed_lines) + "\n\n"
+        "Which job postings could get a different verdict because of this edit? List short "
+        "lowercase keywords or phrases that would appear in the title, company or location of "
+        "such postings (role names, skills, domains, places, companies). Include common "
+        "synonyms, and translations into the languages these existing titles use:\n"
+        + "\n".join(sample_titles) + "\n\n"
+        'Reply with JSON only: {"keywords": ["...", "..."]}'
+    )
+    try:
+        resp_json, llm_used = _call_llm_with_fallback(
+            [{"role": "user", "content": prompt}], llm_endpoint, llm_model,
+            temperature=0.1, max_tokens=800,
+        )
+        parsed = extract_json_from_text(resp_json['choices'][0]['message'].get('content') or '')
+        keywords = sorted({k.strip().lower() for k in parsed.get('keywords', [])
+                           if isinstance(k, str) and len(k.strip()) >= 3})
+        if keywords:
+            print(f"INFO: Requirement-change keywords (LLM: {llm_used}): {', '.join(keywords)}")
+            return keywords
+    except Exception as e:
+        print(f"WARNING: LLM keyword extraction for the requirements change failed: {e}")
+    keywords = sorted(set(re.findall(r"\w{5,}", " ".join(changed_lines).lower())) - _CHANGE_STOPWORDS)
+    print(f"INFO: Requirement-change keywords (word fallback): {', '.join(keywords)}")
+    return keywords
+
+
 def check_requirements_update():
-    """Check if job_requirements.md has changed, and flag jobs for re-evaluation if it has."""
+    """If job_requirements.md changed, flag for re-review only the jobs the edit could affect:
+    diff it against REQ_SNAPSHOT_FILE, turn the added/removed lines into keywords, and queue the
+    jobs whose title/company/location contains one. Before 2026-10-20 every job was re-queued
+    on any edit (a ~5,000-job backlog that took days to review)."""
     req_hash = get_file_hash(REQ_FILE)
     if not req_hash:
         return
+    with open(REQ_FILE, 'r', encoding='utf-8') as f:
+        req_text = f.read()
 
     checkpoint_data = {}
     if os.path.exists(CHECKPOINT_FILE):
@@ -1029,17 +1085,34 @@ def check_requirements_update():
             pass
 
     saved_hash = checkpoint_data.get("requirements_hash", "")
-    if saved_hash and req_hash != saved_hash:
-        print("INFO: job_requirements.md has changed! Resetting evaluation status for existing jobs...")
-        if os.path.exists(JOBS_FILE):
-            with open(JOBS_FILE, 'r', encoding='utf-8') as f:
-                jobs = json.load(f)
-            for job in jobs:
-                if job.get('user_review') != 'done':
-                    job['needs_re_review'] = True
-            with open(JOBS_FILE, 'w', encoding='utf-8') as f:
-                json.dump(jobs, f, indent=2)
+    if saved_hash and req_hash != saved_hash and os.path.exists(JOBS_FILE):
+        with open(JOBS_FILE, 'r', encoding='utf-8') as f:
+            jobs = json.load(f)
+        candidates = [j for j in jobs if j.get('user_review') != 'done']
+        old_text = None
+        if os.path.exists(REQ_SNAPSHOT_FILE):
+            with open(REQ_SNAPSHOT_FILE, 'r', encoding='utf-8') as f:
+                old_text = f.read()
+        if old_text is None:
+            # No earlier copy to diff against (first edit after this was introduced).
+            print("INFO: job_requirements.md has changed but there is no snapshot to diff - re-queueing every job.")
+            flagged = candidates
+        else:
+            changed_lines = _changed_requirement_lines(old_text, req_text)
+            keywords = _requirement_change_keywords(changed_lines, [j.get('title', '') for j in jobs[-40:]]) if changed_lines else []
+            flagged = [j for j in candidates
+                       if any(kw in " ".join(str(j.get(k) or '') for k in ('title', 'company', 'location')).lower()
+                              for kw in keywords)]
+            print(f"INFO: job_requirements.md has changed ({len(changed_lines)} lines) - "
+                  f"re-queueing {len(flagged)} of {len(candidates)} jobs that match its keywords.")
+        for job in flagged:
+            job['needs_re_review'] = True
+        with open(JOBS_FILE, 'w', encoding='utf-8') as f:
+            json.dump(jobs, f, indent=2)
 
+    if req_hash != saved_hash or not os.path.exists(REQ_SNAPSHOT_FILE):
+        with open(REQ_SNAPSHOT_FILE, 'w', encoding='utf-8') as f:
+            f.write(req_text)
     checkpoint_data["requirements_hash"] = req_hash
     with open(CHECKPOINT_FILE, 'w', encoding='utf-8') as f:
         json.dump(checkpoint_data, f, indent=2)
@@ -1497,25 +1570,12 @@ def _post_llm_with_retry(url, headers, payload, timeout=120, retries=2, backoff_
         raise last_err
     raise requests.exceptions.RequestException("LLM request failed with no captured exception")
 
-GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
-# Ordered by preference (quality first). Each Groq model has its OWN separate free-tier
-# rate-limit quota, so rotating through them on failure meaningfully increases total
-# throughput before giving up and falling back to local - a 429 on one model doesn't mean
-# the others are limited too. Overridable via GROQ_MODELS (comma-separated). qwen/qwen3.6-27b
-# was removed 2026-09-28: Groq retired it and every call returned 404, wasting one request
-# per job before falling through. openai/gpt-oss-safeguard-20b (moderation-
-# tuned) validated 2026-08-21 against a real job-matching prompt - clean content/reasoning
-# separation like the other gpt-oss models, correct judgment, no unwanted refusals on normal
-# job-posting text. Deliberately still excludes: groq/compound(-mini) (agentic meta-models
-# with tool-use, untested for this single-shot extraction use case), allam-2-7b (Arabic-
-# specialized, poor fit for English/Finnish text), and meta-llama/llama-prompt-guard-2-*
-# (confirmed 2026-08-21 via direct API test to return a raw injection-likelihood probability
-# score instead of text - not a chat model at all, would fail every single call).
-GROQ_MODELS = [m.strip() for m in os.environ.get("GROQ_MODELS", "openai/gpt-oss-120b,openai/gpt-oss-20b,openai/gpt-oss-safeguard-20b").split(",") if m.strip()]
+# Groq was removed 2026-10-20: across ~4,000 recent reviews it returned "413 Payload Too Large"
+# or a rate limit on nearly every job (139 successes), so it only delayed the Gemini call.
 
-# Google Gemini via its OpenAI-compatible endpoint - second cloud provider, tried after
-# Groq and before local (key: PRIYA_GEMINI_API_KEY in this repo's .env; unset = skipped).
-# Each model has its own free-tier quota, so they rotate like GROQ_MODELS. Validated
+# Google Gemini via its OpenAI-compatible endpoint - the cloud provider, tried before local
+# (key: PRIYA_GEMINI_API_KEY in this repo's .env; unset = skipped).
+# Each model has its own free-tier quota, so they rotate on failure. Validated
 # 2026-09-27 on 40 jobs with the real review prompt: gemini-3.1-flash-lite matched the
 # reference verdict 32/40 exactly (37/40 counting yes<->maybe as close), got all 11
 # rejections right, median 1.5s/job; slightly strict on borderline jobs. 3.5-flash-lite
@@ -1593,10 +1653,10 @@ def _try_cloud_provider(messages, endpoint, api_key, models, temperature, max_to
             print(f"  [LLM] {label} model '{model}' failed ({e}), trying next...")
     return None
 
-def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, max_tokens=500, timeout_local=120, timeout_groq=60):
-    """Try Groq first (free-tier cloud inference, no local contention), rotating through
-    GROQ_MODELS in order until one succeeds, then Gemini (GEMINI_MODELS), falling back to
-    the local LM Studio server only once every cloud model has failed - missing key, network error, rate
+def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, max_tokens=500, timeout_local=120, timeout_cloud=60):
+    """Try Gemini first (free-tier cloud inference, no local contention), rotating through
+    GEMINI_MODELS on Priya's key and then on the backup key, falling back to the local LM
+    Studio server only once every cloud model has failed - missing key, network error, rate
     limit, bad response, anything. Each attempt is a single shot with no retry loop of its
     own: a failure there just means "not available right now", and moving on (to the next
     model, then to local - which already retries/waits its turn, see _post_llm_with_retry)
@@ -1604,23 +1664,17 @@ def _call_llm_with_fallback(messages, llm_endpoint, llm_model, temperature=0.1, 
     limit.
 
     Returns (response_json, provider_label) so callers can log/record which LLM actually
-    produced the result - provider_label is e.g. 'groq/openai/gpt-oss-120b' or
+    produced the result - provider_label is e.g. 'gemini/gemini-3.1-flash-lite' or
     'local/<model>'."""
-    # PRIYA_GROQ_API_KEY (this repo's .env) is priya_jobs's own Groq account, so its
-    # free-tier quota isn't drained by manju_jobs/vineeth_jobs. It has to be a separate
-    # name: GROQ_API_KEY is a Windows User env var shared by all three scrapers, and
-    # load_dotenv() never overrides an existing variable.
-    groq_api_key = os.environ.get("PRIYA_GROQ_API_KEY") or os.environ.get("GROQ_API_KEY")
-    if groq_api_key:
-        result = _try_cloud_provider(messages, GROQ_ENDPOINT, groq_api_key, GROQ_MODELS, temperature, max_tokens, timeout_groq, "groq")
-        if result:
-            return result
-
-    gemini_api_key = os.environ.get("PRIYA_GEMINI_API_KEY")
-    if gemini_api_key:
-        result = _try_cloud_provider(messages, GEMINI_ENDPOINT, gemini_api_key, GEMINI_MODELS, temperature, max_tokens, timeout_groq, "gemini")
-        if result:
-            return result
+    # GEMINI_API_KEY_VINEETH_BITS (Windows user env var) is a second Gemini account with its own
+    # free-tier quota, used once Priya's key is out of tokens. Its own label keeps its 429
+    # cooldowns separate from Priya's in _cloud_model_cooldown_until.
+    for label, key_name in (("gemini", "PRIYA_GEMINI_API_KEY"), ("gemini-vineeth-bits", "GEMINI_API_KEY_VINEETH_BITS")):
+        gemini_api_key = os.environ.get(key_name)
+        if gemini_api_key:
+            result = _try_cloud_provider(messages, GEMINI_ENDPOINT, gemini_api_key, GEMINI_MODELS, temperature, max_tokens, timeout_cloud, label)
+            if result:
+                return result
 
     headers = {"Content-Type": "application/json"}
     llm_api_key = os.environ.get("LOCAL_LLM_API_KEY")

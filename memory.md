@@ -202,6 +202,15 @@ now runs `scraper.py --once`: scrape until the checkpoint reaches the last targe
 SCRAPE_INTERVAL_SECONDS), then drain the review queue, exiting when it is empty or a round clears
 nothing. Plain `scraper.py` (no flag) is still the old endless daemon for manual use. To run now:
 `Start-ScheduledTask JobScrapersSequentialMorning`. Backlog at switch-over: 4,975 pending here.
+**Targeted re-review on requirement edits (2026-10-20, all three scrapers):** `check_requirements_update()`
+no longer flags every job. It diffs `job_requirements.md` against `requirements_snapshot.md` (local copy,
+gitignored — it duplicates personal requirements), asks the LLM for title/company/location keywords
+(with synonyms and the titles' languages) for the added/removed lines, and sets `needs_re_review` only
+on jobs containing one. Falls back to the changed lines' 5+-letter words if the LLM fails, and to
+re-queueing everything only if no snapshot exists. Tested: a one-line data-entry rule → 14 of 10,096 jobs.
+**LLM order (priya_jobs, 2026-10-20):** Groq removed (≈4,000 413/429 failures vs 139 successes). Now
+Gemini on `PRIYA_GEMINI_API_KEY` → Gemini on `GEMINI_API_KEY_VINEETH_BITS` (Windows user env var, second
+account, label `gemini-vineeth-bits/...` in `eval_model`) → local qwen3-14b.
 
 ## Location scope narrowed, Today card, scrape starvation fix (2026-09-25)
 

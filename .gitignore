@@ -37,6 +37,9 @@ logs/
 # Runtime lock files
 *.lock
 
+# Local copy of job_requirements.md that check_requirements_update() diffs against
+requirements_snapshot.md
+
 # Personal resume files — never publish to a public repo
 originial resumes/
 
