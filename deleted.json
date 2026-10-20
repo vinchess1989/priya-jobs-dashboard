@@ -50499,5 +50499,39 @@
     "eval_model": "local/qwen/qwen3-14b",
     "description_file": null,
     "deletion_reason": "Requires US citizenship / no visa sponsorship"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "ICEYE",
+    "location": "Espoo, Finland",
+    "url": "https://duunitori.fi/tyopaikat/tyo/devops-engineer-scsom-20661095",
+    "visited": "yes",
+    "matches_requirements": "yes",
+    "reason": "The role aligns with her DevOps and release management background, is located in Finland, and meets the salary expectations.",
+    "id": "3e22bc7e",
+    "source": "duunitori_devops_engineer",
+    "added_at": "2026-10-20T12:51:10+03:00",
+    "posted_date": "2026-10-18",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/iceye_devops_engineer_3e22bc7e.txt",
+    "deletion_reason": "Duplicate re-post of ICEYE DevOps Engineer (same text as 36806259) - Priya applied to this role 2026-09-30"
+  },
+  {
+    "title": "Specialist, Technical Writer",
+    "company": "L3Harris Technologies",
+    "location": "Nashville, TN",
+    "url": "https://www.linkedin.com/jobs/view/specialist-technical-writer-at-l3harris-technologies-4469101597",
+    "visited": "yes",
+    "matches_requirements": "no",
+    "reason": "The job is located in the United States and requires US citizenship for security clearance, which violates the strict hard rejection criteria.",
+    "id": "babbd1c2",
+    "source": "linkedin_ww_remote_documentation_specialist",
+    "added_at": "2026-10-02T01:22:51+03:00",
+    "posted_date": "2026-09-22",
+    "deadline": "N/A",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null,
+    "deletion_reason": "Requires US citizenship / no visa sponsorship"
   }
 ]
