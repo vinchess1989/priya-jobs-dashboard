@@ -106219,16 +106219,17 @@
     "location": "Munich, Bavaria, Germany",
     "url": "https://de.linkedin.com/jobs/view/functional-safety-engineer-all-gender-%E2%80%93-iso-26262-automotive-safety-xxx-at-alten-4457218841",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Munich, Germany, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "2a87f33b",
     "source": "linkedin_eu_remote_iso_26262",
     "added_at": "2026-10-08T10:55:51+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-20T21:17:11+03:00"
   },
   {
     "title": "Kokoonpanija moderniin teolliseen tuotantoymp\u00e4rist\u00f6\u00f6n",
@@ -106636,16 +106637,17 @@
     "location": "Kassel, Hesse, Germany",
     "url": "https://de.linkedin.com/jobs/view/requirements-engineer-funktionale-sicherheit-all-gender-at-alten-4477120996",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not remote, which violates the location requirements, and it explicitly requires fluent German communication skills.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "a20a9dd2",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-08T11:32:58+03:00",
-    "posted_date": "2026-10-08",
+    "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-20T21:17:14+03:00"
   },
   {
     "title": "Nordic HSE Manager",
@@ -107645,16 +107647,17 @@
     "location": "Vantaa, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/quality-manager-researcher-at-als-4475784913",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and is primarily a laboratory-based quality and research position involving physical sample analysis, which falls outside the candidate's software-focused release, configuration management, and technical communication expertise.",
+    "matches_requirements": "error",
+    "reason": "Page load or parsing error.",
     "id": "7f3a32b6",
     "source": "linkedin_fi_quality_manager_p2",
     "added_at": "2026-10-08T13:45:58+03:00",
-    "posted_date": "2026-10-08",
-    "deadline": "2026-10-31",
+    "posted_date": "N/A",
+    "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
     "description_file": null,
-    "needs_re_review": true
+    "error_attempts": 1,
+    "last_error_at": "2026-10-20T21:17:18+03:00"
   },
   {
     "title": "Palveluesihenkil\u00f6, koulu- ja opiskeluterveydenhuolto (2 teht\u00e4v\u00e4\u00e4)",
@@ -108095,15 +108098,14 @@
     "url": "https://www.jobly.fi/tyopaikka/laatupaallikko-tutkija-2775140",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and is primarily a laboratory-based research and analysis position, which falls outside the candidate's software-focused release, configuration management, and quality engineering background.",
+    "reason": "This role requires hands-on physical laboratory testing (sample preparation and analysis of asbestos and fiber samples using electron microscopy), which triggers the hard rejection for hands-on hardware/lab testing and physical production quality roles.",
     "id": "1bcfc7f4",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-08T14:46:29+03:00",
     "posted_date": "2026-10-08",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -108128,15 +108130,14 @@
     "url": "https://vn.linkedin.com/jobs/view/hanoi-requirement-engineer-technical-business-analyst-at-lg-electronics-r-d-vietnam-4475902187",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hanoi, Vietnam, which violates the requirement that the role must be in Finland or a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Hanoi, Vietnam, violating the relocation and remote location requirements to be based in or able to work remotely from Finland.",
     "id": "4ec7d9ce",
     "source": "linkedin_ww_remote_requirements_engineer",
     "added_at": "2026-10-08T15:27:49+03:00",
-    "posted_date": "1 gi\u1edd tr\u01b0\u1edbc",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst & Test Manager Digital - AXA Luxembourg - CDI",
@@ -108177,15 +108178,14 @@
     "url": "https://fi.linkedin.com/jobs/view/validation-engineer-at-texas-instruments-europe-4474285448",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware-focused semiconductor validation role centered on laboratory measurements and physical power electronics testing, which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This role requires a Master's degree in Electrical Engineering and hands-on hardware/post-silicon lab testing, which falls under the hard rejection rule for hardware/semiconductor manufacturing and physical testing roles.",
     "id": "15a53a4f",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-08T15:33:33+03:00",
-    "posted_date": "2 ng\u00e0y tr\u01b0\u1edbc",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "RAQA Director (Surgical Robot)(Based in Japan)",
@@ -108866,15 +108866,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-systems-engineer-system-requirements-management-sme-at-alten-technology-usa-4473269750",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Auburn Hills, Michigan), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in Auburn Hills, Michigan, USA, which violates the strict hard rejection rule against US-based positions.",
     "id": "4a9167a3",
     "source": "linkedin_ww_remote_requirements_manager",
     "added_at": "2026-10-08T16:30:01+03:00",
-    "posted_date": "vor 1 woche",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Projektleitung Software | Enterprise Applications Anforderungsmanagement & Implementierung",
@@ -109443,15 +109442,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-test-engineer-helsinki-at-elisa-4475937740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent communication skills in both Finnish and English, violating the candidate's language constraint as she does not speak Finnish.",
+    "reason": "The role requires fluent communication skills in both Finnish and English as a mandatory qualification, which conflicts with the candidate's lack of Finnish proficiency.",
     "id": "3672a2d4",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-08T17:30:49+03:00",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Siivooja Tahkolle",
@@ -109764,15 +109762,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laatuinsinoori-quality-engineer-scsom-20635167",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/production quality engineering position focused on physical hardware and supply chain quality, which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This is a manufacturing and supply-chain quality engineering role involving physical production, IQC/OQC operations, and hardware supply chain, which falls under the hard rejection rule for manufacturing and hardware quality roles.",
     "id": "4d5b0b46",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-10-08T18:31:19+03:00",
     "posted_date": "2026-10-07",
     "deadline": "2026-10-28",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "(Associate) Manager, Quality, New Verticals",
@@ -110277,15 +110274,14 @@
     "url": "https://fi.linkedin.com/jobs/view/construction-quality-manager-at-gertek-project-management-and-technical-services-4477407393",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction quality management role focused on physical data center site delivery, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
+    "reason": "The role is a construction quality management position, which falls under the hard rejection for manufacturing/construction quality roles that lack a software-release or configuration-management component.",
     "id": "25f9d0ed",
     "source": "linkedin_fi_quality_manager",
     "added_at": "2026-10-08T20:22:47+03:00",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Compliance Manager, Europe",
@@ -110807,15 +110803,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=f4e00029c05471c3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess, and the core responsibilities are centered on physical laboratory analysis rather than software release or configuration management.",
+    "reason": "This role requires hands-on laboratory sample preparation, asbestos analysis, and wet-lab analytical chemistry methods, which violates the hard rejection for physical laboratory and manufacturing quality/testing roles.",
     "id": "6de2134a",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-10-08T21:15:54+03:00",
     "posted_date": "2026-10-08",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Quality Manager",
@@ -110824,32 +110819,30 @@
     "url": "https://fi.indeed.com/career/quality-manager/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information page rather than an actual job posting.",
+    "reason": "This URL is an Indeed salary statistics page rather than an actual open job listing, so no valid job posting details are available.",
     "id": "6ba8a01d",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-10-08T21:15:54+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salaries for Quality Manager, Vantaa, F19",
     "company": "Extract from page",
-    "location": "Extract from page",
+    "location": "Vantaa, Finland",
     "url": "https://fi.indeed.com/career/quality-manager/salaries/Vantaa--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is a salary information page on a job board, not an actual job vacancy posting.",
+    "reason": "This is a salary information and career statistics page rather than an actual job posting.",
     "id": "903ad19b",
     "source": "indeed_fi_requirements_manager",
     "added_at": "2026-10-08T21:15:54+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Avoin hakemus, Knowit Solutions FLX",
@@ -111898,15 +111891,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/laatupaallikkotutkija-stsyo-20637416",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires hands-on laboratory research and analysis (asbesti/kuitu) which falls under physical/manufacturing quality rather than software release, configuration management, or software quality engineering.",
+    "reason": "This role requires hands-on laboratory sample preparation, asbestos/fiber analysis, and a background in chemistry, geology, or laboratory analytics, which does not match Priya's software and release engineering profile.",
     "id": "999a555c",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-09T04:20:17+03:00",
     "posted_date": "2026-10-08",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -112171,15 +112163,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-assurance-engineer-j0051839-at-astemo-ltd-4477607239",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berea, KY, United States, violating the strict hard rejection rule against US-based positions.",
+    "reason": "The job is located in Berea, Kentucky, United States, violating the strict hard rejection rule for US-based roles, and is a physical manufacturing quality role.",
     "id": "14c4b222",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-09T05:07:01+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Electrical/IT Engineer as Assessor/Functional Safety Expert for Embedded Systems (m/f/d)",
