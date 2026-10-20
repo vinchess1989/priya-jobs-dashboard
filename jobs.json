@@ -129638,15 +129638,14 @@
     "url": "https://ca.linkedin.com/jobs/view/quality-manager-at-modine-manufacturing-company-4477648153",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing quality management position located in Canada, which violates the location requirements and the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "Job is located in Calgary, Canada (outside Finland and not remote), and focuses on manufacturing quality management rather than software-release/configuration-management/DevOps roles with regulated-industry compliance.",
     "id": "4a1f2cb7",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-10T15:20:57+03:00",
-    "posted_date": "1 dag sedan",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Regulatory Submission Specialist (EU IVDR / CE-mark))",
@@ -129671,15 +129670,14 @@
     "url": "https://hu.linkedin.com/jobs/view/senior-design-quality-assurance-engineer-medical-device-%230436-at-massmedic-4474605152",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Hungary and is not a remote role, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Hungary (Visegr\u00e1d, Pest, Hungary), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
     "id": "5b7d4f30",
     "source": "linkedin_eu_remote_iso_13485",
     "added_at": "2026-10-10T15:27:19+03:00",
-    "posted_date": "5 dagar sedan",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Functional Safety",
@@ -129688,15 +129686,14 @@
     "url": "https://in.linkedin.com/jobs/view/functional-safety-at-alten-india-4434906244",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in India, which violates the strict location requirement for roles to be based in or remote to Finland.",
+    "reason": "The job is located in Chennai, India, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "cc532029",
     "source": "linkedin_ww_remote_functional_safety",
     "added_at": "2026-10-10T15:29:50+03:00",
-    "posted_date": "3 m\u00e5nader sedan",
+    "posted_date": "2026-07-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Functional Safety Specialist",
@@ -129721,15 +129718,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-manager-w-m-d-%E2%80%93-embedded-systems-at-kisters-group-4454442036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Aachen, Germany, and is not a remote role open to candidates outside of Germany, violating the location requirement.",
+    "reason": "The job is located in Aachen, Germany, and is not a remote role open to candidates outside of Germany, violating the location constraint.",
     "id": "23dc9258",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-10T15:36:15+03:00",
-    "posted_date": "1 m\u00e5nad sedan",
+    "posted_date": "2026-08-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Engineer (m/f/i) - Wiring Devices",
@@ -129786,15 +129782,14 @@
     "url": "https://nl.linkedin.com/jobs/view/pre-commissioning-technical-quality-manager-at-autel-energy-europe-4475442724",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in the Netherlands and requires professional proficiency in Chinese, neither of which aligns with the candidate's location or language requirements.",
+    "reason": "The role is located in the Netherlands (not Finland) and requires professional proficiency in Chinese, which the candidate does not possess.",
     "id": "0da1c9cf",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-10T15:36:15+03:00",
-    "posted_date": "2 dagar sedan",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Field Application Engineer Embedded Systems",
@@ -129851,15 +129846,14 @@
     "url": "https://at.linkedin.com/jobs/view/research-engineer-f-m-d-for-electric-vehicle-power-electronics-at-ait-austrian-institute-of-technology-4444055020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Austria and is a pure feature-development engineering position, which violates the location and role-type hard rejection criteria.",
+    "reason": "The role is a pure hardware/firmware development engineering position located in Austria, which violates both the location policy and the exclusion of pure feature-development software/hardware engineering roles.",
     "id": "c7883ffb",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-10T15:38:28+03:00",
-    "posted_date": "2 m\u00e5nader sedan",
+    "posted_date": "2026-08-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Systems Certification Coordinator & CE Manager",
@@ -129916,15 +129910,14 @@
     "url": "https://se.linkedin.com/jobs/view/power-electronics-engineer-at-coalesce-management-consulting-4474243822",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Sweden and is a pure hardware/power electronics engineering position, which violates both the location and the 'Pure Feature-Development/Hardware Engineering' hard rejection criteria.",
+    "reason": "The role is a hardware-focused power electronics engineering position located in Sweden, which violates both the location requirements and the exclusion of pure hardware/electronics design roles.",
     "id": "935b03a0",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-10T15:38:28+03:00",
-    "posted_date": "5 dagar sedan",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Mobile Threat Researcher/Engineer",
@@ -130045,15 +130038,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-firmware-test-engineer-at-eaton-4473139946",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a hardware-focused quality/test engineering position involving laboratory equipment and physical power systems, which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "The role requires hands-on laboratory equipment usage (oscilloscopes, multimeters) and high-voltage lab work, which falls under the hard rejection for hardware lab testing/manufacturing quality roles.",
     "id": "e5023275",
     "source": "linkedin_fi_iso_26262_p2",
     "added_at": "2026-10-10T15:42:17+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Autonomous Vehicle Driver (Bertha Certified)",
@@ -130574,15 +130566,14 @@
     "url": "https://nl.linkedin.com/jobs/view/quality-assurance-engineer-at-tmc-4398391375",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in the Netherlands and focuses on manufacturing/production quality methodologies (PPAP, 8D, FMEA) without a software-release or software-quality component, which triggers the hard rejection for manufacturing quality roles.",
+    "reason": "This job is located in Eindhoven, Netherlands, violating the location requirement of being in Finland or fully remote.",
     "id": "85ac164e",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-10T18:44:53+03:00",
-    "posted_date": "h\u00e1 2 dias",
+    "posted_date": "2026-10-15",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur QA Pytest & Linux H/F",
@@ -130639,15 +130630,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/teleste-laatuinsinoori-sdsuu-20629755",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/production quality engineering position focused on physical hardware and supply chain quality, which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This is a hardware/manufacturing quality engineering role focused on production processes, supplier quality, and methods like PFMEA and CAPA, which falls under the hard rejection rule for manufacturing and hardware quality roles.",
     "id": "7632f3b7",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-10-10T18:46:15+03:00",
     "posted_date": "2026-10-07",
     "deadline": "2026-10-28",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -130656,15 +130646,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-manager-at-copperweld-4468246709",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Rockwall, Texas), which violates the strict exclusion policy for US-based roles.",
+    "reason": "This job is located in Rockwall, Texas, which violates the strict hard rejection rule for US-based locations.",
     "id": "5a3655b9",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-10T18:47:21+03:00",
-    "posted_date": "h\u00e1 2 dias",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Manager",
@@ -130689,15 +130678,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-manager-at-westinghouse-electric-company-4428726005",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Cranberry Township, PA), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is located in the United States (Cranberry Township, PA), which violates the strict exclusion for US-based roles.",
     "id": "a1fd231f",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-10T18:47:21+03:00",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qu\u1ea3n l\u00fd \u0111\u1ea3m b\u1ea3o ch\u1ea5t l\u01b0\u1ee3ng",
@@ -130850,15 +130838,14 @@
     "url": "https://se.linkedin.com/jobs/view/senior-electronics-embedded-engineer-at-quandify-4468645619",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an on-site position located in Stockholm, Sweden, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The role is located in Stockholm, Sweden (outside Finland), and is a pure feature-development engineering role, both of which violate the hard rejection criteria.",
     "id": "7edc78cd",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-10T19:03:54+03:00",
     "posted_date": "2026-09-19",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Compliance Engineer",
@@ -131203,15 +131190,14 @@
     "url": "https://de.linkedin.com/jobs/view/software-applications-engineer-at-texas-instruments-europe-4466815243",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not a remote role, which violates the location requirement for non-Finland positions.",
+    "reason": "The job is located in Germany (Freising, Bavaria) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule. Additionally, it is a feature-development software engineering role, which is another hard rejection criterion.",
     "id": "3c1cd3d8",
     "source": "linkedin_eu_remote_iso_26262_p2",
     "added_at": "2026-10-10T19:10:12+03:00",
-    "posted_date": "vor 2 tagen",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Consultant Functional Safety (m/f/d)",
@@ -131828,15 +131814,14 @@
     "url": "https://es.linkedin.com/jobs/view/head-of-engineering-high-power-electronics-at-nextpower-4472161822",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Spain and requires physical presence, which violates the location policy, and it is a hardware-focused engineering management role outside of her software-release/CM core.",
+    "reason": "The role is located in Spain (outside Finland), requires fluent Spanish, and focuses on hardware/electromechanical engineering, all of which violate the candidate's hard rejection criteria.",
     "id": "319926f8",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-10T22:33:20+03:00",
-    "posted_date": "1 hafta \u00f6nce",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Applications Specialist - Open For Fresh Grad",
