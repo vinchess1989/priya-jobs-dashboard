@@ -870,3 +870,11 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
   Priya read as "the matches filter shows a different number". Now: filtered count first, "(of N)" total after.
 - Deploy needs `firebase deploy --only hosting` from `firebase_app/` by Vineeth (Priya's account has no
   hosting rights; no Firebase CLI on her PC).
+
+## Qt Group (Greenhouse) forms (2026-10-20)
+- Qt Group's LinkedIn "Apply" is a `linkedin.com/safety/go/?url=` link to `qt.io/careers/open-positions/...?gh_jid=<id>`.
+  Greenhouse board token is `theqtcompany` (not `qtgroup`): questions via
+  `boards-api.greenhouse.io/v1/boards/theqtcompany/jobs/<id>?questions=true`; fill the form directly at
+  `job-boards.greenhouse.io/embed/job_app?for=theqtcompany&token=<id>` (the non-embed URL redirects back to qt.io's iframe).
+- New Greenhouse UI dropdowns are react-select comboboxes: type the option, then click a **visible, exact-text**
+  `[role=option]`. A bare `has_text="No"` matches the hidden phone-country list (Lebanon) and times out.
