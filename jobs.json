@@ -69063,15 +69063,14 @@
     "url": "https://bg.linkedin.com/jobs/view/quality-manager-at-puratos-4255207060",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Pernik, Bulgaria, which violates the candidate's requirement to be located in Finland or work fully remote from Finland.",
+    "reason": "The role is located in Pernik, Bulgaria, which violates the location policy requiring roles to be in Finland or fully remote.",
     "id": "a7120eb0",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 14 heures",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Manager Bietigheim & Pleidelsheim (m/w/d)",
@@ -69080,15 +69079,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-manager-bietigheim-pleidelsheim-m-w-d-at-parker-hannifin-4446896996",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Pleidelsheim, Germany, violating the location constraint requiring it to be either in Finland or fully remote.",
+    "reason": "This physical quality manager role is located in Germany and focuses on manufacturing/production quality methods like FAI, PPAP, and FMEA, violating the hard rejection rule against manufacturing/production quality roles outside Finland.",
     "id": "72296c49",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 1 jour",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Site Quality Manager",
@@ -69097,15 +69095,14 @@
     "url": "https://fr.linkedin.com/jobs/view/site-quality-manager-at-harmattan-ai-4452488398",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware/manufacturing quality manager role located in France, violating the location constraint and the hard rejection rule against physical production quality roles.",
+    "reason": "This is a physical manufacturing and shop-floor quality management role in France, which violates the hard rejection rule against manufacturing/production-line quality roles and location outside Finland.",
     "id": "743ab1ed",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-10-15",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Manager, Quality Assurance",
@@ -69114,15 +69111,14 @@
     "url": "https://nl.linkedin.com/jobs/view/manager-quality-assurance-at-merit-medical-systems-inc-4416802306",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Maastricht, Netherlands, which violates the candidate's location requirement to be based in Finland or remote worldwide.",
+    "reason": "The job is located in Maastricht, Netherlands, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is an on-site role outside Finland.",
     "id": "b0d1f825",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 4 mois",
+    "posted_date": "2026-06-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "QE Manager",
@@ -69147,15 +69143,14 @@
     "url": "https://pl.linkedin.com/jobs/view/quality-manager-m-k-at-human-hunter-professional-4470286629",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing quality management role located in Lodz, Poland, which violates both the geographic location constraint (not in Finland or worldwide remote) and the hard rejection rule for physical production/manufacturing quality roles.",
+    "reason": "The job is located in Poland and is not remote, which violates the location requirement, and it is a manufacturing quality role focused on physical production and calibration, which is explicitly excluded.",
     "id": "cd173d09",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 22 heures",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -69164,15 +69159,14 @@
     "url": "https://ie.linkedin.com/jobs/view/quality-manager-at-m-heffernan-engineering-ltd-4460276677",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This Quality Manager role is in manufacturing, fabrication, and construction engineering (specifically mechanical engineering and welding inspection in Ireland), which triggers the hard rejection for manufacturing/construction quality roles.",
+    "reason": "This is a physical manufacturing and fabrication quality manager role focused on welding, construction, and mechanical engineering operations, which triggers the hard rejection for manufacturing and construction quality roles.",
     "id": "231e4971",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -69181,15 +69175,14 @@
     "url": "https://es.linkedin.com/jobs/view/quality-manager-at-worley-4441440986",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This Quality Manager role focuses on physical energy and infrastructure projects (ADNOC Growth Projects) requiring engineering, procurement, and construction quality methods like NCR and TPI, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
+    "reason": "This Quality Manager role is located in Spain and focuses heavily on industrial engineering/construction QA/QC (ADNOC projects), which falls under the hard rejection for manufacturing, construction, or physical production quality roles.",
     "id": "87183449",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 2 semaines",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager",
@@ -69198,15 +69191,14 @@
     "url": "https://pt.linkedin.com/jobs/view/quality-assurance-manager-at-mace-4467609766",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which violates the candidate's location criteria requiring positions to be in Finland or fully remote without regional restrictions excluding Finland.",
+    "reason": "This physical construction/infrastructure quality assurance role is located in Lisbon, Portugal, violating the location constraint and the hard rejection for physical project/infrastructure quality roles.",
     "id": "e8e02666",
     "source": "linkedin_eu_remote_quality_manager_p2",
     "added_at": "2026-10-02T21:32:32+03:00",
-    "posted_date": "il y a 2 semaines",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "QA/QC Manager (m/f/d)",
@@ -69231,15 +69223,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=760a5dbe8c0ceeca",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish (sujuvasti sek\u00e4 suomeksi ett\u00e4 englanniksi) and is located on-site in Turku, whereas the candidate is based in Oulu and does not speak Finnish.",
+    "reason": "The job posting text is inaccessible and returns an HTTP 400 Bad Request error, providing no description to evaluate against requirements.",
     "id": "c0e65f55",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-19",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "QA Assistant",
@@ -69264,15 +69255,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=31d4d59027e884f7",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/hardware-oriented quality management role centered on physical production (FAT, FAI, FWT, 8D, Six Sigma), which falls under the hard rejection rule for manufacturing and hardware quality.",
+    "reason": "This role is rejected due to the hard constraint against physical manufacturing and hardware quality management roles.",
     "id": "347d21e2",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Construction Quality Program Manager",
@@ -69281,15 +69271,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=ce378b36f7c48d26",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a construction and physical infrastructure quality role for data centers, which violates the hard rejection rule for manufacturing, construction, or hardware quality roles.",
+    "reason": "The job is located in Hyderabad, India, which violates both the geographic location rule and the hard rejection against physical construction quality roles.",
     "id": "bbdd55b7",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-02T22:45:27+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salaries for Specialist, Turku, F20",
@@ -69314,15 +69303,14 @@
     "url": "https://www.jobly.fi/tyopaikka/cps-quality-manager-2769739",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing and hardware quality management role centered on physical production (FAT, FAI, 8D, Six Sigma) which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This manufacturing/hardware quality role focuses on physical production, FAT/FAI, and customer quality for power systems, triggering the hard rejection for manufacturing/hardware quality roles.",
     "id": "494c6ec4",
     "source": "jobly_fi_quality_manager",
     "added_at": "2026-10-02T22:46:06+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Osa-aikainen Production, Logistics & Quality Coordinator Movesense Oy:lle",
@@ -69363,15 +69351,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-manager-weapon-systems-spsat-20618265",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and Swedish, which the candidate does not speak, and mandatory security clearance restrictions apply.",
+    "reason": "The job application period has closed, as explicitly stated in the posting.",
     "id": "03ac3f70",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-02T22:46:25+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "CPS Quality Manager",
@@ -69380,15 +69367,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/cps-quality-manager-sesat-20618130",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This hardware/manufacturing quality manager role conflicts with the candidate's software/IT background and includes heavy customer-facing responsibilities that she explicitly rejects.",
+    "reason": "The role is a manufacturing-focused quality management position involving physical product quality (FAT/FAI/FWT) and hardware-related quality engineering, which falls under the hard rejection criteria for manufacturing/hardware quality roles.",
     "id": "12e59489",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-02T22:46:25+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "SNE - Regulatory Officer",
@@ -69701,15 +69687,14 @@
     "url": "https://au.linkedin.com/jobs/view/regulatory-affairs-quality-assurance-associate-at-zimmer-biomet-4471989455",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sydney, New South Wales, Australia, which violates the candidate's location criteria of being based in Finland or fully remote.",
+    "reason": "The job is located in Sydney, New South Wales, Australia, which violates the candidate's requirement to be based in Finland or remote from Finland.",
     "id": "311c148c",
     "source": "linkedin_ww_remote_eu_mdr_p2",
     "added_at": "2026-10-03T00:56:06+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Manager",
