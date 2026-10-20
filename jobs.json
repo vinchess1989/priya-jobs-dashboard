@@ -57558,15 +57558,14 @@
     "url": "https://ie.linkedin.com/jobs/view/business-analysis-manager-workforce-management-payroll-systems-at-stryker-4458330960",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cork, Ireland (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The job is located in Cork, Ireland, which violates the candidate's location criteria of Finland or remote within acceptable regions.",
     "id": "358f395b",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "IT-Projektmanager / Business Analyst \u2013 touristische Softwarel\u00f6sungen (m/w/d)",
@@ -57575,15 +57574,14 @@
     "url": "https://de.linkedin.com/jobs/view/it-projektmanager-business-analyst-%E2%80%93-touristische-softwarel%C3%B6sungen-m-w-d-at-trendtours-touristik-gmbh-4446641648",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Eschborn, Hesse, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence in a non-Finland EU country.",
+    "reason": "The job is located in Eschborn, Germany (hybrid/on-site) and requires good German language skills, violating the geographic and language criteria.",
     "id": "03ff88dc",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-08-07",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Business Systems Analyst (Healthcare & Real World Evidence)",
@@ -57592,15 +57590,14 @@
     "url": "https://pt.linkedin.com/jobs/view/lead-business-systems-analyst-healthcare-real-world-evidence-at-amgen-4410995238",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal (on-site), which does not meet Priya's criteria of requiring roles physically located in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job location is in Lisboa, Portugal (on-site/hybrid), which violates the rule requiring jobs to be located in Finland or be fully remote and accessible from Finland.",
     "id": "7e5b6c0e",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-06-08",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Bauingenieur Verkehrswesen & Product Requirements Manager (m/w/d)",
@@ -57609,15 +57606,14 @@
     "url": "https://de.linkedin.com/jobs/view/bauingenieur-verkehrswesen-product-requirements-manager-m-w-d-at-hochtief-4470915481",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Essen, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it's not in Finland and doesn't offer remote work accessible from Finland.",
+    "reason": "This on-site role in Germany requires a degree in civil engineering and domain expertise in road construction, which does not match the candidate's background.",
     "id": "25a3f539",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-10-03",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "PO / Responsable d'application m\u00e9tier GMAO H/F",
@@ -57626,15 +57622,14 @@
     "url": "https://fr.linkedin.com/jobs/view/po-responsable-d-application-m%C3%A9tier-gmao-h-f-at-suez-4442732963",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site in France, which is outside Finland and not a remote role.",
+    "reason": "The role is located in Puteaux, France and requires expertise in IBM Maximo EAM, which does not align with the candidate's core background in software configuration/release management and technical communication.",
     "id": "8177dedf",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-08-07",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager Business Analysis - Different domains (CDP; Commerce; Web & Mobile)",
@@ -57643,15 +57638,14 @@
     "url": "https://pl.linkedin.com/jobs/view/manager-business-analysis-different-domains-cdp-commerce-web-mobile-at-philip-morris-international-4461774084",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cracow, Poland (outside Finland) and is not a remote role that can be done from Finland, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Cracow, Poland, and does not fit the location requirement of being in Finland or fully remote from Finland.",
     "id": "af3f57cf",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Responsable Technique - Syst\u00e8me F/H",
@@ -57660,15 +57654,14 @@
     "url": "https://fr.linkedin.com/jobs/view/responsable-technique-syst%C3%A8me-f-h-at-unseenlabs-4471476876",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires physical presence in France (Cesson-S\u00e9vign\u00e9, Brittany) which falls under the 'Outside Finland and Not Remote' hard rejection rule, as the candidate only accepts roles in Finland or fully remote positions accessible from Finland.",
+    "reason": "The job is physically located in Cesson-S\u00e9vign\u00e9, France, violating the hard-rejection rule against on-site/hybrid roles outside of Finland.",
     "id": "06d71e75",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Fonctionnel - Business Analyst (F/H)",
@@ -57677,15 +57670,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-fonctionnel-business-analyst-f-h-at-conduent-business-solutions-france-4467054985",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Valence, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence in a country outside Finland without remote flexibility.",
+    "reason": "The job is a Data Analyst role located in France, which violates the candidate's requirement to work in Finland or globally remote, and does not match her release/configuration management or technical communication profile.",
     "id": "0d141684",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Team Lead Systems Engineering \u2013 Industrialization (m/f/d)",
@@ -57694,15 +57686,14 @@
     "url": "https://de.linkedin.com/jobs/view/team-lead-systems-engineering-%E2%80%93-industrialization-m-f-d-at-quantum-systems-4468705906",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bavaria, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland with no remote option.",
+    "reason": "The job is physically located in Wessling, Germany, which violates the strict location rule requiring jobs to be either in Finland or fully remote.",
     "id": "5c32d781",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Programme Requirement Manager F/H",
@@ -57711,15 +57702,14 @@
     "url": "https://fr.linkedin.com/jobs/view/programme-requirement-manager-f-h-at-nuward-4424128704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Lyon, France, which is outside Finland and not a remote position, violating the location requirement.",
+    "reason": "The job is physically located in Lyon, France, which violates the location policy restricting her to Finland or fully remote roles.",
     "id": "bf36f82d",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-06-08",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Teamleiter Systementwicklung (m/w/d)",
@@ -57728,15 +57718,14 @@
     "url": "https://de.linkedin.com/jobs/view/teamleiter-systementwicklung-m-w-d-at-bytec-medizintechnik-gmbh-4464909603",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany (Eschweiler, North Rhine-Westphalia) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Germany and requires fluent German, which violates the candidate's location and language requirements.",
     "id": "b7e0c274",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
     "posted_date": "2026-09-15",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst & Test Manager Digital Senior- AXA Luxembourg - CDI",
@@ -57745,15 +57734,14 @@
     "url": "https://lu.linkedin.com/jobs/view/business-analyst-test-manager-digital-senior-axa-luxembourg-cdi-at-axa-luxembourg-axa-wealth-europe-4472109312",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Luxembourg (on-site) which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job requires physical presence in Luxembourg and mandatory fluency in French, while also failing the location requirements and closed for applications.",
     "id": "04b3f810",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
-    "posted_date": "il y a 6\u00a0jours",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst / Anforderungsmanager (m/w/d)",
@@ -57762,15 +57750,14 @@
     "url": "https://de.linkedin.com/jobs/view/business-analyst-anforderungsmanager-m-w-d-at-sinc-gmbh-4448986572",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Wiesbaden, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The role requires fluent German (\\\\",
     "id": "67a55607",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
-    "posted_date": "il y a 2 mois",
+    "posted_date": "2026-08-21",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "CDI \u2013 Business Analyst \u2013 Ing\u00e9nierie Syst\u00e8me \u2013 H/F",
@@ -57779,15 +57766,14 @@
     "url": "https://fr.linkedin.com/jobs/view/cdi-%E2%80%93-business-analyst-%E2%80%93-ing%C3%A9nierie-syst%C3%A8me-%E2%80%93-h-f-at-naval-group-4466542345",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lorient, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility from Finland.",
+    "reason": "This on-site role is located in Lorient, France, violating the candidate's requirement to be based in Finland or remote from Finland.",
     "id": "9a7f3ac8",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-09-30T09:54:23+03:00",
-    "posted_date": "il y a 2\u00a0semaines",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Business Analyst",
@@ -57796,15 +57782,14 @@
     "url": "https://pl.linkedin.com/jobs/view/lead-business-analyst-at-billennium-4461758062",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Poland (outside Finland) and requires on-site/hybrid work, which does not meet Priya's location criteria of only considering roles in Finland or fully remote positions accessible from Finland.",
+    "reason": "The job is located in Poland and is hybrid/on-site there, failing the candidate's location and work model criteria, and it also explicitly states that it is no longer accepting applications.",
     "id": "652bcd04",
     "source": "linkedin_eu_remote_requirements_manager_p2",
     "added_at": "2026-09-30T10:55:19+03:00",
-    "posted_date": "il y a 1 mois",
+    "posted_date": "2026-09-20",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Principal Systems Analyst (people management experience needed)",
