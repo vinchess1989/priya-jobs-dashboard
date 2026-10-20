@@ -144279,15 +144279,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-electronics-engineer-avionics-at-iceye-4402255712",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure hardware/electronics engineering position focused on board-level design and satellite hardware, which falls under the hard rejection for pure feature-development/hardware-design roles lacking a core release, configuration management, or software-quality component.",
+    "reason": "The role requires hands-on hardware lab testing and board-level PCB design, falling under hardware quality and engineering constraints that do not match her release management and software/documentation profile.",
     "id": "4c77ce99",
     "source": "linkedin_fi_iso_26262",
     "added_at": "2026-10-12T23:39:16+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Smart Manufacturing Engineer, SW & Electronics",
@@ -144296,15 +144295,14 @@
     "url": "https://fi.linkedin.com/jobs/view/smart-manufacturing-engineer-sw-electronics-at-iceye-4402515575",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure embedded/hardware engineering position focused on designing and maintaining test systems (EGSE), which violates the hard rejection against pure feature-development/hardware-engineering roles that lack a core release, CM, or quality-management focus.",
+    "reason": "The role is a hands-on hardware/electronics manufacturing and lab-testing position, which falls under the hard rejection for hardware lab testing and manufacturing quality roles.",
     "id": "e765ba56",
     "source": "linkedin_fi_iso_26262",
     "added_at": "2026-10-12T23:39:16+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "S\u00e4rm\u00e4\u00e4j\u00e4 Vantaalle",
@@ -144441,15 +144439,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4953304da5ac0d44",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a customer-facing sales/pre-sales engineering position, which the candidate has explicitly rejected in previous feedback.",
+    "reason": "This is a customer-facing sales/pre-sales engineering role, which falls under the negative constraint for customer-facing positions and does not align with her core focus on release management, CI/CD, or quality engineering.",
     "id": "4891c02b",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-12T23:58:26+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Senior Customer Engineer",
@@ -144554,15 +144551,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsmanager-m-w-d-f%C3%BCr-den-bereich-bauingenieurwesen-at-wtm-engineers-gmbh-4476042781",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Germany and explicitly requires German language skills, which violates the location and language constraints.",
+    "reason": "The role is located in Germany and requires German language skills, and it is a construction-focused quality management role which falls under the hard rejection for non-software/non-medical manufacturing/construction quality roles.",
     "id": "b9c60c38",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-13T00:24:04+03:00",
     "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qualit\u00e4tsmanager - Gesundheitswesen / Reha (m/w/d)",
@@ -144577,9 +144573,8 @@
     "added_at": "2026-10-13T00:24:31+03:00",
     "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Manager (m/w/d) FDA",
@@ -145084,15 +145079,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-assurance-engineer-at-s-c-electric-company-4478598157",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Franklin, Wisconsin, USA, which violates the strict US-location exclusion and manufacturing quality hard rejections.",
+    "reason": "The role is located in the United States and is a manufacturing quality engineering position, both of which are explicitly excluded by the hard rejection criteria.",
     "id": "9f3c5759",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-13T03:15:18+03:00",
-    "posted_date": "4 timer siden",
+    "posted_date": "1 viikko sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Engineer, Quality, Satellite Manufacturing",
@@ -145117,15 +145111,14 @@
     "url": "https://mx.linkedin.com/jobs/view/quality-manager-at-metalsa-4477943445",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Apodaca, Nuevo Leon, Mexico, which violates the location requirements.",
+    "reason": "The job is located in Mexico and is a manufacturing quality role focused on physical production processes, which violates the location and manufacturing quality hard rejection criteria.",
     "id": "d6a428ab",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-13T03:18:25+03:00",
     "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager - Quality (Knit Garments, Uttara- Uttar Khan) - For A Reputed Group of Industries (Knit) - Job ID: 1543603",
@@ -146254,15 +146247,14 @@
     "url": "https://au.linkedin.com/jobs/view/quality-assurance-manager-at-real-pet-food-company-4478758270",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This physical food/pet manufacturing quality assurance role is located in Australia, violating the candidate's location and background criteria.",
+    "reason": "This role is physically located in Ingleburn, New South Wales, Australia, violating the requirement that jobs outside Finland must be fully remote.",
     "id": "a974e7a1",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-13T06:56:08+03:00",
     "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Experte f\u00fcr Systementwicklung und funktionale Sicherheit in der Steuerungstechnik (m/w/d)",
@@ -146319,15 +146311,14 @@
     "url": "https://www.linkedin.com/jobs/view/control-testing-engineer-at-delta-electronics-americas-4434142125",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Plymouth Township, Michigan, United States, violating the strict hard rejection rule against US-based positions.",
+    "reason": "The job is located in the United States (Plymouth Township, Michigan), which violates the strict non-negotiable exclusion for US-based roles.",
     "id": "31e5444a",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-13T07:10:39+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Function Owner",
@@ -146960,15 +146951,14 @@
     "url": "https://ae.linkedin.com/jobs/view/quality-assurance-manager-at-bk-gulf-llc-4476089347",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Dubai, United Arab Emirates, and focuses on construction and MEP quality assurance rather than software, release, or configuration management.",
+    "reason": "The role is located in Dubai, UAE, and involves construction industry quality management, which violates the hard rejection rule against physical/manufacturing/construction quality roles outside Finland.",
     "id": "38b3bb10",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-13T08:59:31+03:00",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Regulatory Affairs Associate \u2013 Pharma And Medical Devices | APAC",
@@ -147121,15 +147111,14 @@
     "url": "https://www.jobly.fi/tyopaikka/electronics-design-engineer-2777655",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware electronics design and systems engineering role focused on digital and analog circuit design, which does not match Priya's configuration management, release management, or technical communication profile.",
+    "reason": "The role is a pure hardware/electronics design engineering position, which violates the hard rejection against pure feature-development/hardware-design roles that lack a release, configuration-management, or software-quality core.",
     "id": "712e5fd9",
     "source": "jobly_broad",
     "added_at": "2026-10-13T09:22:24+03:00",
     "posted_date": "2026-10-13",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "S\u00e4hk\u00f6suunnittelija, Rejlers",
@@ -147730,15 +147719,14 @@
     "url": "https://www.jobly.fi/en/job/research-scientist-2777657",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is a pure research/algorithm development role without release, configuration\u2011management, or DevOps responsibilities, which is a hard\u2011rejection criterion.",
+    "reason": "The role is a pure research and algorithm development position, which falls under the 'Pure Feature-Development Software Engineering' and 'Specialist Platforms' hard rejections as it lacks any release, configuration-management, or quality-gatekeeping core.",
     "id": "659b497d",
     "source": "work_in_finland",
     "added_at": "2026-10-13T10:31:56+03:00",
     "posted_date": "2026-10-13",
     "deadline": "2026-11-01",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electronics Design EngineerHitachi High-Tech Analytical Science OyEspooGo to job site",
@@ -147747,15 +147735,14 @@
     "url": "https://www.jobly.fi/en/job/electronics-design-engineer-2777655",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure hardware/electronics design engineering position, which violates the hard rejection against pure feature-development/hardware-design roles that lack a core focus on release, configuration management, or software quality.",
+    "reason": "The role is a pure hardware/electronics design engineering position, which violates the hard rejection against pure feature-development/hardware-design roles that lack a release, configuration-management, or software-quality core.",
     "id": "94eb063b",
     "source": "work_in_finland",
     "added_at": "2026-10-13T10:31:56+03:00",
     "posted_date": "2026-10-13",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA/RA Specialist - Dispositivi Medicali",
