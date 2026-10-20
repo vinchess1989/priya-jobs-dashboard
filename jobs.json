@@ -66373,15 +66373,14 @@
     "url": "https://de.linkedin.com/jobs/view/system-engineer-m-f-d-at-ferchau-4438585196",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Munich, Germany, which violates the candidate's requirement to work in Finland or globally remote.",
+    "reason": "The job is located in Munich, Germany, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
     "id": "42e88eae",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-02T07:14:31+03:00",
-    "posted_date": "vor 2 tagen",
+    "posted_date": "vor 2 wochen",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "System Engineer",
@@ -66390,15 +66389,14 @@
     "url": "https://it.linkedin.com/jobs/view/system-engineer-at-ayes-management-technology-consulting-4382787917",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Latium, Italy (on-site/hybrid), which violates the candidate's requirement to work in Finland or globally remote.",
+    "reason": "The job is located in Rome, Italy, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "fe5ce4f2",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-02T07:14:31+03:00",
-    "posted_date": "vor 4 monaten",
+    "posted_date": "vor 5 monaten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Requirements Engineer (m/f/d) Automotive Infotainment",
@@ -66407,15 +66405,14 @@
     "url": "https://cz.linkedin.com/jobs/view/requirements-engineer-m-f-d-automotive-infotainment-at-bertrandt-group-4467602790",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Czech (min. C1), which the candidate does not possess, and it is an on-site role in the Czech Republic, which falls outside the allowed locations.",
+    "reason": "The job requires fluent Czech (min. C1) and is located in the Czech Republic, which violates the location and language requirements.",
     "id": "2db4520e",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-02T07:14:31+03:00",
-    "posted_date": "p\u0159ed 2 t\u00fddny",
+    "posted_date": "vor 4 wochen",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Systems Engineer (Automotive Lighting)",
@@ -66424,15 +66421,14 @@
     "url": "https://cz.linkedin.com/jobs/view/systems-engineer-automotive-lighting-at-opmobility-4462280907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Nov\u00fd Ji\u010d\u00edn, Czechia, which violates the requirement that jobs outside Finland must be fully remote and open to someone living in Finland.",
+    "reason": "The job is located in the Czech Republic and is not a remote role, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "582ece42",
     "source": "linkedin_eu_remote_requirements_engineer",
     "added_at": "2026-10-02T07:14:31+03:00",
-    "posted_date": "p\u0159ed 3 t\u00fddny",
+    "posted_date": "vor 1 woche",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Quality Engineer",
@@ -66441,15 +66437,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=317930762f3d1bfb",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a manufacturing and hardware quality engineering position for physical electromechanical power systems, which violates the hard rejection rule against manufacturing/hardware quality roles.",
+    "reason": "This role is a manufacturing/hardware quality position focused on electromechanical systems, Factory Acceptance Testing (FAT), and PPAP, which falls under the hard rejection criteria for manufacturing/hardware quality roles.",
     "id": "737c7c6d",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Implementation Analyst (Remote in Europe)",
@@ -66457,16 +66452,15 @@
     "location": "Remote (Europe)",
     "url": "https://fi.indeed.com/rc/clk?jk=52e339dd31b73f5a",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is heavily customer-facing and implementation-focused rather than focused on configuration management, release engineering, or technical writing, violating the candidate's negative constraint against customer-facing roles.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a customer-facing implementation analyst position which is a departure from her core release/CM/quality engineering focus, though it aligns with her background in regulated industries and QMS.",
     "id": "62169820",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "OBC & Comms AIT engineer",
@@ -66475,15 +66469,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=8118113ce084b298",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware AIT engineering role focused on physical assembly, integration, and testing of satellite hardware, which does not match Priya's software configuration management, release, and technical communication background.",
+    "reason": "The role is a hands-on hardware manufacturing and assembly position involving physical inspection and testing of spacecraft subsystems, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "9aa295ed",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Quality Engineer",
@@ -66492,15 +66485,14 @@
     "url": "https://fi.indeed.com/career/quality-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information and career guidance page on Indeed rather than an actual job opening.",
+    "reason": "The provided URL is a salary information page on Indeed, not an active job posting for a specific role.",
     "id": "79475eb9",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Salaries for Quality Engineer, Vantaa, F19",
@@ -66509,15 +66501,14 @@
     "url": "https://fi.indeed.com/career/quality-engineer/salaries/Vantaa--F19",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is an Indeed salary statistics page rather than an actual job posting.",
+    "reason": "The provided text is a salary search page for a job title rather than an actual job vacancy posting, and it contains no information about a specific company or role requirements.",
     "id": "cd097f45",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-02T08:19:44+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Electrical Commissioning Specialist, Granlund Oy, Finland",
@@ -66526,15 +66517,14 @@
     "url": "https://www.jobly.fi/tyopaikka/electrical-commissioning-specialist-granlund-oy-finland-2755289",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a physical electrical commissioning role for data centers requiring heavy on-site electrical engineering expertise, which does not match Priya's software configuration, release management, and documentation background.",
+    "reason": "This role is a hardware/infrastructure commissioning position involving physical electrical systems and site-based testing, which falls under the hard rejection for manufacturing/construction/hardware quality roles.",
     "id": "c29fff8c",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kokenut s\u00e4hk\u00f6suunnittelija,  Granlund Oy, H\u00e4meenlinna",
@@ -66543,15 +66533,14 @@
     "url": "https://www.jobly.fi/tyopaikka/kokenut-sahkosuunnittelija-granlund-oy-hameenlinna-2764782",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an electrical design and engineering role (s\u00e4hk\u00f6suunnittelija) focused on building and industrial electrical systems using Autodesk CAD, which does not match Priya's software release, configuration management, DevOps, or technical communication background.",
+    "reason": "The role is a pure electrical design engineering position requiring CAD and site-based field work, which falls under the hard rejection for pure feature-development/engineering roles and lacks the required release, configuration management, or software quality core.",
     "id": "0c0c1607",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Tampereen Vera Oy: Projektip\u00e4\u00e4llikk\u00f6",
@@ -66560,15 +66549,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tampereen-vera-oy-projektipaallikko-2769543",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an electrical grid infrastructure project management role focused on physical power grid construction and electrical installations, which does not match Priya's software release management, DevOps, and quality assurance background.",
+    "reason": "This role is for a construction/infrastructure project manager in the electrical power sector, which falls under the hard rejection for manufacturing/construction/hardware quality roles and lacks the required software-release or configuration-management component.",
     "id": "8adff9c0",
     "source": "jobly_fi_requirements_engineer",
     "added_at": "2026-10-02T08:20:23+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Business Analyst, Public sector",
@@ -66577,15 +66565,14 @@
     "url": "https://fi.linkedin.com/jobs/view/business-analyst-public-sector-at-twoday-4464516418",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish ('puhuu sujuvaa suomen kielt\u00e4'), which the candidate does not possess.",
+    "reason": "The job posting explicitly requires the candidate to speak fluent Finnish, which the candidate does not possess.",
     "id": "a270e9c1",
     "source": "linkedin_fi_requirements_manager",
     "added_at": "2026-10-02T08:21:10+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "vor 1 monat",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Information Technology Business Partner",
@@ -66594,15 +66581,14 @@
     "url": "https://fi.linkedin.com/jobs/view/information-technology-business-partner-at-sodexo-4472195125",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This IT Business Partner role requires fluency in Finnish, which the candidate does not possess.",
+    "reason": "The job requires mandatory fluency in Finnish, and the posting explicitly states that no further applications are being accepted.",
     "id": "67340f85",
     "source": "linkedin_fi_requirements_manager",
     "added_at": "2026-10-02T08:21:10+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "vor 2 wochen",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Manager",
@@ -66610,16 +66596,15 @@
     "location": "Espoo, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/product-manager-at-helvar-4472919713",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "This is a senior-level Product Manager role focused on commercial strategy, roadmap prioritization, and business growth for hardware lighting controls, which does not align with her core release management, configuration management, or technical writing background.",
+    "matches_requirements": "maybe",
+    "reason": "The role is a Product Manager position which is a shift from her core release/CM/quality focus, but it involves technical product lifecycle, compliance, and quality oversight in a relevant hardware/software domain.",
     "id": "2fc383d4",
     "source": "linkedin_fi_requirements_manager_p2",
     "added_at": "2026-10-02T09:24:44+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "vor 2 wochen",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Employee Central Consultant",
