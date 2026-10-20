@@ -75511,15 +75511,14 @@
     "url": "https://se.linkedin.com/jobs/view/test-engineer-energy-storage-systems-at-lyten-4439897426",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Stockholm, Sweden (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule since it requires physical presence outside Finland.",
+    "reason": "The role is physically located in Stockholm, Sweden, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "e327e4cd",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-04T19:09:44+03:00",
-    "posted_date": "il y a 2 mois",
+    "posted_date": "2 m\u00e5nader sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Control System Engineer - Power Electronics",
@@ -75528,15 +75527,14 @@
     "url": "https://nl.linkedin.com/jobs/view/control-system-engineer-power-electronics-at-inspiro-4446691567",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Arnhem, Netherlands, which is outside Finland and not a remote role.",
+    "reason": "The role is located in Arnhem, Netherlands, and requires Dutch language proficiency and relocation to the Netherlands, violating the location constraint.",
     "id": "0b90426d",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-04T19:09:44+03:00",
-    "posted_date": "il y a 2 mois",
+    "posted_date": "2 m\u00e5nader sedan",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Safety Specialist",
@@ -75897,15 +75895,14 @@
     "url": "https://eg.linkedin.com/jobs/view/functional-safety-expert-at-arrow-electronics-4429559281",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cairo, Egypt, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Cairo, Egypt, which violates the requirement that the role must be in Finland or a fully remote role accessible from Finland.",
     "id": "9045ca17",
     "source": "linkedin_ww_remote_iso_26262",
     "added_at": "2026-10-04T21:38:18+03:00",
-    "posted_date": "3 kuukautta sitten",
+    "posted_date": "4 m\u00e5nader sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Embedded Software Engineer Automotive (AUTOSAR / Functional Safety)",
@@ -76026,15 +76023,14 @@
     "url": "https://it.linkedin.com/jobs/view/software-functional-safety-senior-engineer-at-stmicroelectronics-italia-4461244922",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Agrate Brianza, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work from Finland.",
+    "reason": "The job is physically located in Agrate Brianza, Italy, and does not meet the candidate's requirement to be based in Finland or fully remote.",
     "id": "6385f195",
     "source": "linkedin_ww_remote_iso_26262_p2",
     "added_at": "2026-10-04T22:44:05+03:00",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "ADAS / ECU Software Architect (AUTOSAR, Automotive Safety)",
@@ -77402,16 +77398,15 @@
     "location": "Hamina, Kymenlaakso, Finland",
     "url": "https://fi.linkedin.com/jobs/view/technical-solutions-engineer-associate-scaled-solutions-at-google-4473826458",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target criteria as it focuses on data center operations and technical support rather than CI/CD, release management, or configuration management roles she specializes in.",
+    "matches_requirements": "yes",
+    "reason": "The role involves technical troubleshooting, process improvement, and tool development for software stacks, which aligns with her background in release management, CI/CD, and technical support in regulated environments.",
     "id": "7af49c1c",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-10-05T07:12:57+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 veckor sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/google_technical_solutions_engineer_a_7af49c1c.txt"
   },
   {
     "title": "Senior Cloud & Security Architect: Design Google Cloud environments and build them yourself",
@@ -77420,15 +77415,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-cloud-security-architect-design-google-cloud-environments-and-build-them-yourself-at-gapps-4473354058",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Cloud & Security Architect role focused on designing and building Google Cloud environments, which centers on infrastructure/cloud architecture rather than configuration management, release processes, or technical writing \u2014 domains where Priya has expertise.",
+    "reason": "The job requires a Senior Cloud & Security Architect with hands-on cloud infrastructure design/build responsibilities, which does not align with Priya's expertise in release/configuration management, CI/CD pipelines, and technical documentation (her core skills are in regulated-industry quality/compliance gatekeeping, not cloud architecture).",
     "id": "b0d91883",
     "source": "linkedin_fi_devops_engineer",
     "added_at": "2026-10-05T07:12:57+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 veckor sedan",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "AI Developer",
@@ -77709,15 +77703,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4235e72286cdd613",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Senior Cloud & Security Architect focused on infrastructure design and security, which falls under 'Specialist Platforms' with no explicit CI/CD/release management component, aligning poorly with Priya's core expertise in configuration management, release processes, and regulated-industry quality gatekeeping.",
+    "reason": "This is a cloud architecture and security role focused on designing and building Google Cloud environments in code, which falls under the hard rejection category for platform and cloud roles lacking a release, configuration-management, or quality/requirements core.",
     "id": "412bec9b",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-05T08:33:30+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead AI Software Engineer",
@@ -77741,16 +77734,15 @@
     "location": "Eemshaven, Netherlands; Saint-Ghislain, Belgium; Fredericia, Denmark; Hamina, Finland; Dublin, Ireland",
     "url": "https://fi.indeed.com/rc/clk?jk=7d36b1ef729e1842",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job does not align with Priya's target roles in configuration management, release management, or technical documentation despite meeting location requirements.",
+    "matches_requirements": "yes",
+    "reason": "The role involves technical troubleshooting, process improvement, and tool development within a data center environment, which aligns with the candidate's background in release management, automation, and technical support, and it explicitly includes Hamina, Finland as a location option.",
     "id": "f85580d7",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-05T08:33:30+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": "job_descriptions/google_technical_solutions_engineer_a_f85580d7.txt"
   },
   {
     "title": "Forward Deployment Engineer \u2013 Senior",
@@ -79007,15 +78999,14 @@
     "url": "https://vn.linkedin.com/jobs/view/product-specialist-ivd-ivf-molecular-at-viet-anh-scientific-instruments-4472388975",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vietnam (on-site) and requires sales/customer-facing responsibilities, which falls under the 'Quota-Carrying Sales Roles Mislabeled as \\\\",
+    "reason": "The job is physically located in Hanoi, Vietnam, which violates the candidate's requirement to work in Finland or remotely from Finland.",
     "id": "02592f01",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-05T15:51:10+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 veckor sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist - da Vinci Surgery",
@@ -79256,23 +79247,6 @@
     "deadline": "2026-10-31",
     "eval_model": "groq/openai/gpt-oss-20b",
     "description_file": null
-  },
-  {
-    "title": "Content Designer",
-    "company": "ALTEN",
-    "location": "Finland",
-    "url": "https://fi.linkedin.com/jobs/view/content-designer-at-alten-4475583808",
-    "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job title 'Content Designer' does not align with Priya's target domains (DevOps, Configuration Management, Release Management, etc.) or her experience in technical documentation/quality gatekeeping; it focuses on general content design rather than regulated-industry technical communication/release management.",
-    "id": "49b3e972",
-    "source": "linkedin_fi_technical_writer",
-    "added_at": "2026-10-05T18:37:41+03:00",
-    "posted_date": "2 tuntia sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
   },
   {
     "title": "V\u00e4it\u00f6skirjatutkija, Rautatietekniikka (DSII)",
@@ -80321,15 +80295,14 @@
     "url": "https://tw.linkedin.com/jobs/view/quality-manager-at-bizlink-group-4451617314",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tainan City, Taiwan, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland with no remote flexibility for someone based in Finland.",
+    "reason": "The role is located in Taiwan and is a manufacturing/production quality management position, which falls under the hard rejection criteria for non-Finland locations and manufacturing-focused quality roles.",
     "id": "88ebcddf",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-06T01:10:26+03:00",
-    "posted_date": "1 linggo nakalipas",
+    "posted_date": "6 dagar sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -80338,15 +80311,14 @@
     "url": "https://cn.linkedin.com/jobs/view/quality-manager-at-ingersoll-rand-compressor-systems-services-4468770136",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Changzhou-Wuxi-Suzhou Metropolitan Area, China, which is outside Finland and not a fully remote role that can be done from Finland, triggering the 'Outside Finland and Not Remote' hard rejection.",
+    "reason": "The job is located in China and requires fluency in Chinese, which violates the location and language requirements.",
     "id": "03aa9f27",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-06T01:10:26+03:00",
-    "posted_date": "2 linggo nakalipas",
+    "posted_date": "4 veckor sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager | TP MOA (Logistics Program)",
@@ -80355,15 +80327,14 @@
     "url": "https://ph.linkedin.com/jobs/view/quality-assurance-manager-tp-moa-logistics-program-at-tp-4466309297",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Pasay, Philippines (on-site), which does not meet Priya's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in the Philippines, which violates the location requirement, and it is a BPO/contact center quality management role rather than a software/technical release or configuration management role.",
     "id": "3320c611",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-06T01:10:26+03:00",
-    "posted_date": "3 linggo nakalipas",
+    "posted_date": "1 m\u00e5nad sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "\u8d28\u91cf\u7ecf\u7406",
@@ -80388,15 +80359,14 @@
     "url": "https://uk.linkedin.com/jobs/view/quality-manager-at-tiptopjob-4473251482",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in West Midlands, England (outside Finland) and requires on-site presence, which does not meet Priya's strict location requirements (only Finland-based or fully remote roles open to someone living in Finland).",
+    "reason": "The role is a manufacturing quality position in the UK, which violates the hard rejection criteria regarding location and the exclusion of physical manufacturing/production-line quality roles.",
     "id": "c9845422",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-06T01:10:26+03:00",
-    "posted_date": "6 araw nakalipas",
+    "posted_date": "3 veckor sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Qualit\u00e4tsmanager ambulante Pflege (m/w/d) | bundesweite Betreuung unserer Pflegedienste",
@@ -80405,15 +80375,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsmanager-ambulante-pflege-m-w-d-bundesweite-betreuung-unserer-pflegedienste-at-cura-unternehmensgruppe-4474259745",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berlin, Germany, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The role requires a clinical nursing qualification and is located in Germany, which falls outside the candidate's permitted location criteria.",
     "id": "2407cb0d",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-06T01:10:53+03:00",
-    "posted_date": "22 oras nakalipas",
+    "posted_date": "2 veckor sedan",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Site Quality Manager",
