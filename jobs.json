@@ -49467,15 +49467,14 @@
     "url": "https://my.linkedin.com/jobs/view/document-control-coordinator-emea-timezone-3pm-12am-myt-remote-at-resmed-4426808495",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Although the document control and ISO 13485 alignment matches her background, the job is located/restricted to Malaysia (Johor Baharu) rather than Finland or a globally open remote arrangement.",
+    "reason": "The job is located in Malaysia and is restricted to the MYT timezone, which does not meet the location criteria for a candidate based in Finland.",
     "id": "27b10d9a",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "RAQA Specialist",
@@ -49484,15 +49483,14 @@
     "url": "https://in.linkedin.com/jobs/view/raqa-specialist-at-intuitive-4449492814",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Bengaluru, India, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
+    "reason": "The job is located in Bengaluru, India, which violates the requirement that the role must be in Finland or a fully remote role accessible from Finland.",
     "id": "040f73df",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Vice President, Quality",
@@ -49501,15 +49499,14 @@
     "url": "https://www.linkedin.com/jobs/view/vice-president-quality-at-3d-systems-corporation-4469926579",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Littleton, Colorado, USA, and violates the strict US location exclusion rule.",
+    "reason": "The job is located in the United States, which is a strict hard rejection criteria.",
     "id": "1491e160",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-22",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Medical Writing Specialist",
@@ -49518,15 +49515,14 @@
     "url": "https://in.linkedin.com/jobs/view/medical-writing-specialist-at-zimmer-biomet-4470313649",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India, which violates the candidate's requirement to work in Finland or globally remote outside the US.",
+    "reason": "The job is located in Bengaluru, India, which violates the requirement that the role must be in Finland or a remote role accessible from Finland.",
     "id": "0d13a002",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Associate Manager, Quality Systems",
@@ -49535,15 +49531,14 @@
     "url": "https://pl.linkedin.com/jobs/view/associate-manager-quality-systems-at-stryker-4463890455",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Skawina, Poland, which violates the candidate's location requirement of being based in Finland or fully remote.",
+    "reason": "The position is on-site in Poland, which is outside Finland and not a remote role.",
     "id": "a8949198",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Vice President & Chief Medical Officer (CMO) Radiometer",
@@ -49552,15 +49547,14 @@
     "url": "https://dk.linkedin.com/jobs/view/vice-president-chief-medical-officer-cmo-radiometer-at-radiometer-4452597619",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a medical degree (MD, MBBS, DO) and executive medical leadership experience as a Chief Medical Officer, which does not align with the candidate's technical communication and release management background.",
+    "reason": "The role requires a medical degree (MD, MBBS, DO) and clinical leadership experience, which the candidate does not possess.",
     "id": "6d6afb0e",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Engineer",
@@ -49569,15 +49563,14 @@
     "url": "https://au.linkedin.com/jobs/view/quality-assurance-engineer-at-enovis-4447202653",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Brisbane, Australia, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
+    "reason": "The job is located in Brisbane, Australia, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "59c67756",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-14",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Head of QRA - Full Time - CH",
@@ -49586,15 +49579,14 @@
     "url": "https://ch.linkedin.com/jobs/view/head-of-qra-full-time-ch-at-ikerian-4467363706",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Switzerland (outside Finland) and requires a Head-level medical device QRA background with 10+ years of dedicated leadership experience, which does not align with her profile.",
+    "reason": "The job is located in Switzerland and requires a physical presence in Bern, which violates the location requirements, and it is also marked as no longer accepting applications.",
     "id": "5d44f7aa",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior RA/QA Manager - Paris \ud83c\uddeb\ud83c\uddf7",
@@ -49603,15 +49595,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-ra-qa-manager-paris-%F0%9F%87%AB%F0%9F%87%B7-at-dental-monitoring-czech-4462445493",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hybrid position located in Paris, France, which violates the candidate's location criteria of being based in Finland or fully remote.",
+    "reason": "The job is located in Paris, France, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "9f61a1c9",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sr Product Security Engineer",
@@ -49620,15 +49611,14 @@
     "url": "https://ie.linkedin.com/jobs/view/sr-product-security-engineer-at-medtronic-4457004594",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Ireland and is not remote for Finland, violating the location requirements.",
+    "reason": "The job is located in Ireland and is not listed as remote, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "249ace4c",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior RA/QA Manager - Paris \ud83c\uddeb\ud83c\uddf7",
@@ -49637,15 +49627,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-ra-qa-manager-paris-%F0%9F%87%AB%F0%9F%87%B7-at-dentalmonitoring-4460979305",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Paris, France, violating the candidate's requirement to work in Finland or fully remote.",
+    "reason": "The job is located in France and is not a remote role, which violates the location requirements for candidates based in Finland.",
     "id": "1d05998f",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Specialist III",
@@ -49654,15 +49643,14 @@
     "url": "https://kr.linkedin.com/jobs/view/qa-specialist-iii-at-boston-scientific-4457089274",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Seoul, South Korea, which violates the candidate's requirement to work in Finland or globally remote.",
+    "reason": "The job is located in South Korea and requires fluency in Korean, which violates the location and language requirements.",
     "id": "a259d56f",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-08-29",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer I",
@@ -49671,15 +49659,14 @@
     "url": "https://in.linkedin.com/jobs/view/quality-engineer-i-at-zimmer-biomet-4467885067",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India, which violates the candidate's requirement to be based in Finland or remote from Finland.",
+    "reason": "The job is located in India, which violates the requirement that the role must be in Finland or a remote role accessible from Finland.",
     "id": "eed58e89",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Coordenador(a) de Garantia da Qualidade",
@@ -49688,15 +49675,14 @@
     "url": "https://br.linkedin.com/jobs/view/coordenador-a-de-garantia-da-qualidade-at-silimed-ind%C3%BAstria-de-implantes-4467738818",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Duque de Caxias, Rio de Janeiro, Brazil, which violates the candidate's location requirements (Finland or remote worldwide/EU).",
+    "reason": "The job is located in Brazil, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "3613fc84",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-09-28T10:18:25+03:00",
     "posted_date": "2026-09-21",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QMS Specialist",
@@ -49705,15 +49691,14 @@
     "url": "https://fr.linkedin.com/jobs/view/qms-specialist-at-oticon-medical-4470007561",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Nice, France, which violates the geographic location constraint requiring roles to be in Finland or fully remote.",
+    "reason": "The job is physically located in Nice, France, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "68e97e69",
     "source": "linkedin_ww_remote_iso_13485_p2",
     "added_at": "2026-09-28T11:23:20+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Sr. Quality Engineer, Design Assurance",
