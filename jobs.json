@@ -121062,15 +121062,14 @@
     "url": "https://www.jobly.fi/tyopaikka/supply-quality-manager-2776238",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/mechanical quality position requiring fluent Finnish and specific mechanical engineering certifications, which does not align with the candidate's software/embedded release and quality background.",
+    "reason": "This is a manufacturing/supply quality role focused on mechanical products, welded steel structures, and welding certificates, which falls under the hard rejection rule for physical production and manufacturing quality roles.",
     "id": "3544d7bc",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-10-09T16:43:26+03:00",
     "posted_date": "2026-10-09",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Sales & Growth Manager",
@@ -121079,15 +121078,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sales-growth-manager-at-lm-instruments-oy-4475223700",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a quota-carrying sales position and requires fluent Finnish, both of which violate the candidate's hard rejection criteria.",
+    "reason": "The role is a quota-carrying sales position and explicitly requires fluent Finnish, both of which violate the candidate's hard rejection criteria.",
     "id": "b77d5f5e",
     "source": "linkedin_fi_iso_13485",
     "added_at": "2026-10-09T16:50:05+03:00",
     "posted_date": "2026-10-09",
     "deadline": "2026-11-08",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "SENIOR SAFETY AND V&V ENGINEER \u2013 SETTORE FERROVIARIO",
@@ -121576,15 +121574,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-projets-spatiaux-pa-qa-ait-h-f-satellites-et-propulsion-at-osmos-x-4477810311",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role, which violates the location requirement for candidates based in Finland.",
+    "reason": "The job is physically located in Bruz, France, which violates the candidate's requirement to work either in Finland or remotely from Finland.",
     "id": "6bb77030",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-09T17:37:29+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -121625,15 +121622,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-bee-engineering-4329845730",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a physical on-site quality engineering position in France, which violates the location requirement, and it focuses on industrial/manufacturing quality rather than software release or configuration management.",
+    "reason": "This on-site quality engineering role is located in Annecy, France, which violates the candidate's location requirements of working in Finland or remotely.",
     "id": "e92635d6",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-09T17:37:29+03:00",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Process Engineer, Services",
@@ -122234,15 +122230,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-engineer-at-unikie-4477805511",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "This on-site Test Engineer role in Oulu matches her Python automation, CI/CD pipeline, and Linux skills, directly aligning with positive constraints for test/quality engineering starting roles.",
+    "reason": "This test engineer role in Oulu, Finland matches Priya's testing background, Python scripting skills, and familiarity with CI/CD workflows and Linux environments.",
     "id": "055b6893",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-09T18:35:11+03:00",
-    "posted_date": "1 tunti sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": "job_descriptions/unikie_test_engineer_055b6893.txt",
-    "needs_re_review": true
+    "description_file": "job_descriptions/unikie_test_engineer_055b6893.txt"
   },
   {
     "title": "Supply Quality Manager",
@@ -122251,15 +122246,14 @@
     "url": "https://fi.linkedin.com/jobs/view/supply-quality-manager-at-w%C3%A4rtsil%C3%A4-4477816417",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires mechanical engineering qualifications and fluency in Finnish, which conflicts with Priya's background in software/release management and lack of Finnish language skills.",
+    "reason": "The role requires mandatory fluency in Finnish and focuses on mechanical/welded steel structure quality control, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "cca86673",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-09T18:35:11+03:00",
     "posted_date": "2026-10-09",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Supply Quality Manager",
@@ -122268,15 +122262,14 @@
     "url": "https://fi.linkedin.com/jobs/view/supply-quality-manager-at-w%C3%A4rtsil%C3%A4-4477806802",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This physical supply/manufacturing quality role requires mandatory fluent Finnish and mechanical engineering credentials that fall outside the candidate's software release and configuration management profile.",
+    "reason": "The role is a manufacturing/mechanical quality position requiring physical inspection of steel structures and mandatory fluency in Finnish, which violates the candidate's hard rejection criteria.",
     "id": "da16f5a7",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-09T18:35:11+03:00",
     "posted_date": "2026-10-09",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Validointi-insin\u00f6\u00f6ri",
@@ -122301,15 +122294,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-projet-bordeaux-france-h-f-at-astek-4356154801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site in Bordeaux, France, which is outside Finland and not a remote role.",
+    "reason": "The job is located in Bordeaux, France, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "c6e601e0",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-09T18:38:28+03:00",
-    "posted_date": "il y a 2 semaines",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -122350,15 +122342,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-f-h-at-trane-technologies-4454263572",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an on-site manufacturing quality engineering role located in Charmes, France, which violates the candidate's requirement to work either in Finland or remotely.",
+    "reason": "The job is an on-site industrial quality engineering role located in France, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "c535ae80",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-09T18:38:28+03:00",
-    "posted_date": "il y a 5 jours",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "R&D Engineering Manager",
@@ -122431,15 +122422,14 @@
     "url": "https://ph.linkedin.com/jobs/view/bpo-quality-assurance-manager-at-iopex-technologies-philippines-inc-4476812727",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a BPO (Business Process Outsourcing) customer service quality management role located in the Philippines, which does not match Priya's software/regulated-industry background or her location requirements.",
+    "reason": "This role requires on-site work in Taguig, Philippines, and is a BPO call-center quality management position, neither of which matches Priya's criteria or location.",
     "id": "e164f164",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T18:40:49+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Manager (Construction)",
@@ -122480,15 +122470,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-managerresearcher-scsom-20638488",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish and hands-on laboratory work (such as asbestos and fibre analysis) which does not align with her software release, CI/CD, and quality assurance background.",
+    "reason": "This role requires hands-on laboratory sample preparation (asbestos/fiber analysis) and fluent Finnish, which violates the hard rejections against hardware lab testing and mandatory Finnish language.",
     "id": "d0ec1483",
     "source": "duunitori_quality_manager",
     "added_at": "2026-10-09T18:42:47+03:00",
     "posted_date": "2026-10-08",
     "deadline": "2026-10-31",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Regulatory Affairs Specialist FDA",
@@ -122945,15 +122934,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c079d3d5dc93196e",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not speak.",
+    "reason": "The role is a manufacturing/hardware quality position requiring Finnish language proficiency and specific mechanical/welding certifications, which falls under the hard rejection criteria for hardware quality roles.",
     "id": "b42aacc5",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-09T19:37:45+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-25",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Supply Manager",
@@ -123010,15 +122998,14 @@
     "url": "https://be.linkedin.com/jobs/view/manager-of-quality-assurance-f-m-at-sartorius-4477830438",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Herstal, Belgium, which violates the location policy requiring roles to be either in Finland or fully remote and open to someone living in Finland.",
+    "reason": "The job is physically located in Herstal, Belgium, which violates the candidate's location criteria requiring roles to be in Finland or fully remote within a region including Finland.",
     "id": "fc8b6c0f",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T19:45:39+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Systems Specialist",
@@ -123171,15 +123158,14 @@
     "url": "https://ie.linkedin.com/jobs/view/quality-assurance-engineer-intermediate-at-abbott-4477830275",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Clonmel, Ireland, and is an on-site manufacturing quality engineering position focused on physical production defects and FMEAs rather than software release or configuration management.",
+    "reason": "This job is located in Ireland and focuses on manufacturing process quality engineering and factory defects, which violates the hard rejection rule for manufacturing and non-Finland locations.",
     "id": "e50b614a",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-09T20:35:16+03:00",
-    "posted_date": "vor 1 stunde",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 H/F",
@@ -123188,15 +123174,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-coengi-4475225934",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/production quality engineering role focused on methods like 8D, FMEA, PPAP, and physical plant presence in France, which falls under the hard rejection for manufacturing/hardware quality roles and out-of-region locations.",
+    "reason": "The role is a manufacturing/industrial quality engineering position focused on physical production (PPAP, 8D, production-line presence) rather than software release, configuration management, or software quality.",
     "id": "d54dbfc2",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-09T20:35:16+03:00",
-    "posted_date": "vor 2 stunden",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kokoonpanon ty\u00f6njohtaja",
