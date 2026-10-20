@@ -64246,15 +64246,14 @@
     "url": "https://in.linkedin.com/jobs/view/product-specialist-at-ts-imagine-4459867397",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Mumbai, India, which falls outside of Finland and is not a remote role accessible from Finland.",
+    "reason": "The role is based in Mumbai, India and is not remote, which violates the candidate's location constraints.",
     "id": "17f8a719",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Produktspezialist (m/w/d) I/O Compact Motion",
@@ -64263,15 +64262,14 @@
     "url": "https://de.linkedin.com/jobs/view/produktspezialist-m-w-d-i-o-compact-motion-at-beckhoff-automation-4472619132",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires C2-level German proficiency and is located in Germany, which violates the location and language requirements.",
+    "reason": "The job is physically located in Germany (Verl/North Rhine-Westphalia), which violates the rule against on-site or hybrid roles outside Finland.",
     "id": "b06075b8",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -64280,15 +64278,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-at-eclaro-4456934432",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Piscataway, NJ, USA, which violates the strict hard rejection policy against any roles located in or restricted to the United States.",
+    "reason": "The job is located in Piscataway, NJ, USA, which violates the strict exclusion of any roles located in or restricted to the United States.",
     "id": "c0e5fb16",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -64297,15 +64294,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-at-hamilton-company-4468829617",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Reno, Nevada, USA, violating the strict US location exclusion rule.",
+    "reason": "The job is located in Reno, NV, USA, which violates the strict exclusion of all US-based roles.",
     "id": "f8164c00",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist",
@@ -64314,15 +64310,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-product-specialist-at-kurt-j-lesker-company-4474103362",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Jefferson, Pennsylvania, USA, violating the strict US location exclusion hard rejection rule.",
+    "reason": "The job is located in the United States (Jefferson, PA), which violates the strict non-negotiable exclusion for US-based roles.",
     "id": "b49cc843",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Product Specialist/Product Specialist",
@@ -64331,15 +64326,14 @@
     "url": "https://sg.linkedin.com/jobs/view/senior-product-specialist-product-specialist-at-merck-healthcare-4440027581",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying pharmaceutical sales and detailing role located in Singapore, which violates both the geographic location requirements and the hard rejection rule against pure sales roles mislabeled as product specialist.",
+    "reason": "The job is located in Singapore and is a quota-carrying sales role, both of which violate the candidate's hard rejection criteria.",
     "id": "d3ab8bbd",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Associate Product Specialist, Distal Extremities & Trauma",
@@ -64348,15 +64342,14 @@
     "url": "https://au.linkedin.com/jobs/view/associate-product-specialist-distal-extremities-trauma-at-arthrex-apac-4468037589",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying sales and in-theatre clinical support role located in Australia, which violates multiple hard rejections including location and role type.",
+    "reason": "The job is located in Australia, which violates the location requirements, and it is a quota-carrying sales role, which is a hard rejection.",
     "id": "80c0511f",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist Associate",
@@ -64365,15 +64358,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-associate-at-luminance-4462424427",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in San Francisco, CA, which violates the strict hard rejection rule for positions in the United States.",
+    "reason": "The job is located in the United States (San Francisco, CA), which violates the strict exclusion policy for US-based roles.",
     "id": "b86ffe85",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-03",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Global Product Specialist \u2013 Minerals",
@@ -64382,15 +64374,14 @@
     "url": "https://ch.linkedin.com/jobs/view/global-product-specialist-%E2%80%93-minerals-at-adm-4441205869",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Rolle, Switzerland (outside Finland) and is an agricultural animal nutrition product specialist position requiring an MSc in Agriculture, which does not match Priya's background.",
+    "reason": "The job is located in Switzerland and is not remote, which violates the location requirements, and it requires an MSc in Agriculture/Animal Nutrition which the candidate does not possess.",
     "id": "9ccc60ff",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Specialist, POM Technical Product Management - Reporting & Analytics",
@@ -64399,15 +64390,14 @@
     "url": "https://in.linkedin.com/jobs/view/senior-specialist-pom-technical-product-management-reporting-analytics-at-bny-4450703085",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Pune, India, which violates the candidate's location criteria of Finland or remote work from Finland.",
+    "reason": "The job is located in Pune, India, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "ab4fec3c",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Associate Product Specialist, Distal Extremities & Trauma",
@@ -64416,15 +64406,14 @@
     "url": "https://au.linkedin.com/jobs/view/associate-product-specialist-distal-extremities-trauma-at-arthrex-4469271682",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an outbound sales and quota-carrying medical device role located in Australia, violating multiple hard rejections regarding location and sales-focused job types.",
+    "reason": "The job is located in Australia, which violates the location requirements, and it is a quota-carrying sales role, which is a hard rejection.",
     "id": "137fe70e",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-01T19:27:54+03:00",
     "posted_date": "2026-09-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist (Italian-Speaking) - Digital Ads",
@@ -64433,15 +64422,14 @@
     "url": "https://pt.linkedin.com/jobs/view/technical-product-specialist-italian-speaking-digital-ads-at-concentrix-4413103013",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Lisbon, Portugal, and requires fluent Italian, violating location and language criteria.",
+    "reason": "The role is located in Portugal (not Finland), requires Italian language proficiency, and is a customer-facing support role rather than a release/CM/quality engineering position.",
     "id": "2f2440dd",
     "source": "linkedin_eu_remote_product_specialist",
     "added_at": "2026-10-01T20:42:20+03:00",
-    "posted_date": "vor 2 wochen",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Omnichannel Product Specialist - Puglia",
@@ -64450,15 +64438,14 @@
     "url": "https://it.linkedin.com/jobs/view/omnichannel-product-specialist-puglia-at-dr-falk-pharma-italia-4390569243",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is an on-site pharmaceutical sales and medical information role located in Italy (Puglia), which violates the location criteria and is a quota-carrying sales role disguised under a product specialist title.",
+    "reason": "The role is a quota-carrying sales/medical representative position in Italy, which violates the location, role type, and language requirements.",
     "id": "a9737f8f",
     "source": "linkedin_eu_remote_product_specialist",
     "added_at": "2026-10-01T20:42:20+03:00",
-    "posted_date": "vor 6 tagen",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist, Surgical, Italy",
@@ -64467,15 +64454,14 @@
     "url": "https://it.linkedin.com/jobs/view/product-specialist-surgical-italy-at-mindray-4472157105",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Milan, Italy, and requires fluent Italian, whereas the candidate is based in Finland and does not speak Italian.",
+    "reason": "The role is located in Italy and requires fluency in Italian, violating the location and language constraints.",
     "id": "2413475a",
     "source": "linkedin_eu_remote_product_specialist",
     "added_at": "2026-10-01T20:42:20+03:00",
-    "posted_date": "vor 5 tagen",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Global Sales Product Specialist \u2013 Robotics",
@@ -64484,15 +64470,14 @@
     "url": "https://dk.linkedin.com/jobs/view/global-sales-product-specialist-%E2%80%93-robotics-at-jbt-marel-4471740980",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a quota-carrying technical sales and business development role requiring travel and commercial focus, which triggers the hard rejection for sales-focused positions.",
+    "reason": "This is a quota-carrying sales-focused role located in Denmark, which violates the location requirements and the hard rejection for sales-oriented 'Product Specialist' positions.",
     "id": "bfadccef",
     "source": "linkedin_eu_remote_product_specialist",
     "added_at": "2026-10-01T20:42:20+03:00",
-    "posted_date": "vor 6 tagen",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Product Specialist (m/w/d)",
