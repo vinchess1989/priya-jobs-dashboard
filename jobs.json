@@ -55663,17 +55663,15 @@
     "location": "Helsinki, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=df456d1589fe274d",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Could not extract text from page (anti-bot protection or empty page).",
+    "matches_requirements": "no",
+    "reason": "The role is a recruiting/hiring operations position, which does not align with the candidate's core expertise in technical release management, configuration management, or quality engineering.",
     "id": "dc4c09d4",
     "source": "indeed_fi_documentation_specialist",
     "added_at": "2026-09-29T22:31:39+03:00",
     "posted_date": "N/A",
-    "deadline": "N/A",
+    "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "error_attempts": 1,
-    "last_error_at": "2026-10-20T07:03:59+03:00"
+    "description_file": null
   },
   {
     "title": "AI & Data Specialist",
@@ -65431,15 +65429,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-hanwha-power-4464539243",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Jupiter, FL, United States, violating the strict US exclusion hard rejection rule.",
+    "reason": "The job is physically located in Jupiter, Florida, United States, violating the strict hard rejection rule against US-located roles.",
     "id": "ba940dfd",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-11",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Specialist Technical Writer",
@@ -65448,15 +65445,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-specialist-technical-writer-at-l3harris-technologies-4469103656",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Nashville, TN, USA and requires U.S. citizenship for a security clearance, violating the strict U.S. location and citizenship exclusions.",
+    "reason": "The job is located in Nashville, TN, USA and requires U.S. citizenship for security clearance, violating the strict US location and citizenship restrictions.",
     "id": "31182e16",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer/Documentation Engineer, Ford Energy",
@@ -65465,15 +65461,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-documentation-engineer-ford-energy-at-ford-energy-4470183926",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dearborn, Michigan, USA, and violates the strict hard rejection rule for US-based roles.",
+    "reason": "The job is located in Dearborn, MI, United States, which violates the strict hard rejection rule against US-based locations.",
     "id": "8ac1be41",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-26",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -65482,15 +65477,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-spatial-front-inc-4383239424",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Arlington, VA, USA and requires U.S. citizenship and a Secret security clearance, triggering the strict U.S. exclusion rule.",
+    "reason": "The job is located in the United States and requires U.S. citizenship and a security clearance, which violates the strict hard rejection criteria.",
     "id": "9ee60f4b",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Procedure and Process Writer - Loan Operations",
@@ -65499,15 +65493,14 @@
     "url": "https://www.linkedin.com/jobs/view/procedure-and-process-writer-loan-operations-at-f-n-b-corporation-4468778835",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Pittsburgh, PA, USA, which violates the strict hard rejection for any roles located in or restricted to the United States.",
+    "reason": "The job is located in the United States and explicitly requires legal authorization to work in the U.S., which violates the strict hard rejection criteria.",
     "id": "3d592ffd",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Writer SR - India",
@@ -65516,15 +65509,14 @@
     "url": "https://in.linkedin.com/jobs/view/technical-writer-sr-india-at-sagent-4456020287",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Chennai, India, whereas the candidate is based in Finland and requires a role in Finland or fully remote.",
+    "reason": "The job is explicitly restricted to candidates based in the United States, which violates the strict hard rejection criteria for US-based roles.",
     "id": "a4bf55ea",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Technical Writer",
@@ -65533,15 +65525,14 @@
     "url": "https://in.linkedin.com/jobs/view/senior-technical-writer-at-delta-technology-hub-4469445616",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Bengaluru, India, and violates the candidate's location and relocation constraints as she is based in Oulu, Finland and not looking to relocate outside Finland.",
+    "reason": "The job is physically located in Bengaluru, India, which violates the candidate's requirement to work in Finland or globally remote without geographic restrictions excluding Finland.",
     "id": "30d9188b",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-25",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Documentation Specialist",
@@ -65550,15 +65541,14 @@
     "url": "https://in.linkedin.com/jobs/view/quality-documentation-specialist-at-propharma-4465062865",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Hyderabad, India, which violates the location requirements since the candidate is based in Finland and not seeking relocation to India.",
+    "reason": "The job is located in Hyderabad, India, which falls outside of Finland and is not a remote role accessible to someone based in Finland.",
     "id": "12d80468",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Writer",
@@ -65567,15 +65557,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-writer-at-abb-4467298231",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in New Berlin, WI, US, which violates the strict hard rejection rule against US-based positions.",
+    "reason": "The job is located in the United States (New Berlin, WI) and explicitly requires US work authorization, which violates the strict exclusion for US-based roles.",
     "id": "dfafbcae",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-18",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Procedure Writer",
@@ -65584,15 +65573,14 @@
     "url": "https://in.linkedin.com/jobs/view/procedure-writer-at-quest-global-4455428491",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Bengaluru, India, which violates the candidate's requirement to work in Finland or globally remote.",
+    "reason": "The job is located in Bengaluru, India, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "2308a902",
     "source": "linkedin_ww_remote_documentation_specialist_p2",
     "added_at": "2026-10-02T02:36:42+03:00",
     "posted_date": "2026-09-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Teknikinformat\u00f6r till Saab",
@@ -65601,15 +65589,14 @@
     "url": "https://se.linkedin.com/jobs/view/teknikinformat%C3%B6r-till-saab-at-saab-4465095907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent communication in Swedish (\\\\",
+    "reason": "The job requires fluent Swedish, which the candidate does not possess, and it is located in Sweden rather than Finland.",
     "id": "c0413b8b",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-10-02T03:47:28+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Teknisk skribent/teknikinformat\u00f6r",
@@ -65618,15 +65605,14 @@
     "url": "https://se.linkedin.com/jobs/view/teknisk-skribent-teknikinformat%C3%B6r-at-saab-4465056327",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent professional working knowledge in Swedish alongside English, which the candidate does not possess.",
+    "reason": "The position is on-site in Sweden, which is outside Finland and not a remote role.",
     "id": "66287628",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-10-02T03:47:28+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Ingenieur / Techniker Technische Dokumentation (m/w/d)",
@@ -65635,15 +65621,14 @@
     "url": "https://de.linkedin.com/jobs/view/ingenieur-techniker-technische-dokumentation-m-w-d-at-oehmichen-b%C3%BCrgers-industrieplanung-gmbh-4469140181",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Germany and requires on-site or hybrid presence in cities like D\u00fcsseldorf, violating the candidate's location policy of being based in or remote from Finland.",
+    "reason": "The role is located in Germany and is focused on construction/building technology (Bautechnik), which falls under the hard rejection for non-Finland, non-remote roles and construction-related quality roles.",
     "id": "73842408",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-10-02T03:47:28+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Mitarbeiter Technische Dokumentation (m/w/d)",
@@ -65652,15 +65637,14 @@
     "url": "https://de.linkedin.com/jobs/view/mitarbeiter-technische-dokumentation-m-w-d-at-talentmatch-stellenmarkt-4464447556",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Giessen, Germany, violating the candidate's location criteria requiring positions in Finland or fully remote roles.",
+    "reason": "The job is located in Germany and is not a remote role open to candidates in Finland, violating the location requirements.",
     "id": "d7a3b747",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-10-02T03:47:28+03:00",
     "posted_date": "2026-09-08",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Systems Specialist",
