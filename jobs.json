@@ -71671,15 +71671,14 @@
     "url": "https://eg.linkedin.com/jobs/view/senior-functional-safety-einfochips-at-arrow-electronics-4440537137",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cairo, Egypt, which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Cairo, Egypt, which violates the requirement that roles must be based in Finland or be fully remote and accessible to someone living in Finland.",
     "id": "74898c6f",
     "source": "linkedin_ww_remote_functional_safety",
     "added_at": "2026-10-03T22:16:33+03:00",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "\u0642\u0628\u0644 \u200f\u200f\u0663\u200f\u0634\u0647\u0631\u200f",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Software Safety Engineer",
@@ -71912,15 +71911,14 @@
     "url": "https://www.linkedin.com/jobs/view/electronics-functional-safety-engineer-at-clarios-4459030579",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Glendale, WI, USA, which strictly violates the candidate's non-negotiable exclusion against any US-based roles (including remote) as specified in the Hard Rejections.",
+    "reason": "The job is located in the United States (Glendale, WI), which violates the strict hard rejection policy regarding US-based roles.",
     "id": "958426e2",
     "source": "linkedin_ww_remote_functional_safety_p2",
     "added_at": "2026-10-03T23:31:03+03:00",
     "posted_date": "2026-09-19",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hardware Functional Safety (FuSa) Specialist",
@@ -72393,15 +72391,14 @@
     "url": "https://at.linkedin.com/jobs/view/system-safety-engineer-all-gender-at-alten-4453433360",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vienna, Austria (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Vienna, Austria, which violates the location policy requiring roles to be in Finland or fully remote.",
     "id": "fc8c87fb",
     "source": "linkedin_eu_remote_functional_safety_p2",
     "added_at": "2026-10-04T02:22:51+03:00",
-    "posted_date": "1 m\u00e5nad sedan",
+    "posted_date": "\u0642\u0628\u0644 \u0662 \u0634\u0647\u0631",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Software Functional Safety Senior Engineer",
@@ -72410,15 +72407,14 @@
     "url": "https://it.linkedin.com/jobs/view/software-functional-safety-senior-engineer-at-stmicroelectronics-italia-4461239990",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Pisa, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with the candidate's requirements.",
+    "reason": "The job is located in Italy and is not a remote role, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "22f744ac",
     "source": "linkedin_eu_remote_functional_safety_p2",
     "added_at": "2026-10-04T02:22:51+03:00",
-    "posted_date": "1 vecka sedan",
+    "posted_date": "\u0642\u0628\u0644 \u0666 \u0623\u064a\u0627\u0645",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Functional Safety Engineer",
@@ -72475,15 +72471,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=aa3c4b6c4d52c804",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Construction EHS Program Manager with experience in construction safety and environmental health, which does not align with Priya's background in software configuration management, release engineering, and technical documentation in regulated industries.",
+    "reason": "The role requires fluent communication in both English and Finnish as well as 5 years of experience in construction EHS, which does not match Priya's software release, configuration management, and quality background.",
     "id": "c89f1632",
     "source": "indeed_fi_functional_safety",
     "added_at": "2026-10-04T03:23:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Firmware Test Engineer",
@@ -72492,15 +72487,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c0cdbf3c332d2a8a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires firmware test automation and embedded systems testing, which does not align with Priya's expertise in release management, configuration management, and technical documentation (her last 8+ years have been focused on CI/CD pipelines, quality gatekeeping, and regulatory compliance rather than firmware/test engineering).",
+    "reason": "This role requires hands-on hardware lab testing (oscilloscopes, multimeters, high-voltage laboratory environment) which falls under the hard rejection criteria for manufacturing, construction, or hardware quality roles.",
     "id": "9ae55359",
     "source": "indeed_fi_functional_safety",
     "added_at": "2026-10-04T03:23:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager, Partnerships",
@@ -72829,15 +72823,14 @@
     "url": "https://fi.linkedin.com/jobs/view/construction-ehs-program-manager-at-google-4473391728",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluency in Finnish (a hard rejection) and falls under construction/EHS program management, which is outside Priya's focus on regulated-software quality, release/CM/DevOps, or technical documentation.",
+    "reason": "The role requires fluent Finnish, which is a hard rejection, and it is a construction EHS role that falls under the manufacturing/construction quality exclusion.",
     "id": "8c8229b3",
     "source": "linkedin_fi_safety_critical_p2",
     "added_at": "2026-10-04T04:30:56+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "\u0642\u0628\u0644 \u200f\u200f\u0662\u200f \u0623\u0633\u0628\u0648\u0639",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Construction EHS Program Manager",
@@ -72846,15 +72839,14 @@
     "url": "https://fi.linkedin.com/jobs/view/construction-ehs-program-manager-at-google-4473398449",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish and is a construction-site EHS management position, which falls under the hard rejection for manufacturing/construction quality roles with no software-release component.",
     "id": "26978d1a",
     "source": "linkedin_fi_safety_critical_p3",
     "added_at": "2026-10-04T05:40:38+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "\u0642\u0628\u0644 \u200f\u200f\u0662\u200f \u0623\u0633\u0628\u0648\u0639",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Fire Protection Engineer- Finland",
@@ -74399,15 +74391,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-design-engineer-%E2%80%93-power-electronics-at-nottas-oy-4471954155",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Design Engineer in Power Electronics, which is a hardware-focused engineering role outside Priya's expertise in configuration management, release management, and technical writing for regulated industries.",
+    "reason": "The role is a pure hardware/power electronics design engineering position requiring fluent Finnish, which falls under the hard rejections for pure feature-development/hardware engineering and language requirements.",
     "id": "5f45deb9",
     "source": "linkedin_fi_iec_61508_p3",
     "added_at": "2026-10-04T13:49:48+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "\u0642\u0628\u0644 \u200f\u200f\u0662\u200f \u0623\u0633\u0628\u0648\u0639",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Embedded senior C/C++ kehitt\u00e4j\u00e4",
@@ -74608,15 +74599,14 @@
     "url": "https://es.linkedin.com/jobs/view/certifications-lead-at-power-electronics-4469394518",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Liria, Spain (on-site), which does not meet Priya's requirement for Finland-based roles or fully remote roles accessible from Finland.",
+    "reason": "The job is located in Spain (Liria, Valencian Community) and requires on-site presence, which does not meet the candidate's strict location criteria of Finland-based roles or fully remote positions accessible from Finland. Additionally, the role title 'Certifications Lead' does not align with the candidate's expertise in configuration management, release processes, or regulated-industry quality compliance.",
     "id": "4f18f5b6",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-04T15:15:08+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
     "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Manager System Testing & Certification (m/f/d)",
@@ -74657,15 +74647,14 @@
     "url": "https://uk.linkedin.com/jobs/view/senior-embedded-software-test-engineer-at-tae-power-solutions-4468256971",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Birmingham, England (outside Finland) and does not offer remote work options accessible to someone based in Finland, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is located in Birmingham, United Kingdom, which violates the candidate's location criteria of being based in Finland or remote worldwide/EU.",
     "id": "7008971e",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-04T15:15:08+03:00",
-    "posted_date": "hace 2 semanas",
+    "posted_date": "\u0642\u0628\u0644 \u0661 \u0634\u0647\u0631",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Director-Product Compliance",
@@ -74690,15 +74679,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-test-engineer-firmware-validation-at-form-energy-4442412740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berkeley, CA, USA, which falls under the strict exclusion of any roles based in or restricted to the United States, including remote roles requiring US-based work authorization.",
+    "reason": "The job is located in Berkeley, California, USA, which violates the strict hard rejection rule against US-based positions.",
     "id": "f3df7696",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-04T15:15:08+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "\u0642\u0628\u0644 \u200f\u200f\u0664\u200f \u0623\u064a\u0627\u0645",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Engineer Test",
@@ -75107,15 +75095,14 @@
     "url": "https://de.linkedin.com/jobs/view/certification-lead-%E2%80%93-bess-power-electronics-digital-systems-m-f-d-at-stabl-energy-4472600221",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Munich, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work options compatible with Priya's location constraints.",
+    "reason": "The job is located in Munich, Germany, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "7c54140e",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-04T17:53:39+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Embedded Firmware Developer (m/w/d)",
@@ -75268,15 +75255,14 @@
     "url": "https://hr.linkedin.com/jobs/view/lead-test-engineer-for-embedded-systems-m-f-at-iskraemeco-4469853418",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Zagreb, Croatia, which is outside Finland and not a fully remote role, triggering a hard rejection based on location constraints.",
+    "reason": "The job is located in Zagreb, Croatia, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "de817a47",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-04T17:53:39+03:00",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Auditor / Technical Assessor - Machinery Regulation",
@@ -75477,15 +75463,14 @@
     "url": "https://nl.linkedin.com/jobs/view/electronics-engineer-%E2%80%93-compliance-certificering-at-trinamics-4469874568",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Eindhoven, Netherlands (on-site), which does not meet Priya's strict location criteria of Finland-based roles or fully remote roles accessible from Finland.",
+    "reason": "The job is located in the Netherlands and is not a remote role, which violates the location requirements for candidates based in Finland.",
     "id": "0948a8f9",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-04T19:09:44+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Responsable Contr\u00f4le-Commande & Conformit\u00e9 R\u00e9seau (Grid Control & Compliance Manager) H/F",
