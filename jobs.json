@@ -80391,15 +80391,14 @@
     "url": "https://it.linkedin.com/jobs/view/site-quality-manager-at-michael-page-4473625412",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job location is Genoa, Italy (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job is physically located in Genoa, Italy, which violates the location policy requiring roles to be in Finland or fully remote.",
     "id": "a1874799",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-06T01:10:53+03:00",
-    "posted_date": "13 oras nakalipas",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Responsable de Calidad - con Ingl\u00e9s",
@@ -80424,15 +80423,14 @@
     "url": "https://nl.linkedin.com/jobs/view/quality-assurance-manager-at-morgan-green-4466911289",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in the Netherlands and not remote, which disqualifies it under the location hard rejection rule.",
+    "reason": "The job is physically located in the Netherlands and is not a remote role open to candidates in Finland.",
     "id": "e5ac9b28",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-06T01:10:53+03:00",
-    "posted_date": "2 linggo nakalipas",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QAQC Engineer",
@@ -80857,15 +80855,14 @@
     "url": "https://www.linkedin.com/jobs/view/sr-quality-assurance-engineer-iso-13485-at-prismatik-dentalcraft-inc-4454917386",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is located in Irvine, California, United States, which is excluded by the candidate's strict US location rule.",
+    "reason": "The job is physically located in Irvine, California, USA, violating the strict non-negotiable US location exclusion.",
     "id": "3af19b96",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-10-06T03:38:05+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "2 settimane fa",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -81639,19 +81636,18 @@
   {
     "title": "Validation Engineer",
     "company": "Texas Instruments",
-    "location": "Extract from page",
+    "location": "Oulu, Finland",
     "url": "https://fi.indeed.com/rc/clk?jk=63bea79ffcdb616a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting does not explicitly state the location, but the company (Texas Instruments) is a US-based entity, which falls under the strict Hard Rejection rule against any job located in or restricted to the United States.",
+    "reason": "The role is a hardware-focused validation engineering position involving PCBA design and laboratory measurements, which falls under the hard rejection for hardware lab testing and manufacturing quality roles.",
     "id": "eac28893",
     "source": "indeed_fi_functional_safety",
     "added_at": "2026-10-06T08:52:30+03:00",
-    "posted_date": "N/A",
+    "posted_date": "05/10/2026, 13:44",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Safety Engineer",
@@ -82114,9 +82110,8 @@
     "added_at": "2026-10-06T10:53:47+03:00",
     "posted_date": "2026-09-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Reliability Engineer",
@@ -82141,15 +82136,14 @@
     "url": "https://uk.linkedin.com/jobs/view/safety-engineer-at-ultra-electronics-group-4438719061",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires British citizenship and residency for security clearance, and it is located in the UK, which falls outside the candidate's location criteria.",
+    "reason": "The role requires British citizenship and residency for security clearance, and it is located in the UK, which falls outside the candidate's permitted work locations.",
     "id": "588a19bb",
     "source": "linkedin_ww_remote_safety_critical_p2",
     "added_at": "2026-10-06T10:53:47+03:00",
     "posted_date": "2026-08-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Systems Safety Engineer",
@@ -82686,15 +82680,14 @@
     "url": "https://uk.linkedin.com/jobs/view/embedded-software-engineer-at-deep-sea-electronics-ltd-4432773369",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Mansfield, England, which violates the candidate's requirement to work in Finland or remotely from Finland.",
+    "reason": "The job is located in Mansfield, England, which violates the location policy requiring roles to be either in Finland or fully remote.",
     "id": "cec99a65",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-06T11:34:57+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 settimane fa",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Principal Firmware Engineer - Power Conversion Control",
@@ -82735,15 +82728,14 @@
     "url": "https://www.linkedin.com/jobs/view/electrical-firmware-test-engineer-at-dexmate-4475529368",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Fremont, CA, USA, which violates the strict hard rejection rule against US-based positions.",
+    "reason": "The job is physically located in Fremont, California, which violates the strict US location exclusion hard rejection rule.",
     "id": "523f89d5",
     "source": "linkedin_ww_remote_iec_61508_p2",
     "added_at": "2026-10-06T11:36:27+03:00",
     "posted_date": "2026-10-05",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u5145\u7535\u6869\u4ea7\u54c1\u8ba4\u8bc1\u5de5\u7a0b\u5e08\uff08\u8f66\u8f86\u90e8Mobility)",
@@ -82768,15 +82760,14 @@
     "url": "https://uk.linkedin.com/jobs/view/embedded-software-engineer-at-deep-sea-electronics-ltd-4456241216",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an on-site embedded software engineering role located in the United Kingdom, which violates the candidate's location and role type criteria.",
+    "reason": "The role is located in Nottinghamshire, England, which violates the candidate's location criteria of being based in Finland or fully remote.",
     "id": "c32cc2aa",
     "source": "linkedin_ww_remote_iec_61508_p2",
     "added_at": "2026-10-06T11:36:27+03:00",
     "posted_date": "2026-09-06",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Cyber Compliance & Assurance Manager",
@@ -82849,15 +82840,14 @@
     "url": "https://www.linkedin.com/jobs/view/firmware-test-engineering-manager-at-milwaukee-tool-4464379140",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Brookfield, Wisconsin, USA, violating the strict hard rejection rule against US-based positions.",
+    "reason": "This job is located in Brookfield, Wisconsin, USA, and violates the strict hard rejection rule against US-based positions.",
     "id": "5479f4e1",
     "source": "linkedin_ww_remote_iec_61508_p2",
     "added_at": "2026-10-06T11:36:27+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Compliance Engineer",
@@ -83090,15 +83080,14 @@
     "url": "https://de.linkedin.com/jobs/view/senior-application-manager-m-f-d-%E2%80%93-automotive-battery-management-systems-at-renesas-electronics-4437404746",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This on-site role is located in Germering, Germany, and requires fluent German in addition to managing hardware/firmware teams rather than focusing on release management or configuration management.",
+    "reason": "The role is located in Germany and requires fluent German and leadership of hardware/embedded application engineering teams, which does not align with the candidate's profile and location preferences.",
     "id": "8922e243",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-06T11:37:53+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior ISO 26262 Assessor",
@@ -83267,15 +83256,14 @@
     "url": "https://de.linkedin.com/jobs/view/firmware-validation-engineer-m-f-d-embedded-systems-testing-quality-assurance-at-swissbit-ag-4454407730",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Berlin, Germany, which fails the location requirement since the candidate is only open to roles in Finland or fully remote roles from Finland, and additionally, the posting requires fluent German.",
+    "reason": "The job is physically located in Berlin, Germany (outside Finland), and does not offer a remote work option based in Finland.",
     "id": "1c8c4e0c",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-06T11:39:21+03:00",
-    "posted_date": "vor 1 monat",
+    "posted_date": "2 mesi fa",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Engineer Embedded Software Testing (m/f/d)",
@@ -86708,15 +86696,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-product-specialist-industrial-products-at-brooks-instrument-4440599231",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Hatfield, PA, USA, which strictly disqualifies it under Priya's non-negotiable rule to avoid any US-based or US-restricted roles.",
+    "reason": "The job is located in Hatfield, Pennsylvania, United States, violating the strict US location exclusion rule.",
     "id": "540daff7",
     "source": "linkedin_ww_remote_product_specialist_p2",
     "added_at": "2026-10-06T20:49:11+03:00",
     "posted_date": "2026-08-07",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -86805,15 +86792,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=874bff7f2cbf5e39",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Chief Engineer, Instrumentation focuses on hardware/process control engineering rather than software release/CM/DevOps or technical documentation, which are Priya's target domains.",
+    "reason": "This is a heavy industrial process instrumentation and hardware-delivery engineering role in minerals processing, which falls under the hard rejection rule for manufacturing and hardware engineering.",
     "id": "0dab0412",
     "source": "indeed_fi_product_specialist",
     "added_at": "2026-10-06T21:18:33+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-25",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Enterprise Architect",
@@ -86982,15 +86968,14 @@
     "url": "https://fi.linkedin.com/jobs/view/laatuinsin%C3%B6%C3%B6ri-st%C3%A9n-co-oy-ab-nurmij%C3%A4rvi-at-scoutria-4474057021",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a hard qualification, which Priya does not speak, triggering a strict Hard Rejection.",
+    "reason": "The role requires fluent Finnish ('sujuvaa suomen kielt\u00e4'), which the candidate does not possess.",
     "id": "777a8219",
     "source": "linkedin_fi_technical_writer_p2",
     "added_at": "2026-10-06T21:50:39+03:00",
-    "posted_date": "9 tuntia sitten",
+    "posted_date": "2026-10-06",
     "deadline": "2026-10-19",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "EMC Engineer",
