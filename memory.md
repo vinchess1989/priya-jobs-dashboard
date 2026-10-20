@@ -212,6 +212,9 @@ re-queueing everything only if no snapshot exists. Tested: a one-line data-entry
 flagged by the 13 Oct + 15 Oct requirement edits) were filtered with keywords from the diff
 `92d7fc81~1:job_requirements.md` → current; 358 stay queued, the rest keep their previous verdict.
 Limit: salary / "customer facing" rules can't be matched from titles, so jobs failing only those aren't re-checked.
+**LM Studio RAM fix (2026-10-20):** qwen3-14b's per-model config now sets `keepModelInMemory=false` and
+`tryMmap=false`; LM Studio's defaults kept a ~9 GB copy of the GPU-resident weights in system RAM. Available
+RAM with the model loaded went 0.9 → 9.0 GB, speed unchanged (~26 tok/s). Details in `~\.claude\local_llm_models.json`.
 **LLM order (priya_jobs, 2026-10-20):** Groq removed (≈4,000 413/429 failures vs 139 successes). Now
 Gemini on `PRIYA_GEMINI_API_KEY` → Gemini on `GEMINI_API_KEY_VINEETH_BITS` (Windows user env var, second
 account, label `gemini-vineeth-bits/...` in `eval_model`) → local qwen3-14b.
