@@ -90860,15 +90860,14 @@
     "url": "https://ca.linkedin.com/jobs/view/quality-assurance-manager-greystone-energy-systems-at-facet-recruitment-4446763759",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Canada, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
+    "reason": "The job is physically located in Moncton, New Brunswick, Canada, and violates the hard rejection rule against non-Finland/non-remote roles outside her location.",
     "id": "78cda4d0",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-10-03",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Project Quality Manager",
@@ -90877,15 +90876,14 @@
     "url": "https://ca.linkedin.com/jobs/view/project-quality-manager-at-atkinsr%C3%A9alis-4450629000",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Toronto, Canada, which violates the hard rejection criteria regarding location, and it is a construction/infrastructure quality role rather than a software-focused one.",
+    "reason": "The job is located in Toronto, Canada, which violates the strict hard rejection rule against roles located outside Finland and not remote.",
     "id": "81d79b21",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-09-07",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "\u5ba2\u6237\u8d28\u91cf\u7ecf\u7406Quality Manager",
@@ -90894,15 +90892,14 @@
     "url": "https://cn.linkedin.com/jobs/view/%E5%AE%A2%E6%88%B7%E8%B4%A8%E9%87%8F%E7%BB%8F%E7%90%86quality-manager-at-amphenol-4474434384",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Shanghai, China, which falls outside of Finland and is not a remote role accessible from Finland, and it also requires fluency in Mandarin Chinese.",
+    "reason": "The job is located in Shanghai, China, which violates the requirement that roles must be in Finland or fully remote for someone living in Finland.",
     "id": "de8e6dbd",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA & QC Manager -1",
@@ -90959,15 +90956,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-manager-at-clarios-4447588193",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Canby, OR), which is a strict hard rejection.",
+    "reason": "The job is located in Canby, Oregon, USA, which violates the strict US location exclusion rule.",
     "id": "309b334a",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-10-05",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Mgr - Quality",
@@ -91008,15 +91004,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=2be6d5e0f6398656",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a construction/physical infrastructure quality management position, which falls under the hard rejection for manufacturing, construction, or hardware quality roles.",
+    "reason": "This is a physical construction and facility quality management role for data centers, which falls under the hard rejection rule for manufacturing, construction, or hardware quality roles.",
     "id": "a3e5e062",
     "source": "indeed_fi_quality_manager",
     "added_at": "2026-10-07T10:04:43+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Palkat - Engineering Manager",
@@ -91089,15 +91084,14 @@
     "url": "https://cn.linkedin.com/jobs/view/global-director-quality-assurance-regulatory-affairs-%E5%9B%BD%E9%99%85%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E5%85%AC%E5%8F%B8-at-messring-gmbh-4474428469",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Suzhou, China, which falls outside of Finland and is not a remote role compatible with the candidate's location requirements.",
+    "reason": "The job is located in Suzhou, China, which violates the location requirement, and it is explicitly marked as no longer accepting applications.",
     "id": "a2ddb635",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-10-07T10:09:58+03:00",
-    "posted_date": "N/A",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Global Director, Quality Assurance & Regulatory Affairs - \u56fd\u9645\u533b\u7597\u5668\u68b0\u516c\u53f8",
@@ -91106,15 +91100,14 @@
     "url": "https://cn.linkedin.com/jobs/view/global-director-quality-assurance-regulatory-affairs-%E5%9B%BD%E9%99%85%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E5%85%AC%E5%8F%B8-at-messring-gmbh-4474426522",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Shanghai, China, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
+    "reason": "The job is physically located in Shanghai, China, which violates the location policy requiring roles to be in Finland or fully remote.",
     "id": "0fb0a432",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-10-07T10:09:58+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager, Distributor and Tender Management",
@@ -94803,15 +94796,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-manager-qmb-m-w-d-medizintechnik-at-real-4476707142",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located on-site in Germany and requires fluent German, which violates the location and language constraints.",
+    "reason": "The job is physically located in Bad Kissingen, Germany (on-site) and requires fluent German language skills, violating both location and language requirements.",
     "id": "0d5d8311",
     "source": "linkedin_eu_remote_iso_13485",
     "added_at": "2026-10-07T14:18:37+03:00",
-    "posted_date": "hace 1 hora",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Automation Engineer",
@@ -95316,15 +95308,14 @@
     "url": "https://www.linkedin.com/jobs/view/technical-product-specialist-semiconductor-products-at-brooks-instrument-4475035997",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Hatfield, Pennsylvania), which violates the strict exclusion policy for US-based roles.",
+    "reason": "The role is located in Hatfield, Pennsylvania, United States, violating the strict US location exclusion rule.",
     "id": "f598bc7b",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-07T14:49:34+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Expert Grupo Concesur",
@@ -95845,15 +95836,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsmanager-regulatory-affairs-m-w-d-at-metasystems-probes-gmbh-4475422775",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany and is not remote, which violates the location policy, and it explicitly requires fluent German language skills.",
+    "reason": "The job is located in Germany and is not a remote role, which violates the location requirements for candidates based in Finland.",
     "id": "31f3246b",
     "source": "linkedin_eu_remote_iso_13485",
     "added_at": "2026-10-07T15:20:21+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Functional Safety Engineer",
@@ -96662,15 +96652,14 @@
     "url": "https://au.linkedin.com/jobs/view/senior-devops-engineer-at-taltenttrek-4475429061",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Melbourne, Australia, which violates the hard rejection criteria regarding location.",
+    "reason": "The job is physically located in Melbourne, Australia, violating the candidate's geographic criteria of Finland or remote work performable from Finland.",
     "id": "3cb122e6",
     "source": "linkedin_ww_remote_devops_engineer",
     "added_at": "2026-10-07T16:40:30+03:00",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "DevOps Engineer II",
@@ -96823,15 +96812,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=3430c69ff7835ded",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a physical hardware/data center operations management position, which falls under the hard rejection for manufacturing/hardware quality roles and lacks the required software release/configuration management core.",
+    "reason": "This is a people/line-management and physical hardware operations role managing data center technicians, which falls under the hard-rejection category for line management and hardware operations without the required release, configuration management, or software quality focus.",
     "id": "2e6e6e44",
     "source": "indeed_fi_configuration_manager",
     "added_at": "2026-10-07T16:48:02+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Engineering Manager - Unified Platform",
@@ -96984,15 +96972,14 @@
     "url": "https://www.linkedin.com/jobs/view/product-specialist-gcms-at-shimadzu-scientific-instruments-4475031479",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Columbia, Maryland), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The role is located in the United States (Columbia, MD) and requires GCMS life-science laboratory instrumentation expertise, violating the strict US exclusion and domain requirements.",
     "id": "300bc241",
     "source": "linkedin_ww_remote_product_specialist",
     "added_at": "2026-10-07T16:53:04+03:00",
-    "posted_date": "4 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-10-06",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Specialist",
@@ -97304,16 +97291,15 @@
     "location": "Kaarina, Southwest Finland, Finland",
     "url": "https://fi.linkedin.com/jobs/view/laatuinsin%C3%B6%C3%B6ri-quality-engineer-at-teleste-4475444019",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The job is located in Finland (Kaarina) and aligns with quality engineering, but the role appears to focus on manufacturing/process quality rather than software-release/regulated-industry quality (which matches Priya's Topcon/Elektrobit background). The description mentions IQC/OQC, NCR cases, and production processes, which differ from her experience in medical-device/software compliance (MDR/ISO 13485) and CI/CD/release management.",
+    "matches_requirements": "no",
+    "reason": "This is a manufacturing/production quality engineering role focused on supply chain, hardware/electronics production, and methods like PFMEA and NCR, which falls under the hard rejection for manufacturing, construction, or hardware quality roles.",
     "id": "2309b7b0",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-07T17:15:02+03:00",
-    "posted_date": "1 tunti sitten",
+    "posted_date": "2026-10-13",
     "deadline": "2026-10-28",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Lead Customer Quality Engineer",
@@ -97370,15 +97356,14 @@
     "url": "https://jo.linkedin.com/jobs/view/quality-assurance-executive-at-eon-dental-4475426864",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Amman, Jordan, which does not meet Priya's requirement for roles physically located in Finland or fully remote from Finland.",
+    "reason": "This job is located in Amman, Jordan, which violates the location policy requiring roles to be in Finland or remote from Finland.",
     "id": "e05590ae",
     "source": "linkedin_ww_remote_iso_13485",
     "added_at": "2026-10-07T17:24:26+03:00",
-    "posted_date": "1 tunti sitten",
+    "posted_date": "2026-10-13",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality & Regulatory Affairs Manager Medical devices (m/f/d)",
