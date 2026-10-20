@@ -208,6 +208,10 @@ gitignored — it duplicates personal requirements), asks the LLM for title/comp
 (with synonyms and the titles' languages) for the added/removed lines, and sets `needs_re_review` only
 on jobs containing one. Falls back to the changed lines' 5+-letter words if the LLM fails, and to
 re-queueing everything only if no snapshot exists. Tested: a one-line data-entry rule → 14 of 10,096 jobs.
+**Backlog trimmed the same way (2026-10-20):** the 4,975 `needs_re_review` jobs (all added ≤ 2026-10-13,
+flagged by the 13 Oct + 15 Oct requirement edits) were filtered with keywords from the diff
+`92d7fc81~1:job_requirements.md` → current; 358 stay queued, the rest keep their previous verdict.
+Limit: salary / "customer facing" rules can't be matched from titles, so jobs failing only those aren't re-checked.
 **LLM order (priya_jobs, 2026-10-20):** Groq removed (≈4,000 413/429 failures vs 139 successes). Now
 Gemini on `PRIYA_GEMINI_API_KEY` → Gemini on `GEMINI_API_KEY_VINEETH_BITS` (Windows user env var, second
 account, label `gemini-vineeth-bits/...` in `eval_model`) → local qwen3-14b.
