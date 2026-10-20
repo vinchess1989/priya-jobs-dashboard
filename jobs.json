@@ -139511,15 +139511,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-engineer-grid-code-at-danfoss-4474144629",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires at least a good understanding of Finnish, which the candidate does not possess, and it is a hardware-focused testing role that falls under the manufacturing/hardware quality rejection criteria.",
+    "reason": "This role involves hands-on hardware lab testing and electrical power conversion testing, which falls under the hard rejection criteria for hardware quality and bench testing roles.",
     "id": "99670bf5",
     "source": "linkedin_fi_iec_61508",
     "added_at": "2026-10-12T13:47:06+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Power Electronics Software Engineer (Motor Control / MATLAB Simulink)",
@@ -139528,15 +139527,14 @@
     "url": "https://hr.linkedin.com/jobs/view/power-electronics-software-engineer-motor-control-matlab-simulink-at-jungheinrich-croatia-4476013038",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position based in Croatia, which violates both the location and the role-type hard rejection criteria.",
+    "reason": "The role is a pure feature-development software engineering position based in Croatia, which violates both the role-type and location constraints.",
     "id": "440e79fd",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-12T13:48:11+03:00",
     "posted_date": "2026-10-12",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "HR-harjoittelija Eezylle Lahteen",
@@ -139961,15 +139959,14 @@
     "url": "https://de.linkedin.com/jobs/view/product-manager-requirements-engineer-it-infrastruktur-%E2%80%93-defence-all-gender-100-at-alten-4462299142",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Kiel, Germany, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is located in Kiel, Germany, and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and open to candidates living in Finland.",
     "id": "e442e852",
     "source": "linkedin_eu_remote_requirements_manager",
     "added_at": "2026-10-12T14:22:17+03:00",
-    "posted_date": "il y a 1 semaine",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laatu- ja kehitysinsin\u00f6\u00f6ri",
@@ -140042,15 +140039,14 @@
     "url": "https://de.linkedin.com/jobs/view/supplier-quality-engineer-m-w-d-medizintechnik-at-arthrex-gmbh-4458270712",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/supplier quality engineering position focused on physical production and audits, which falls under the hard rejection for manufacturing/hardware quality roles, and it requires German language proficiency.",
+    "reason": "The role is an on-site position in Germany, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "223d6fc7",
     "source": "linkedin_eu_remote_iso_13485",
     "added_at": "2026-10-12T14:35:42+03:00",
-    "posted_date": "cu 1 lun\u0103 \u00een urm\u0103",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Automaatioinsin\u00f6\u00f6ri",
@@ -140123,15 +140119,14 @@
     "url": "https://se.linkedin.com/jobs/view/esw-dev-test-engineer-at-amaris-consulting-part-of-mantu-4478397959",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Sweden and is not a remote position, violating the requirement that non-Finland roles must be remote and open to candidates in Finland.",
+    "reason": "The job is located in Sweden and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and accessible from Finland.",
     "id": "3d5a7047",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-12T14:44:47+03:00",
-    "posted_date": "cu 39 de minute \u00een urm\u0103",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Electronics Engineer, Radar Payload Team",
@@ -140140,15 +140135,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-electronics-engineer-radar-payload-team-at-iceye-4427937824",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a pure hardware electronics design role focused on PCB and power systems, which violates the hard rejection against pure feature-development/hardware-engineering roles that lack a release, configuration-management, or software-quality core.",
+    "reason": "This is a hardware design and electronics engineering role involving PCB layout and hands-on lab testing, which falls under the hard rejection for manufacturing/hardware quality and hands-on hardware lab testing.",
     "id": "300f2054",
     "source": "linkedin_fi_iso_26262",
     "added_at": "2026-10-12T14:46:23+03:00",
-    "posted_date": "cu 2 s\u0103pt\u0103m\u00e2ni \u00een urm\u0103",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior HIL engineer",
@@ -141533,15 +141527,14 @@
     "url": "https://in.linkedin.com/jobs/view/project-engineer-power-electronics-testing-and-compliance-at-ul-solutions-4470834732",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Bengaluru, India, which violates the requirement that roles must be based in or remote to Finland.",
+    "reason": "This hardware testing and compliance engineering role is located in India and violates both the location constraints and the hard rejection for manufacturing/hardware laboratory testing roles.",
     "id": "c6aaf916",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-12T16:49:04+03:00",
-    "posted_date": "2 veckor sedan",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Engineer",
@@ -142078,15 +142071,14 @@
     "url": "https://ph.linkedin.com/jobs/view/bpo-quality-assurance-qa-manager-pioneer-team-at-iopex-technologies-philippines-inc-4477595294",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Taguig, Philippines, which violates the candidate's location requirement of being in Finland or fully remote.",
+    "reason": "This on-site role is located in Taguig, Philippines, outside of the candidate's required location of Finland or remote work from Finland.",
     "id": "e0388aa3",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-12T18:50:19+03:00",
     "posted_date": "2026-10-12",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -142095,15 +142087,14 @@
     "url": "https://cn.linkedin.com/jobs/view/quality-manager-at-michael-page-4478527988",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in China, which violates the location requirement, and it is a manufacturing quality role with no software-release or configuration-management component.",
+    "reason": "The job is located in China and requires physical presence for manufacturing quality management, which violates the location and manufacturing-quality hard rejection criteria.",
     "id": "77536eb7",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-12T18:50:19+03:00",
     "posted_date": "2026-10-12",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "JR Regulatory Affairs Specialist - Medical Devices",
@@ -142351,16 +142342,15 @@
     "location": "Hyvink\u00e4\u00e4, Finland",
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/27fac9b4-4461-438c-a02a-0715a34ab487/fi",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "The role involves electronics testing and verification which aligns with testing entry points, but it is physically located in Hyvink\u00e4\u00e4, Finland, requiring on-site presence rather than being remote.",
+    "matches_requirements": "no",
+    "reason": "The role is a hardware-focused electronics testing position involving laboratory work and PCBA troubleshooting, which falls under the hard rejection for manufacturing/hardware quality roles.",
     "id": "c18de4aa",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-12T19:18:08+03:00",
     "posted_date": "2026-10-12",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Taloushallinnon asiantuntija",
@@ -143761,15 +143751,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-customer-engineer-workspace-gcp-nordics-at-google-4477922267",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a customer-facing, sales-support role that requires presenting to stakeholders and driving business growth, which violates the candidate's negative constraint against customer-facing positions.",
+    "reason": "The role is a customer-facing sales/pre-sales engineering position, which falls under the 'Specialist Platforms' rejection criteria as it lacks a core focus on release, configuration management, or quality/traceability engineering.",
     "id": "e9b1c1b9",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-10-12T22:52:05+03:00",
     "posted_date": "2026-10-12",
-    "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "deadline": "Open until filled",
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "produktspecialist innen s\u00e5rbehandling og NPWT",
@@ -143890,15 +143879,14 @@
     "url": "https://fi.linkedin.com/jobs/view/elektroniikan-testausinsin%C3%B6%C3%B6ri-junior-tai-senior-at-alten-4478552184",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware/PCBA manufacturing and laboratory testing role, which falls under the hard rejection for manufacturing/hardware quality roles with no software-release or configuration-management component.",
+    "reason": "This role is a hands-on hardware lab testing and PCBA bench-testing position, which falls under the hard rejection rule for manufacturing, construction, or hardware quality and lab testing roles.",
     "id": "33a638d6",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-12T23:12:34+03:00",
     "posted_date": "2026-10-12",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Engineer - J0051199",
@@ -143923,15 +143911,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produit-secteur-a%C3%A9ronautique-h-f-at-alten-4477904026",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manufacturing/production quality position in France, which violates the hard rejection criteria regarding location (outside Finland) and the exclusion of manufacturing/hardware quality roles.",
+    "reason": "The role is a manufacturing/production quality position focused on physical assembly lines and hardware processes, which falls under the hard rejection criteria for manufacturing quality roles.",
     "id": "add6b6bb",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-12T23:13:40+03:00",
     "posted_date": "2026-10-12",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur\u00b7e Qualit\u00e9 Production F/H",
@@ -143988,15 +143975,14 @@
     "url": "https://de.linkedin.com/jobs/view/qualit%C3%A4tsmanager-m-w-d-at-hoffmann-propeller-4478547025",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Germany, which violates the hard rejection policy against on-site/hybrid roles outside of Finland.",
+    "reason": "The job is located in Germany and is not remote, which violates the requirement that non-remote roles must be located in Finland.",
     "id": "1fd29cee",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-12T23:19:09+03:00",
-    "posted_date": "N/A",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer, Measurement Infrastructure",
@@ -144277,15 +144263,14 @@
     "url": "https://uk.linkedin.com/jobs/view/senior-electronics-design-engineer-at-indra-renewable-technologies-4478525984",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United Kingdom, which violates the requirement that roles must be in Finland or fully remote for someone living in Finland.",
+    "reason": "The role is a hardware/PCBA design engineering position requiring hands-on electronics lab work and manufacturing quality, which falls under the hard rejection for hardware quality/lab testing roles.",
     "id": "146f4fb6",
     "source": "linkedin_ww_remote_iec_61508_p2",
     "added_at": "2026-10-12T23:37:15+03:00",
-    "posted_date": "hace 6 horas",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Electronics Engineer - Avionics",
