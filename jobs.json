@@ -52347,16 +52347,15 @@
     "location": "Finland",
     "url": "https://fi.linkedin.com/jobs/view/technical-project-manager-busy-bar-at-jobgether-4470793018",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role involves technical project management, release coordination, and agile delivery for a technology hardware product, closely aligning with Priya's background in release management and configuration control.",
+    "matches_requirements": "no",
+    "reason": "The provided text is a generic LinkedIn landing page and does not contain an actual job description, requirements, or specific details for the 'Technical Project Manager' role.",
     "id": "390c9e54",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": "job_descriptions/jobgether_technical_project_manager__bus_390c9e54.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "OpenStack Engineering Manager",
@@ -52365,15 +52364,14 @@
     "url": "https://fi.linkedin.com/jobs/view/openstack-engineering-manager-at-jobgether-4470339537",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job posting explicitly states that applications are no longer being accepted, and it falls under platform/cloud infrastructure management rather than her target release/CM/quality domain.",
+    "reason": "The role is a pure Engineering Manager position focused on cloud infrastructure and people management, which falls under the 'Specialist Platforms, Architecture or Line Management' hard rejection criteria.",
     "id": "b0d13714",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "ICT-projektip\u00e4\u00e4llikk\u00f6",
@@ -52382,15 +52380,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-%E2%80%8Bprojektip%C3%A4%C3%A4llikk%C3%B6-at-helsingin-sosiaali-terveys-ja-pelastustoimiala-4470848036",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish (hyv\u00e4\u00e4 suomen kielen taitoa), which the candidate does not possess.",
+    "reason": "The job posting explicitly requires good written and oral proficiency in Finnish, which the candidate does not possess.",
     "id": "9f27c336",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Release Train Architect - Tieto Caretech (m/f/d)",
@@ -52399,15 +52396,14 @@
     "url": "https://fi.linkedin.com/jobs/view/release-train-architect-tieto-caretech-m-f-d-at-tieto-4468545340",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires proficiency in both English and Finnish languages, and Priya does not speak Finnish.",
+    "reason": "The role is a pure software architecture/feature-development position requiring mandatory proficiency in Finnish, which violates both the role-type and language constraints.",
     "id": "3e9acb79",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "hace 1 semana",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "ICT-projektip\u00e4\u00e4llikk\u00f6",
@@ -52416,15 +52412,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ict-projektip%C3%A4%C3%A4llikk%C3%B6-at-helsingin-kaupunki-%E2%80%93-helsingfors-stad-%E2%80%93-city-of-helsinki-4472712148",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent written and spoken Finnish, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish language skills, which is a hard rejection criterion.",
     "id": "0232bc6d",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Development Manager",
@@ -52432,16 +52427,15 @@
     "location": "Helsinki, Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-development-manager-at-remedy-entertainment-plc-4469759934",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The role is a Senior Development Manager position in video game production, which focuses on game project management and team leadership rather than release management, configuration management, DevOps, or quality gatekeeping.",
+    "matches_requirements": "maybe",
+    "reason": "The role focuses on production management and process optimization which aligns with her release and configuration management background, but it is a project-management-heavy role rather than a dedicated release/CM/quality role.",
     "id": "3c782136",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI Project Manager",
@@ -52450,15 +52444,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-project-manager-at-outokumpu-4469317086",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This AI Project Manager role focuses on AI transformation, adoption, and project coordination rather than Priya's core expertise in release management, configuration management, CI/CD pipelines, or quality assurance.",
+    "reason": "The role is a general AI project management position focused on AI adoption and business initiatives, lacking the required core focus on CI/CD, release management, configuration management, or quality/traceability engineering.",
     "id": "55f0e8dc",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Service Enablement Program manager EMEA",
@@ -52467,15 +52460,14 @@
     "url": "https://fi.linkedin.com/jobs/view/service-enablement-program-manager-emea-at-eaton-4470171513",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a general operations and service program management role focused on business transformation and service delivery rather than technical release management, DevOps, configuration management, or software quality engineering.",
+    "reason": "The role is a generalist program management position focused on service delivery and operational excellence, lacking the required core focus on software release, configuration management, CI/CD, or technical quality/traceability.",
     "id": "ee3ca8f3",
     "source": "linkedin_fi_release_manager",
     "added_at": "2026-09-29T03:08:01+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Release & Change Manager \u2013 Fullstack",
@@ -52484,15 +52476,14 @@
     "url": "https://mx.linkedin.com/jobs/view/release-change-manager-%E2%80%93-fullstack-at-adlytics-gmbh-4472761986",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Toluca de Lerdo, Mexico, with a hybrid requirement, which violates the candidate's location criteria of being based in Finland or fully remote.",
+    "reason": "The job is located in Mexico and requires on-site presence in Toluca, which violates the location requirements for a candidate based in Finland.",
     "id": "844d377d",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Software Release Manager",
@@ -52501,15 +52492,14 @@
     "url": "https://uk.linkedin.com/jobs/view/software-release-manager-at-spectrum-it-recruitment-4468783958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Poole, England, United Kingdom, which violates the candidate's location and relocation criteria of being based in Finland or fully remote.",
+    "reason": "The job posting is for a role located in the United States, which violates the strict non-negotiable exclusion for US-based roles.",
     "id": "374a4f26",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Agile Release Manager",
@@ -52518,15 +52508,14 @@
     "url": "https://ae.linkedin.com/jobs/view/agile-release-manager-at-callsign-4469393802",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Abu Dhabi, UAE, which violates her location requirements to work only in Finland or fully remote.",
+    "reason": "The job is located in Abu Dhabi, United Arab Emirates, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "648ab35e",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "RELEASE MANAGER",
@@ -52535,15 +52524,14 @@
     "url": "https://fr.linkedin.com/jobs/view/release-manager-at-groupe-alliance-4472742207",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Niort, France, and requires working on-site/hybrid outside Finland, violating the location constraint.",
+    "reason": "The job is located in France and is not a remote role open to candidates in Finland, violating the location policy.",
     "id": "9b032ec9",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Enterprise Release Manager",
@@ -52552,15 +52540,14 @@
     "url": "https://au.linkedin.com/jobs/view/enterprise-release-manager-at-asx-4422784705",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sydney, Australia, and requires permanent work authorization in Australia, which violates the candidate's geographic criteria.",
+    "reason": "The job is located in Australia and explicitly requires candidates to be legally authorized to work in Australia on a permanent basis, which violates the location and residency requirements.",
     "id": "741bce9e",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Change And Release Manager",
@@ -52569,15 +52556,14 @@
     "url": "https://my.linkedin.com/jobs/view/change-and-release-manager-at-tng-digital-4462173078",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Kuala Lumpur, Malaysia, which violates the location requirements for a candidate based in Finland.",
+    "reason": "The job is located in Kuala Lumpur, Malaysia, which violates the requirement that roles must be in Finland or fully remote and accessible from Finland.",
     "id": "313c1312",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Release Manager - Remote Work | REF#303591",
@@ -52586,15 +52572,14 @@
     "url": "https://pe.linkedin.com/jobs/view/senior-release-manager-remote-work-ref%23303591-at-bairesdev-4464694704",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Although the role is a remote Senior Release Manager position, BairesDev positions often involve US-facing client projects and restrictions, and the candidate is strictly seeking roles based in or valid from Finland without US constraints.",
+    "reason": "The job posting explicitly states 'Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4' (Applications are no longer accepted), meaning the application is closed.",
     "id": "8b6c877c",
     "source": "linkedin_ww_remote_release_manager",
     "added_at": "2026-09-29T04:10:24+03:00",
-    "posted_date": "hace 3 semanas",
+    "posted_date": "1 kuukausi sitten",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salesforce Release Manager",
