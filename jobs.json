@@ -102124,15 +102124,14 @@
     "url": "https://fi.indeed.com/career/quality-assurance-engineer/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is an Indeed salary information page rather than a valid job posting.",
+    "reason": "This is a salary aggregator page on Indeed rather than an actual job posting, making it invalid for application.",
     "id": "361ae7bf",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-10-07T21:58:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Salaries for Quality Assurance Engineer, Suomi",
@@ -102141,15 +102140,14 @@
     "url": "https://fi.indeed.com/career/quality-assurance-engineer/salaries/Suomi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a salary information page on a job board rather than an actual job posting.",
+    "reason": "This is a salary aggregate or landing page on Indeed rather than a specific job opening to apply for.",
     "id": "29020429",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-10-07T21:58:02+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Myyj\u00e4 Uudellemaalle / Kattokeskus",
@@ -102734,15 +102732,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-assurance-engineer-at-shl-medical-4462529517",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in North Charleston, SC, USA, violating the strict hard rejection rule against US-based positions.",
+    "reason": "The job is located in the United States (North Charleston, SC), which violates the strict non-negotiable exclusion for US-based roles.",
     "id": "94db9a5b",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-07T23:01:57+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "QE/\u54c1\u8d28\u5de5\u7a0b\u5e08",
@@ -102831,15 +102828,14 @@
     "url": "https://cn.linkedin.com/jobs/view/ssme-mp-quality-assurance-engineer-at-%E4%B8%8A%E6%B5%B7%E8%A5%BF%E9%97%A8%E5%AD%90%E5%8C%BB%E7%96%97%E5%99%A8%E6%A2%B0%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4468960275",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Shanghai, China, violating the geographic requirement to be in Finland or fully remote.",
+    "reason": "The job is located in Shanghai, China, which violates the relocation and geographic criteria requiring roles to be based in Finland or be remote worldwide/within an acceptable region.",
     "id": "4e45834a",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-07T23:01:57+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Engineer II",
@@ -102912,15 +102908,14 @@
     "url": "https://kr.linkedin.com/jobs/view/quality-assurance-engineer-%EC%96%91%EC%82%B0-%ED%92%88%EC%A7%88-%EB%B3%B4%EC%A6%9D-at-42dot-4445321454",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Seongnam, South Korea, which violates the candidate's location and relocation criteria.",
+    "reason": "The job is located in South Korea, which violates the requirement that roles must be in Finland or fully remote/work-from-anywhere.",
     "id": "3733e34b",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-07T23:01:57+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Senior Engineer",
@@ -102945,15 +102940,14 @@
     "url": "https://tw.linkedin.com/jobs/view/quality-assurance-engineer-at-macauto-industrial-co-ltd-4412704491",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Tainan City, Taiwan, violating the location constraint requiring the role to be in Finland or remote worldwide/Europe.",
+    "reason": "The role is located in Tainan City, Taiwan, and focuses on physical manufacturing quality and PPAP/8D processes rather than software release or configuration management.",
     "id": "e723c429",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:03:29+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Engineer (On-site)",
@@ -103074,15 +103068,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-assurance-engineer-at-lamplight-home-of-the-tiki%C2%AE-brand-4460086488",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is physically located in Milwaukee, WI, United States, violating the strict hard rejection rule against US-based positions.",
+    "reason": "This job is located in Milwaukee, WI, United States, violating the strict US location exclusion rule.",
     "id": "5c4bc4d2",
     "source": "linkedin_ww_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:03:29+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer (m/f/x) Quality Management Road & CL (Porto)",
@@ -103171,15 +103164,14 @@
     "url": "https://ie.linkedin.com/jobs/view/quality-assurance-engineer-r-20005-at-dun-bradstreet-4476196133",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Dublin, Ireland, which violates the candidate's location criteria since she only considers roles in Finland or fully remote roles.",
+    "reason": "The job is located in Dublin, Ireland, which violates the candidate's requirement to be based in Finland or remote worldwide.",
     "id": "beedbe97",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-10-06",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 Produit A\u00e9ronautique Junior H/F",
@@ -103188,15 +103180,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-produit-a%C3%A9ronautique-junior-h-f-at-alierys-4476188010",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/production quality engineering role in France, violating the hard rejection rule against physical production and manufacturing quality roles.",
+    "reason": "The role is located in France and is an on-site manufacturing quality position, violating the candidate's location and hardware-quality hard rejections.",
     "id": "438a76e5",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-10-06",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Quality Assurance Engineer (m/f/d)",
@@ -103205,15 +103196,14 @@
     "url": "https://es.linkedin.com/jobs/view/senior-quality-assurance-engineer-m-f-d-at-ververica-4432392841",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Barcelona, Spain, which violates the location policy requiring roles to be either in Finland or fully remote and open to residents of Finland.",
+    "reason": "The job is located in Spain, which violates the candidate's requirement to be based in or remote to Finland.",
     "id": "0bb5b291",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-07-09",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 (H/F)",
@@ -103222,15 +103212,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-fortil-4429975577",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Toulouse, France, violating the candidate's location criteria requiring jobs to be in Finland or fully remote.",
+    "reason": "The role is located in Toulouse, France, and focuses on manufacturing/production quality methods like FAI, APQP/PPAP, and AMDEC (FMEA), which triggers the hard rejection for physical manufacturing/hardware quality roles outside of Finland.",
     "id": "6f4e0d8d",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-07-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Engineer \u2013 Machinefabriek",
@@ -103239,15 +103228,14 @@
     "url": "https://nl.linkedin.com/jobs/view/quality-assurance-engineer-%E2%80%93-machinefabriek-at-kmwe-4457452469",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/hardware quality role in Eindhoven, Netherlands, focusing on machining, FMEA, and 8D methodologies, which falls under the hard rejection rule for manufacturing and physical production quality.",
+    "reason": "This is a manufacturing/hardware quality role centered on machining techniques and physical production-line quality, which is explicitly excluded by the hard rejection criteria for hardware/manufacturing quality roles.",
     "id": "44ab9a95",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-09-07",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 Fabrication - Roanne H/F",
@@ -103256,15 +103244,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-fabrication-roanne-h-f-at-bouygues-travaux-publics-4469314745",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a physical manufacturing and welding quality engineering role in France requiring specialized certifications like COFREND and CSWIP, violating the hard rejection for physical manufacturing/construction quality roles.",
+    "reason": "The role is a manufacturing/construction quality engineering position requiring specific welding and inspection certifications (COFREND, CSWIP, FROSIO) and is located in France, which violates the location and hardware-quality hard rejection criteria.",
     "id": "468f830e",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-10-02",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -103305,15 +103292,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-h-f-at-otima-industries-4469331183",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Lannion, France, and focuses on physical manufacturing/metallurgy quality processes (such as sheet metal, 8D, FMEA) rather than software release or IT configuration management.",
+    "reason": "The role is located in France and focuses on manufacturing/metallurgy quality management (AMDEC, 8D, process quality), which violates the hard rejection for physical manufacturing quality roles located outside Finland.",
     "id": "1267a914",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 projet nucl\u00e9aire H/F - Axima Nucl\u00e9aire",
@@ -103322,15 +103308,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-projet-nucl%C3%A9aire-h-f-axima-nucl%C3%A9aire-at-equans-france-4419373218",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Lyon, France (hybrid/on-site outside Finland) and focuses on nuclear industrial quality management rather than software release, configuration management, or software quality engineering.",
+    "reason": "The job is physically located in Lyon, France, violating her location criteria as she only accepts roles in Finland or remote worldwide/EU.",
     "id": "19e4a476",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-06-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QA Engineer",
