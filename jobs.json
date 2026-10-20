@@ -87738,15 +87738,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-qualit%C3%A9-transport-x-f-h-at-house-of-aby-4474079009",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France (Amiens, Hauts-de-France) and requires industrial quality engineering responsibilities (non-conformity handling, AMDEC/FMEA, SPC), which do not align with Priya's expertise in regulated software release/CM/DevOps or technical documentation. Additionally, the location is outside Finland and not remote.",
+    "reason": "The job is physically located in France and falls under manufacturing/industrial quality standards, which violates the candidate's location and hard rejection constraints.",
     "id": "ea46e350",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-07T00:13:04+03:00",
-    "posted_date": "7 tuntia sitten",
+    "posted_date": "il y a 2 semaines",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Verification Engineer",
@@ -87819,15 +87818,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=6fe2d5e776e5530f",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is for an Electronics Mechanician in manufacturing, which does not align with Priya's target roles in configuration management, release management, technical writing, or quality engineering in regulated/safety-critical software domains.",
+    "reason": "This is a hands-on manufacturing and assembly role (Electronics Mechanician) involving physical production floor work and shift work, which falls under the hard rejection rule for manufacturing and hardware lab testing roles.",
     "id": "71394cc9",
     "source": "indeed_fi_quality_engineer",
     "added_at": "2026-10-07T00:13:32+03:00",
     "posted_date": "N/A",
     "deadline": "2026-10-20",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager - Tax Data Analytics Engineer",
@@ -87933,15 +87931,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/quality-assurance-engineer-scsom-20620027",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires relocation to Gda\u0144sk, Poland, which is outside Finland and not a fully remote role, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "This hardware and electromechanical quality assurance role requires relocation to Gda\u0144sk, Poland, violating the candidate's requirement to remain based in Finland.",
     "id": "0ebd4297",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-10-07T00:43:56+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Assurance Engineer",
@@ -87950,15 +87947,14 @@
     "url": "https://duunitori.fi/tyopaikat/tyo/avoin-hakemus-euromasterille-scsom-19671815",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Gda\u0144sk, Poland, requiring relocation, which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The job posting explicitly states that the application period for this position has ended.",
     "id": "d52f7342",
     "source": "duunitori_quality_engineer",
     "added_at": "2026-10-07T00:43:56+03:00",
     "posted_date": "2026-10-02",
     "deadline": "Open until filled",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Laadunohjausinsin\u00f6\u00f6ri/-asiantuntija, Olkiluoto",
@@ -88015,15 +88011,14 @@
     "url": "https://my.linkedin.com/jobs/view/quality-manager-medical-device-at-hays-4476167132",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Penang, Malaysia (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor fully remote with Finland-compatible restrictions.",
+    "reason": "The job is physically located in Malaysia, violating the geographic location constraints of being in Finland or remote within an eligible region.",
     "id": "46e6097a",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-07T00:45:03+03:00",
-    "posted_date": "13 tuntia sitten",
+    "posted_date": "il y a 2 semaines",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "\u8d28\u91cf\u7ecf\u7406",
@@ -88737,15 +88732,14 @@
     "url": "https://it.linkedin.com/jobs/view/hil-test-engineer-at-nidec-conversion-4375415907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Cinisello Balsamo, Lombardy, Italy (on-site/hybrid), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role requires physical on-site/hybrid work in Italy and focuses on hardware-in-the-loop (HIL) testing for power electronics rather than software release or configuration management.",
     "id": "9b51ea74",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-07T03:15:20+03:00",
-    "posted_date": "1 settimana fa",
+    "posted_date": "il y a 4 jours",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Industrial Cybersecurity Test Manager",
@@ -88770,15 +88764,14 @@
     "url": "https://ee.linkedin.com/jobs/view/hardware-test-engineer-reconeyez-defendec-at-vosker-4472010801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Tallinn, Estonia, which is outside Finland and not fully remote, violating the 'Outside Finland and Not Remote' hard rejection rule.",
+    "reason": "The role is located in Tallinn, Estonia, and involves hands-on hardware lab testing and regulatory testing, which triggers the hard rejection for physical manufacturing/hardware lab testing roles outside Finland.",
     "id": "12324b7d",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-07T03:15:20+03:00",
-    "posted_date": "1 settimana fa",
+    "posted_date": "il y a 3 jours",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Certification Lead",
@@ -89011,15 +89004,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-electronics-r-d-engineer-at-coe-group-4470482192",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior Electronics R&D Engineer focused on hardware design and system architecture, which does not align with Priya's expertise in Configuration Management, Release Management, DevOps/CI-CD, or technical writing in regulated/safety-critical domains.",
+    "reason": "The role is a pure hardware/electronics R&D design position, which violates the hard rejection against pure feature-development/design roles that lack a release, configuration-management, or quality-core component.",
     "id": "23468962",
     "source": "linkedin_fi_iso_26262",
     "added_at": "2026-10-07T03:44:23+03:00",
     "posted_date": "2026-09-23",
     "deadline": "2026-10-23",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Open Source Engineering Lead for k0s",
@@ -89540,15 +89532,14 @@
     "url": "https://pt.linkedin.com/jobs/view/cloud-devops-engineer-aws-terraform-k8s-automation-at-renesas-electronics-4476327127",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
+    "reason": "The job is physically located in Lisbon, Portugal, and does not qualify as remote work based in Finland.",
     "id": "b443ab43",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-07T06:02:32+03:00",
-    "posted_date": "12 tuntia sitten",
+    "posted_date": "il y a 2 semaines",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -90549,15 +90540,14 @@
     "url": "https://de.linkedin.com/jobs/view/technical-documentation-specialist-m-w-d-%E2%80%93-aerospace-defence-systems-999-at-alten-4419676754",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rostock, Germany (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires physical presence outside Finland.",
+    "reason": "The job is physically located in Rostock, Germany, violating the location constraint requiring jobs to be either in Finland or fully remote.",
     "id": "ef94c9f9",
     "source": "linkedin_eu_remote_documentation_specialist",
     "added_at": "2026-10-07T09:06:03+03:00",
-    "posted_date": "vor 1 monat",
+    "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Legal Counsel",
@@ -90758,15 +90748,14 @@
     "url": "https://es.linkedin.com/jobs/view/project-quality-manager-at-tecnicas-reunidas-4475164983",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Madrid, Spain (outside Finland) and requires on-site presence, which falls under the 'Outside Finland and Not Remote' hard rejection rule. Additionally, the role focuses on manufacturing/physical production quality management rather than software-release/configuration-management domains.",
+    "reason": "The job is physically located in Madrid, Spain, and violates the rule against non-remote roles outside Finland.",
     "id": "b7a60fd0",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-07T09:17:21+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "QM-\u8d28\u91cf\u7ecf\u7406(\u82cf\u5dde\uff09 (MJ002324)",
@@ -90791,15 +90780,14 @@
     "url": "https://ca.linkedin.com/jobs/view/quality-assurance-manager-at-vm-food-group-4469453706",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Concord, Ontario, Canada, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland with no remote option specified.",
+    "reason": "The job posting is for roles located in the United States, which violates the strict non-negotiable US location exclusion.",
     "id": "45ad44a0",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager",
@@ -90808,15 +90796,14 @@
     "url": "https://vn.linkedin.com/jobs/view/quality-manager-at-cornerstone-global-partners-cgp-group-4476171952",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is on-site in Vietnam, which is outside Finland and not remote, violating the location requirement.",
+    "reason": "The job is located in Ho Chi Minh City, Vietnam (on-site), which does not meet the candidate's strict requirement to work only in Finland or fully remote roles accessible from Finland.",
     "id": "00c82a1f",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "\u8d28\u91cf\u7ecf\u7406",
@@ -90841,15 +90828,14 @@
     "url": "https://lk.linkedin.com/jobs/view/quality-assurance-manager-at-therighttalent-4468458825",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Sri Lanka and is a food manufacturing quality role, which violates both the location requirements and the exclusion of manufacturing/physical production quality roles.",
+    "reason": "This role is a physical manufacturing QA position in the food industry requiring a degree in Food Science or Microbiology, which violates the hard rejection for manufacturing/production quality roles.",
     "id": "455f6bac",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager, Quality Assurance",
@@ -90858,15 +90844,14 @@
     "url": "https://www.linkedin.com/jobs/view/manager-quality-assurance-at-avantor-4413758741",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Phillipsburg, NJ), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is physically located in Phillipsburg, New Jersey, USA, violating the strict hard rejection rule against US-based positions.",
     "id": "1c015006",
     "source": "linkedin_ww_remote_quality_manager_p2",
     "added_at": "2026-10-07T09:57:38+03:00",
     "posted_date": "2026-07-09",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager - Greystone Energy Systems",
