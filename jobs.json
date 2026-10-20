@@ -55858,15 +55858,14 @@
     "url": "https://fi.linkedin.com/jobs/view/project-engineer-sap-at-eaton-4434548741",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a Project Engineer - SAP focused on system integration and business process alignment, which does not align with Priya's expertise in release management, configuration management, or regulated-industry quality standards.",
+    "reason": "The role requires extensive hands-on experience with enterprise SAP platforms (ECC, S/4HANA), which falls under the hard rejection rule for specialist enterprise application platforms lacking a release/CM core.",
     "id": "b1766085",
     "source": "linkedin_fi_requirements_engineer",
     "added_at": "2026-09-29T23:40:05+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Wireless Systems Engineer",
@@ -55875,15 +55874,14 @@
     "url": "https://fi.linkedin.com/jobs/view/staff-wireless-systems-engineer-at-skylo-4424986728",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Staff Wireless Systems Engineer focuses on AI-enhanced RAN design and wireless systems engineering, which does not align with Priya's expertise in configuration management, release management, or technical documentation despite meeting location criteria.",
+    "reason": "This is a specialized wireless systems and machine learning engineering role focused on L1/L2/L3 RAN architecture and neural signal processing, which does not match Priya's release, configuration management, DevOps, or quality/technical-writing background.",
     "id": "a9c42756",
     "source": "linkedin_fi_requirements_engineer",
     "added_at": "2026-09-29T23:40:05+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
-    "deadline": "N/A",
+    "posted_date": "2 viikkoa sitten",
+    "deadline": "Open until filled",
     "description_file": null,
-    "eval_model": "local/qwen/qwen3-14b",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite"
   },
   {
     "title": "Product Engineer",
@@ -55892,15 +55890,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-engineer-at-the-flex-4470937023",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Product Engineer focused on feature development (frontend/backend systems, AI workflows), which falls under the 'Pure Feature-Development Software Engineering' hard rejection category. Priya's expertise is in release/CM/DevOps, not application feature development.",
+    "reason": "This is a pure feature-development software engineering role focused on building application features (frontend, backend, AI integrations) rather than release, configuration-management, or CI/CD ownership.",
     "id": "d6a6eaaa",
     "source": "linkedin_fi_requirements_engineer",
     "added_at": "2026-09-29T23:40:05+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
     "description_file": null,
-    "eval_model": "local/qwen/qwen3-14b",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite"
   },
   {
     "title": "Sovellusarkkitehti",
@@ -55909,15 +55906,14 @@
     "url": "https://fi.linkedin.com/jobs/view/sovellusarkkitehti-at-dxc-technology-4467579020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, and the role focuses on application architecture rather than her target domains of release/CM/DevOps or technical writing.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
     "id": "afe88723",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "1 viikko sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior RF Systems Engineer",
@@ -55926,15 +55922,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-rf-systems-engineer-at-ge-healthcare-4461268216",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires RF systems engineering expertise focused on hardware design and wireless medical technologies, which does not align with Priya's background in release management, configuration management, and technical documentation in regulated industries.",
+    "reason": "The role is for a Senior RF Systems Engineer focusing on hardware design, lab bench testing, and physical layer electronics, which falls under the hard rejection rule for hardware lab testing and hardware engineering roles.",
     "id": "244d87eb",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ohjelmistoarkkitehti, Defence Security",
@@ -55943,15 +55938,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ohjelmistoarkkitehti-defence-security-at-gofore-4462274781",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Software Architect role focused on system design and technical leadership, which does not align with the candidate's expertise in Configuration Management, Release Management, and DevOps/CI-CD.",
+    "reason": "The role is a senior software architect position requiring fluent Finnish and a deep technical background in Java/TypeScript/C# architecture, which does not align with Priya's release, configuration management, and quality assurance focus.",
     "id": "4447ec12",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "15 tuntia sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "6G Product Planner",
@@ -55960,15 +55954,14 @@
     "url": "https://fi.linkedin.com/jobs/view/6g-product-planner-at-keysight-technologies-4423170014",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job does not align with the candidate's target roles in configuration management, release management, quality engineering, or technical communication, as it focuses on strategic product planning and wireless protocol innovation rather than CI/CD pipelines, documentation, or regulated-industry compliance.",
+    "reason": "The job is closed ('Hakemuksia ei en\u00e4\u00e4 hyv\u00e4ksyt\u00e4') and requires specialized 3GPP/wireless protocol development background beyond the candidate's core release management and technical communication profile.",
     "id": "e2f28267",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "3 kuukautta sitten",
+    "posted_date": "4 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Software Developer - Tieto Tech Consulting (m/f/d)",
@@ -55977,15 +55970,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-developer-tieto-tech-consulting-m-f-d-at-tieto-4469903312",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Software Developer focused on feature development (Java full-stack, IBM Cloud Pak for Business Automation), which falls under the 'Pure Feature-Development Software Engineering' hard rejection category as Priya's expertise is in release/CM/DevOps, not application code development.",
+    "reason": "This is a pure feature-development and full-stack software engineering role requiring fluent Finnish, violating multiple hard rejections.",
     "id": "cca75a3e",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Supply Chain Process Architect",
@@ -55994,15 +55986,14 @@
     "url": "https://fi.linkedin.com/jobs/view/supply-chain-process-architect-at-ntt-data-north-america-4464602642",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job title 'Supply Chain Process Architect' does not align with Priya's target roles in configuration management, release management, technical writing, or quality engineering, and focuses on supply chain consulting rather than regulated software delivery or technical documentation.",
+    "reason": "The role is a supply chain process architect position focused on supply chain planning, S&OP, and enterprise business processes, which falls outside Priya's background in release management, CI/CD, and technical communications.",
     "id": "bb490f09",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "5 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Product Owner (Recommendation Systems)",
@@ -56011,15 +56002,14 @@
     "url": "https://fi.linkedin.com/jobs/view/product-owner-recommendation-systems-at-jobgether-4471341518",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role of Product Owner (Recommendation Systems) focuses on B2C product experience, customer journey design, and recommendation systems, which does not align with Priya's expertise in configuration management, release management, technical writing, or quality gatekeeping under regulated standards.",
+    "reason": "This is a pure feature-development and B2C product management role focused on recommendation systems and customer journeys, lacking her core release, CI/CD, configuration management, or regulatory quality background.",
     "id": "48342f48",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Software Engineering Specialist",
@@ -56028,15 +56018,14 @@
     "url": "https://fi.linkedin.com/jobs/view/software-engineering-specialist-at-ge-healthcare-4461273123",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure feature-development software engineering position focused on clinical application development, which falls under Priya's 'Pure Feature-Development Software Engineering' hard rejection criterion.",
+    "reason": "This is a junior/entry-level feature development role focused on coding clinical application software, which violates the hard rejection against pure feature-development software engineering.",
     "id": "96de15e2",
     "source": "linkedin_fi_requirements_engineer_p2",
     "added_at": "2026-09-30T00:37:09+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "AI Outcome Customer Engineer, Google Cloud",
@@ -56045,15 +56034,14 @@
     "url": "https://fi.linkedin.com/jobs/view/ai-outcome-customer-engineer-google-cloud-at-google-4471914088",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is explicitly customer-facing and involves direct client engagement, which falls under Priya\u2019s strict hard-rejection rule against such positions.",
+    "reason": "This role is a customer-facing AI platform and cloud architecture engineering position focusing on AI/ML model deployments and enterprise cloud integrations rather than release management, configuration management, or quality engineering.",
     "id": "f724ecb0",
     "source": "linkedin_fi_requirements_engineer_p3",
     "added_at": "2026-09-30T01:53:59+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "R&D Engineer - Electronics",
@@ -56062,15 +56050,14 @@
     "url": "https://fi.linkedin.com/jobs/view/r-d-engineer-electronics-at-assa-abloy-group-4382543577",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
+    "reason": "The role is a pure hardware electronics design engineering position requiring hands-on schematic and PCB design, which violates the hard rejection for manufacturing, construction, or hardware quality/testing roles and falls outside her release management and software/quality profile.",
     "id": "2e6a754a",
     "source": "linkedin_fi_requirements_engineer_p3",
     "added_at": "2026-09-30T01:53:59+03:00",
-    "posted_date": "1 viikko sitten",
-    "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "deadline": "Open until filled",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Avoin hakemus finanssialan projekteihin",
@@ -56113,15 +56100,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-system-engineer-hydropower-at-veo-group-4433284268",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires a Senior System Engineer with expertise in hydropower system design and electrical engineering, which does not align with Priya's background in Configuration Management, Release Management, DevOps, or technical writing in regulated industries.",
+    "reason": "The role requires fluent Finnish language skills and specialized electrical design engineering experience in hydropower systems, which does not match Priya's profile.",
     "id": "3f105315",
     "source": "linkedin_fi_requirements_engineer_p3",
     "added_at": "2026-09-30T01:53:59+03:00",
     "posted_date": "3 kuukautta sitten",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Analyytikko, energia ja vastuullisuus, Helsinki",
@@ -56130,15 +56116,14 @@
     "url": "https://fi.linkedin.com/jobs/view/analyytikko-energia-ja-vastuullisuus-helsinki-at-granlund-4471946353",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires fluent Finnish as a mandatory qualification, which Priyanga does not possess.",
+    "reason": "The role requires fluent Finnish and a salary range of 3500-4500 \u20ac/kk, which is below the candidate's minimum requirement, alongside a mismatch in language and domain skills.",
     "id": "19b521f6",
     "source": "linkedin_fi_requirements_engineer_p3",
     "added_at": "2026-09-30T01:53:59+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2 viikkoa sitten",
     "deadline": "2026-11-02",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "SCADA/HMI/Communication System Engineer",
