@@ -61622,15 +61622,14 @@
     "url": "https://www.jobly.fi/tyopaikka/hitsaaja-tornio-2767618",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manual labor/industrial welding role, which falls under the hard rejection for manufacturing/hardware quality roles and does not align with the candidate's software release/CM/DevOps background.",
+    "reason": "The position is a welder (manufacturing/hardware) role, which is a hard rejection and does not align with Priya's DevOps, release management, or technical communication expertise.",
     "id": "9e3c5aed",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Rakennusaputy\u00f6ntekij\u00e4 Espoo",
@@ -61639,15 +61638,14 @@
     "url": "https://www.jobly.fi/tyopaikka/rakennusaputyontekija-espoo-2766076",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a manual labor construction position requiring Finnish language skills, which does not align with the candidate's professional background in technical communication and software release management.",
+    "reason": "The position is a construction assistant role, which does not match Priya's DevOps, release, configuration management, or technical communication background.",
     "id": "bb761b9f",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-120b",
+    "description_file": null
   },
   {
     "title": "Jouluapulainen \u2013 Mikkeli Stella | 0-37,5h",
@@ -61656,15 +61654,14 @@
     "url": "https://www.jobly.fi/tyopaikka/jouluapulainen-mikkeli-stella-0-375h-2769271",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting is closed, and the role is a retail sales position which does not align with the candidate's technical, release, or quality management background.",
+    "reason": "The role is a customer\u2011facing retail position, not a release/CM/DevOps or technical documentation role, and the posting is no longer active.",
     "id": "057ec50e",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "groq/openai/gpt-oss-20b",
+    "description_file": null
   },
   {
     "title": "Ty\u00f6harjoittelu/koulutussopimus 2025",
@@ -61673,15 +61670,14 @@
     "url": "https://www.jobly.fi/tyopaikka/tyoharjoittelu-koulutussopimus-2025-2571776",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is an internship/trainee program for students, which violates the hard rejection criteria regarding entry-level roles gated on little to no experience.",
+    "reason": "This posting is explicitly for student internships and training contracts (ty\u00f6harjoittelu/koulutussopimus) in fields like cleaning and catering, which conflicts with the candidate's ~15 years of senior engineering and configuration/release management experience.",
     "id": "be62e66b",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "LVI-asentajia",
@@ -61690,15 +61686,14 @@
     "url": "https://www.jobly.fi/tyopaikka/lvi-asentajia-2355544",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a manual trade position (HVAC technician) which does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
+    "reason": "The job requires an LVI-asentaja (HVAC installer) role in manufacturing/construction, which falls under Priya's hard rejection for 'Manufacturing, Construction or Hardware Quality Roles' with no software-release/quality component.",
     "id": "cf331f0c",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-19",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Maanrakennusty\u00f6ntekij\u00e4, 1kk, HETI!, RIIHIM\u00c4KI",
@@ -61707,15 +61702,14 @@
     "url": "https://www.jobly.fi/tyopaikka/maanrakennustyontekija-1kk-heti-riihimaki-2769246",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manual labor/construction role that does not align with the candidate's 15-year background in software engineering, release management, and technical documentation.",
+    "reason": "The job is in construction/physical labor (maanrakennusty\u00f6ntekij\u00e4) and falls under the 'Manufacturing, Construction or Hardware Quality Roles' hard rejection due to no software-release/configuration-management component matching Priya's expertise.",
     "id": "cdc895f3",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Peltisepp\u00e4, vakituinen, NURMIJ\u00c4RVI",
@@ -61724,15 +61718,14 @@
     "url": "https://www.jobly.fi/tyopaikka/peltiseppa-vakituinen-nurmijarvi-2769245",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction-sector sheet metal worker (peltisepp\u00e4), which falls under the hard rejection for manufacturing/construction/hardware quality roles and does not match the candidate's software/technical communication profile.",
+    "reason": "The job is for a carpenter (Peltisepp\u00e4) in Nurmij\u00e4rvi, Finland, which does not align with Priya's expertise in software release management, configuration management, or technical writing. The role type and required skills are unrelated to her background.",
     "id": "9e87b8f5",
     "source": "jobly_broad",
     "added_at": "2026-10-01T05:22:35+03:00",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Maanrakennusty\u00f6ntekij\u00e4",
@@ -61741,15 +61734,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/46f6a180-3a4f-4e08-ab30-0811deae6e50/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is for a construction worker (maanrakennusty\u00f6ntekij\u00e4) requiring fluent Finnish, which does not match the candidate's technical/software background or language skills.",
+    "reason": "The role is a construction worker position requiring Finnish language proficiency and physical labor, which does not align with Priya's background in technical communication, release management, or regulated-industry quality roles.",
     "id": "80683f83",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-01T05:23:05+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-21",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Apulaisylil\u00e4\u00e4k\u00e4ri Neurologia",
@@ -61758,15 +61750,14 @@
     "url": "https://tyomarkkinatori.fi/henkiloasiakkaat/avoimet-tyopaikat/52008486-9cf2-4a60-a497-ec388ed93fde/fi",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires a clinical medical license (neurologist) and fluent Finnish/Swedish, neither of which the candidate possesses.",
+    "reason": "This is a medical doctor position (Apulaisylil\u00e4\u00e4k\u00e4ri Neurologia) requiring a clinical medical license and fluent Finnish/Swedish, violating multiple hard rejections.",
     "id": "42e98b96",
     "source": "tyomarkkinatori",
     "added_at": "2026-10-01T05:23:05+03:00",
     "posted_date": "2026-10-01",
     "deadline": "2026-10-19",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Process Quality ManagerOkmetic OyVantaaGo to job site",
@@ -61775,15 +61766,14 @@
     "url": "https://www.jobly.fi/en/job/process-quality-manager-2769146",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing/industrial process quality role focused on silicon wafer production, which falls under the hard rejection for manufacturing/hardware quality roles with no software-release or configuration-management component.",
+    "reason": "The job is for a Process Quality Manager in semiconductor manufacturing, which falls under the 'Manufacturing... hardware quality' Hard Rejection category due to its focus on physical production quality (FAI/NCR/Six Sigma) without software-release/configuration-management components.",
     "id": "2e012ed5",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior HIL engineerEatonVantaaGo to job site",
@@ -61792,15 +61782,14 @@
     "url": "https://www.jobly.fi/en/job/senior-hil-engineer-2768855",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role is a hardware-focused engineering position centered on HIL (Hardware-in-the-Loop) simulation and power electronics, which falls under the hard rejection for manufacturing/hardware quality roles and lacks the required focus on software release, configuration management, or software quality.",
+    "reason": "The role (Senior HIL engineer) is focused on hardware-in-the-loop simulation development, which falls under manufacturing/hardware engineering with no alignment to the candidate's expertise in release/CM/DevOps or regulated-industry quality gatekeeping.",
     "id": "7896d1d3",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Metro Planning (Scheduler) Leader - VaasaMicrosoftVaasaGo to job site",
@@ -61809,15 +61798,14 @@
     "url": "https://apply.careers.microsoft.com/careers/job/1970393556956155",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a construction/infrastructure project scheduling position focused on physical datacenter builds, which falls under the hard rejection for manufacturing/construction quality/process roles.",
+    "reason": "The job posting explicitly states that it is no longer accepting applications, and it is a construction/infrastructure planning role rather than a software or configuration/release management role.",
     "id": "3beb7ce4",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Development Engineer, Power ElectronicsDanfossVaasaGo to job site",
@@ -61826,15 +61814,14 @@
     "url": "https://www.jobly.fi/en/job/development-engineer-power-electronics-2768628",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a hardware/power-electronics development and trainee role focused on physical engineering, which violates the hard rejection against manufacturing and hardware quality/engineering roles.",
+    "reason": "The role is a hardware-focused 'Development Engineer, Power Electronics' in manufacturing, which falls under the hard-rejected category of manufacturing/hardware quality roles without software-release or configuration-management components.",
     "id": "0b702eae",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Application Specialist, SAP FinanceMetsoEspooGo to job site",
@@ -61842,16 +61829,15 @@
     "location": "Espoo, Finland",
     "url": "https://www.jobly.fi/en/job/senior-application-specialist-sap-finance-2768625",
     "visited": "yes",
-    "matches_requirements": "maybe",
-    "reason": "While the role is primarily SAP FICO functional configuration, it explicitly includes responsibilities for release management, DevOps, and process documentation, which align with the candidate's core strengths.",
+    "matches_requirements": "no",
+    "reason": "The job requires senior-level SAP FICO expertise in finance configuration and process standardization, which does not align with Priya's background in release management, CI/CD, and technical documentation in regulated industries.",
     "id": "ae21d3de",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "2026-10-25",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Data Center Security Operations ManagerMicrosoftHelsinkiGo to job site",
@@ -61860,15 +61846,14 @@
     "url": "https://apply.careers.microsoft.com/careers/job/1970393557001958",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a physical security operations position focused on datacenter guarding and physical site security, which falls under the 'Specialist Platforms, Architecture or Line Management' rejection criteria as it lacks a software-release, CI/CD, or configuration-management core.",
+    "reason": "The role of Data Center Security Operations Manager focuses on physical security program management and infrastructure operations, which does not align with Priya's expertise in software release management, configuration management, CI/CD pipelines, or technical documentation in regulated industries.",
     "id": "1dc43dba",
     "source": "work_in_finland",
     "added_at": "2026-10-01T06:36:39+03:00",
     "posted_date": "2026-09-30",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Platform Engineer (Defence & Security)",
