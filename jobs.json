@@ -62342,15 +62342,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-kubernetes-confirm%C3%A9-h-f-at-thales-4473775134",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Rennes, France, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in Rennes, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "88ecd9ed",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-01T10:06:55+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Devops F/H",
@@ -62359,15 +62358,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-f-h-at-house-of-aby-4472181924",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not remote, which violates the location requirements, and the salary range is below the candidate's minimum threshold.",
+    "reason": "The job is located in Clermont-Ferrand, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote work from Finland.",
     "id": "3e6c1ae0",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-01T10:06:55+03:00",
     "posted_date": "2026-10-01",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Devops Engineer",
@@ -62376,15 +62374,14 @@
     "url": "https://pt.linkedin.com/jobs/view/devops-engineer-at-fyld-4473766836",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which violates the requirement that roles outside Finland must be fully remote and open to candidates living in Finland.",
+    "reason": "The job is located in Lisbon, Portugal, which is outside Finland and not a remote role, triggering the 'Outside Finland and Not Remote' hard rejection rule.",
     "id": "e64a1e10",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-01T10:06:55+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur DevOps Confirm\u00e9/Build - (H/F)",
@@ -62393,15 +62390,14 @@
     "url": "https://fr.linkedin.com/jobs/view/ing%C3%A9nieur-devops-confirm%C3%A9-build-h-f-at-inetum-4473532555",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Montpellier, France, which violates the requirement that roles outside Finland must be fully remote and accessible from Finland.",
+    "reason": "The job is located in Montpellier, France (on-site), which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is not in Finland and does not offer remote flexibility for someone based in Finland.",
     "id": "28c955cd",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-01T10:06:55+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior DevOps ingenj\u00f6r till Syntronic",
@@ -62410,15 +62406,14 @@
     "url": "https://se.linkedin.com/jobs/view/senior-devops-ingenj%C3%B6r-till-syntronic-at-syntronic-a-global-design-house-4470765451",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Gothenburg, Sweden, and requires working on-site/hybrid there, whereas the candidate is based in Finland and not looking to relocate outside Finland.",
+    "reason": "The job is located in Gothenburg, Sweden, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is an on-site role outside Finland.",
     "id": "264b86ba",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-01T10:06:55+03:00",
     "posted_date": "2026-09-29",
     "deadline": "2026-10-30",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior DevOps Engineer",
@@ -62427,15 +62422,14 @@
     "url": "https://lt.linkedin.com/jobs/view/senior-devops-engineer-at-nasdaq-4469186732",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Vilnius, Lithuania, which violates the requirement that roles outside Finland must be fully remote and open to candidates in Finland.",
+    "reason": "The job is located in Vilnius, Lithuania, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it is neither in Finland nor a fully remote role accessible from Finland.",
     "id": "45f6c822",
     "source": "linkedin_eu_remote_devops_engineer",
     "added_at": "2026-10-01T10:06:55+03:00",
     "posted_date": "2026-09-22",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "AI and Software Solutions Architect (Remote, Contract)",
@@ -62444,15 +62438,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=cf98a4f990a0f85b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a pure Solutions Architect position focused on AI/LLM systems and legacy modernization, which falls under the hard rejection for specialist architecture roles lacking a core release, CM, or quality/traceability component.",
+    "reason": "The job is restricted to the Baltic region (remote), which excludes Finland, violating Priya's location requirement of only considering roles in Finland or fully remote worldwide.",
     "id": "2ac5787b",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-01T10:07:22+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Platform Engineer (Defence & Security)",
@@ -62461,15 +62454,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=a91d9570c6232fe3",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires Finnish citizenship and fluency in Finnish, both of which are hard rejections for the candidate.",
+    "reason": "The job requires Finnish citizenship and fluency in both Finnish and English, which Priya does not meet (she holds a residence permit, not citizenship, and does not speak Finnish).",
     "id": "6b8657c2",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-01T10:07:22+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "AI Outcome Customer Engineer, Google Cloud",
@@ -62478,15 +62470,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c7853ff2c870560b",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role requires fluency in Danish, Swedish, or Finnish in addition to English, violating the candidate's language requirements.",
+    "reason": "The job requires a customer-facing role with account teams and proposal shaping, which falls under Priya's strict 'customer facing' hard rejection unless explicitly technical/quality product support (this role does not clearly align with her approved non-sales product-specialist experience).",
     "id": "af8027f3",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-01T10:07:22+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Hae nyt",
@@ -62495,15 +62486,14 @@
     "url": "https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=00e83e20-9ad7-4433-88d3-ce7916c0e230-ZnJhcHJvZDE&iaUid=1k3r4jlv6hmdt801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DFI%26vjtk%3D1k3r4jlu7hbn7800%26jk%3Dcf98a4f990a0f85b%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26tk%3D1k3r4jlorhbn7800%26trk.origin%3Djobsearch%26vjfrom%3Dtp-semfirstjob%26xkcb%3DSoAa67M2e7BBZwTCWR0LbzkdCdPP%26astse%3D6c44531888cfd30a%26assa%3D9808&spn=0",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided text is an Indeed application landing page and does not contain a valid job description, company name, or location details to evaluate.",
+    "reason": "Job description is incomplete and contains only an error message with no actionable details about role type, company, or location.",
     "id": "118bb7ed",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-01T10:07:22+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Palkat - Solution Architect",
@@ -62512,15 +62502,14 @@
     "url": "https://fi.indeed.com/career/solution-architect/salaries",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided URL is for a salary search page on Indeed, not a specific job posting, and the role of Solution Architect is explicitly excluded by the candidate's criteria.",
+    "reason": "The role 'Solution Architect' falls under specialist platform/architecture roles without explicit CI/CD/release/configuration-management ownership, which is a hard rejection criterion.",
     "id": "6dc22364",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-01T10:07:22+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Salaries for Solution Architect, et\u00e4ty\u00f6",
@@ -62529,15 +62518,14 @@
     "url": "https://fi.indeed.com/career/solution-architect/salaries/et\u00e4ty\u00f6",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The provided URL is for a salary aggregation page rather than a specific job posting, and the role of 'Solution Architect' is explicitly excluded by the candidate's hard rejection criteria for architecture-focused roles.",
+    "reason": "The job title 'Solution Architect' does not align with the candidate's target roles (DevOps, Configuration Management, Release Management, etc.), and the location information is incomplete/unclear (listed as 'Extract from page'), making it impossible to confirm if it meets Finland-based or remote-from-Finland criteria.",
     "id": "0be3410e",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-01T10:07:22+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Manager, Tax Technology \u2014 VAT (Wolt & Deliveroo Tax Platform & Business Projects)",
@@ -62546,15 +62534,14 @@
     "url": "https://fi.linkedin.com/jobs/view/manager-tax-technology-%E2%80%94-vat-wolt-deliveroo-tax-platform-business-projects-at-wolt-4473222357",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a specialized tax technology management position requiring deep domain expertise in indirect tax regimes and Vertex configuration, which falls outside the candidate's core background in release management, quality gatekeeping, and technical documentation.",
+    "reason": "The job role (Manager, Tax Technology \u2014 VAT) does not align with Priya\u2019s target domains (DevOps, Configuration Management, Release Management, Technical Writing, etc.) or her experience in regulated/safety-critical industries.",
     "id": "c4e913c6",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-10-01T11:08:01+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "il y a 2\u00a0semaines",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Customer Lead Atlassian Consultant - (Finland based)",
@@ -62563,15 +62550,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-lead-atlassian-consultant-finland-based-at-communardo-4471582465",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluency in Finnish, which the candidate does not possess.",
+    "reason": "The role requires fluent Finnish as a mandatory qualification, which Priya does not speak, triggering a hard rejection.",
     "id": "51570053",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-10-01T11:08:01+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "3 semaines ago",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Customer Lead Atlassian Consultant - (Finland based)",
@@ -62580,15 +62566,14 @@
     "url": "https://fi.linkedin.com/jobs/view/customer-lead-atlassian-consultant-finland-based-at-communardo-4471587287",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluency in Finnish, which the candidate does not possess.",
+    "reason": "The job requires fluent Finnish as a mandatory requirement, which Priya does not speak, and the role focuses on Atlassian consultancy rather than her target domains of DevOps/CI-CD, configuration management, or regulated-industry quality/release management.",
     "id": "e05a2ba2",
     "source": "linkedin_fi_configuration_manager",
     "added_at": "2026-10-01T11:08:01+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-29",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "local/qwen/qwen3-14b",
+    "description_file": null
   },
   {
     "title": "Senior Business Operations Manager",
