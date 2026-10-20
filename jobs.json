@@ -162613,16 +162613,15 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/sales-business-manager-foot-ankle-finland-at-stryker-4479990571",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Page load or parsing error.",
+    "matches_requirements": "no",
+    "reason": "This is a quota-carrying sales and business development role in medical devices, which is explicitly excluded by the hard rejection criteria for sales positions.",
     "id": "d0af7997",
     "source": "linkedin_fi_iso_13485",
     "added_at": "2026-10-20T18:44:16+03:00",
-    "posted_date": "N/A",
+    "posted_date": "1 p\u00e4iv\u00e4 sitten",
     "deadline": "N/A",
     "description_file": null,
-    "error_attempts": 1,
-    "last_error_at": "2026-10-20T18:49:20+03:00"
+    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite"
   },
   {
     "title": "Sales Business Manager, Foot & Ankle | Finland",
@@ -162758,16 +162757,15 @@
     "location": "San Francisco, CA",
     "url": "https://www.linkedin.com/jobs/view/senior-design-quality-engineer-at-irhythm-technologies-inc-4458432395",
     "visited": "yes",
-    "matches_requirements": "error",
-    "reason": "Failed to get or parse LLM response: 400 Client Error: Bad Request for url: http://127.0.0.1:1234/v1/chat/completions",
+    "matches_requirements": "no",
+    "reason": "The job is located in the United States (San Francisco, CA), which violates the strict non-negotiable exclusion for US-based roles.",
     "id": "e4858dce",
     "source": "linkedin_ww_remote_iso_13485_p2",
     "added_at": "2026-10-20T18:53:59+03:00",
-    "posted_date": "N/A",
-    "deadline": "N/A",
-    "error_attempts": 1,
-    "last_error_at": "2026-10-20T18:55:48+03:00",
-    "description_file": null
+    "posted_date": "1 viikko sitten",
+    "deadline": "Open until filled",
+    "description_file": null,
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite"
   },
   {
     "title": "Quality Systems Engineer - Manufacturing",
