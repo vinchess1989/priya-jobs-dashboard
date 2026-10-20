@@ -2456,6 +2456,7 @@ def main():
     parser.add_argument("--review-only", action="store_true", help="Only run the local LLM review step on pending jobs, then exit.")
     parser.add_argument("--review-urls", nargs="+", metavar="URL", help="Review only these specific job URL(s) (must already exist as 'pending' in jobs.json), then exit.")
     parser.add_argument("--scrape-only", action="store_true", help="Only run the scraping step, then exit.")
+    parser.add_argument("--once", action="store_true", help="Run one full scrape pass, review everything pending, then exit (the sequential morning run).")
     parser.add_argument("--max-jobs", type=int, default=200, help="Maximum number of new jobs to fetch in this run (default 200). Use 0 for unlimited.")
     args = parser.parse_args()
 
@@ -2564,6 +2565,10 @@ def main():
 
     # Monotonic time of the last scrape pass; 0 forces one on the first iteration.
     last_scrape_at = 0.0
+    # --once: scrape until a pass reaches the last target, then only drain the review queue,
+    # exiting when it is empty or a review round clears nothing (so it can't spin forever).
+    scrape_pass_done = False
+    last_pending_count = None
 
     while not stop_event.is_set():
         turn = _acquire_scraper_turn()
@@ -2604,7 +2609,15 @@ def main():
         # days - so a scrape pass still runs at least every SCRAPE_INTERVAL_SECONDS
         # even while re-reviews are pending (before 2026-09-25, scraping waited for
         # an empty queue and no new jobs were found for a week).
-        scrape_due = time.monotonic() - last_scrape_at >= SCRAPE_INTERVAL_SECONDS
+        if args.once:
+            if scrape_pass_done and (not pending_jobs or (last_pending_count is not None and len(pending_jobs) >= last_pending_count)):
+                print(f"\nINFO: --once run finished ({len(pending_jobs)} jobs still need review). Exiting.")
+                turn.release()
+                break
+            scrape_due = not scrape_pass_done
+            last_pending_count = len(pending_jobs) if scrape_pass_done else None
+        else:
+            scrape_due = time.monotonic() - last_scrape_at >= SCRAPE_INTERVAL_SECONDS
         if pending_jobs and not scrape_due:
             # Never-evaluated jobs first, then re-reviews (stable sort keeps file order).
             pending_jobs.sort(key=lambda j: 0 if j.get('matches_requirements') in ('pending', 'error') else 1)
@@ -2648,6 +2661,8 @@ def main():
                 _tee_logger.start_capture()
             new_jobs = scrape_all_jobs(max_jobs=quota)
             _progress("scraped", f"{len(new_jobs)} new jobs", scrape_ok=True)
+            if args.once and _checkpoint_reached_end():
+                scrape_pass_done = True
             if _tee_logger:
                 _tee_logger.stop_capture()
                 if _checkpoint_reached_end():
@@ -2683,7 +2698,7 @@ def main():
 
         # Determine wait time
         wait_time = 5
-        if not new_jobs and len(pending_jobs) <= 15:
+        if not new_jobs and len(pending_jobs) <= 15 and not args.once:
             wait_time = 600
             print(f"\nINFO: No new unseen jobs found in this iteration. Increasing wait time to {wait_time} seconds (10 mins).")
 

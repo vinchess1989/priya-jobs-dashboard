@@ -27,7 +27,7 @@ sys.stderr = sys.stdout
 
 PUBLIC_DIR = r"C:\Users\vinee\priya_jobs"
 
-def run_script(script_name):
+def run_script(script_name, *args):
     print(f"\n{'='*50}\nRunning {script_name}...\n{'='*50}")
     # Use global python if venv doesn't exist, else use venv
     venv_python = os.path.join(PUBLIC_DIR, "venv", "Scripts", "python.exe")
@@ -36,7 +36,7 @@ def run_script(script_name):
     env = os.environ.copy()
     env["PYTHONIOENCODING"] = "utf-8"
     
-    process = subprocess.Popen([python_exe, "-u", script_name], cwd=PUBLIC_DIR, env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding='utf-8', errors='replace', bufsize=1)
+    process = subprocess.Popen([python_exe, "-u", script_name, *args], cwd=PUBLIC_DIR, env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding='utf-8', errors='replace', bufsize=1)
     while True:
         line = process.stdout.readline()
         if not line and process.poll() is not None:
@@ -73,11 +73,12 @@ def main():
     # _call_llm_with_fallback + git commit/push all in one) -- unlike vineeth_jobs's
     # orchestrator, there are no separate curate_jobs.py/evaluate_with_local_llm.py
     # steps here; those don't exist in this project and would just fail if called.
-    # The scraper loops forever, so any exit is abnormal: a crash, or its own watchdog killing a
-    # hung run (exit 3). Restart it (a hang on 2026-10-13 went unnoticed for 2 days because the
-    # orchestrator only ran once a day), backing off so a crash loop doesn't spin.
+    # --once: the scraper does one full scrape pass, drains the review queue and exits 0, so
+    # run_scrapers_sequential.ps1 can run each dashboard in turn and then unload the model.
+    # A non-zero exit is a crash or its own watchdog killing a hung run (exit 3); restart it,
+    # backing off so a crash loop doesn't spin.
     for attempt in range(1, 11):
-        if run_script("scraper.py"):
+        if run_script("scraper.py", "--once"):
             break
         print(f"Scraper exited abnormally (attempt {attempt}/10) - restarting in {min(60 * attempt, 600)}s...")
         time.sleep(min(60 * attempt, 600))

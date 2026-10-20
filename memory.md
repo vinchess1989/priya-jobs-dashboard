@@ -192,6 +192,16 @@ note said no scheduled task exists — wrong. The Windows Scheduled Task is name
 `PriyaJobsLocalLLMOrchestrator` (runs `venv\Scripts\python.exe orchestrator.py`, which spawns
 `scraper.py`); a search for "priya_jobs"/"scraper" in task names misses it. Restart with
 `Stop-ScheduledTask` / `Start-ScheduledTask -TaskName PriyaJobsLocalLLMOrchestrator`.
+**Superseded 2026-10-20 — sequential morning run:** `PriyaJobsLocalLLMOrchestrator`,
+`PriyaGlobalJobsLocalLLMOrchestrator` and `ManjuUkJobsOrchestrator` are now **disabled**. The always-on
+daemons kept qwen3-14b busy (~10 GB RAM, ~40% CPU) all day. One task, `JobScrapersSequentialMorning`
+(daily 08:00, StartWhenAvailable, no time limit, IgnoreNew), runs `~\.claude\run_scrapers_sequential.ps1`:
+loads qwen3-14b with the validated settings if needed, runs priya_jobs → priya_global_jobs → manju_uk_jobs
+one at a time, then `lms unload --all`. Log: `~\.claude\run_scrapers_sequential.log`. Each orchestrator
+now runs `scraper.py --once`: scrape until the checkpoint reaches the last target (ignoring
+SCRAPE_INTERVAL_SECONDS), then drain the review queue, exiting when it is empty or a round clears
+nothing. Plain `scraper.py` (no flag) is still the old endless daemon for manual use. To run now:
+`Start-ScheduledTask JobScrapersSequentialMorning`. Backlog at switch-over: 4,975 pending here.
 
 ## Location scope narrowed, Today card, scrape starvation fix (2026-09-25)
 
