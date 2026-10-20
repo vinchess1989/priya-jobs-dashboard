@@ -112804,15 +112804,14 @@
     "url": "https://pt.linkedin.com/jobs/view/software-development-quality-assurance-engineer-at-devoteam-4454743716",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Lisbon, Portugal, violating the requirement that on-site or hybrid roles must be in Finland.",
+    "reason": "The job is located in Lisbon, Portugal, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
     "id": "1646bb29",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-09T06:49:05+03:00",
-    "posted_date": "1 tydzie\u0144 temu",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Rakennust\u00f6iden valvoja ty\u00f6maan johtoon",
@@ -112885,15 +112884,14 @@
     "url": "https://cn.linkedin.com/jobs/view/quality-manager-vt-at-messring-gmbh-4474890119",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in Shenzhen, China, which is outside Finland and not a remote role, violating the location requirement.",
+    "reason": "The job is physically located in Shenzhen, China, violating the geographic rule requiring locations to be in Finland or globally remote.",
     "id": "94a31b69",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T06:52:51+03:00",
-    "posted_date": "N/A",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager/\u8d28\u91cf\u7ecf\u7406",
@@ -112902,15 +112900,14 @@
     "url": "https://cn.linkedin.com/jobs/view/quality-manager-%E8%B4%A8%E9%87%8F%E7%BB%8F%E7%90%86-at-%E4%B8%9D%E8%89%BE%E7%A7%91%E6%8A%80%E4%B8%AD%E5%9B%BD-4474877688",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Suzhou, China, which violates the candidate's location criteria of Finland or remote work available from Finland.",
+    "reason": "The job is physically located in Suzhou, China, which violates the location requirements since the candidate is based in Finland and not looking to relocate outside Finland.",
     "id": "0d712ac8",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T06:52:51+03:00",
     "posted_date": "2026-10-09",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Principal Regulatory Affairs Specialist",
@@ -113335,15 +113332,14 @@
     "url": "https://vn.linkedin.com/jobs/view/quality-manager-local-vietnamese-only-at-robert-walters-4474009837",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Ho Chi Minh City, Vietnam, and explicitly restricted to local Vietnamese candidates, violating the candidate's location criteria.",
+    "reason": "The role is located in Ho Chi Minh City, Vietnam, and explicitly restricted to local Vietnamese candidates, violating location and relocation criteria.",
     "id": "ca979174",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T07:54:52+03:00",
-    "posted_date": "3 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u54c1\u8d28\u7ecf\u7406",
@@ -113368,15 +113364,14 @@
     "url": "https://www.linkedin.com/jobs/view/quality-manager-at-connexion-systems-and-engineering-inc-4451552628",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Lawrence, Massachusetts, United States, violating the strict hard rejection rule against US-based jobs.",
+    "reason": "This job is physically located in the United States (Lowell, MA) and violates the strict US location exclusion rule.",
     "id": "cd820605",
     "source": "linkedin_ww_remote_quality_manager",
     "added_at": "2026-10-09T07:54:52+03:00",
-    "posted_date": "2 viikkoa sitten",
+    "posted_date": "h\u00e1 6 dias",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "QUALITY MANAGER",
@@ -113385,15 +113380,14 @@
     "url": "https://es.linkedin.com/jobs/view/quality-manager-at-rdt-4465409860",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This construction and physical site quality management role in Spain violates the candidate's location and background criteria.",
+    "reason": "This is a physical construction and site quality management role in Spain, violating the hard rejection against manufacturing, construction, and physical production quality roles.",
     "id": "226e4e70",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T07:55:19+03:00",
-    "posted_date": "3 viikkoa sitten",
+    "posted_date": "h\u00e1 1 m\u00eas",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Site Quality Manager (m/w/d)",
@@ -113402,15 +113396,14 @@
     "url": "https://de.linkedin.com/jobs/view/site-quality-manager-m-w-d-at-ineos-styrolution-4475997111",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Germany (outside Finland) and focuses on physical site quality management in the chemical industry rather than software release or quality management.",
+    "reason": "This is an on-site manufacturing quality management role located in Germany requiring fluent German, violating multiple hard rejections regarding location and language.",
     "id": "b1e029cf",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T07:55:19+03:00",
-    "posted_date": "10 tuntia sitten",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Assurance System Manager",
@@ -113419,15 +113412,14 @@
     "url": "https://es.linkedin.com/jobs/view/quality-assurance-system-manager-at-pharma-new-talent-4477184459",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Madrid, Spain, and does not permit remote work from Finland.",
+    "reason": "The job is physically located in Madrid, Spain, which violates the candidate's requirement to work in Finland or remotely from Finland.",
     "id": "ac500d83",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T07:55:19+03:00",
-    "posted_date": "15 tuntia sitten",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Responsable Assurance Qualit\u00e9 F/H",
@@ -113452,15 +113444,14 @@
     "url": "https://be.linkedin.com/jobs/view/quality-manager-at-progressive-4472891223",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Belgium and outside of Finland, violating the location requirements, and is also in the food/manufacturing industry rather than software or medical devices.",
+    "reason": "The role is located in Belgium and is a manufacturing/food safety quality management position, which falls under the hard rejection for non-Finland on-site roles and manufacturing/production quality roles.",
     "id": "4b713aa7",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T07:55:19+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Kierownik / Kierowniczka Jako\u015bci",
@@ -113485,15 +113476,14 @@
     "url": "https://be.linkedin.com/jobs/view/quality-assurance-manager-at-medix-laboratoires-4473278184",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This Quality Assurance Manager role is located in Belgium and focuses on food safety and production (FSSC 22000, IFS, HACCP) in the food industry, which does not match the candidate's software/regulated tech background.",
+    "reason": "The role is located in Belgium and is not remote, which violates the location requirement, and it focuses on food safety/manufacturing quality rather than software/medical-device quality.",
     "id": "67c7fcf5",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T07:55:19+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "h\u00e1 3 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Raudoittaja",
@@ -113854,15 +113844,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-assurance-engineer-m-w-d-medical-plastic-devices-at-oechsler-4379681453",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This on-site role in Germany is for manufacturing quality assurance in medical plastic devices (hardware/production), which violates the hard rejection rule against physical manufacturing and production quality roles.",
+    "reason": "This on-site manufacturing quality assurance role in Germany violates the location policy (only Finland or fully remote jobs are accepted).",
     "id": "2ecdd3a8",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-09T08:54:48+03:00",
     "posted_date": "h\u00e1 7 meses",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Site Quality Manager",
@@ -113871,15 +113860,14 @@
     "url": "https://it.linkedin.com/jobs/view/site-quality-manager-at-michael-page-4477141687",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a manufacturing site quality management role located in Genoa, Italy, which violates the geographic location rules and focuses on physical manufacturing quality rather than software release or configuration management.",
+    "reason": "The role is an on-site manufacturing quality management position in Italy, which violates the location policy, and it focuses on physical manufacturing quality rather than software release or configuration management.",
     "id": "ea1e0ac3",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T08:57:42+03:00",
-    "posted_date": "h\u00e1 19 horas",
+    "posted_date": "h\u00e1 1 semana",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager*in (m/w/d) Operations",
@@ -113888,15 +113876,14 @@
     "url": "https://de.linkedin.com/jobs/view/quality-assurance-manager-in-m-w-d-operations-at-lgc-4472185663",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Berlin, Germany (onsite/hybrid), which violates the rule that on-site or hybrid roles must be in Finland.",
+    "reason": "The job is located in Berlin, Germany, and is not a remote role open to candidates in Finland, violating the location policy.",
     "id": "3f77733d",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T08:57:42+03:00",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Assurance Manager",
@@ -113905,15 +113892,14 @@
     "url": "https://es.linkedin.com/jobs/view/quality-assurance-manager-at-time-manufacturing-company-inc-4474343948",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Spain and is a manufacturing quality management position focused on ISO 9001, ISO 14001, and occupational health and safety, rather than software release, configuration management, or software quality.",
+    "reason": "The job is located in Spain and is not a remote role, which violates the requirement that non-Finland roles must be fully remote and open to candidates living in Finland.",
     "id": "5d70757a",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T08:57:42+03:00",
-    "posted_date": "h\u00e1 1 semana",
+    "posted_date": "h\u00e1 2 semanas",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager BOLIA",
@@ -113922,15 +113908,14 @@
     "url": "https://dk.linkedin.com/jobs/view/quality-manager-bolia-at-bolia-4470942020",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This is a physical product quality management role in furniture retail focusing on supply chain compliance (BSCI, FSC, EUDR) and physical goods quality control, which falls outside the candidate's software, medical device, and automotive release/CM/documentation expertise.",
+    "reason": "The role is a physical product quality management position in Denmark, which violates the location policy and the exclusion of manufacturing/physical quality roles.",
     "id": "e2483b44",
     "source": "linkedin_eu_remote_quality_manager",
     "added_at": "2026-10-09T08:57:42+03:00",
-    "posted_date": "h\u00e1 2 semanas",
+    "posted_date": "h\u00e1 3 semanas",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager (m/f/d)",
