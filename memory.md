@@ -904,3 +904,14 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
   `job-boards.greenhouse.io/embed/job_app?for=theqtcompany&token=<id>` (the non-embed URL redirects back to qt.io's iframe).
 - New Greenhouse UI dropdowns are react-select comboboxes: type the option, then click a **visible, exact-text**
   `[role=option]`. A bare `has_text="No"` matches the hidden phone-country list (Lebanon) and times out.
+
+## Automation Chrome closed overnight -> filled review tabs lost (2026-10-21)
+- On the 2026-10-21 05:30 tick the "Priya Automation Profile" Chrome was gone (port 9222 refused) while her normal
+  Chrome (default `User Data`, no args) was still running. Every filled-but-unsubmitted form tab died with it.
+- The skill's schtasks launch just sat "Queued" and never started Chrome. Launching directly worked at once:
+  `Start-Process chrome.exe -ArgumentList '--remote-debugging-port=9222','--user-data-dir="...\Priya Automation Profile"'`.
+  It runs as a separate instance, so there's no need to kill her normal Chrome (the skill's taskkill would close her own browser too).
+- Recovery: list Firestore `form_filled.status == pending_review` (and not applied), then re-run each job's
+  `scratch/hardcoded_fill_<id>.py`. Teamtailor custom-question IDs (`boolean-<n>-true`) can change between visits
+  (CoE, Twoday), so re-dump the radio IDs if a `.check()` times out. CoE/Twoday forms stay locked until the permit
+  question is answered.
