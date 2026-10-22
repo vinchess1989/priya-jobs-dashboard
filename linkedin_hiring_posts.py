@@ -89,7 +89,9 @@ def scan(period, show_all):
                     name, text = lines[0], " | ".join(lines[1:])[:2500]
                     if NOISE.search(text) or not (HIRING.search(text) and ROLE.search(text) and PLACE.search(text)):
                         continue
-                    key = hashlib.md5((name + text[:300]).encode("utf-8")).hexdigest()[:12]
+                    # The post's age ("3h", "Oct 9", "Yesterday", "• Edited") changes between runs - keep it out of the key.
+                    stable = re.sub(r"\b\d+\s*[hdwm]\b|\b[A-Z][a-z]{2} \d{1,2}\b|Yesterday|Edited|•", "", text)
+                    key = hashlib.md5((name + re.sub(r"\s+", " ", stable)[:300]).encode("utf-8")).hexdigest()[:12]
                     new = key not in seen
                     if new:
                         seen[key] = {"name": name, "first_seen": datetime.date.today().isoformat()}
