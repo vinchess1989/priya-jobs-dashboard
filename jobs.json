@@ -140309,15 +140309,14 @@
     "url": "https://www.linkedin.com/jobs/view/qa-engineer-j0051199-at-astemo-ltd-4456348430",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Berea, KY), which is a strict hard rejection, and it is a manufacturing quality role focused on physical supplier quality processes rather than software release or configuration management.",
+    "reason": "The job is located in Berea, Kentucky, United States, violating the strict US location exclusion rule, and is a physical supplier quality role in manufacturing.",
     "id": "35b4a24f",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-12T23:13:14+03:00",
     "posted_date": "2026-09-12",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Ing\u00e9nieur Qualit\u00e9 Produit - Secteur A\u00e9ronautique H/F",
@@ -147386,15 +147385,14 @@
     "url": "https://pt.linkedin.com/jobs/view/senior-qa-engineer-at-amadeus-4456893462",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Lisbon, Portugal, which is outside Finland and not a fully remote role, disqualifying it under Priya's strict location requirements.",
+    "reason": "The job is located in Carnaxide, Lisbon, Portugal, which violates the candidate's requirement to be based in Finland or remote worldwide/EU.",
     "id": "0ddac806",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-16T05:08:45+03:00",
-    "posted_date": "il y a 23\u00a0heures",
+    "posted_date": "2026-10-17",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Operations Quality Engineer - Shift",
@@ -147419,15 +147417,14 @@
     "url": "https://dk.linkedin.com/jobs/view/qa-engineer-automation-at-spektr-4479824609",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Copenhagen, Denmark, which falls under the 'Outside Finland and Not Remote' hard rejection rule as it requires on-site presence outside Finland.",
+    "reason": "The job is physically located in Copenhagen, Denmark, which fails the location requirement since the candidate is based in Finland and the role is not remote.",
     "id": "2dfd4afa",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-16T05:08:45+03:00",
-    "posted_date": "il y a 13\u00a0heures",
+    "posted_date": "2026-10-16",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -147468,15 +147465,14 @@
     "url": "https://pt.linkedin.com/jobs/view/qa-engineer-french-speaker-at-dellent-4478820195",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located/hybrid in Portugal (Lisbon or Porto) and requires fluency in French, whereas the candidate is based in Finland and does not speak French.",
+    "reason": "The role is located in Portugal and requires fluency in French, whereas the candidate is based in Finland and does not speak French.",
     "id": "1215d6c5",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-16T05:08:45+03:00",
-    "posted_date": "il y a 2 jours",
+    "posted_date": "2026-10-16",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Ingeniero/a Calidad APQP",
@@ -149725,15 +149721,14 @@
     "url": "https://in.linkedin.com/jobs/view/embedded-qa-test-engineer-at-generac-4477376478",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in India, which violates the requirement that the role must be in Finland or a remote role accessible from Finland.",
+    "reason": "The job is located in Ramban, Jammu & Kashmir, India, which violates the geographic location requirements.",
     "id": "054df1bf",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-16T22:12:10+03:00",
     "posted_date": "2026-10-16",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Founding Staff Firmware Engineer",
@@ -149838,15 +149833,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-regulatory-test-engineer-at-ubiquiti-inc-4480169767",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Draper, UT, USA, violating the strict US location exclusion rule.",
+    "reason": "The job is located in the United States (Draper, UT), which triggers the strict hard rejection rule for US-based roles.",
     "id": "80fbfffe",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-16T22:12:10+03:00",
     "posted_date": "2026-10-16",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Global Quality Manager - Fuel Cell Manufacturing",
@@ -152018,15 +152012,14 @@
     "url": "https://fi.linkedin.com/jobs/view/tekninen-testausinsin%C3%B6%C3%B6ri-at-avant-tecno-4477371641",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hardware-focused technical testing position involving physical machinery, hall environments, and manual testing, which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This physical machinery and equipment testing role (loaders and attachments) falls under the hard rejection for manufacturing and hardware lab/bench testing.",
     "id": "35e4e544",
     "source": "linkedin_fi_technical_writer",
     "added_at": "2026-10-18T06:55:57+03:00",
-    "posted_date": "1 p\u00e4iv\u00e4 sitten",
+    "posted_date": "2026-10-17",
     "deadline": "2026-10-29",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Technical Writer (TS/SCI Clearance with Full Scope Polygraph Required)",
@@ -153218,16 +153211,15 @@
     "location": "Uusimaa, Finland",
     "url": "https://fi.linkedin.com/jobs/view/senior-test-automation-engineer-at-hiq-finland-4477399250",
     "visited": "yes",
-    "matches_requirements": "no",
-    "reason": "The job posting explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "matches_requirements": "maybe",
+    "reason": "The role matches Priya's test automation, Python, Jenkins, and CI/CD skill set, but the posting mentions that fluent Finnish and Swedish are needed in many of their client accounts.",
     "id": "9b604623",
     "source": "linkedin_fi_quality_engineer_p2",
     "added_at": "2026-10-18T18:25:49+03:00",
-    "posted_date": "2 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-10-17",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Manufacturing Engineer",
@@ -156772,15 +156764,14 @@
     "url": "https://thehub.fi/jobs/6ad642e643c7acf29b78d811",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is a hardware-focused RF test engineering position requiring hands-on laboratory equipment and PCBA testing, which falls under the hard rejection for manufacturing/hardware quality roles.",
+    "reason": "This is a hands-on hardware lab testing and RF engineering role requiring electronics bench testing with instruments like oscilloscopes and spectrum analyzers, which falls under the hard rejection for hardware lab testing.",
     "id": "05158bff",
     "source": "work_in_finland",
     "added_at": "2026-10-20T11:35:59+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Open Application: Global Manufacturing Operations (GMO)ICEYEEspooGo to job site",
@@ -159190,15 +159181,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=864eb11f9f8bc7a4",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires an RF Test Engineer with hardware testing expertise, which does not align with Priya's background in software release/CI-CD, configuration management, and technical documentation (her last role was quality gatekeeper on a regulated tele-refraction platform).",
+    "reason": "This is a hands-on hardware lab testing and satellite assembly/RF testing role which falls under the hard rejection rule for hardware lab testing and physical production quality.",
     "id": "af26ef77",
     "source": "indeed_fi_requirements_engineer",
     "added_at": "2026-10-20T17:54:33+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Systems Engineer",
@@ -159559,15 +159549,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-test-engineer-at-loihde-4481546088",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job explicitly requires fluent Finnish ('sujuvaa suomen ja englannin kielen taitoa'), which the candidate does not possess.",
     "id": "37130846",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-20T18:17:46+03:00",
-    "posted_date": "8 tuntia sitten",
+    "posted_date": "2026-10-21",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Test automation engineer",
@@ -159576,15 +159565,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-automation-engineer-at-twoday-4478669811",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent Finnish (Sujuvaa suomen kielen taitoa), which conflicts with the candidate's language profile.",
+    "reason": "The job posting explicitly requires fluent Finnish language skills, which violates the candidate's language constraints.",
     "id": "d1785237",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-20T18:17:46+03:00",
-    "posted_date": "4 tuntia sitten",
+    "posted_date": "2026-10-21",
     "deadline": "Open until filled",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Quality Engineer",
@@ -159689,15 +159677,14 @@
     "url": "https://www.jobly.fi/tyopaikka/qa-engineer-2781953",
     "visited": "yes",
     "matches_requirements": "yes",
-    "reason": "The role is a QA Engineer position in Finland that aligns with the candidate's background in embedded systems, CI/CD, and quality engineering, and it does not violate any hard rejection criteria.",
+    "reason": "This QA Engineer role matches her testing, Python, and CI/CD automation background, located in Finland with English as the working language.",
     "id": "867dbc0d",
     "source": "jobly_fi_quality_engineer",
     "added_at": "2026-10-20T18:19:57+03:00",
     "posted_date": "2026-10-19",
     "deadline": "N/A",
-    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/sine_engineering_qa_engineer_867dbc0d.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": "job_descriptions/sine_engineering_qa_engineer_867dbc0d.txt"
   },
   {
     "title": "Subcontracting Quality Engineer",
@@ -160602,15 +160589,14 @@
     "url": "https://uk.linkedin.com/jobs/view/senior-test-engineer-at-fuse-energy-4481596154",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in the UK and requires hands-on hardware lab/bench testing, which violates the location and hardware-quality hard rejection criteria.",
+    "reason": "This is a hands-on hardware lab testing and electrical compliance role based in London, which violates the geographic location criteria and the hard rejection rule against hardware lab testing.",
     "id": "8d82c3f4",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-20T19:11:43+03:00",
-    "posted_date": "2 tuntia sitten",
+    "posted_date": "2026-10-21",
     "deadline": "N/A",
-    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Founding Embedded Systems Engineer",
@@ -161451,15 +161437,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=25f02aa6cd6b607c",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job description explicitly requires fluent Finnish language skills, which the candidate does not possess.",
+    "reason": "The job posting requires fluent Finnish ('Sujuvaa suomen kielen taitoa'), which the candidate does not possess.",
     "id": "446a6db7",
     "source": "indeed_fi_devops_engineer",
     "added_at": "2026-10-20T22:12:26+03:00",
     "posted_date": "N/A",
     "deadline": "Open until filled",
-    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
+    "eval_model": "gemini/gemini-3.5-flash-lite",
     "description_file": null,
-    "needs_re_review": true,
     "applied": "yes"
   },
   {
