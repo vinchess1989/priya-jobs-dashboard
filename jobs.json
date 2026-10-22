@@ -82219,15 +82219,14 @@
     "url": "https://www.linkedin.com/jobs/view/firmware-test-engineering-manager-at-milwaukee-tool-4464379140",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This job is located in Brookfield, Wisconsin, USA, and violates the strict hard rejection rule against US-based positions.",
+    "reason": "The job is located in Brookfield, Wisconsin, US, violating the strict US location exclusion rule.",
     "id": "5479f4e1",
     "source": "linkedin_ww_remote_iec_61508_p2",
     "added_at": "2026-10-06T11:36:27+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Compliance Engineer",
@@ -84140,15 +84139,14 @@
     "url": "https://www.jobly.fi/en/job/test-automation-engineer-banking-sector-helsinki-2772772",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on test automation for payment systems rather than release/CM/DevOps or technical documentation/quality gatekeeping roles that align with Priya\u2019s background.",
+    "reason": "The job posting explicitly states that it is no longer active and is no longer accepting applications.",
     "id": "d44fbe74",
     "source": "work_in_finland",
     "added_at": "2026-10-06T14:59:38+03:00",
     "posted_date": "2026-10-05",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "OU SAS Portfolio ManagerHitachi EnergyVaasaGo to job site",
@@ -87136,15 +87134,14 @@
     "url": "https://fi.linkedin.com/jobs/view/test-automation-lead-consultant-at-gofore-4474045700",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job posting explicitly requires professional-level Finnish language skills ('Ammatillinen suomen kielen taito on olennaista'), which the candidate does not possess.",
+    "reason": "The role requires professional-level Finnish language proficiency ('Ammatillinen suomen kielen taito on olennaista'), which the candidate does not possess.",
     "id": "24b8d137",
     "source": "linkedin_fi_quality_manager",
     "added_at": "2026-10-07T00:44:24+03:00",
-    "posted_date": "11 tuntia sitten",
+    "posted_date": "2026-10-09",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Manager (Medical Device)",
@@ -87874,15 +87871,14 @@
     "url": "https://it.linkedin.com/jobs/view/hil-test-engineer-at-nidec-conversion-4375415907",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires physical on-site/hybrid work in Italy and focuses on hardware-in-the-loop (HIL) testing for power electronics rather than software release or configuration management.",
+    "reason": "The job is located in Italy (Cinisello Balsamo, Lombardy, Italy) and requires physical presence/hybrid work, which violates the relocation and location criteria.",
     "id": "9b51ea74",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-07T03:15:20+03:00",
-    "posted_date": "il y a 4 jours",
+    "posted_date": "2026-10-16",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Industrial Cybersecurity Test Manager",
@@ -87907,15 +87903,14 @@
     "url": "https://ee.linkedin.com/jobs/view/hardware-test-engineer-reconeyez-defendec-at-vosker-4472010801",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Tallinn, Estonia, and involves hands-on hardware lab testing and regulatory testing, which triggers the hard rejection for physical manufacturing/hardware lab testing roles outside Finland.",
+    "reason": "This is a hardware lab testing and electronics compliance role in Tallinn, Estonia, which violates both the hardware lab testing hard rejection and the outside-Finland location rule.",
     "id": "12324b7d",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-07T03:15:20+03:00",
-    "posted_date": "il y a 3 jours",
+    "posted_date": "2026-10-18",
     "deadline": "N/A",
-    "eval_model": "gemini-vineeth-bits/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Certification Lead",
@@ -91091,16 +91086,15 @@
     "location": "Helsinki Metropolitan Area",
     "url": "https://fi.linkedin.com/jobs/view/julkaisu-ja-testausp%C3%A4%C3%A4llikk%C3%B6-at-hehf-%E2%80%93-highered-hub-finland-oy-4476574357",
     "visited": "yes",
-    "matches_requirements": "yes",
-    "reason": "The role perfectly aligns with Priya's extensive experience in release management, CI/CD, quality assurance, and process development within a professional, English-speaking environment in Finland.",
+    "matches_requirements": "no",
+    "reason": "The role requires fluent Finnish as a mandatory working language, which is a hard rejection since Priya does not speak Finnish.",
     "id": "18eaa910",
     "source": "linkedin_fi_quality_manager",
     "added_at": "2026-10-07T11:01:25+03:00",
     "posted_date": "2026-10-07",
     "deadline": "2026-10-28",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": "job_descriptions/hehf___highered_hub__julkaisu__ja_testausp__llikk__18eaa910.txt",
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Manager - Quality _ Homecentre",
@@ -95797,15 +95791,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=78621d41c028a509",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting explicitly requires EU citizenship as a mandatory qualification, whereas the candidate holds a residence permit rather than Finnish/EU citizenship.",
+    "reason": "The job posting explicitly requires EU citizenship as a mandatory qualification, whereas the candidate holds a residence permit rather than EU citizenship.",
     "id": "9413fdaf",
     "source": "indeed_fi_product_specialist",
     "added_at": "2026-10-07T16:57:31+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Odoo-konsultti / -ratkaisuarkkitehti",
@@ -101222,15 +101215,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-qa-engineer-f-m-d-at-idnow-4382510233",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Rennes, France (on-site/hybrid) and requires fluency in both English and French.",
+    "reason": "The job is physically located in Rennes, France (outside Finland) and is an on-site/hybrid role, and the posting also explicitly requires fluent French in addition to English.",
     "id": "6495d063",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-07T23:03:42+03:00",
     "posted_date": "2026-10-07",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior QA Engineer (SEPA/Iberpay Payments Expert)",
@@ -101239,15 +101231,14 @@
     "url": "https://es.linkedin.com/jobs/view/senior-qa-engineer-sepa-iberpay-payments-expert-at-knowmad-mood-4466593833",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Madrid, Spain (on-site/hybrid) and requires specific banking payments expertise (SEPA, Iberpay) which does not match Priya's background.",
+    "reason": "The job is physically located in Madrid, Spain, and does not offer remote work from Finland, violating the candidate's location requirements.",
     "id": "9ce6eda9",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-07T23:03:42+03:00",
     "posted_date": "2026-09-16",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "QA Automation Engineer - BeReal",
@@ -101272,15 +101263,14 @@
     "url": "https://be.linkedin.com/jobs/view/qa-engineer-at-vulcain-engineering-group-belgium-4472567313",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This QA Engineer role is located in Belgium and requires physical presence in Leuven along with knowledge of Dutch, which violates the candidate's location and language requirements.",
+    "reason": "This QA Engineer role focuses heavily on physical production, manufacturing processes, and GMP in the pharmaceutical/medical device industry, and explicitly requires Dutch language skills.",
     "id": "e0f85eab",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-07T23:03:42+03:00",
     "posted_date": "2026-10-01",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Assurance Engineer (R-20005)",
@@ -101433,15 +101423,14 @@
     "url": "https://be.linkedin.com/jobs/view/qa-engineer-at-normec-advipro-4368310489",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Antwerp, Belgium, violating the requirement that out-of-Finland on-site/hybrid roles must be rejected.",
+    "reason": "The job is physically located in Antwerp, Belgium, violating the location constraint requiring jobs to be either in Finland or fully remote and compatible with living in Finland.",
     "id": "3b077675",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-07T23:05:20+03:00",
     "posted_date": "2026-09-30",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Quality Assurance Engineer",
@@ -102058,15 +102047,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-test-automation-expert-at-visionite-oy-4447305784",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The posting requires fluency in both Finnish and English, and Priya does not speak Finnish.",
+    "reason": "The job posting explicitly requires the candidate to communicate well in both Finnish and English, and Priya does not speak Finnish.",
     "id": "55d1daa8",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-08T00:50:07+03:00",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "2026-08-24",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Commissioning Manager",
@@ -107115,15 +107103,14 @@
     "url": "https://fi.linkedin.com/jobs/view/lead-test-engineer-helsinki-at-elisa-4475937740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role requires fluent communication skills in both Finnish and English as a mandatory qualification, which conflicts with the candidate's lack of Finnish proficiency.",
+    "reason": "The job posting requires fluent communication skills in both Finnish and English, which violates the candidate's language constraint.",
     "id": "3672a2d4",
     "source": "linkedin_fi_quality_engineer",
     "added_at": "2026-10-08T17:30:49+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-10-09",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Development Engineer, Power Systems",
@@ -108509,15 +108496,14 @@
     "url": "https://be.linkedin.com/jobs/view/qa-engineer-at-purna-pharmaceuticals-4467713935",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Belgium and is not a remote role, which violates the location policy for candidates based in Finland.",
+    "reason": "The job is physically located in Belgium and involves physical pharmaceutical manufacturing QA (GMP, plant production, deviations, calibration), which falls outside her software/medical-device digital quality background and location preferences.",
     "id": "5f15276f",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-08T21:18:24+03:00",
     "posted_date": "2026-09-17",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Quality Engineer",
@@ -164067,8 +164053,8 @@
     "added_at": "2026-10-21T01:44:40+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "error_attempts": 2,
-    "last_error_at": "2026-10-22T20:15:43+03:00",
+    "error_attempts": 3,
+    "last_error_at": "2026-10-23T02:16:51+03:00",
     "description_file": null
   },
   {
