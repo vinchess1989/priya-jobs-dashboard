@@ -49,7 +49,8 @@ ROLE = re.compile(r"test|tester|testaaj|testau|\bQA\b|quality|laatu|release|devo
                   r"requirement|vaatimus|product specialist|project coordinat|delivery", re.I)
 PLACE = re.compile(r"oulu|finland|suomi|suomessa|helsinki|espoo|tampere|vantaa|turku|jyväskylä|"
                    r"remote|etätyö|hybrid", re.I)
-NOISE = re.compile(r"CAGR|market (size|research|outlook)|visa sponsorship 2026|delivery driver", re.I)
+NOISE = re.compile(r"CAGR|market (size|research|outlook)|visa sponsorship 2026|delivery driver|"
+                   r"open to (new |international )?(opportunities|roles)|actively looking for", re.I)
 SKIP_LINES = {"Follow", "•", "Like", "Comment", "Repost", "Send", "…more", "...more", "Show translation"}
 LINKS_JS = r"""() => [...document.querySelectorAll('a[href*="/in/"], a[href*="/company/"]')]
     .map(a => [a.innerText.trim().split('\n')[0], a.href.split('?')[0]]).filter(x => x[0])"""
