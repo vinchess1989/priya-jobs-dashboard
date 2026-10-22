@@ -1,5 +1,16 @@
 # Project Memory — priya_jobs
 
+## "Scraper not responding" badge after the sequential-run switch (2026-10-22)
+
+- With the daily 08:00 `JobScrapersSequentialMorning` run, the heartbeat is legitimately stale for ~23 h/day, so
+  the old >2 h rule showed red all day. The scraper now writes `phase: "run_finished"` and pushes it when a
+  `--once` run ends; `index.html` shows "Scraper idle" for that phase for up to 26 h.
+- Real bug found: after the 60-min budget `scraper.py --once` crashed at interpreter shutdown (0xC0000005, daemon
+  stdin thread), so `orchestrator.py` retried it with backoff for the full 80 min and the runner killed it
+  (exit 1). Fixed with `os._exit(0)` after `main()` for `--once`, and the orchestrator no longer retries once
+  `SCRAPER_DEADLINE` has passed. Sibling scrapers (priya_global_jobs, manju_uk_jobs) likely have the same
+  crash/retry loop and a red badge; not yet ported.
+
 ## Importing a LinkedIn search Priya ran herself (2026-09-30)
 
 - The logged-in `linkedin.com/jobs/search-results/` UI has no job ids in its links: cards are
