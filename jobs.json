@@ -67113,15 +67113,14 @@
     "url": "https://www.linkedin.com/jobs/view/qa-engineer-i-j0051198-at-astemo-ltd-4456340488",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in the United States (Berea, Kentucky), which violates the strict non-negotiable exclusion for US-based roles.",
+    "reason": "The job is physically located in the United States (Berea, KY), which violates the strict geographic exclusion rule.",
     "id": "d083d91b",
     "source": "linkedin_ww_remote_quality_engineer",
     "added_at": "2026-10-02T13:33:45+03:00",
-    "posted_date": "2 kuukautta sitten",
+    "posted_date": "2026-08-24",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Staff Quality Engineer",
@@ -67594,15 +67593,14 @@
     "url": "https://fr.linkedin.com/jobs/view/qa-engineer-at-onestock-4397364114",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in France and is not a remote role, which violates the location requirements for candidates based in Finland.",
+    "reason": "The job is located in France (Greater Toulouse Metropolitan Area), which violates the relocation and location requirements since Priya is based in Finland and not seeking on-site roles outside Finland.",
     "id": "b6b9ebea",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-02T15:45:55+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior QA Engineer - Manual & Automated Testing \"Supper App\"",
@@ -67611,15 +67609,14 @@
     "url": "https://es.linkedin.com/jobs/view/senior-qa-engineer-manual-automated-testing-supper-app-at-yassir-4281698645",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The position is on-site in Barcelona, Spain, which is outside Finland and not a remote role.",
+    "reason": "The job is physically located in Barcelona, Spain, which violates the candidate's location requirement of being based in Finland or fully remote.",
     "id": "a69a1e47",
     "source": "linkedin_eu_remote_quality_engineer",
     "added_at": "2026-10-02T15:45:55+03:00",
-    "posted_date": "hace 1 a\u00f1o",
+    "posted_date": "1 year ago",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-120b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior QA Engineer",
@@ -67628,15 +67625,14 @@
     "url": "https://fr.linkedin.com/jobs/view/senior-qa-engineer-at-payplug-4458954359",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "Job is located in France and is closed, not meeting location and application status criteria.",
+    "reason": "The job is physically located in Paris, France (on-site/local), which violates the candidate's geographic requirement to be based in Finland or in a role that can be done fully remote from Finland.",
     "id": "aa2d9605",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-02T17:01:36+03:00",
-    "posted_date": "hace 2 meses",
+    "posted_date": "2026-10-16",
     "deadline": "N/A",
-    "eval_model": "groq/openai/gpt-oss-20b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Quality Assurance Engineer",
@@ -67713,11 +67709,10 @@
     "id": "042ef1c2",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-02T17:01:36+03:00",
-    "posted_date": "hace 1 mes",
+    "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Morelena Quality Engineer",
@@ -67806,15 +67801,14 @@
     "url": "https://pt.linkedin.com/jobs/view/salesforce-qa-engineer-at-movilges-it-consulting-4448228813",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Lisbon, Portugal and specifies remote work from Portugal, which does not meet the candidate's location criteria of being based in Finland or globally remote without residency restrictions in another specific country.",
+    "reason": "The job is physically located in Lisbon, Portugal, and the remote work regime is restricted to Portugal, failing the candidate's location criteria requiring roles to be in Finland or globally/EU remote.",
     "id": "35a2cade",
     "source": "linkedin_eu_remote_quality_engineer_p2",
     "added_at": "2026-10-02T17:01:36+03:00",
-    "posted_date": "hace 2 meses",
+    "posted_date": "2026-08-24",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Design Engineer",
@@ -70831,15 +70825,14 @@
     "url": "https://fi.linkedin.com/jobs/view/embedded-software-test-automation-developer-at-gofore-4467369959",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires professional proficiency in Finnish (and English), which Priya does not possess, and the role focuses on embedded software/test automation development rather than her expertise in release/CM/DevOps or technical writing.",
+    "reason": "The job posting explicitly states it is no longer accepting applications.",
     "id": "b06cc6f8",
     "source": "linkedin_fi_functional_safety",
     "added_at": "2026-10-03T20:05:31+03:00",
-    "posted_date": "1 viikko sitten",
+    "posted_date": "2026-09-23",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.1-flash-lite",
+    "description_file": null
   },
   {
     "title": "Robotic Platform Developer",
@@ -70880,15 +70873,14 @@
     "url": "https://fi.linkedin.com/jobs/view/senior-firmware-test-automation-engineer-at-eaton-4405559258",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is focused on firmware test automation and embedded systems testing rather than configuration management, release management, or quality gatekeeping, which are central to Priya\u2019s background and target criteria.",
+    "reason": "This role falls under the hard rejection rule for manufacturing, construction, or hardware quality/testing roles, as it requires practical experience using laboratory equipment and working safely in a high-voltage laboratory environment.",
     "id": "55b29d6d",
     "source": "linkedin_fi_functional_safety",
     "added_at": "2026-10-03T20:05:31+03:00",
-    "posted_date": "6 p\u00e4iv\u00e4\u00e4 sitten",
+    "posted_date": "2026-10-19",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior AIT Engineer, Electronics",
@@ -72033,15 +72025,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=c0cdbf3c332d2a8a",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "This role requires hands-on hardware lab testing (oscilloscopes, multimeters, high-voltage laboratory environment) which falls under the hard rejection criteria for manufacturing, construction, or hardware quality roles.",
+    "reason": "This role requires hands-on hardware lab testing (oscilloscopes, multimeters, high-voltage laboratory environment), which falls under the hard rejection criteria for manufacturing, construction, or hardware quality and lab testing roles.",
     "id": "9ae55359",
     "source": "indeed_fi_functional_safety",
     "added_at": "2026-10-04T03:23:09+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Manager, Partnerships",
@@ -73490,15 +73481,14 @@
     "url": "https://fi.indeed.com/rc/clk?jk=4ab86f40690a7b92",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job requires firmware test automation expertise with a focus on embedded systems testing, which does not align with Priya's background in release/configuration management, DevOps/CI-CD ownership, or technical documentation/quality gatekeeping roles.",
+    "reason": "This role involves hands-on hardware lab testing (electronic test equipment such as oscilloscopes and multimeters), which falls under the hard rejection criteria for hardware quality and lab testing roles.",
     "id": "ff1aa6ae",
     "source": "indeed_fi_safety_critical",
     "added_at": "2026-10-04T11:31:51+03:00",
     "posted_date": "N/A",
     "deadline": "N/A",
-    "eval_model": "local/qwen/qwen3-14b",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Senior Network Engineer",
@@ -74195,15 +74185,14 @@
     "url": "https://uk.linkedin.com/jobs/view/senior-embedded-software-test-engineer-at-tae-power-solutions-4468256971",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is located in Birmingham, United Kingdom, which violates the candidate's location criteria of being based in Finland or remote worldwide/EU.",
+    "reason": "The job is located in Birmingham, England, which violates the relocation rule requiring jobs to be in Finland or fully remote.",
     "id": "7008971e",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-04T15:15:08+03:00",
-    "posted_date": "\u0642\u0628\u0644 \u0661 \u0634\u0647\u0631",
+    "posted_date": "2026-09-23",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Director-Product Compliance",
@@ -74228,15 +74217,14 @@
     "url": "https://www.linkedin.com/jobs/view/senior-test-engineer-firmware-validation-at-form-energy-4442412740",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Berkeley, California, USA, which violates the strict hard rejection rule against US-based positions.",
+    "reason": "The job is located in Berkeley, CA, violating the strict non-negotiable hard rejection rule for US-based roles.",
     "id": "f3df7696",
     "source": "linkedin_ww_remote_iec_61508",
     "added_at": "2026-10-04T15:15:08+03:00",
-    "posted_date": "\u0642\u0628\u0644 \u200f\u200f\u0664\u200f \u0623\u064a\u0627\u0645",
+    "posted_date": "2026-10-17",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "Senior Engineer Test",
@@ -74805,15 +74793,14 @@
     "url": "https://hr.linkedin.com/jobs/view/lead-test-engineer-for-embedded-systems-m-f-at-iskraemeco-4469853418",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is located in Zagreb, Croatia, which violates the requirement that roles outside Finland must be fully remote and accessible to someone living in Finland.",
+    "reason": "The job is physically located in Zagreb, Croatia, which violates the location criteria requiring positions to be either in Finland or fully remote.",
     "id": "de817a47",
     "source": "linkedin_eu_remote_iec_61508",
     "added_at": "2026-10-04T17:53:39+03:00",
     "posted_date": "2026-09-27",
     "deadline": "N/A",
-    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Auditor / Technical Assessor - Machinery Regulation",
@@ -75062,15 +75049,14 @@
     "url": "https://se.linkedin.com/jobs/view/test-engineer-energy-storage-systems-at-lyten-4439897426",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The role is physically located in Stockholm, Sweden, which violates the requirement that non-remote roles must be located in Finland.",
+    "reason": "The job is located in Stockholm, Sweden, and Priya's location criteria strictly require jobs to be physically in Finland or fully remote.",
     "id": "e327e4cd",
     "source": "linkedin_eu_remote_iec_61508_p2",
     "added_at": "2026-10-04T19:09:44+03:00",
-    "posted_date": "2 m\u00e5nader sedan",
+    "posted_date": "2026-07-25",
     "deadline": "N/A",
-    "eval_model": "gemini-vineeth-bits/gemini-3.1-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "eval_model": "gemini/gemini-3.5-flash-lite",
+    "description_file": null
   },
   {
     "title": "Control System Engineer - Power Electronics",
@@ -82121,15 +82107,14 @@
     "url": "https://www.linkedin.com/jobs/view/electrical-firmware-test-engineer-at-dexmate-4475529368",
     "visited": "yes",
     "matches_requirements": "no",
-    "reason": "The job is physically located in Fremont, California, which violates the strict US location exclusion hard rejection rule.",
+    "reason": "This job is located in Fremont, CA, violating the strict US location exclusion hard rejection.",
     "id": "523f89d5",
     "source": "linkedin_ww_remote_iec_61508_p2",
     "added_at": "2026-10-06T11:36:27+03:00",
     "posted_date": "2026-10-05",
     "deadline": "N/A",
     "eval_model": "gemini/gemini-3.5-flash-lite",
-    "description_file": null,
-    "needs_re_review": true
+    "description_file": null
   },
   {
     "title": "\u5145\u7535\u6869\u4ea7\u54c1\u8ba4\u8bc1\u5de5\u7a0b\u5e08\uff08\u8f66\u8f86\u90e8Mobility)",
