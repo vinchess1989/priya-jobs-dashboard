@@ -948,7 +948,7 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
 - Priya's Prove Expertise Software Tester job (Oulu) only existed as a hiring manager's LinkedIn post, and the
   scraper never searched tester titles. Added `Software Tester`, `Test Engineer`, `QA Engineer` and
   `Test Automation Engineer` to `_KEYWORD_TERMS` in `scraper.py`, plus a Software Tester / Test Engineer bullet in
-  `job_requirements.md` (software testing of any seniority is a match; hardware lab testing stays "no"). These run on
+  `job_requirements.md` (software testing of any seniority is a match; hardware lab testing stays "no"). Priya confirmed on 2026-10-22 to keep this, even though she asked another session not to change the criteria for developer roles. These run on
   Vineeth's PC only after he pulls and restarts the scraper.
 - New `linkedin_hiring_posts.py`: `scan` searches LinkedIn *posts* (not listings) through the logged-in
   automation Chrome on Priya's PC and prints "we're hiring" posts for her roles in Finland/remote (seen keys in
