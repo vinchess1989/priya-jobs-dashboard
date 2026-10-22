@@ -2623,6 +2623,9 @@ def main():
     # exiting when it is empty or a review round clears nothing (so it can't spin forever).
     scrape_pass_done = False
     last_pending_count = None
+    # Epoch seconds set by run_scrapers_sequential.ps1: past it, --once stops between batches and
+    # the next morning's run carries on from the checkpoint / review queue.
+    once_deadline = float(os.environ.get("SCRAPER_DEADLINE") or 0)
 
     while not stop_event.is_set():
         turn = _acquire_scraper_turn()
@@ -2664,6 +2667,10 @@ def main():
         # even while re-reviews are pending (before 2026-09-25, scraping waited for
         # an empty queue and no new jobs were found for a week).
         if args.once:
+            if once_deadline and time.time() >= once_deadline:
+                print(f"\nINFO: --once time budget used up ({len(pending_jobs)} jobs still need review). Exiting; the next run continues.")
+                turn.release()
+                break
             if scrape_pass_done and (not pending_jobs or (last_pending_count is not None and len(pending_jobs) >= last_pending_count)):
                 print(f"\nINFO: --once run finished ({len(pending_jobs)} jobs still need review). Exiting.")
                 turn.release()

@@ -202,6 +202,12 @@ now runs `scraper.py --once`: scrape until the checkpoint reaches the last targe
 SCRAPE_INTERVAL_SECONDS), then drain the review queue, exiting when it is empty or a round clears
 nothing. Plain `scraper.py` (no flag) is still the old endless daemon for manual use. To run now:
 `Start-ScheduledTask JobScrapersSequentialMorning`. Backlog at switch-over: 4,975 pending here.
+**Time cap + Gemini-first siblings (2026-10-22):** "until done" never ended — priya_jobs took 13 h and
+local-only priya_global_jobs (~1 min/job) was still going 26 h later, so the 08:00 starts were skipped and
+qwen3-14b stayed loaded; llama.cpp's RAM prompt cache (~8 GB cap, no LM Studio setting) refilled LM Studio's
+RAM. Now each dashboard gets 60 min: the runner sets `SCRAPER_DEADLINE` (epoch s), `--once` exits cleanly
+between batches past it, and the runner kills the tree 20 min after that. priya_global_jobs and
+manju_uk_jobs review with Gemini first (`GEMINI_API_KEY_VINEETH_BITS`, then `GEMINI_API_KEY`), local last.
 **Targeted re-review on requirement edits (2026-10-20, all three scrapers):** `check_requirements_update()`
 no longer flags every job. It diffs `job_requirements.md` against `requirements_snapshot.md` (local copy,
 gitignored — it duplicates personal requirements), asks the LLM for title/company/location keywords
