@@ -108,6 +108,14 @@ class TeeLogger:
 _tee_logger: TeeLogger | None = None
 
 
+def _checkpoint_index() -> int:
+    try:
+        with open(CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f).get("target_index", 0)
+    except Exception:
+        return 0
+
+
 def _checkpoint_reached_end() -> bool:
     """True if the last scrape_all_jobs() call visited the final target."""
     try:
@@ -293,7 +301,8 @@ def _progress(phase=None, detail=None, scrape_ok=False, error=None):
 def _publish_run_finished(pending_count):
     """--once only: tell the dashboard this run ended on purpose, so the quiet gap until the next
     08:00 run reads as 'idle' rather than 'scraper not responding'."""
-    _progress("run_finished", f"{pending_count} jobs still need review; next run continues")
+    left = max(0, len(_run_order) - _checkpoint_index()) if _run_order else 0
+    _progress("run_finished", f"{left} lower-yield targets and {pending_count} jobs left for the next run")
     try:
         update_git()
     except Exception as e:
@@ -364,6 +373,72 @@ def generate_targets():
                             'url': url, 'scroll_count': scroll_count})
 
     return targets
+
+
+# Yield-ranked scraping: with a time-capped run (--once + SCRAPER_DEADLINE) the targets that
+# produce the most matches must run first, so what is left undone is the low-value tail.
+TARGET_STATS_FILE = os.path.join(BASE_DIR, "target_stats.json")
+SCRAPE_TIME_SHARE = 0.6    # of a time-capped run; the rest is reserved for reviewing
+AGING_DAYS_FOR_BOOST = 7   # a target unvisited this long reaches 2x its score; capped at 3x
+_RUN_START = time.time()
+_run_order = None          # target order for this process, ranked once per scrape pass
+
+
+def _load_target_stats():
+    try:
+        with open(TARGET_STATS_FILE, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_target_stats(stats):
+    try:
+        tmp = TARGET_STATS_FILE + ".tmp"
+        with open(tmp, 'w', encoding='utf-8') as f:
+            json.dump(stats, f, indent=2)
+        os.replace(tmp, TARGET_STATS_FILE)
+    except Exception as e:
+        print(f"WARN: could not save target stats: {e}")
+
+
+def _scrape_cutoff():
+    """Epoch time after which a time-capped run stops scraping and only reviews (0 = no cap)."""
+    deadline = float(os.environ.get("SCRAPER_DEADLINE") or 0)
+    if not deadline or deadline <= _RUN_START:
+        return 0.0
+    return _RUN_START + SCRAPE_TIME_SHARE * (deadline - _RUN_START)
+
+
+def rank_targets(targets):
+    """Order targets by yield: matches per job a target has produced (yes = 1, maybe = 0.4,
+    smoothed so unproven targets rank in the middle), boosted the longer a target has gone
+    unvisited so low-yield ones still get a turn. Targets that keep returning nothing sink."""
+    produced = {}   # target id -> [jobs, score]
+    try:
+        with open(JOBS_FILE, 'r', encoding='utf-8') as f:
+            for j in json.load(f):
+                p = produced.setdefault(j.get('source'), [0, 0.0])
+                p[0] += 1
+                p[1] += {'yes': 1.0, 'maybe': 0.4}.get(j.get('matches_requirements'), 0.0)
+    except Exception:
+        pass
+    stats = _load_target_stats()
+    now = time.time()
+
+    def priority(t):
+        jobs, score = produced.get(t['id'], [0, 0.0])
+        st = stats.get(t['id'], {})
+        base = (score + 1) / (jobs + 5)
+        if jobs == 0 and st.get('runs', 0) >= 3:
+            base = 0.01   # visited repeatedly and never produced a job (blocked / empty site)
+        # Never-visited targets get a neutral boost, not the maximum, so unproven ones can't outrank proven ones.
+        idle_days = (now - st['last_run']) / 86400 if st.get('last_run') else AGING_DAYS_FOR_BOOST
+        return base * min(3.0, 1 + idle_days / AGING_DAYS_FOR_BOOST)
+
+    ranked = sorted(targets, key=priority, reverse=True)
+    print("INFO: Target order by yield, top 5: " + ", ".join(f"{t['id']}={priority(t):.2f}" for t in ranked[:5]))
+    return ranked
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -833,10 +908,19 @@ def scrape_all_jobs(max_jobs=200):
         except Exception:
             pass
 
-    targets = generate_targets()
-    if checkpoint_idx >= len(targets):
-        print("Reached end of all targets. Resetting checkpoint to 0.")
+    global _run_order
+    if _run_order is None:
+        # First pass in this process: rank by yield and start at the top, whatever the saved
+        # index was (it pointed into yesterday's order).
+        _run_order = rank_targets(generate_targets())
         checkpoint_idx = 0
+    elif checkpoint_idx >= len(_run_order):
+        print("Reached end of all targets. Resetting checkpoint to 0.")
+        _run_order = rank_targets(generate_targets())
+        checkpoint_idx = 0
+    targets = _run_order
+    target_stats = _load_target_stats()
+    scrape_cutoff = _scrape_cutoff()
 
     all_extracted_jobs = []
     limit = max_jobs if max_jobs > 0 else float('inf')
@@ -854,6 +938,9 @@ def scrape_all_jobs(max_jobs=200):
 
         current_idx = checkpoint_idx
         while current_idx < len(targets) and len(all_extracted_jobs) < limit:
+            if scrape_cutoff and time.time() >= scrape_cutoff:
+                print("INFO: Scrape time share used up - leaving the remaining lower-yield targets for the next run.")
+                break
             target = targets[current_idx]
             print(f"\nNavigating to {target['url']} (Site: {target['id']}) ...")
             _progress("scraping", f"{target['id']} ({current_idx + 1}/{len(targets)})")
@@ -892,6 +979,10 @@ def scrape_all_jobs(max_jobs=200):
                         added += 1
 
                 print(f"Added {added} new unseen jobs from this source.")
+                st = target_stats.setdefault(target['id'], {})
+                st['runs'] = st.get('runs', 0) + 1
+                st['new_jobs'] = st.get('new_jobs', 0) + added
+                st['last_run'] = time.time()
             except Exception as e:
                 print(f"Failed to scrape {target['id']}: {e}")
                 _progress(error=f"{target['id']}: {e}")
@@ -960,6 +1051,7 @@ def scrape_all_jobs(max_jobs=200):
     _checkpoint_data["target_index"] = current_idx
     with open(CHECKPOINT_FILE, 'w', encoding='utf-8') as f:
         json.dump(_checkpoint_data, f, indent=2)
+    _save_target_stats(target_stats)
 
     return all_extracted_jobs
 
@@ -2691,6 +2783,10 @@ def main():
                 _publish_run_finished(len(pending_jobs))
                 turn.release()
                 break
+            cutoff = _scrape_cutoff()
+            if cutoff and not scrape_pass_done and time.time() >= cutoff:
+                print("INFO: --once scrape share of the time budget used up; the rest of this run only reviews.")
+                scrape_pass_done = True
             scrape_due = not scrape_pass_done
             last_pending_count = len(pending_jobs) if scrape_pass_done else None
         else:

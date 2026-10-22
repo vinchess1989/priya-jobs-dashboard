@@ -11,6 +11,17 @@
   `SCRAPER_DEADLINE` has passed. Sibling scrapers (priya_global_jobs, manju_uk_jobs) likely have the same
   crash/retry loop and a red badge; not yet ported.
 
+## Yield-ranked scraping inside the time cap (2026-10-22)
+
+- Each process ranks the 273 targets once (`rank_targets`): score = (yes + 0.4·maybe + 1) / (jobs + 5) from
+  `jobs.json` per `source` id, ×1–3 boost for days since the target last ran, 0.01 if run ≥3 times and never
+  produced a job. The checkpoint index now points into that per-process order (ignored on the first call of a
+  process, so every run starts at the top). Stats live in `target_stats.json` (gitignored; seeded from the
+  logs 2026-10-22).
+- With `SCRAPER_DEADLINE`, scraping gets 60% of the budget (`SCRAPE_TIME_SHARE`); the rest only reviews
+  (never-evaluated first, then re-reviews). `run_finished` status reports how many targets/jobs were left.
+- Not ported to priya_global_jobs / manju_uk_jobs.
+
 ## Importing a LinkedIn search Priya ran herself (2026-09-30)
 
 - The logged-in `linkedin.com/jobs/search-results/` UI has no job ids in its links: cards are
