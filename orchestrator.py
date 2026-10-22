@@ -80,6 +80,9 @@ def main():
     for attempt in range(1, 11):
         if run_script("scraper.py", "--once"):
             break
+        if float(os.environ.get("SCRAPER_DEADLINE") or 0) and time.time() >= float(os.environ["SCRAPER_DEADLINE"]):
+            print("Time budget is used up - not restarting the scraper; the next scheduled run continues.")
+            return
         print(f"Scraper exited abnormally (attempt {attempt}/10) - restarting in {min(60 * attempt, 600)}s...")
         time.sleep(min(60 * attempt, 600))
     else:

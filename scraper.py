@@ -290,6 +290,16 @@ def _progress(phase=None, detail=None, scrape_ok=False, error=None):
             pass
 
 
+def _publish_run_finished(pending_count):
+    """--once only: tell the dashboard this run ended on purpose, so the quiet gap until the next
+    08:00 run reads as 'idle' rather than 'scraper not responding'."""
+    _progress("run_finished", f"{pending_count} jobs still need review; next run continues")
+    try:
+        update_git()
+    except Exception as e:
+        print(f"Could not publish the final heartbeat: {e}")
+
+
 def _start_watchdog():
     """Exit the process if nothing has made progress for WATCHDOG_TIMEOUT_SECONDS, so the
     orchestrator restarts a fresh scraper instead of sitting on a hung one for days."""
@@ -2673,10 +2683,12 @@ def main():
         if args.once:
             if once_deadline and time.time() >= once_deadline:
                 print(f"\nINFO: --once time budget used up ({len(pending_jobs)} jobs still need review). Exiting; the next run continues.")
+                _publish_run_finished(len(pending_jobs))
                 turn.release()
                 break
             if scrape_pass_done and (not pending_jobs or (last_pending_count is not None and len(pending_jobs) >= last_pending_count)):
                 print(f"\nINFO: --once run finished ({len(pending_jobs)} jobs still need review). Exiting.")
+                _publish_run_finished(len(pending_jobs))
                 turn.release()
                 break
             scrape_due = not scrape_pass_done
@@ -2796,3 +2808,9 @@ if __name__ == "__main__":
             stop_event.set()
     finally:
         scraper_lock.release()
+
+    # A daemon thread is blocked reading stdin; letting the interpreter finalize crashes with
+    # 0xC0000005, which the orchestrator reads as a failure and retries (seen 2026-10-22).
+    if "--once" in sys.argv and not stop_event.is_set():
+        sys.stdout.flush()
+        os._exit(0)

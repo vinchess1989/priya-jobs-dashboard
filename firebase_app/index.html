@@ -1709,7 +1709,10 @@
                 const where = (st.phase || '?') + (st.detail ? ' - ' + st.detail : '');
                 const err = st.last_error ? '\nLast error (' + st.last_error.at + '): ' + st.last_error.message : '';
                 tip = 'Scraper heartbeat ' + formatAge(age) + '\nPhase: ' + where + '\nLast successful scrape: ' + lastOk + err;
-                if (age > 2 * 3600000 || st.phase === 'hung') {
+                if (st.phase === 'run_finished' && age < 26 * 3600000) {
+                    // Daily scheduled run ended on purpose; the next one starts ~08:00.
+                    text = '✅ Scraper idle · last run ended ' + formatAge(age);
+                } else if (age > 2 * 3600000 || st.phase === 'hung') {
                     level = 'bad';
                     text = '⛔ Scraper not responding · last activity ' + formatAge(age);
                 } else if (age > 45 * 60000) {
