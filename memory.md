@@ -921,3 +921,16 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
   `scratch/hardcoded_fill_<id>.py`. Teamtailor custom-question IDs (`boolean-<n>-true`) can change between visits
   (CoE, Twoday), so re-dump the radio IDs if a `.check()` times out. CoE/Twoday forms stay locked until the permit
   question is answered.
+
+## Tester roles + LinkedIn hiring posts added as extra sources (2026-10-22)
+- Priya's Prove Expertise Software Tester job (Oulu) only existed as a hiring manager's LinkedIn post, and the
+  scraper never searched tester titles. Added `Software Tester`, `Test Engineer`, `QA Engineer` and
+  `Test Automation Engineer` to `_KEYWORD_TERMS` in `scraper.py`, plus a Software Tester / Test Engineer bullet in
+  `job_requirements.md` (software testing of any seniority is a match; hardware lab testing stays "no"). These run on
+  Vineeth's PC only after he pulls and restarts the scraper.
+- New `linkedin_hiring_posts.py`: `scan` searches LinkedIn *posts* (not listings) through the logged-in
+  automation Chrome on Priya's PC and prints "we're hiring" posts for her roles in Finland/remote (seen keys in
+  `scratch/linkedin_posts_seen.json`); `add` puts a chosen post into `jobs.json` as `source: "linkedin_post"`.
+  The scraper can't do this itself because it browses LinkedIn logged out. The hourly fill-form tick runs
+  `scan --period past-week` and adds real matches. LinkedIn search shows ~6 posts per query, and most hits are
+  job seekers/agencies, so judge each one by hand. Posts carry no permalink, so jobs get `manual://linkedin-post/...`.
