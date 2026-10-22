@@ -13,6 +13,11 @@
 
 ## Yield-ranked scraping inside the time cap (2026-10-22)
 
+- **Schedule changed 2026-10-22:** `JobScrapersSequentialMorning` now starts at **01:00** (was 08:00) and each
+  scraper gets a **120 min** budget (+20 min grace), so the three finish by ~07:00 at worst. Edit
+  `$budgetMinutes` in `~\.claude\run_scrapers_sequential.ps1`; trigger via `Set-ScheduledTask`.
+- Trial run found Gemini 503s push reviews onto the slow local model, so review can eat the 60% scrape share.
+
 - Each process ranks the 273 targets once (`rank_targets`): score = (yes + 0.4·maybe + 1) / (jobs + 5) from
   `jobs.json` per `source` id, ×1–3 boost for days since the target last ran, 0.01 if run ≥3 times and never
   produced a job. The checkpoint index now points into that per-process order (ignored on the first call of a
