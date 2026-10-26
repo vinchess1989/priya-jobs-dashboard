@@ -961,3 +961,15 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
   The scraper can't do this itself because it browses LinkedIn logged out. The hourly fill-form tick runs
   `scan --period past-week` and adds real matches. LinkedIn search shows ~6 posts per query, and most hits are
   job seekers/agencies, so judge each one by hand. Posts carry no permalink, so jobs get `manual://linkedin-post/...`.
+
+## ATS notes from the 2026-10-26 "yes jobs" batch
+- **Eaton (eaton.eightfold.ai)**: no account needed; saved answers + the last resume from her earlier Eaton application
+  pre-fill the form. Uploading a resume opens a "Data Privacy Agreement" dialog (`[class*=privacyAgreement]`, button
+  "I Agree") that blocks every click until accepted - and the upload only sticks after it. Same filename as the old
+  resume, so re-upload after agreeing to be sure the tailored one is attached.
+- **Nordea** "Apply now" -> `career5.successfactors.eu` sign-in wall (she has an account; automation Chrome isn't logged in).
+  **KONE / Applied Materials** = Workday account walls. **Jobgether** LinkedIn listings link to its sign-up page, not the employer.
+- **Supercell** careers pages embed an Ashby form inline (`_systemfield_*`); dropdowns are comboboxes with `[role=option]`.
+- Ashby custom comboboxes (Location, "How did you hear") have no id/label: anchor with
+  `xpath=//*[contains(text(),'Current location')]/following::input[1]`.
+- Priya (2026-10-26): gender questions are always answered **Female** (rule added to fill-form.md).
