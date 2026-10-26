@@ -973,3 +973,8 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
 - Ashby custom comboboxes (Location, "How did you hear") have no id/label: anchor with
   `xpath=//*[contains(text(),'Current location')]/following::input[1]`.
 - Priya (2026-10-26): gender questions are always answered **Female** (rule added to fill-form.md).
+- **Teamtailor auto-submitted again (Planmeca open application e5dcea34, 2026-10-26):** both uploads first failed with
+  "Request timed out after 30 seconds" (flaky network). Re-running `set_input_files` on the CV a moment later sent the
+  whole form to `/applications/<id>/thanks` - without the required salary answer and without Send being clicked.
+  Rule: on Teamtailor, if an upload errors, do NOT retry the upload from a script - leave the tab for Priya and say so.
+  Recorded via `auto_submit_gate.py record` (Auto-Submitted tab) and told her.
