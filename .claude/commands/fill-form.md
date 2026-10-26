@@ -526,3 +526,4 @@ python job_status_store.py set --url "JOB_URL" --field auto_fill_attempted_at --
 - Her application can be used for other applications/future opportunities — agree to this if asked.
 - Whenever asked how she heard about the job, use the `source` column corresponding to this job in the dashboard/jobs.json.
 - No date of birth is available — leave blank and flag for manual completion if a form requires it.
+- Gender (required or optional diversity questions): always answer **Female** (Priya, 2026-10-26).
