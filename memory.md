@@ -978,3 +978,5 @@ enderScraperHealth()): green "Scraper running", amber (>45 min quiet), red "Scra
   whole form to `/applications/<id>/thanks` - without the required salary answer and without Send being clicked.
   Rule: on Teamtailor, if an upload errors, do NOT retry the upload from a script - leave the tab for Priya and say so.
   Recorded via `auto_submit_gate.py record` (Auto-Submitted tab) and told her.
+- (2026-10-29) A fresh session's `python` resolved to the system Python 3.12 (no `requests`/`playwright`) -> `job_status_store.py` failed with ModuleNotFoundError. Prefix commands with `export PATH="/c/Users/priya/priya_jobs/venv/Scripts:$PATH"` (Bash) or call `venv\Scripts\python.exe` directly.
+- Duplicate check must include ALL listings, not just this run's candidates: Visual Components "Engineering Lead - Product Infra" was reposted under a new LinkedIn ID (2fbffbab) after she applied on 2026-10-15 (5f237734); the gate caught it only after the form was filled.
