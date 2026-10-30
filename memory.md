@@ -1,5 +1,11 @@
 # Project Memory — priya_jobs
 
+## Purpose
+
+Priya's job board: a scraper finds software delivery, quality and documentation roles in Finland, or fully remote and
+open to someone in Finland, an LLM reviews each one against the job requirements, and a live dashboard tracks them
+through to application. Live at https://priya-jobs-dashboard.web.app.
+
 ## "Scraper not responding" badge after the sequential-run switch (2026-10-22)
 
 - With the daily 08:00 `JobScrapersSequentialMorning` run, the heartbeat is legitimately stale for ~23 h/day, so
@@ -350,7 +356,7 @@ FI/EU, Indeed, Jobly, etc.) via `generate_targets()`. Takes effect on the scrape
 daily at 08:00, or sooner if run manually).
 
 ## Major Features
-1. **Priya's Job Search Automation:** Scrapes customer success, administrative, hospitality, and educational opportunities across Finland and remote portals.
+1. **Priya's Job Search Automation:** Scrapes DevOps, release, configuration management, requirements, quality, testing, technical writing and safety-critical roles across Finland and remote portals.
 2. **Hybrid Cloud & Local LLM Scoring:** Evaluates applicant match score using Groq API (`llama-3.3-70b-versatile`) with seamless local fallback to LM Studio.
 3. **Standalone Dedicated Firebase Project:** Fully independent Firestore database and Firebase Hosting (`priya-jobs-dashboard`).
 4. **Automated Application Tracker:** Live status columns tracking applied dates, response rates, and follow-ups.
