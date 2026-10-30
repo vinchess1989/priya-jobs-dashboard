@@ -357,13 +357,13 @@ daily at 08:00, or sooner if run manually).
 
 ## Major Features
 1. **Priya's Job Search Automation:** Scrapes DevOps, release, configuration management, requirements, quality, testing, technical writing and safety-critical roles across Finland and remote portals.
-2. **Hybrid Cloud & Local LLM Scoring:** Evaluates applicant match score using Groq API (`llama-3.3-70b-versatile`) with seamless local fallback to LM Studio.
+2. **Hybrid Cloud & Local LLM Scoring:** Reviews each job against the requirements with Gemini on two free-tier accounts, falling back to a local model in LM Studio. Groq was removed on 2026-10-20.
 3. **Standalone Dedicated Firebase Project:** Fully independent Firestore database and Firebase Hosting (`priya-jobs-dashboard`).
-4. **Automated Application Tracker:** Live status columns tracking applied dates, response rates, and follow-ups.
+4. **Automated Application Tracker:** Live columns tracking which jobs are applied, reviewed and visited, alongside match verdicts and deadlines.
 5. **Resume & Cover Letter Generator:** Automatically builds tailored resumes stored in `Priya_jobs_private/`.
 
 ## Minor Features & Utilities
-- **Daily Quota Cooldown Management:** Proactively rotates between cloud and local inference to respect free-tier rate limits.
+- **Quota Cooldown Management:** Skips a rate-limited model until its cooldown ends, moving on to the next model, the backup key or the local LLM.
 - **Deleted Jobs Archive:** Separate JSON storage ensuring discarded postings aren't re-scraped.
 - **Direct Application Deeplinks:** Instant launch buttons directly into corporate ATS portals.
 
