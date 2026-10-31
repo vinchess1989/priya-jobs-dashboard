@@ -1433,6 +1433,16 @@
         let favoritesOnly = false;
         // Kill switch for /fill-form's automatic submits: shared_state/settings.auto_submit_enabled.
         let autoSubmitEnabled = false;
+        // shared_state/settings.submit_requires_ok: missing counts as ON (ask before each automatic submit).
+        let askBeforeSubmit = true;
+        // shared_state/settings.auto_submit_weak_matches: when true, stretch/weak fits may be auto-submitted too.
+        let autoSubmitWeak = false;
+        function refreshSubmitButtons() {
+            const set = (id, on, onText, offText) => { const b = document.getElementById(id); if (b) { b.classList.toggle('on', on); b.textContent = on ? onText : offText; } };
+            set('auto-submit-btn', autoSubmitEnabled, '⚡ Auto-submit: ON', '⏸ Auto-submit: OFF');
+            set('ask-submit-btn', askBeforeSubmit, '✋ Ask before submit: ON', '🚀 Ask before submit: OFF');
+            set('weak-submit-btn', autoSubmitWeak, '🎯 Auto-submit weak matches: ON', '🎯 Auto-submit weak matches: OFF');
+        }
 
         let allJobs = [];
         let sortAsc = true;
@@ -1570,9 +1580,11 @@
                     
                     if (firestoreUnsubscribe) firestoreUnsubscribe();
                     db.collection('shared_state').doc('settings').onSnapshot(d => {
-                        autoSubmitEnabled = !!(d.exists && d.data().auto_submit_enabled === true);
-                        const b = document.getElementById('auto-submit-btn');
-                        if (b) { b.classList.toggle('on', autoSubmitEnabled); b.textContent = autoSubmitEnabled ? '⚡ Auto-submit: ON' : '⏸ Auto-submit: OFF'; }
+                        const sd = d.exists ? d.data() : {};
+                        autoSubmitEnabled = sd.auto_submit_enabled === true;
+                        askBeforeSubmit = sd.submit_requires_ok !== false;
+                        autoSubmitWeak = sd.auto_submit_weak_matches === true;
+                        refreshSubmitButtons();
                     }, () => {});
                     firestoreUnsubscribe = db.collection('shared_state').doc('job_status').onSnapshot(doc => {
                         if (doc.exists) {
@@ -1824,6 +1836,8 @@
                     </button>
                     <button type="button" id="fav-filter-btn" class="info-toggle ${favoritesOnly ? 'on' : ''}" onclick="window.toggleFavoritesOnly()" title="Show only starred jobs">★ Favourites (${allJobs.filter(j => (sharedJobsState[j.url] || {}).favorite).length})</button>
                     <button type="button" id="auto-submit-btn" class="info-toggle auto ${autoSubmitEnabled ? 'on' : ''}" onclick="window.toggleAutoSubmit()" title="When ON, /fill-form submits non-starred 'yes' jobs that pass every safety check (max 10/day). Starred jobs always wait for your review.">${autoSubmitEnabled ? '⚡ Auto-submit: ON' : '⏸ Auto-submit: OFF'}</button>
+                    <button type="button" id="ask-submit-btn" class="info-toggle auto ${askBeforeSubmit ? 'on' : ''}" onclick="window.toggleAskBeforeSubmit()" title="When ON, even a job that passes every check is filled and waits for your OK. When OFF, such jobs are submitted automatically (needs Auto-submit ON).">${askBeforeSubmit ? '✋ Ask before submit: ON' : '🚀 Ask before submit: OFF'}</button>
+                    <button type="button" id="weak-submit-btn" class="info-toggle auto ${autoSubmitWeak ? 'on' : ''}" onclick="window.toggleAutoSubmitWeak()" title="When ON, stretch/weak-fit 'yes' jobs may be auto-submitted too. When OFF, only strong fits are; weak fits are filled and wait for you.">${autoSubmitWeak ? '🎯 Auto-submit weak matches: ON' : '🎯 Auto-submit weak matches: OFF'}</button>
                     ${archivedCount > 0 ? `<button onclick="window.unarchiveAllNo()" style="background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); color: #fca5a5; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 0.75rem; transition: background 0.2s;"><i class="fas fa-box-open"></i> Show ${archivedCount} Archived (No)</button>` : ''}
                 </div>
                 <div class="table-info-item">
@@ -2632,6 +2646,18 @@
                 await db.collection('shared_state').doc('settings').set({ auto_submit_enabled: next, auto_submit_changed_at: new Date().toISOString(), auto_submit_changed_by: currentUser.email }, { merge: true });
             } catch (e) { console.error(e); alert('Could not change the auto-submit switch.'); }
         };
+
+        async function setSubmitSetting(field, value, msg) {
+            if (!currentUser || !ALLOWED_EMAILS.includes(currentUser.email)) { alert('Sign in with an allowed account to change this.'); return; }
+            if (msg && !confirm(msg)) return;
+            try {
+                await db.collection('shared_state').doc('settings').set({ [field]: value, [field + '_changed_at']: new Date().toISOString(), [field + '_changed_by']: currentUser.email }, { merge: true });
+            } catch (e) { console.error(e); alert('Could not change this switch.'); }
+        }
+        window.toggleAskBeforeSubmit = () => setSubmitSetting('submit_requires_ok', !askBeforeSubmit,
+            askBeforeSubmit ? 'Turn OFF "Ask before submit"?\n\nJobs that pass every safety check will be submitted automatically, without waiting for your OK (Auto-submit must be ON).' : null);
+        window.toggleAutoSubmitWeak = () => setSubmitSetting('auto_submit_weak_matches', !autoSubmitWeak,
+            autoSubmitWeak ? null : 'Turn ON auto-submit for weak matches?\n\nStretch-fit "yes" jobs that pass every other safety check will be submitted automatically too.');
 
         document.addEventListener('click', async e => {
             const star = e.target.closest('.fav-star');
