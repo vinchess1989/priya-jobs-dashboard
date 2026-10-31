@@ -1433,10 +1433,10 @@
         let favoritesOnly = false;
         // Kill switch for /fill-form's automatic submits: shared_state/settings.auto_submit_enabled.
         let autoSubmitEnabled = false;
-        // shared_state/settings.submit_requires_ok: missing counts as ON (ask before each automatic submit).
-        let askBeforeSubmit = true;
-        // shared_state/settings.auto_submit_weak_matches: when true, stretch/weak fits may be auto-submitted too.
-        let autoSubmitWeak = false;
+        // shared_state/settings.submit_requires_ok: missing counts as OFF since 2026-10-31 (don't ask).
+        let askBeforeSubmit = false;
+        // shared_state/settings.auto_submit_weak_matches: missing counts as ON since 2026-10-31.
+        let autoSubmitWeak = true;
         function refreshSubmitButtons() {
             const set = (id, on, onText, offText) => { const b = document.getElementById(id); if (b) { b.classList.toggle('on', on); b.textContent = on ? onText : offText; } };
             set('auto-submit-btn', autoSubmitEnabled, '⚡ Auto-submit: ON', '⏸ Auto-submit: OFF');
@@ -1582,8 +1582,8 @@
                     db.collection('shared_state').doc('settings').onSnapshot(d => {
                         const sd = d.exists ? d.data() : {};
                         autoSubmitEnabled = sd.auto_submit_enabled === true;
-                        askBeforeSubmit = sd.submit_requires_ok !== false;
-                        autoSubmitWeak = sd.auto_submit_weak_matches === true;
+                        askBeforeSubmit = sd.submit_requires_ok === true;
+                        autoSubmitWeak = sd.auto_submit_weak_matches !== false;
                         refreshSubmitButtons();
                     }, () => {});
                     firestoreUnsubscribe = db.collection('shared_state').doc('job_status').onSnapshot(doc => {

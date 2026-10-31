@@ -151,7 +151,8 @@ def check(job_id, apply_url, questions_path=None, answers_path=None, fit=None):
     #     /fill-form judged a STRONG fit may go out automatically. No verdict = not strong.
     #     Since 2026-10-31 the dashboard's "Auto-submit weak matches" switch
     #     (settings.auto_submit_weak_matches) lets a stretch fit through too; missing counts as OFF.
-    if fit != "strong" and not (fit == "stretch" and settings.get("auto_submit_weak_matches") is True):
+    #     Priya (2026-10-31): "strong and weak dont wait for my okey" - missing now counts as ON.
+    if fit != "strong" and not (fit == "stretch" and settings.get("auto_submit_weak_matches") is not False):
         reasons.append(f"fit judged '{fit or 'not given'}' - only strong matches are auto-submitted")
     if (entry.get("applied") or job.get("applied")) == "yes":
         reasons.append("already marked applied")
@@ -218,10 +219,11 @@ def check(job_id, apply_url, questions_path=None, answers_path=None, fit=None):
     # 9. Priya (2026-10-15): even a job that passes everything is only sent after she OKs that specific job.
     #    "confirm" = fill it, leave it open and ask her; "auto" only once job_status[url].submit_approved is true.
     #    Since 2026-10-22 this is the dashboard's "Ask before submit" switch (settings.submit_requires_ok);
-    #    missing counts as ON, so the safe default stays "ask".
+    #    Missing counted as ON until 2026-10-31; now missing = OFF (see the elif below).
     if reasons:
         decision = "review"
-    elif settings.get("submit_requires_ok") is False or entry.get("submit_approved") is True:
+    #    Priya (2026-10-31): "strong and weak dont wait for my okey" - missing now counts as OFF (don't ask).
+    elif settings.get("submit_requires_ok") is not True or entry.get("submit_approved") is True:
         decision = "auto"
     else:
         decision = "confirm"
