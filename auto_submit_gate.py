@@ -45,8 +45,9 @@ COMPANY_COOLDOWN_DAYS = 7           # at most one automatic submit per company p
 SETTINGS_URL = f"{store.FIRESTORE_BASE}/shared_state/settings"
 
 # LinkedIn: automating applications risks the account (manju_jobs memory.md).
-# Teamtailor/Biisoni: submit on file upload by themselves (manju_jobs memory.md incident).
-NEVER_AUTO_HOSTS = ("linkedin.com", "teamtailor.com", "biisoni.fi")
+# Biisoni: submits on file upload by itself (manju_jobs memory.md incident).
+# Teamtailor was here too until Priya allowed it (2026-10-31); /fill-form uploads files last on Teamtailor instead.
+NEVER_AUTO_HOSTS = ("linkedin.com", "biisoni.fi")
 
 SALARY_RE = re.compile(r"salary|compensation|remuneration|pay expectation|expected pay|wage|ctc\b|"
                        r"palkka|palkkatoive|palkkatoivomus|desired pay|rate expectation", re.I)
@@ -191,8 +192,12 @@ def check(job_id, apply_url, questions_path=None, answers_path=None, fit=None):
         answers = {a.get("label", "").strip(): a for a in answers_doc["answers"]}
     for q in questions:
         label = (q.get("label") or "").strip()
+        # Priya (2026-10-31): salary expectation is 4500-5000 EUR/month, so a salary question no longer blocks
+        # as long as /fill-form actually answered it (an unanswered one is still caught below).
         if SALARY_RE.search(label):
-            reasons.append(f"salary question: '{label[:80]}'")
+            a = answers.get(label)
+            if not a or a.get("placeholder") or not str(a.get("value", "")).strip():
+                reasons.append(f"salary question without an answer: '{label[:80]}'")
             continue
         if DOB_RE.search(label) and q.get("required"):
             reasons.append(f"date of birth required: '{label[:80]}'")
