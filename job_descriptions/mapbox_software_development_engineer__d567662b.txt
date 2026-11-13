@@ -1,0 +1,419 @@
+Title: Software Development Engineer in Test II, NavNative
+Company: Mapbox
+Location: Helsinki, Finland
+URL: https://duunitori.fi/tyopaikat/tyo/software-development-engineer-in-test-ii-navnative-scsom-20730568
+Posted: 2026-11-13
+Deadline: Open until filled
+Reason: The role is a strong match for her background in test infrastructure, CI/CD pipeline ownership, and quality engineering within a technical, non-feature-development capacity, and it is based in Finland.
+
+========================================
+JOB DESCRIPTION:
+========================================
+
+Siirry suoraan pääsisältöön
+Siirry suoraan työpaikkahakuun
+Avoimet työpaikat
+Avoimet työpaikat
+
+Työpaikat
+
+Paikkakunnittain
+Yrityksittäin
+Aloittain
+Ammattinimikkeittäin
+
+Muut
+
+Yritystiedot
+
+Paikkakunnittain
+
+Yrityksittäin
+
+Aloittain
+
+Ammattinimikkeittäin
+
+Työelämämedia
+Työelämämedia
+
+Työnhaku
+
+Ansioluettelo
+Työhakemus
+Työhaastattelu
+Kesätyö
+
+Työura
+
+Alanvaihto
+Palkka
+Työttömyys
+Verkostoituminen
+Tietoa työelämästä
+
+Työ ja yhteiskunta
+
+Rekrytointi
+Politiikka
+Talous
+Työmarkkinat
+
+Työkulttuuri
+
+Johtaminen
+Työhyvinvointi
+Työyhteisötaidot
+
+Kokemuksia työpaikoista
+
+Työnhakijalle
+Työnhakijalle
+
+Oppaat
+
+Ammattiopas
+Työnhakuopas
+Työsuhdeopas
+
+Muuta hyödyllistä
+
+Ammatinvalintatesti
+Tyyppitesti
+Palkkavertailu
+Työmarkkinat ja tilastot
+Kesätyöt 2027
+Kesätyöt 2027
+
+Avoimet kesätyöpaikat
+
+Kaikki kesätyöt 2027
+Opiskelijoiden kesätyöt
+Kaikki alle 18-vuotiaiden kesätyöt
+Ysit töihin: 15–16-vuotiaiden kesätyöt
+
+Kesätyönhakijan työkaluja
+
+Kesätyönhakuopas
+Vinkkejä kesätyönhakuun
+Kesätyöntekijän palkka
+Tutkitusti hyvä kesäduuni
+Työnantajalle
+Työnantajalle
+
+Palvelut
+
+Työpaikkailmoitus
+Ilmoituskampanjat
+Dialogi
+Ilmoituksen kirjoitus
+Julkaisu & korostus
+Kansainvälinen rekrytointi
+Sisältömarkkinointi
+Employer Branding
+Kesätyöt työnantajalle
+
+Tutkimukset ja data
+
+Henkilöstökokemus
+Suomalaisen työelämän tila
+Rekrytointitutkimus
+Suorahakuyritykset
+Työmarkkinat ja tilastot
+
+Yritys & yhteystiedot
+
+Yhteystiedot & info
+Tiimi
+Blogi & uutiset
+In English
+
+Oppaat
+
+Rekryopas
+Yrittäjän opas
+Employers
+Jätä ilmoitus
+ Kirjaudu
+ Suosikit
+Etsi työpaikkaa, yritystä tai alaa
+Sijainti
+Etsi
+Takaisin hakuun
+
+Duunitori / Avoimet työpaikat / Software Development Engineer in Test II, NavNative
+
+ 
+Software Development Engineer in Test II, NavNative
+
+Mapbox - Helsinki
+
+Published 13.11. (Open until further notice)
+
+ 
+Save
+Set a jobwatch for similar jobs
+Apply
+What do you think about this employer?
+
+Review this employer.
+
+ Review employer
+Job description
+Mapbox is the leading real-time location platform for a new generation of location-aware businesses. Mapbox is the only platform that equips organizations with the full set of tools to power the navigation of people, packages, and vehicles everywhere. More than 4 million registered developers have chosen Mapbox because of the platform's flexibility, security and privacy compliance. Organizations use Mapbox applications, data, SDKs and APIs to create customized and immersive experiences that delight their customers.
+What We Do
+
+The Navigation Native team builds the high-performance C++ engine that serves as the "brain" of our Navigation SDKs. This library runs directly on end-user systems (on-board), powering everything from mobile apps to in-vehicle infotainment systems for partners like BMW, Porsche, and Zeekr.
+
+We solve the fundamental challenges of movement: transforming noisy GPS/IMU data into precise map-matching, managing complex road-network graphs, supporting routes and alternatives, tracking progress along a route, and providing "Electronic Horizon" capabilities for ADAS. Our work happens at the edge, supporting location frequencies up to 10Hz and ensuring a seamless experience even in tunnels or dense urban canyons.
+
+As AI becomes embedded in modern engineering workflows, we value engineers who can thoughtfully integrate AI into design, development, and decision-making. Our interview process will include discussion of how you use AI in your engineering workflow.
+
+What You'll Do
+
+We are looking for smart, fast-learning engineers who care as much about proving that navigation works as about making it work. As an SDE(T), you will:
+Build and maintain the unit, integration, and functional test architecture for a C++17 library, and the CMake and CI pipelines that run it.
+Turn real-world location recordings into regression tests, and define the quality metrics for map-matching, routing, and route-following.
+Keep the quality signal fast and trustworthy: eliminate flaky tests, run sanitizer and performance builds, and track coverage.
+Build AI-driven test tooling: agent-based test generation, automated dogfooding and triage, and AI-assisted PR review.
+Partner with feature engineers on testability and review designs for how they will be verified.
+Thoughtfully leverage AI tools in your workflow and set the standard for how the team uses them.
+What We Believe Are Important Traits for This Role
+Solid C++17 proficiency: comfortable writing test code and tooling, reading production code, and debugging with sanitizers and profilers. Python or similar for harnesses and analysis.
+Proven experience building test infrastructure for a large native codebase: test frameworks, CMake, and CI systems.
+A data-driven mindset: you define metrics, build the tooling to measure them, and use them to argue for or against a change.
+Experience diagnosing hard-to-reproduce failures: flakiness, platform-specific behavior, memory and threading bugs.
+Strong English skills, with the ability to explain test results, risk, and trade-offs to peers and stakeholders.
+
+Would be a Plus
+Familiarity with navigation concepts (map matching, dead reckoning, route progress, or Electronic Horizon).
+Experience with replay- or simulation-based testing using real sensor and GPS data.
+Hands-on experience building AI- or agent-based developer tooling for testing, code review, or triage.
+Experience with coverage tooling, performance benchmarking, or testing SDKs through generated bindings.
+What We Value
+
+In addition to our core values, which are not unique to this position and are necessary for Mapbox leaders:
+We value high-performing creative individuals who dig into problems and opportunities.
+We believe in individuals being their whole selves at work. We commit to this through supportive health care, parental leave, flexibility for the things that come up in life, and innovating on how we think about supporting our people.
+We emphasize an environment of teaching and learning to equip employees with the tools needed to be successful in their function and the company.
+We strongly believe in the value of growing a diverse team and encourage people of all backgrounds, genders, ethnicities, abilities, and sexual orientations to apply.
+How We Support You
+Hybrid/Remote Options: Enjoy flexibility to work comfortably from home or periodically from an office where applicable.
+Country-Specific Care & Coverage: Private health, dental, and income protection plans tailored to elevate your regional statutory benefits.
+Family-First Support: Family care, maternity and paternity leave policies to support your growing family.
+Lifestyle Spending Account: Contributions to support your health, wellness, and personal growth.
+Balance & Brainpower: Mental health support for you and your dependents.
+Rest & Recharge: Paid time away, company holidays, and generous absence policies.
+Time Off to Give Back: Dedicated paid volunteering time in addition to your standard PTO.
+By applying for this position, you acknowledge that you have received the Mapbox Non-US Privacy Notice for applicants, which is linked here. Completing this application requires you to provide personal data, such as your name and contact information, which is mandatory for Mapbox to process your application.
+
+We are committed to a fair and equitable hiring process. We do not discriminate against any protected class.
+
+#LI-Remote
+Apply
+Report a job ad
+Katso myös nämä
+Haussa myyjiä Helsinkiin & Turkuun
+Haussa myyjiä Helsinkiin & Turkuun
+Katso Turku ja 1 muu – Julkaistu 2.11.
+Lisää
+President, Aalto University
+President, Aalto University
+Katso Espoo – Julkaistu 23.10.
+Lisää
+ServiceNow Solution Architect
+ServiceNow Solution Architect
+Katso Helsinki – Julkaistu 3.11.
+Lisää
+Myyntiedustaja
+Myyntiedustaja
+Hae helposti Helsinki ja 8 muuta – Julkaistu 16.10.
+Lisää
+Myyntiedustaja (kodinturvaratkaisut)
+Myyntiedustaja (kodinturvaratkaisut)
+Katso Helsinki ja 4 muuta – Julkaistu 22.10.
+Lisää
+Myyjä
+Myyjä
+Hae helposti Helsinki ja 4 muuta – Julkaistu 20.10.
+Lisää
+Rakenna datakeskusliiketoiminnan seuraavaa vaihetta WSP:llä
+Rakenna datakeskusliiketoiminnan seuraavaa vaihetta WSP:llä
+Katso Helsinki ja 5 muuta – Julkaistu 16.10.
+Lisää
+Muita avoimia paikkoja
+Software Development Engineer II, Nav Native
+Mapbox
+Software Development Engineer II, Nav Native
+Finland – Julkaistu 17.9.
+Lisää
+Senior AI Engineer, Location AI
+Mapbox
+Senior AI Engineer, Location AI
+Helsinki – Julkaistu 18.9.
+Lisää
+Machine Learning Engineer III, Routing Cost
+Mapbox
+Machine Learning Engineer III, Routing Cost
+Helsinki – Julkaistu 14.10.
+Lisää
+Software Development Engineer III, Maps API
+Mapbox
+Software Development Engineer III, Maps API
+Helsinki – Julkaistu 31.10.
+Lisää
+ 
+Mapbox Oy
+Job location
+Helsinki
+Toiminimi
+Mapbox Oy
+Y-tunnus
+2901562-8
+Tutustu tarkemmin työnantajaan
+Laita Duunivahti töihin
+ 
+
+Vinkkaamme heti, kun samankaltaisia työpaikkoja alueella Helsinki avautuu.
+
+Sähköpostiosoitteesi
+Hyväksyn palvelun käyttöehdot. Tietoja käsitellään tietosuojaselosteen mukaisesti. 
+ Tallenna
+
+Seuraa Facebookissa työpaikkailmoituksia Avoimet työpaikat Helsingissä.
+
+Seuraa Facebookissa
+Lisätietoja työnantajasta
+ 
+TALOUSTIEDOT 2025
+Liikevaihto
+‍24 534 034 €  27 %
+Liiketoiminnan tulos
+‍1 352 104 €  36 %
+Liikevoitto-%
+6 %  1 %
+Työntekijöitä
+125
+ 
+Tiedot tarjoaa
+Lue lisää 
+ Päivän poiminta
+TYÖHAKEMUS
+Rekrytoija kertoo, miten tehdä hyvä työhakemus vuonna 2026 – yksi virhe paljastuu heti: ”Se on ajanhukkaa”
+Työnhakijan työkalut
+Palkkavertailu
+Ammattiopas
+Työnhakuopas
+Työsuhdeopas
+Työmarkkinat ja tilastot
+Duunitesti
+Työpaikat somessa
+ 
+LinkedIn
+ 
+Facebook
+ 
+Tiktok
+ 
+Youtube
+ 
+Instagram
+ 
+X
+Tietopaketti yrittäjäksi aikovalle
+ 
+
+Yrityksen perustaminen mielessä? Tästä oppaasta löydät tarvittavat tiedot – kaikki yrittäjyydestä yhdestä paikasta!
+
+Duunitorin Yrittäjän opas
+Työnantaja, haluatko enemmän hakijoita?
+
+Duunitorin kampanjoilla saat lisää silmäpareja työpaikkailmoituksellesi sekä Suomen liikennöidyimmästä työnhakukoneesta, että kohdennetusta mainonnasta.
+
+Autamme sinua tekemään modernia rekrytointia. Luomme juuri sinulle sopivan ratkaisun datan ja näkemyksen avulla, avainsanoina ilmoituskampanja, sisältömarkkinointi, työnantajakuvan kehittäminen tai vaikkapa uusi hakemukseton hakupalvelu.
+
+Tutustu palveluihimme Jätä työpaikkailmoitus ilmaiseksi
+ 
+
+Tämä työpaikka, Software Development Engineer in Test II, NavNative, on ilmoitettu Compilation Source (Finland)-palvelussa 13.11.2026 ja sen on julkaissut Mapbox. Kyseessä on Full-time työpaikka. Ilmoitus on toistaiseksi voimassa. Työpaikka sijaitsee kunnassa Helsinki, osoitteessa Helsinki. Ilmoituksen jättäneellä työnantajalla on tällä hetkellä avoimia työpaikkoja Duunitorilla yhteensä 5 kappaletta.
+
+Kirjaudu sisään
+ 
+
+Kirjaudu sisään tai luo tili, jotta voit tallentaa työpaikkailmoituksia suosikkeihisi.
+
+Kirjaudu sisään
+Rekisteröidy
+Duunitori 
+Yritys & yhteystiedot
+Tarvitsetko apua?
+Duunitorin tiimi
+Töihin Duunitorille
+Medialle
+Sukupuolineutraali Duunitori
+Työmarkkinat ja tilastot
+Anna palautetta
+ Avoimet työpaikat 
+Työpaikat aloittain
+Työpaikat paikkakunnittain
+Työpaikat yrityksittäin
+Työpaikat ammattinimikkeittäin
+Työpaikat ajan mukaan
+Kesätyöpaikat 2027
+Yritystiedot
+500 someyhteisöä
+Jobs in English
+Jobb på svenska
+ Työelämämedia 
+Uusimmat
+Kokemuksia työpaikoista
+Työ ja yhteiskunta
+Työnhaku
+Työkulttuuri
+Työura
+ Työnhakijalle 
+Palkat
+Suomen parhaat työpaikat
+Ammatinvalintatesti
+Tyyppitesti
+ Oppaat 
+Ammattiopas
+Työsuhdeopas
+Työnhakuopas
+Yrittäjän opas
+Kesätyöopas
+Rekryopas
+ Työnantajalle 
+Jätä työpaikkailmoitus
+Kampanjavaihtoehdot
+Sisältömarkkinointi
+Kesätyörekrytointi
+Employer Branding
+Henkilöstökokemus
+Suomalaisen työelämän tila
+Henkilöarviointi Suomessa
+Rekrytointitutkimus
+Suorahakuyritykset
+Usein kysytyt kysymykset
+In English
+ 
+
+Löydät meidät myös täältä:
+
+        
+
+Duunitori™ on Suomen suurin työnhakukone ja uudenaikainen rekrytointimedia. Se kokoaa yhteen avoimet työpaikkailmoitukset ja ohjaa ne oman portaalinsa lisäksi sadoille ylläpitämilleen sosiaalisen median sivuille. Duunitorin työelämäosio tarjoaa ajankohtaisia vinkkejä ja uutisia liittyen työnhakuun, työelämään ja rekrytointiin. Duunitori on luotettu kumppani rekrytoinnissa, rekrytointimarkkinoinnissa sekä strategisessa työnantajakuvan (employer branding) kehittämisessä.
+
+duunitori.fi | jobbland.se | jobbsafari.se | jobbland.no | jobbsafari.no | allaloner.se
+
+Asiakaspalvelu, tietosuoja ja käyttöehdot, saavutettavuusseloste, avaa evästeasetukset.
+
+© 2026 Duunitori Oy. Kaikki oikeudet pidätetään.
+
+Parempaa työnhakua
+
+Helpottaaksemme työnhakuasi haluaisimme käyttää evästeitä ja hyödyntää tietojasi näyttääksemme sinulle osuvampia ilmoituksia Duunitorilla ja muualla verkossa. Voit halutessasi valita alta tarkemmin, mihin tarkoituksiin sallit evästeiden ja tietojesi käytön ja lukea lisää tietosuojaselosteestamme.
+
+Hyväksy evästeet
+
+Hallitse evästeitä
